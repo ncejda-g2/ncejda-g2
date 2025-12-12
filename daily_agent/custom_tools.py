@@ -4,6 +4,7 @@ These tools are used by Claude to fetch XKCD comics and generate images.
 """
 
 import os
+import base64
 import aiohttp
 import json
 from typing import Any
@@ -98,11 +99,11 @@ async def fetch_xkcd_comic(args: dict[str, Any]) -> dict[str, Any]:
 
 @tool(
     "generate_dalle_image",
-    "Generate an image using OpenAI's gpt-image-1 model based on a prompt",
-    {"prompt": str}
+    "Generate an image using OpenAI's gpt-image-1 model and save it directly. Returns the file path.",
+    {"prompt": str, "filename": str}
 )
 async def generate_dalle_image(args: dict[str, Any]) -> dict[str, Any]:
-    """Generate image using OpenAI's gpt-image-1 model."""
+    """Generate image using OpenAI's gpt-image-1 model. Returns base64-encoded image data and saves it."""
     try:
         openai_api_key = os.getenv("OPENAI_API_KEY")
         if not openai_api_key:
@@ -115,6 +116,11 @@ async def generate_dalle_image(args: dict[str, Any]) -> dict[str, Any]:
             }
 
         prompt = args["prompt"]
+        filename = args["filename"]
+
+        # Ensure filename ends with .png
+        if not filename.endswith(".png"):
+            filename = f"{filename}.png"
 
         async with aiohttp.ClientSession() as session:
             async with session.post(
@@ -127,7 +133,7 @@ async def generate_dalle_image(args: dict[str, Any]) -> dict[str, Any]:
                     "model": "gpt-image-1",
                     "prompt": prompt,
                     "size": "1024x1024",
-                    "quality": "standard",
+                    "quality": "high",
                     "n": 1
                 }
             ) as response:
@@ -136,18 +142,27 @@ async def generate_dalle_image(args: dict[str, Any]) -> dict[str, Any]:
                     return {
                         "content": [{
                             "type": "text",
-                            "text": f"DALL-E API error {response.status}: {error_text}"
+                            "text": f"gpt-image-1 API error {response.status}: {error_text}"
                         }],
                         "is_error": True
                     }
 
                 data = await response.json()
-                image_url = data["data"][0]["url"]
+
+                # gpt-image-1 returns base64-encoded image in b64_json field
+                base64_image = data["data"][0]["b64_json"]
+
+                # Decode and save the image
+                image_data = base64.b64decode(base64_image)
+                save_path = PROJECT_ROOT / "daily_agent" / "generated_images" / filename
+                save_path.write_bytes(image_data)
+
+                relative_path = f"daily_agent/generated_images/{filename}"
 
                 return {
                     "content": [{
                         "type": "text",
-                        "text": f"Image generated successfully!\nURL: {image_url}\nPrompt used: {prompt}"
+                        "text": f"Image saved successfully to: {relative_path}"
                     }]
                 }
     except Exception as e:

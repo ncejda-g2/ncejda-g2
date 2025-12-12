@@ -79,8 +79,8 @@ async with ClaudeSDKClient(options=options) as client:
 - **`custom_tools.py`** - Custom tool definitions:
   - `get_max_xkcd_number` - XKCD API integration
   - `fetch_xkcd_comic` - Get specific comic (with alt text)
-  - `generate_dalle_image` - OpenAI gpt-image-1 integration
-  - `download_image` - Save images locally
+  - `generate_dalle_image` - OpenAI gpt-image-1 integration (generates and saves directly from base64)
+  - `download_image` - Download and save images from URLs
 - **`run_agent.sh`** - Wrapper script for cron (handles env vars)
 - **`SETUP.md`** - Complete setup and installation guide
 - **`generated_images/`** - Directory where daily comic strips are stored
@@ -191,8 +191,8 @@ This project is a great way to learn the Agent SDK because it demonstrates:
          │
          ├──► Task 5: Generate comic strip
          │         Uses: generate_dalle_image (1x)
-         │                download_image (1x)
-         │         Creates single 3-panel comic strip image
+         │         Generates and saves 3-panel comic strip
+         │         (handles base64 decoding internally)
          │
          ├──► Task 6: Update README
          │         Uses: Write tool

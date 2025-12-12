@@ -288,15 +288,15 @@ async def run_autonomous_agent() -> None:
 
         await client.query(
             f"Generate a single 3-panel comic strip image.\n\n"
-            f"Use generate_dalle_image tool with this prompt:\n"
-            f"'A horizontal 3-panel comic strip in cartoon style. Three panels arranged left to right, clearly divided. "
+            f"Use generate_dalle_image tool with:\n"
+            f"- prompt: 'A horizontal 3-panel comic strip in cartoon style. Three panels arranged left to right, clearly divided. "
             f"Panel 1 (left): {panel1_text}. "
             f"Panel 2 (middle): {panel2_text}. "
             f"Panel 3 (right): {panel3_text}. "
             f"Comic book style with bold outlines, bright colors, and clear panel divisions. "
-            f"Whimsical and fun illustration.'\n\n"
-            f"Then extract the image URL and use download_image to save as 'day_{new_day:04d}.png'\n"
-            f"Print the saved path."
+            f"Whimsical and fun illustration.'\n"
+            f"- filename: 'day_{new_day:04d}.png'\n\n"
+            f"The tool will save the image directly and return the path. Print the saved path."
         )
 
         comic_image_path = ""
