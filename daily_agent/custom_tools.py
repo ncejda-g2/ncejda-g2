@@ -98,11 +98,11 @@ async def fetch_xkcd_comic(args: dict[str, Any]) -> dict[str, Any]:
 
 @tool(
     "generate_dalle_image",
-    "Generate an image using OpenAI's DALL-E 3 based on a prompt",
+    "Generate an image using OpenAI's gpt-image-1 model based on a prompt",
     {"prompt": str}
 )
 async def generate_dalle_image(args: dict[str, Any]) -> dict[str, Any]:
-    """Generate image using DALL-E 3."""
+    """Generate image using OpenAI's gpt-image-1 model."""
     try:
         openai_api_key = os.getenv("OPENAI_API_KEY")
         if not openai_api_key:
@@ -124,7 +124,7 @@ async def generate_dalle_image(args: dict[str, Any]) -> dict[str, Any]:
                     "Content-Type": "application/json"
                 },
                 json={
-                    "model": "dall-e-3",
+                    "model": "gpt-image-1",
                     "prompt": prompt,
                     "size": "1024x1024",
                     "quality": "standard",

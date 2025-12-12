@@ -24,7 +24,7 @@ Every day at midnight EST, this agent autonomously:
      - Panel 3: Punchline
 
 4. **Generates Comic Strip**:
-   - Calls DALL-E 3 once to generate a complete 3-panel comic strip
+   - Calls OpenAI's gpt-image-1 model to generate a complete 3-panel comic strip
    - All panels in a single horizontal image
    - Comic book style with clear panel divisions
 
@@ -79,7 +79,7 @@ async with ClaudeSDKClient(options=options) as client:
 - **`custom_tools.py`** - Custom tool definitions:
   - `get_max_xkcd_number` - XKCD API integration
   - `fetch_xkcd_comic` - Get specific comic (with alt text)
-  - `generate_dalle_image` - DALL-E 3 integration
+  - `generate_dalle_image` - OpenAI gpt-image-1 integration
   - `download_image` - Save images locally
 - **`run_agent.sh`** - Wrapper script for cron (handles env vars)
 - **`SETUP.md`** - Complete setup and installation guide
@@ -141,7 +141,7 @@ options = ClaudeAgentOptions(
 
 - **Claude Agent SDK**: Framework for building autonomous agents
 - **Claude API**: Story generation and orchestration
-- **OpenAI API**: DALL-E 3 for image generation
+- **OpenAI API**: gpt-image-1 for image generation
 - **XKCD API**: Random comic inspiration
 - **aiohttp**: Async HTTP requests
 - **Git**: Automated version control
@@ -150,7 +150,7 @@ options = ClaudeAgentOptions(
 
 This project is a great way to learn the Agent SDK because it demonstrates:
 
-1. **Custom Tool Creation**: Using `@tool` decorator to wrap external APIs (XKCD, DALL-E)
+1. **Custom Tool Creation**: Using `@tool` decorator to wrap external APIs (XKCD, OpenAI gpt-image-1)
 2. **MCP Server Setup**: Creating a server with `create_sdk_mcp_server`
 3. **Agent Client Usage**: Using `ClaudeSDKClient` for orchestration
 4. **Multi-Step Workflows**: Sequential tasks with context preservation

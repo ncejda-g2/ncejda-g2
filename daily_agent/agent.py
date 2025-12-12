@@ -338,7 +338,7 @@ async def run_autonomous_agent() -> None:
             f"*1. Generates random characters (adjective + animal combinations)*\n"
             f"*2. Fetches a random XKCD comic*\n"
             f"*3. Writes a funny 3-panel story combining them*\n"
-            f"*4. Generates a 3-panel comic strip illustration with DALL-E*\n"
+            f"*4. Generates a 3-panel comic strip illustration with OpenAI's gpt-image-1*\n"
             f"*5. Commits and pushes to GitHub*\n\n"
             f"*Last updated: {timestamp}*\n"
             f"---END README---\n\n"

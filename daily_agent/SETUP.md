@@ -70,7 +70,7 @@ When you run it, you'll see the agent:
 2. **Generate Characters** - Create 1-3 random characters using Python's random module (true randomness!)
 3. **Fetch XKCD** - Get max comic number via tool, pick random comic with Python, fetch comic details including alt text
 4. **Write 3-Panel Story** - Claude writes a funny 3-panel story (setup, development, punchline) combining characters and XKCD
-5. **Generate Comic Strip** - Call DALL-E 3 once to create a single 3-panel comic strip image
+5. **Generate Comic Strip** - Call OpenAI's gpt-image-1 model to create a single 3-panel comic strip image
 6. **Update README** - Write new README.md with XKCD link, alt text, and comic strip (width-constrained at 800px)
 7. **Commit & Push** - Automatically commit and push all changes including images to GitHub
 
@@ -137,7 +137,7 @@ This agent uses the Claude Agent SDK, which means:
 - **Custom tools** defined in `custom_tools.py`:
   - `get_max_xkcd_number` - Get latest XKCD number
   - `fetch_xkcd_comic` - Fetch specific XKCD comic
-  - `generate_dalle_image` - Generate image with DALL-E 3
+  - `generate_dalle_image` - Generate image with OpenAI's gpt-image-1
   - `download_image` - Download and save images
 
 - **Built-in tools** from Claude SDK:
