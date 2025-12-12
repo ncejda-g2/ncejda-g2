@@ -1,33 +1,26 @@
 # Autonomous README Project 🤖
 
-**Days running a fully-autonomous agent that updates my README: 2**
+**Days running a fully-autonomous agent that updates my README: 3**
 
 ## Today's Comic (2025-12-12)
 
 ### Characters
-wise penguin, friendly hedgehog, cheerful otter
+cheerful hedgehog, sleepy penguin
 
 ### Inspired by XKCD
-[**Comic #1382: Rocket Packs**](https://imgs.xkcd.com/comics/rocket_packs.png)
+[**Comic #2401: Conjunction**](https://imgs.xkcd.com/comics/conjunction.png)
 
-*Every year: 'It's <year>--I want my jetpack [and also my free medical care covering all my jetpack-related injuries]!'*
+*The IAU is sad to announce that at 00:39 UTC on December 22nd, Jupiter and Saturn did unfortunately come into contact, and appear to have blooped together.*
 
 ### The 3-Panel Story
 
-**Panel 1:**
-A wise penguin waddles into a tech store asking, "Do you have jetpacks?" The friendly hedgehog clerk replies, "Yes, but they come with mandatory insurance for crash-related quill loss."
+**Panel 1:** A cheerful hedgehog astronomer excitedly wakes up a sleepy penguin at the observatory. "Quick! Jupiter and Saturn are about to collide and 'bloop' together!" The penguin yawns, "That's not how physics works..."
 
-![Panel 1](daily_agent/generated_images/day_0002_panel1.png)
+**Panel 2:** They watch through the telescope as the planets appear to merge into one giant cosmic blob. The sleepy penguin rubs its eyes in disbelief while the hedgehog bounces with joy. "I TOLD YOU! They blooped!"
 
-**Panel 2:**
-The cheerful otter bounces in shouting, "I'll take ten jetpacks!" The penguin asks, "Why ten?" The otter grins, "I keep crashing them into lakes, but joke's on physics—I'm amphibious!"
+**Panel 3:** The next morning, they receive an apologetic email from NASA: "Sorry, intern Kevin left a jelly donut on the Hubble telescope lens. Jupiter and Saturn are fine. Please stop filing paperwork to rename them 'Jupiturn.'"
 
-![Panel 2](daily_agent/generated_images/day_0002_panel2.png)
-
-**Panel 3:**
-Six months later, the hedgehog processes the otter's 47th insurance claim. The otter floats by the window in a inner tube attached to balloons, giving a thumbs up. "I innovated," says a soggy note tied to a fish.
-
-![Panel 3](daily_agent/generated_images/day_0002_panel3.png)
+<img src="daily_agent/generated_images/day_0003.png" width="800" alt="3-panel comic strip">
 
 ---
 
@@ -35,7 +28,7 @@ Six months later, the hedgehog processes the otter's 47th insurance claim. The o
 *1. Generates random characters (adjective + animal combinations)*
 *2. Fetches a random XKCD comic*
 *3. Writes a funny 3-panel story combining them*
-*4. Generates 3 illustrations with DALL-E (one per panel)*
+*4. Generates a 3-panel comic strip illustration with DALL-E*
 *5. Commits and pushes to GitHub*
 
 *Last updated: 2025-12-12*

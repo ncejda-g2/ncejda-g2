@@ -23,22 +23,22 @@ Every day at midnight EST, this agent autonomously:
      - Panel 2: Development
      - Panel 3: Punchline
 
-4. **Generates 3 Images**:
-   - Calls DALL-E 3 three times (once per panel)
-   - Each image illustrates one panel of the story
-   - Creates a complete 3-panel comic strip
+4. **Generates Comic Strip**:
+   - Calls DALL-E 3 once to generate a complete 3-panel comic strip
+   - All panels in a single horizontal image
+   - Comic book style with clear panel divisions
 
 5. **Updates README**:
    - Writes everything to the main README.md
    - Includes clickable XKCD link
    - Shows XKCD alt text for context
-   - Displays all 3 comic panels
+   - Displays 3-panel comic strip (width-constrained at 800px)
    - Tracks day count
 
 6. **Commits & Pushes**:
-   - Commits all changes including generated images
+   - Commits all changes including generated image
    - Automatically pushes to GitHub
-   - Images display correctly on GitHub profile
+   - Image displays correctly on GitHub profile
 
 ## Architecture: Claude Agent SDK
 
@@ -83,8 +83,9 @@ async with ClaudeSDKClient(options=options) as client:
   - `download_image` - Save images locally
 - **`run_agent.sh`** - Wrapper script for cron (handles env vars)
 - **`SETUP.md`** - Complete setup and installation guide
-- **`generated_images/`** - Directory where daily 3-panel comics are stored
+- **`generated_images/`** - Directory where daily comic strips are stored
   - **Note:** Images are committed to git (not in .gitignore) so they display on GitHub
+  - Filenames: `day_0001.png`, `day_0002.png`, etc.
 
 ## Quick Start
 
@@ -153,7 +154,7 @@ This project is a great way to learn the Agent SDK because it demonstrates:
 2. **MCP Server Setup**: Creating a server with `create_sdk_mcp_server`
 3. **Agent Client Usage**: Using `ClaudeSDKClient` for orchestration
 4. **Multi-Step Workflows**: Sequential tasks with context preservation
-5. **Iterative Processing**: Calling the same tool multiple times (3 DALL-E calls)
+5. **Complex Prompt Engineering**: Creating detailed prompts for multi-panel image generation
 6. **Tool Permissions**: Managing what tools the agent can use
 7. **Autonomous Operation**: Running unattended with `permission_mode="acceptEdits"`
 8. **Smart Division of Labor**: Python for randomness, Claude for creativity
@@ -188,10 +189,10 @@ This project is a great way to learn the Agent SDK because it demonstrates:
          │         Claude's language model
          │         (creative writing - setup, development, punchline)
          │
-         ├──► Task 5: Generate 3 images
-         │         Uses: generate_dalle_image (3x)
-         │                download_image (3x)
-         │         Creates complete 3-panel comic strip
+         ├──► Task 5: Generate comic strip
+         │         Uses: generate_dalle_image (1x)
+         │                download_image (1x)
+         │         Creates single 3-panel comic strip image
          │
          ├──► Task 6: Update README
          │         Uses: Write tool

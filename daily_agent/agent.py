@@ -283,84 +283,34 @@ async def run_autonomous_agent() -> None:
 
         print(f"\n✅ 3-panel story created\n")
 
-        # ===== TASK 5: Generate 3 DALL-E images (one per panel) =====
-        print("🎨 [Task 5] Generating 3-panel DALL-E comic strip...\n")
+        # ===== TASK 5: Generate single 3-panel comic strip image =====
+        print("🎨 [Task 5] Generating 3-panel comic strip...\n")
 
-        # Combine all panels for context
-        full_story = f"Panel 1: {panel1_text} Panel 2: {panel2_text} Panel 3: {panel3_text}"
-
-        # Generate Panel 1
-        print("   Generating Panel 1...")
         await client.query(
-            f"Generate panel 1 of a 3-panel comic.\n\n"
-            f"Full story context:\n{full_story}\n\n"
+            f"Generate a single 3-panel comic strip image.\n\n"
             f"Use generate_dalle_image tool with this prompt:\n"
-            f"'A whimsical, cartoon-style comic panel showing ONLY the first scene: {panel1_text}. "
-            f"Simple, clean illustration with bold outlines and bright colors. Comic book style.'\n\n"
-            f"Then extract the image URL and use download_image to save as 'day_{new_day:04d}_panel1.png'\n"
+            f"'A horizontal 3-panel comic strip in cartoon style. Three panels arranged left to right, clearly divided. "
+            f"Panel 1 (left): {panel1_text}. "
+            f"Panel 2 (middle): {panel2_text}. "
+            f"Panel 3 (right): {panel3_text}. "
+            f"Comic book style with bold outlines, bright colors, and clear panel divisions. "
+            f"Whimsical and fun illustration.'\n\n"
+            f"Then extract the image URL and use download_image to save as 'day_{new_day:04d}.png'\n"
             f"Print the saved path."
         )
 
-        panel1_path = ""
+        comic_image_path = ""
         async for message in client.receive_response():
             if isinstance(message, AssistantMessage):
                 for block in message.content:
                     if isinstance(block, TextBlock):
+                        print(f"   {block.text}")
                         if "daily_agent/generated_images" in block.text:
                             for line in block.text.split("\n"):
                                 if "daily_agent/generated_images" in line:
-                                    panel1_path = line.strip().replace("Image saved successfully to:", "").strip()
+                                    comic_image_path = line.strip().replace("Image saved successfully to:", "").strip()
 
-        print(f"   ✓ Panel 1 saved: {panel1_path}")
-
-        # Generate Panel 2
-        print("   Generating Panel 2...")
-        await client.query(
-            f"Generate panel 2 of a 3-panel comic.\n\n"
-            f"Full story context:\n{full_story}\n\n"
-            f"Use generate_dalle_image tool with this prompt:\n"
-            f"'A whimsical, cartoon-style comic panel showing ONLY the second scene: {panel2_text}. "
-            f"Simple, clean illustration with bold outlines and bright colors. Comic book style.'\n\n"
-            f"Then extract the image URL and use download_image to save as 'day_{new_day:04d}_panel2.png'\n"
-            f"Print the saved path."
-        )
-
-        panel2_path = ""
-        async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
-                for block in message.content:
-                    if isinstance(block, TextBlock):
-                        if "daily_agent/generated_images" in block.text:
-                            for line in block.text.split("\n"):
-                                if "daily_agent/generated_images" in line:
-                                    panel2_path = line.strip().replace("Image saved successfully to:", "").strip()
-
-        print(f"   ✓ Panel 2 saved: {panel2_path}")
-
-        # Generate Panel 3
-        print("   Generating Panel 3...")
-        await client.query(
-            f"Generate panel 3 of a 3-panel comic.\n\n"
-            f"Full story context:\n{full_story}\n\n"
-            f"Use generate_dalle_image tool with this prompt:\n"
-            f"'A whimsical, cartoon-style comic panel showing ONLY the punchline scene: {panel3_text}. "
-            f"Simple, clean illustration with bold outlines and bright colors. Comic book style.'\n\n"
-            f"Then extract the image URL and use download_image to save as 'day_{new_day:04d}_panel3.png'\n"
-            f"Print the saved path."
-        )
-
-        panel3_path = ""
-        async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
-                for block in message.content:
-                    if isinstance(block, TextBlock):
-                        if "daily_agent/generated_images" in block.text:
-                            for line in block.text.split("\n"):
-                                if "daily_agent/generated_images" in line:
-                                    panel3_path = line.strip().replace("Image saved successfully to:", "").strip()
-
-        print(f"   ✓ Panel 3 saved: {panel3_path}")
-        print(f"\n✅ All 3 panels generated and saved\n")
+        print(f"\n✅ Comic strip generated and saved: {comic_image_path}\n")
 
         # ===== TASK 6: Update README =====
         print("📝 [Task 6] Updating README.md...\n")
@@ -379,21 +329,16 @@ async def run_autonomous_agent() -> None:
             f"[**Comic #{random_comic_num}: {xkcd_title}**]({xkcd_url})\n\n"
             f"*{xkcd_alt}*\n\n"
             f"### The 3-Panel Story\n\n"
-            f"**Panel 1:**\n"
-            f"{panel1_text}\n\n"
-            f"![Panel 1]({panel1_path})\n\n"
-            f"**Panel 2:**\n"
-            f"{panel2_text}\n\n"
-            f"![Panel 2]({panel2_path})\n\n"
-            f"**Panel 3:**\n"
-            f"{panel3_text}\n\n"
-            f"![Panel 3]({panel3_path})\n\n"
+            f"**Panel 1:** {panel1_text}\n\n"
+            f"**Panel 2:** {panel2_text}\n\n"
+            f"**Panel 3:** {panel3_text}\n\n"
+            f"<img src=\"{comic_image_path}\" width=\"800\" alt=\"3-panel comic strip\">\n\n"
             f"---\n\n"
             f"*This README is autonomously updated daily by a Claude agent that:*\n"
             f"*1. Generates random characters (adjective + animal combinations)*\n"
             f"*2. Fetches a random XKCD comic*\n"
             f"*3. Writes a funny 3-panel story combining them*\n"
-            f"*4. Generates 3 illustrations with DALL-E (one per panel)*\n"
+            f"*4. Generates a 3-panel comic strip illustration with DALL-E*\n"
             f"*5. Commits and pushes to GitHub*\n\n"
             f"*Last updated: {timestamp}*\n"
             f"---END README---\n\n"
