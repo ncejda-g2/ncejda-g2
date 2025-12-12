@@ -68,11 +68,11 @@ When you run it, you'll see the agent:
 
 1. **Read README** - Check current day count
 2. **Generate Characters** - Create 1-3 random characters using Python's random module (true randomness!)
-3. **Fetch XKCD** - Get max comic number via tool, pick random comic with Python, fetch via tool
-4. **Write Story** - Claude writes a funny story combining characters and XKCD
-5. **Generate Image** - Call DALL-E 3 to create an illustration
-6. **Update README** - Write new README.md with all content
-7. **Commit & Push** - Automatically push to GitHub
+3. **Fetch XKCD** - Get max comic number via tool, pick random comic with Python, fetch comic details including alt text
+4. **Write 3-Panel Story** - Claude writes a funny 3-panel story (setup, development, punchline) combining characters and XKCD
+5. **Generate 3 Images** - Call DALL-E 3 three times to create a 3-panel comic strip
+6. **Update README** - Write new README.md with XKCD link, alt text, and all 3 comic panels
+7. **Commit & Push** - Automatically commit and push all changes including images to GitHub
 
 ## 5. Set Up Cron Job (macOS)
 

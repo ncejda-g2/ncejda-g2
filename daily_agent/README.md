@@ -15,22 +15,30 @@ Every day at midnight EST, this agent autonomously:
    - Picks a truly random comic number (Python's `random` module)
    - Fetches comic details (via Claude tool)
 
-3. **Writes a Story**:
+3. **Writes a 3-Panel Story**:
    - Claude acts as a creative comedy writer
-   - Combines characters + XKCD theme
-   - Creates a funny 3-4 sentence story with a punchline
+   - Combines characters + XKCD comic (title + alt text)
+   - Creates a funny 3-panel comic structure:
+     - Panel 1: Setup
+     - Panel 2: Development
+     - Panel 3: Punchline
 
-4. **Generates Image**:
-   - Calls DALL-E 3 via custom tool
-   - Creates whimsical illustration of the story
+4. **Generates 3 Images**:
+   - Calls DALL-E 3 three times (once per panel)
+   - Each image illustrates one panel of the story
+   - Creates a complete 3-panel comic strip
 
 5. **Updates README**:
    - Writes everything to the main README.md
+   - Includes clickable XKCD link
+   - Shows XKCD alt text for context
+   - Displays all 3 comic panels
    - Tracks day count
 
 6. **Commits & Pushes**:
-   - Automatically commits with emoji
-   - Pushes to GitHub
+   - Commits all changes including generated images
+   - Automatically pushes to GitHub
+   - Images display correctly on GitHub profile
 
 ## Architecture: Claude Agent SDK
 
@@ -70,12 +78,13 @@ async with ClaudeSDKClient(options=options) as client:
 - **`agent.py`** - Main autonomous agent using Claude Agent SDK
 - **`custom_tools.py`** - Custom tool definitions:
   - `get_max_xkcd_number` - XKCD API integration
-  - `fetch_xkcd_comic` - Get specific comic
+  - `fetch_xkcd_comic` - Get specific comic (with alt text)
   - `generate_dalle_image` - DALL-E 3 integration
   - `download_image` - Save images locally
 - **`run_agent.sh`** - Wrapper script for cron (handles env vars)
 - **`SETUP.md`** - Complete setup and installation guide
-- **`generated_images/`** - Directory where daily images are stored
+- **`generated_images/`** - Directory where daily 3-panel comics are stored
+  - **Note:** Images are committed to git (not in .gitignore) so they display on GitHub
 
 ## Quick Start
 
@@ -140,12 +149,14 @@ options = ClaudeAgentOptions(
 
 This project is a great way to learn the Agent SDK because it demonstrates:
 
-1. **Custom Tool Creation**: Using `@tool` decorator to wrap external APIs
+1. **Custom Tool Creation**: Using `@tool` decorator to wrap external APIs (XKCD, DALL-E)
 2. **MCP Server Setup**: Creating a server with `create_sdk_mcp_server`
 3. **Agent Client Usage**: Using `ClaudeSDKClient` for orchestration
 4. **Multi-Step Workflows**: Sequential tasks with context preservation
-5. **Tool Permissions**: Managing what tools the agent can use
-6. **Autonomous Operation**: Running unattended with `permission_mode="acceptEdits"`
+5. **Iterative Processing**: Calling the same tool multiple times (3 DALL-E calls)
+6. **Tool Permissions**: Managing what tools the agent can use
+7. **Autonomous Operation**: Running unattended with `permission_mode="acceptEdits"`
+8. **Smart Division of Labor**: Python for randomness, Claude for creativity
 
 ## Agent Workflow Visualization
 
@@ -173,13 +184,14 @@ This project is a great way to learn the Agent SDK because it demonstrates:
          │                Python random module (pick comic #)
          │                fetch_xkcd_comic tool
          │
-         ├──► Task 4: Write story
+         ├──► Task 4: Write 3-panel story
          │         Claude's language model
-         │         (creative writing)
+         │         (creative writing - setup, development, punchline)
          │
-         ├──► Task 5: Generate image
-         │         Uses: generate_dalle_image
-         │                download_image
+         ├──► Task 5: Generate 3 images
+         │         Uses: generate_dalle_image (3x)
+         │                download_image (3x)
+         │         Creates complete 3-panel comic strip
          │
          ├──► Task 6: Update README
          │         Uses: Write tool

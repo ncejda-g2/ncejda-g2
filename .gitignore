@@ -17,8 +17,8 @@ ENV/
 *.swp
 *.swo
 
-# Generated images
-daily_agent/generated_images/
+# Generated images - COMMENTED OUT so images are committed to git for README display
+# daily_agent/generated_images/
 
 # Logs
 *.log

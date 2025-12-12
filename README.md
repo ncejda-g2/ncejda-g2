@@ -1,27 +1,41 @@
 # Autonomous README Project 🤖
 
-**Days running a fully-autonomous agent that updates my README: 1**
+**Days running a fully-autonomous agent that updates my README: 2**
 
-## Today's Story (2025-12-12)
+## Today's Comic (2025-12-12)
 
 ### Characters
-upset owl, friendly cat, small giraffe
+wise penguin, friendly hedgehog, cheerful otter
 
 ### Inspired by XKCD
-"**Comic #935: Missed Connections**"
+[**Comic #1382: Rocket Packs**](https://imgs.xkcd.com/comics/rocket_packs.png)
 
-### The Story
-An upset owl posted on Craigslist: "You: friendly cat who winked at me on the subway. Me: majestic nocturnal bird trying to commute during daylight hours." A small giraffe responded: "That was me, I'm just really short and the lighting was bad." The owl flew to meet them, squinted, and said, "You know what, I can see it—you both have those little ear tufts."
+*Every year: 'It's <year>--I want my jetpack [and also my free medical care covering all my jetpack-related injuries]!'*
 
-![Generated Comic](daily_agent/generated_images/day_0001.png)
+### The 3-Panel Story
+
+**Panel 1:**
+A wise penguin waddles into a tech store asking, "Do you have jetpacks?" The friendly hedgehog clerk replies, "Yes, but they come with mandatory insurance for crash-related quill loss."
+
+![Panel 1](daily_agent/generated_images/day_0002_panel1.png)
+
+**Panel 2:**
+The cheerful otter bounces in shouting, "I'll take ten jetpacks!" The penguin asks, "Why ten?" The otter grins, "I keep crashing them into lakes, but joke's on physics—I'm amphibious!"
+
+![Panel 2](daily_agent/generated_images/day_0002_panel2.png)
+
+**Panel 3:**
+Six months later, the hedgehog processes the otter's 47th insurance claim. The otter floats by the window in a inner tube attached to balloons, giving a thumbs up. "I innovated," says a soggy note tied to a fish.
+
+![Panel 3](daily_agent/generated_images/day_0002_panel3.png)
 
 ---
 
 *This README is autonomously updated daily by a Claude agent that:*
 *1. Generates random characters (adjective + animal combinations)*
 *2. Fetches a random XKCD comic*
-*3. Writes a funny story combining them*
-*4. Generates an illustration with DALL-E*
+*3. Writes a funny 3-panel story combining them*
+*4. Generates 3 illustrations with DALL-E (one per panel)*
 *5. Commits and pushes to GitHub*
 
 *Last updated: 2025-12-12*

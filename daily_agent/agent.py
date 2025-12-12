@@ -211,78 +211,156 @@ async def run_autonomous_agent() -> None:
         # Now fetch that specific comic
         await client.query(
             f"Use fetch_xkcd_comic tool with comic_number={random_comic_num} to get the comic details. "
-            f"Print: Comic #NUMBER: TITLE"
+            f"Parse the JSON response and print:\n"
+            f"Title: TITLE\n"
+            f"Alt: ALT_TEXT\n"
+            f"URL: URL"
         )
 
         xkcd_title = ""
+        xkcd_alt = ""
+        xkcd_url = ""
         async for message in client.receive_response():
             if isinstance(message, AssistantMessage):
                 for block in message.content:
                     if isinstance(block, TextBlock):
                         print(f"   {block.text}")
-                        if "Comic #" in block.text or "title" in block.text.lower():
-                            xkcd_title = block.text.strip()
+                        # Extract title, alt, and URL
+                        for line in block.text.split('\n'):
+                            if line.startswith("Title:"):
+                                xkcd_title = line.replace("Title:", "").strip()
+                            elif line.startswith("Alt:"):
+                                xkcd_alt = line.replace("Alt:", "").strip()
+                            elif line.startswith("URL:"):
+                                xkcd_url = line.replace("URL:", "").strip()
 
-        print(f"\n✅ XKCD selected\n")
+        print(f"\n✅ XKCD selected: {xkcd_title}\n")
 
-        # ===== TASK 4: Create funny story =====
+        # ===== TASK 4: Create funny 3-panel story =====
         print(
-            "✍️  [Task 4] Claude, write a funny story combining characters and XKCD...\n"
+            "✍️  [Task 4] Claude, write a funny 3-panel comic story...\n"
         )
 
         await client.query(
-            f"You are a creative comedy writer. Create a very short (3-4 sentences maximum), "
-            f"funny, work-appropriate story featuring these characters: {characters_text}\n\n"
-            f"The story should be inspired by the XKCD comic we just fetched: {xkcd_title}\n\n"
+            f"You are a creative comedy writer. Create a funny, work-appropriate 3-panel comic story "
+            f"featuring these characters: {characters_text}\n\n"
+            f"The story should be inspired by the XKCD comic:\n"
+            f"Title: {xkcd_title}\n"
+            f"Context: {xkcd_alt}\n\n"
             f"Requirements:\n"
+            f"- Split the story into exactly 3 panels\n"
+            f"- Panel 1: Setup (1-2 sentences)\n"
+            f"- Panel 2: Development (1-2 sentences)\n"
+            f"- Panel 3: Punchline (1-2 sentences with unexpected, hilarious ending)\n"
             f"- Keep it clean and work-appropriate\n"
-            f"- Include a hysterical, unexpected punchline at the end\n"
-            f"- Make it absurd and silly\n"
-            f"- Maximum 3-4 sentences\n\n"
-            f"Just write the story, no preamble or explanation."
+            f"- Make it absurd and silly\n\n"
+            f"Format your response exactly like this:\n"
+            f"PANEL 1: [text]\n"
+            f"PANEL 2: [text]\n"
+            f"PANEL 3: [text]"
         )
 
-        story_text = ""
+        panel1_text = ""
+        panel2_text = ""
+        panel3_text = ""
+        full_story_text = ""
+
         async for message in client.receive_response():
             if isinstance(message, AssistantMessage):
                 for block in message.content:
                     if isinstance(block, TextBlock):
-                        story_text += block.text + " "
                         print(f"   {block.text}")
+                        full_story_text += block.text + "\n"
 
-        story_text = story_text.strip()
-        print(f"\n✅ Story created\n")
+                        # Parse panels
+                        for line in block.text.split('\n'):
+                            if line.startswith("PANEL 1:"):
+                                panel1_text = line.replace("PANEL 1:", "").strip()
+                            elif line.startswith("PANEL 2:"):
+                                panel2_text = line.replace("PANEL 2:", "").strip()
+                            elif line.startswith("PANEL 3:"):
+                                panel3_text = line.replace("PANEL 3:", "").strip()
 
-        # ===== TASK 5: Generate DALL-E image =====
-        print("🎨 [Task 5] Generating DALL-E illustration...\n")
+        print(f"\n✅ 3-panel story created\n")
 
+        # ===== TASK 5: Generate 3 DALL-E images (one per panel) =====
+        print("🎨 [Task 5] Generating 3-panel DALL-E comic strip...\n")
+
+        # Combine all panels for context
+        full_story = f"Panel 1: {panel1_text} Panel 2: {panel2_text} Panel 3: {panel3_text}"
+
+        # Generate Panel 1
+        print("   Generating Panel 1...")
         await client.query(
-            f"Do the following:\n"
-            f"1. Use generate_dalle_image tool with this prompt: "
-            f"'A whimsical, cartoon-style comic of this scene: {story_text}'\n"
-            f"2. Extract the image URL from the response\n"
-            f"3. Use download_image tool to save it with filename 'day_{new_day:04d}.png'\n"
-            f"4. Print the relative path where the image was saved"
+            f"Generate panel 1 of a 3-panel comic.\n\n"
+            f"Full story context:\n{full_story}\n\n"
+            f"Use generate_dalle_image tool with this prompt:\n"
+            f"'A whimsical, cartoon-style comic panel showing ONLY the first scene: {panel1_text}. "
+            f"Simple, clean illustration with bold outlines and bright colors. Comic book style.'\n\n"
+            f"Then extract the image URL and use download_image to save as 'day_{new_day:04d}_panel1.png'\n"
+            f"Print the saved path."
         )
 
-        image_path = ""
+        panel1_path = ""
         async for message in client.receive_response():
             if isinstance(message, AssistantMessage):
                 for block in message.content:
                     if isinstance(block, TextBlock):
-                        print(f"   {block.text}")
                         if "daily_agent/generated_images" in block.text:
-                            # Extract the path
-                            lines = block.text.split("\n")
-                            for line in lines:
+                            for line in block.text.split("\n"):
                                 if "daily_agent/generated_images" in line:
-                                    image_path = (
-                                        line.strip()
-                                        .replace("Image saved successfully to:", "")
-                                        .strip()
-                                    )
+                                    panel1_path = line.strip().replace("Image saved successfully to:", "").strip()
 
-        print(f"\n✅ Image generated and saved\n")
+        print(f"   ✓ Panel 1 saved: {panel1_path}")
+
+        # Generate Panel 2
+        print("   Generating Panel 2...")
+        await client.query(
+            f"Generate panel 2 of a 3-panel comic.\n\n"
+            f"Full story context:\n{full_story}\n\n"
+            f"Use generate_dalle_image tool with this prompt:\n"
+            f"'A whimsical, cartoon-style comic panel showing ONLY the second scene: {panel2_text}. "
+            f"Simple, clean illustration with bold outlines and bright colors. Comic book style.'\n\n"
+            f"Then extract the image URL and use download_image to save as 'day_{new_day:04d}_panel2.png'\n"
+            f"Print the saved path."
+        )
+
+        panel2_path = ""
+        async for message in client.receive_response():
+            if isinstance(message, AssistantMessage):
+                for block in message.content:
+                    if isinstance(block, TextBlock):
+                        if "daily_agent/generated_images" in block.text:
+                            for line in block.text.split("\n"):
+                                if "daily_agent/generated_images" in line:
+                                    panel2_path = line.strip().replace("Image saved successfully to:", "").strip()
+
+        print(f"   ✓ Panel 2 saved: {panel2_path}")
+
+        # Generate Panel 3
+        print("   Generating Panel 3...")
+        await client.query(
+            f"Generate panel 3 of a 3-panel comic.\n\n"
+            f"Full story context:\n{full_story}\n\n"
+            f"Use generate_dalle_image tool with this prompt:\n"
+            f"'A whimsical, cartoon-style comic panel showing ONLY the punchline scene: {panel3_text}. "
+            f"Simple, clean illustration with bold outlines and bright colors. Comic book style.'\n\n"
+            f"Then extract the image URL and use download_image to save as 'day_{new_day:04d}_panel3.png'\n"
+            f"Print the saved path."
+        )
+
+        panel3_path = ""
+        async for message in client.receive_response():
+            if isinstance(message, AssistantMessage):
+                for block in message.content:
+                    if isinstance(block, TextBlock):
+                        if "daily_agent/generated_images" in block.text:
+                            for line in block.text.split("\n"):
+                                if "daily_agent/generated_images" in line:
+                                    panel3_path = line.strip().replace("Image saved successfully to:", "").strip()
+
+        print(f"   ✓ Panel 3 saved: {panel3_path}")
+        print(f"\n✅ All 3 panels generated and saved\n")
 
         # ===== TASK 6: Update README =====
         print("📝 [Task 6] Updating README.md...\n")
@@ -294,20 +372,28 @@ async def run_autonomous_agent() -> None:
             f"---BEGIN README---\n"
             f"# Autonomous README Project 🤖\n\n"
             f"**Days running a fully-autonomous agent that updates my README: {new_day}**\n\n"
-            f"## Today's Story ({timestamp})\n\n"
+            f"## Today's Comic ({timestamp})\n\n"
             f"### Characters\n"
             f"{characters_text}\n\n"
             f"### Inspired by XKCD\n"
-            f'"{xkcd_title}"\n\n'
-            f"### The Story\n"
-            f"{story_text}\n\n"
-            f"![Generated Comic]({image_path})\n\n"
+            f"[**Comic #{random_comic_num}: {xkcd_title}**]({xkcd_url})\n\n"
+            f"*{xkcd_alt}*\n\n"
+            f"### The 3-Panel Story\n\n"
+            f"**Panel 1:**\n"
+            f"{panel1_text}\n\n"
+            f"![Panel 1]({panel1_path})\n\n"
+            f"**Panel 2:**\n"
+            f"{panel2_text}\n\n"
+            f"![Panel 2]({panel2_path})\n\n"
+            f"**Panel 3:**\n"
+            f"{panel3_text}\n\n"
+            f"![Panel 3]({panel3_path})\n\n"
             f"---\n\n"
             f"*This README is autonomously updated daily by a Claude agent that:*\n"
             f"*1. Generates random characters (adjective + animal combinations)*\n"
             f"*2. Fetches a random XKCD comic*\n"
-            f"*3. Writes a funny story combining them*\n"
-            f"*4. Generates an illustration with DALL-E*\n"
+            f"*3. Writes a funny 3-panel story combining them*\n"
+            f"*4. Generates 3 illustrations with DALL-E (one per panel)*\n"
             f"*5. Commits and pushes to GitHub*\n\n"
             f"*Last updated: {timestamp}*\n"
             f"---END README---\n\n"
