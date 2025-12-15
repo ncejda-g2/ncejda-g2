@@ -1,0 +1,54 @@
+name: Daily README Agent
+
+on:
+  schedule:
+    # Runs at midnight Eastern Time (5 AM UTC during EST, 4 AM UTC during EDT)
+    # Using 5 AM UTC for consistency (midnight EST)
+    - cron: '0 5 * * *'
+
+  # Allow manual triggering from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run daily agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cd daily_agent
+          python agent.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Extract day number from README for commit message
+            DAY=$(grep -oP "Days running.*: \K\d+" README.md || echo "X")
+            git commit -m "🤖 Day ${DAY} - Autonomous README update"
+            git push
+          fi
