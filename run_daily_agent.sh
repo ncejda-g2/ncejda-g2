@@ -33,6 +33,25 @@ echo "Executing daily_agent/agent.py..."
 # Capture exit code
 EXIT_CODE=$?
 
+# If agent succeeded, commit and push changes
+if [ $EXIT_CODE -eq 0 ]; then
+    echo ""
+    echo "Committing and pushing changes to GitHub..."
+
+    # Extract day number from README for commit message
+    DAY=$(grep -oP "Days running.*: \K\d+" README.md || echo "X")
+
+    git add .
+    git commit -m "🤖 Day ${DAY} - Autonomous README update"
+    git push origin main
+    git log --oneline -1
+
+    PUSH_EXIT=$?
+    echo "Git push exit code: $PUSH_EXIT"
+else
+    echo "Agent failed, skipping git operations"
+fi
+
 echo "=================================================="
 echo "Daily Agent Run Completed: $(date)"
 echo "Exit Code: $EXIT_CODE"

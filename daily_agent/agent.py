@@ -164,6 +164,41 @@ SCENES = [
     "Alien Planet",
 ]
 
+SITUATIONS = [
+    "A support group for fictional phobias.",
+    "A job interview for absurd positions.",
+    "Superheroes dealing with everyday problems.",
+    "A family dinner where everyone speaks in rhyme.",
+    "News anchors reporting on bizarre events.",
+    "therapy session for inanimate objects.",
+    "Time travelers trying to fit into different eras.",
+    "Animals navigating the challenges of human life.",
+    "Aliens attempting to understand Earth customs.",
+    "Historical figures attending a modern-day party.",
+    "A courtroom drama with ridiculous charges.",
+    "Fairy tale characters in a group therapy session.",
+    "Sports commentators for unusual competitions.",
+    "Job candidates with peculiar skills.",
+    "Insects navigating human-sized obstacles.",
+    "Teachers dealing with bizarre student excuses.",
+    "Characters in a musical where every line is a song.",
+    "Ghosts haunting a comedy club.",
+    "Characters trapped in a never-ending meeting.",
+    "Unusual superheroes with bizarre powers.",
+    "An insane flight attendant is caught in a lab accident in Miami.",
+    "A scientist comes to an uncomfortable realization in Washington D.C..",
+    "Passengers must return money stolen from the mob.",
+    "Rival pilots battle zombies on the way to a friend's house.",
+    "A cursed woman is trapped by a hurricane ",
+    "An inventor receives a mysterious phone call ",
+    "A ghost learns the truth in the astral plane.",
+    "A psychic adopts a baby but gets more than he bargained for.",
+    "Children discover a shocking secret in a prep school.",
+    "An aging butler fights for her inheritance.",
+    "A bad chef comes to town.",
+    "A prankster meets someone he thought had died in Brazil.",
+]
+
 
 def generate_random_characters() -> list[str]:
     """
@@ -331,19 +366,12 @@ In the: [SCENE]
 *1. Generates random characters (adjective + animal combinations)*
 *2. Fetches a random XKCD comic*
 *3. Writes a funny 3-panel story combining them*
-*4. Commits and pushes to GitHub*
+*4. Automatically commits and pushes via GitHub Actions*
 
 *Last updated: {timestamp}*
 ```
 
-## Step 5: Commit and Push to GitHub
-Run these git commands using the Bash tool:
-1. git add .
-2. git commit -m '🤖 Day [X] - Autonomous README update'
-3. git push origin main
-4. git log --oneline -1
-
-Report your progress as you complete each step. Show me the comic title, the story panels, and the final commit hash."""
+Report your progress as you complete each step. Show me the comic title and the story panels."""
         )
 
         # Stream Claude's response and print progress
