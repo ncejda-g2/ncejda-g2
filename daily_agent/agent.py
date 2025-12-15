@@ -57,7 +57,6 @@ ADJECTIVES = [
     "small",
     "friendly",
     "upset",
-    "crying",
     "content",
     "sleepy",
     "excited",
@@ -71,6 +70,35 @@ ADJECTIVES = [
     "elegant",
     "mischievous",
     "peaceful",
+    "rotund",
+    "exhausted",
+    "frugal",
+    "enlightned",
+    "apologitic",
+    "arrogant",
+    "cautious",
+    "diligent",
+    "gregarious",
+    "silly",
+    "nerdy",
+    "geeky",
+    "ugly",
+    "smelly",
+    "gourmet",
+    "elegant",
+    "beautiful",
+    "hoity-toity",
+    "adventurous",
+    "down-to-earth",
+    "hippie",
+    "punk",
+    "rockstar",
+    "wizard",
+    "ninja",
+    "pirate",
+    "samurai",
+    "vampire",
+    "zombie",
 ]
 
 ANIMALS = [
@@ -90,6 +118,50 @@ ANIMALS = [
     "otter",
     "capybara",
     "pangolin",
+    "E. coli",
+    "sloth",
+    "gorilla",
+    "chicken",
+    "horse",
+    "witch",
+    "dragon",
+    "unicorn",
+    "alien",
+    "robot",
+    "dinosaur",
+]
+
+SCENES = [
+    "Forest",
+    "Beach",
+    "City",
+    "Outer Space",
+    "Desert",
+    "Underwater",
+    "Mountain",
+    "Office",
+    "Home",
+    "Microscopic World",
+    "Medieval Castle",
+    "Futuristic City",
+    "Clouds",
+    "Dreamland",
+    "Candyland",
+    "Jungle",
+    "Amusement Park",
+    "Farm",
+    "Volcano",
+    "Arctic",
+    "Swamp",
+    "Space Station",
+    "Haunted House",
+    "Pirate Ship",
+    "Wizard's Tower",
+    "Robot Factory",
+    "Dinosaur Jungle",
+    "Fairy Tale Forest",
+    "Underwater City",
+    "Alien Planet",
 ]
 
 
@@ -209,10 +281,13 @@ Calculate the new day count by adding 1.
 ## Step 2: Fetch XKCD Comic
 Use the fetch_xkcd_comic tool to get comic #{random_comic_num}.
 Extract the title, alt text, and URL from the response.
+Read the image of the comic, and understand it's general message for inspiration.
+Print the comic's storyline and punchline to confirm your understanding.
 
 ## Step 3: Write 3-Panel Story
 Create a funny, work-appropriate 3-panel comic story featuring these characters:
 {characters_text}
+Set in the scene: {random.choice(SCENES)}
 
 The story should be inspired by the XKCD comic you fetched.
 
@@ -221,7 +296,7 @@ Requirements:
 - Panel 2: Development (1-2 sentences)
 - Panel 3: Punchline (1-2 sentences with unexpected, hilarious ending)
 - Keep it clean and work-appropriate
-- Make it absurd and silly
+- Make it very funny!
 
 ## Step 4: Generate Comic Strip Image
 Use generate_image to create a single vertical 3-panel comic strip.

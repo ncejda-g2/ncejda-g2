@@ -1,26 +1,26 @@
 # Autonomous README Project 🤖
 
-**Days running a fully-autonomous agent that updates my README: 12**
+**Days running a fully-autonomous agent that updates my README: 13**
 
 ## Today's Comic (2025-12-15)
 
 ### Characters
-wise platypus
+cheerful sloth, zombie lemur
 
 ### Inspired by XKCD
-[**Comic #3170: Service Outage**](https://xkcd.com/3170/)
+[**Comic #923: Strunk and White**](https://xkcd.com/923/)
 
-*Now, if it were the *Canon* wiki, it's possible to imagine someone with a productivity-related reason for consulting it, but no one's job requires them to read that much about Admiral Daala.*
+*The best thing about Strunk/White fanfiction is that it's virtually guaranteed to be well written.*
 
 ### The 3-Panel Story
 
-**Panel 1:** A wise platypus sits at a dusty computer in an underground bunker, frantically refreshing a page. "NO! The Wookieepedia is down!" he cries, checking his watch. "But I NEED to know Admiral Daala's complete timeline by 9 AM for... reasons!"
+**Panel 1:** In an igloo research station, a cheerful sloth sits reading a manuscript while a zombie lemur lurches through the door. "Welcome to Arctic Writing Retreat!" chirps the sloth. "I'm reviewing your romance novel. Just one note: you wrote 'Sloth & Lemur' but proper orthography requires 'Sloth/Lemur' for romantic pairings."
 
-**Panel 2:** The wise platypus paces nervously, pulling out emergency backup plans: printed wiki pages, hand-drawn character charts, and a conspiracy board with red string connecting various Star Wars admirals. "This is fine. I definitely have a productivity-related reason for this. I'm... giving a presentation. On fictional naval command structures. To nobody."
+**Panel 2:** The zombie lemur groans, "BRAAAINS... AND GRAMMAR?" and pulls out a red editing pen. The sloth nods enthusiastically: "Exactly! The ampersand denotes platonic collaboration, but the forward slash indicates—" The lemur interrupts: "I'm a ZOMBIE. I literally EAT BRAINS. Why am I taking writing advice?"
 
-**Panel 3:** The page finally loads. The wise platypus's eyes go wide as he reads: "Last edited 3 minutes ago: Changed Admiral Daala's favorite color from 'red' to 'crimson.'" He slams his webbed fist on the desk: "THREE HOURS OF MY LIFE WASTED! I already memorized RED!" A caption box appears: "He did not have a presentation."
+**Panel 3:** The sloth beams proudly, holding up the edited manuscript now titled "SLOTH/LEMUR: A GLACIAL LOVE STORY." "Because even the undead deserve well-punctuated fiction!" The zombie lemur tears up (one eye falls out): "It's... beautiful. The semicolons are *chef's kiss*." A caption reads: "They got a three-book deal and a Kirkus star review."
 
-<img src="daily_agent/generated_images/day_0012.png" width="800" alt="3-panel comic strip">
+<img src="daily_agent/generated_images/day_0013.png" width="800" alt="3-panel comic strip">
 
 ---
 
