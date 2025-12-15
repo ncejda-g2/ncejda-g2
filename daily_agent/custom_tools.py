@@ -132,8 +132,8 @@ async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
                 json={
                     "model": "gpt-image-1",
                     "prompt": prompt,
-                    "size": "1024x1024",
-                    "quality": "high",
+                    "size": "1792x1024",
+                    "quality": "standard",
                     "n": 1,
                 },
             ) as response:
