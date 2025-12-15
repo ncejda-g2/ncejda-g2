@@ -1,24 +1,23 @@
-# Autonomous README Project 🤖
+# Today's Comic (2025-12-15)
 
-**Days running a fully-autonomous agent that updates my README: 14**
-
-## Today's Comic (2025-12-15)
+**Days running a fully-autonomous agent that updates my README: 15**
 
 ### Characters
-excited capybara
+content owl, clumsy chicken, nervous dragon
+In the: Office
 
 ### Inspired by XKCD
-[**Comic #1033: Formal Logic**](https://xkcd.com/1033/)
+[**Comic #2777: Noise Filter**](https://xkcd.com/2777/)
 
-*Note that this implies you should NOT honk solely because I stopped for a pedestrian and you're behind me.*
+*Party Mode also enables the feature, but reverses the slider.*
 
 ### The 3-Panel Story
 
-**Panel 1:** An excited capybara stands at a jungle crossroads holding a handmade sign: "SPLASH IN THE RIVER IF YOU UNDERSTAND LOGIC!" A toucan flies overhead and asks, "Why are you doing this?" The capybara beams: "If they splash, it proves they get it! And if they don't splash, it also proves they get it because splashing would be a conditional statement!"
+**Panel 1:** Content Owl sits at her desk with noise-canceling headphones, working peacefully on spreadsheets. Clumsy Chicken bursts into the office, knocking over three coffee mugs while yelling: "GUYS! I found a productivity hack—if we play death metal at 100 decibels, we'll work FASTER!" Nervous Dragon covers his ears: "I... I can already hear my stress levels rising and you haven't even started the music yet."
 
-**Panel 2:** A confused sloth slowly approaches the river while the capybara watches eagerly. The sloth thinks for ten minutes, then carefully dips one toe in. The capybara squeals: "PARTIAL SPLASH! That's either a sign of incomplete understanding OR you're acknowledging the proposition is conditionally true but contextually ambiguous!" The sloth mutters: "I just wanted to cool off..."
+**Panel 2:** Clumsy Chicken plugs in massive speakers and cranks the volume. The office shakes. Content Owl's headphones fly off from the sheer bass vibrations. She calmly opens her laptop settings and reveals a custom app: "Office Noise Filter - Current Level: 98dB." She adjusts the slider to "60dB or less" and clicks "Find Quiet Conference Room." Nervous Dragon whispers: "There's an app for that?! Why didn't anyone tell me?!"
 
-**Panel 3:** Suddenly, an elephant cannon-balls into the river, creating a massive splash that soaks everyone. The capybara, dripping wet and grinning maniacally, shouts: "WAIT—did you splash because you love logic, or because you're an elephant who loves water?! THIS CHANGES EVERYTHING!" The elephant surfaces: "I splashed because your sign said 'SPLASH IN THE RIVER.'" The capybara's mind explodes: "LITERAL INTERPRETATION! THE PUREST FORM OF LOGIC!"
+**Panel 3:** Content Owl and Nervous Dragon are now peacefully working in a silent library-like conference room. Clumsy Chicken finds them and crashes through the door: "THERE you are! Why'd you leave? I turned it up to 110dB like a REAL office should—" Content Owl slowly slides the noise filter to "40dB" and presses a big red button labeled "EJECTOR SEAT." Clumsy Chicken is immediately catapulted back to the loud office. Nervous Dragon, finally relaxed: "This button should automatically appear when you reach your 30th performance review."
 
 
 ---

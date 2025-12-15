@@ -302,14 +302,13 @@ Requirements:
 Write a new README.md file with this structure:
 
 ```markdown
-# Autonomous README Project 🤖
+# Today's Comic ({timestamp})
 
 **Days running a fully-autonomous agent that updates my README: [NEW DAY COUNT]**
 
-## Today's Comic ({timestamp})
-
 ### Characters
 [characters list]
+In the: [SCENE]
 
 ### Inspired by XKCD
 [**Comic #[NUMBER]: [TITLE]**]([URL])
