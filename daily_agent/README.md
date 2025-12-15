@@ -42,7 +42,7 @@ Every day at midnight EST, this agent autonomously:
 
 ## Architecture: Claude Agent SDK
 
-This project uses the **Claude Agent SDK framework**, not just API calls. Key differences:
+This project uses the **Claude Agent SDK framework**, not just API calls. The agent receives a **single comprehensive prompt** with all tools available upfront, then autonomously orchestrates the entire workflow.
 
 ### Traditional Approach (NOT what we're doing)
 ```python
@@ -54,23 +54,35 @@ image = openai_api.images.generate(...)
 
 ### Agent SDK Approach (What we ARE doing)
 ```python
-# Claude orchestrates and decides how to use tools
+# Single comprehensive prompt - Claude orchestrates everything!
 async with ClaudeSDKClient(options=options) as client:
     await client.query(
-        "Fetch a random XKCD comic and generate a creative story"
+        """You are an autonomous agent that updates README.md daily.
+
+        Complete this ENTIRE workflow:
+        1. Read README and extract day count
+        2. Fetch XKCD comic #[random_num]
+        3. Write funny 3-panel story with [characters]
+        4. Generate comic strip image
+        5. Update README.md
+        6. Commit and push to GitHub
+
+        [detailed instructions for each step...]
+        """
     )
-    # Claude figures out:
-    # 1. Call get_max_xkcd_number tool
-    # 2. Call generate_random_int tool
-    # 3. Call fetch_xkcd_comic tool
-    # 4. Write a story using its language model
-    # 5. etc.
+    # Claude autonomously:
+    # - Figures out the order and dependencies
+    # - Calls tools as needed (fetch_xkcd_comic, generate_dalle_image, etc.)
+    # - Uses its language model for creative tasks
+    # - Handles errors and retries
 ```
 
 **Benefits:**
-- Claude makes intelligent decisions about tool usage
-- Context preserved across multiple tasks
-- More truly "autonomous" - Claude reasons about how to accomplish goals
+- **True autonomy**: One prompt, entire workflow completed
+- Claude makes intelligent decisions about tool usage and ordering
+- Context preserved automatically throughout the workflow
+- Simpler code (~160 lines vs 280+ lines of orchestration)
+- Resilient to errors - Claude can retry and adapt
 - Great for learning the Agent SDK patterns
 
 ## Files
@@ -152,53 +164,57 @@ This project is a great way to learn the Agent SDK because it demonstrates:
 
 1. **Custom Tool Creation**: Using `@tool` decorator to wrap external APIs (XKCD, OpenAI gpt-image-1)
 2. **MCP Server Setup**: Creating a server with `create_sdk_mcp_server`
-3. **Agent Client Usage**: Using `ClaudeSDKClient` for orchestration
-4. **Multi-Step Workflows**: Sequential tasks with context preservation
-5. **Complex Prompt Engineering**: Creating detailed prompts for multi-panel image generation
+3. **Agent Client Usage**: Using `ClaudeSDKClient` with a single comprehensive prompt
+4. **True Autonomous Workflow**: One prompt orchestrates an entire multi-step workflow
+5. **Complex Prompt Engineering**: Detailed instructions for Claude to follow autonomously
 6. **Tool Permissions**: Managing what tools the agent can use
 7. **Autonomous Operation**: Running unattended with `permission_mode="acceptEdits"`
-8. **Smart Division of Labor**: Python for randomness, Claude for creativity
+8. **Smart Division of Labor**: Python for randomness, Claude for creativity and orchestration
+9. **Simplicity**: ~160 lines of clean code vs 280+ lines of manual orchestration
 
 ## Agent Workflow Visualization
 
 ```
-┌─────────────────┐
-│  Cron Job       │
-│  (Midnight EST) │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│  agent.py                   │
-│  (ClaudeSDKClient)          │
-└────────┬────────────────────┘
-         │
-         ├──► Task 1: Read README (day count)
-         │         Uses: Read tool
-         │
-         ├──► Task 2: Generate characters
-         │         Uses: Python random module
-         │         (No Claude - true randomness!)
-         │
-         ├──► Task 3: Fetch XKCD
-         │         Uses: get_max_xkcd_number tool
-         │                Python random module (pick comic #)
-         │                fetch_xkcd_comic tool
-         │
-         ├──► Task 4: Write 3-panel story
-         │         Claude's language model
-         │         (creative writing - setup, development, punchline)
-         │
-         ├──► Task 5: Generate comic strip
-         │         Uses: generate_dalle_image (1x)
-         │         Generates and saves 3-panel comic strip
-         │         (handles base64 decoding internally)
-         │
-         ├──► Task 6: Update README
-         │         Uses: Write tool
-         │
-         └──► Task 7: Git commit & push
-                  Uses: Bash tool
+┌─────────────────────────────────────────────────────────────┐
+│  Cron Job (Midnight EST)                                    │
+└─────────────────────┬───────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────┐
+│  Python Setup (agent.py)                                    │
+│  - Generate random characters (Python random module)        │
+│  - Fetch max XKCD number & pick random comic (Python)       │
+│  - Generate timestamp                                       │
+└─────────────────────┬───────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────┐
+│  Single Comprehensive Prompt                                │
+│  "Complete this ENTIRE workflow autonomously..."            │
+│                                                              │
+│  All tools available upfront:                               │
+│  - Read, Write, Edit, Bash (built-in)                       │
+│  - fetch_xkcd_comic (custom tool)                           │
+│  - generate_dalle_image (custom tool)                       │
+└─────────────────────┬───────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────┐
+│  Claude Autonomously Orchestrates:                          │
+│                                                              │
+│  1. Read README.md → Extract day count                      │
+│  2. Call fetch_xkcd_comic → Get comic details               │
+│  3. Generate creative 3-panel story → Use language model    │
+│  4. Call generate_dalle_image → Create comic strip          │
+│  5. Write README.md → Update with all content               │
+│  6. Execute git commands → Commit and push                  │
+│                                                              │
+│  Claude decides:                                            │
+│  ✓ Which tools to use and when                             │
+│  ✓ How to handle tool responses                            │
+│  ✓ Error recovery and retries                              │
+│  ✓ Context flow between steps                              │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ## Why This Beats a Regular Script

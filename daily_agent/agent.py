@@ -1,23 +1,35 @@
 #!/usr/bin/env python3
 """
-Autonomous README Agent using Claude Agent SDK
+Autonomous README Agent using Claude Agent SDK (Single-Prompt Workflow)
 
-This agent runs daily and:
-1. Generates 1-3 random characters (adjective + animal)
-2. Fetches a random XKCD comic
-3. Uses Claude to write a funny short story combining them
-4. Generates an illustration with DALL-E
-5. Updates README.md
-6. Commits and pushes to GitHub
+This agent runs daily with a single comprehensive prompt that orchestrates the
+entire workflow autonomously. Claude is provided with all tools upfront and
+handles the complete task from start to finish.
+
+Workflow:
+1. Python generates random characters (adjective + animal) and picks a random XKCD comic
+2. Single comprehensive prompt is sent to Claude with all tools available
+3. Claude autonomously:
+   - Reads README.md and extracts day count
+   - Fetches the specified XKCD comic
+   - Writes a funny 3-panel story combining characters + XKCD
+   - Generates a 3-panel comic strip illustration using OpenAI's gpt-image-1
+   - Updates README.md with all content
+   - Commits and pushes to GitHub
+
+Key Benefits:
+- True autonomy: One prompt, entire workflow completed
+- Simpler code: ~160 lines vs 280+ lines of manual orchestration
+- Claude handles tool orchestration, error recovery, and context management
 """
 
 import asyncio
-import os
 import random
 import sys
 from datetime import datetime
 from pathlib import Path
 
+import aiohttp
 from claude_agent_sdk import (
     AssistantMessage,
     ClaudeAgentOptions,
@@ -28,7 +40,7 @@ from claude_agent_sdk import (
 from custom_tools import (
     download_image,
     fetch_xkcd_comic,
-    generate_dalle_image,
+    generate_image,
     get_max_xkcd_number,
 )
 from dotenv import load_dotenv
@@ -100,12 +112,51 @@ def generate_random_characters() -> list[str]:
     return characters
 
 
-async def run_autonomous_agent() -> None:
-    """Run the autonomous README update agent."""
+async def fetch_max_xkcd_number() -> int:
+    """
+    Fetch the latest XKCD comic number directly from the XKCD API.
+    Uses direct HTTP call for Python-controlled randomness.
 
-    print("🤖 Starting Autonomous README Agent")
+    Returns:
+        The maximum XKCD comic number, or 3000 as fallback
+    """
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get("https://xkcd.com/info.0.json") as response:
+                if response.status == 200:
+                    data = await response.json()
+                    return data["num"]
+    except Exception as e:
+        print(f"   ⚠️  Failed to fetch max XKCD number: {e}")
+
+    # Fallback
+    return 3000
+
+
+async def run_autonomous_agent() -> None:
+    """
+    Run the autonomous README update agent with a single comprehensive prompt.
+
+    This version provides ALL tools upfront and lets Claude orchestrate the entire
+    workflow autonomously, rather than breaking it into sequential tasks.
+    """
+
+    print("🤖 Starting Autonomous README Agent (Single-Prompt Workflow)")
     print(f"📅 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"📁 Working directory: {PROJECT_ROOT}\n")
+
+    # Generate random characters using Python's random module (true randomness!)
+    characters = generate_random_characters()
+    characters_text = ", ".join(characters)
+    print(f"🎭 Generated characters: {characters_text}")
+
+    # Get max XKCD number and pick a random comic (true randomness!)
+    print(f"📰 Fetching max XKCD number...")
+    max_xkcd_number = await fetch_max_xkcd_number()
+    random_comic_num = random.randint(1, max_xkcd_number)
+    print(f"📰 Randomly selected XKCD comic #{random_comic_num}\n")
+
+    timestamp = datetime.now().strftime("%Y-%m-%d")
 
     # Create custom tools MCP server
     tools_server = create_sdk_mcp_server(
@@ -114,16 +165,14 @@ async def run_autonomous_agent() -> None:
         tools=[
             get_max_xkcd_number,
             fetch_xkcd_comic,
-            generate_dalle_image,
+            generate_image,
             download_image,
         ],
     )
 
-    # Configure agent options
+    # Configure agent options with ALL tools available upfront
     options = ClaudeAgentOptions(
-        # Make custom tools available
         mcp_servers={"readme-tools": tools_server},
-        # Allow both built-in and custom tools
         allowed_tools=[
             "Read",
             "Write",
@@ -131,248 +180,119 @@ async def run_autonomous_agent() -> None:
             "Bash",
             "mcp__readme-tools__get_max_xkcd_number",
             "mcp__readme-tools__fetch_xkcd_comic",
-            "mcp__readme-tools__generate_dalle_image",
+            "mcp__readme-tools__generate_image",
             "mcp__readme-tools__download_image",
         ],
-        # Auto-accept edits for autonomous operation
         permission_mode="acceptEdits",
-        # Set working directory
         cwd=str(PROJECT_ROOT),
-        # Use Sonnet for good balance of speed/capability
         model="sonnet",
     )
 
-    # Create the agent client
+    # Single comprehensive prompt - Claude handles the entire workflow!
     async with ClaudeSDKClient(options=options) as client:
 
-        # ===== TASK 1: Read current README and get day count =====
-        print("📖 [Task 1] Reading current README to get day count...\n")
-
-        await client.query(
-            "Read the README.md file and extract the current day count from the line "
-            "'Days running a fully-autonomous agent that updates my README: X'. "
-            "If the line doesn't exist, the day count is 0. "
-            "Print just the number."
-        )
-
-        day_count = None
-        async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
-                for block in message.content:
-                    if isinstance(block, TextBlock):
-                        print(f"   {block.text}")
-                        # Try to extract the day count
-                        try:
-                            day_count = int(
-                                "".join(filter(str.isdigit, block.text)) or "0"
-                            )
-                        except:
-                            pass
-
-        new_day = (day_count or 0) + 1
-        print(f"\n✅ Current day: {new_day}\n")
-
-        # ===== TASK 2: Generate random characters (Pure Python - no AI) =====
-        print("🎭 [Task 2] Generating random characters...\n")
-
-        characters = generate_random_characters()
-        characters_text = ", ".join(characters)
-        print(f"   Generated: {characters_text}")
-        print(f"\n✅ Characters: {characters_text}\n")
-
-        # ===== TASK 3: Get random XKCD comic =====
-        print("📰 [Task 3] Fetching random XKCD comic...\n")
-
-        # First, get the max XKCD number
-        await client.query(
-            "Use get_max_xkcd_number tool to find the latest XKCD comic number. Print just the number."
-        )
-
-        max_xkcd = None
-        async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
-                for block in message.content:
-                    if isinstance(block, TextBlock):
-                        print(f"   {block.text}")
-                        # Extract the number
-                        try:
-                            max_xkcd = int("".join(filter(str.isdigit, block.text)))
-                        except:
-                            pass
-
-        if not max_xkcd:
-            print("   ⚠️  Failed to get max XKCD number, using 3000 as fallback")
-            max_xkcd = 3000
-
-        # Use Python's random to pick a comic number (true randomness!)
-        random_comic_num = random.randint(1, max_xkcd)
-        print(f"   Randomly selected comic #{random_comic_num} (using Python random)")
-
-        # Now fetch that specific comic
-        await client.query(
-            f"Use fetch_xkcd_comic tool with comic_number={random_comic_num} to get the comic details. "
-            f"Parse the JSON response and print:\n"
-            f"Title: TITLE\n"
-            f"Alt: ALT_TEXT\n"
-            f"URL: URL"
-        )
-
-        xkcd_title = ""
-        xkcd_alt = ""
-        xkcd_url = ""
-        async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
-                for block in message.content:
-                    if isinstance(block, TextBlock):
-                        print(f"   {block.text}")
-                        # Extract title, alt, and URL
-                        for line in block.text.split('\n'):
-                            if line.startswith("Title:"):
-                                xkcd_title = line.replace("Title:", "").strip()
-                            elif line.startswith("Alt:"):
-                                xkcd_alt = line.replace("Alt:", "").strip()
-                            elif line.startswith("URL:"):
-                                xkcd_url = line.replace("URL:", "").strip()
-
-        print(f"\n✅ XKCD selected: {xkcd_title}\n")
-
-        # ===== TASK 4: Create funny 3-panel story =====
-        print(
-            "✍️  [Task 4] Claude, write a funny 3-panel comic story...\n"
-        )
-
-        await client.query(
-            f"You are a creative comedy writer. Create a funny, work-appropriate 3-panel comic story "
-            f"featuring these characters: {characters_text}\n\n"
-            f"The story should be inspired by the XKCD comic:\n"
-            f"Title: {xkcd_title}\n"
-            f"Context: {xkcd_alt}\n\n"
-            f"Requirements:\n"
-            f"- Split the story into exactly 3 panels\n"
-            f"- Panel 1: Setup (1-2 sentences)\n"
-            f"- Panel 2: Development (1-2 sentences)\n"
-            f"- Panel 3: Punchline (1-2 sentences with unexpected, hilarious ending)\n"
-            f"- Keep it clean and work-appropriate\n"
-            f"- Make it absurd and silly\n\n"
-            f"Format your response exactly like this:\n"
-            f"PANEL 1: [text]\n"
-            f"PANEL 2: [text]\n"
-            f"PANEL 3: [text]"
-        )
-
-        panel1_text = ""
-        panel2_text = ""
-        panel3_text = ""
-        full_story_text = ""
-
-        async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
-                for block in message.content:
-                    if isinstance(block, TextBlock):
-                        print(f"   {block.text}")
-                        full_story_text += block.text + "\n"
-
-                        # Parse panels
-                        for line in block.text.split('\n'):
-                            if line.startswith("PANEL 1:"):
-                                panel1_text = line.replace("PANEL 1:", "").strip()
-                            elif line.startswith("PANEL 2:"):
-                                panel2_text = line.replace("PANEL 2:", "").strip()
-                            elif line.startswith("PANEL 3:"):
-                                panel3_text = line.replace("PANEL 3:", "").strip()
-
-        print(f"\n✅ 3-panel story created\n")
-
-        # ===== TASK 5: Generate single 3-panel comic strip image =====
-        print("🎨 [Task 5] Generating 3-panel comic strip...\n")
-
-        await client.query(
-            f"Generate a single 3-panel comic strip image.\n\n"
-            f"Use generate_dalle_image tool with:\n"
-            f"- prompt: 'A horizontal 3-panel comic strip in cartoon style. Three panels arranged left to right, clearly divided. "
-            f"Panel 1 (left): {panel1_text}. "
-            f"Panel 2 (middle): {panel2_text}. "
-            f"Panel 3 (right): {panel3_text}. "
-            f"Comic book style with bold outlines, bright colors, and clear panel divisions. "
-            f"Whimsical and fun illustration.'\n"
-            f"- filename: 'day_{new_day:04d}.png'\n\n"
-            f"The tool will save the image directly and return the path. Print the saved path."
-        )
-
-        comic_image_path = ""
-        async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
-                for block in message.content:
-                    if isinstance(block, TextBlock):
-                        print(f"   {block.text}")
-                        if "daily_agent/generated_images" in block.text:
-                            for line in block.text.split("\n"):
-                                if "daily_agent/generated_images" in line:
-                                    comic_image_path = line.strip().replace("Image saved successfully to:", "").strip()
-
-        print(f"\n✅ Comic strip generated and saved: {comic_image_path}\n")
-
-        # ===== TASK 6: Update README =====
-        print("📝 [Task 6] Updating README.md...\n")
-
-        timestamp = datetime.now().strftime("%Y-%m-%d")
-
-        await client.query(
-            f"Write a new README.md file with this exact content:\n\n"
-            f"---BEGIN README---\n"
-            f"# Autonomous README Project 🤖\n\n"
-            f"**Days running a fully-autonomous agent that updates my README: {new_day}**\n\n"
-            f"## Today's Comic ({timestamp})\n\n"
-            f"### Characters\n"
-            f"{characters_text}\n\n"
-            f"### Inspired by XKCD\n"
-            f"[**Comic #{random_comic_num}: {xkcd_title}**]({xkcd_url})\n\n"
-            f"*{xkcd_alt}*\n\n"
-            f"### The 3-Panel Story\n\n"
-            f"**Panel 1:** {panel1_text}\n\n"
-            f"**Panel 2:** {panel2_text}\n\n"
-            f"**Panel 3:** {panel3_text}\n\n"
-            f"<img src=\"{comic_image_path}\" width=\"800\" alt=\"3-panel comic strip\">\n\n"
-            f"---\n\n"
-            f"*This README is autonomously updated daily by a Claude agent that:*\n"
-            f"*1. Generates random characters (adjective + animal combinations)*\n"
-            f"*2. Fetches a random XKCD comic*\n"
-            f"*3. Writes a funny 3-panel story combining them*\n"
-            f"*4. Generates a 3-panel comic strip illustration with OpenAI's gpt-image-1*\n"
-            f"*5. Commits and pushes to GitHub*\n\n"
-            f"*Last updated: {timestamp}*\n"
-            f"---END README---\n\n"
-            f"Use the Write tool to create this file."
-        )
-
-        async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
-                for block in message.content:
-                    if isinstance(block, TextBlock):
-                        print(f"   {block.text}")
-
-        print(f"\n✅ README updated\n")
-
-        # ===== TASK 7: Commit and push to GitHub =====
-        print("🚀 [Task 7] Committing and pushing to GitHub...\n")
-
-        await client.query(
-            f"Run these git commands using the Bash tool:\n"
-            f"1. git add .\n"
-            f"2. git commit -m '🤖 Day {new_day} - Autonomous README update'\n"
-            f"3. git push origin main\n"
-            f"4. git log --oneline -1\n\n"
-            f"Print the output of each command."
-        )
-
-        async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
-                for block in message.content:
-                    if isinstance(block, TextBlock):
-                        print(f"   {block.text}")
-
-        print(f"\n✅ Changes committed and pushed!\n")
+        print("🚀 Launching autonomous workflow...\n")
         print("=" * 60)
+
+        await client.query(
+            f"""You are an autonomous agent that updates README.md daily with a funny comic story.
+
+Complete this ENTIRE workflow autonomously:
+
+## Step 1: Determine Day Count
+Read README.md and extract the current day count from the line:
+'Days running a fully-autonomous agent that updates my README: X'
+
+If the line doesn't exist, use 0 as the current count.
+Calculate the new day count by adding 1.
+
+## Step 2: Fetch XKCD Comic
+Use the fetch_xkcd_comic tool to get comic #{random_comic_num}.
+Extract the title, alt text, and URL from the response.
+
+## Step 3: Write 3-Panel Story
+Create a funny, work-appropriate 3-panel comic story featuring these characters:
+{characters_text}
+
+The story should be inspired by the XKCD comic you fetched.
+
+Requirements:
+- Panel 1: Setup (1-2 sentences)
+- Panel 2: Development (1-2 sentences)
+- Panel 3: Punchline (1-2 sentences with unexpected, hilarious ending)
+- Keep it clean and work-appropriate
+- Make it absurd and silly
+
+## Step 4: Generate Comic Strip Image
+Use generate_image to create a single horizontal 3-panel comic strip.
+
+Create a detailed prompt like:
+"A horizontal 3-panel comic strip in cartoon style. Three panels arranged left to right, clearly divided.
+Panel 1 (left): [panel 1 text].
+Panel 2 (middle): [panel 2 text].
+Panel 3 (right): [panel 3 text].
+Comic book style with bold outlines, bright colors, and clear panel divisions. Whimsical and fun illustration."
+
+Use filename: day_XXXX.png (where XXXX is the new day count, zero-padded to 4 digits)
+
+## Step 5: Update README.md
+Write a new README.md file with this structure:
+
+```markdown
+# Autonomous README Project 🤖
+
+**Days running a fully-autonomous agent that updates my README: [NEW DAY COUNT]**
+
+## Today's Comic ({timestamp})
+
+### Characters
+[characters list]
+
+### Inspired by XKCD
+[**Comic #[NUMBER]: [TITLE]**]([URL])
+
+*[ALT TEXT]*
+
+### The 3-Panel Story
+
+**Panel 1:** [panel 1 text]
+
+**Panel 2:** [panel 2 text]
+
+**Panel 3:** [panel 3 text]
+
+<img src="[PATH TO IMAGE]" width="800" alt="3-panel comic strip">
+
+---
+
+*This README is autonomously updated daily by a Claude agent that:*
+*1. Generates random characters (adjective + animal combinations)*
+*2. Fetches a random XKCD comic*
+*3. Writes a funny 3-panel story combining them*
+*4. Generates a 3-panel comic strip illustration with OpenAI's gpt-image-1*
+*5. Commits and pushes to GitHub*
+
+*Last updated: {timestamp}*
+```
+
+## Step 6: Commit and Push to GitHub
+Run these git commands using the Bash tool:
+1. git add .
+2. git commit -m '🤖 Day [X] - Autonomous README update'
+3. git push origin main
+4. git log --oneline -1
+
+Report your progress as you complete each step. Show me the comic title, the story panels, the image path, and the final commit hash."""
+        )
+
+        # Stream Claude's response and print progress
+        async for message in client.receive_response():
+            if isinstance(message, AssistantMessage):
+                for block in message.content:
+                    if isinstance(block, TextBlock):
+                        print(block.text)
+
+        print("\n" + "=" * 60)
         print("🎉 Autonomous agent completed successfully!")
         print("=" * 60)
 
