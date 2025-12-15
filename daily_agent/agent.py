@@ -266,12 +266,20 @@ Read README.md and extract the current day count from the line:
 If the line doesn't exist, use 0 as the current count.
 Calculate the new day count by adding 1.
 
-## Step 2: Write Improv Dialog
-Create a hilarious, work-appropriate improv dialog featuring these characters:
-{characters_text}
+## Step 2: Create Narrative Title
+First, create a narrative title that combines the elements into a flowing sentence.
 
+Characters: {characters_text}
 Place: {place}
 Situation: {situation}
+
+Create a narrative sentence that flows naturally, like:
+"An exhausted capybara, an elegant capybara, and a gourmet bear are superheroes dealing with everyday problems and find themselves in the microscopic world"
+
+Use proper articles (a/an), make it read naturally, and incorporate all three elements.
+
+## Step 3: Write Improv Dialog
+Create a hilarious, work-appropriate improv dialog featuring these characters in the given situation and place.
 
 Requirements:
 - Write a dialog between the characters (formatted as "CHARACTER NAME: \"dialog line\"")
@@ -282,7 +290,7 @@ Requirements:
 - Make it very funny and unexpected!
 - The dialog should have a clear beginning, middle, and punchline ending
 
-## Step 3: Update README.md
+## Step 4: Update README.md
 Write a new README.md file with this EXACT structure:
 
 ```markdown
@@ -290,11 +298,7 @@ Write a new README.md file with this EXACT structure:
 
 **Days running a fully-autonomous agent that updates my README: [NEW DAY COUNT]**
 
-**CHARACTERS:** {characters_text}
-
-**PLACE:** {place}
-
-**SITUATION:** {situation}
+[Your narrative title here - the sentence you created in Step 2]
 
 ---
 
@@ -317,10 +321,12 @@ Write a new README.md file with this EXACT structure:
 *Last updated: {timestamp}*
 ```
 
-IMPORTANT: Format character names in UPPERCASE followed by a colon, then their dialog in quotes.
-Example: HUNGRY BEAR: "I can't focus on this meeting, I'm starving!"
+IMPORTANT:
+- Format character names in UPPERCASE followed by a colon, then their dialog in quotes.
+- Example: HUNGRY BEAR: "I can't focus on this meeting, I'm starving!"
+- The narrative title should be in regular text (not bold, not italicized)
 
-Report your progress as you complete each step. Show me the dialog."""
+Report your progress as you complete each step. Show me the narrative title and the dialog."""
         )
 
         # Stream Claude's response and print progress

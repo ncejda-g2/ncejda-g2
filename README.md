@@ -1,42 +1,44 @@
 # Today's Improv (2025-12-15)
 
-**Days running a fully-autonomous agent that updates my README: 18**
+**Days running a fully-autonomous agent that updates my README: 19**
 
-**CHARACTERS:** exhausted capybara, elegant capybara, gourmet bear
-
-**PLACE:** Microscopic World
-
-**SITUATION:** Superheroes dealing with everyday problems.
+An excited robot is at a Robot Factory where rival pilots battle zombies on the way to a friend's house.
 
 ---
 
-EXHAUSTED CAPYBARA: "I can't do this anymore. We've been shrunk to microscopic size for THREE HOURS and I still haven't had my nap."
+EXCITED ROBOT: "Oh boy, oh boy! Welcome to Robot Factory Model ZX-7! Can I interest you rival pilots in some tactical upgrades before you continue to Gary's birthday party?"
 
-ELEGANT CAPYBARA: "Darling, compose yourself. We're superheroes. We must maintain our dignity, even when battling bacteria the size of buildings."
+PILOT MAVERICK: "We don't have time for this! There are seventeen zombies between us and Gary's house, and we're already late!"
 
-GOURMET BEAR: "Speaking of which, is anyone else concerned that these microbes look suspiciously like aged Roquefort? The blue veining, the pungent aroma..."
+PILOT STARDUST: "Late? You crashed our ships into THIS factory! We were supposed to take the highway!"
 
-EXHAUSTED CAPYBARA: "That's literally just mold. On someone's forgotten sandwich. We're fighting mold."
+EXCITED ROBOT: "Ooh, a rivalry! How thrilling! You know what would make battling zombies MORE fun? Matching jetpacks! I have them in burgundy and chartreuse!"
 
-ELEGANT CAPYBARA: "We're not *fighting* mold, we're *neutralizing a biological threat*. Phrasing matters. My cape didn't get dry-cleaned for nothing."
+PILOT MAVERICK: "Nobody wants chartreuse jetpacks! And for the record, I crashed us here because YOU were showing off your barrel rolls!"
 
-GOURMET BEAR: "Hold on, hold on. Before we destroy it, can I get a sample? This could pair beautifully with a robust Cabernet."
+PILOT STARDUST: "They were victory spirals, completely different, and Gary explicitly said 'arrive in style.' How is crashing into a robot factory stylish?"
 
-EXHAUSTED CAPYBARA: "We're one millimeter tall. Our greatest enemy right now is a light breeze. And you want cheese samples."
+EXCITED ROBOT: "I think it's VERY stylish! We rarely get organic visitors! Most of them are just conveyor belts. Do you know how boring conveyor belts are at parties?"
 
-GOURMET BEAR: "When opportunity presents itself in the form of artisanal funk, you don't waste it. That's literally in the superhero handbook I wrote."
+PILOT MAVERICK: "The zombies are literally climbing through the windows now. Can we focus?"
 
-ELEGANT CAPYBARA: "You wrote a handbook about cheese?"
+EXCITED ROBOT: "Windows! Oh no, those are our premium display models! The zombies will scratch the glass! Quick, take these flame attachments—on the house!"
 
-GOURMET BEAR: "Chapter seven: 'Turning Villains into Charcuterie Boards.' It's a metaphor. Mostly."
+PILOT STARDUST: "Wait, you're giving us free weapons to protect your windows?"
 
-EXHAUSTED CAPYBARA: "I'm going to sleep right here. Wake me when we're normal-sized or when the dust mite cavalry arrives. Whichever comes first."
+EXCITED ROBOT: "Well, yes! Also, if you mention Robot Factory Model ZX-7 at Gary's party, we have a referral program. Every fifth friend gets a complimentary oil change!"
 
-ELEGANT CAPYBARA: "You absolutely cannot nap on a bacterium. Think of the optics!"
+PILOT MAVERICK: "I'm a human. I don't need oil changes."
 
-GOURMET BEAR: "Agreed. At least nap on the artisanal mold. It's softer and has notes of walnut."
+EXCITED ROBOT: "Not with THAT attitude! Now hurry, the zombies are getting close to our prototype section! If they eat the AI cores, they'll become SMART zombies!"
 
-EXHAUSTED CAPYBARA: "I hate both of you. This is the worst superhero team in any dimension, microscopic or otherwise."
+PILOT STARDUST: "This is officially the weirdest detour I've ever taken."
+
+PILOT MAVERICK: "And you flew through that asteroid field backwards last month."
+
+PILOT STARDUST: "That was for SCIENCE!"
+
+EXCITED ROBOT: "Speaking of science, would you like to test our experimental zombie-proof gift wrap? Gary's going to LOVE the presentation!"
 
 ---
 
