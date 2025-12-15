@@ -7,20 +7,18 @@ entire workflow autonomously. Claude is provided with all tools upfront and
 handles the complete task from start to finish.
 
 Workflow:
-1. Python generates random characters (adjective + animal) and picks a random XKCD comic
+1. Python generates random characters (adjective + animal), picks a random place and situation
 2. Single comprehensive prompt is sent to Claude with all tools available
 3. Claude autonomously:
    - Reads README.md and extracts day count
-   - Fetches the specified XKCD comic
-   - Writes a funny 3-panel story combining characters + XKCD
-   - Generates a 3-panel comic strip illustration using OpenAI's gpt-image-1
-   - Updates README.md with all content
-   - Commits and pushes to GitHub
+   - Writes a hilarious improv dialog between characters in the given situation/place
+   - Updates README.md with the dialog
+   - Git operations handled by wrapper script or GitHub Actions
 
 Key Benefits:
 - True autonomy: One prompt, entire workflow completed
-- Simpler code: ~160 lines vs 280+ lines of manual orchestration
-- Claude handles tool orchestration, error recovery, and context management
+- Simpler code: Minimal orchestration needed
+- Claude handles dialog creation, context management, and formatting
 """
 
 import asyncio
@@ -29,19 +27,11 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-import aiohttp
 from claude_agent_sdk import (
     AssistantMessage,
     ClaudeAgentOptions,
     ClaudeSDKClient,
     TextBlock,
-    create_sdk_mcp_server,
-)
-from custom_tools import (
-    download_image,
-    fetch_xkcd_comic,
-    generate_image,
-    get_max_xkcd_number,
 )
 from dotenv import load_dotenv
 
@@ -219,25 +209,6 @@ def generate_random_characters() -> list[str]:
     return characters
 
 
-async def fetch_max_xkcd_number() -> int:
-    """
-    Fetch the latest XKCD comic number directly from the XKCD API.
-    Uses direct HTTP call for Python-controlled randomness.
-
-    Returns:
-        The maximum XKCD comic number, or 3000 as fallback
-    """
-    try:
-        async with aiohttp.ClientSession() as session:
-            async with session.get("https://xkcd.com/info.0.json") as response:
-                if response.status == 200:
-                    data = await response.json()
-                    return data["num"]
-    except Exception as e:
-        print(f"   ⚠️  Failed to fetch max XKCD number: {e}")
-
-    # Fallback
-    return 3000
 
 
 async def run_autonomous_agent() -> None:
@@ -257,38 +228,20 @@ async def run_autonomous_agent() -> None:
     characters_text = ", ".join(characters)
     print(f"🎭 Generated characters: {characters_text}")
 
-    # Get max XKCD number and pick a random comic (true randomness!)
-    print(f"📰 Fetching max XKCD number...")
-    max_xkcd_number = await fetch_max_xkcd_number()
-    random_comic_num = random.randint(1, max_xkcd_number)
-    print(f"📰 Randomly selected XKCD comic #{random_comic_num}\n")
+    # Pick random situation and place
+    situation = random.choice(SITUATIONS)
+    place = random.choice(SCENES)
+    print(f"📍 Place: {place}")
+    print(f"🎬 Situation: {situation}\n")
 
     timestamp = datetime.now().strftime("%Y-%m-%d")
 
-    # Create custom tools MCP server
-    tools_server = create_sdk_mcp_server(
-        name="readme-tools",
-        version="1.0.0",
-        tools=[
-            get_max_xkcd_number,
-            fetch_xkcd_comic,
-            generate_image,
-            download_image,
-        ],
-    )
-
-    # Configure agent options with ALL tools available upfront
+    # Configure agent options
     options = ClaudeAgentOptions(
-        mcp_servers={"readme-tools": tools_server},
         allowed_tools=[
             "Read",
             "Write",
             "Edit",
-            "Bash",
-            "mcp__readme-tools__get_max_xkcd_number",
-            "mcp__readme-tools__fetch_xkcd_comic",
-            "mcp__readme-tools__generate_image",
-            "mcp__readme-tools__download_image",
         ],
         permission_mode="acceptEdits",
         cwd=str(PROJECT_ROOT),
@@ -302,7 +255,7 @@ async def run_autonomous_agent() -> None:
         print("=" * 60)
 
         await client.query(
-            f"""You are an autonomous agent that updates README.md daily with a funny comic story.
+            f"""You are an autonomous agent that updates README.md daily with a hilarious improv dialog.
 
 Complete this ENTIRE workflow autonomously:
 
@@ -313,65 +266,59 @@ Read README.md and extract the current day count from the line:
 If the line doesn't exist, use 0 as the current count.
 Calculate the new day count by adding 1.
 
-## Step 2: Fetch XKCD Comic
-Use the fetch_xkcd_comic tool to get comic #{random_comic_num}.
-Extract the title, alt text, and URL from the response.
-Read the image of the comic, and understand it's general message for inspiration.
-Print the comic's storyline and punchline to confirm your understanding.
-
-## Step 3: Write 3-Panel Story
-Create a funny, work-appropriate 3-panel comic story featuring these characters:
+## Step 2: Write Improv Dialog
+Create a hilarious, work-appropriate improv dialog featuring these characters:
 {characters_text}
-Set in the scene: {random.choice(SCENES)}
 
-The story should be inspired by the XKCD comic you fetched.
+Place: {place}
+Situation: {situation}
 
 Requirements:
-- Panel 1: Setup (1-2 sentences)
-- Panel 2: Development (1-2 sentences)
-- Panel 3: Punchline (1-2 sentences with unexpected, hilarious ending)
+- Write a dialog between the characters (formatted as "CHARACTER NAME: \"dialog line\"")
+- Each character should have at least 3-5 lines of dialog
+- The dialog should be funny, witty, and capture the absurdity of the situation
+- Use the characters' adjectives to inform their personality and how they speak
 - Keep it clean and work-appropriate
-- Make it very funny!
+- Make it very funny and unexpected!
+- The dialog should have a clear beginning, middle, and punchline ending
 
-## Step 4: Update README.md
-Write a new README.md file with this structure:
+## Step 3: Update README.md
+Write a new README.md file with this EXACT structure:
 
 ```markdown
-# Today's Comic ({timestamp})
+# Today's Improv ({timestamp})
 
 **Days running a fully-autonomous agent that updates my README: [NEW DAY COUNT]**
 
-### Characters
-[characters list]
+**CHARACTERS:** {characters_text}
+**PLACE:** {place}
+**SITUATION:** {situation}
 
-In the: [SCENE]
+---
 
-### Inspired by XKCD
-[**Comic #[NUMBER]: [TITLE]**]([URL])
+[CHARACTER NAME 1]: "dialog line"
 
-*[ALT TEXT]*
+[CHARACTER NAME 2]: "dialog line"
 
-### The 3-Panel Story
+[CHARACTER NAME 1]: "dialog line"
 
-**Panel 1:** [panel 1 text]
-
-**Panel 2:** [panel 2 text]
-
-**Panel 3:** [panel 3 text]
-
+[Continue the full dialog here with all lines...]
 
 ---
 
 *This README is autonomously updated daily by a Claude agent that:*
 *1. Generates random characters (adjective + animal combinations)*
-*2. Fetches a random XKCD comic*
-*3. Writes a funny 3-panel story combining them*
+*2. Picks a random place and improv situation*
+*3. Writes a hilarious dialog between the characters*
 *4. Automatically commits and pushes via GitHub Actions*
 
 *Last updated: {timestamp}*
 ```
 
-Report your progress as you complete each step. Show me the comic title and the story panels."""
+IMPORTANT: Format character names in UPPERCASE followed by a colon, then their dialog in quotes.
+Example: HUNGRY BEAR: "I can't focus on this meeting, I'm starving!"
+
+Report your progress as you complete each step. Show me the dialog."""
         )
 
         # Stream Claude's response and print progress
