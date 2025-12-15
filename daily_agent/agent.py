@@ -224,13 +224,13 @@ Requirements:
 - Make it absurd and silly
 
 ## Step 4: Generate Comic Strip Image
-Use generate_image to create a single horizontal 3-panel comic strip.
+Use generate_image to create a single vertical 3-panel comic strip.
 
 Create a detailed prompt like:
-"A horizontal 3-panel comic strip in cartoon style. Three panels arranged left to right, clearly divided.
-Panel 1 (left): [panel 1 text].
+"A vertical 3-panel comic strip in cartoon style. Three panels arranged top to bottom, clearly divided.
+Panel 1 (top): [panel 1 text].
 Panel 2 (middle): [panel 2 text].
-Panel 3 (right): [panel 3 text].
+Panel 3 (bottom): [panel 3 text].
 Comic book style with bold outlines, bright colors, and clear panel divisions. Whimsical and fun illustration."
 
 Use filename: day_XXXX.png (where XXXX is the new day count, zero-padded to 4 digits)
