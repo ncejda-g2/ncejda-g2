@@ -1,34 +1,40 @@
 # Today's Improv (2025-12-15)
 
-**Days running a fully-autonomous agent that updates my README: 17**
+**Days running a fully-autonomous agent that updates my README: 18**
 
-**CHARACTERS:** hoity-toity dinosaur, ugly horse
-**PLACE:** Home
-**SITUATION:** A job interview for absurd positions.
+**CHARACTERS:** exhausted capybara, elegant capybara, gourmet bear
+**PLACE:** Microscopic World
+**SITUATION:** Superheroes dealing with everyday problems.
 
 ---
 
-HOITY-TOITY DINOSAUR: "Welcome to my parlor, er, living room. I'm conducting interviews for my new venture—a luxury artisanal dirt tasting company. Your resume says you eat hay off the ground?"
+EXHAUSTED CAPYBARA: "I can't do this anymore. We've been shrunk to microscopic size for THREE HOURS and I still haven't had my nap."
 
-UGLY HORSE: "Yeah, that's right. Been doing it for years. Sometimes I find rocks in there, add a nice crunch."
+ELEGANT CAPYBARA: "Darling, compose yourself. We're superheroes. We must maintain our dignity, even when battling bacteria the size of buildings."
 
-HOITY-TOITY DINOSAUR: "Exquisite! But tell me, do you have any experience with *discerning* palates? Can you distinguish between a 2024 backyard loam and a 2023 front lawn clay?"
+GOURMET BEAR: "Speaking of which, is anyone else concerned that these microbes look suspiciously like aged Roquefort? The blue veining, the pungent aroma..."
 
-UGLY HORSE: "Well, I once ate mud from a puddle and threw up. Does that count as feedback?"
+EXHAUSTED CAPYBARA: "That's literally just mold. On someone's forgotten sandwich. We're fighting mold."
 
-HOITY-TOITY DINOSAUR: "Brilliant! Visceral reviews are all the rage. Now, the position requires extensive travel—rolling around in various dirt patches across the continent. Are you prepared to get absolutely filthy while maintaining an air of sophistication?"
+ELEGANT CAPYBARA: "We're not *fighting* mold, we're *neutralizing a biological threat*. Phrasing matters. My cape didn't get dry-cleaned for nothing."
 
-UGLY HORSE: "Look at me. I'm already ugly. Sophistication left the barn a long time ago. But I can roll in dirt like nobody's business."
+GOURMET BEAR: "Hold on, hold on. Before we destroy it, can I get a sample? This could pair beautifully with a robust Cabernet."
 
-HOITY-TOITY DINOSAUR: "Hmm, I appreciate your honesty, but our brand is 'repugnantly refined.' Can you sneer while eating dirt?"
+EXHAUSTED CAPYBARA: "We're one millimeter tall. Our greatest enemy right now is a light breeze. And you want cheese samples."
 
-UGLY HORSE: "Buddy, I sneer at my own reflection. I can definitely sneer at dirt."
+GOURMET BEAR: "When opportunity presents itself in the form of artisanal funk, you don't waste it. That's literally in the superhero handbook I wrote."
 
-HOITY-TOITY DINOSAUR: "Marvelous! You're hired! Your first assignment is to taste-test the carpet fibers in my guest bedroom. I've been seasoning them with pretension for months."
+ELEGANT CAPYBARA: "You wrote a handbook about cheese?"
 
-UGLY HORSE: "Do I get dental?"
+GOURMET BEAR: "Chapter seven: 'Turning Villains into Charcuterie Boards.' It's a metaphor. Mostly."
 
-HOITY-TOITY DINOSAUR: "Darling, you'll be eating dirt. You'll NEED dental."
+EXHAUSTED CAPYBARA: "I'm going to sleep right here. Wake me when we're normal-sized or when the dust mite cavalry arrives. Whichever comes first."
+
+ELEGANT CAPYBARA: "You absolutely cannot nap on a bacterium. Think of the optics!"
+
+GOURMET BEAR: "Agreed. At least nap on the artisanal mold. It's softer and has notes of walnut."
+
+EXHAUSTED CAPYBARA: "I hate both of you. This is the worst superhero team in any dimension, microscopic or otherwise."
 
 ---
 
