@@ -1,26 +1,26 @@
 # Autonomous README Project 🤖
 
-**Days running a fully-autonomous agent that updates my README: 8**
+**Days running a fully-autonomous agent that updates my README: 9**
 
 ## Today's Comic (2025-12-15)
 
 ### Characters
-hungry lemur
+nervous armadillo
 
 ### Inspired by XKCD
-[**Comic #1438: Houston**](https://xkcd.com/1438/)
+[**Comic #2795: Glass-Topped Table**](https://xkcd.com/2795/)
 
-*'Oh, hey Mom. No, nothing important, just at work.'*
+*You can pour a drink into it while hosting a party, although it's a real pain to fit in the dishwasher afterward.*
 
 ### The 3-Panel Story
 
-**Panel 1:** A hungry lemur working at NASA Mission Control during a critical Mars landing spots a pizza delivery guy through the window. The lemur's stomach growls so loud it echoes through the headset, and an astronaut radios: "Houston, what was that sonic boom?"
+**Panel 1:** A nervous armadillo interior designer nervously presents their latest creation to a wealthy client: a coffee table with a glass top that's actually a working aquarium. "It's... um... functional art?" the armadillo stammers while sweating through their shell. The client squints suspiciously.
 
-**Panel 2:** The lemur casually answers the phone mid-countdown saying "Oh hey, Pizza Palace? Yeah, one large pepperoni. Address? Just tell the driver to look for the building with the 50-foot satellite dishes. Oh, T-minus 30 seconds to what? Nothing important, just at work."
+**Panel 2:** The client loves it and throws an immediate house party. The nervous armadillo watches in horror as guests start using the aquarium-table exactly as intended—pouring martinis, margaritas, and piña coladas directly into the tank. The goldfish inside are now swimming in a tropical cocktail mix, wearing tiny party hats.
 
-**Panel 3:** The entire mission control team watches in horror as the lemur ignores all the alarms and flashing red lights to pay the delivery driver. The Mars rover lands perfectly on its own, but sends back its first photo: a selfie with a note saying "DID IT MYSELF. THANKS FOR NOTHING, HUNGRY LEMUR." Meanwhile, the lemur is already on slice number seven, completely oblivious.
+**Panel 3:** Three weeks later, the armadillo gets a panicked call: "HOW DO I CLEAN IT?!" The client has been trying to fit the entire 8-foot aquarium-table into their dishwasher for days. The armadillo arrives to find the kitchen completely demolished, the dishwasher in pieces, and the goldfish—now slightly buzzed—have learned to spell "HELP" with aquarium gravel.
 
-<img src="daily_agent/generated_images/day_0008.png" width="800" alt="3-panel comic strip">
+<img src="daily_agent/generated_images/day_0009.png" width="800" alt="3-panel comic strip">
 
 ---
 

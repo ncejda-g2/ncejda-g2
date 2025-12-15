@@ -137,7 +137,7 @@ This agent uses the Claude Agent SDK, which means:
 - **Custom tools** defined in `custom_tools.py`:
   - `get_max_xkcd_number` - Get latest XKCD number
   - `fetch_xkcd_comic` - Fetch specific XKCD comic
-  - `generate_dalle_image` - Generate image with gpt-image-1 (handles base64 decoding and saving)
+  - `generate_image` - Generate image with gpt-image-1 (handles base64 decoding and saving)
   - `download_image` - Download and save images from URLs
 
 - **Built-in tools** from Claude SDK:

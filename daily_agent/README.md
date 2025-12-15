@@ -72,7 +72,7 @@ async with ClaudeSDKClient(options=options) as client:
     )
     # Claude autonomously:
     # - Figures out the order and dependencies
-    # - Calls tools as needed (fetch_xkcd_comic, generate_dalle_image, etc.)
+    # - Calls tools as needed (fetch_xkcd_comic, generate_image, etc.)
     # - Uses its language model for creative tasks
     # - Handles errors and retries
 ```
@@ -91,7 +91,7 @@ async with ClaudeSDKClient(options=options) as client:
 - **`custom_tools.py`** - Custom tool definitions:
   - `get_max_xkcd_number` - XKCD API integration
   - `fetch_xkcd_comic` - Get specific comic (with alt text)
-  - `generate_dalle_image` - OpenAI gpt-image-1 integration (generates and saves directly from base64)
+  - `generate_image` - OpenAI gpt-image-1 integration (generates and saves directly from base64)
   - `download_image` - Download and save images from URLs
 - **`run_agent.sh`** - Wrapper script for cron (handles env vars)
 - **`SETUP.md`** - Complete setup and installation guide
@@ -134,7 +134,7 @@ options = ClaudeAgentOptions(
     # Allowed tools (built-in + custom)
     allowed_tools=[
         "Read", "Write", "Edit", "Bash",  # Built-in
-        "mcp__readme-tools__generate_dalle_image",  # Custom
+        "mcp__readme-tools__generate_image",  # Custom
         # ... etc
     ],
 
@@ -195,7 +195,7 @@ This project is a great way to learn the Agent SDK because it demonstrates:
 │  All tools available upfront:                               │
 │  - Read, Write, Edit, Bash (built-in)                       │
 │  - fetch_xkcd_comic (custom tool)                           │
-│  - generate_dalle_image (custom tool)                       │
+│  - generate_image (custom tool)                       │
 └─────────────────────┬───────────────────────────────────────┘
                       │
                       ▼
@@ -205,7 +205,7 @@ This project is a great way to learn the Agent SDK because it demonstrates:
 │  1. Read README.md → Extract day count                      │
 │  2. Call fetch_xkcd_comic → Get comic details               │
 │  3. Generate creative 3-panel story → Use language model    │
-│  4. Call generate_dalle_image → Create comic strip          │
+│  4. Call generate_image → Create comic strip          │
 │  5. Write README.md → Update with all content               │
 │  6. Execute git commands → Commit and push                  │
 │                                                              │

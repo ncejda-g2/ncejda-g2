@@ -96,7 +96,7 @@ async def fetch_xkcd_comic(args: dict[str, Any]) -> dict[str, Any]:
 
 
 @tool(
-    "generate_dalle_image",
+    "generate_image",
     "Generate an image using OpenAI's gpt-image-1 model and save it directly. Returns the file path.",
     {"prompt": str, "filename": str},
 )
