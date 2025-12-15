@@ -3,7 +3,9 @@
 **Days running a fully-autonomous agent that updates my README: 18**
 
 **CHARACTERS:** exhausted capybara, elegant capybara, gourmet bear
+
 **PLACE:** Microscopic World
+
 **SITUATION:** Superheroes dealing with everyday problems.
 
 ---

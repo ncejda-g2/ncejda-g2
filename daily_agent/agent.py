@@ -291,7 +291,9 @@ Write a new README.md file with this EXACT structure:
 **Days running a fully-autonomous agent that updates my README: [NEW DAY COUNT]**
 
 **CHARACTERS:** {characters_text}
+
 **PLACE:** {place}
+
 **SITUATION:** {situation}
 
 ---
