@@ -298,19 +298,7 @@ Requirements:
 - Keep it clean and work-appropriate
 - Make it very funny!
 
-## Step 4: Generate Comic Strip Image
-Use generate_image to create a single vertical 3-panel comic strip.
-
-Create a detailed prompt like:
-"A vertical 3-panel comic strip in cartoon style. Three panels arranged top to bottom, clearly divided.
-Panel 1 (top): [panel 1 text].
-Panel 2 (middle): [panel 2 text].
-Panel 3 (bottom): [panel 3 text].
-Comic book style with bold outlines, bright colors, and clear panel divisions. Whimsical and fun illustration."
-
-Use filename: day_XXXX.png (where XXXX is the new day count, zero-padded to 4 digits)
-
-## Step 5: Update README.md
+## Step 4: Update README.md
 Write a new README.md file with this structure:
 
 ```markdown
@@ -336,7 +324,6 @@ Write a new README.md file with this structure:
 
 **Panel 3:** [panel 3 text]
 
-<img src="[PATH TO IMAGE]" width="800" alt="3-panel comic strip">
 
 ---
 
@@ -344,20 +331,19 @@ Write a new README.md file with this structure:
 *1. Generates random characters (adjective + animal combinations)*
 *2. Fetches a random XKCD comic*
 *3. Writes a funny 3-panel story combining them*
-*4. Generates a 3-panel comic strip illustration with OpenAI's gpt-image-1*
-*5. Commits and pushes to GitHub*
+*4. Commits and pushes to GitHub*
 
 *Last updated: {timestamp}*
 ```
 
-## Step 6: Commit and Push to GitHub
+## Step 5: Commit and Push to GitHub
 Run these git commands using the Bash tool:
 1. git add .
 2. git commit -m '🤖 Day [X] - Autonomous README update'
 3. git push origin main
 4. git log --oneline -1
 
-Report your progress as you complete each step. Show me the comic title, the story panels, the image path, and the final commit hash."""
+Report your progress as you complete each step. Show me the comic title, the story panels, and the final commit hash."""
         )
 
         # Stream Claude's response and print progress
