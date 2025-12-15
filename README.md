@@ -1,23 +1,24 @@
 # Today's Comic (2025-12-15)
 
-**Days running a fully-autonomous agent that updates my README: 15**
+**Days running a fully-autonomous agent that updates my README: 16**
 
 ### Characters
-content owl, clumsy chicken, nervous dragon
-In the: Office
+vampire moose
+
+In the: Alien Planet
 
 ### Inspired by XKCD
-[**Comic #2777: Noise Filter**](https://xkcd.com/2777/)
+[**Comic #1889: xkcd Phone 6**](https://xkcd.com/1889/)
 
-*Party Mode also enables the feature, but reverses the slider.*
+*We understand your privacy concerns; be assured that our phones will never store or transmit images of your face.*
 
 ### The 3-Panel Story
 
-**Panel 1:** Content Owl sits at her desk with noise-canceling headphones, working peacefully on spreadsheets. Clumsy Chicken bursts into the office, knocking over three coffee mugs while yelling: "GUYS! I found a productivity hack—if we play death metal at 100 decibels, we'll work FASTER!" Nervous Dragon covers his ears: "I... I can already hear my stress levels rising and you haven't even started the music yet."
+**Panel 1:** Vampire Moose lands on an alien planet and encounters a tentacled alien salesman. "Welcome, traveler! Try our NEW Planet-6 Atmospheric Breathing System—4K oxygen molecules, radium backlight for your lungs, and a front nostril centered for eye contact during respiration!"
 
-**Panel 2:** Clumsy Chicken plugs in massive speakers and cranks the volume. The office shakes. Content Owl's headphones fly off from the sheer bass vibrations. She calmly opens her laptop settings and reveals a custom app: "Office Noise Filter - Current Level: 98dB." She adjusts the slider to "60dB or less" and clicks "Find Quiet Conference Room." Nervous Dragon whispers: "There's an app for that?! Why didn't anyone tell me?!"
+**Panel 2:** Vampire Moose examines the product specs: "Burns clean methane... includes applicator... GPS transmitter in every breath... can survive up to 30 minutes OUT of atmosphere?" The alien nods enthusiastically: "Yes! Normally you'd need to be IN atmosphere to breathe, but this baby breaks ALL the rules! Plus, it comes pre-seasoned!"
 
-**Panel 3:** Content Owl and Nervous Dragon are now peacefully working in a silent library-like conference room. Clumsy Chicken finds them and crashes through the door: "THERE you are! Why'd you leave? I turned it up to 110dB like a REAL office should—" Content Owl slowly slides the noise filter to "40dB" and presses a big red button labeled "EJECTOR SEAT." Clumsy Chicken is immediately catapulted back to the loud office. Nervous Dragon, finally relaxed: "This button should automatically appear when you reach your 30th performance review."
+**Panel 3:** Vampire Moose takes one breath and immediately floats off the ground, antlers glowing neon green, while his fangs turn into kazoos. The alien cheerfully waves: "Oh right, forgot to mention—it auto-administers seasonal fun vaccines! Side effects include involuntary levitation and musical dental work!" Vampire Moose, drifting into space while his teeth play the Macarena: "THIS IS WHY I NEVER UPDATE MY LUNGS."
 
 
 ---

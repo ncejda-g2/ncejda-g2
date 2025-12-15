@@ -308,6 +308,7 @@ Write a new README.md file with this structure:
 
 ### Characters
 [characters list]
+
 In the: [SCENE]
 
 ### Inspired by XKCD
