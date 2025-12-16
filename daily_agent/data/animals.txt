@@ -1,0 +1,27 @@
+bear
+moose
+cat
+armadillo
+giraffe
+penguin
+octopus
+raccoon
+fox
+owl
+hedgehog
+platypus
+lemur
+otter
+capybara
+pangolin
+E. coli
+sloth
+gorilla
+chicken
+horse
+witch
+dragon
+unicorn
+alien
+robot
+dinosaur
