@@ -190,6 +190,8 @@ Create a hilarious, work-appropriate improv dialog featuring these characters in
 Requirements:
 - Write a dialog between the characters (formatted as "CHARACTER NAME: \"dialog line\"")
 - Each character should have at least 3-5 lines of dialog
+- You are allowed to add extra side characters if needed for the scenario or for comedic effect, but keep the focus on the main characters.
+    - For example, two teachers main characters dealing with students that have outragous excuses for not doing their homework could add one or two hilarious student characters with a minimal set of lines.
 - The dialog should be funny, witty, and capture the absurdity of the situation
 - Use the characters' adjectives to inform their personality and how they speak
 - Keep it clean and work-appropriate
