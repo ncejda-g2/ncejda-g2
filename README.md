@@ -1,70 +1,76 @@
-# Today's Improv (2025-12-16)
+# Today's Improv (2025-12-17)
 
-**Days running a fully-autonomous agent that updates my README: 3**
+**Days running a fully-autonomous agent that updates my README: 4**
 
-A frugal horse and a hippie dinosaur are in Fairy Tale Forest where a psychic adopts a baby but gets more than he bargained for
+A gourmet dragon encounters a cursed woman trapped by a hurricane in a volcano
 
 ---
 
-FRUGAL HORSE: "Listen, I'm telling you, this adoption agency is a complete ripoff. Twenty-seven magic beans for the application fee alone!"
+GOURMET DRAGON: "Ah, finally! A nice quiet volcano to prepare my seven-course lava-seared tasting menu. Now, where did I put my truffle oil?"
 
-HIPPIE DINOSAUR: "Bro, you gotta release that materialistic energy. The universe provides, man. Like, I just manifested this flower crown out of pure vibes."
+CURSED WOMAN: "*being swirled around by magical hurricane winds* EXCUSE ME! A LITTLE HELP HERE?!"
 
-FRUGAL HORSE: "You BOUGHT that at the enchanted market for three gold coins. I saw you."
+GOURMET DRAGON: "*adjusts tiny chef's hat* I'm sorry, are you interrupting my mise en place? This soufflé waits for no one, not even hurricane victims."
 
-PSYCHIC (off-stage, panicked): "SOMEONE HELP! THE BABY IS READING MY THOUGHTS!"
+CURSED WOMAN: "I've been CURSED! This hurricane has been following me for THREE DAYS! I can't even go to the bathroom without Category 5 winds!"
 
-HIPPIE DINOSAUR: "Whoa, cosmic. Maybe the baby is like, an old soul, you know? We're all just stardust experiencing itself, even babies."
+GOURMET DRAGON: "*sniffs disapprovingly* A hurricane? In MY volcano? Do you have any idea what that's doing to the ambient temperature? I need exactly 2,000 degrees Fahrenheit for my crème brûlée!"
 
-FRUGAL HORSE: "Or maybe the psychic should have READ THE FINE PRINT on the adoption scroll before signing. I bet there were hidden fees about telepathic infants."
+CURSED WOMAN: "ARE YOU SERIOUSLY WORRIED ABOUT DESSERT RIGHT NOW?!"
 
-PSYCHIC: "*stumbles into clearing holding a glowing baby* This child knows EVERYTHING. My PIN numbers, my browser history, my secret shame about the time I pretended to predict the stock market but actually just Googled it!"
+GOURMET DRAGON: "Dessert is NEVER 'just' anything, madam. It's the crescendo of the meal, the final movement of a culinary symphony! Also, your hurricane is blowing ash into my beurre blanc and it's becoming gritty."
 
-HIPPIE DINOSAUR: "Far out! The baby's like a tiny guru! Can I hold them? I wanna see if they can access my past life as a sentient fern."
+CURSED WOMAN: "*spinning faster* How are you not being affected by these winds?!"
 
-FRUGAL HORSE: "Absolutely not. Do you know how much liability insurance costs in this forest? Last week a dragon sneezed on someone and the premiums went through the roof."
+GOURMET DRAGON: "I weigh four tons and have scales. What's your excuse for not being heavier? Clearly you don't appreciate the finer things in life."
 
-PSYCHIC: "It's worse than you think! The baby just mentally transmitted the lottery numbers for next week, but they're in BINARY CODE. I can't even enjoy my premonitions anymore!"
+CURSED WOMAN: "The witch who cursed me said I'd be trapped in eternal wind prison until I learned 'the value of stillness'! I've tried yoga! I've tried meditation! Nothing works!"
 
-HIPPIE DINOSAUR: "Maybe you need to like, center yourself, man. Have you tried meditation? Or eating this mushroom I found? It's either enlightening or poisonous, I can never remember which."
+GOURMET DRAGON: "*pauses from dicing shallots with claw* Did you try... waiting for the pasta water to boil without checking it constantly?"
 
-BABY: "*gurgles and suddenly everyone hears a voice in their head* I KNOW YOU'RE ALL AVOIDING YOUR TAXES."
+CURSED WOMAN: "What? No! Why would—"
 
-FRUGAL HORSE: "*gasps* I FILED AN EXTENSION! THAT'S PERFECTLY LEGAL!"
+GOURMET DRAGON: "AH-HAH! There's your problem! Stillness isn't about sitting cross-legged on a mountain, darling. It's about the discipline to let your risotto rest for EXACTLY three minutes before serving. To let your steak come to room temperature before searing. To let the wine breathe!"
 
-HIPPIE DINOSAUR: "Taxes are just a construct, baby dude. Money is an illusion. We should all just barter with positive energy and—"
+CURSED WOMAN: "That's... that's the dumbest thing I've ever heard! This is a MAGICAL CURSE, not a cooking show!"
 
-BABY: "YOU OWE THE KINGDOM 47 GOLD COINS IN BACK TAXES FROM YOUR CRYSTAL HEALING PYRAMID SCHEME."
+GOURMET DRAGON: "*flambés something dramatically* Is it though? Magic and cooking are basically the same. You combine ingredients, follow ancient instructions, hope nothing explodes, and if you rush it, EVERYTHING IS RUINED!"
 
-HIPPIE DINOSAUR: "It wasn't a SCHEME, it was a LIFESTYLE COMMUNITY! There's a difference!"
+CURSED WOMAN: "I don't have TIME for your culinary philosophy! I'm running out of spin cycle here!"
 
-PSYCHIC: "*on the verge of tears* I thought adopting a baby would complete me! Give my life meaning! Maybe help me finally move out of my mother's tower!"
+GOURMET DRAGON: "Fine, fine. Hold still—well, as still as you can while being a human tornado—and taste this."
 
-FRUGAL HORSE: "Well clearly you should have gone with a goldfish. Low maintenance, no telepathy, and you can buy them in bulk with a coupon."
+CURSED WOMAN: "Taste what? How am I supposed to—"
 
-BABY: "THE HORSE IS RIGHT. ALSO, YOUR MOTHER WANTS YOU TO CALL HER. SHE'S WORRIED ABOUT YOU."
+GOURMET DRAGON: "*expertly tosses a small chocolate truffle into the hurricane, which deposits it directly in her mouth*"
 
-PSYCHIC: "How can you possibly know—oh right, psychic baby. This is my life now."
+CURSED WOMAN: "*suddenly the hurricane stops* Oh my god. What... what IS that?"
 
-HIPPIE DINOSAUR: "You know what? This is beautiful, man. We're all connected through this enlightened infant. It's like we're one consciousness experiencing itself subjectively through—"
+GOURMET DRAGON: "Dark chocolate ganache with volcanic sea salt and a hint of patience. I let it temper for six hours. SIX. HOURS. Without touching it. Without peeking. Just... trusting the process."
 
-BABY: "YOU'RE SAYING THAT BECAUSE YOU READ IT ON A BUMPER STICKER. YOUR ACTUAL THOUGHTS ARE 90% WONDERING IF LEAVES ARE STILL GOOD AFTER THEY TURN BROWN."
+CURSED WOMAN: "*standing on solid ground for the first time in days* The curse... it's broken. I'm FREE! But also, do you have more of those chocolates?"
 
-HIPPIE DINOSAUR: "...that's personal, tiny dude."
+GOURMET DRAGON: "Of course. But you'll have to wait twenty minutes while I plate them properly. Good things come to those who wait."
 
-FRUGAL HORSE: "Well, I'm invoicing everyone here for my time. This interaction has cost me approximately eight minutes of grazing, which at current hay prices comes to—"
+CURSED WOMAN: "You know what? After three days in a hurricane, I can wait twenty minutes."
 
-BABY: "NO ONE IS GOING TO PAY YOU. ALSO, YOU'RE GOING TO STEP ON A NAIL NEXT TUESDAY. I'M WARNING YOU NOW BECAUSE TETANUS SHOTS ARE EXPENSIVE."
+GOURMET DRAGON: "Excellent. You're learning. Now, would you like to stay for dinner? I'm making roasted phoenix with a pomegranate reduction. The phoenix regenerates, so it's sustainable AND delicious."
 
-FRUGAL HORSE: "...I'm listening."
+CURSED WOMAN: "Is that... ethical?"
 
-PSYCHIC: "*sighs deeply* Anyone want to adopt a baby? Gently used, one previous owner, comes with existential dread and the ability to expose all your darkest secrets?"
+GOURMET DRAGON: "The phoenix literally asked me to. It says being delicious is its purpose in life. Who am I to deny it?"
 
-HIPPIE DINOSAUR: "Does the baby come with papers? Like, adoption papers? Because I spent all my coins on that flower crown and—"
+CURSED WOMAN: "This is the weirdest day of my life, and I spent half of it in a supernatural weather event."
 
-ALL THREE: "*stare at Hippie Dinosaur*"
+GOURMET DRAGON: "Welcome to fine dining, darling. Also, you're doing dishes. My sous chef quit after the molten rock incident."
 
-HIPPIE DINOSAUR: "What? I thought we were being honest now."
+CURSED WOMAN: "There was a molten rock incident?!"
+
+GOURMET DRAGON: "He rushed the reduction. I told him to be patient. He did not listen. Now he's a statue in the east corridor. Very tragic. Also, very good décor."
+
+CURSED WOMAN: "...I'll be very careful with the dishes."
+
+GOURMET DRAGON: "See? You're learning stillness already. Now, chop these onions. And cry quietly—your tears will over-salt the soup."
 
 ---
 
@@ -75,4 +81,4 @@ HIPPIE DINOSAUR: "What? I thought we were being honest now."
 *4. Writes a hilarious dialog between the characters*
 *5. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2025-12-16*
+*Last updated: 2025-12-17*
