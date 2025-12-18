@@ -60,10 +60,13 @@ def load_list_from_file(filename: str) -> list[str]:
         return [line.strip() for line in f if line.strip()]
 
 
-def generate_random_characters() -> list[str]:
+def generate_random_characters(count: int) -> list[str]:
     """
-    Generate 1-3 random characters by combining adjectives and animals.
+    Generate a specific number of random characters by combining adjectives and animals.
     Uses true Python randomness - no AI involved.
+
+    Args:
+        count: Number of characters to generate
 
     Returns:
         List of character strings like ["friendly moose", "grumpy cat"]
@@ -71,15 +74,24 @@ def generate_random_characters() -> list[str]:
     adjectives = load_list_from_file("adjectives.txt")
     animals = load_list_from_file("animals.txt")
 
-    num_characters = random.randint(1, 3)
     characters = []
-
-    for _ in range(num_characters):
+    for _ in range(count):
         adjective = random.choice(adjectives)
         animal = random.choice(animals)
         characters.append(f"{adjective} {animal}")
 
     return characters
+
+
+def roll_for_monologue() -> bool:
+    """
+    Roll a weighted dice to determine if this should be a monologue.
+    20% chance of monologue, 80% chance of dialogue.
+
+    Returns:
+        True if monologue mode, False for dialogue mode
+    """
+    return random.random() < 0.2
 
 
 def get_random_situation_and_scene() -> tuple[str, str]:
@@ -107,18 +119,39 @@ async def run_autonomous_agent() -> None:
     print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Working directory: {PROJECT_ROOT}\n")
 
-    # Generate random characters using Python's random module (true randomness!)
-    characters = generate_random_characters()
-    characters_text = ", ".join(characters)
-    print(f"Generated characters: {characters_text}")
-
-    # Pick random situation and place
+    # Pick random situation and place first (Claude will use this to decide character count)
     situation, place = get_random_situation_and_scene()
     print(f"Place: {place}")
-    print(f"Situation: {situation}\n")
+    print(f"Situation: {situation}")
 
-    # Get the path to situations file for Claude to edit
+    # Roll for monologue mode (20% chance)
+    is_monologue = roll_for_monologue()
+
+    if is_monologue:
+        # Monologue mode: exactly 1 character
+        characters = generate_random_characters(1)
+        characters_text = characters[0]
+        mode_instruction = """MODE: MONOLOGUE (forced by dice roll)
+You MUST write a monologue featuring exactly this one character. No other main characters.
+Side characters may briefly appear for comedic effect, but the focus is on this character's solo performance."""
+        print(f"Mode: MONOLOGUE (20% dice roll)")
+        print(f"Character: {characters_text}\n")
+    else:
+        # Dialogue mode: generate pool of 3, Claude picks how many to use
+        characters = generate_random_characters(3)
+        characters_text = ", ".join(characters)
+        mode_instruction = """MODE: DIALOGUE (Claude chooses character count)
+You have a pool of 3 characters. Based on the situation, decide how many main characters to use:
+- Use 2 characters if the situation is best as a back-and-forth exchange
+- Use 3 characters if the situation benefits from more chaos or perspectives
+- You MAY use just 1 character from the pool if the situation genuinely calls for a monologue
+In general, favor dialogues (2-3 characters). Side characters may appear for comedic effect."""
+        print(f"Mode: DIALOGUE (Claude chooses from pool)")
+        print(f"Character pool: {characters_text}\n")
+
+    # Get the paths to data files for Claude to edit
     situations_file = DATA_DIR / "situations.txt"
+    adjectives_file = DATA_DIR / "adjectives.txt"
 
     timestamp = datetime.now().strftime("%Y-%m-%d")
 
@@ -172,33 +205,53 @@ Examples of good scenarios:
 Add your new scenario as a NEW LINE at the END of the file: {situations_file}
 Use the Edit tool to append your new scenario.
 
-## Step 3: Create Narrative Title
+## Step 3: Add a NEW Adjective
+Your creative task: Invent ONE new, funny adjective for future character generation.
+
+Read the existing adjectives from: {adjectives_file}
+
+Then create a NEW adjective that:
+- Is different from all existing ones
+- Is funny, exciting, or has comedic potential (NOT boring like colors)
+- Think: 'cursed', 'delusional', 'ruffian', 'chaotic', 'melodramatic', 'paranoid', 'pretentious'
+- Single word only
+
+Add your new adjective as a NEW LINE at the END of the file: {adjectives_file}
+Use the Edit tool to append your new adjective.
+
+## Step 4: Create Narrative Title
 Create a narrative title that combines the elements into a flowing sentence.
+
+{mode_instruction}
 
 Characters: {characters_text}
 Place: {place}
 Situation: {situation}
 
-Create a narrative sentence that flows naturally, like:
-"An exhausted capybara, an elegant capybara, and a gourmet bear are superheroes dealing with everyday problems and find themselves in the microscopic world"
+First, decide which character(s) you will use based on the mode above.
+Then create a narrative sentence that flows naturally, featuring only the characters you chose.
 
-Use proper articles (a/an), make it read naturally, and incorporate all three elements.
+Example: "An exhausted capybara and a gourmet bear are superheroes dealing with everyday problems in the microscopic world"
 
-## Step 4: Write Improv Dialog
-Create a hilarious, work-appropriate improv dialog featuring these characters in the given situation and place.
+Use proper articles (a/an), make it read naturally, and incorporate the place and situation.
+
+## Step 5: Write the Improv
+Create a hilarious, work-appropriate improv featuring the character(s) you chose in Step 4.
 
 Requirements:
-- Write a dialog between the characters (formatted as "CHARACTER NAME: \"dialog line\"")
-- Each character should have at least 3-5 lines of dialog
-- You are allowed to add extra side characters if needed for the scenario or for comedic effect, but keep the focus on the main characters.
-    - For example, two teachers main characters dealing with students that have outragous excuses for not doing their homework could add one or two hilarious student characters with a minimal set of lines.
-- The dialog should be funny, witty, and capture the absurdity of the situation
-- Use the characters' adjectives to inform their personality and how they speak
+- Format lines as "CHARACTER NAME: \"dialog line\""
+- Keep it somewhat concise: 30 total lines maximum. Quality over quantity!
+- If MONOLOGUE mode: Write a solo performance. The character talks to themselves, the audience, or narrates their situation. Side characters may briefly appear for comedic effect.
+- If DIALOGUE mode: Write exchanges between your chosen main characters (2-3 from the pool).
+- Side characters can randomly enter the scene for comedic effect (e.g., a waiter, a passerby, an announcer)
+- Use the characters' adjectives to inform their personality and speech patterns
+- The piece should be funny, witty, and capture the absurdity of the situation
 - Keep it clean and work-appropriate
 - Make it very funny and unexpected!
-- The dialog should have a clear beginning, middle, and punchline ending
+- Have a clear beginning, middle, and punchline ending
+- Remember: short and punchy is funnier than long and rambling!
 
-## Step 5: Update README.md
+## Step 6: Update README.md
 Write a new README.md file with this EXACT structure:
 
 ```markdown
@@ -206,7 +259,7 @@ Write a new README.md file with this EXACT structure:
 
 **Days running a fully-autonomous agent that updates my README: [NEW DAY COUNT]**
 
-[Your narrative title here - the sentence you created in Step 3]
+[Your narrative title here - the sentence you created in Step 4]
 
 ---
 
@@ -224,8 +277,9 @@ Write a new README.md file with this EXACT structure:
 *1. Generates random characters (adjective + animal combinations)*
 *2. Picks a random place and improv situation*
 *3. Invents a NEW scenario and adds it to the collection*
-*4. Writes a hilarious dialog between the characters*
-*5. Automatically commits and pushes via GitHub Actions*
+*4. Adds a NEW funny adjective to the character pool*
+*5. Writes a hilarious dialog between the characters*
+*6. Automatically commits and pushes via GitHub Actions*
 
 *Last updated: {timestamp}*
 ```
@@ -235,7 +289,7 @@ IMPORTANT:
 - Example: HUNGRY BEAR: "I can't focus on this meeting, I'm starving!"
 - The narrative title should be in regular text (not bold, not italicized)
 
-## Step 6: Commit and Push to GitHub
+## Step 7: Commit and Push to GitHub
 After updating all files, commit and push your changes:
 
 1. Stage all changes: `git add .`
@@ -245,9 +299,10 @@ After updating all files, commit and push your changes:
 
 Report your progress as you complete each step. Show me:
 1. The new scenario you invented
-2. The narrative title
-3. The dialog
-4. Git commit result"""
+2. The new adjective you added
+3. The narrative title
+4. The dialog
+5. Git commit result"""
         )
 
         # Stream Claude's response and print progress

@@ -42,3 +42,4 @@ pirate
 samurai
 vampire
 zombie
+unhinged
