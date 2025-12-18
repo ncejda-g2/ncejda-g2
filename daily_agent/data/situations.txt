@@ -1,24 +1,24 @@
-A support group for fictional phobias.
-A job interview for absurd positions.
+A support group for a fictional phobia or phobias.
+A job interview for an absurd position.
 Superheroes dealing with everyday problems.
 A family dinner where everyone speaks in rhyme.
-News anchors reporting on bizarre events.
+News anchor(s) reporting on bizarre events.
 Therapy session for inanimate objects.
-Time travelers trying to fit into different eras.
-Animals navigating the challenges of human life.
-Aliens attempting to understand Earth customs.
-Historical figures attending a modern-day party.
+Time traveler(s) trying to fit into a different era.
+Animal(s) navigating the challenges of human life.
+Alien(s) attempting to understand Earth customs.
+Historical figure(s) attending a modern-day party.
 A courtroom drama with ridiculous charges.
-Fairy tale characters in a group therapy session.
-Sports commentators for unusual competitions.
+Fairy tale characters baterting with absurd items.
+Sports commentators for an unusual competition.
 Job candidates with peculiar skills.
-Insects navigating human-sized obstacles.
-Teachers dealing with bizarre student excuses.
+Insect(s) navigating human-sized obstacles.
+Teacher(s) dealing with bizarre student excuses.
 Characters in a musical where every line is a song.
-Ghosts haunting a comedy club.
+Ghost(s) haunting a comedy club.
 Characters trapped in a never-ending meeting.
 Unusual superheroes with bizarre powers.
-An insane flight attendant is caught in a lab accident in Miami.
+A flight attendant caught in a lab accident.
 A scientist comes to an uncomfortable realization in Washington D.C.
 Passengers must return money stolen from the mob.
 Rival pilots battle zombies on the way to a friend's house.
@@ -32,4 +32,5 @@ A bad chef comes to town.
 A prankster meets someone he thought had died in Brazil.
 A medieval knight tries to cancel their gym membership over the phone.
 A food truck operator discovers their menu has become sentient.
-A marine biologist must negotiate a peace treaty between warring underwater civilizations.
+A marine biologist must negotiate a peace treaty between warring civilizations using only symbols, but both parties misundertand the message but for very different cultural reasons.
+A princess inherits a haunted castle, but ghost agrees to leave the castle if the princess fulfils their last remaining earthly wish.

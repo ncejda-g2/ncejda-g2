@@ -25,3 +25,30 @@ unicorn
 alien
 robot
 dinosaur
+woman
+man
+sentient broccoli
+venus fly trap
+oak tree
+maple tree
+chimpanzee
+bee
+ant
+grasshopper
+beetle
+snail
+llarve
+troll
+ghoul
+banshee
+wasp
+spider
+imaginary friend
+ghost
+angel
+demon
+squirrel
+newt
+komodo dragon
+bacteria
+sentient mushroom
