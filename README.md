@@ -1,108 +1,98 @@
-# Today's Improv (2025-12-18)
+# Today's Improv (2025-12-19)
 
-**Days running a fully-autonomous agent that updates my README: 5**
+**Days running a fully-autonomous agent that updates my README: 6**
 
-A rockstar unicorn, a rotund chicken, and a diligent armadillo find themselves in a volcano where an aging butler fights for her inheritance
+A hoity-toity bee, a brave snail, and an excited armadillo find themselves in a swamp where an aging butler fights for her inheritance
 
 ---
 
-ROCKSTAR UNICORN: "*shredding air guitar on horn* DUDES! This volcano is the PERFECT venue for my comeback tour! The acoustics are INSANE!"
+HOITY-TOITY BEE: "*adjusting tiny monocle* I'll have you know, I served the Duchess of Marshland for FIFTY years! Fifty years of impeccable service in this wretched swamp!"
 
-AGING BUTLER: "*clutching a scroll of inheritance documents* For the last time, this is NOT a concert venue! This is the reading of Lady Vesuvius's will, and I am her RIGHTFUL heir!"
+BRAVE SNAIL: "*slowly emerging from shell with legal documents* As... the... estate... attorney... I... must... inform... you..."
 
-ROTUND CHICKEN: "*fanning self with wing* It's too hot for drama, Gladys. Also, why are we having a will reading IN an actual volcano? Couldn't we do this at a nice air-conditioned lawyer's office?"
+EXCITED ARMADILLO: "OH MY GOSH, IS THIS A REAL WILL READING?! I've never been to one! This is SO COOL! Can I take pictures?!"
 
-DILIGENT ARMADILLO: "*taking notes methodically* According to the documents, Lady Vesuvius specifically requested her will be read 'in the heart of Mount Krakatoa, where the lava flows freely and the dramatic lighting is optimal.' Section 3, paragraph 7."
+HOITY-TOITY BEE: "*buzzing indignantly* This is NOT a spectator sport, you uncultured clod! This is about MY rightful inheritance! I polished her lily pads! I organized her collection of moss! I pretended her poetry was good!"
 
-ROCKSTAR UNICORN: "YEAH! The lady had TASTE! *plays power chord on horn* This place ROCKS! Literally!"
+BRAVE SNAIL: "...that... the... Duchess... left... her... entire... fortune..."
 
-AGING BUTLER: "I served Lady Vesuvius for FORTY-THREE YEARS! I ironed her capes! I polished her collection of cursed amulets! I pretended not to notice when she turned dinner guests into newts!"
+EXCITED ARMADILLO: "OOH OOH, let me guess! To the bee, right? Because of all that lily pad polishing? That's gotta count for something!"
 
-ROTUND CHICKEN: "Okay, but did you READ the will? Because I'm the executor, and there's a... situation."
+HOITY-TOITY BEE: "OBVIOUSLY to me! Who ELSE would she leave it to? I was her ONLY companion in this godforsaken bog!"
 
-DILIGENT ARMADILLO: "*adjusting reading glasses* The will states, and I quote: 'To my faithful butler Gladys, I leave my entire fortune... IF and ONLY IF she can rock out harder than any unicorn present at the reading.'"
+BRAVE SNAIL: "...to... whoever... can... successfully... navigate... the... Swamp... of... Eternal... Inconvenience..."
 
-ROCKSTAR UNICORN: "*stops mid-riff* Wait, WHAT?!"
+HOITY-TOITY BEE: "*wings drooping* The WHAT now?"
 
-AGING BUTLER: "That's... that's preposterous! I'm seventy-six years old! I have sciatica!"
+EXCITED ARMADILLO: "THE SWAMP OF ETERNAL INCONVENIENCE! Oh man, I've heard about this place! It's like, everything is just slightly annoying all the time!"
 
-ROTUND CHICKEN: "Lady Vesuvius was very specific. She said, 'Gladys has been uptight for four decades. It's time she learned to let loose or let go.'"
+BRAVE SNAIL: "...within... twenty-four... hours. The... bee... must... compete... against... any... other... claimants..."
 
-DILIGENT ARMADILLO: "There's also a clause that if the butler refuses, the entire estate goes to 'whoever can prove they're the most metal creature in the volcano.' Currently, the unicorn is the front-runner."
+MYSTERIOUS FROG: "*suddenly appearing* DID SOMEONE SAY INHERITANCE CHALLENGE?!"
 
-ROCKSTAR UNICORN: "*preening* I mean, I DO have a glitter mane and I once played a solo so sick that Mount Olympus erupted. Not bragging, just facts."
+HOITY-TOITY BEE: "WHO IN THE NAME OF REFINED SOCIETY ARE YOU?!"
 
-AGING BUTLER: "*voice cracking* But... but I don't know how to rock out! I know how to fold napkins into swans! I know seventeen different ways to serve tea!"
+MYSTERIOUS FROG: "I'm Gerald, the Duchess's third cousin twice removed! I'm here to claim what's MINE!"
 
-ROTUND CHICKEN: "Then I guess the unicorn gets the seven million dollars, the castle, and the collection of enchanted Elvis memorabilia."
+EXCITED ARMADILLO: "This is getting SPICY! We've got DRAMA! We've got COMPETITION! We've got a snail who talks like he's buffering!"
 
-AGING BUTLER: "ENCHANTED ELVIS MEMORABILIA?! Lady Vesuvius promised me those! I helped her steal them from Graceland in 1977!"
+BRAVE SNAIL: "...I... have... excellent... internet... actually..."
 
-DILIGENT ARMADILLO: "*flipping through papers* It says here you were the getaway driver. Very impressive for a butler."
+HOITY-TOITY BEE: "You absolute CHARLATAN, Gerald! You visited the Duchess ONCE, and you ate all her fancy algae appetizers!"
 
-ROCKSTAR UNICORN: "Look, Gladys, I'll be honest—I don't even WANT the money. I just came because the invitation said there'd be punch and dramatic volcanic backdrops. But if you want to beat me, you gotta FEEL it! *stomps hoof* Channel your inner rebel!"
+MYSTERIOUS FROG: "They were DELICIOUS and I have NO REGRETS! Now, where's this swamp we have to navigate?"
 
-AGING BUTLER: "*stiffly* I don't... I don't have an inner rebel."
+EXCITED ARMADILLO: "*pointing* Oh, you're standing in it! The Swamp of Eternal Inconvenience is... well, it's just this swamp, but everything goes wrong in small, annoying ways!"
 
-ROTUND CHICKEN: "Oh, PLEASE. You stole Elvis's stuff from Graceland. You served a witch for forty-three years. You're standing in a VOLCANO right now and you're not even sweating. You're metal as hell, Gladys."
+HOITY-TOITY BEE: "That's preposterous! I've lived here for decades! How hard could it possibly—"
 
-DILIGENT ARMADILLO: "Statistically speaking, butlers who work for chaotic evil employers have a 94% higher tolerance for insanity than the general population. You've got this."
+*Bee's monocle immediately falls into murky water*
 
-AGING BUTLER: "*looking at the lava, then at the scroll, then at the unicorn* Lady Vesuvius always said I needed to 'embrace the chaos'..."
+HOITY-TOITY BEE: "...be."
 
-ROCKSTAR UNICORN: "That's the SPIRIT! Here, borrow my horn. It's wireless and has seventeen whammy bar settings."
+MYSTERIOUS FROG: "*confidently hopping forward* HAH! I've got this! Frogs are MADE for swamps! Watch me— *gets tangled in a hanging vine that's just at head height*"
 
-AGING BUTLER: "*taking the horn hesitantly* I can't believe I'm doing this. If my mother could see me now—"
+EXCITED ARMADILLO: "Oh no! The Inconvenience has begun! This is AMAZING! Should I be taking notes?"
 
-ROTUND CHICKEN: "Your mother is literally watching from that portrait. I saw it wink."
+BRAVE SNAIL: "*still holding documents* ...the... rules... state... that... inconveniences... will... multiply..."
 
-AGING BUTLER: "*suddenly possessed by decades of repressed rock energy* ALRIGHT, YOU WANT METAL?! *strikes power chord that causes the volcano to rumble* I SERVED LADY VESUVIUS THROUGH THREE DEMONIC POSSESSIONS, TWO APOCALYPSES, AND A VERY UNCOMFORTABLE PHASE WHERE SHE ONLY SPOKE IN HAIKUS! I EARNED THAT ELVIS COLLECTION!"
+HOITY-TOITY BEE: "*attempting to fly but keep getting caught in spiderwebs* This is BENEATH me! I am a PROFESSIONAL! I once served tea during a hurricane!"
 
-DILIGENT ARMADILLO: "*impressed* Oh my. The lava is... dancing?"
+MYSTERIOUS FROG: "*stuck in vine* Little help here?!"
 
-ROCKSTAR UNICORN: "*headbanging enthusiastically* YEAH, GLADYS! SHRED IT!"
+EXCITED ARMADILLO: "I mean, I COULD help, but I'm technically a witness, and also this is hilarious. Your left leg is also in a different vine now."
 
-AGING BUTLER: "*getting into it* AND ANOTHER THING! *riffs intensify* I AM TIRED OF FOLDING NAPKINS! I AM TIRED OF SAYING 'YES, M'LADY'! I WANT TO WEAR LEATHER JACKETS AND EAT CEREAL FOR DINNER!"
+HOITY-TOITY BEE: "*finally free, covered in web* Ugh! And now my stripes are asymmetrical! This is a NIGHTMARE!"
 
-ROTUND CHICKEN: "*wiping away a tear* She's finally free..."
+BRAVE SNAIL: "...the... first... one... to... reach... the... Duchess's... memorial... gazebo... wins..."
 
-AGING BUTLER: "*one final epic solo that causes the volcano to shoot fireworks* AND I AM KEEPING THE ELVIS STUFF! *drops horn, which lands perfectly upright*"
+EXCITED ARMADILLO: "Wait, where's the gazebo?"
 
-*Silence. Even the lava seems stunned.*
+BRAVE SNAIL: "*pointing very slowly in the distance* ...there..."
 
-ROCKSTAR UNICORN: "*slow clap* Okay. You win. That was the most metal thing I've ever seen, and I once saw a dragon eat a motorcycle."
+HOITY-TOITY BEE AND MYSTERIOUS FROG: "*squinting* "WHERE?!"
 
-DILIGENT ARMADILLO: "*stamping documents* The will is satisfied. Congratulations, Gladys. You are now the proud owner of a seven-million-dollar estate, one haunted castle, and a leisure suit worn by Elvis in 1973 that may or may not grant wishes."
+EXCITED ARMADILLO: "Oh! I see it! It's like... really far. And there's a bunch of mud puddles between here and there that look like they're EXACTLY the wrong depth to walk through comfortably!"
 
-AGING BUTLER: "*breathing heavily* Did I just... did I just rock out in a volcano?"
+HOITY-TOITY BEE: "*straightening up with dignity* Very well. I may be a bee of refined tastes, but I shall persevere through this indignity. For the Duchess. And for that sweet, sweet inheritance money."
 
-ROTUND CHICKEN: "You didn't just rock out. You DESTROYED. I got that whole thing on video. We could sell it to MTV. Do they still exist?"
+MYSTERIOUS FROG: "*finally untangled* You're going DOWN, bee! I didn't drive four hours through traffic for nothing!"
 
-ROCKSTAR UNICORN: "Gladys, I gotta say—you've got TALENT. Ever thought about joining a band? I'm starting a supergroup called 'The Elderly and the Furious.'"
+EXCITED ARMADILLO: "Oh man, four hours? Did you take the highway?"
 
-AGING BUTLER: "*straightening her uniform, but with a new swagger* Mr. Unicorn, I have forty-three years of repressed rage and a newly acquired fortune. I'll think about it."
+MYSTERIOUS FROG: "Yes, and there was construction the ENTIRE way! Lane closures! Detours! Someone spilled a truck full of tennis balls!"
 
-DILIGENT ARMADILLO: "Also, according to footnote 47, there's a bonus clause: 'If Gladys rocks out successfully, she also gets my motorcycle collection.' There are fourteen motorcycles. All enchanted."
+EXCITED ARMADILLO: "The inconvenience has been following you the WHOLE TIME! Gerald, you're CURSED!"
 
-AGING BUTLER: "*eyes lighting up* Enchanted motorcycles, you say?"
+BRAVE SNAIL: "...on... your... marks... get... set..."
 
-ROTUND CHICKEN: "Oh no. She's got the look. The 'I'm about to do something wild' look."
+*Everyone waits*
 
-AGING BUTLER: "*picking up the horn again* Gentlemen. And chicken. And armadillo. Let's take this show on the road. LITERALLY."
+BRAVE SNAIL: "...go."
 
-ROCKSTAR UNICORN: "THAT'S WHAT I'M TALKING ABOUT! *high-hoofs Gladys* WORLD TOUR 2025! BUTLER'S REVENGE!"
+*Bee immediately flies into a low-hanging branch. Frog hops into a puddle that's somehow both too shallow and too deep. Armadillo cheers enthusiastically.*
 
-DILIGENT ARMADILLO: "*already drafting tour contracts* I'll need everyone to initial here, here, and here. Also, we'll need insurance. Volcanic insurance is surprisingly affordable."
-
-ROTUND CHICKEN: "I'll be the tour manager. Someone's gotta make sure you lunatics eat vegetables."
-
-AGING BUTLER: "*revving an invisible motorcycle* Lady Vesuvius, wherever you are... thank you for the weird, weird gift."
-
-*A ghostly voice echoes through the volcano: "YOU'RE WELCOME, GLADYS. ALSO, YOU'RE FIRED. GO LIVE YOUR BEST LIFE."*
-
-ROCKSTAR UNICORN: "Did the volcano just—"
-
-DILIGENT ARMADILLO: "Let's not question it. I've learned not to question things in this job."
+EXCITED ARMADILLO: "This is the BEST will reading EVER!"
 
 ---
 
@@ -110,7 +100,8 @@ DILIGENT ARMADILLO: "Let's not question it. I've learned not to question things 
 *1. Generates random characters (adjective + animal combinations)*
 *2. Picks a random place and improv situation*
 *3. Invents a NEW scenario and adds it to the collection*
-*4. Writes a hilarious dialog between the characters*
-*5. Automatically commits and pushes via GitHub Actions*
+*4. Adds a NEW funny adjective to the character pool*
+*5. Writes a hilarious dialog between the characters*
+*6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2025-12-18*
+*Last updated: 2025-12-19*
