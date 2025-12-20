@@ -1,98 +1,80 @@
-# Today's Improv (2025-12-19)
+# Today's Improv (2025-12-20)
 
-**Days running a fully-autonomous agent that updates my README: 6**
+**Days running a fully-autonomous agent that updates my README: 7**
 
-A hoity-toity bee, a brave snail, and an excited armadillo find themselves in a swamp where an aging butler fights for her inheritance
+A hippie man and a punk hedgehog witness an aging butler fighting for her inheritance in the Fairy Tale Forest
 
 ---
 
-HOITY-TOITY BEE: "*adjusting tiny monocle* I'll have you know, I served the Duchess of Marshland for FIFTY years! Fifty years of impeccable service in this wretched swamp!"
+HIPPIE MAN: "*sitting cross-legged under a tree* Whoa, man, do you feel that? The forest's energy is, like, totally chaotic today."
 
-BRAVE SNAIL: "*slowly emerging from shell with legal documents* As... the... estate... attorney... I... must... inform... you..."
+PUNK HEDGEHOG: "*spray-painting graffiti on a toadstool* Yeah, dude. It's probably because of that ancient badger in the butler uniform screaming at that oak tree."
 
-EXCITED ARMADILLO: "OH MY GOSH, IS THIS A REAL WILL READING?! I've never been to one! This is SO COOL! Can I take pictures?!"
+ELDERLY BADGER BUTLER: "*shaking her fist at the tree* YOU THINK YOU CAN JUST GROW THERE AND MOCK ME?! I SERVED THE FAIRWEATHER FAMILY FOR SIXTY-THREE YEARS!"
 
-HOITY-TOITY BEE: "*buzzing indignantly* This is NOT a spectator sport, you uncultured clod! This is about MY rightful inheritance! I polished her lily pads! I organized her collection of moss! I pretended her poetry was good!"
+HIPPIE MAN: "Oh man, that's some heavy negative vibes. Should we, like, intervene? Spread some peace?"
 
-BRAVE SNAIL: "...that... the... Duchess... left... her... entire... fortune..."
+PUNK HEDGEHOG: "Nah, let's watch. This is way more entertaining than my existential crisis about conformity."
 
-EXCITED ARMADILLO: "OOH OOH, let me guess! To the bee, right? Because of all that lily pad polishing? That's gotta count for something!"
+ELDERLY BADGER BUTLER: "*turning to them* YOU TWO! You're witnesses! Tell the magistrate that I, Gertrude Von Whiskers, am the RIGHTFUL heir to the Fairweather Fortune!"
 
-HOITY-TOITY BEE: "OBVIOUSLY to me! Who ELSE would she leave it to? I was her ONLY companion in this godforsaken bog!"
+HIPPIE MAN: "Uh, we just got here, sister. We don't know anything about your fortune, but I can offer you some crystals for inner harmony?"
 
-BRAVE SNAIL: "...to... whoever... can... successfully... navigate... the... Swamp... of... Eternal... Inconvenience..."
+ELDERLY BADGER BUTLER: "I DON'T NEED CRYSTALS! I need LEGAL DOCUMENTATION proving that Lady Fairweather left everything to ME and not to her ungrateful nephew, REGINALD!"
 
-HOITY-TOITY BEE: "*wings drooping* The WHAT now?"
+PUNK HEDGEHOG: "*stops spray-painting* Wait, Reginald? That pompous squirrel in the top hat? That guy's the WORST. He told me my quills were 'unkempt.'"
 
-EXCITED ARMADILLO: "THE SWAMP OF ETERNAL INCONVENIENCE! Oh man, I've heard about this place! It's like, everything is just slightly annoying all the time!"
+REGINALD THE SQUIRREL: "*emerging from behind a bush in a velvet waistcoat* Gertrude, PLEASE. This is unbecoming. Auntie left her estate to FAMILY, not the help."
 
-BRAVE SNAIL: "...within... twenty-four... hours. The... bee... must... compete... against... any... other... claimants..."
+ELDERLY BADGER BUTLER: "THE HELP?! I raised you, you ungrateful acorn-hoarder! I taught you how to use a FORK!"
 
-MYSTERIOUS FROG: "*suddenly appearing* DID SOMEONE SAY INHERITANCE CHALLENGE?!"
+HIPPIE MAN: "*standing up peacefully* Okay, okay, let's all just breathe. In... and out... Can't we all just share the inheritance? Possessions are just, like, illusions anyway, man."
 
-HOITY-TOITY BEE: "WHO IN THE NAME OF REFINED SOCIETY ARE YOU?!"
+PUNK HEDGEHOG: "No, no, I'm with Gertrude on this one. Reginald's a poser. I say we settle this with a battle of the bands."
 
-MYSTERIOUS FROG: "I'm Gerald, the Duchess's third cousin twice removed! I'm here to claim what's MINE!"
+REGINALD THE SQUIRREL: "A WHAT?!"
 
-EXCITED ARMADILLO: "This is getting SPICY! We've got DRAMA! We've got COMPETITION! We've got a snail who talks like he's buffering!"
+ROTUND SENTIENT MUSHROOM: "*suddenly popping out of the ground* Did someone say BATTLE?! I'll be the judge! I've been growing here for 400 years! I've seen EVERYTHING!"
 
-BRAVE SNAIL: "...I... have... excellent... internet... actually..."
+ELDERLY BADGER BUTLER: "This is NOT about music! This is about my LIFE'S WORK! My DIGNITY!"
 
-HOITY-TOITY BEE: "You absolute CHARLATAN, Gerald! You visited the Duchess ONCE, and you ate all her fancy algae appetizers!"
+HIPPIE MAN: "Heavy, man. But like, what if the REAL inheritance was the friends we made along the way?"
 
-MYSTERIOUS FROG: "They were DELICIOUS and I have NO REGRETS! Now, where's this swamp we have to navigate?"
+PUNK HEDGEHOG: "Dude, we literally just met these people five minutes ago."
 
-EXCITED ARMADILLO: "*pointing* Oh, you're standing in it! The Swamp of Eternal Inconvenience is... well, it's just this swamp, but everything goes wrong in small, annoying ways!"
+HIPPIE MAN: "Exactly! Cosmic connections, bro!"
 
-HOITY-TOITY BEE: "That's preposterous! I've lived here for decades! How hard could it possibly—"
+ROTUND SENTIENT MUSHROOM: "*authoritatively* According to Forest Law Section 42, subsection 7, inheritance disputes must be settled by... *checks notes made of moss* ...whoever can find Lady Fairweather's hidden will first."
 
-*Bee's monocle immediately falls into murky water*
+REGINALD THE SQUIRREL: "Hidden will? But I already HAVE the will!"
 
-HOITY-TOITY BEE: "...be."
+ROTUND SENTIENT MUSHROOM: "That's the FAKE will. The real one is hidden somewhere in this forest. Lady Fairweather told me on her deathbed. Said something about 'testing their worthiness.'"
 
-MYSTERIOUS FROG: "*confidently hopping forward* HAH! I've got this! Frogs are MADE for swamps! Watch me— *gets tangled in a hanging vine that's just at head height*"
+ELDERLY BADGER BUTLER: "*eyes narrowing* She WOULD do something like that. She loved games."
 
-EXCITED ARMADILLO: "Oh no! The Inconvenience has begun! This is AMAZING! Should I be taking notes?"
+PUNK HEDGEHOG: "Yo, this just turned into a treasure hunt! Can we join?"
 
-BRAVE SNAIL: "*still holding documents* ...the... rules... state... that... inconveniences... will... multiply..."
+HIPPIE MAN: "Man, I'm in! This is way better than my vision quest!"
 
-HOITY-TOITY BEE: "*attempting to fly but keep getting caught in spiderwebs* This is BENEATH me! I am a PROFESSIONAL! I once served tea during a hurricane!"
+REGINALD THE SQUIRREL: "*adjusting his monocle nervously* This is PREPOSTEROUS! I'm calling my lawyer!"
 
-MYSTERIOUS FROG: "*stuck in vine* Little help here?!"
+ELDERLY BADGER BUTLER: "*cracking her knuckles* You do that, Reginald. Meanwhile, I'm going to search every mushroom circle, fairy ring, and enchanted glade until I find that will!"
 
-EXCITED ARMADILLO: "I mean, I COULD help, but I'm technically a witness, and also this is hilarious. Your left leg is also in a different vine now."
+ROTUND SENTIENT MUSHROOM: "First clue: It's buried where the moonlight never touches and the moss grows thickest."
 
-HOITY-TOITY BEE: "*finally free, covered in web* Ugh! And now my stripes are asymmetrical! This is a NIGHTMARE!"
+HIPPIE MAN: "Whoa, that's like... everywhere in a forest, man."
 
-BRAVE SNAIL: "...the... first... one... to... reach... the... Duchess's... memorial... gazebo... wins..."
+PUNK HEDGEHOG: "Yeah, this is gonna take forever. I respect that. Let's burn the system down by participating in it ironically."
 
-EXCITED ARMADILLO: "Wait, where's the gazebo?"
+ELDERLY BADGER BUTLER: "*already marching off* FOLLOW ME OR DON'T! I'M GETTING WHAT'S MINE!"
 
-BRAVE SNAIL: "*pointing very slowly in the distance* ...there..."
+REGINALD THE SQUIRREL: "*scrambling after her* WAIT! GERTRUDE! Let's discuss this rationally!"
 
-HOITY-TOITY BEE AND MYSTERIOUS FROG: "*squinting* "WHERE?!"
+ROTUND SENTIENT MUSHROOM: "*calling after them* My legal fees are three acorns per hour!"
 
-EXCITED ARMADILLO: "Oh! I see it! It's like... really far. And there's a bunch of mud puddles between here and there that look like they're EXACTLY the wrong depth to walk through comfortably!"
+HIPPIE MAN: "*to the hedgehog* Should we tell them the mushroom isn't actually a lawyer?"
 
-HOITY-TOITY BEE: "*straightening up with dignity* Very well. I may be a bee of refined tastes, but I shall persevere through this indignity. For the Duchess. And for that sweet, sweet inheritance money."
-
-MYSTERIOUS FROG: "*finally untangled* You're going DOWN, bee! I didn't drive four hours through traffic for nothing!"
-
-EXCITED ARMADILLO: "Oh man, four hours? Did you take the highway?"
-
-MYSTERIOUS FROG: "Yes, and there was construction the ENTIRE way! Lane closures! Detours! Someone spilled a truck full of tennis balls!"
-
-EXCITED ARMADILLO: "The inconvenience has been following you the WHOLE TIME! Gerald, you're CURSED!"
-
-BRAVE SNAIL: "...on... your... marks... get... set..."
-
-*Everyone waits*
-
-BRAVE SNAIL: "...go."
-
-*Bee immediately flies into a low-hanging branch. Frog hops into a puddle that's somehow both too shallow and too deep. Armadillo cheers enthusiastically.*
-
-EXCITED ARMADILLO: "This is the BEST will reading EVER!"
+PUNK HEDGEHOG: "Nah. This is the most punk thing I've ever witnessed. A badger butler versus capitalism."
 
 ---
 
@@ -104,4 +86,4 @@ EXCITED ARMADILLO: "This is the BEST will reading EVER!"
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2025-12-19*
+*Last updated: 2025-12-20*
