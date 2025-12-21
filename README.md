@@ -1,80 +1,60 @@
-# Today's Improv (2025-12-20)
+# Today's Improv (2025-12-21)
 
-**Days running a fully-autonomous agent that updates my README: 7**
+**Days running a fully-autonomous agent that updates my README: 8**
 
-A hippie man and a punk hedgehog witness an aging butler fighting for her inheritance in the Fairy Tale Forest
+A geeky spider, a diligent woman, and an arrogant demon are trapped by a hurricane on a pirate ship
 
 ---
 
-HIPPIE MAN: "*sitting cross-legged under a tree* Whoa, man, do you feel that? The forest's energy is, like, totally chaotic today."
+GEEKY SPIDER: "*adjusting tiny glasses on multiple eyes while clinging to rigging* According to my calculations, the hurricane's eye will pass over us in approximately 47 minutes! Also, I've been meaning to mention—I think we're cursed."
 
-PUNK HEDGEHOG: "*spray-painting graffiti on a toadstool* Yeah, dude. It's probably because of that ancient badger in the butler uniform screaming at that oak tree."
+DILIGENT WOMAN: "*organizing barrels alphabetically while the ship rocks violently* Cursed? That would explain the checklist. I've crossed off 'bail water,' 'secure cargo,' and 'question life choices,' but there's a mysterious item here that just says 'break curse.' No instructions!"
 
-ELDERLY BADGER BUTLER: "*shaking her fist at the tree* YOU THINK YOU CAN JUST GROW THERE AND MOCK ME?! I SERVED THE FAIRWEATHER FAMILY FOR SIXTY-THREE YEARS!"
+ARROGANT DEMON: "*lounging on the captain's chair, completely unfazed* Of COURSE we're cursed. I cursed us. Three hours ago. You mortals really need to pay more attention."
 
-HIPPIE MAN: "Oh man, that's some heavy negative vibes. Should we, like, intervene? Spread some peace?"
+GEEKY SPIDER: "YOU WHAT?! Why would you curse your own shipmates during a HURRICANE?!"
 
-PUNK HEDGEHOG: "Nah, let's watch. This is way more entertaining than my existential crisis about conformity."
+ARROGANT DEMON: "I was bored. Plus, you kept correcting my sea shanty lyrics. It's 'yo ho,' not 'yo HO,' apparently. Very passive-aggressive of you, spider."
 
-ELDERLY BADGER BUTLER: "*turning to them* YOU TWO! You're witnesses! Tell the magistrate that I, Gertrude Von Whiskers, am the RIGHTFUL heir to the Fairweather Fortune!"
+DILIGENT WOMAN: "*still organizing* Okay, this is fine. I'll just add 'un-curse ourselves' to the to-do list. Right after 'survive storm' and before 'find dry clothes.' Can you uncurse us?"
 
-HIPPIE MAN: "Uh, we just got here, sister. We don't know anything about your fortune, but I can offer you some crystals for inner harmony?"
+ARROGANT DEMON: "I COULD, but where's the fun in that? The curse is that we can't leave the ship until someone admits they're wrong about something. Should be simple for lesser beings like yourselves."
 
-ELDERLY BADGER BUTLER: "I DON'T NEED CRYSTALS! I need LEGAL DOCUMENTATION proving that Lady Fairweather left everything to ME and not to her ungrateful nephew, REGINALD!"
+GEEKY SPIDER: "*indignant* Excuse me? I am NEVER wrong! Do you know how many PhD dissertations I've peer-reviewed? Seventeen! All on maritime arachnid behavior!"
 
-PUNK HEDGEHOG: "*stops spray-painting* Wait, Reginald? That pompous squirrel in the top hat? That guy's the WORST. He told me my quills were 'unkempt.'"
+DILIGENT WOMAN: "I keep meticulous records. I've been right about everything since 2003. I have spreadsheets."
 
-REGINALD THE SQUIRREL: "*emerging from behind a bush in a velvet waistcoat* Gertrude, PLEASE. This is unbecoming. Auntie left her estate to FAMILY, not the help."
+ARROGANT DEMON: "*grinning* And I'm a DEMON. We literally invented being right. This is going to take a while."
 
-ELDERLY BADGER BUTLER: "THE HELP?! I raised you, you ungrateful acorn-hoarder! I taught you how to use a FORK!"
+GEEKY SPIDER: "*as a wave crashes over the deck* Wait, wait! What if we're ALL wrong about something simultaneously? Would that break the curse through a logical paradox?"
 
-HIPPIE MAN: "*standing up peacefully* Okay, okay, let's all just breathe. In... and out... Can't we all just share the inheritance? Possessions are just, like, illusions anyway, man."
+ARROGANT DEMON: "That's... actually clever. I hate that you thought of it first."
 
-PUNK HEDGEHOG: "No, no, I'm with Gertrude on this one. Reginald's a poser. I say we settle this with a battle of the bands."
+DILIGENT WOMAN: "*pulling out waterproof notebook* I'll make a list of things we might be wrong about. Number one: perhaps organizing barrels during a hurricane isn't the MOST urgent task."
 
-REGINALD THE SQUIRREL: "A WHAT?!"
+GEEKY SPIDER: "And maybe... just maybe... citing my sources during a life-threatening situation is slightly annoying."
 
-ROTUND SENTIENT MUSHROOM: "*suddenly popping out of the ground* Did someone say BATTLE?! I'll be the judge! I've been growing here for 400 years! I've seen EVERYTHING!"
+ARROGANT DEMON: "*long pause* Fine. FINE! Perhaps cursing people during a natural disaster is... marginally irresponsible."
 
-ELDERLY BADGER BUTLER: "This is NOT about music! This is about my LIFE'S WORK! My DIGNITY!"
+RANDOM PARROT: "*suddenly appearing on the mast* SQUAWK! YOU'RE ALL WRONG! THIS ISN'T EVEN A REAL PIRATE SHIP! IT'S A DINNER CRUISE! SQUAWK!"
 
-HIPPIE MAN: "Heavy, man. But like, what if the REAL inheritance was the friends we made along the way?"
+GEEKY SPIDER: "...What."
 
-PUNK HEDGEHOG: "Dude, we literally just met these people five minutes ago."
+DILIGENT WOMAN: "*checking her notes* Oh no. He's right. The itinerary says 'Caribbean Sunset Experience with Themed Entertainment.'"
 
-HIPPIE MAN: "Exactly! Cosmic connections, bro!"
+ARROGANT DEMON: "So we've been arguing about a curse on a TOURIST ATTRACTION?!"
 
-ROTUND SENTIENT MUSHROOM: "*authoritatively* According to Forest Law Section 42, subsection 7, inheritance disputes must be settled by... *checks notes made of moss* ...whoever can find Lady Fairweather's hidden will first."
+GEEKY SPIDER: "This is the most embarrassing thing that's ever happened to me, and I once got trapped in someone's JavaScript framework documentation for three days."
 
-REGINALD THE SQUIRREL: "Hidden will? But I already HAVE the will!"
+DILIGENT WOMAN: "Does this mean we were all wrong about the fundamental nature of our situation?"
 
-ROTUND SENTIENT MUSHROOM: "That's the FAKE will. The real one is hidden somewhere in this forest. Lady Fairweather told me on her deathbed. Said something about 'testing their worthiness.'"
+ARROGANT DEMON: "*sighs dramatically* Yes. The curse is broken. By a parrot. I'm going back to Hell. At least there, people take my curses SERIOUSLY."
 
-ELDERLY BADGER BUTLER: "*eyes narrowing* She WOULD do something like that. She loved games."
+RANDOM PARROT: "SQUAWK! THE BUFFET IS CLOSED! SQUAWK!"
 
-PUNK HEDGEHOG: "Yo, this just turned into a treasure hunt! Can we join?"
+GEEKY SPIDER: "Well, at least we learned something about humility today."
 
-HIPPIE MAN: "Man, I'm in! This is way better than my vision quest!"
-
-REGINALD THE SQUIRREL: "*adjusting his monocle nervously* This is PREPOSTEROUS! I'm calling my lawyer!"
-
-ELDERLY BADGER BUTLER: "*cracking her knuckles* You do that, Reginald. Meanwhile, I'm going to search every mushroom circle, fairy ring, and enchanted glade until I find that will!"
-
-ROTUND SENTIENT MUSHROOM: "First clue: It's buried where the moonlight never touches and the moss grows thickest."
-
-HIPPIE MAN: "Whoa, that's like... everywhere in a forest, man."
-
-PUNK HEDGEHOG: "Yeah, this is gonna take forever. I respect that. Let's burn the system down by participating in it ironically."
-
-ELDERLY BADGER BUTLER: "*already marching off* FOLLOW ME OR DON'T! I'M GETTING WHAT'S MINE!"
-
-REGINALD THE SQUIRREL: "*scrambling after her* WAIT! GERTRUDE! Let's discuss this rationally!"
-
-ROTUND SENTIENT MUSHROOM: "*calling after them* My legal fees are three acorns per hour!"
-
-HIPPIE MAN: "*to the hedgehog* Should we tell them the mushroom isn't actually a lawyer?"
-
-PUNK HEDGEHOG: "Nah. This is the most punk thing I've ever witnessed. A badger butler versus capitalism."
+DILIGENT WOMAN: "*making notes* Adding 'verify ship authenticity' to my pre-boarding checklist."
 
 ---
 
@@ -86,4 +66,4 @@ PUNK HEDGEHOG: "Nah. This is the most punk thing I've ever witnessed. A badger b
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2025-12-20*
+*Last updated: 2025-12-21*
