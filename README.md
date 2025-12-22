@@ -1,60 +1,68 @@
-# Today's Improv (2025-12-21)
+# Today's Improv (2025-12-22)
 
-**Days running a fully-autonomous agent that updates my README: 8**
+**Days running a fully-autonomous agent that updates my README: 9**
 
-A geeky spider, a diligent woman, and an arrogant demon are trapped by a hurricane on a pirate ship
+A gregarious fox, a rockstar capybara, and an upset lemur are job candidates with peculiar skills in the clouds
 
 ---
 
-GEEKY SPIDER: "*adjusting tiny glasses on multiple eyes while clinging to rigging* According to my calculations, the hurricane's eye will pass over us in approximately 47 minutes! Also, I've been meaning to mention—I think we're cursed."
+GREGARIOUS FOX: "*bouncing excitedly on a cloud* Hello everyone! Wow, what a great group! I'm so excited to be here! My special skill is that I can tell what people are thinking by smelling their socks!"
 
-DILIGENT WOMAN: "*organizing barrels alphabetically while the ship rocks violently* Cursed? That would explain the checklist. I've crossed off 'bail water,' 'secure cargo,' and 'question life choices,' but there's a mysterious item here that just says 'break curse.' No instructions!"
+UPSET LEMUR: "*scowling, arms crossed* Of course that's your skill. Mine is way better. I can predict exactly when you're going to be disappointed. Speaking of which, it's happening right now."
 
-ARROGANT DEMON: "*lounging on the captain's chair, completely unfazed* Of COURSE we're cursed. I cursed us. Three hours ago. You mortals really need to pay more attention."
+ROCKSTAR CAPYBARA: "*strumming air guitar* Dudes, my skill is I can communicate exclusively through power ballads. *singing dramatically* IIIII'M HERE FOR THE JOOOOB!"
 
-GEEKY SPIDER: "YOU WHAT?! Why would you curse your own shipmates during a HURRICANE?!"
+ANGEL INTERVIEWER: "*floating in, looking at clipboard* Thank you all for applying to be Cloud Quality Control Inspectors. Let's start with you, Fox. How would your... sock-smelling ability help us?"
 
-ARROGANT DEMON: "I was bored. Plus, you kept correcting my sea shanty lyrics. It's 'yo ho,' not 'yo HO,' apparently. Very passive-aggressive of you, spider."
+GREGARIOUS FOX: "*sniffing enthusiastically* Oh, it's perfect! I can smell if clouds are happy! Like this one—*sniffs a cloud*—tastes like optimism and vanilla! Wait, that came out wrong. I mean it SMELLS like—"
 
-DILIGENT WOMAN: "*still organizing* Okay, this is fine. I'll just add 'un-curse ourselves' to the to-do list. Right after 'survive storm' and before 'find dry clothes.' Can you uncurse us?"
+UPSET LEMUR: "You're blowing it. I predicted this would happen approximately 40 seconds ago."
 
-ARROGANT DEMON: "I COULD, but where's the fun in that? The curse is that we can't leave the ship until someone admits they're wrong about something. Should be simple for lesser beings like yourselves."
+ROCKSTAR CAPYBARA: "*power slide across cloud* *singing* HEEEEE'S TRYING HIS BEEEEEST, BUT FAILING THE TEEEEST!"
 
-GEEKY SPIDER: "*indignant* Excuse me? I am NEVER wrong! Do you know how many PhD dissertations I've peer-reviewed? Seventeen! All on maritime arachnid behavior!"
+ANGEL INTERVIEWER: "Right. Lemur, you predict disappointment. How is that useful for cloud inspection?"
 
-DILIGENT WOMAN: "I keep meticulous records. I've been right about everything since 2003. I have spreadsheets."
+UPSET LEMUR: "I can tell when clouds are about to fail quality standards before they do. Like that one over there. *points* It's going to turn gray and rain on someone's wedding in 6 minutes."
 
-ARROGANT DEMON: "*grinning* And I'm a DEMON. We literally invented being right. This is going to take a while."
+GREGARIOUS FOX: "But that's such a negative outlook! Have you considered the cloud might be going through something? Maybe it just needs a friend!"
 
-GEEKY SPIDER: "*as a wave crashes over the deck* Wait, wait! What if we're ALL wrong about something simultaneously? Would that break the curse through a logical paradox?"
+UPSET LEMUR: "Your optimism is exhausting. I predict you'll say something cheerful in 3... 2... 1..."
 
-ARROGANT DEMON: "That's... actually clever. I hate that you thought of it first."
+GREGARIOUS FOX: "What a great prediction! You're so talented!"
 
-DILIGENT WOMAN: "*pulling out waterproof notebook* I'll make a list of things we might be wrong about. Number one: perhaps organizing barrels during a hurricane isn't the MOST urgent task."
+UPSET LEMUR: "...I hate that I'm never wrong."
 
-GEEKY SPIDER: "And maybe... just maybe... citing my sources during a life-threatening situation is slightly annoying."
+ROCKSTAR CAPYBARA: "*launching into epic guitar solo air-performance* *singing* WEEEEE COULD WORK TOGETHERRRRR, LIKE CLOUDS AND WHETHERRRRR!"
 
-ARROGANT DEMON: "*long pause* Fine. FINE! Perhaps cursing people during a natural disaster is... marginally irresponsible."
+ANGEL INTERVIEWER: "Do you ONLY communicate through power ballads?"
 
-RANDOM PARROT: "*suddenly appearing on the mast* SQUAWK! YOU'RE ALL WRONG! THIS ISN'T EVEN A REAL PIRATE SHIP! IT'S A DINNER CRUISE! SQUAWK!"
+ROCKSTAR CAPYBARA: "*singing softly* Yeeeeaaaah, it's been a problemmm since the accidennnnnt..."
 
-GEEKY SPIDER: "...What."
+GREGARIOUS FOX: "Ooh! What accident? Tell me everything! I love making new friends and learning their backstories!"
 
-DILIGENT WOMAN: "*checking her notes* Oh no. He's right. The itinerary says 'Caribbean Sunset Experience with Themed Entertainment.'"
+UPSET LEMUR: "Don't ask. I already know how this ends. Disappointingly."
 
-ARROGANT DEMON: "So we've been arguing about a curse on a TOURIST ATTRACTION?!"
+ROCKSTAR CAPYBARA: "*singing emotionally* I WAS STRUCK BY LIGHTNING AT WOODSTOOOOCK, NOW I ONLY SPEAK IN ROCK AND ROLLLLLL!"
 
-GEEKY SPIDER: "This is the most embarrassing thing that's ever happened to me, and I once got trapped in someone's JavaScript framework documentation for three days."
+ANGEL INTERVIEWER: "*rubbing temples* Okay. Final question. How would you three work together as a team?"
 
-DILIGENT WOMAN: "Does this mean we were all wrong about the fundamental nature of our situation?"
+GREGARIOUS FOX: "Amazing! I'd smell everyone's emotional clouds, spread joy, and organize team-building activities!"
 
-ARROGANT DEMON: "*sighs dramatically* Yes. The curse is broken. By a parrot. I'm going back to Hell. At least there, people take my curses SERIOUSLY."
+UPSET LEMUR: "I'd predict all the ways Fox's activities would fail and save us time."
 
-RANDOM PARROT: "SQUAWK! THE BUFFET IS CLOSED! SQUAWK!"
+ROCKSTAR CAPYBARA: "*singing triumphantly* I'D PROVIDE THE SOUNDTRAAAAAACK!"
 
-GEEKY SPIDER: "Well, at least we learned something about humility today."
+ANGEL INTERVIEWER: "You know what? You're all hired. The clouds have been too quiet lately. We need chaos."
 
-DILIGENT WOMAN: "*making notes* Adding 'verify ship authenticity' to my pre-boarding checklist."
+UPSET LEMUR: "I predicted we'd get hired, but I'm still upset about it."
+
+GREGARIOUS FOX: "*hugging everyone* GROUP HUG! This is the best day ever!"
+
+ROCKSTAR CAPYBARA: "*singing* WEEEEE ARE THE CHAMPIONS, MY FRIEEEEENDS!"
+
+UPSET LEMUR: "I give this job three days before something goes horribly wrong."
+
+GREGARIOUS FOX: "What wonderful enthusiasm!"
 
 ---
 
@@ -66,4 +74,4 @@ DILIGENT WOMAN: "*making notes* Adding 'verify ship authenticity' to my pre-boar
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2025-12-21*
+*Last updated: 2025-12-22*

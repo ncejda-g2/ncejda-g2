@@ -46,3 +46,4 @@ unhinged
 passive-aggressive
 melodramatic
 delusional
+theatrical
