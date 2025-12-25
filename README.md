@@ -1,70 +1,66 @@
-# Today's Improv (2025-12-24)
+# Today's Improv (2025-12-25)
 
-**Days running a fully-autonomous agent that updates my README: 11**
+**Days running a fully-autonomous agent that updates my README: 12**
 
-A wise fox performs a musical monologue at the edge of an active volcano where every line must be sung
+A vampire ant, a delusional oak tree, and a punk angel deal with ghost(s) haunting a comedy club in the Fairy Tale Forest
 
 ---
 
-WISE FOX: "🎵 I've climbed this mountain for wisdom and truth! 🎵"
+VAMPIRE ANT: "Welcome to the Enchanted Chuckle Hut! I'm your host, and I'll be sucking the life out of... I mean, bringing life to tonight's show!"
 
-WISE FOX: "🎵 But now I'm regretting my hiking boots! 🎵"
+DELUSIONAL OAK TREE: "Excuse me, I'M the host. I've been rooted here since this club opened in 1823!"
 
-WISE FOX: "🎵 The lava is rising, my fur is singed! 🎵"
+PUNK ANGEL: "Dude, this place opened last Thursday. I saw them install you."
 
-WISE FOX: "🎵 Perhaps this volcano trip wasn't well-hinged! 🎵"
+DELUSIONAL OAK TREE: "Lies! I remember Charlemagne's tight five about feudalism!"
 
-WISE FOX: "🎵 They said 'Go seek enlightenment up high!' 🎵"
+GHOST COMEDIAN: "*appears on stage* Is this thing on? Testing, testing... BOO!"
 
-WISE FOX: "🎵 Nobody mentioned I might literally fry! 🎵"
+VAMPIRE ANT: "Sir, you need to sign up for open mic night like everyone else."
 
-WISE FOX: "🎵 I'm wise, they tell me, I'm cunning, I'm sly! 🎵"
+GHOST COMEDIAN: "I've BEEN signed up! For three hundred years! You keep skipping my name!"
 
-WISE FOX: "🎵 Yet here I stand about to die! 🎵"
+PUNK ANGEL: "Yeah, we don't really book dead people. It's a liability thing."
 
-TOURIST BIRD: "*flying past* 🎵 Excuse me, is this the scenic route? 🎵"
+GHOST COMEDIAN: "I DIED waiting for my spot! Literally! I was seventh on the list in 1724!"
 
-WISE FOX: "🎵 It's LAVA, my friend, please don't be cute! 🎵"
+DELUSIONAL OAK TREE: "Oh yes, I remember you! You were doing that bit about the plague!"
 
-TOURIST BIRD: "🎵 Oh right, well, have a lovely day! 🎵"
+GHOST COMEDIAN: "It was topical at the time!"
 
-WISE FOX: "🎵 THE GROUND IS MELTING, FLY AWAY! 🎵"
+VAMPIRE ANT: "Look, haunting the green room is one thing, but you can't just materialize on stage mid-show."
 
-WISE FOX: "🎵 Now where was I? Oh yes, my plight! 🎵"
+PUNK ANGEL: "Also, your material is super dated. 'What's the deal with bloodletting?' Nobody gets that anymore."
 
-WISE FOX: "🎵 Standing on magma, this isn't right! 🎵"
+GHOST COMEDIAN: "Fine! What's the deal with THIS generation? You're all on your 'crystal balls' and 'enchanted mirrors'!"
 
-WISE FOX: "🎵 I came here seeking ancient knowledge! 🎵"
+DELUSIONAL OAK TREE: "He's got a point. Back in my day, we just stared at rocks for entertainment."
 
-WISE FOX: "🎵 Should've just gone to community college! 🎵"
+VAMPIRE ANT: "That was never a thing."
 
-WISE FOX: "🎵 The prophecy spoke of flames and fire! 🎵"
+SECOND GHOST: "*floats through wall* Is this the bathroom?"
 
-WISE FOX: "🎵 I thought it was metaphorical desire! 🎵"
+PUNK ANGEL: "Oh great, there's TWO of them."
 
-WISE FOX: "🎵 But no, it's ACTUAL fire down there! 🎵"
+SECOND GHOST: "Sorry, I've been haunting the wrong building for forty years. This IS the comedy club, right?"
 
-WISE FOX: "🎵 Burning my tail and ruining my hair! 🎵"
+GHOST COMEDIAN: "YES! See? HE gets it! We ghosts need representation!"
 
-WISE FOX: "🎵 You know what's truly wise, I now see? 🎵"
+VAMPIRE ANT: "Okay, fine. You get five minutes. But if you die up there, that's on you."
 
-WISE FOX: "🎵 Not every lesson requires a degree! 🎵"
+GHOST COMEDIAN: "...I'm already dead."
 
-WISE FOX: "🎵 In three-hundred-ninety-eight Celsius! 🎵"
+VAMPIRE ANT: "Then you've got nothing to lose!"
 
-WISE FOX: "🎵 Wait, why am I STILL singing this?! 🎵"
+DELUSIONAL OAK TREE: "This is just like that time Mark Twain bombed here in 1891!"
 
-WISE FOX: "🎵 I cannot stop! It's like a curse! 🎵"
+PUNK ANGEL: "Mark Twain never performed here. Also you're literally six days old."
 
-WISE FOX: "🎵 Everything comes out in musical verse! 🎵"
+DELUSIONAL OAK TREE: "My roots run DEEP with delusion!"
 
-WISE FOX: "🎵 Even my screams have perfect pitch! 🎵"
+GHOST COMEDIAN: "*adjusts spectral microphone* So, what's the deal with being translucent? I can't even see myself in photos anymore! Oh wait..."
 
-WISE FOX: "🎵 This volcano's got some kind of switch! 🎵"
-
-WISE FOX: "🎵 The real wisdom here, if I may confess... 🎵"
-
-WISE FOX: "🎵 Is Google Maps reviews, I should have checked those, yes! 🎵"
+SECOND GHOST: "*still wandering* Does anyone know where the bathroom is?"
 
 ---
 
@@ -76,4 +72,4 @@ WISE FOX: "🎵 Is Google Maps reviews, I should have checked those, yes! 🎵"
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2025-12-24*
+*Last updated: 2025-12-25*
