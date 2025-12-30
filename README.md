@@ -1,40 +1,68 @@
-# Today's Improv (2025-12-29)
+# Today's Improv (2025-12-30)
 
-**Days running a fully-autonomous agent that updates my README: 16**
+**Days running a fully-autonomous agent that updates my README: 17**
 
-A rockstar giraffe interviews for an absurd position in a futuristic city
+A zombie capybara and an upset hedgehog are time travelers trying to fit into a different era in the city
 
 ---
 
-ROCKSTAR GIRAFFE: "So let me get this straight—you want me to be your company's Chief Vertical Integration Officer?"
+ZOMBIE CAPYBARA: "Okay, so we're in 1920s New York. Just act natural."
 
-ROCKSTAR GIRAFFE: "*adjusts sunglasses* Look, I appreciate the irony. I'm seventeen feet tall. Very funny."
+UPSET HEDGEHOG: "*looking down at self* Natural?! I'm a HEDGEHOG wearing a FEDORA! Nothing about this is natural!"
 
-ROCKSTAR GIRAFFE: "But what does this position even DO? The job description just said 'reach things' and 'provide shade.'"
+ZOMBIE CAPYBARA: "*adjusting monocle with decaying paw* At least you're not UNDEAD. Do you know how hard it is to explain why bits of you keep falling off?"
 
-ROCKSTAR GIRAFFE: "*reading holographic resume* It says here I need 'experience in elevated thinking.' Buddy, EVERYTHING I think is elevated. My brain is literally in the clouds."
+UPSET HEDGEHOG: "We've been here five minutes and you've already lost two toes and an ear! People are STARING!"
 
-ROCKSTAR GIRAFFE: "Oh, and apparently I need to 'interface with upper management.' I hate to break it to you, but I'm ALWAYS interfacing with upper management. Ceiling tiles are my mortal enemies."
+ZOMBIE CAPYBARA: "They're staring because you keep poking people when you get anxious. That businessman is bleeding."
 
-ROCKSTAR GIRAFFE: "*leans back, hits head on ceiling* SEE?! This is my life! Your 'futuristic city' has the SAME low doorways as everywhere else!"
+UPSET HEDGEHOG: "It's a STRESS RESPONSE! And maybe if someone hadn't set the time machine to 'Random Century,' I wouldn't BE stressed!"
 
-ROCKSTAR GIRAFFE: "And another thing—your office is on the 47th floor, but the elevator only fits my legs. My head and neck have to take the STAIRS."
+FLAPPER: "*walks by* Oh my stars, what ADORABLE costumes! Are you two headed to a speakeasy?"
 
-ROCKSTAR GIRAFFE: "Do you know what it's like riding an elevator when only your knees are inside? The other passengers just see legs. MYSTERIOUS LEGS. I've traumatized SO many people."
+ZOMBIE CAPYBARA: "*brain working slowly* Uh... yes. Speakeasy. We speak... easy."
 
-HOLOGRAPHIC RECEPTIONIST: "*flickering in* Mr. Giraffe, the interview panel is ready for you on floor 82."
+UPSET HEDGEHOG: "*whispering* That doesn't even make sense!"
 
-ROCKSTAR GIRAFFE: "Floor EIGHTY-TWO?! *stands up dramatically* You know what? I don't need this gig. I'm a ROCKSTAR. I sold out the Serengeti!"
+ZOMBIE CAPYBARA: "*whispering back while jaw falls off* I'M DOING MY BEST, GERALD!"
 
-ROCKSTAR GIRAFFE: "I've got MILLIONS of followers who watch me eat leaves off skyscrapers! I'm an INFLUENCER!"
+UPSET HEDGEHOG: "And NOW your jaw is on the sidewalk! How are you going to explain THAT?!"
 
-ROCKSTAR GIRAFFE: "*pauses* ...Wait, what's the salary?"
+ZOMBIE CAPYBARA: "*picks up jaw, reattaches it backwards* Dental... emergency?"
 
-HOLOGRAPHIC RECEPTIONIST: "Four million credits annually, plus unlimited acacia leaf benefits."
+FLAPPER: "Oh heavens, you poor thing! My dentist is just around the corner!"
 
-ROCKSTAR GIRAFFE: "*immediately sits back down* ...I mean, I've always believed in the power of vertical integration. It's actually my PASSION."
+ZOMBIE CAPYBARA: "*muffled, jaw still backwards* No thank sssss!"
 
-ROCKSTAR GIRAFFE: "When do I start?"
+UPSET HEDGEHOG: "*panicking* We need to get back to the time machine IMMEDIATELY before—"
+
+POLICE OFFICER: "*approaching* Say, you two look suspicious. What's your business here?"
+
+ZOMBIE CAPYBARA: "*jaw falling off again* Sssssspeakeasssssy!"
+
+POLICE OFFICER: "Are you having a stroke, sir?"
+
+UPSET HEDGEHOG: "He's fine! We're just very method actors! We're rehearsing for a play called 'When Animals Time Travel and Everything Goes Wrong!'"
+
+POLICE OFFICER: "*squinting* That's oddly specific."
+
+UPSET HEDGEHOG: "It's EXPERIMENTAL THEATER!"
+
+ZOMBIE CAPYBARA: "*finally gets jaw right* Yes! Very experimental! I play a capybara who questions mortality!"
+
+POLICE OFFICER: "A capa-what now?"
+
+ZOMBIE CAPYBARA: "It's a South American rodent! Very big! Very chill! Usually not dead!"
+
+POLICE OFFICER: "*backing away slowly* You folks just... stay away from the speakeasies."
+
+UPSET HEDGEHOG: "*as officer leaves* Okay, we're leaving RIGHT NOW before—"
+
+ZOMBIE CAPYBARA: "*ear falls into storm drain* Oops."
+
+UPSET HEDGEHOG: "I'm setting the time machine to 'Literally Anywhere Else.'"
+
+ZOMBIE CAPYBARA: "Can we at least stop by 3025? I want to see if they've invented ear replacements."
 
 ---
 
@@ -46,4 +74,4 @@ ROCKSTAR GIRAFFE: "When do I start?"
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2025-12-29*
+*Last updated: 2025-12-30*
