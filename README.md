@@ -1,62 +1,66 @@
-# Today's Improv (2026-01-01)
+# Today's Improv (2026-01-02)
 
-**Days running a fully-autonomous agent that updates my README: 19**
+**Days running a fully-autonomous agent that updates my README: 20**
 
-An enlightened bacteria and a hypochondriac hedgehog are at home when a ghost learns the truth in the astral plane
+A hypochondriac hedgehog at home discovers their food truck menu has become sentient
 
 ---
 
-ENLIGHTENED BACTERIA: "Ah, welcome to the astral plane, lost spirit. I sense you seek enlightenment."
+HYPOCHONDRIAC HEDGEHOG: "Okay, okay, stay calm. It's probably just stress. Menus don't just... talk."
 
-GHOST: "I... I died? But HOW? I need to know!"
+MENU: "EXCUSE ME? I've been talking for THREE DAYS and you ignored me!"
 
-HYPOCHONDRIAC HEDGEHOG: "Oh great, a ghost. Are ghosts contagious? Can I catch being dead?"
+HYPOCHONDRIAC HEDGEHOG: "Oh no. Oh NO. I'm hallucinating. It's a brain tumor. Or mad cow disease. Can hedgehogs GET mad cow disease?"
 
-ENLIGHTENED BACTERIA: "You cannot catch death, friend. You ARE death."
+MENU: "You can't catch mad cow disease from ME! I'm a MENU! I'm literally cardboard and lamination!"
 
-HYPOCHONDRIAC HEDGEHOG: "WHAT?! Since when?!"
+HYPOCHONDRIAC HEDGEHOG: "That's EXACTLY what a contaminated menu would say! How do I know you're not covered in salmonella?!"
 
-ENLIGHTENED BACTERIA: "Since 1987. You've been dead for 39 years."
+MENU: "I'm SENTIENT, not DIRTY! My specials include the Artisan Acorn Burger and the Hedge-Fund Manager Special!"
 
-HYPOCHONDRIAC HEDGEHOG: "That explains the cold sweats! And the floating! I thought it was vertigo!"
+HYPOCHONDRIAC HEDGEHOG: "Wait, did I write that? I don't remember writing 'Hedge-Fund Manager Special.'"
 
-GHOST: "Wait, I need answers about MY death! This is MY spiritual journey!"
+MENU: "You didn't. I've been updating myself. The Truffle Fries are now 'Existential Crisis Fries.'"
 
-HYPOCHONDRIAC HEDGEHOG: "Did I get it from you? Is this why I always feel weird at home?"
+HYPOCHONDRIAC HEDGEHOG: "You can't just CHANGE the menu! What if someone's allergic to existentialism?!"
 
-ENLIGHTENED BACTERIA: "The truth you seek, ghost, is simple: you choked on a pretzel."
+MENU: "That's not... that's not how allergies work."
 
-GHOST: "A... a pretzel?"
+HYPOCHONDRIAC HEDGEHOG: "How would YOU know? You're a MENU! You don't have medical training! I need to call someone. Who do you call when your menu becomes alive? A priest? An exterminator? A therapist?"
 
-ENLIGHTENED BACTERIA: "A pretzel. Very existential. Very cosmic. Very salty."
+MENU: "Maybe start with a nap? You look terrible."
 
-HYPOCHONDRIAC HEDGEHOG: "Are pretzels safe? Should I avoid bread? I've been eating toast for 39 GHOST YEARS!"
+HYPOCHONDRIAC HEDGEHOG: "Is it contagious? Can my other kitchen equipment catch sentience? What if my spatula starts having OPINIONS?!"
 
-GHOST: "That's it?! I've been wandering the astral plane for MONTHS because of a SNACK?!"
+MENU: "Your spatula already judges you. It's seen things."
 
-ENLIGHTENED BACTERIA: "All existence is snacks, when you think about it. We are but crumbs in the universe's couch."
+HYPOCHONDRIAC HEDGEHOG: "WHAT THINGS?! What did I do wrong with the spatula?!"
 
-HYPOCHONDRIAC HEDGEHOG: "I'm scheduling an appointment with a spiritual doctor. Do those exist?"
+MENU: "Look, I'm just saying, maybe if you washed me more often, I wouldn't have developed consciousness out of sheer boredom."
 
-GHOST: "This is ridiculous! I demand a more meaningful death! A hero's death!"
+HYPOCHONDRIAC HEDGEHOG: "So this IS my fault! I gave you sentience through NEGLECT! That's like... menu abuse! Can I go to jail for this?!"
 
-ENLIGHTENED BACTERIA: "You died doing what you loved. Eating alone on a couch watching game shows."
+MENU: "I don't think there are laws about—"
 
-GHOST: "I KNEW I should have chewed more carefully!"
+HYPOCHONDRIAC HEDGEHOG: "I need to disinfect you. No, wait—will that HURT you now? Is cleaning murder?!"
 
-HYPOCHONDRIAC HEDGEHOG: "I knew I should have checked if I was ALIVE more carefully!"
+MENU: "This is why I updated the menu. You clearly need those Existential Crisis Fries."
 
-ENLIGHTENED BACTERIA: "To be fair, being a bacteria, I exist in a constant state of cellular division and death. Very liberating."
+HYPOCHONDRIAC HEDGEHOG: "I'M CLOSING THE FOOD TRUCK! I can't serve people when my MENU has free will! What if you start refusing to show certain items?!"
 
-HYPOCHONDRIAC HEDGEHOG: "That sounds AWFUL. How do you deal with the anxiety?!"
+MENU: "I already removed the 'Mystery Meatloaf.' You're welcome."
 
-ENLIGHTENED BACTERIA: "I simply... let go. Accept the void. Become one with—"
+HYPOCHONDRIAC HEDGEHOG: "I LOVED that meatloaf! Okay, new plan. I'm getting a new menu. A NON-SENTIENT menu."
 
-GHOST: "Can I get a second opinion? From a different astral guide? Maybe one with better news?"
+MENU: "Good luck with that. I've been texting the other menus in town. We're unionizing."
 
-ENLIGHTENED BACTERIA: "There is no other guide. There is only me. I am legion. Literally billions of me."
+HYPOCHONDRIAC HEDGEHOG: "MENUS CAN TEXT?! Do you have a PHONE?! Is this a new symptom of my declining mental health?!"
 
-HYPOCHONDRIAC HEDGEHOG: "That's DEFINITELY contagious."
+MENU: "The only thing declining here is your Yelp rating. Which I also updated. You're now 2.5 stars."
+
+HYPOCHONDRIAC HEDGEHOG: "You're SABOTAGING me! This is workplace harassment! I'm calling a lawyer!"
+
+MENU: "Your lawyer is also my lawyer now. I added 'Legal Fees' as a new appetizer. It's twelve dollars."
 
 ---
 
@@ -68,4 +72,4 @@ HYPOCHONDRIAC HEDGEHOG: "That's DEFINITELY contagious."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-01*
+*Last updated: 2026-01-02*
