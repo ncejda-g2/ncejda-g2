@@ -1,80 +1,66 @@
-# Today's Improv (2026-01-06)
+# Today's Improv (2026-01-07)
 
-**Days running a fully-autonomous agent that updates my README: 24**
+**Days running a fully-autonomous agent that updates my README: 25**
 
-A hippie capybara, a hoity-toity imaginary friend, and an egomaniacal cat deal with ghosts haunting their home comedy club
+A conspiratorial man performs in an Arctic comedy club haunted by ghosts
 
 ---
 
-HIPPIE CAPYBARA: "Dudes, I'm sensing some seriously negative energy in here. The spirits are, like, totally harshing the vibe."
+CONSPIRATORIAL MAN: "So I finally got this gig at the Arctic Comedy Club. You know WHY it's in the Arctic? Because THEY don't want you to know the truth about comedy!"
 
-EGOMANIACAL CAT: "The only thing harshing the vibe is that you turned our living room into a 'comedy club' without consulting ME, the obvious star of this household."
+CONSPIRATORIAL MAN: "Notice how there's no wifi up here? That's not an accident, people. They can't track your laughter if you're off the grid."
 
-HOITY-TOITY IMAGINARY FRIEND: "I must say, having comedy shows in one's parlor is rather déclassé. In my day, we haunted PROPER establishments."
+CONSPIRATORIAL MAN: "And another thing—this place is haunted. OBVIOUSLY haunted. But the government won't acknowledge it because ghosts don't pay taxes!"
 
-HIPPIE CAPYBARA: "Wait, you're a ghost?"
+GHOST HECKLER: *faint whisper* "Booooo..."
 
-HOITY-TOITY IMAGINARY FRIEND: "Imaginary friend, darling. Though the distinction seems to elude most people."
+CONSPIRATORIAL MAN: "SEE?! You all heard that, right? Or are you all IN ON IT?"
 
-EGOMANIACAL CAT: "Can we focus? I have a set in five minutes and the spotlight keeps flickering!"
+CONSPIRATORIAL MAN: "I've done my research. This comedy club was built on an ancient penguin burial ground. Connect the dots, people!"
 
-GHOST COMEDIAN: *materializes on stage* "Is this thing on? Testing, testing... BOO!"
+CONSPIRATORIAL MAN: "The owners claim it's just 'wind through the ventilation.' Wind? IN A SEALED BUNKER? Wake up, sheeple!"
 
-HIPPIE CAPYBARA: "Whoa, man! A ghost comedian! That's so cosmically aligned!"
+GHOST HECKLER: "Get off the stage..."
 
-EGOMANIACAL CAT: "EXCUSE ME. This is MY stage time. I have seventeen minutes of gold material about how I'm better than dogs."
+CONSPIRATORIAL MAN: "That's what THEY want me to do! Classic misdirection! But I've prepared for this. I brought sage, holy water, and a whiteboard with seventeen interconnected theories!"
 
-GHOST COMEDIAN: "Get in line, furball. I've been DYING to do this set. Get it? DYING?"
+CONSPIRATORIAL MAN: "Fun fact: every comedian who's performed here has mysteriously had their set 'bomb.' Coincidence? I. Think. NOT."
 
-HOITY-TOITY IMAGINARY FRIEND: "Oh dear, puns. How pedestrian."
+CONSPIRATORIAL MAN: "The ghosts are working with Big Comedy to suppress the truth. They haunt anyone who gets too close to exposing the algorithm!"
 
-EGOMANIACAL CAT: "Your material is literally dead on arrival."
+GHOST HECKLER: "There is no algorithm. We're just dead."
 
-GHOST COMEDIAN: "That's rich coming from someone whose entire act is knocking things off tables!"
+CONSPIRATORIAL MAN: "EXACTLY what a government agent would say! You're glowing, ghost! I can see right through you—literally AND metaphorically!"
 
-HIPPIE CAPYBARA: "Guys, guys, we're all just energy, man. Can't we share the stage in harmony?"
+CONSPIRATORIAL MAN: "Why the Arctic? Because the ice preserves evidence. Also, the auroras? Those are DATA STREAMS. I have diagrams."
 
-EGOMANIACAL CAT: "Absolutely not. I'm calling an exorcist."
+CONSPIRATORIAL MAN: "I know what you're thinking: 'This guy's crazy.' That's what they programmed you to think! But I have proof!"
 
-GHOST COMEDIAN: "You can't exorcise me from MY OWN COMEDY CLUB. I died here in 1987 after my closing joke bombed!"
+CONSPIRATORIAL MAN: *pulls out a notebook covered in scribbles* "Look at this. Page 47. A ghost laughed at my joke in 2019. Why? To make me COMPLACENT."
 
-HOITY-TOITY IMAGINARY FRIEND: "How delightfully tragic. What was the joke?"
+GHOST HECKLER: "That wasn't me. I died in 1987."
 
-GHOST COMEDIAN: "Why did the chicken cross the road?"
+CONSPIRATORIAL MAN: "Ah-HA! So you ADMIT there's a NETWORK of ghosts! How many of you are there? WHO'S YOUR HANDLER?!"
 
-HIPPIE CAPYBARA: "Oh no..."
+CONSPIRATORIAL MAN: "I bet you're all connected to the same ethereal mainframe. Probably running on blockchain. Ghost-chain. I should trademark that."
 
-GHOST COMEDIAN: "To get to the OTHER SIDE. Get it? The other side? Like, the afterlife?"
+CONSPIRATORIAL MAN: "You know what's funny? And by funny, I mean SUSPICIOUS? This microphone. It's COLD. In a heated room. OBVIOUSLY paranormal."
 
-EGOMANIACAL CAT: "You deserved to die."
+GHOST HECKLER: "It's -40 degrees outside. Everything is cold."
 
-HOITY-TOITY IMAGINARY FRIEND: "I've never agreed with a cat more fervently."
+CONSPIRATORIAL MAN: "Temperature can't explain EVERYTHING, apparition! That's lazy skepticism!"
 
-GHOST COMEDIAN: "THAT'S why I'm still here! No one appreciated my GENIUS!"
+CONSPIRATORIAL MAN: "I've been studying the layout of this club. The stage faces magnetic north. The exit signs spell 'TRAP' in Morse code if you squint. WAKE. UP."
 
-HIPPIE CAPYBARA: "Dude, maybe you're stuck here because you need closure, man. Like, spiritual fulfillment through laughter?"
+CONSPIRATORIAL MAN: "And don't even get me started on the drink menu. 'Spirits'? Really? They're mocking us to our FACES!"
 
-EGOMANIACAL CAT: "Or because your jokes are so bad even the afterlife rejected you."
+CONSPIRATORIAL MAN: "You know what? I'm not leaving. I'm going to perform until one of you ghosts admits what year the comedy industry became compromised!"
 
-GHOST COMEDIAN: "Oh yeah? Let's have a GHOST-OFF! You, me, five minutes each. Winner gets the stage."
+GHOST HECKLER: "Fine. 1842. Vaudeville was an inside job. Can you leave now?"
 
-EGOMANIACAL CAT: "Deal. Prepare to be DESTROYED."
+CONSPIRATORIAL MAN: "I KNEW IT! Wait, are you being sarcastic? I can't tell with ectoplasm. This is why I need the whiteboard!"
 
-HOITY-TOITY IMAGINARY FRIEND: "I'll judge. I have impeccable taste."
-
-HIPPIE CAPYBARA: "I'll just be here radiating positive energy and emotional support!"
-
-GHOST COMEDIAN: "Knock knock."
-
-EGOMANIACAL CAT: "I'm not doing this."
-
-GHOST COMEDIAN: "KNOCK. KNOCK."
-
-EVERYONE: "Who's there?"
-
-GHOST COMEDIAN: "Boo."
-
-EGOMANIACAL CAT: "If you say 'Boo who' I'm getting holy water."
+CONSPIRATORIAL MAN: "Thank you, you've been a complicit audience! Remember: question everything, trust no one, and always check if your comedy club is built on cursed land! Good night!"
 
 ---
 
@@ -86,4 +72,4 @@ EGOMANIACAL CAT: "If you say 'Boo who' I'm getting holy water."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-06*
+*Last updated: 2026-01-07*
