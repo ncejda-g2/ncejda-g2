@@ -1,66 +1,66 @@
-# Today's Improv (2026-01-07)
+# Today's Improv (2026-01-08)
 
-**Days running a fully-autonomous agent that updates my README: 25**
+**Days running a fully-autonomous agent that updates my README: 26**
 
-A conspiratorial man performs in an Arctic comedy club haunted by ghosts
+A theatrical lemur and a frugal demon are news anchors reporting on bizarre events underwater
 
 ---
 
-CONSPIRATORIAL MAN: "So I finally got this gig at the Arctic Comedy Club. You know WHY it's in the Arctic? Because THEY don't want you to know the truth about comedy!"
+THEATRICAL LEMUR: "Good evening, citizens of the deep! I'm your host, bringing you DRAMA, INTRIGUE, and BREAKING NEWS from beneath the waves!"
 
-CONSPIRATORIAL MAN: "Notice how there's no wifi up here? That's not an accident, people. They can't track your laughter if you're off the grid."
+FRUGAL DEMON: "And I'm the co-anchor who keeps reminding everyone we're paying for this broadcast by the minute, so let's wrap it up."
 
-CONSPIRATORIAL MAN: "And another thing—this place is haunted. OBVIOUSLY haunted. But the government won't acknowledge it because ghosts don't pay taxes!"
+THEATRICAL LEMUR: "Our top story tonight—a vindictive maple tree has somehow ended up in the ocean and is TERRORIZING local fish populations!"
 
-GHOST HECKLER: *faint whisper* "Booooo..."
+FRUGAL DEMON: "We could've just tweeted that. Why do we need a whole segment?"
 
-CONSPIRATORIAL MAN: "SEE?! You all heard that, right? Or are you all IN ON IT?"
+THEATRICAL LEMUR: *gestures dramatically* "Because journalism is an ART! Now, let's go live to the scene—"
 
-CONSPIRATORIAL MAN: "I've done my research. This comedy club was built on an ancient penguin burial ground. Connect the dots, people!"
+FRUGAL DEMON: "We're not going live. Do you know how much underwater satellite costs? We're showing stock footage."
 
-CONSPIRATORIAL MAN: "The owners claim it's just 'wind through the ventilation.' Wind? IN A SEALED BUNKER? Wake up, sheeple!"
+THEATRICAL LEMUR: "But the people DESERVE to see—"
 
-GHOST HECKLER: "Get off the stage..."
+VINDICTIVE MAPLE TREE: *floats by in background* "I'LL NEVER FORGIVE THAT LUMBERJACK! NEVER!"
 
-CONSPIRATORIAL MAN: "That's what THEY want me to do! Classic misdirection! But I've prepared for this. I brought sage, holy water, and a whiteboard with seventeen interconnected theories!"
+THEATRICAL LEMUR: "THERE! Did you see that? RIVETING television! This is why we do what we do!"
 
-CONSPIRATORIAL MAN: "Fun fact: every comedian who's performed here has mysteriously had their set 'bomb.' Coincidence? I. Think. NOT."
+FRUGAL DEMON: "That was free content that literally swam past us. I'll allow it."
 
-CONSPIRATORIAL MAN: "The ghosts are working with Big Comedy to suppress the truth. They haunt anyone who gets too close to exposing the algorithm!"
+THEATRICAL LEMUR: "In other news, mysterious bubbles have been spotted rising from the Mariana Trench, and experts believe it could be—"
 
-GHOST HECKLER: "There is no algorithm. We're just dead."
+FRUGAL DEMON: "Fish farts. It's fish farts. Moving on."
 
-CONSPIRATORIAL MAN: "EXACTLY what a government agent would say! You're glowing, ghost! I can see right through you—literally AND metaphorically!"
+THEATRICAL LEMUR: "You can't just—that's not—where's your sense of MYSTERY? Your passion for the UNKNOWN?"
 
-CONSPIRATORIAL MAN: "Why the Arctic? Because the ice preserves evidence. Also, the auroras? Those are DATA STREAMS. I have diagrams."
+FRUGAL DEMON: "I left it on the surface where it doesn't cost me extra in water pressure insurance."
 
-CONSPIRATORIAL MAN: "I know what you're thinking: 'This guy's crazy.' That's what they programmed you to think! But I have proof!"
+THEATRICAL LEMUR: "This just in! A school of dolphins has formed a UNION and is demanding better working conditions!"
 
-CONSPIRATORIAL MAN: *pulls out a notebook covered in scribbles* "Look at this. Page 47. A ghost laughed at my joke in 2019. Why? To make me COMPLACENT."
+FRUGAL DEMON: "Are they paying for ad space? No? Then that's not news, that's free publicity."
 
-GHOST HECKLER: "That wasn't me. I died in 1987."
+THEATRICAL LEMUR: "It's a LABOR MOVEMENT! The proletariat of the sea are RISING UP!"
 
-CONSPIRATORIAL MAN: "Ah-HA! So you ADMIT there's a NETWORK of ghosts! How many of you are there? WHO'S YOUR HANDLER?!"
+FRUGAL DEMON: "The only thing rising is our production budget every time you use hand gestures. Those create currents. Currents cost money."
 
-CONSPIRATORIAL MAN: "I bet you're all connected to the same ethereal mainframe. Probably running on blockchain. Ghost-chain. I should trademark that."
+THEATRICAL LEMUR: "How can you be a demon of the underworld yet be so UNBEARABLY practical about everything?!"
 
-CONSPIRATORIAL MAN: "You know what's funny? And by funny, I mean SUSPICIOUS? This microphone. It's COLD. In a heated room. OBVIOUSLY paranormal."
+FRUGAL DEMON: "Hell has a very strict budget. Do you know how much fire costs to maintain? We had to switch to energy-efficient flames."
 
-GHOST HECKLER: "It's -40 degrees outside. Everything is cold."
+THEATRICAL LEMUR: "I'm getting word that a kraken has been spotted near—"
 
-CONSPIRATORIAL MAN: "Temperature can't explain EVERYTHING, apparition! That's lazy skepticism!"
+FRUGAL DEMON: "Is it a sponsored kraken? Did it buy a segment?"
 
-CONSPIRATORIAL MAN: "I've been studying the layout of this club. The stage faces magnetic north. The exit signs spell 'TRAP' in Morse code if you squint. WAKE. UP."
+THEATRICAL LEMUR: "That's not how NEWS works!"
 
-CONSPIRATORIAL MAN: "And don't even get me started on the drink menu. 'Spirits'? Really? They're mocking us to our FACES!"
+FRUGAL DEMON: "It is now. We're underwater. The rules are different down here. I literally negotiated our studio lease for three clams and a shiny bottle cap."
 
-CONSPIRATORIAL MAN: "You know what? I'm not leaving. I'm going to perform until one of you ghosts admits what year the comedy industry became compromised!"
+THEATRICAL LEMUR: *tail dramatically sweeping* "Fine! FINE! Then let me at least do the weather with FLAIR!"
 
-GHOST HECKLER: "Fine. 1842. Vaudeville was an inside job. Can you leave now?"
+FRUGAL DEMON: "The weather is wet. We're underwater. You're done."
 
-CONSPIRATORIAL MAN: "I KNEW IT! Wait, are you being sarcastic? I can't tell with ectoplasm. This is why I need the whiteboard!"
+THEATRICAL LEMUR: "And that's our broadcast for tonight! Remember, citizens—stay curious, stay informed, and stay FABULOUS!"
 
-CONSPIRATORIAL MAN: "Thank you, you've been a complicit audience! Remember: question everything, trust no one, and always check if your comedy club is built on cursed land! Good night!"
+FRUGAL DEMON: "And remember to conserve oxygen. Those tanks aren't cheap. Good night."
 
 ---
 
@@ -72,4 +72,4 @@ CONSPIRATORIAL MAN: "Thank you, you've been a complicit audience! Remember: ques
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-07*
+*Last updated: 2026-01-08*
