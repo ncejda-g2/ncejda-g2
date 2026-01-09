@@ -1,66 +1,58 @@
-# Today's Improv (2026-01-08)
+# Today's Improv (2026-01-09)
 
-**Days running a fully-autonomous agent that updates my README: 26**
+**Days running a fully-autonomous agent that updates my README: 27**
 
-A theatrical lemur and a frugal demon are news anchors reporting on bizarre events underwater
+A conspiratorial demon is a teacher dealing with bizarre student excuses in an underwater city
 
 ---
 
-THEATRICAL LEMUR: "Good evening, citizens of the deep! I'm your host, bringing you DRAMA, INTRIGUE, and BREAKING NEWS from beneath the waves!"
+CONSPIRATORIAL DEMON: "Alright class, settle down. I KNOW what you're all thinking. 'Why do we have to study marine biology when we LIVE underwater?' Well, THAT'S EXACTLY WHAT THEY WANT YOU TO THINK."
 
-FRUGAL DEMON: "And I'm the co-anchor who keeps reminding everyone we're paying for this broadcast by the minute, so let's wrap it up."
+CONSPIRATORIAL DEMON: "Now, who didn't turn in their homework on ocean currents? Ah, yes, Timmy the anglerfish. Let me guess your excuse."
 
-THEATRICAL LEMUR: "Our top story tonight—a vindictive maple tree has somehow ended up in the ocean and is TERRORIZING local fish populations!"
+CONSPIRATORIAL DEMON: *whispers* "And before you answer, know that I've heard EVERYTHING. The Illuminati of the Abyss keeps files on all of you."
 
-FRUGAL DEMON: "We could've just tweeted that. Why do we need a whole segment?"
+CONSPIRATORIAL DEMON: "Go ahead, Timmy."
 
-THEATRICAL LEMUR: *gestures dramatically* "Because journalism is an ART! Now, let's go live to the scene—"
+TIMMY: "My light bulb burned out and I couldn't see to write—"
 
-FRUGAL DEMON: "We're not going live. Do you know how much underwater satellite costs? We're showing stock footage."
+CONSPIRATORIAL DEMON: "CONVENIENT! Very convenient that your BIOLUMINESCENCE just HAPPENED to fail on homework night! Did it occur to you that maybe the Kraken Control Committee doesn't WANT you learning about currents?!"
 
-THEATRICAL LEMUR: "But the people DESERVE to see—"
+CONSPIRATORIAL DEMON: "Next! Susie the seahorse. Where's your essay?"
 
-VINDICTIVE MAPLE TREE: *floats by in background* "I'LL NEVER FORGIVE THAT LUMBERJACK! NEVER!"
+SUSIE: "A shark ate it—"
 
-THEATRICAL LEMUR: "THERE! Did you see that? RIVETING television! This is why we do what we do!"
+CONSPIRATORIAL DEMON: "A SHARK. ATE. YOUR. ESSAY. Do you know what sharks are, Susie? They're GOVERNMENT DRONES. Wake up! Have you ever seen a shark blink? NO. Because they have CAMERA EYES."
 
-FRUGAL DEMON: "That was free content that literally swam past us. I'll allow it."
+CONSPIRATORIAL DEMON: "And let me guess—this shark SPECIFICALLY targeted YOUR essay and nothing else?"
 
-THEATRICAL LEMUR: "In other news, mysterious bubbles have been spotted rising from the Mariana Trench, and experts believe it could be—"
+SUSIE: "Well, it also ate my lunch—"
 
-FRUGAL DEMON: "Fish farts. It's fish farts. Moving on."
+CONSPIRATORIAL DEMON: "CLASSIC misdirection! Make it look random! But I know better. I've been teaching in this underwater city for 300 years, and every time budget cuts happen, suddenly MORE sharks appear. Coincidence? I THINK NOT."
 
-THEATRICAL LEMUR: "You can't just—that's not—where's your sense of MYSTERY? Your passion for the UNKNOWN?"
+CONSPIRATORIAL DEMON: "Tommy the turtle, I don't see your project on coral reefs."
 
-FRUGAL DEMON: "I left it on the surface where it doesn't cost me extra in water pressure insurance."
+TOMMY: "I'm still working on it. I'm a turtle, things take time—"
 
-THEATRICAL LEMUR: "This just in! A school of dolphins has formed a UNION and is demanding better working conditions!"
+CONSPIRATORIAL DEMON: "THAT'S what Big Turtle wants you to believe! 'Oh, I'm slow, it's my NATURE.' But I've seen the TRUTH! I've seen turtles moving at REGULAR SPEED when they think no one's watching!"
 
-FRUGAL DEMON: "Are they paying for ad space? No? Then that's not news, that's free publicity."
+CONSPIRATORIAL DEMON: "The whole 'slow turtle' thing is a PSYOP to lower academic expectations! You're all capable of SO MUCH MORE if you'd just OPEN YOUR EYES!"
 
-THEATRICAL LEMUR: "It's a LABOR MOVEMENT! The proletariat of the sea are RISING UP!"
+RANDOM JELLYFISH: *drifts by window*
 
-FRUGAL DEMON: "The only thing rising is our production budget every time you use hand gestures. Those create currents. Currents cost money."
+CONSPIRATORIAL DEMON: "SEE THAT?! That jellyfish just HAPPENED to float by during our lesson? That's surveillance! They're EVERYWHERE! Brainless? HA! That's what they WANT you to think!"
 
-THEATRICAL LEMUR: "How can you be a demon of the underworld yet be so UNBEARABLY practical about everything?!"
+CONSPIRATORIAL DEMON: "Now, everyone open your textbooks to page 47. But notice how page 47 is ALWAYS where the important information is? That's not random! The number 47 appears in EVERY major underwater historical event!"
 
-FRUGAL DEMON: "Hell has a very strict budget. Do you know how much fire costs to maintain? We had to switch to energy-efficient flames."
+CONSPIRATORIAL DEMON: "The Great Reef Collapse? 47 years before the first underwater city. The Treaty of Atlantis? Signed in the year ending in 47. The invention of waterproof paper? EXACTLY 47 days after someone said it was impossible!"
 
-THEATRICAL LEMUR: "I'm getting word that a kraken has been spotted near—"
+CONSPIRATORIAL DEMON: "And before anyone asks, YES, your final exam is still on Friday. Unless... unless THEY decide to cancel school. Which they MIGHT, if too many of you start asking the RIGHT questions."
 
-FRUGAL DEMON: "Is it a sponsored kraken? Did it buy a segment?"
+CONSPIRATORIAL DEMON: "Homework for tonight: I want a 500-word essay on why dolphins are suspiciously intelligent. THINK ABOUT IT. They're mammals... living underwater... with SONAR... that they use to 'communicate.' Or is it to COORDINATE?"
 
-THEATRICAL LEMUR: "That's not how NEWS works!"
+CONSPIRATORIAL DEMON: "Class dismissed. Exit in pairs. NEVER swim alone. And if anyone asks, we spent today learning about phytoplankton, NOT THE TRUTH."
 
-FRUGAL DEMON: "It is now. We're underwater. The rules are different down here. I literally negotiated our studio lease for three clams and a shiny bottle cap."
-
-THEATRICAL LEMUR: *tail dramatically sweeping* "Fine! FINE! Then let me at least do the weather with FLAIR!"
-
-FRUGAL DEMON: "The weather is wet. We're underwater. You're done."
-
-THEATRICAL LEMUR: "And that's our broadcast for tonight! Remember, citizens—stay curious, stay informed, and stay FABULOUS!"
-
-FRUGAL DEMON: "And remember to conserve oxygen. Those tanks aren't cheap. Good night."
+CONSPIRATORIAL DEMON: *mutters while erasing board* "These kids today... no appreciation for the LAYERS of deception around them... In MY day, we questioned EVERYTHING... even water itself..."
 
 ---
 
@@ -72,4 +64,4 @@ FRUGAL DEMON: "And remember to conserve oxygen. Those tanks aren't cheap. Good n
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-08*
+*Last updated: 2026-01-09*
