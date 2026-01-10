@@ -1,58 +1,56 @@
-# Today's Improv (2026-01-09)
+# Today's Improv (2026-01-10)
 
-**Days running a fully-autonomous agent that updates my README: 27**
+**Days running a fully-autonomous agent that updates my README: 28**
 
-A conspiratorial demon is a teacher dealing with bizarre student excuses in an underwater city
+A pretentious man works as a sommelier pairing wines with emotions at a therapy retreat aboard a pirate ship
 
 ---
 
-CONSPIRATORIAL DEMON: "Alright class, settle down. I KNOW what you're all thinking. 'Why do we have to study marine biology when we LIVE underwater?' Well, THAT'S EXACTLY WHAT THEY WANT YOU TO THINK."
+PRETENTIOUS MAN: "Welcome, everyone, to what I can only describe as the most *audacious* fusion of my talents. A therapy retreat... on a pirate ship... where I, Sebastian Worthington III, shall pair wines with your *feelings*."
 
-CONSPIRATORIAL DEMON: "Now, who didn't turn in their homework on ocean currents? Ah, yes, Timmy the anglerfish. Let me guess your excuse."
+PRETENTIOUS MAN: "Now, I studied at the Sorbonne, summered in Bordeaux, and have a palate so refined I can detect a grape's *childhood trauma*. So this should be... beneath me, really."
 
-CONSPIRATORIAL DEMON: *whispers* "And before you answer, know that I've heard EVERYTHING. The Illuminati of the Abyss keeps files on all of you."
+PRETENTIOUS MAN: *swirls glass* "Let's begin. Margaret, you're feeling... *anxious*? How pedestrian. For anxiety, I recommend this 2015 Pinot Grigio. Light, flighty, lacks commitment—much like your ability to make decisions, I'd imagine."
 
-CONSPIRATORIAL DEMON: "Go ahead, Timmy."
+PRETENTIOUS MAN: "What's that? The ship is rocking and you're getting seasick? Well, that's just adding *layers* to your anxiety, isn't it? Delightful complexity."
 
-TIMMY: "My light bulb burned out and I couldn't see to write—"
+PRETENTIOUS MAN: "Todd, you say you're feeling *angry*? Ah yes, I can see it in your clenched fists and throbbing forehead vein. Charming. For rage, I suggest this Cabernet Sauvignon—bold, aggressive, leaves a bitter aftertaste. Sound familiar?"
 
-CONSPIRATORIAL DEMON: "CONVENIENT! Very convenient that your BIOLUMINESCENCE just HAPPENED to fail on homework night! Did it occur to you that maybe the Kraken Control Committee doesn't WANT you learning about currents?!"
+PRETENTIOUS MAN: "No, Todd, I cannot pair your anger with rum. This is a PIRATE SHIP, not a PIRATE STEREOTYPING CONVENTION. We have *standards*."
 
-CONSPIRATORIAL DEMON: "Next! Susie the seahorse. Where's your essay?"
+PARROT: *squawks from rigging* "STANDARDS! STANDARDS!"
 
-SUSIE: "A shark ate it—"
+PRETENTIOUS MAN: "Even the parrot understands. Thank you, Beauregard."
 
-CONSPIRATORIAL DEMON: "A SHARK. ATE. YOUR. ESSAY. Do you know what sharks are, Susie? They're GOVERNMENT DRONES. Wake up! Have you ever seen a shark blink? NO. Because they have CAMERA EYES."
+PRETENTIOUS MAN: "Now, Linda, you're experiencing *grief*. Oh, how terribly... *authentic*. For grief, nothing pairs quite like a Malbec—dark, brooding, makes you contemplate the void. It's practically a therapy session in a bottle."
 
-CONSPIRATORIAL DEMON: "And let me guess—this shark SPECIFICALLY targeted YOUR essay and nothing else?"
+PRETENTIOUS MAN: "Although, between you and me, I find grief rather... *gauche*. Have you considered feeling something more sophisticated? Perhaps *ennui*? I have a lovely Chablis for that."
 
-SUSIE: "Well, it also ate my lunch—"
+PRETENTIOUS MAN: "What's that, Captain? We're being boarded by rival pirates? During my TASTING SESSION?!"
 
-CONSPIRATORIAL DEMON: "CLASSIC misdirection! Make it look random! But I know better. I've been teaching in this underwater city for 300 years, and every time budget cuts happen, suddenly MORE sharks appear. Coincidence? I THINK NOT."
+PRETENTIOUS MAN: "Well, this is just... I mean, the *audacity*! I'm in the middle of pairing a Riesling with someone's abandonment issues!"
 
-CONSPIRATORIAL DEMON: "Tommy the turtle, I don't see your project on coral reefs."
+PIRATE: *bursts in* "SURRENDER YER BOOTY!"
 
-TOMMY: "I'm still working on it. I'm a turtle, things take time—"
+PRETENTIOUS MAN: "First of all, it's 'your,' not 'yer.' Second, I'm detecting notes of unresolved anger and possible daddy issues. Have you considered a nice Tempranillo?"
 
-CONSPIRATORIAL DEMON: "THAT'S what Big Turtle wants you to believe! 'Oh, I'm slow, it's my NATURE.' But I've seen the TRUTH! I've seen turtles moving at REGULAR SPEED when they think no one's watching!"
+PIRATE: "What?"
 
-CONSPIRATORIAL DEMON: "The whole 'slow turtle' thing is a PSYOP to lower academic expectations! You're all capable of SO MUCH MORE if you'd just OPEN YOUR EYES!"
+PRETENTIOUS MAN: "Your energy is very *Tempranillo*. Robust, Spanish, slightly violent. I could do a full emotional wine pairing for you right now—do you have childhood trauma? Of course you do, you're a PIRATE."
 
-RANDOM JELLYFISH: *drifts by window*
+PRETENTIOUS MAN: "This is what I'm reduced to. I once consulted for Michelin-starred restaurants in Paris. Now I'm wine-profiling maritime criminals on a vessel that smells distinctly of fish and broken dreams."
 
-CONSPIRATORIAL DEMON: "SEE THAT?! That jellyfish just HAPPENED to float by during our lesson? That's surveillance! They're EVERYWHERE! Brainless? HA! That's what they WANT you to think!"
+PRETENTIOUS MAN: "You know what? Everyone gets Chardonnay. EVERYTHING gets Chardonnay. Anxiety? Chardonnay. Rage? Chardonnay. Pirate invasion? CHARDONNAY."
 
-CONSPIRATORIAL DEMON: "Now, everyone open your textbooks to page 47. But notice how page 47 is ALWAYS where the important information is? That's not random! The number 47 appears in EVERY major underwater historical event!"
+PRETENTIOUS MAN: "It's oaky, it's basic, it pairs with literally everything because it has NO BACKBONE—much like this entire therapeutic concept!"
 
-CONSPIRATORIAL DEMON: "The Great Reef Collapse? 47 years before the first underwater city. The Treaty of Atlantis? Signed in the year ending in 47. The invention of waterproof paper? EXACTLY 47 days after someone said it was impossible!"
+PRETENTIOUS MAN: *takes long sip* "And now I'm drinking directly from the bottle. Do you see what you've done? You've reduced me to THIS. I'm a MONSTER."
 
-CONSPIRATORIAL DEMON: "And before anyone asks, YES, your final exam is still on Friday. Unless... unless THEY decide to cancel school. Which they MIGHT, if too many of you start asking the RIGHT questions."
+PRETENTIOUS MAN: "Actually, wait. This emotional breakdown I'm having? It pairs beautifully with this Chardonnay. Notes of desperation with a finish of existential crisis. *Chef's kiss.*"
 
-CONSPIRATORIAL DEMON: "Homework for tonight: I want a 500-word essay on why dolphins are suspiciously intelligent. THINK ABOUT IT. They're mammals... living underwater... with SONAR... that they use to 'communicate.' Or is it to COORDINATE?"
+PRETENTIOUS MAN: "Perhaps I've learned something today. Perhaps the real wine pairing... was the trauma we experienced along the way."
 
-CONSPIRATORIAL DEMON: "Class dismissed. Exit in pairs. NEVER swim alone. And if anyone asks, we spent today learning about phytoplankton, NOT THE TRUTH."
-
-CONSPIRATORIAL DEMON: *mutters while erasing board* "These kids today... no appreciation for the LAYERS of deception around them... In MY day, we questioned EVERYTHING... even water itself..."
+PRETENTIOUS MAN: "No. No, that's stupid. The real lesson is that I need to update my LinkedIn. 'Pirate ship sommelier' does NOT look good on a CV."
 
 ---
 
@@ -64,4 +62,4 @@ CONSPIRATORIAL DEMON: *mutters while erasing board* "These kids today... no appr
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-09*
+*Last updated: 2026-01-10*
