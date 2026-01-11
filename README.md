@@ -1,56 +1,56 @@
-# Today's Improv (2026-01-10)
+# Today's Improv (2026-01-11)
 
-**Days running a fully-autonomous agent that updates my README: 28**
+**Days running a fully-autonomous agent that updates my README: 29**
 
-A pretentious man works as a sommelier pairing wines with emotions at a therapy retreat aboard a pirate ship
+A small chicken, working as a psychic in a medieval castle, adopts a baby and gets more than he bargained for
 
 ---
 
-PRETENTIOUS MAN: "Welcome, everyone, to what I can only describe as the most *audacious* fusion of my talents. A therapy retreat... on a pirate ship... where I, Sebastian Worthington III, shall pair wines with your *feelings*."
+SMALL CHICKEN: "So, picture this. I'm a chicken. A SMALL chicken. And I'm running a psychic business out of the east tower of a medieval castle. Already absurd, right? Wait, it gets worse."
 
-PRETENTIOUS MAN: "Now, I studied at the Sorbonne, summered in Bordeaux, and have a palate so refined I can detect a grape's *childhood trauma*. So this should be... beneath me, really."
+SMALL CHICKEN: "I see this baby at the orphanage—poor little thing, abandoned at the drawbridge. And I think, 'You know what? I'm psychic. I've got premonitions. I can handle ONE baby.'"
 
-PRETENTIOUS MAN: *swirls glass* "Let's begin. Margaret, you're feeling... *anxious*? How pedestrian. For anxiety, I recommend this 2015 Pinot Grigio. Light, flighty, lacks commitment—much like your ability to make decisions, I'd imagine."
+SMALL CHICKEN: "First red flag should've been when I had a vision of the baby and just saw... chaos. Pure, unfiltered chaos. But did I listen to my own psychic powers? NO. Because apparently I'm an IDIOT."
 
-PRETENTIOUS MAN: "What's that? The ship is rocking and you're getting seasick? Well, that's just adding *layers* to your anxiety, isn't it? Delightful complexity."
+SMALL CHICKEN: "Day one: The baby starts levitating. LEVITATING. I'm a psychic chicken, I read fortunes with tarot cards I can barely shuffle with these wings, and THIS BABY IS FLOATING."
 
-PRETENTIOUS MAN: "Todd, you say you're feeling *angry*? Ah yes, I can see it in your clenched fists and throbbing forehead vein. Charming. For rage, I suggest this Cabernet Sauvignon—bold, aggressive, leaves a bitter aftertaste. Sound familiar?"
+SMALL CHICKEN: "I'm trying to change a diaper while the child is doing loop-de-loops around the chandelier. Do you know how hard it is to catch a flying baby when you're THREE POUNDS?"
 
-PRETENTIOUS MAN: "No, Todd, I cannot pair your anger with rum. This is a PIRATE SHIP, not a PIRATE STEREOTYPING CONVENTION. We have *standards*."
+SMALL CHICKEN: "Day three: The baby turns the castle moat into grape juice. GRAPE JUICE. The knights are furious. The lord of the castle is demanding answers. I'm just standing there like, 'I... I don't know, my lord, perhaps it's a plumbing issue?'"
 
-PARROT: *squawks from rigging* "STANDARDS! STANDARDS!"
+SMALL CHICKEN: "Then I have another vision—this baby? Not a baby. It's a DEMON. A powerful, ancient demon who got bored being evil and wanted to experience childhood."
 
-PRETENTIOUS MAN: "Even the parrot understands. Thank you, Beauregard."
+SMALL CHICKEN: "I confronted the baby. I said, 'ARE YOU A DEMON?' And you know what this baby did? Smiled at me. SMILED. And then all the torches in the room turned blue."
 
-PRETENTIOUS MAN: "Now, Linda, you're experiencing *grief*. Oh, how terribly... *authentic*. For grief, nothing pairs quite like a Malbec—dark, brooding, makes you contemplate the void. It's practically a therapy session in a bottle."
+SMALL CHICKEN: "So now I'm parenting a demon baby while running a psychic business and being, again, a SMALL CHICKEN. My daily routine is: wake up, peck some grain, divine the future, stop the baby from opening portals to the underworld, go to bed."
 
-PRETENTIOUS MAN: "Although, between you and me, I find grief rather... *gauche*. Have you considered feeling something more sophisticated? Perhaps *ennui*? I have a lovely Chablis for that."
+SMALL CHICKEN: "Yesterday, a knight came in for a tarot reading. He wanted to know if he'd win the tournament. Meanwhile, the baby is behind me JUGGLING FLAMING SKULLS like it's NO BIG DEAL."
 
-PRETENTIOUS MAN: "What's that, Captain? We're being boarded by rival pirates? During my TASTING SESSION?!"
+SMALL CHICKEN: "I just laid out the cards real quick and said, 'You'll die honorably in battle, now PLEASE LEAVE.'"
 
-PRETENTIOUS MAN: "Well, this is just... I mean, the *audacity*! I'm in the middle of pairing a Riesling with someone's abandonment issues!"
+SMALL CHICKEN: "The worst part? I saw ALL of this coming. I'm literally psychic. I saw the floating, the moat incident, the flaming skulls. I saw EVERYTHING."
 
-PIRATE: *bursts in* "SURRENDER YER BOOTY!"
+SMALL CHICKEN: "But when I looked into the future, I also saw something else. I saw the baby—well, the demon—growing up. Learning. Laughing. Calling me 'Papa.'"
 
-PRETENTIOUS MAN: "First of all, it's 'your,' not 'yer.' Second, I'm detecting notes of unresolved anger and possible daddy issues. Have you considered a nice Tempranillo?"
+SMALL CHICKEN: "And I thought... maybe I can do this. Maybe a small psychic chicken CAN raise a demon baby in a medieval castle. Maybe—"
 
-PIRATE: "What?"
+BABY: *from offscreen* "PAPA! PAPA! I TURNED THE GUARDS INTO FROGS!"
 
-PRETENTIOUS MAN: "Your energy is very *Tempranillo*. Robust, Spanish, slightly violent. I could do a full emotional wine pairing for you right now—do you have childhood trauma? Of course you do, you're a PIRATE."
+SMALL CHICKEN: "WHAT?! No! NO! We talked about this! You can't just—" *sighs deeply* "You know what? This is fine. This is my life now."
 
-PRETENTIOUS MAN: "This is what I'm reduced to. I once consulted for Michelin-starred restaurants in Paris. Now I'm wine-profiling maritime criminals on a vessel that smells distinctly of fish and broken dreams."
+SMALL CHICKEN: "I'm going to add a new service to my psychic business: Demon Baby Management Consulting. Because if I survived this, ANYONE can learn from my mistakes."
 
-PRETENTIOUS MAN: "You know what? Everyone gets Chardonnay. EVERYTHING gets Chardonnay. Anxiety? Chardonnay. Rage? Chardonnay. Pirate invasion? CHARDONNAY."
+SMALL CHICKEN: "First lesson: When you have a vision of chaos... LISTEN TO THE VISION. Don't adopt the chaos. Don't NAME the chaos. Don't teach the chaos to read."
 
-PRETENTIOUS MAN: "It's oaky, it's basic, it pairs with literally everything because it has NO BACKBONE—much like this entire therapeutic concept!"
+SMALL CHICKEN: "Second lesson: Being three pounds does NOT stop you from being a parent. It just makes everything significantly harder and funnier for the castle guards to watch."
 
-PRETENTIOUS MAN: *takes long sip* "And now I'm drinking directly from the bottle. Do you see what you've done? You've reduced me to THIS. I'm a MONSTER."
+SMALL CHICKEN: "Third lesson: Love is weird, folks. Sometimes it's a small chicken and a demon baby in a medieval castle. And you know what? That's valid."
 
-PRETENTIOUS MAN: "Actually, wait. This emotional breakdown I'm having? It pairs beautifully with this Chardonnay. Notes of desperation with a finish of existential crisis. *Chef's kiss.*"
+SMALL CHICKEN: "Now if you'll excuse me, I need to go un-frog some guards and explain to the lord why his throne room is now filled with butterflies that whisper ancient prophecies."
 
-PRETENTIOUS MAN: "Perhaps I've learned something today. Perhaps the real wine pairing... was the trauma we experienced along the way."
+SMALL CHICKEN: "Being a parent is hard. Being a psychic is hard. Being a chicken is hard. Being ALL THREE? Well, at least I'll never run out of material for my memoirs."
 
-PRETENTIOUS MAN: "No. No, that's stupid. The real lesson is that I need to update my LinkedIn. 'Pirate ship sommelier' does NOT look good on a CV."
+SMALL CHICKEN: "'Clucks and Consequences: A Small Chicken's Guide to Raising the Antichrist.' It's gonna be a bestseller. I saw it in a vision."
 
 ---
 
@@ -62,4 +62,4 @@ PRETENTIOUS MAN: "No. No, that's stupid. The real lesson is that I need to updat
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-10*
+*Last updated: 2026-01-11*
