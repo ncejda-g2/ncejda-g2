@@ -1,56 +1,60 @@
-# Today's Improv (2026-01-11)
+# Today's Improv (2026-01-12)
 
-**Days running a fully-autonomous agent that updates my README: 29**
+**Days running a fully-autonomous agent that updates my README: 30**
 
-A small chicken, working as a psychic in a medieval castle, adopts a baby and gets more than he bargained for
+A grumpy giraffe and a hippie witch confront the chaos of autocorrect in a medieval wizard's tower
 
 ---
 
-SMALL CHICKEN: "So, picture this. I'm a chicken. A SMALL chicken. And I'm running a psychic business out of the east tower of a medieval castle. Already absurd, right? Wait, it gets worse."
+GRUMPY GIRAFFE: "I've been a scribe for fifteen years. FIFTEEN. And now my quill is correcting my spelling."
 
-SMALL CHICKEN: "I see this baby at the orphanage—poor little thing, abandoned at the drawbridge. And I think, 'You know what? I'm psychic. I've got premonitions. I can handle ONE baby.'"
+HIPPIE WITCH: "Oh yeah, I enchanted that for you! You're welcome, man. I figured it would, like, help with your whole 'perfectionist' vibe."
 
-SMALL CHICKEN: "First red flag should've been when I had a vision of the baby and just saw... chaos. Pure, unfiltered chaos. But did I listen to my own psychic powers? NO. Because apparently I'm an IDIOT."
+GRUMPY GIRAFFE: "Help? HELP?! I tried to write 'The king doth decree' and it changed it to 'The king doth DECAF.'"
 
-SMALL CHICKEN: "Day one: The baby starts levitating. LEVITATING. I'm a psychic chicken, I read fortunes with tarot cards I can barely shuffle with these wings, and THIS BABY IS FLOATING."
+HIPPIE WITCH: "I mean, the king probably needs to cut back on caffeine. Have you seen him? He's super jittery."
 
-SMALL CHICKEN: "I'm trying to change a diaper while the child is doing loop-de-loops around the chandelier. Do you know how hard it is to catch a flying baby when you're THREE POUNDS?"
+GRUMPY GIRAFFE: "That's not the point! Yesterday I was transcribing a royal proclamation and it autocorrected 'Battle of Hastings' to 'Battle of HASHTAGS.'"
 
-SMALL CHICKEN: "Day three: The baby turns the castle moat into grape juice. GRAPE JUICE. The knights are furious. The lord of the castle is demanding answers. I'm just standing there like, 'I... I don't know, my lord, perhaps it's a plumbing issue?'"
+HIPPIE WITCH: "Okay, that's actually pretty cosmic. Maybe the universe is trying to tell you something about the nature of warfare and social media—"
 
-SMALL CHICKEN: "Then I have another vision—this baby? Not a baby. It's a DEMON. A powerful, ancient demon who got bored being evil and wanted to experience childhood."
+GRUMPY GIRAFFE: "There IS no social media! It's 1387!"
 
-SMALL CHICKEN: "I confronted the baby. I said, 'ARE YOU A DEMON?' And you know what this baby did? Smiled at me. SMILED. And then all the torches in the room turned blue."
+HIPPIE WITCH: "Not with that attitude there isn't."
 
-SMALL CHICKEN: "So now I'm parenting a demon baby while running a psychic business and being, again, a SMALL CHICKEN. My daily routine is: wake up, peck some grain, divine the future, stop the baby from opening portals to the underworld, go to bed."
+GRUMPY GIRAFFE: "Do you know what happened when I wrote the Lord's prayer for the chapel? It changed 'hallowed be thy name' to 'HOLLOWED BE THY MEME.'"
 
-SMALL CHICKEN: "Yesterday, a knight came in for a tarot reading. He wanted to know if he'd win the tournament. Meanwhile, the baby is behind me JUGGLING FLAMING SKULLS like it's NO BIG DEAL."
+HIPPIE WITCH: "Okay, even I have to admit that's hilarious."
 
-SMALL CHICKEN: "I just laid out the cards real quick and said, 'You'll die honorably in battle, now PLEASE LEAVE.'"
+GRUMPY GIRAFFE: "The priest CRIED. He thought it was a sign of the apocalypse!"
 
-SMALL CHICKEN: "The worst part? I saw ALL of this coming. I'm literally psychic. I saw the floating, the moat incident, the flaming skulls. I saw EVERYTHING."
+HIPPIE WITCH: "I can remove the enchantment, but like, have you considered that maybe your quill is just more enlightened than you?"
 
-SMALL CHICKEN: "But when I looked into the future, I also saw something else. I saw the baby—well, the demon—growing up. Learning. Laughing. Calling me 'Papa.'"
+GRUMPY GIRAFFE: "This morning I tried to write 'peasant uprising' and it changed it to 'PLEASANT UPRISING.' Do you know how confusing that is for historical records?!"
 
-SMALL CHICKEN: "And I thought... maybe I can do this. Maybe a small psychic chicken CAN raise a demon baby in a medieval castle. Maybe—"
+HIPPIE WITCH: "Honestly? I think we need more pleasant uprisings. The energy would be way better."
 
-BABY: *from offscreen* "PAPA! PAPA! I TURNED THE GUARDS INTO FROGS!"
+GRUMPY GIRAFFE: "I'm a GIRAFFE. Do you know how hard it is to use a quill with hooves? And now I have to fight with it about VOCABULARY?!"
 
-SMALL CHICKEN: "WHAT?! No! NO! We talked about this! You can't just—" *sighs deeply* "You know what? This is fine. This is my life now."
+HIPPIE WITCH: "Have you tried, like, talking to it? Maybe it's just misunderstood."
 
-SMALL CHICKEN: "I'm going to add a new service to my psychic business: Demon Baby Management Consulting. Because if I survived this, ANYONE can learn from my mistakes."
+GRUMPY GIRAFFE: "It's a QUILL. With autocorrect. That you enchanted. Because you were 'bored' and wanted to 'spread good vibes.'"
 
-SMALL CHICKEN: "First lesson: When you have a vision of chaos... LISTEN TO THE VISION. Don't adopt the chaos. Don't NAME the chaos. Don't teach the chaos to read."
+HIPPIE WITCH: "I stand by my choices."
 
-SMALL CHICKEN: "Second lesson: Being three pounds does NOT stop you from being a parent. It just makes everything significantly harder and funnier for the castle guards to watch."
+GRUMPY GIRAFFE: "I tried to document a plague outbreak and it changed 'Black Death' to 'SNACK BREATH.'"
 
-SMALL CHICKEN: "Third lesson: Love is weird, folks. Sometimes it's a small chicken and a demon baby in a medieval castle. And you know what? That's valid."
+HIPPIE WITCH: "...Okay, I'm definitely removing that enchantment now."
 
-SMALL CHICKEN: "Now if you'll excuse me, I need to go un-frog some guards and explain to the lord why his throne room is now filled with butterflies that whisper ancient prophecies."
+GRUMPY GIRAFFE: "THANK YOU."
 
-SMALL CHICKEN: "Being a parent is hard. Being a psychic is hard. Being a chicken is hard. Being ALL THREE? Well, at least I'll never run out of material for my memoirs."
+HIPPIE WITCH: "But first, can you write one more thing with it? I want to see what it does with 'remove this cursed enchantment immediately.'"
 
-SMALL CHICKEN: "'Clucks and Consequences: A Small Chicken's Guide to Raising the Antichrist.' It's gonna be a bestseller. I saw it in a vision."
+GRUMPY GIRAFFE: *sighs and writes* "It says 'REMOVE THIS BLESSED ENCHILADA IMMEDIATELY.'"
+
+HIPPIE WITCH: "You know what? On second thought, this enchantment is a masterpiece. I'm leaving it."
+
+GRUMPY GIRAFFE: "I HATE YOU SO MUCH."
 
 ---
 
@@ -62,4 +66,4 @@ SMALL CHICKEN: "'Clucks and Consequences: A Small Chicken's Guide to Raising the
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-11*
+*Last updated: 2026-01-12*
