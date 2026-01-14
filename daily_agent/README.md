@@ -1,50 +1,60 @@
-# Today's Improv (2026-01-07)
+# Today's Improv (2026-01-14)
 
-**Days running a fully-autonomous agent that updates my README: 1**
+**Days running a fully-autonomous agent that updates my README: 2**
 
-A hoity-toity grasshopper attempts to understand Earth customs in an underwater city
+A rockstar oak tree, an egomaniacal ghoul, and a vindictive fox deal with a bad chef who comes to their underwater town
 
 ---
 
-REGINALD THE GRASSHOPPER: "Day 437 of my anthropological expedition to this... *underwater metropolis*. I must say, these 'Earth customs' are positively barbaric."
+OAKLEY THE OAK TREE: "Dudes, we need to talk about the new restaurant. 'Chef Barnacle's Bistro.' I went there last night and—"
 
-REGINALD THE GRASSHOPPER: "First observation: humans apparently breathe *air*. AIR! Like some sort of primitive surface creature. How gauche."
+MORTIMER THE GHOUL: "YOU went there? *I* went there. I'm the one who truly experienced it. My refined palate suffered immeasurably."
 
-REGINALD THE GRASSHOPPER: "I've been residing in this bubble helmet for months now. It's terribly uncomfortable, but one must make sacrifices for science. And style, obviously."
+SCARLETT THE FOX: "Oh, you both went without me? How delightful. I'll remember that."
 
-REGINALD THE GRASSHOPPER: "The locals here—jellyfish, mostly—keep asking why I don't just... remove the helmet. I tried explaining I'm studying *human* customs, not aquatic ones."
+OAKLEY THE OAK TREE: "Scarlett, it's not like that, man. We were gonna invite you but—"
 
-REGINALD THE GRASSHOPPER: "They stare at me with their gelatinous... well, they don't have eyes, but I *feel* their judgment."
+SCARLETT THE FOX: "Save it. What did this chef do that's worth discussing?"
 
-REGINALD THE GRASSHOPPER: "According to my research, humans engage in something called 'small talk.' Dreadful concept. Just yesterday, I attempted it with a sea cucumber."
+MORTIMER THE GHOUL: "What did he DO? He served me a kelp soufflé that had the texture of a deflated beach ball. It was an affront to MY existence specifically."
 
-REGINALD THE GRASSHOPPER: "I said, 'Lovely weather we're having, isn't it?' 800 feet below sea level. It didn't respond. Honestly, the rudeness!"
+OAKLEY THE OAK TREE: "Bro, he gave me 'wood-fired seaweed.' I'm made of WOOD. That's like... cannibalism adjacent?"
 
-REGINALD THE GRASSHOPPER: "Then there's this 'handshake' business. I have six legs! The logistics alone are nightmarish. Do I use the front two? All six in succession?"
+SCARLETT THE FOX: "Fascinating. And neither of you thought to warn me before I made a reservation for tonight."
 
-REGINALD THE GRASSHOPPER: "I attempted a handshake with an octopus last week. It used all eight tentacles. I was offended by the excess."
+OAKLEY THE OAK TREE: "Wait, you made a reservation? After we just said—"
 
-REGINALD THE GRASSHOPPER: "My neighbor—a rather rotund pufferfish—suggested I'm in the *wrong location* to study human customs."
+SCARLETT THE FOX: "Oh, I'm going. But not to eat. I'm going to make sure everyone in this underwater town knows exactly what I think of his 'cuisine.'"
 
-REGINALD THE GRASSHOPPER: "I informed him that I specifically *chose* an underwater city because it's more *refined* than those chaotic surface settlements."
+MORTIMER THE GHOUL: "Please, the vendetta should be MINE. I'm the one with discerning taste. I've been dead for 300 years! I know what good rot tastes like!"
 
-REGINALD THE GRASSHOPPER: "Besides, I already paid first and last month's rent on this kelp apartment. Do you have any idea how expensive real estate is down here?"
+CHEF BARNACLE: *swims by* "Ah! My first reviewers! Did you enjoy my interpretive dishes?"
 
-REGINALD THE GRASSHOPPER: "The pufferfish also mentioned that I'm not an alien—I'm literally just a grasshopper. A grasshopper FROM Earth."
+OAKLEY THE OAK TREE: "Uh, chef, dude, maybe go easier on the salt water? Everything tasted like... well, the ocean."
 
-REGINALD THE GRASSHOPPER: "Preposterous! I'm clearly far too sophisticated to be from this planet."
+CHEF BARNACLE: "That's the POINT! We're underwater! I'm a genius!"
 
-REGINALD THE GRASSHOPPER: "Though now that he mentions it... I *do* have this nagging memory of a field in Kansas..."
+MORTIMER THE GHOUL: "Genius? GENIUS? I'll have you know I've dined with kings, queens, and several angry mobs! Your 'sea cucumber surprise' was only surprising in its mediocrity!"
 
-REGINALD THE GRASSHOPPER: "No! No, that must be false memory implantation. Classic Earth custom, surely."
+SCARLETT THE FOX: "Your restaurant has a one-star review now. From me. Posted five minutes ago. Before I even ate there."
 
-REGINALD THE GRASSHOPPER: "In any case, I shall continue my research. Today's objective: understanding why humans consume 'sushi' when they could simply... eat the fish alive and whole, like civilized beings."
+CHEF BARNACLE: "But... you haven't tried my food!"
 
-REGINALD THE GRASSHOPPER: "Wait, do humans do that? *Should* I be eating fish alive? My notes are somewhat waterlogged."
+SCARLETT THE FOX: "I don't need to. These two didn't invite me to their dinner, so now everyone suffers. Also, your sign has a typo."
 
-REGINALD THE GRASSHOPPER: "*Dramatic sigh* Being a sophisticated alien anthropologist is exhausting."
+CHEF BARNACLE: *swimming away in tears* "I just wanted to share my passion for oceanic fusion cuisine!"
 
-REGINALD THE GRASSHOPPER: "I think I'll retire to my kelp chambers and contemplate why humans invented 'dry cleaning' when everything could just be... perpetually wet."
+OAKLEY THE OAK TREE: "Man, that was harsh. Even for underwater restaurant drama."
+
+MORTIMER THE GHOUL: "Harsh? I was planning to haunt his kitchen for the next decade! This is mercy!"
+
+SCARLETT THE FOX: "You know what? I'm going to write a follow-up review saying the chef cried when confronted with criticism. That should boost engagement."
+
+OAKLEY THE OAK TREE: "Remind me to never forget to invite you to anything ever again."
+
+MORTIMER THE GHOUL: "Agreed. Though I maintain that *I* was the primary victim here."
+
+SCARLETT THE FOX: "You're both victims of your own poor judgment. I, however, am a victim of your poor planning. There's a difference."
 
 ---
 
@@ -56,4 +66,4 @@ REGINALD THE GRASSHOPPER: "I think I'll retire to my kelp chambers and contempla
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-07*
+*Last updated: 2026-01-14*
