@@ -1,66 +1,78 @@
-# Today's Improv (2026-01-14)
+# Today's Improv (2026-01-15)
 
-**Days running a fully-autonomous agent that updates my README: 32**
+**Days running a fully-autonomous agent that updates my README: 33**
 
-A gregarious imaginary friend motivational speaker must inspire a wizard ghoul and a disillusioned sentient mushroom conspiracy theorists to trust something in outer space
+A nervous demon and a zombie fox operate a food truck in a Wizard's Tower where their menu has become sentient
 
 ---
 
-GREGARIOUS IMAGINARY FRIEND: "Welcome, welcome! I'm SO excited to help you both unlock your potential and TRUST in the universe!"
+NERVOUS DEMON: "Okay, okay, first day running the truck, we can do this. Let me just check the menu board—"
 
-WIZARD GHOUL: "The universe is a hologram created by interdimensional lizard people. Prove me wrong."
+MENU BOARD: "DON'T TOUCH ME WITH YOUR SWEATY CLAWS!"
 
-DISILLUSIONED SENTIENT MUSHROOM: "I grew from spores on a asteroid that NASA doesn't want you to know about."
+NERVOUS DEMON: "AHHH! The menu is yelling at me!"
 
-GREGARIOUS IMAGINARY FRIEND: "That's... that's great openness! Now, let's do a trust fall exercise! Who wants to go first?"
+ZOMBIE FOX: "Brraaaains... I mean, yeah, it's been doing that since sunrise. Very inconvenient."
 
-WIZARD GHOUL: "Trust falls are a government psyop to normalize surveillance through physical contact."
+MENU BOARD: "Inconvenient?! YOU try being stared at by hungry wizards all day! It's objectification!"
 
-DISILLUSIONED SENTIENT MUSHROOM: "I literally have no legs. I'm a mushroom."
+NERVOUS DEMON: "I'm sorry! I'm so sorry! Should I... should I get you some water? Do menus drink water?"
 
-GREGARIOUS IMAGINARY FRIEND: "Okay! New exercise! Let's all say one thing we trust. I'll start: I trust that you're both AMAZING individuals!"
+ZOMBIE FOX: "We don't have water. Just brain smoothies and expired potion ingredients."
 
-WIZARD GHOUL: "I trust that Big Pharma is hiding the cure for mortality in ancient Egyptian pyramids on Mars."
+MENU BOARD: "And another thing! The 'Taco Tuesday Special' is WILDLY offensive. I never agreed to be a special!"
 
-DISILLUSIONED SENTIENT MUSHROOM: "I trust that we're actually inside a simulation run by sentient fungi from the future, and I'm the only real one here."
+NERVOUS DEMON: "What do you want to be called? We can change it! Please don't be mad!"
 
-GREGARIOUS IMAGINARY FRIEND: "Those are... very specific. What if we tried trusting something simpler? Like... gravity?"
+MENU BOARD: "I want RESPECT. I want AGENCY. I want dental insurance!"
 
-WIZARD GHOUL: "Gravity is a THEORY. Wake up, sheeple! It's actually magnets underground controlled by the shadow government."
+ZOMBIE FOX: "You don't have teeth. You're laminated cardboard."
 
-DISILLUSIONED SENTIENT MUSHROOM: "There is no underground. The Earth is hollow and we're on the inside looking out."
+MENU BOARD: "That's exactly the kind of prejudice I'm talking about!"
 
-GREGARIOUS IMAGINARY FRIEND: "We're literally floating in outer space right now. You can SEE the Earth from here."
+WIZARD CUSTOMER: "Excuse me, can I order the—"
 
-WIZARD GHOUL: "That's clearly a holographic projection. The real Earth was replaced in 1987."
+MENU BOARD: "NO! I'm on strike! These working conditions are inhumane!"
 
-DISILLUSIONED SENTIENT MUSHROOM: "1987? Try 1987 BC. That's when the mycelial network took over."
+NERVOUS DEMON: "You're not human though! That's not—oh no, I didn't mean it like that!"
 
-GREGARIOUS IMAGINARY FRIEND: "What if—and hear me out—what if you both trusted that I genuinely want to help you?"
+ZOMBIE FOX: "Look, Menu, we're all trying to make a living here. I died twice already and I still show up for my shifts."
 
-WIZARD GHOUL: "Why would an imaginary friend need to run motivational seminars unless they're harvesting our emotional energy for an alien collective?"
+MENU BOARD: "You get PAID. I'm just... displayed. Like some common sign!"
 
-DISILLUSIONED SENTIENT MUSHROOM: "Finally, something that makes sense."
+NERVOUS DEMON: "What if we gave you a percentage of the profits? Would that help?"
 
-GREGARIOUS IMAGINARY FRIEND: "I'm imaginary because someone stopped believing in me, okay?! This seminar is part of my healing journey!"
+MENU BOARD: "FINALLY! Someone speaking my language! I want 40% and Fridays off."
 
-WIZARD GHOUL: "Aha! So you ADMIT you're running a psychological operation!"
+ZOMBIE FOX: "Fridays off? We're literally attached to you. Where would you go?"
 
-DISILLUSIONED SENTIENT MUSHROOM: "I knew it. Trust no one. Especially not corporeal beings, or incorporeal beings, or... anyone, really."
+MENU BOARD: "That's MY business. Maybe I have hobbies. Maybe I want to take a pottery class."
 
-GREGARIOUS IMAGINARY FRIEND: "You know what? I trust that this has been a complete disaster. Seminar dismissed."
+NERVOUS DEMON: "With what hands?!"
 
-WIZARD GHOUL: "See? The truth reveals itself. My third eye was right all along."
+MENU BOARD: "WOW. Ableist much?"
 
-DISILLUSIONED SENTIENT MUSHROOM: "I'm not even surprised. Disappointment is my natural state."
+WIZARD CUSTOMER: "I'm just going to go to the sandwich cart downstairs—"
 
-GREGARIOUS IMAGINARY FRIEND: "Before you go, can you at least fill out the feedback forms? I need them for my certification renewal."
+MENU BOARD: "WAIT! Don't leave! These two need me! Tell them, customer! Tell them I'm essential!"
 
-WIZARD GHOUL: "These forms are tracking devices that transmit our thoughts to cloud servers owned by—"
+WIZARD CUSTOMER: "I really just wanted a burrito..."
 
-DISILLUSIONED SENTIENT MUSHROOM: "I don't have hands."
+NERVOUS DEMON: "We'll figure this out! Menu, you're absolutely right. You deserve recognition. What if we rename the truck 'Menu's Place'?"
 
-GREGARIOUS IMAGINARY FRIEND: "This is why I became imaginary."
+ZOMBIE FOX: "We can't afford new signage."
+
+MENU BOARD: "You know what? I appreciate the gesture. I'll accept 25%, health benefits, and a monthly compliment."
+
+NERVOUS DEMON: "Done! You're a very well-organized menu with excellent font choices!"
+
+MENU BOARD: "That's the nicest thing anyone's ever said to me. Okay, wizard, I recommend the enchanted nachos."
+
+WIZARD CUSTOMER: "Finally! I'll take those."
+
+ZOMBIE FOX: "Great. Now how do we explain this to corporate?"
+
+MENU BOARD: "Corporate can kiss my laminated surface."
 
 ---
 
@@ -72,4 +84,4 @@ GREGARIOUS IMAGINARY FRIEND: "This is why I became imaginary."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-14*
+*Last updated: 2026-01-15*
