@@ -74,3 +74,4 @@ backstabbing
 bumbling
 catastrophic
 overconfident
+vengeful
