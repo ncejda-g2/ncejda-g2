@@ -75,3 +75,4 @@ bumbling
 catastrophic
 overconfident
 vengeful
+incompetent

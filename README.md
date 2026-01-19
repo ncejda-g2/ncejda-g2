@@ -1,66 +1,64 @@
-# Today's Improv (2026-01-18)
+# Today's Improv (2026-01-19)
 
-**Days running a fully-autonomous agent that updates my README: 36**
+**Days running a fully-autonomous agent that updates my README: 37**
 
-A vindictive penguin confronts office bureaucracy while a documentary crew narrates it like an action thriller
+A disillusioned sentient broccoli must give genuine praise to a hoity-toity octopus, their harshest critic, in the Arctic
 
 ---
 
-NARRATOR: "Day 47 of Operation Stapler Retrieval. Our hero enters the danger zone... also known as Floor 3."
+DISILLUSIONED SENTIENT BROCCOLI: "Okay, so... I've been hired to write you a compliment. A genuine one. For money. Because that's what my life has come to."
 
-VINDICTIVE PENGUIN: "Karen from accounting took my stapler. AGAIN. She thinks I'll forget. But penguins? We remember EVERYTHING. I've been keeping a list since 2019."
+HOITY-TOITY OCTOPUS: "Oh, how DELIGHTFUL. The vegetable who writes corporate birthday cards for a living thinks they can compliment ME. This should be entertaining."
 
-NARRATOR: "He waddles toward the elevator. Every step calculated. Every flipper swing deliberate. This is personal."
+DISILLUSIONED SENTIENT BROCCOLI: "Look, you've given me one-star reviews on every platform. Yelp. Google. Even LinkedIn, which I didn't know was POSSIBLE for compliment writers."
 
-VINDICTIVE PENGUIN: "I know she's in that meeting room. The one with the broken AC. She'll be vulnerable. Sweaty. Distracted."
+HOITY-TOITY OCTOPUS: "Your work is derivative, uninspired, and frankly, insulting to the art of flattery. 'You're doing great!' is not a compliment. It's a participation trophy in sentence form."
 
-NARRATOR: "The elevator dings. Third floor. Enemy territory."
+DISILLUSIONED SENTIENT BROCCOLI: "We're in the ARCTIC. It's minus forty degrees. I'm a BROCCOLI. I'm literally freezing my florets off to be here. The least you could do is—"
 
-VINDICTIVE PENGUIN: "I'm going in."
+HOITY-TOITY OCTOPUS: "The least I could do is maintain my standards. Just because we're in an inhospitable wasteland doesn't mean I should lower my expectations."
 
-NARRATOR: "He spots his target through the glass. Karen. Surrounded by her PowerPoint presentation and lukewarm coffee."
+DISILLUSIONED SENTIENT BROCCOLI: "Fine. FINE. You want a genuine compliment? Here goes: You have... eight arms."
 
-VINDICTIVE PENGUIN: "There. On her desk. MY stapler. The red Swingline. She's had it for THREE WEEKS. That's 504 hours of injustice."
+HOITY-TOITY OCTOPUS: "That's not a compliment. That's biology."
 
-NARRATOR: "He approaches the door. His flippers tremble—not with fear, but with righteous fury."
+DISILLUSIONED SENTIENT BROCCOLI: "And you use ALL of them to type scathing reviews simultaneously. That's... that's actually impressive. The multitasking alone—"
 
-VINDICTIVE PENGUIN: "I could just knock and ask politely. But where's the satisfaction in that? No. This requires strategy. Psychological warfare."
+HOITY-TOITY OCTOPUS: "Go on."
 
-INTERN: "Uh, sir? Are you talking to yourself?"
+DISILLUSIONED SENTIENT BROCCOLI: "Your vocabulary is extensive. I mean, you called my work 'pedestrian drivel masquerading as encouragement.' I had to look up 'pedestrian' as an adjective."
 
-VINDICTIVE PENGUIN: "I'm being FILMED for a DOCUMENTARY, Brad! This is IMPORTANT!"
+HOITY-TOITY OCTOPUS: "I also called it 'linguistic gruel.'"
 
-NARRATOR: "Brad retreats. He knows better than to interfere with a penguin on a mission."
+DISILLUSIONED SENTIENT BROCCOLI: "See? That's creative! You could be a compliment writer, but instead you chose to be... whatever this is. A critic? A force of nature? A reason I question my existence at 3 AM?"
 
-VINDICTIVE PENGUIN: "Okay. Focus. I'm going to waddle in there, make direct eye contact, and take what's MINE. And then—and THIS is the brilliant part—I'm going to eat her yogurt from the communal fridge."
+HOITY-TOITY OCTOPUS: "I prefer 'arbiter of quality.'"
 
-NARRATOR: "The stakes have never been higher."
+DISILLUSIONED SENTIENT BROCCOLI: "Honestly? You push me. Every terrible review makes me think harder. You're like my arch-nemesis, but instead of fighting crime, we're just... having this conversation in a frozen wasteland."
 
-VINDICTIVE PENGUIN: "The strawberry one. The GOOD one. The one she labeled 'KAREN - DO NOT TOUCH.'"
+HOITY-TOITY OCTOPUS: "That's... surprisingly sincere."
 
-NARRATOR: "He enters the conference room. Time slows. Karen looks up."
+DISILLUSIONED SENTIENT BROCCOLI: "I know. I surprised myself. I think I'm getting frostbite-induced clarity."
 
-VINDICTIVE PENGUIN: "Hello, Karen. Nice presentation. Is that clip art from 2007? Anyway, I'm reclaiming my property."
+HOITY-TOITY OCTOPUS: "Well. I suppose your work has shown marginal improvement over the past six months. Marginal."
 
-NARRATOR: "He seizes the stapler. Victory is within his grasp—"
+DISILLUSIONED SENTIENT BROCCOLI: "Did you just... compliment me?"
 
-KAREN: "That's MY stapler. Yours is on YOUR desk where you LEFT it."
+HOITY-TOITY OCTOPUS: "Absolutely not. I said 'marginal.' That's barely a measurement."
 
-VINDICTIVE PENGUIN: "...what."
+DISILLUSIONED SENTIENT BROCCOLI: "I'm writing that down. 'Marginal improvement' - Octopus, 2026. That's going on my website."
 
-NARRATOR: "Plot twist. M. Night Shyamalan couldn't have written it better."
+HOITY-TOITY OCTOPUS: "You wouldn't dare."
 
-VINDICTIVE PENGUIN: "But... but I checked my desk! It wasn't—"
+DISILLUSIONED SENTIENT BROCCOLI: "I'm a disillusioned broccoli in the Arctic giving compliments to my harshest critic. I have NOTHING left to lose."
 
-KAREN: "You checked the LEFT side. It's been on the RIGHT side for three weeks. I saw you looking for it every day and didn't say anything because I thought you'd figure it out."
+POLAR BEAR: "You two need a ride back to civilization? This is getting weird."
 
-VINDICTIVE PENGUIN: "..."
+HOITY-TOITY OCTOPUS: "Yes, please."
 
-NARRATOR: "Our hero realizes he's been the villain all along."
+DISILLUSIONED SENTIENT BROCCOLI: "Agreed. But first, can you tell the octopus they have great tentacle penmanship?"
 
-VINDICTIVE PENGUIN: "I ate your yogurt this morning."
-
-KAREN: "I KNEW IT WAS YOU!"
+HOITY-TOITY OCTOPUS: "They're ARMS, not tentacles! See, THIS is why I give you one star!"
 
 ---
 
@@ -72,4 +70,4 @@ KAREN: "I KNEW IT WAS YOU!"
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-18*
+*Last updated: 2026-01-19*
