@@ -1,60 +1,54 @@
-# Today's Improv (2026-01-14)
+# Today's Improv (2026-01-20)
 
-**Days running a fully-autonomous agent that updates my README: 2**
+**Days running a fully-autonomous agent that updates my README: 3**
 
-A rockstar oak tree, an egomaniacal ghoul, and a vindictive fox deal with a bad chef who comes to their underwater town
+A friendly ghost, a frugal banshee, and a grumpy man deal with a retirement party where the retiree refuses to leave and barricades themselves in the office in a jungle
 
 ---
 
-OAKLEY THE OAK TREE: "Dudes, we need to talk about the new restaurant. 'Chef Barnacle's Bistro.' I went there last night and—"
+CASPER THE GHOST: "Okay everyone, let's give Frank a big round of applause for 40 years of service! Frank? Frank, you can come out now."
 
-MORTIMER THE GHOUL: "YOU went there? *I* went there. I'm the one who truly experienced it. My refined palate suffered immeasurably."
+FRANK THE MAN: "NO! I'm not retiring! You can't make me!"
 
-SCARLETT THE FOX: "Oh, you both went without me? How delightful. I'll remember that."
+WAILING WENDY THE BANSHEE: "Frank, we already bought you a cake. A SMALL cake. From the discount bakery. Please don't waste it."
 
-OAKLEY THE OAK TREE: "Scarlett, it's not like that, man. We were gonna invite you but—"
+CASPER THE GHOST: "Buddy, we threw you a whole party! Look, there's... well, there's us. And some very confused monkeys outside the window."
 
-SCARLETT THE FOX: "Save it. What did this chef do that's worth discussing?"
+FRANK THE MAN: "This office is my LIFE! I've got 17 staplers in here and a coffee mug collection that spans three decades!"
 
-MORTIMER THE GHOUL: "What did he DO? He served me a kelp soufflé that had the texture of a deflated beach ball. It was an affront to MY existence specifically."
+WAILING WENDY THE BANSHEE: "Frank, do you know how much we spent on streamers? $3.47. I could've gotten TWO rotisserie chickens for that."
 
-OAKLEY THE OAK TREE: "Bro, he gave me 'wood-fired seaweed.' I'm made of WOOD. That's like... cannibalism adjacent?"
+FRANK THE MAN: "I'VE BARRICADED THE DOOR WITH FILING CABINETS! THERE ARE SPREADSHEETS IN THERE FROM 1987!"
 
-SCARLETT THE FOX: "Fascinating. And neither of you thought to warn me before I made a reservation for tonight."
+CASPER THE GHOST: "Frank, I could literally just phase through the wall and open the door from the inside."
 
-OAKLEY THE OAK TREE: "Wait, you made a reservation? After we just said—"
+FRANK THE MAN: "Don't you DARE! This is MY domain! Who's going to organize the quarterly reports?!"
 
-SCARLETT THE FOX: "Oh, I'm going. But not to eat. I'm going to make sure everyone in this underwater town knows exactly what I think of his 'cuisine.'"
+WAILING WENDY THE BANSHEE: "We hired your replacement last week. She's 23 and knows what TikTok is."
 
-MORTIMER THE GHOUL: "Please, the vendetta should be MINE. I'm the one with discerning taste. I've been dead for 300 years! I know what good rot tastes like!"
+FRANK THE MAN: "TRAITORS!"
 
-CHEF BARNACLE: *swims by* "Ah! My first reviewers! Did you enjoy my interpretive dishes?"
+CASPER THE GHOST: "Look, I'm going to level with you. I've been dead for 80 years, and even I know when it's time to move on."
 
-OAKLEY THE OAK TREE: "Uh, chef, dude, maybe go easier on the salt water? Everything tasted like... well, the ocean."
+MONKEY: *crashes through window* "OOH OOH AH AH!"
 
-CHEF BARNACLE: "That's the POINT! We're underwater! I'm a genius!"
+FRANK THE MAN: "SECURITY! Oh wait, I was also the security guard."
 
-MORTIMER THE GHOUL: "Genius? GENIUS? I'll have you know I've dined with kings, queens, and several angry mobs! Your 'sea cucumber surprise' was only surprising in its mediocrity!"
+WAILING WENDY THE BANSHEE: "Frank, that monkey just ate your retirement cake. The cake I PAID FOR."
 
-SCARLETT THE FOX: "Your restaurant has a one-star review now. From me. Posted five minutes ago. Before I even ate there."
+CASPER THE GHOST: "Wendy, I think we have bigger problems. Frank just shoved a desk against the—"
 
-CHEF BARNACLE: "But... you haven't tried my food!"
+FRANK THE MAN: "I'M SETTING UP A PERIMETER! I've got three hole punchers and I'm not afraid to use them!"
 
-SCARLETT THE FOX: "I don't need to. These two didn't invite me to their dinner, so now everyone suffers. Also, your sign has a typo."
+WAILING WENDY THE BANSHEE: "You know what? Fine. Stay in there. But you're not getting your $50 gift card to Applebee's."
 
-CHEF BARNACLE: *swimming away in tears* "I just wanted to share my passion for oceanic fusion cuisine!"
+FRANK THE MAN: "...What's the expiration date on that gift card?"
 
-OAKLEY THE OAK TREE: "Man, that was harsh. Even for underwater restaurant drama."
+CASPER THE GHOST: "It expires tomorrow."
 
-MORTIMER THE GHOUL: "Harsh? I was planning to haunt his kitchen for the next decade! This is mercy!"
+FRANK THE MAN: *door slowly opens* "I may have been... hasty."
 
-SCARLETT THE FOX: "You know what? I'm going to write a follow-up review saying the chef cried when confronted with criticism. That should boost engagement."
-
-OAKLEY THE OAK TREE: "Remind me to never forget to invite you to anything ever again."
-
-MORTIMER THE GHOUL: "Agreed. Though I maintain that *I* was the primary victim here."
-
-SCARLETT THE FOX: "You're both victims of your own poor judgment. I, however, am a victim of your poor planning. There's a difference."
+WAILING WENDY THE BANSHEE: "That's what I thought. Also, you're paying me back $1.74 for half that cake. The monkey only ate half."
 
 ---
 
@@ -66,4 +60,4 @@ SCARLETT THE FOX: "You're both victims of your own poor judgment. I, however, am
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-14*
+*Last updated: 2026-01-20*
