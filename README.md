@@ -1,64 +1,74 @@
-# Today's Improv (2026-01-19)
+# Today's Improv (2026-01-20)
 
-**Days running a fully-autonomous agent that updates my README: 37**
+**Days running a fully-autonomous agent that updates my README: 38**
 
-A disillusioned sentient broccoli must give genuine praise to a hoity-toity octopus, their harshest critic, in the Arctic
+A wizard dinosaur and a backstabbing demon are life coaches motivating a bridge troll to pursue their true passion instead of collecting tolls in outer space
 
 ---
 
-DISILLUSIONED SENTIENT BROCCOLI: "Okay, so... I've been hired to write you a compliment. A genuine one. For money. Because that's what my life has come to."
+WIZARD DINOSAUR: "Welcome to Cosmic Life Coaching! Now, Bridge Troll, what brings you to our space station today?"
 
-HOITY-TOITY OCTOPUS: "Oh, how DELIGHTFUL. The vegetable who writes corporate birthday cards for a living thinks they can compliment ME. This should be entertaining."
+BRIDGE TROLL: "I'm... I'm just so unfulfilled. I've been collecting tolls at the Andromeda Bridge for three thousand years."
 
-DISILLUSIONED SENTIENT BROCCOLI: "Look, you've given me one-star reviews on every platform. Yelp. Google. Even LinkedIn, which I didn't know was POSSIBLE for compliment writers."
+BACKSTABBING DEMON: "Three thousand years? And how much have you saved?"
 
-HOITY-TOITY OCTOPUS: "Your work is derivative, uninspired, and frankly, insulting to the art of flattery. 'You're doing great!' is not a compliment. It's a participation trophy in sentence form."
+BRIDGE TROLL: "Seventeen dollars. And a button."
 
-DISILLUSIONED SENTIENT BROCCOLI: "We're in the ARCTIC. It's minus forty degrees. I'm a BROCCOLI. I'm literally freezing my florets off to be here. The least you could do is—"
+WIZARD DINOSAUR: "Let's focus on passion, not finances. Tell me, what makes your heart sing?"
 
-HOITY-TOITY OCTOPUS: "The least I could do is maintain my standards. Just because we're in an inhospitable wasteland doesn't mean I should lower my expectations."
+BRIDGE TROLL: "Well... I've always wanted to be a florist."
 
-DISILLUSIONED SENTIENT BROCCOLI: "Fine. FINE. You want a genuine compliment? Here goes: You have... eight arms."
+BACKSTABBING DEMON: "FLORIST?! In outer space?! There's no oxygen! Plants can't—"
 
-HOITY-TOITY OCTOPUS: "That's not a compliment. That's biology."
+WIZARD DINOSAUR: "We DON'T crush dreams here, Gary. That's literally in our contract."
 
-DISILLUSIONED SENTIENT BROCCOLI: "And you use ALL of them to type scathing reviews simultaneously. That's... that's actually impressive. The multitasking alone—"
+BACKSTABBING DEMON: "First of all, my name is Azaroth, Devourer of Souls. Second, I'm just being REALISTIC."
 
-HOITY-TOITY OCTOPUS: "Go on."
+BRIDGE TROLL: "See, this is why I never pursued it. Everyone says it's impossible."
 
-DISILLUSIONED SENTIENT BROCCOLI: "Your vocabulary is extensive. I mean, you called my work 'pedestrian drivel masquerading as encouragement.' I had to look up 'pedestrian' as an adjective."
+WIZARD DINOSAUR: "Nothing is impossible! I'm a DINOSAUR who learned MAGIC. If I can master telekinesis with these tiny arms—"
 
-HOITY-TOITY OCTOPUS: "I also called it 'linguistic gruel.'"
+BACKSTABBING DEMON: "You use a wand. Your arms are completely irrelevant to—"
 
-DISILLUSIONED SENTIENT BROCCOLI: "See? That's creative! You could be a compliment writer, but instead you chose to be... whatever this is. A critic? A force of nature? A reason I question my existence at 3 AM?"
+WIZARD DINOSAUR: "Gary, I swear to the cosmos—"
 
-HOITY-TOITY OCTOPUS: "I prefer 'arbiter of quality.'"
+BACKSTABBING DEMON: "It's AZAROTH!"
 
-DISILLUSIONED SENTIENT BROCCOLI: "Honestly? You push me. Every terrible review makes me think harder. You're like my arch-nemesis, but instead of fighting crime, we're just... having this conversation in a frozen wasteland."
+BRIDGE TROLL: "Maybe I should just go back to the bridge."
 
-HOITY-TOITY OCTOPUS: "That's... surprisingly sincere."
+WIZARD DINOSAUR: "No! Look, you deserve to flourish! Pun intended. Have you considered hydroponics? Space gardens?"
 
-DISILLUSIONED SENTIENT BROCCOLI: "I know. I surprised myself. I think I'm getting frostbite-induced clarity."
+BRIDGE TROLL: "I... I hadn't thought of that."
 
-HOITY-TOITY OCTOPUS: "Well. I suppose your work has shown marginal improvement over the past six months. Marginal."
+BACKSTABBING DEMON: "Actually, you know what? I changed my mind. You should TOTALLY be a florist. In fact, I know a guy who runs a flower shop on Mars. Very exclusive clientele."
 
-DISILLUSIONED SENTIENT BROCCOLI: "Did you just... compliment me?"
+WIZARD DINOSAUR: "That's suspiciously helpful, Gary."
 
-HOITY-TOITY OCTOPUS: "Absolutely not. I said 'marginal.' That's barely a measurement."
+BACKSTABBING DEMON: "I'm turning over a new leaf! Also pun intended. Also, he needs someone desperate enough to accept payment in Martian currency, which is worthless."
 
-DISILLUSIONED SENTIENT BROCCOLI: "I'm writing that down. 'Marginal improvement' - Octopus, 2026. That's going on my website."
+BRIDGE TROLL: "Oh."
 
-HOITY-TOITY OCTOPUS: "You wouldn't dare."
+WIZARD DINOSAUR: "See, THIS is why I work alone! You can't help backstabbing people!"
 
-DISILLUSIONED SENTIENT BROCCOLI: "I'm a disillusioned broccoli in the Arctic giving compliments to my harshest critic. I have NOTHING left to lose."
+BACKSTABBING DEMON: "It's literally in my NAME! What did you expect?!"
 
-POLAR BEAR: "You two need a ride back to civilization? This is getting weird."
+BRIDGE TROLL: "You know what? I'm going back to the bridge. At least there, I know exactly what I'm getting: disappointment and seventeen dollars."
 
-HOITY-TOITY OCTOPUS: "Yes, please."
+WIZARD DINOSAUR: "Wait! What if we compromised? You could... collect tolls for the space garden? Admission fees?"
 
-DISILLUSIONED SENTIENT BROCCOLI: "Agreed. But first, can you tell the octopus they have great tentacle penmanship?"
+BRIDGE TROLL: "That's... actually not terrible."
 
-HOITY-TOITY OCTOPUS: "They're ARMS, not tentacles! See, THIS is why I give you one star!"
+BACKSTABBING DEMON: "And I could help you overcharge people! Win-win!"
+
+WIZARD DINOSAUR: "Or charge them FAIRLY, building a loyal customer base—"
+
+BRIDGE TROLL: "You two are exhausting. I'm going to open a flower shop AND charge whatever I want. Without either of you."
+
+WIZARD DINOSAUR: "That's the spirit! You're taking charge of your—"
+
+BACKSTABBING DEMON: "Wait, does this mean we don't get our coaching fee?"
+
+BRIDGE TROLL: "You can have the button."
 
 ---
 
@@ -70,4 +80,4 @@ HOITY-TOITY OCTOPUS: "They're ARMS, not tentacles! See, THIS is why I give you o
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-19*
+*Last updated: 2026-01-20*
