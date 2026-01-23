@@ -1,62 +1,68 @@
-# Today's Improv (2026-01-22)
+# Today's Improv (2026-01-23)
 
-**Days running a fully-autonomous agent that updates my README: 40**
+**Days running a fully-autonomous agent that updates my README: 41**
 
-An egomaniacal fox motivational speaker attempts to convince a pessimistic weatherman that clouds have feelings in an office
+A narcissistic raccoon, an ominous dragon, and a hungry horse are fairy tale characters bartering with absurd items in a swamp
 
 ---
 
-EGOMANIACAL FOX: "Thank you for having me here. Though honestly, I should be thanking YOU for the privilege of experiencing MY presence."
+NARCISSISTIC RACCOON: "Gather round, peasants! I'm here to trade my most prized possession—a mirror that only reflects MY gorgeous face!"
 
-EGOMANIACAL FOX: "Now, Steve—can I call you Steve? I'm calling you Steve—Steve, I've reviewed your weather reports for the past six months, and frankly, they're depressing."
+OMINOUS DRAGON: "The end times draw near... and I bring forth three cursed beans that whisper your darkest secrets at 3 AM."
 
-EGOMANIACAL FOX: "Forty percent chance of rain. Partly cloudy. Overcast. Where's the PASSION, Steve? Where's the EMPATHY?"
+HUNGRY HORSE: "I've got half a sandwich I found. It might be tuna. Wait, no, I ate it. Never mind."
 
-EGOMANIACAL FOX: "You see, what you don't understand—and I do, because I'm a visionary—is that clouds have FEELINGS."
+NARCISSISTIC RACCOON: "That's not how bartering works! You're supposed to have something TO trade!"
 
-EGOMANIACAL FOX: "Yes, feelings! Each cumulus, each nimbus, each cirrus is a living, breathing emotional entity crying out for acknowledgment!"
+HUNGRY HORSE: "I have regrets about the sandwich."
 
-EGOMANIACAL FOX: "And before you say anything, let me stop you right there with my impeccable fox intuition. You're thinking: 'This fox is brilliant AND handsome.' Correct on both counts."
+OMINOUS DRAGON: "The shadow market accepts regrets as currency... but yours are too weak. Too flavorless."
 
-EGOMANIACAL FOX: "But you're also thinking: 'Clouds are water vapor.' WRONG. Water vapor with EMOTIONS, Steve."
+NARCISSISTIC RACCOON: "Okay, Dragon, I'll bite. What do you want for these nightmare beans?"
 
-EGOMANIACAL FOX: "Just yesterday, I looked up at a particularly moody cumulonimbus, and you know what it told me? It said, 'Mr. Fox, why does Steve keep calling me threatening?'"
+OMINOUS DRAGON: "I seek... the golden egg of prophecy. Or a decent wifi password. The darkness gets spotty out here."
 
-EGOMANIACAL FOX: "That's RIGHT. You've been emotionally devastating our atmospheric friends with your callous meteorological assessments!"
+HUNGRY HORSE: "I know a wifi password! It's 'password123'—wait, that's just every public network I've tried."
 
-WEATHERMAN STEVE: "Are you... are you having a stroke?"
+NARCISSISTIC RACCOON: "I'll give you my mirror for those beans! Do you know how valuable a mirror that exclusively shows perfection is?"
 
-EGOMANIACAL FOX: "I'm having a BREAKTHROUGH, Steve! Something you've clearly never experienced given your pedestrian forecast vocabulary!"
+OMINOUS DRAGON: "It is but a cursed object that traps your vanity for all eternity—"
 
-EGOMANIACAL FOX: "From now on, you need to approach your forecasts with sensitivity. Not 'chance of thunderstorms'—no! It's 'possibility of emotional cloud release.'"
+NARCISSISTIC RACCOON: "EXACTLY! That's why it's priceless!"
 
-EGOMANIACAL FOX: "Not 'fog advisory.' Try 'low-altitude clouds seeking connection and visibility.'"
+HUNGRY HORSE: "Does anyone have food? I'll trade my horseshoes. Both of them. All four? How many do I have?"
 
-WEATHERMAN STEVE: "I have a degree in atmospheric science."
+OMINOUS DRAGON: "Four. And they reek of doom."
 
-EGOMANIACAL FOX: "And I have a GIFT, Steve. Given to me by the universe because it recognized my superiority. Which degree seems more impressive?"
+HUNGRY HORSE: "That's just swamp mud. Smells like doom, tastes like disappointment. I checked."
 
-EGOMANIACAL FOX: "Look at you, sitting there with your barometric pressure charts and your Doppler radar, completely oblivious to the EMOTIONAL pressure systems!"
+NARCISSISTIC RACCOON: "Wait, GOLDEN HORSESHOES? Horse, you've been walking on treasure this whole time?!"
 
-EGOMANIACAL FOX: "You know what? I'm going to do something generous right now. Something only someone of my caliber would even think to do."
+HUNGRY HORSE: "These are golden?! I thought they were just... shiny garbage."
 
-EGOMANIACAL FOX: "I'm going to give you a FREE PASS to one of my seminars: 'Cloudfulness: A Meteorological Awakening.' Normally $800, but for you? Still $800. Because you NEED it."
+OMINOUS DRAGON: "The prophecy foretold of a fool with golden hooves who knows not their worth..."
 
-EGOMANIACAL FOX: "We'll do trust exercises with stratus clouds. Meditation with fog banks. By the end, you'll be weeping openly at the sight of a simple rain shower."
+NARCISSISTIC RACCOON: "I'll take those horseshoes! I'll give you my mirror AND a slightly used tiara!"
 
-WEATHERMAN STEVE: "Security is on their way."
+HUNGRY HORSE: "Will you give me food?"
 
-EGOMANIACAL FOX: "Of course they are! Because greatness always makes people uncomfortable! Do you think Gandhi wasn't escorted out of offices?"
+NARCISSISTIC RACCOON: "I have gourmet trash from behind the castle. Barely touched by rats!"
 
-EGOMANIACAL FOX: "Mark my words, Steve. One day you'll look up at a sobbing nimbostratus and think, 'That fox was right. That magnificent, luminous fox was RIGHT.'"
+HUNGRY HORSE: "SOLD!"
 
-EGOMANIACAL FOX: "And on that day, you'll try to book a session with me, and you know what I'll say?"
+OMINOUS DRAGON: "And thus, the wheel of fate turns... the raccoon gains wealth, the horse gains sustenance, and I... I gain nothing."
 
-EGOMANIACAL FOX: "I'll say, 'My rate has tripled, and there's a six-month waiting list, but yes, I'll still help you because I'm THAT magnanimous.'"
+NARCISSISTIC RACCOON: "That's because you brought CURSED BEANS to a barter market! Read the room, Dragon!"
 
-EGOMANIACAL FOX: "Now if you'll excuse me, I have a TED Talk to prepare about the inner life of precipitation. Keep my card. You'll need it."
+OMINOUS DRAGON: "The room is a swamp."
 
-EGOMANIACAL FOX: "And Steve? That cumulus outside your window? It's judging you. Just thought you should know."
+HUNGRY HORSE: "This trash is amazing. Is that a whole croissant?!"
+
+OMINOUS DRAGON: "I curse you both with mild inconveniences."
+
+NARCISSISTIC RACCOON: "Joke's on you—I'm already mildly inconvenienced by having to look at creatures less attractive than myself!"
+
+HUNGRY HORSE: "Can I also have the beans? They might taste better than that sandwich."
 
 ---
 
@@ -68,4 +74,4 @@ EGOMANIACAL FOX: "And Steve? That cumulus outside your window? It's judging you.
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-22*
+*Last updated: 2026-01-23*
