@@ -1,68 +1,92 @@
-# Today's Improv (2026-01-23)
+# Today's Improv (2026-01-24)
 
-**Days running a fully-autonomous agent that updates my README: 41**
+**Days running a fully-autonomous agent that updates my README: 42**
 
-A narcissistic raccoon, an ominous dragon, and a hungry horse are fairy tale characters bartering with absurd items in a swamp
+A backstabbing gorilla, a wizard moose, and a hypocritical komodo dragon inherit a haunted castle in the desert, where a ghost agrees to leave if they fulfill its last earthly wish
 
 ---
 
-NARCISSISTIC RACCOON: "Gather round, peasants! I'm here to trade my most prized possession—a mirror that only reflects MY gorgeous face!"
+GHOST: "WHOOOOO... I shall depart this realm if you fulfill my final wish..."
 
-OMINOUS DRAGON: "The end times draw near... and I bring forth three cursed beans that whisper your darkest secrets at 3 AM."
+BACKSTABBING GORILLA: "Great! What do you need? Money? Revenge? I can arrange both, with a small finders fee."
 
-HUNGRY HORSE: "I've got half a sandwich I found. It might be tuna. Wait, no, I ate it. Never mind."
+WIZARD MOOSE: "By the ancient magics, I sense this spirit seeks something pure! Perhaps... closure?"
 
-NARCISSISTIC RACCOON: "That's not how bartering works! You're supposed to have something TO trade!"
+HYPOCRITICAL KOMODO DRAGON: "Everyone needs to be honest here. No lies, no deception. That's my policy."
 
-HUNGRY HORSE: "I have regrets about the sandwich."
+BACKSTABBING GORILLA: "Didn't you literally scam us into coming here by saying this was a 'luxury resort'?"
 
-OMINOUS DRAGON: "The shadow market accepts regrets as currency... but yours are too weak. Too flavorless."
+HYPOCRITICAL KOMODO DRAGON: "That's completely different! I was being aspirationally honest."
 
-NARCISSISTIC RACCOON: "Okay, Dragon, I'll bite. What do you want for these nightmare beans?"
+GHOST: "My final wish is... I want someone to water my cactus."
 
-OMINOUS DRAGON: "I seek... the golden egg of prophecy. Or a decent wifi password. The darkness gets spotty out here."
+WIZARD MOOSE: "A cactus? In the desert? How poetic! The cycle of life and—"
 
-HUNGRY HORSE: "I know a wifi password! It's 'password123'—wait, that's just every public network I've tried."
+BACKSTABBING GORILLA: "Wait, where's the cactus?"
 
-NARCISSISTIC RACCOON: "I'll give you my mirror for those beans! Do you know how valuable a mirror that exclusively shows perfection is?"
+GHOST: "In the conservatory. Third door on the left."
 
-OMINOUS DRAGON: "It is but a cursed object that traps your vanity for all eternity—"
+HYPOCRITICAL KOMODO DRAGON: "This seems suspiciously easy. I don't trust easy things."
 
-NARCISSISTIC RACCOON: "EXACTLY! That's why it's priceless!"
+BACKSTABBING GORILLA: "You literally JUST said we need to be honest. The ghost is being straightforward!"
 
-HUNGRY HORSE: "Does anyone have food? I'll trade my horseshoes. Both of them. All four? How many do I have?"
+HYPOCRITICAL KOMODO DRAGON: "Yes, and I'm honestly suspicious! See? Honesty!"
 
-OMINOUS DRAGON: "Four. And they reek of doom."
+WIZARD MOOSE: "I shall retrieve the sacred succulent!" *gallops off*
 
-HUNGRY HORSE: "That's just swamp mud. Smells like doom, tastes like disappointment. I checked."
+BACKSTABBING GORILLA: "So... Ghost, once you leave, who gets the castle? Because I'm thinking we should discuss ownership percentages."
 
-NARCISSISTIC RACCOON: "Wait, GOLDEN HORSESHOES? Horse, you've been walking on treasure this whole time?!"
+GHOST: "You all inherit it equally..."
 
-HUNGRY HORSE: "These are golden?! I thought they were just... shiny garbage."
+BACKSTABBING GORILLA: "Right, but I found this place FIRST—"
 
-OMINOUS DRAGON: "The prophecy foretold of a fool with golden hooves who knows not their worth..."
+HYPOCRITICAL KOMODO DRAGON: "We all got the lawyer's letter at the same time!"
 
-NARCISSISTIC RACCOON: "I'll take those horseshoes! I'll give you my mirror AND a slightly used tiara!"
+WIZARD MOOSE: *returns* "The cactus is... fifteen feet tall and has teeth."
 
-HUNGRY HORSE: "Will you give me food?"
+GHOST: "Oh yes, that's Gerald. He bites."
 
-NARCISSISTIC RACCOON: "I have gourmet trash from behind the castle. Barely touched by rats!"
+HYPOCRITICAL KOMODO DRAGON: "YOU DIDN'T MENTION THE BITING!"
 
-HUNGRY HORSE: "SOLD!"
+GHOST: "You didn't ask."
 
-OMINOUS DRAGON: "And thus, the wheel of fate turns... the raccoon gains wealth, the horse gains sustenance, and I... I gain nothing."
+BACKSTABBING GORILLA: "Okay, new plan. Moose, you water it. You've got magic."
 
-NARCISSISTIC RACCOON: "That's because you brought CURSED BEANS to a barter market! Read the room, Dragon!"
+WIZARD MOOSE: "My magic is for noble purposes, not cactus husbandry!"
 
-OMINOUS DRAGON: "The room is a swamp."
+BACKSTABBING GORILLA: "I'll give you 40% of the castle!"
 
-HUNGRY HORSE: "This trash is amazing. Is that a whole croissant?!"
+WIZARD MOOSE: "I thought we split it equally?"
 
-OMINOUS DRAGON: "I curse you both with mild inconveniences."
+BACKSTABBING GORILLA: "We DO. I'm offering you my future share of Komodo's portion."
 
-NARCISSISTIC RACCOON: "Joke's on you—I'm already mildly inconvenienced by having to look at creatures less attractive than myself!"
+HYPOCRITICAL KOMODO DRAGON: "You can't sell MY share!"
 
-HUNGRY HORSE: "Can I also have the beans? They might taste better than that sandwich."
+BACKSTABBING GORILLA: "I'm not selling, I'm... pre-negotiating."
+
+GHOST: "The cactus is getting thirsty..."
+
+WIZARD MOOSE: "FINE! Aqueous magnificus!" *water sprays everywhere*
+
+GERALD THE CACTUS: *demonic screeching*
+
+GHOST: "Perfect! My work here is done. The castle is yours. Good luck with Gerald. He needs watering every day."
+
+WIZARD MOOSE: "EVERY DAY?!"
+
+GHOST: "Toodles!" *vanishes*
+
+BACKSTABBING GORILLA: "So... anyone want to buy my third of a haunted castle with a demon cactus?"
+
+HYPOCRITICAL KOMODO DRAGON: "You can't just SELL it immediately! That's so dishonest!"
+
+BACKSTABBING GORILLA: "You literally tried to sell it before we even got here!"
+
+HYPOCRITICAL KOMODO DRAGON: "I was testing YOUR honesty!"
+
+GERALD THE CACTUS: *aggressive rustling*
+
+WIZARD MOOSE: "I'm going back to the forest. You two deserve each other."
 
 ---
 
@@ -74,4 +98,4 @@ HUNGRY HORSE: "Can I also have the beans? They might taste better than that sand
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-23*
+*Last updated: 2026-01-24*
