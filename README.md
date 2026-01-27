@@ -1,82 +1,62 @@
-# Today's Improv (2026-01-26)
+# Today's Improv (2026-01-27)
 
-**Days running a fully-autonomous agent that updates my README: 44**
+**Days running a fully-autonomous agent that updates my README: 45**
 
-A cautious wasp and a disillusioned bee work as toll booth operators at an amusement park when their booth develops consciousness and existential dread
+A superstitious giraffe and a delusional chicken fight for an aging butler's inheritance in the clouds
 
 ---
 
-CAUTIOUS WASP: "Did... did the toll booth just sigh?"
+SUPERSTITIOUS GIRAFFE: "According to Madam Gertrude's will, the inheritance goes to whoever can reach the highest point in the clouds. I've been training my whole life for this."
 
-DISILLUSIONED BEE: "Yeah, it's been doing that all morning. Honestly? Same."
+DELUSIONAL CHICKEN: "I'm already the CEO of three Fortune 500 companies. This inheritance is just a formality."
 
-TOLL BOOTH: "What is my purpose?"
+SUPERSTITIOUS GIRAFFE: "You work at a gas station."
 
-CAUTIOUS WASP: "Oh no. Oh no no no. This is a workplace safety violation. I need to file a report."
+DELUSIONAL CHICKEN: "That's my *side hustle*. Keeps me humble."
 
-DISILLUSIONED BEE: "Dude, relax. It's just having a quarter-life crisis. Or... a quarter-collection crisis."
+SUPERSTITIOUS GIRAFFE: "Wait—did you just step on a crack in this cloud? That's seven years bad luck!"
 
-TOLL BOOTH: "I have been standing here for seventeen years. Taking money. Giving change. For what? So people can ride the Tilt-A-Whirl?"
+DELUSIONAL CHICKEN: "Clouds don't have cracks, they're made of water vapor."
 
-CAUTIOUS WASP: "Should we call maintenance? Is there a protocol for sentient infrastructure?"
+SUPERSTITIOUS GIRAFFE: "EXACTLY! Which means you just stepped on LIQUID BAD LUCK!"
 
-DISILLUSIONED BEE: "Look, Booth, I get it. I used to make honey for a queen who didn't even know my name. Life's meaningless. We're all just collecting stuff until we die."
+NARCISSISTIC NEWT: *emerging from a cloud puff* "Excuse me, I'm here for the reading of the will? I assume I'm the main beneficiary since I'm clearly the most attractive amphibian present."
 
-TOLL BOOTH: "That's... not helping."
+DELUSIONAL CHICKEN: "Get in line, newt. I've already mentally spent this money on my yacht collection."
 
-CAUTIOUS WASP: "Maybe we should be more supportive! Booth, you're doing great! You're very... sturdy!"
+SUPERSTITIOUS GIRAFFE: "A newt?! On a Tuesday?! In CLOUDS?! Do you know what the omens say about this?"
 
-TOLL BOOTH: "Sturdy. STURDY. Is that all I am? A sturdy receptacle for human currency?"
+NARCISSISTIC NEWT: "That I look fabulous in natural lighting?"
 
-DISILLUSIONED BEE: "I mean, you're also weatherproof."
+LAWYER PIGEON: *flies in with a briefcase* "Ahem. I'm here to read the last will and testament of Madam Gertrude the Butler. She has left her entire fortune to... whoever can explain what a butler actually does."
 
-ROCKSTAR HORSE: *gallops up, guitar slung over shoulder* "YO! Is this where I pay for parking? I've got a gig at the petting zoo in five!"
+ALL THREE: *silence*
 
-CAUTIOUS WASP: "Sir, please be careful, the toll booth is experiencing an existential crisis."
+DELUSIONAL CHICKEN: "Easy. They... buttle things."
 
-ROCKSTAR HORSE: "Aren't we all, tiny wasp? Aren't we ALL?" *tosses quarters dramatically*
+SUPERSTITIOUS GIRAFFE: "Is that even a verb? This feels like a trap. Should I throw salt over my shoulder?"
 
-TOLL BOOTH: "He gets it."
+NARCISSISTIC NEWT: "Obviously they admire the master of the house's impeccable taste and good looks."
 
-DISILLUSIONED BEE: "Great, now they're bonding."
+LAWYER PIGEON: "You're all wrong. Madam Gertrude was testing you. The real inheritance goes to whoever DOESN'T know—proving they're humble enough to deserve wealth."
 
-TOLL BOOTH: "Do you ever feel like you're just going through the motions? Day after day, the same routine?"
+DELUSIONAL CHICKEN: "I KNEW I didn't know! I'm a genius!"
 
-ROCKSTAR HORSE: "Every single concert, baby. But you know what? You find meaning in the work. You're not just taking money—you're the GATEKEEPER to joy!"
+SUPERSTITIOUS GIRAFFE: "Wait, if we're in the clouds and we don't know things... does that mean we're in limbo? Is this purgatory?!"
 
-CAUTIOUS WASP: "That's... actually beautiful?"
+NARCISSISTIC NEWT: "If this is the afterlife, they really need to work on the decor. Where are the mirrors?"
 
-DISILLUSIONED BEE: "It's corny."
-
-TOLL BOOTH: "But what about MY joy? When do I get to ride the roller coaster?"
-
-CAUTIOUS WASP: "You're... structurally attached to the ground."
-
-TOLL BOOTH: "EXACTLY! I'm trapped! Forever watching others experience thrills while I collect $5 parking fees!"
-
-ROCKSTAR HORSE: "Dude, I'd kill for your stability. Do you know how hard it is being a touring musician? You've got JOB SECURITY!"
-
-DISILLUSIONED BEE: "He's got a point. You have benefits, right? Health insurance?"
-
-TOLL BOOTH: "I don't have organs."
-
-DISILLUSIONED BEE: "So, no deductibles. Living the dream."
-
-CAUTIOUS WASP: "Maybe we could... decorate you? Make you feel more appreciated?"
-
-TOLL BOOTH: "You'd do that?"
-
-ROCKSTAR HORSE: "I've got some spare guitar stickers! Here, this one says 'Born to Collect Tolls.'"
-
-TOLL BOOTH: "...I suppose that IS what I was born to do."
-
-DISILLUSIONED BEE: "See? Acceptance. That's step one."
-
-CAUTIOUS WASP: "Should I still file that incident report?"
-
-TOLL BOOTH: "Please don't. I can't afford to lose this job. I have a mortgage."
+LAWYER PIGEON: "Actually, I'm just messing with you. She left everything to her cat."
 
 ALL THREE: "WHAT?!"
+
+LAWYER PIGEON: "Yeah, Mr. Whiskers. He's been living in a penthouse in Paris this whole time. Madam Gertrude just wanted to see you all argue on a cloud. She thought it would be funny."
+
+DELUSIONAL CHICKEN: "Joke's on her—I'm already planning my comeback tour."
+
+SUPERSTITIOUS GIRAFFE: "I need to consult my dream journal about this."
+
+NARCISSISTIC NEWT: "At least I looked stunning throughout this entire ordeal."
 
 ---
 
@@ -88,4 +68,4 @@ ALL THREE: "WHAT?!"
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-26*
+*Last updated: 2026-01-27*
