@@ -4,23 +4,24 @@ Fully Autonomous README Agent using Claude Agent SDK
 
 This agent runs daily with a single comprehensive prompt that orchestrates the
 entire workflow autonomously. Claude is provided with all tools upfront and
-handles everything from content creation to git operations.
+handles content creation.
 
 Workflow:
 1. Python generates random characters (adjective + animal), picks a random place and situation
-2. Single comprehensive prompt is sent to Claude with Read, Write, Edit, and Bash tools
+2. Single comprehensive prompt is sent to Claude with Read, Write, Edit tools
 3. Claude autonomously:
    - Reads README.md and extracts day count
    - Invents a NEW creative scenario and adds it to the situations file
    - Writes a hilarious improv dialog between characters in the given situation/place
    - Updates README.md with the dialog
-   - Commits and pushes changes to GitHub
+4. GitHub Actions handles the git commit and push
 
 Key Benefits:
-- True autonomy: One prompt, entire workflow including git operations
+- True autonomy: One prompt, entire content workflow completed
 - Simpler code: Minimal orchestration needed
-- Claude handles dialog creation, context management, formatting, AND deployment
+- Claude handles dialog creation, context management, and formatting
 - Growing scenario library: Claude adds one new creative scenario each day
+- Clean git history: Commits show as github-actions[bot]
 """
 
 import asyncio
@@ -161,7 +162,6 @@ In general, favor dialogues (2-3 characters). Side characters may appear for com
             "Read",
             "Write",
             "Edit",
-            "Bash",
         ],
         permission_mode="acceptEdits",
         cwd=str(PROJECT_ROOT),
@@ -289,20 +289,11 @@ IMPORTANT:
 - Example: HUNGRY BEAR: "I can't focus on this meeting, I'm starving!"
 - The narrative title should be in regular text (not bold, not italicized)
 
-## Step 7: Commit and Push to GitHub
-After updating all files, commit and push your changes:
-
-1. Stage all changes: `git add .`
-2. Commit with message: `git commit -m "Day [DAY_NUMBER] - Autonomous README update"`
-   (Use the day number you calculated in Step 1)
-3. Push to origin: `git push`
-
 Report your progress as you complete each step. Show me:
 1. The new scenario you invented
 2. The new adjective you added
 3. The narrative title
-4. The dialog
-5. Git commit result"""
+4. The dialog"""
         )
 
         # Stream Claude's response and print progress

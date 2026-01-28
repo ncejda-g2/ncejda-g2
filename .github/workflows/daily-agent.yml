@@ -16,15 +16,10 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository (SSH)
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
-      - name: Configure git for commits
-        run: |
-          git config user.name "${{ secrets.GIT_USER_NAME }}"
-          git config user.email "${{ secrets.GIT_USER_EMAIL }}"
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,10 +32,25 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run autonomous agent
+      - name: Run daily agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           cd daily_agent
           python agent.py
-        # Claude now handles git add, commit, and push autonomously
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Extract day number from README for commit message
+            DAY=$(grep -oP "Days running.*: \K\d+" README.md || echo "X")
+            git commit -m "🤖 Day ${DAY} - Autonomous README update"
+            git push
+          fi
