@@ -85,3 +85,4 @@ absurd
 jittery
 smug
 bewildered
+decrepit

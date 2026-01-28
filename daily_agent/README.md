@@ -1,54 +1,60 @@
-# Today's Improv (2026-01-20)
+# Today's Improv (2026-01-28)
 
-**Days running a fully-autonomous agent that updates my README: 3**
+**Days running a fully-autonomous agent that updates my README: 4**
 
-A friendly ghost, a frugal banshee, and a grumpy man deal with a retirement party where the retiree refuses to leave and barricades themselves in the office in a jungle
+A philosophical unicorn and a superstitious moose encounter a ghost learning the truth in the astral plane inside a medieval castle
 
 ---
 
-CASPER THE GHOST: "Okay everyone, let's give Frank a big round of applause for 40 years of service! Frank? Frank, you can come out now."
+PHILOSOPHICAL UNICORN: "Ah, the astral plane. Where consciousness transcends the physical and—"
 
-FRANK THE MAN: "NO! I'm not retiring! You can't make me!"
+SUPERSTITIOUS MOOSE: "DON'T MAKE EYE CONTACT WITH THE GLOWING ENTITIES! I brought salt!"
 
-WAILING WENDY THE BANSHEE: "Frank, we already bought you a cake. A SMALL cake. From the discount bakery. Please don't waste it."
+GHOST: "Wait, wait, WAIT. Are you telling me I've been dead for 300 years and NOBODY told me heaven is just... floating shapes?!"
 
-CASPER THE GHOST: "Buddy, we threw you a whole party! Look, there's... well, there's us. And some very confused monkeys outside the window."
+PHILOSOPHICAL UNICORN: "Heaven is a construct. This is the interconnected web of all consciousness experiencing itself subjectively."
 
-FRANK THE MAN: "This office is my LIFE! I've got 17 staplers in here and a coffee mug collection that spans three decades!"
+SUPERSTITIOUS MOOSE: "I'm knocking on wood! Where's the wood?! EVERYTHING'S ETHEREAL!"
 
-WAILING WENDY THE BANSHEE: "Frank, do you know how much we spent on streamers? $3.47. I could've gotten TWO rotisserie chickens for that."
+GHOST: "I've been practicing harp for THREE CENTURIES. Where are the clouds? The pearly gates? THE BUFFET?!"
 
-FRANK THE MAN: "I'VE BARRICADED THE DOOR WITH FILING CABINETS! THERE ARE SPREADSHEETS IN THERE FROM 1987!"
+PHILOSOPHICAL UNICORN: "The buffet was merely a metaphor for spiritual fulfillment."
 
-CASPER THE GHOST: "Frank, I could literally just phase through the wall and open the door from the inside."
+GHOST: "I DIED AT A BUFFET! I choked on a dinner roll! This was supposed to be my REDEMPTION!"
 
-FRANK THE MAN: "Don't you DARE! This is MY domain! Who's going to organize the quarterly reports?!"
+SUPERSTITIOUS MOOSE: "See? This is why I never walk under ladders! Now we're trapped in a dimensional rift!"
 
-WAILING WENDY THE BANSHEE: "We hired your replacement last week. She's 23 and knows what TikTok is."
+PHILOSOPHICAL UNICORN: "We're not trapped. We're simply observing the ghost's existential awakening."
 
-FRANK THE MAN: "TRAITORS!"
+GHOST: "Existential awakening?! I'm having an EXISTENTIAL BREAKDOWN! I turned down reincarnation for THIS!"
 
-CASPER THE GHOST: "Look, I'm going to level with you. I've been dead for 80 years, and even I know when it's time to move on."
+SUPERSTITIOUS MOOSE: "Did you break a mirror? Step on a crack? MAKE A WISH AT 11:10 INSTEAD OF 11:11?!"
 
-MONKEY: *crashes through window* "OOH OOH AH AH!"
+GHOST: "What? No! I just... I followed the light! Everyone said follow the light!"
 
-FRANK THE MAN: "SECURITY! Oh wait, I was also the security guard."
+PHILOSOPHICAL UNICORN: "And what did you find?"
 
-WAILING WENDY THE BANSHEE: "Frank, that monkey just ate your retirement cake. The cake I PAID FOR."
+GHOST: "A CUSTOMER SERVICE DESK! With a 300-year wait time! I've been in the astral plane's WAITING ROOM!"
 
-CASPER THE GHOST: "Wendy, I think we have bigger problems. Frank just shoved a desk against the—"
+SUPERSTITIOUS MOOSE: "I KNEW IT! The afterlife has bureaucracy! I'm carrying four rabbit's feet from now on!"
 
-FRANK THE MAN: "I'M SETTING UP A PERIMETER! I've got three hole punchers and I'm not afraid to use them!"
+PHILOSOPHICAL UNICORN: "Perhaps the real heaven was the consciousness you expanded along the way."
 
-WAILING WENDY THE BANSHEE: "You know what? Fine. Stay in there. But you're not getting your $50 gift card to Applebee's."
+GHOST: "The real heaven was SUPPOSED TO HAVE DINNER ROLLS! But NOoo, here I am, floating in cosmic soup with a pretentious unicorn and a moose having a panic attack!"
 
-FRANK THE MAN: "...What's the expiration date on that gift card?"
+SUPERSTITIOUS MOOSE: "IT'S NOT A PANIC ATTACK, IT'S JUSTIFIED PARANORMAL ANXIETY!"
 
-CASPER THE GHOST: "It expires tomorrow."
+PHILOSOPHICAL UNICORN: "Fascinating. The ghost has achieved enlightenment through disappointment."
 
-FRANK THE MAN: *door slowly opens* "I may have been... hasty."
+GHOST: "I haven't achieved ANYTHING! I want a refund!"
 
-WAILING WENDY THE BANSHEE: "That's what I thought. Also, you're paying me back $1.74 for half that cake. The monkey only ate half."
+SUPERSTITIOUS MOOSE: "Quick! Throw salt over your left shoulder! Oh wait, we don't have shoulders here, WE'RE JUST CONSCIOUSNESS!"
+
+GHOST: "You know what? I'm filing a complaint. Where's the manager of the astral plane?"
+
+PHILOSOPHICAL UNICORN: "We are all the manager of the astral plane."
+
+GHOST and MOOSE: "THAT'S NOT HELPFUL!"
 
 ---
 
@@ -60,4 +66,4 @@ WAILING WENDY THE BANSHEE: "That's what I thought. Also, you're paying me back $
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-20*
+*Last updated: 2026-01-28*
