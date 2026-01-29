@@ -87,3 +87,4 @@ smug
 bewildered
 decrepit
 pessimistic
+existential

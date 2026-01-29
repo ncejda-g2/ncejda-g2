@@ -1,68 +1,48 @@
-# Today's Improv (2026-01-28)
+# Today's Improv (2026-01-29)
 
-**Days running a fully-autonomous agent that updates my README: 46**
+**Days running a fully-autonomous agent that updates my README: 47**
 
-An elegant banshee and a brave squirrel pursue true passions instead of collecting tolls in Dreamland
+A ninja llama interviews for a position as Chief Bubble Inspector in an underwater city
 
 ---
 
-ELEGANT BANSHEE: "So, tell me, how long have you been working this bridge?"
+NINJA LLAMA: "Okay, okay, I've got this. I'm a ninja. I'm stealthy. I'm trained for anything. How hard can a job interview be?"
 
-BRAVE SQUIRREL: "Thirty-seven years. Every single day. 'Pay the toll or face the wrath.' That's my line."
+NINJA LLAMA: "Wait, why is the chair floating? Oh right. Underwater city. Should've read the fine print."
 
-ELEGANT BANSHEE: "And how does that make you feel?"
+NINJA LLAMA: "And why did I wear my traditional ninja garb to this? I look like a wet black sock with ears."
 
-BRAVE SQUIRREL: "Powerful. Respected. Feared. Also, my back hurts and I haven't seen my family since 1989."
+INTERVIEWER FISH: *swims by with clipboard* "Are you the 3 o'clock for Chief Bubble Inspector?"
 
-ELEGANT BANSHEE: "I sense you're not living your truth. What do you REALLY want to do?"
+NINJA LLAMA: "YES! I mean... yes. Professional. I am very professional at... inspecting... bubbles."
 
-BRAVE SQUIRREL: "I... I want to be a pastry chef."
+INTERVIEWER FISH: *swims away*
 
-ELEGANT BANSHEE: "I'm sorry, what?"
+NINJA LLAMA: "Did that go well? I can't tell. He just blinked at me. Do fish blink? Was that approval or confusion?"
 
-BRAVE SQUIRREL: "Croissants. Eclairs. Delicate little macarons. I dream about them every night."
+NINJA LLAMA: "Focus. You prepared for this. What did the job posting say? 'Must have keen eye for detail, ability to work under pressure—' oh, THAT'S a pun. Under pressure. Because we're underwater. They're mocking me already."
 
-ELEGANT BANSHEE: "You're a bridge troll who wants to make French pastries."
+NINJA LLAMA: "But I NEED this job. Do you know how hard it is to find ninja work these days? Everyone's got security cameras! My last seventeen missions failed because some human saw me on their Ring doorbell!"
 
-BRAVE SQUIRREL: "I'm a SQUIRREL who's been PRETENDING to be a bridge troll! I don't even know why I took this job!"
+NINJA LLAMA: "So I thought, 'What's a place with NO cameras? The ocean floor!' Brilliant! Except now I'm applying to inspect BUBBLES."
 
-ELEGANT ANT: *scurrying across the bridge* "Excuse me, is there a toll?"
+NINJA LLAMA: "What does that even mean? Do I just... look at them? 'Yep, that's a bubble. Nice and round. Good bubble.'"
 
-BRAVE SQUIRREL: "FIVE ACORNS OR YOU SHALL NOT—"
+INTERVIEWER FISH: *returns* "Question one: What makes you qualified for this position?"
 
-ELEGANT BANSHEE: "Stop. What would pastry-chef you say?"
+NINJA LLAMA: "I—I have extensive experience in stealth, which translates to careful observation without disturbing the environment—"
 
-BRAVE SQUIRREL: *clears throat* "Would you like to sample our complimentary pain au chocolat?"
+INTERVIEWER FISH: "Can you pop a bubble with a shuriken from fifty yards?"
 
-ELEGANT ANT: "Oh my goodness, yes! This is the most elegant bridge experience I've ever had!"
+NINJA LLAMA: "I... what? Yes? I mean, I could, but wouldn't that defeat the purpose of INSPECTING—"
 
-BRAVE SQUIRREL: "Really?"
+INTERVIEWER FISH: *deadpan* "You're hired. Start Monday. Don't be late."
 
-ELEGANT ANT: "Absolutely! You know what? I'm an investor. Have you considered franchising this concept? 'Gourmet Toll Bridges'?"
+NINJA LLAMA: "Wait, THAT'S what qualified me?! I spent three weeks practicing my handshake technique for NOTHING?!"
 
-ELEGANT BANSHEE: "See? You're already integrating your passions!"
+INTERVIEWER FISH: *swimming away* "Oh, and llamas don't have hands."
 
-BRAVE SQUIRREL: "But what about being brave and intimidating? That's who I am!"
-
-ELEGANT BANSHEE: "It takes MORE bravery to make a perfect soufflé than to yell at travelers. Do you know how temperamental egg whites are?"
-
-BRAVE SQUIRREL: "They're... temperamental?"
-
-ELEGANT BANSHEE: "EXTREMELY. One wrong move and your meringue collapses. That's true danger."
-
-BRAVE SQUIRREL: "I never thought about it that way."
-
-ELEGANT ANT: "I'm writing you a check right now. Ten thousand acorns for 30% equity."
-
-BRAVE SQUIRREL: "Wait, this is Dreamland. None of this is real, is it?"
-
-ELEGANT BANSHEE: "Does that make your dreams any less valid?"
-
-BRAVE SQUIRREL: "I... I need to wake up and enroll in culinary school."
-
-ELEGANT BANSHEE: "That's the spirit! And remember—every toll you collected was just practice for measuring ingredients with precision."
-
-BRAVE SQUIRREL: *waking up* "HONEY! I'M QUITTING THE BRIDGE!"
+NINJA LLAMA: "...I really need to update my resume."
 
 ---
 
@@ -74,4 +54,4 @@ BRAVE SQUIRREL: *waking up* "HONEY! I'M QUITTING THE BRIDGE!"
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-28*
+*Last updated: 2026-01-29*
