@@ -1,48 +1,72 @@
-# Today's Improv (2026-01-29)
+# Today's Improv (2026-01-30)
 
-**Days running a fully-autonomous agent that updates my README: 47**
+**Days running a fully-autonomous agent that updates my README: 48**
 
-A ninja llama interviews for a position as Chief Bubble Inspector in an underwater city
+A cheerful demon must apologize to a vindictive chicken while explaining their profession as an apology writer in a wizard's tower
 
 ---
 
-NINJA LLAMA: "Okay, okay, I've got this. I'm a ninja. I'm stealthy. I'm trained for anything. How hard can a job interview be?"
+CHEERFUL DEMON: "Clucky! Hey! So great to see you! Listen, I owe you an apology—"
 
-NINJA LLAMA: "Wait, why is the chair floating? Oh right. Underwater city. Should've read the fine print."
+VINDICTIVE CHICKEN: "Oh, you OWE me more than that, Gerald. You owe me THREE YEARS of my life back."
 
-NINJA LLAMA: "And why did I wear my traditional ninja garb to this? I look like a wet black sock with ears."
+CHEERFUL DEMON: "Right, yes, about the whole 'trapping your soul in a cursed teapot' thing—"
 
-INTERVIEWER FISH: *swims by with clipboard* "Are you the 3 o'clock for Chief Bubble Inspector?"
+VINDICTIVE CHICKEN: "A TEAPOT, Gerald! Do you know what it's like being steeped for afternoon tea?!"
 
-NINJA LLAMA: "YES! I mean... yes. Professional. I am very professional at... inspecting... bubbles."
+CHEERFUL DEMON: "Look, that's actually why I'm here! I'm a professional apology writer now. I help people—well, beings—craft the perfect apologies for situations just like this!"
 
-INTERVIEWER FISH: *swims away*
+VINDICTIVE CHICKEN: "You... write apologies? For a living?"
 
-NINJA LLAMA: "Did that go well? I can't tell. He just blinked at me. Do fish blink? Was that approval or confusion?"
+CHEERFUL DEMON: "Yes! It's wonderful! I've apologized for everything from accidental soul theft to interdimensional property damage! Business is booming!"
 
-NINJA LLAMA: "Focus. You prepared for this. What did the job posting say? 'Must have keen eye for detail, ability to work under pressure—' oh, THAT'S a pun. Under pressure. Because we're underwater. They're mocking me already."
+VINDICTIVE CHICKEN: "So you're telling me you became an EXPERT at apologizing... because you've wronged SO MANY people that you turned it into a CAREER?!"
 
-NINJA LLAMA: "But I NEED this job. Do you know how hard it is to find ninja work these days? Everyone's got security cameras! My last seventeen missions failed because some human saw me on their Ring doorbell!"
+CHEERFUL DEMON: "When you say it like that, it sounds bad. But really, I prefer to think of it as 'leveraging my extensive experience in the regret sector.'"
 
-NINJA LLAMA: "So I thought, 'What's a place with NO cameras? The ocean floor!' Brilliant! Except now I'm applying to inspect BUBBLES."
+VINDICTIVE CHICKEN: "I was BOILED, Gerald."
 
-NINJA LLAMA: "What does that even mean? Do I just... look at them? 'Yep, that's a bubble. Nice and round. Good bubble.'"
+CHEERFUL DEMON: "And I am DEEPLY sorry! See? Watch this—I've developed a whole framework. First, I acknowledge the harm: You experienced significant discomfort and existential confusion while trapped in porcelain form."
 
-INTERVIEWER FISH: *returns* "Question one: What makes you qualified for this position?"
+VINDICTIVE CHICKEN: "A wizard tried to use me with a tea cozy!"
 
-NINJA LLAMA: "I—I have extensive experience in stealth, which translates to careful observation without disturbing the environment—"
+CHEERFUL DEMON: "Second, I take full responsibility: My actions directly caused your tea-based imprisonment, and that was wrong."
 
-INTERVIEWER FISH: "Can you pop a bubble with a shuriken from fifty yards?"
+VINDICTIVE CHICKEN: "You're READING from a NOTECARD!"
 
-NINJA LLAMA: "I... what? Yes? I mean, I could, but wouldn't that defeat the purpose of INSPECTING—"
+CHEERFUL DEMON: "Third, I offer restitution: I'm prepared to give you this coupon for three free soul extractions from vessels of your choosing, plus—"
 
-INTERVIEWER FISH: *deadpan* "You're hired. Start Monday. Don't be late."
+VINDICTIVE CHICKEN: "I don't WANT a coupon! I want you to FEEL something!"
 
-NINJA LLAMA: "Wait, THAT'S what qualified me?! I spent three weeks practicing my handshake technique for NOTHING?!"
+CHEERFUL DEMON: "But I DO feel something! I feel... professionally obligated to make amends!"
 
-INTERVIEWER FISH: *swimming away* "Oh, and llamas don't have hands."
+VINDICTIVE CHICKEN: "That's not an emotion, that's a BUSINESS MODEL!"
 
-NINJA LLAMA: "...I really need to update my resume."
+WIZARD NEWT: *squeaks from across the tower* "Is this a bad time? I hired him to apologize to my crystals for over-charging them."
+
+VINDICTIVE CHICKEN: "He CHARGES for this?!"
+
+CHEERFUL DEMON: "Well, yes. Apologies are an art form! Do you know how hard it is to say 'I'm sorry I accidentally summoned a plague of locusts to your daughter's bat mitzvah' with genuine sincerity?"
+
+VINDICTIVE CHICKEN: "You did WHAT to a bat mitzvah?!"
+
+CHEERFUL DEMON: "Different client! The point is, Clucky, I've grown! I've changed! I've turned my chronic wrongdoing into a thriving LLC!"
+
+VINDICTIVE CHICKEN: "...Did you just try to make your character development into a business pitch?"
+
+CHEERFUL DEMON: "Is it working?"
+
+VINDICTIVE CHICKEN: "No."
+
+CHEERFUL DEMON: "Would you like my card anyway? I do referrals—10% off your first apology package!"
+
+VINDICTIVE CHICKEN: "I'm going back in the teapot. At least in there, I didn't have to listen to your nonsense."
+
+CHEERFUL DEMON: "Wait! I haven't gotten to Step Four: The Heartfelt Conclusion!"
+
+VINDICTIVE CHICKEN: "GOODBYE, GERALD!"
+
+CHEERFUL DEMON: *calling after her* "I'll email you the presentation deck! It has PIE CHARTS!"
 
 ---
 
@@ -54,4 +78,4 @@ NINJA LLAMA: "...I really need to update my resume."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-29*
+*Last updated: 2026-01-30*
