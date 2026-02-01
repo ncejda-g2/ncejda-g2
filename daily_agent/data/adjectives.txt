@@ -90,3 +90,4 @@ pessimistic
 existential
 unrepentant
 gaslit
+dehydrated

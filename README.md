@@ -1,70 +1,64 @@
-# Today's Improv (2026-01-31)
+# Today's Improv (2026-02-01)
 
-**Days running a fully-autonomous agent that updates my README: 49**
+**Days running a fully-autonomous agent that updates my README: 50**
 
-A pessimistic giraffe must teach a trust fall workshop to a vindictive woman at an amusement park corporate retreat
+A content woman interrogates an arrogant otter who only communicates through interpretive dance on a mountain
 
 ---
 
-PESSIMISTIC GIRAFFE: "Welcome to Trust Falls 101. I'm Gary. Before we begin, I should mention that statistically, 73% of trust falls end in betrayal."
+CONTENT WOMAN: "Alright, let's make this simple. Where were you on the night of January 30th?"
 
-VINDICTIVE WOMAN: "Is that an actual statistic or are you just making that up?"
+ARROGANT OTTER: *performs an elaborate pirouette, then mimes climbing stairs*
 
-PESSIMISTIC GIRAFFE: "Does it matter? Either way, someone's dropping you."
+CONTENT WOMAN: "I'm going to need you to use actual words."
 
-VINDICTIVE WOMAN: "I already don't trust you, and we just met."
+ARROGANT OTTER: *shakes head vigorously, does jazz hands*
 
-PESSIMISTIC GIRAFFE: "Perfect! That's actually the ideal starting point for this exercise. Now, the government doesn't WANT you to know this, but trust falls were invented by the CIA in 1962 to—"
+CONTENT WOMAN: "Sir, this is a murder investigation, not 'So You Think You Can Dance.'"
 
-VINDICTIVE WOMAN: "Wait, are you a conspiracy theorist?"
+ARROGANT OTTER: *strikes a dramatic pose, pretends to weep*
 
-PESSIMISTIC GIRAFFE: "I prefer 'independently informed.' Now, turn around and fall backwards. I'll catch you. Probably."
+CONTENT WOMAN: "Are you... crying? Or is that part of the dance?"
 
-VINDICTIVE WOMAN: "PROBABLY?!"
+ARROGANT OTTER: *spins three times, points at own chest proudly, then moonwalks backward*
 
-PESSIMISTIC GIRAFFE: "Look, I'm being realistic here. My arms are basically twigs attached to a seventeen-foot frame. The physics are NOT in your favor."
+CONTENT WOMAN: "Okay, so you were... moonwalking away from the crime scene? That's what you're telling me?"
 
-VINDICTIVE WOMAN: "Why are YOU teaching this workshop?!"
+ARROGANT OTTER: *frantically waves arms, performs what appears to be the robot*
 
-PESSIMISTIC GIRAFFE: "Corporate mandated it after I sent that company-wide email about how the office water cooler is definitely bugged. Apparently this is 'team building' and 'addressing my trust issues.'"
+CONTENT WOMAN: "Why are we doing this on a MOUNTAIN? The precinct has a perfectly good interrogation room!"
 
-VINDICTIVE WOMAN: "YOU have trust issues? I got assigned here because I refused to collaborate with Brad from accounting after he stole my lunch!"
+SLEEPY OTTER: *shuffles past carrying camping gear* "Budget cuts. Also, I thought this was the yoga retreat."
 
-PESSIMISTIC GIRAFFE: "Was it a sandwich?"
+CONTENT WOMAN: "This is EXACTLY why I transferred from vice. At least the drug dealers would TALK to me."
 
-VINDICTIVE WOMAN: "It was a SALAD, and I'd been thinking about it ALL MORNING!"
+ARROGANT OTTER: *does the worm across the rocky ground, then stands up and dusts self off with exaggerated dignity*
 
-PESSIMISTIC GIRAFFE: "See, THIS is why trust falls are a scam. Brad steals your salad, but YOU'RE the one forced to fall backwards into a stranger's arms. The system is broken."
+CONTENT WOMAN: "You know what? Fine. If you want to dance, we'll dance. Was the victim PUSHED?" *does a pushing motion*
 
-DECREPIT HEDGEHOG: *wheeling by in a roller coaster cart* "Has anyone seen my dentures?!"
+ARROGANT OTTER: *gasps theatrically, clutches pearls that don't exist, then does a grand jeté*
 
-VINDICTIVE WOMAN: "Why are we doing this at an AMUSEMENT PARK anyway?!"
+CONTENT WOMAN: "A grand jeté means yes?"
 
-PESSIMISTIC GIRAFFE: "Because the conference room was 'mysteriously' double-booked. I suspect interference from Big Carnival. They're in cahoots with the bounce house industrial complex."
+ARROGANT OTTER: *taps nose smugly, then vogues*
 
-VINDICTIVE WOMAN: "You know what? Fine. I'll do the trust fall. But if you drop me, I'm taking you down with me."
+CONTENT WOMAN: "And the vogue means you're fabulous?"
 
-PESSIMISTIC GIRAFFE: "Now THAT'S the spirit of corporate synergy! Mutually assured destruction. Very team-oriented."
+ARROGANT OTTER: *nods enthusiastically, continues voguing*
 
-VINDICTIVE WOMAN: "On three. One... two—"
+CONTENT WOMAN: "I've been a detective for fifteen years. FIFTEEN. I've interrogated mob bosses, serial killers, and one guy who thought he was a toaster. But THIS—" *gestures wildly* "—THIS is my breaking point!"
 
-PESSIMISTIC GIRAFFE: "Wait! I haven't told you about the chemicals they put in the funnel cake stands to make you more compliant!"
+ARROGANT OTTER: *performs interpretive dance depicting a woman having an existential crisis*
 
-VINDICTIVE WOMAN: "THREE!"
+CONTENT WOMAN: "Are you MOCKING me right now?!"
 
-*crash*
+ARROGANT OTTER: *smirks, then does the floss*
 
-PESSIMISTIC GIRAFFE: "I caught you! Sort of! Your foot landed in my hoof!"
+CONTENT WOMAN: "You know what? You're under arrest for obstruction of justice and crimes against choreography."
 
-VINDICTIVE WOMAN: "I TRUSTED YOU!"
+ARROGANT OTTER: *breakdances in protest*
 
-PESSIMISTIC GIRAFFE: "And look where that got you! This is exactly what I've been trying to teach! Trust is a LIE perpetuated by greeting card companies!"
-
-VINDICTIVE WOMAN: "I'm putting you on my list, Gary. Right between Brad and the guy who spoiled the season finale."
-
-PESSIMISTIC GIRAFFE: "Jokes on you—I'm already on thirteen different lists! Three are government watchlists!"
-
-DECREPIT HEDGEHOG: *rolling past again* "Found them! They were in the teacup ride!"
+SLEEPY OTTER: *yawning from nearby* "Anyone want s'mores? I brought marshmallows."
 
 ---
 
@@ -76,4 +70,4 @@ DECREPIT HEDGEHOG: *rolling past again* "Found them! They were in the teacup rid
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-01-31*
+*Last updated: 2026-02-01*
