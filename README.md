@@ -1,72 +1,84 @@
-# Today's Improv (2026-02-02)
+# Today's Improv (2026-02-03)
 
-**Days running a fully-autonomous agent that updates my README: 51**
+**Days running a fully-autonomous agent that updates my README: 52**
 
-A nerdy ant princess inherits a haunted castle in the city, but a delusional venus fly trap ghost agrees to leave if the princess fulfills their last remaining earthly wish
+A hungry horse, an unrepentant cat, and a sanctimonious armadillo are submarine captains giving a TED talk while their submarine is actively sinking in the clouds
 
 ---
 
-NERDY ANT: "Okay, so according to my research, you've been haunting this castle for 200 years. That's... technically impressive from a thermodynamic perspective."
+HUNGRY HORSE: "And that concludes slide 47 of my presentation on 'Leadership Through Crisis.' Questions?"
 
-DELUSIONAL VENUS FLY TRAP: "Two hundred years of GLORY! I was the most famous botanist in the realm! They called me the Plant Whisperer!"
+SANCTIMONIOUS ARMADILLO: "Yes, I have a question. Why is there water coming through the ceiling?"
 
-NERDY ANT: "The historical records say you were a hedge trimmer who died after eating questionable mushrooms."
+HUNGRY HORSE: "That's actually slide 52. We'll get there."
 
-DELUSIONAL VENUS FLY TRAP: "LIES! Propaganda from Big Gardening! Now, fulfill my last wish and I shall depart this mortal coil... again."
+UNREPENTANT CAT: *lounging on the podium* "I sabotaged the hull."
 
-NERDY ANT: *adjusts tiny glasses* "Right. What's the wish?"
+HUNGRY HORSE: "What?"
 
-DELUSIONAL VENUS FLY TRAP: "I need you to water me."
+UNREPENTANT CAT: "Yeah, about twenty minutes ago. We're at 400 feet and dropping. Anyway, continue."
 
-NERDY ANT: "That's... surprisingly reasonable?"
+SANCTIMONIOUS ARMADILLO: "You WHAT?! This is UNETHICAL! We have AUDIENCE MEMBERS!"
 
-DELUSIONAL VENUS FLY TRAP: "With the tears of a accountant who just realized they love their job."
+UNREPENTANT CAT: "There's literally three of us here."
 
-NERDY ANT: "There it is."
+HUNGRY HORSE: "Can we circle back to this after my talk? I haven't eaten in four hours and I really need this speaking fee."
 
-DELUSIONAL VENUS FLY TRAP: "Also the accountant must be named Gerald. And they must be wearing plaid."
+SANCTIMONIOUS ARMADILLO: "The submarine is SINKING through CLOUDS! How is that even PHYSICALLY possible?!"
 
-NERDY ANT: "Do you have ANY idea how specific that is? This is a city! There are like eight Geralds and the probability that one of them is both an accountant AND experiencing a career epiphany while wearing plaid—"
+UNREPENTANT CAT: "I didn't say I understood the sabotage, I just said I did it."
 
-DELUSIONAL VENUS FLY TRAP: *floating menacingly* "Did I mention the castle is in escrow and closes in 48 hours?"
+AUDIENCE MEMBER: *raises flipper from the one seat* "Excuse me, when will refreshments be served?"
 
-NERDY ANT: "You're holding my real estate transaction hostage?!"
+HUNGRY HORSE: "THANK YOU! Finally someone asking the important questions!"
 
-GRANDIOSE KOMODO DRAGON: *bursts through door in full suit* "SOMEBODY CALL FOR A KOMODO DRAGON REALTOR?! I smell COMMISSION!"
+SANCTIMONIOUS ARMADILLO: "We need to evacuate! This is a DISASTER! Where are the emergency protocols?!"
 
-NERDY ANT: "How did you even get in here?"
+UNREPENTANT CAT: "Also ate those."
 
-GRANDIOSE KOMODO DRAGON: "I have a SIXTH SENSE for desperate property deals! Also, the door was open."
+SANCTIMONIOUS ARMADILLO: "You ate the PROTOCOLS?!"
 
-DELUSIONAL VENUS FLY TRAP: "NO REALTORS! Only Gerald! GERALD IN PLAID!"
+UNREPENTANT CAT: "They were laminated. Very crunchy."
 
-GRANDIOSE KOMODO DRAGON: "Ma'am, I'll have you know I wore plaid once in 1987. Does that count?"
+HUNGRY HORSE: *stomach growling* "Were they any good?"
 
-DELUSIONAL VENUS FLY TRAP: "Are you an accountant named Gerald?"
+SANCTIMONIOUS ARMADILLO: "Focus! We're PLUMMETING!"
 
-GRANDIOSE KOMODO DRAGON: "I'm a komodo dragon named Steve."
+HUNGRY HORSE: "Right, right. Okay, so slide 48 is actually about 'Maintaining Composure Under Pressure'—"
 
-DELUSIONAL VENUS FLY TRAP: "Then NO."
+UNREPENTANT CAT: "Oh, the irony is *chef's kiss*."
 
-NERDY ANT: "Wait. Steve, do you know any accountants named Gerald?"
+AUDIENCE MEMBER: "Will there be a Q&A portion?"
 
-GRANDIOSE KOMODO DRAGON: "I know a Gerald! He does my taxes! Loves his job, weird guy. Always wears plaid on Fridays!"
+HUNGRY HORSE: "Yes! After slides 48 through 51, assuming we're still alive."
 
-NERDY ANT: "IT'S SUNDAY."
+SANCTIMONIOUS ARMADILLO: "This is MADNESS! I'm activating the emergency surfacing system!"
 
-GRANDIOSE KOMODO DRAGON: "Then we wait until Friday! Problem solved!"
+UNREPENTANT CAT: "That button launches confetti now. I got bored."
 
-NERDY ANT: "The escrow closes in 48 HOURS! That's Tuesday!"
+*confetti explodes everywhere*
 
-DELUSIONAL VENUS FLY TRAP: "Should've thought of that before inheriting a haunted castle, shouldn't you?"
+SANCTIMONIOUS ARMADILLO: "WHY WOULD YOU—"
 
-NERDY ANT: *frantically calculating on tiny calculator* "Okay, okay. Statistically speaking, if I can convince Gerald to wear plaid on a non-Friday AND trigger an emotional career breakthrough, accounting for standard deviation in human emotional responses..."
+HUNGRY HORSE: "Ooh, festive! This really elevates the presentation aesthetic."
 
-GRANDIOSE KOMODO DRAGON: "Or we could just call him? I have his number."
+AUDIENCE MEMBER: "Is the confetti gluten-free?"
 
-NERDY ANT: "...why didn't you lead with that?"
+HUNGRY HORSE: *eyes lighting up* "Wait, can you EAT the confetti?"
 
-GRANDIOSE KOMODO DRAGON: "DRAMA! It's all about the PRESENTATION! That's what they taught us in komodo dragon real estate school!"
+UNREPENTANT CAT: "No, it's plastic. But don't let that stop you."
+
+SANCTIMONIOUS ARMADILLO: "We are FIFTY FEET from impact with whatever is below clouds and you're discussing DIETARY RESTRICTIONS?!"
+
+HUNGRY HORSE: "In my defense, I specifically mentioned I was hungry at the START of this talk."
+
+UNREPENTANT CAT: "To be fair, he really did."
+
+AUDIENCE MEMBER: "Are we going to die?"
+
+ALL THREE: "Probably!"
+
+HUNGRY HORSE: "But first—slide 48!"
 
 ---
 
@@ -78,4 +90,4 @@ GRANDIOSE KOMODO DRAGON: "DRAMA! It's all about the PRESENTATION! That's what th
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-02*
+*Last updated: 2026-02-03*
