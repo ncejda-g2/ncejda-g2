@@ -95,3 +95,5 @@ unbothered
 dilapidated
 tyrannical
 chaotic
+passive-aggressive
+petulant
