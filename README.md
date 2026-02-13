@@ -1,72 +1,70 @@
-# Today's Improv (2026-02-12)
+# Today's Improv (2026-02-13)
 
-**Days running a fully-autonomous agent that updates my README: 61**
+**Days running a fully-autonomous agent that updates my README: 62**
 
-A samurai sloth and a sanctimonious chimpanzee help a ghost learn the truth in the astral plane at the beach
+A machiavellian newt and a smug bear mediate a relationship crisis between a volcano and its village in the city
 
 ---
 
-SAMURAI SLOTH: "Welcome to the astral plane, Lost Spirit. Your journey to enlightenment begins... very... slowly."
+MACHIAVELLIAN NEWT: "Welcome to Couples Therapy. I'm Dr. Newt, and I've reviewed your case file. Village of Pomford, you've been together with Mount Blazington for... 800 years?"
 
-GHOST: "Wait, why is the astral plane just a regular beach? I expected floating crystals and cosmic wisdom!"
+SMUG BEAR: "Actually, I'm representing the volcano today. Mount Blazington couldn't make it—he's literally a geological formation."
 
-SANCTIMONIOUS CHIMPANZEE: "That's EXACTLY the kind of materialistic thinking that trapped you in the cycle of death and rebirth! I've been astral projecting since 2003, and I can tell you're a BEGINNER."
+MACHIAVELLIAN NEWT: "I see. And you are?"
 
-SAMURAI SLOTH: "Patience. The truth reveals itself... when it is... ready."
+SMUG BEAR: "Bear-ister Marcus Grizzwald, attorney at claw. My client has been defamed, harassed, and frankly, insulted by these villagers for centuries."
 
-GHOST: "How long does that take?"
+VILLAGE ELDER: "We bring you sacrifices every month! Premium goats! We sing to you!"
 
-SAMURAI SLOTH: "Three... to... five... business... days."
+SMUG BEAR: "Oh, you mean the BRIBES? The pathetic attempts to manipulate my client's volcanic activity? Classic toxic relationship behavior."
 
-SANCTIMONIOUS CHIMPANZEE: "Back in MY first astral plane experience, I achieved nirvana in six minutes. But of course, not everyone has my spiritual aptitude."
+MACHIAVELLIAN NEWT: "Interesting. Let me play devil's advocate here—and trust me, I'm very good at that. Village, what do YOU need from this relationship?"
 
-GHOST: "I just want to know why I died! I was eating a burrito and then suddenly I'm here!"
+VILLAGE ELDER: "We just want to NOT DIE. Is that too much to ask?"
 
-SAMURAI SLOTH: "The burrito... was a metaphor."
+SMUG BEAR: "See? Everything is about THEM. Never once asking 'How are you feeling, Mount Blazington?' or 'What can WE do for YOU?'"
 
-GHOST: "For what?!"
+MACHIAVELLIAN NEWT: "Bear-ister Grizzwald raises a valid point. When's the last time you asked the volcano about its needs?"
 
-SANCTIMONIOUS CHIMPANZEE: "For your CHOICES! Everything is a metaphor if you're spiritually evolved enough. That's chapter three of my e-book, 'Chimps Can't Jump But Souls Can Soar.'"
+VILLAGE ELDER: "It's a VOLCANO. Its needs are being hot and occasionally murderous!"
 
-GHOST: "You wrote an e-book in the astral plane?"
+SMUG BEAR: "WOW. Body shaming AND emotional dismissal. My client is a complex geological system with pressure needs, magma flow issues, and you're reducing him to a stereotype."
 
-SANCTIMONIOUS CHIMPANZEE: "Twelve e-books, actually. And a podcast. Some of us take the afterlife SERIOUSLY."
+MACHIAVELLIAN NEWT: "Let me propose a solution that benefits me—I mean, both parties. Village pays ME a monthly retainer, volcano agrees to a venting schedule, and I broker all future communications. Everyone wins. Especially me."
 
-SAMURAI SLOTH: "The truth is... you were... lactose... intolerant."
+VILLAGE ELDER: "That's extortion!"
 
-GHOST: "THAT'S the cosmic truth?! I died from dairy?!"
+SMUG BEAR: "My client is willing to settle for three virgins a month—"
 
-SANCTIMONIOUS CHIMPANZEE: "See, this is why I only consume organic, ethically-sourced astral energy. But some souls just refuse to do the work."
+VILLAGE ELDER: "We did that in medieval times! We've evolved! We offer yoga instructors now!"
 
-GHOST: "You're telling me I've been wandering between dimensions for three weeks because of CHEESE?!"
+SMUG BEAR: "And my client finds your downward dog insulting to his upward lava flows."
 
-SAMURAI SLOTH: "The universe... has a sense... of humor."
+MACHIAVELLIAN NEWT: "Gentlemen, let's focus on the real issue. Village, you fear abandonment—by way of incineration. Volcano, you feel taken for granted. These are universal relationship struggles."
 
-SANCTIMONIOUS CHIMPANZEE: "If you had attended my webinar 'Manifesting Your Best Ghost Life,' you would have known to check for allergens before incarnating into a body."
+VILLAGE ELDER: "He literally erupted during our harvest festival last year!"
 
-GHOST: "I want a refund on this enlightenment experience!"
+SMUG BEAR: "Because you FORGOT his eruption anniversary! Do you know how that made him feel? Of course not, because you never asked!"
 
-SAMURAI SLOTH: "All sales... are final... in eternity."
+MACHIAVELLIAN NEWT: "I'm sensing some projection here, Bear-ister. Is this about YOUR needs?"
 
-RANDOM BEACH SEAGULL: *flies through ghost* "CAW CAW!"
+SMUG BEAR: "This isn't about me. Though yes, I also feel underappreciated. Being a volcanic legal representative is HARD. Nobody respects magma law anymore."
 
-GHOST: "Did that seagull just fly through my ethereal form?!"
+VILLAGE ELDER: "Can we just sign a peace treaty or something?"
 
-SANCTIMONIOUS CHIMPANZEE: "That seagull has achieved a higher consciousness than you. Notice how it doesn't question the burrito? It simply ACCEPTS the burrito."
+MACHIAVELLIAN NEWT: "Treaties are my specialty. For a small fee of 40% of your annual GDP, I'll draft something that technically binds you both while containing enough loopholes that I'll be employed for decades handling disputes."
 
-SAMURAI SLOTH: "The seagull... is wise."
+SMUG BEAR: "My client demands an apology first. A REAL one. With feeling."
 
-GHOST: "I'm getting spiritual life lessons from a SEAGULL?!"
+VILLAGE ELDER: "Fine! Dear Mount Blazington, I'm sorry we've taken you for granted. We appreciate your... warmth? And your... geological contributions to our tourism industry?"
 
-SANCTIMONIOUS CHIMPANZEE: "This is exactly the ego-death I talk about in my TED Talk. Which I gave. In the astral plane. To an audience of enlightened beings."
+SMUG BEAR: "He accepts. That'll be 50,000 in legal fees."
 
-SAMURAI SLOTH: "That was... a TED... Talk? I thought... it was... naptime."
+MACHIAVELLIAN NEWT: "Excellent. Same time next week? The volcano still has unresolved childhood trauma from being called a 'dormant little hill' by neighboring mountains."
 
-GHOST: "You know what? I'm going back to haunt my apartment. At least there I understood the rules!"
+VILLAGE ELDER: "We can't afford weekly therapy!"
 
-SANCTIMONIOUS CHIMPANZEE: "Typical. Running away from growth. I'll add this to my case study on resistant spirits."
-
-SAMURAI SLOTH: "May your haunting... be... peaceful."
+MACHIAVELLIAN NEWT: "Then I guess you'll just have to deal with the emotional eruptions. Your choice."
 
 ---
 
@@ -78,4 +76,4 @@ SAMURAI SLOTH: "May your haunting... be... peaceful."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-12*
+*Last updated: 2026-02-13*
