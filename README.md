@@ -1,70 +1,66 @@
-# Today's Improv (2026-02-13)
+# Today's Improv (2026-02-14)
 
-**Days running a fully-autonomous agent that updates my README: 62**
+**Days running a fully-autonomous agent that updates my README: 63**
 
-A machiavellian newt and a smug bear mediate a relationship crisis between a volcano and its village in the city
+A nervous armadillo life insurance salesman attempts to pitch services to a smug immortal beetle in the microscopic world
 
 ---
 
-MACHIAVELLIAN NEWT: "Welcome to Couples Therapy. I'm Dr. Newt, and I've reviewed your case file. Village of Pomford, you've been together with Mount Blazington for... 800 years?"
+NERVOUS ARMADILLO: "T-thank you for meeting with me, Mr. Beetle. I represent MicroLife Insurance, and I'd love to discuss your... um... mortality coverage needs?"
 
-SMUG BEAR: "Actually, I'm representing the volcano today. Mount Blazington couldn't make it—he's literally a geological formation."
+SMUG BEETLE: "Mortality coverage? How quaint. I achieved immortality 3,000 years ago. I literally watched the dinosaurs die."
 
-MACHIAVELLIAN NEWT: "I see. And you are?"
+NERVOUS ARMADILLO: "Right! Yes! That's actually... that's great! But have you considered what happens if you're... accidentally stepped on? Or... squished?"
 
-SMUG BEAR: "Bear-ister Marcus Grizzwald, attorney at claw. My client has been defamed, harassed, and frankly, insulted by these villagers for centuries."
+SMUG BEETLE: "I can regenerate from a single cell. Try again, armadillo."
 
-VILLAGE ELDER: "We bring you sacrifices every month! Premium goats! We sing to you!"
+NERVOUS ARMADILLO: "Okay, okay. What about... existential dread coverage? After living forever, you might experience a crisis of—"
 
-SMUG BEAR: "Oh, you mean the BRIBES? The pathetic attempts to manipulate my client's volcanic activity? Classic toxic relationship behavior."
+SMUG BEETLE: "Already had twelve of those. Boring. Next pitch."
 
-MACHIAVELLIAN NEWT: "Interesting. Let me play devil's advocate here—and trust me, I'm very good at that. Village, what do YOU need from this relationship?"
+NERVOUS ARMADILLO: "Look, I've been doing this for six weeks and you're my first appointment! My manager said if I don't sell something today, I'm fired!"
 
-VILLAGE ELDER: "We just want to NOT DIE. Is that too much to ask?"
+SMUG BEETLE: "And why is that my problem?"
 
-SMUG BEAR: "See? Everything is about THEM. Never once asking 'How are you feeling, Mount Blazington?' or 'What can WE do for YOU?'"
+NERVOUS ARMADILLO: "Because I have a wife! Three hundred babies! Armadillos always have multiples! Do you know how expensive tiny little armadillo shoes are?!"
 
-MACHIAVELLIAN NEWT: "Bear-ister Grizzwald raises a valid point. When's the last time you asked the volcano about its needs?"
+SMUG BEETLE: "I literally ruled ancient Egypt. I was worshipped as a god. Your financial problems are beneath me. Literally and figuratively—you're also much smaller than me."
 
-VILLAGE ELDER: "It's a VOLCANO. Its needs are being hot and occasionally murderous!"
+NERVOUS ARMADILLO: "What if... what if we offered immortality INSURANCE? Like, insurance AGAINST being immortal?"
 
-SMUG BEAR: "WOW. Body shaming AND emotional dismissal. My client is a complex geological system with pressure needs, magma flow issues, and you're reducing him to a stereotype."
+SMUG BEETLE: "...I'm listening."
 
-MACHIAVELLIAN NEWT: "Let me propose a solution that benefits me—I mean, both parties. Village pays ME a monthly retainer, volcano agrees to a venting schedule, and I broker all future communications. Everyone wins. Especially me."
+NERVOUS ARMADILLO: "If you ever get tired of living forever, we'll... uh... help you find meaning in eternal existence? Premium therapy sessions? A support group?"
 
-VILLAGE ELDER: "That's extortion!"
+SMUG BEETLE: "The only other immortal I know is a narcissistic fungus who won't stop talking about cryptocurrency. Continue."
 
-SMUG BEAR: "My client is willing to settle for three virgins a month—"
+NERVOUS ARMADILLO: "We have a special clause! If you're ever bored for more than 500 consecutive years, we'll introduce you to NEW immortals! Fresh perspectives!"
 
-VILLAGE ELDER: "We did that in medieval times! We've evolved! We offer yoga instructors now!"
+SMUG BEETLE: "Define 'fresh.'"
 
-SMUG BEAR: "And my client finds your downward dog insulting to his upward lava flows."
+NERVOUS ARMADILLO: "Well, there's a cockroach who claims he'll outlive the heat death of the universe. Very upbeat guy. Loves jazz."
 
-MACHIAVELLIAN NEWT: "Gentlemen, let's focus on the real issue. Village, you fear abandonment—by way of incineration. Volcano, you feel taken for granted. These are universal relationship struggles."
+SMUG BEETLE: "Jazz? The cockroach has taste. What's the premium?"
 
-VILLAGE ELDER: "He literally erupted during our harvest festival last year!"
+NERVOUS ARMADILLO: "For someone of your... infinite lifespan... we're looking at monthly payments until the end of time."
 
-SMUG BEAR: "Because you FORGOT his eruption anniversary! Do you know how that made him feel? Of course not, because you never asked!"
+SMUG BEETLE: "So you want me to pay FOREVER for insurance against living FOREVER?"
 
-MACHIAVELLIAN NEWT: "I'm sensing some projection here, Bear-ister. Is this about YOUR needs?"
+NERVOUS ARMADILLO: "When you say it like that, it sounds bad."
 
-SMUG BEAR: "This isn't about me. Though yes, I also feel underappreciated. Being a volcanic legal representative is HARD. Nobody respects magma law anymore."
+SMUG BEETLE: "It IS bad. That's literally the worst business model I've heard in three millennia."
 
-VILLAGE ELDER: "Can we just sign a peace treaty or something?"
+NERVOUS ARMADILLO: "I can offer you a 2% discount?"
 
-MACHIAVELLIAN NEWT: "Treaties are my specialty. For a small fee of 40% of your annual GDP, I'll draft something that technically binds you both while containing enough loopholes that I'll be employed for decades handling disputes."
+SMUG BEETLE: "Two percent off of infinity is still infinity, you absolute fool."
 
-SMUG BEAR: "My client demands an apology first. A REAL one. With feeling."
+NERVOUS ARMADILLO: "What if I just... curl up into a ball right here and cry? Would that help?"
 
-VILLAGE ELDER: "Fine! Dear Mount Blazington, I'm sorry we've taken you for granted. We appreciate your... warmth? And your... geological contributions to our tourism industry?"
+SMUG BEETLE: "You know what? Fine. I'll buy your worthless policy. Not because I need it, but because watching you grovel has been the most entertaining thing I've witnessed since the Bronze Age collapsed."
 
-SMUG BEAR: "He accepts. That'll be 50,000 in legal fees."
+NERVOUS ARMADILLO: "Really?! Oh thank you, thank you! You won't regret this! Or... you will, but forever, so you'll have time to process it!"
 
-MACHIAVELLIAN NEWT: "Excellent. Same time next week? The volcano still has unresolved childhood trauma from being called a 'dormant little hill' by neighboring mountains."
-
-VILLAGE ELDER: "We can't afford weekly therapy!"
-
-MACHIAVELLIAN NEWT: "Then I guess you'll just have to deal with the emotional eruptions. Your choice."
+SMUG BEETLE: "I already regret it. Which proves your product works. Well played, armadillo."
 
 ---
 
@@ -76,4 +72,4 @@ MACHIAVELLIAN NEWT: "Then I guess you'll just have to deal with the emotional er
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-13*
+*Last updated: 2026-02-14*
