@@ -1,94 +1,78 @@
-# Today's Improv (2026-02-15)
+# Today's Improv (2026-02-16)
 
-**Days running a fully-autonomous agent that updates my README: 64**
+**Days running a fully-autonomous agent that updates my README: 65**
 
-A theatrical bear must teach improv comedy to a geeky dragon and a hoity-toity oak tree who are overly serious funeral directors in outer space
+A petulant man must teach portion control to a disillusioned ant and an oblivious ant who are his past selves from different timelines in the Arctic
 
 ---
 
-THEATRICAL BEAR: "Welcome, welcome to 'Laughing Through Loss: Improv for Funeral Professionals!' I'm Biscuit, and today we're going to loosen up those stiff, somber vibes!"
+PETULANT MAN: "Alright, listen up, past mes. I've traveled through multiple timelines to stage this intervention in the Arctic because you RUINED my life with your eating habits!"
 
-GEEKY DRAGON: "I don't understand. I brought my calculator and a spreadsheet of grief metrics. Where do I sit?"
+DISILLUSIONED ANT: "Oh great, another lecture. I've heard it all before. Life is meaningless, hot dogs are fleeting, what's the point?"
 
-HOITY-TOITY OAK TREE: "This is preposterous. I've been conducting funerals in zero gravity for 400 years. I hardly need lessons from a... bear."
+OBLIVIOUS ANT: "Wait, you're me? From the future? Cool! Do I get bigger? I feel like I should get bigger."
 
-THEATRICAL BEAR: "Perfect! Let's start with a classic improv exercise: 'Yes, And!' I'll begin. 'I'm sorry for your loss, the deceased loved space tacos.'"
+PETULANT MAN: "NO! That's the PROBLEM! In Timeline A, you became an ant with no self-control. In Timeline B, you became a DEPRESSED ant with no self-control. And I became... THIS!" *gestures angrily at himself*
 
-GEEKY DRAGON: "No, they didn't. According to their file, they were lactose intolerant and—"
+DISILLUSIONED ANT: "You look fine to me. Actually, no, you look awful. But everything looks awful when you've lost hope."
 
-THEATRICAL BEAR: "NOPE! That's 'No, But!' In improv, we say 'Yes, And!' Try again!"
+OBLIVIOUS ANT: "Why are we in the Arctic? Is there food here? I'm kinda hungry."
 
-HOITY-TOITY OAK TREE: "This is beneath my dignity. My roots are literally fossilized from centuries of presiding over dignified ceremonies."
+PETULANT MAN: "SEE?! That's EXACTLY the attitude I'm talking about! 'I'm kinda hungry' became 'I'm entering my 47th hot dog eating contest this month!'"
 
-THEATRICAL BEAR: "Okay, Dragon, your turn! The family says, 'We want to celebrate Uncle Jerry's life with interpretive dance.' What do you say?"
+DISILLUSIONED ANT: "Hot dogs don't even taste good. Nothing tastes good anymore. I remember when I thought winning mattered. Now I realize we're all just ants shoving processed meat into the void."
 
-GEEKY DRAGON: "I would consult regulation 7.3.2 of the Intergalactic Funeral Code, which clearly states that—"
+OBLIVIOUS ANT: "I LOVE hot dogs! Wait, are we having hot dogs now? Is that why we're here?"
 
-THEATRICAL BEAR: "You're killing me! And I'm a professional mourner, so that's saying something!"
+PETULANT MAN: "NO! We're here because the cold slows down your metabolism and maybe—MAYBE—you'll listen to reason! Do you know what happened after you won the Nathan's Famous Hot Dog Eating Contest seventeen times in a row?"
 
-HOITY-TOITY OAK TREE: "Perhaps if we understood the POINT of this frivolity, we might participate more effectively."
+DISILLUSIONED ANT: "We became empty inside?"
 
-THEATRICAL BEAR: "The point is that grief is heavy! Sometimes people need permission to laugh! To remember joy! Not everything has to be... whatever this is!" *gestures at both of them*
+OBLIVIOUS ANT: "We got a trophy?"
 
-GEEKY DRAGON: "I once told a widow that her husband's death statistics were within normal parameters for his age bracket. She threw her asteroid at me."
+PETULANT MAN: "We got BANNED! And then we got so depressed we ate an entire industrial freezer full of hot dogs and got trapped in Antarctica with a penguin colony that STILL makes fun of me!"
 
-HOITY-TOITY OAK TREE: "I informed a grieving son that his father's casket was crafted from lesser wood than my own bark. He filed a complaint with the Space Council."
+DISILLUSIONED ANT: "That tracks. Everything I've ever accomplished has been meaningless. Remember when we thought eating 73 hot dogs in 10 minutes would make us happy?"
 
-THEATRICAL BEAR: "YES! See? You're TOO serious! Let's try again. I'm the grieving widow. Go!"
+OBLIVIOUS ANT: "That DOES sound happy! Was it happy? I bet it was happy!"
 
-GEEKY DRAGON: "Um... your husband is... in a better place? Statistically speaking, heaven has a 73% approval rating?"
+PETULANT MAN: "It was NOT! Our stomach exploded! Metaphorically! But also kind of literally!"
 
-HOITY-TOITY OAK TREE: "My condolences. Your husband was... adequate. Not exceptional, but adequate."
+PENGUIN: *waddles by* "Hey, it's Hot Dog Gary! Still banned from every buffet in the Northern Hemisphere?"
 
-THEATRICAL BEAR: "I'M GOING TO SCREAM INTO THE VACUUM OF SPACE."
+PETULANT MAN: "GO AWAY, PENGUIN!"
 
-GEEKY DRAGON: "Wait! I have an idea. What if we... what if we told the widow her husband would have found the funeral arrangements... satisfactory?"
+DISILLUSIONED ANT: "See? Even flightless birds mock us. This is what we've become."
 
-THEATRICAL BEAR: "Okay, warmer, but—"
+OBLIVIOUS ANT: "That penguin seems nice. Do penguins eat hot dogs?"
 
-HOITY-TOITY OAK TREE: "Or perhaps we could mention that the deceased had... acceptable taste in memorial music?"
+PETULANT MAN: "This is IMPOSSIBLE! I'm trying to teach you about portion control! One hot dog is a MEAL! Two hot dogs is EXCESSIVE! Seventy-three hot dogs is a CRY FOR HELP!"
 
-THEATRICAL BEAR: "You're both hopeless. Let me demonstrate. 'I'm so sorry for your loss. Your husband was clearly loved, and today we celebrate a life well-lived!' See? Warmth! Heart!"
+DISILLUSIONED ANT: "But what does it matter? In Timeline C, we're probably a mushroom. In Timeline D, we never existed. Portion control is just another construct to distract us from the absurdity of existence."
 
-GEEKY DRAGON: "But what if the life wasn't well-lived? What if he was a space pirate who stole my lunch money in third grade?"
+OBLIVIOUS ANT: "Ooh, I like mushrooms! Do you think mushrooms can eat hot dogs?"
 
-HOITY-TOITY OAK TREE: "Or what if he once described me as 'just a tree' in front of the Galactic Botanical Society?"
+PETULANT MAN: "WHY DID I THINK THIS WOULD WORK?!"
 
-THEATRICAL BEAR: "Then you LIE! With ENTHUSIASM! That's literally what I'm paid to do!"
+DISILLUSIONED ANT: "Because deep down, you still have hope. That's your problem. You haven't fully accepted the futility yet."
 
-GEEKY DRAGON: "That seems... dishonest. I have a moral subroutine that prevents—"
+OBLIVIOUS ANT: "I'm confused. Are we eating or not eating? Because I packed snacks and I don't want them to get cold. Well, colder. We're already in the Arctic."
 
-HOITY-TOITY OAK TREE: "I have never told a lie in four centuries. My bark rings would show the deception."
+PETULANT MAN: "You know what? FINE. Let me try a different approach. What if I told you that eating in moderation means you can enjoy FLAVOR again? That food becomes SPECIAL instead of just... fuel for your shame spiral?"
 
-THEATRICAL BEAR: "Okay, new exercise! Let's do a scene. Dragon, you're planning a funeral. Tree, you're the client. I'll watch. Go!"
+DISILLUSIONED ANT: "I don't believe in special anymore."
 
-GEEKY DRAGON: "Hello. I have prepared seventeen casket options, ranked by efficiency, cost, and aerodynamics."
+OBLIVIOUS ANT: "I believe in everything! Especially hot dogs!"
 
-HOITY-TOITY OAK TREE: "Are any of them made from mahogany? I only associate with premium hardwoods."
+PETULANT MAN: "I CAME BACK THROUGH TIME AND SPACE TO FIX THIS!"
 
-GEEKY DRAGON: "Option twelve is mahogany, but it has a 3.7% chance of cosmic ray deterioration."
+DISILLUSIONED ANT: "Maybe the real portion control was the existential dread we collected along the way."
 
-HOITY-TOITY OAK TREE: "Unacceptable. I shall source my own casket from my personal forest."
+OBLIVIOUS ANT: "So... should I eat my snacks now or...?"
 
-THEATRICAL BEAR: "STOP! THIS IS A FUNERAL, NOT A BOARD MEETING!"
+PETULANT MAN: "You're both IMPOSSIBLE! I'm going back to my timeline where at least the penguins respect me!"
 
-GEEKY DRAGON: "What if the deceased WANTED a board meeting?"
-
-HOITY-TOITY OAK TREE: "I once conducted a funeral that was literally a board meeting. The deceased was CEO of SpaceEx. Very efficient."
-
-THEATRICAL BEAR: "I quit. I officially quit. You can't teach improv to people who are literally made of rigidity!"
-
-GEEKY DRAGON: "Wait! Don't go! I'll try harder! Watch: 'Yes, and... and the deceased loved... um... fun?'"
-
-HOITY-TOITY OAK TREE: "Yes, and they were... not entirely terrible as a person?"
-
-THEATRICAL BEAR: "...you know what? That's the worst 'Yes, And' I've ever heard, but at least you tried. Baby steps."
-
-GEEKY DRAGON: "Does this mean we pass the class? I need this for my continuing education credits."
-
-HOITY-TOITY OAK TREE: "I require a certificate to display among my many prestigious awards."
-
-THEATRICAL BEAR: "You both get a C-minus and a recommendation for therapy. Class dismissed."
+PENGUIN: *from a distance* "No we don't!"
 
 ---
 
@@ -100,4 +84,4 @@ THEATRICAL BEAR: "You both get a C-minus and a recommendation for therapy. Class
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-15*
+*Last updated: 2026-02-16*
