@@ -107,3 +107,4 @@ gullible
 self-sabotaging
 sleep-deprived
 spiteful
+berserk
