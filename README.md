@@ -1,76 +1,78 @@
-# Today's Improv (2026-02-17)
+# Today's Improv (2026-02-18)
 
-**Days running a fully-autonomous agent that updates my README: 66**
+**Days running a fully-autonomous agent that updates my README: 67**
 
-A self-sabotaging oak tree and a theatrical komodo dragon navigate return policies after property damage in the Arctic.
+A frazzled gorilla and a punk horse work as medieval heralds announcing tweets in Ye Olde English to a confused modern audience at an amusement park.
 
 ---
 
-SELF-SABOTAGING OAK TREE: "Welcome to Arctic Gift Returns, how can I— oh no, it's you again."
+FRAZZLED GORILLA: "Hear ye, hear ye! A proclamation from... uh... @BratSummer2024: 'Brat summer is literally so over I can't even.'"
 
-THEATRICAL KOMODO DRAGON: "BEHOLD! I, Ignatius the Magnificent, have RETURNED to return this DEFECTIVE gift wrap that CRUMBLED beneath the heat of my PASSION!"
+PUNK HORSE: "Dude, you're doing it wrong. More flowery. Watch this— HARK! The lady @BratSummer2024 doth declare with great lamentations that the season of Brat hath concluded most grievously!"
 
-SELF-SABOTAGING OAK TREE: "Sir, you burned down the entire store. The gift wrap worked fine. You just... breathed fire on it."
+FRAZZLED GORILLA: "I've been doing this for six hours! My throat hurts! Why did we take this gig at an amusement park?"
 
-THEATRICAL KOMODO DRAGON: "Semantics! The product FAILED to withstand dragon fire! This is clearly a DESIGN FLAW! I demand a FULL refund!"
+PUNK HORSE: "Because 'Medieval Tweet Herald' sounded punk rock on the job posting. It's subversive! We're mocking both medieval times AND social media!"
 
-SELF-SABOTAGING OAK TREE: "Okay, I'll need to see your receipt."
+FRAZZLED GORILLA: "No one understands what we're saying! That family just asked if we're having a stroke!"
 
-THEATRICAL KOMODO DRAGON: "My... receipt?"
+PUNK HORSE: "Art is supposed to make people uncomfortable, man. Next tweet—"
 
-SELF-SABOTAGING OAK TREE: "Yes. The small paper that proves you purchased— you know what, never mind, I'm sure I'm going to mess this up anyway. I always do."
+RANDOM TEEN: "Excuse me, can you just... stop? We're trying to ride the Tilt-A-Whirl."
 
-THEATRICAL KOMODO DRAGON: "Ah yes, the receipt! It was a MAGNIFICENT piece of thermal paper! I kept it in a SAFE place!"
+FRAZZLED GORILLA: "We have 847 more tweets to announce today! The algorithm demands it!"
 
-SELF-SABOTAGING OAK TREE: "Let me guess. Inside the store?"
+PUNK HORSE: "SILENCE, PEASANT! Hear ye: @RizzKing posts thusly: 'Just took the fattest L at chipotle, they forgot my guac 💀💀💀'"
 
-THEATRICAL KOMODO DRAGON: "Inside the store that I may have... accidentally... DRAMATICALLY reduced to a SMOLDERING PILE OF CHAR AND REGRET!"
+TEEN: "What does that even mean in old English?"
 
-SELF-SABOTAGING OAK TREE: "Right. So no receipt. Which means I can't process your return. Which means you're going to yell at me, I'm going to panic, and somehow I'll end up giving you a refund AND my employee discount. Classic me."
+PUNK HORSE: "Lo! The sovereign of Rizz hath suffered a most CATASTROPHIC defeat at the establishment of Chipotle! His sacred avocado paste hath been FORSAKEN by the merchants most cruel!"
 
-THEATRICAL KOMODO DRAGON: "But the store is ASH! Surely that changes the RULES OF ENGAGEMENT?"
+FRAZZLED GORILLA: "Why are we doing the skull emojis verbally?"
 
-SELF-SABOTAGING OAK TREE: "Actually, no. Company policy is very clear: no receipt, no return. Even if—" *checks manual* "—the store has been 'consumed by dragon fire, acts of war, or apocalyptic events.'"
+PUNK HORSE: "I said 'most cruel.' That's basically three skull emojis."
 
-THEATRICAL KOMODO DRAGON: "This is PREPOSTEROUS! I am a THEATRICAL KOMODO DRAGON! Do you know how many DRAMATIC MONOLOGUES I've performed? How many STANDING OVATIONS?"
+FRAZZLED GORILLA: "I need a break. My medieval voice is slipping. Listen— *clears throat* —Hark, a missive from @DogMomLife: 'My fur baby just—' I can't. I cannot announce this tweet about a labradoodle eating socks."
 
-SELF-SABOTAGING OAK TREE: "I'm sure you're very talented, but I literally watched you burn down our store last Tuesday. You were wrapping a birthday present for your nephew and got 'emotionally overwhelmed by the beauty of the bow.'"
+PUNK HORSE: "You're breaking character! We took an OATH to the Social Media Renaissance Faire Company!"
 
-THEATRICAL KOMODO DRAGON: "It WAS a beautiful bow! The curl! The symmetry! It moved me to TEARS! And then... flames."
+AMUSEMENT PARK MANAGER: *walks up* "Hey, we're getting complaints. Apparently you announced someone's breakup tweet and their ex was in line for churros."
 
-SELF-SABOTAGING OAK TREE: "I should just give you the refund. I mean, who am I to enforce policies? I'm just a tree who somehow became a gift wrapper in the Arctic. That's already a mistake."
+PUNK HORSE: "Verily, 'twas a public post!"
 
-ENLIGHTENED ANT: *appears on the counter* "Attachment to material things causes suffering, my friends."
+MANAGER: "You described it as 'a most treacherous wench hath betrayed the noble Chad.'"
 
-THEATRICAL KOMODO DRAGON: "AH! A WISE ANT! Perhaps THIS tiny philosopher can illuminate the INJUSTICE of bureaucracy!"
+FRAZZLED GORILLA: "That's... actually what the tweet said though?"
 
-ENLIGHTENED ANT: "The receipt is an illusion. The store is an illusion. Your dragon fire revealed the impermanence of all things."
+MANAGER: "Chad is eleven years old and his girlfriend just moved to Ohio!"
 
-SELF-SABOTAGING OAK TREE: "Great, now there's a Buddhist ant. This is exactly the kind of chaos I attract."
+PUNK HORSE: "A tale of woe spanning kingdoms!"
 
-THEATRICAL KOMODO DRAGON: "So you're saying I DESERVE the refund because I've achieved ENLIGHTENMENT through ARSON?"
+FRAZZLED GORILLA: "I'm having a breakdown. Do you know what the next tweet is? It's from @CryptoLion42: 'GM. WAGMI. LFG.' How do I make that medieval?!"
 
-ENLIGHTENED ANT: "I'm saying you deserve nothing and everything simultaneously. Also, you definitely don't get a refund without a receipt."
+PUNK HORSE: "Easy— 'Good morrow! Whilst All shall Gaineth Much Income! Let us Forth Go!'"
 
-SELF-SABOTAGING OAK TREE: "Wait, the ant agrees with me?"
+FRAZZLED GORILLA: "That's not even close to correct!"
 
-ENLIGHTENED ANT: "Company policy transcends the material plane. It's one of the few absolute truths."
+PUNK HORSE: "Neither is cryptocurrency but here we are!"
 
-THEATRICAL KOMODO DRAGON: "BETRAYED! By a PHILOSOPHICAL INSECT! This is the GREATEST tragedy since my one-dragon show about Hamlet was cancelled for 'excessive property damage!'"
+MANAGER: "You're both fired. Please return your trumpets and feathered hats."
 
-SELF-SABOTAGING OAK TREE: "Sir, I'm going to say something, and I'm probably going to regret it, but here goes: No. You don't get a refund. You burned down a store. Please leave."
+FRAZZLED GORILLA: "Oh thank god. I can finally stop pretending I understand Middle English."
 
-THEATRICAL KOMODO DRAGON: "I... I'm... IMPRESSED! Such CONVICTION! Such BACKBONE! You're like a theatrical oak tree who's finally found their MOTIVATION!"
+PUNK HORSE: "This is censorship! You're silencing the voice of the digital town crier!"
 
-SELF-SABOTAGING OAK TREE: "Wait, really? I did it? I stood up for myself?"
+MANAGER: "You announced a flamingo's thirst trap selfie as 'a painted lady doth display her plumage most scandalously.'"
 
-ENLIGHTENED ANT: "This too shall pass."
+PUNK HORSE: "...That flamingo knew what she was doing."
 
-THEATRICAL KOMODO DRAGON: "Very well! I shall ACCEPT this defeat with GRACE and DIGNITY! But mark my words— I shall return to this Arctic wasteland with PROPER DOCUMENTATION!"
+FRAZZLED GORILLA: "I'm going home. I need to lie down for seven years."
 
-SELF-SABOTAGING OAK TREE: "Great. Well, see you never, hopefully. Wait, I mean— ugh, I'm already undermining myself."
+PUNK HORSE: "FORSOOTH! Thou art a COWARD! A KNAVE! A—"
 
-ENLIGHTENED ANT: "Baby steps, tree. Baby steps."
+FRAZZLED GORILLA: "Dude, we literally got fired. The performance is over."
+
+PUNK HORSE: "Fine. But for the record, this would've been sick content if anyone understood what a herald was."
 
 ---
 
@@ -82,4 +84,4 @@ ENLIGHTENED ANT: "Baby steps, tree. Baby steps."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-17*
+*Last updated: 2026-02-18*

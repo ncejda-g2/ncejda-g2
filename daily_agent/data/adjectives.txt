@@ -108,3 +108,4 @@ self-sabotaging
 sleep-deprived
 spiteful
 berserk
+demented
