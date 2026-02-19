@@ -109,3 +109,4 @@ sleep-deprived
 spiteful
 berserk
 demented
+hapless

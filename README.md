@@ -1,78 +1,70 @@
-# Today's Improv (2026-02-18)
+# Today's Improv (2026-02-19)
 
-**Days running a fully-autonomous agent that updates my README: 67**
+**Days running a fully-autonomous agent that updates my README: 68**
 
-A frazzled gorilla and a punk horse work as medieval heralds announcing tweets in Ye Olde English to a confused modern audience at an amusement park.
+A sleep-deprived alien struggles to lead a procrastinator yoga class on a mountain while an unbothered dragon and a zombie chimpanzee discover every possible reason not to begin.
 
 ---
 
-FRAZZLED GORILLA: "Hear ye, hear ye! A proclamation from... uh... @BratSummer2024: 'Brat summer is literally so over I can't even.'"
+SLEEP-DEPRIVED ALIEN: "Okay, everyone find a comfortable seated position. We begin in just a moment."
 
-PUNK HORSE: "Dude, you're doing it wrong. More flowery. Watch this— HARK! The lady @BratSummer2024 doth declare with great lamentations that the season of Brat hath concluded most grievously!"
+UNBOTHERED DRAGON: "Sure. I'll sit when the sun hits the perfect angle. Maybe forty minutes."
 
-FRAZZLED GORILLA: "I've been doing this for six hours! My throat hurts! Why did we take this gig at an amusement park?"
+ZOMBIE CHIMPANZEE: "I was about to start, but then I remembered I needed to scratch my elbow."
 
-PUNK HORSE: "Because 'Medieval Tweet Herald' sounded punk rock on the job posting. It's subversive! We're mocking both medieval times AND social media!"
+SLEEP-DEPRIVED ALIEN: "I have been awake for seventy-two Earth hours preparing this class. Please. Just. Sit."
 
-FRAZZLED GORILLA: "No one understands what we're saying! That family just asked if we're having a stroke!"
+UNBOTHERED DRAGON: "No rush. This mountain's been here for millions of years. It'll wait."
 
-PUNK HORSE: "Art is supposed to make people uncomfortable, man. Next tweet—"
+ZOMBIE CHIMPANZEE: "I keep meaning to unroll my mat, but my arms fall off every time I try. Undead problems."
 
-RANDOM TEEN: "Excuse me, can you just... stop? We're trying to ride the Tilt-A-Whirl."
+SLEEP-DEPRIVED ALIEN: *rubs all four eyes* "You are a class of two. Neither of you has moved in twenty minutes."
 
-FRAZZLED GORILLA: "We have 847 more tweets to announce today! The algorithm demands it!"
+UNBOTHERED DRAGON: "Movement is a choice."
 
-PUNK HORSE: "SILENCE, PEASANT! Hear ye: @RizzKing posts thusly: 'Just took the fattest L at chipotle, they forgot my guac 💀💀💀'"
+SLEEP-DEPRIVED ALIEN: "We are on a MOUNTAIN. We are doing MOUNTAIN POSE. Please just— stand up."
 
-TEEN: "What does that even mean in old English?"
+ZOMBIE CHIMPANZEE: "What if I visualize standing up instead? Is that the advanced version?"
 
-PUNK HORSE: "Lo! The sovereign of Rizz hath suffered a most CATASTROPHIC defeat at the establishment of Chipotle! His sacred avocado paste hath been FORSAKEN by the merchants most cruel!"
+UNBOTHERED DRAGON: "Visualization totally counts."
 
-FRAZZLED GORILLA: "Why are we doing the skull emojis verbally?"
+SLEEP-DEPRIVED ALIEN: "It does NOT count. STAND UP."
 
-PUNK HORSE: "I said 'most cruel.' That's basically three skull emojis."
+ZOMBIE CHIMPANZEE: "Also, I left my water bottle at the bottom of the mountain. Should I go get it? I'll definitely come back."
 
-FRAZZLED GORILLA: "I need a break. My medieval voice is slipping. Listen— *clears throat* —Hark, a missive from @DogMomLife: 'My fur baby just—' I can't. I cannot announce this tweet about a labradoodle eating socks."
+SLEEP-DEPRIVED ALIEN: "Do NOT go get your water bottle."
 
-PUNK HORSE: "You're breaking character! We took an OATH to the Social Media Renaissance Faire Company!"
+UNBOTHERED DRAGON: "Pre-class hydration is foundational, though."
 
-AMUSEMENT PARK MANAGER: *walks up* "Hey, we're getting complaints. Apparently you announced someone's breakup tweet and their ex was in line for churros."
+SLEEP-DEPRIVED ALIEN: "We haven't STARTED yet! You cannot take a break from something you haven't begun!"
 
-PUNK HORSE: "Verily, 'twas a public post!"
+ZOMBIE CHIMPANZEE: "I Googled 'procrastinator yoga.' Nothing came up. Because people kept meaning to write about it and never did."
 
-MANAGER: "You described it as 'a most treacherous wench hath betrayed the noble Chad.'"
+SLEEP-DEPRIVED ALIEN: "I traveled four light-years for this certification. I am begging. SIT. DOWN."
 
-FRAZZLED GORILLA: "That's... actually what the tweet said though?"
+UNBOTHERED DRAGON: *yawns a small flame* "Okay. Five more minutes. I'm mentally preparing."
 
-MANAGER: "Chad is eleven years old and his girlfriend just moved to Ohio!"
+SLEEP-DEPRIVED ALIEN: "You have been mentally preparing since we arrived."
 
-PUNK HORSE: "A tale of woe spanning kingdoms!"
+ZOMBIE CHIMPANZEE: "Wait— we've been lying on our mats this whole time. Isn't that Savasana? Did we accidentally do yoga?"
 
-FRAZZLED GORILLA: "I'm having a breakdown. Do you know what the next tweet is? It's from @CryptoLion42: 'GM. WAGMI. LFG.' How do I make that medieval?!"
+UNBOTHERED DRAGON: "We did the end pose. So class is over."
 
-PUNK HORSE: "Easy— 'Good morrow! Whilst All shall Gaineth Much Income! Let us Forth Go!'"
+SLEEP-DEPRIVED ALIEN: "That is CORPSE POSE and it does NOT count!"
 
-FRAZZLED GORILLA: "That's not even close to correct!"
+ZOMBIE CHIMPANZEE: "I mean, I am literally a corpse, so—"
 
-PUNK HORSE: "Neither is cryptocurrency but here we are!"
+UNBOTHERED DRAGON: "Class dismissed?"
 
-MANAGER: "You're both fired. Please return your trumpets and feathered hats."
+SLEEP-DEPRIVED ALIEN: *collapses face-first onto mat* "Fine. Everyone gets a certificate. I need to sleep."
 
-FRAZZLED GORILLA: "Oh thank god. I can finally stop pretending I understand Middle English."
+ZOMBIE CHIMPANZEE: "Aw. Our instructor is finally doing a pose."
 
-PUNK HORSE: "This is censorship! You're silencing the voice of the digital town crier!"
+UNBOTHERED DRAGON: "It's called Exhaustion Pose. Very advanced. Very rare."
 
-MANAGER: "You announced a flamingo's thirst trap selfie as 'a painted lady doth display her plumage most scandalously.'"
+ZOMBIE CHIMPANZEE: "Should we wake them for the cool-down stretch?"
 
-PUNK HORSE: "...That flamingo knew what she was doing."
-
-FRAZZLED GORILLA: "I'm going home. I need to lie down for seven years."
-
-PUNK HORSE: "FORSOOTH! Thou art a COWARD! A KNAVE! A—"
-
-FRAZZLED GORILLA: "Dude, we literally got fired. The performance is over."
-
-PUNK HORSE: "Fine. But for the record, this would've been sick content if anyone understood what a herald was."
+UNBOTHERED DRAGON: "I'll get to it in a minute."
 
 ---
 
@@ -84,4 +76,4 @@ PUNK HORSE: "Fine. But for the record, this would've been sick content if anyone
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-18*
+*Last updated: 2026-02-19*
