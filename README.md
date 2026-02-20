@@ -1,70 +1,64 @@
-# Today's Improv (2026-02-19)
+# Today's Improv (2026-02-20)
 
-**Days running a fully-autonomous agent that updates my README: 68**
+**Days running a fully-autonomous agent that updates my README: 69**
 
-A sleep-deprived alien struggles to lead a procrastinator yoga class on a mountain while an unbothered dragon and a zombie chimpanzee discover every possible reason not to begin.
+A deranged spider leads a cloud safety seminar for an excited beetle and a berserk dragon who are each completely convinced that nothing in the sky can hurt them.
 
 ---
 
-SLEEP-DEPRIVED ALIEN: "Okay, everyone find a comfortable seated position. We begin in just a moment."
+DERANGED SPIDER: "Welcome to Cloud Safety 101. Today's topics: fall prevention, lightning protocols, and why 'I'll probably be fine' is not a risk assessment."
 
-UNBOTHERED DRAGON: "Sure. I'll sit when the sun hits the perfect angle. Maybe forty minutes."
+EXCITED BEETLE: "Oh! Oh! I already know everything! I fell off a cloud last Tuesday and I'm COMPLETELY FINE!"
 
-ZOMBIE CHIMPANZEE: "I was about to start, but then I remembered I needed to scratch my elbow."
+BERSERK DRAGON: "SAFETY IS FOR THE WEAK. I AM THE DANGER."
 
-SLEEP-DEPRIVED ALIEN: "I have been awake for seventy-two Earth hours preparing this class. Please. Just. Sit."
+DERANGED SPIDER: "That is the exact attitude that made this seminar mandatory. Slide one: clouds are not solid."
 
-UNBOTHERED DRAGON: "No rush. This mountain's been here for millions of years. It'll wait."
+EXCITED BEETLE: "Wait— they're NOT? I've been sleeping on one for six months!"
 
-ZOMBIE CHIMPANZEE: "I keep meaning to unroll my mat, but my arms fall off every time I try. Undead problems."
+BERSERK DRAGON: "I know they're not solid. I fly through them. On purpose. For fun."
 
-SLEEP-DEPRIVED ALIEN: *rubs all four eyes* "You are a class of two. Neither of you has moved in twenty minutes."
+DERANGED SPIDER: "Slide two: lightning is not a friend."
 
-UNBOTHERED DRAGON: "Movement is a choice."
+BERSERK DRAGON: "Lightning and I have an understanding. It hits me. I hit back. We respect each other."
 
-SLEEP-DEPRIVED ALIEN: "We are on a MOUNTAIN. We are doing MOUNTAIN POSE. Please just— stand up."
+EXCITED BEETLE: "I waved at lightning once! I think it was just being shy!"
 
-ZOMBIE CHIMPANZEE: "What if I visualize standing up instead? Is that the advanced version?"
+DERANGED SPIDER: *twitching all eight eyes simultaneously* "It was not being shy. It was 40,000 volts."
 
-UNBOTHERED DRAGON: "Visualization totally counts."
+EXCITED BEETLE: "That's just a big number for 'very enthusiastic'!"
 
-SLEEP-DEPRIVED ALIEN: "It does NOT count. STAND UP."
+BERSERK DRAGON: "Can we skip to the certificate part? I already know I'm passing."
 
-ZOMBIE CHIMPANZEE: "Also, I left my water bottle at the bottom of the mountain. Should I go get it? I'll definitely come back."
+DERANGED SPIDER: "There IS no certificate! This is mandatory REMEDIAL training because you BOTH fell off a cloud last week!"
 
-SLEEP-DEPRIVED ALIEN: "Do NOT go get your water bottle."
+EXCITED BEETLE: "It was more of a tumble! Very fun! Would strongly recommend!"
 
-UNBOTHERED DRAGON: "Pre-class hydration is foundational, though."
+BERSERK DRAGON: "I didn't fall. I launched myself at a lower cloud that was being overconfident. I wanted to humble it."
 
-SLEEP-DEPRIVED ALIEN: "We haven't STARTED yet! You cannot take a break from something you haven't begun!"
+DERANGED SPIDER: *scribbling furiously on notepad* "New slide. 'Do not attack clouds.'"
 
-ZOMBIE CHIMPANZEE: "I Googled 'procrastinator yoga.' Nothing came up. Because people kept meaning to write about it and never did."
+EXCITED BEETLE: "Ooh! When do we get to the lightning-riding module?!"
 
-SLEEP-DEPRIVED ALIEN: "I traveled four light-years for this certification. I am begging. SIT. DOWN."
+DERANGED SPIDER: "THERE IS NO LIGHTNING-RIDING MODULE."
 
-UNBOTHERED DRAGON: *yawns a small flame* "Okay. Five more minutes. I'm mentally preparing."
+EXCITED BEETLE: "Oh, there should be! I tried it last Thursday! Incredibly exhilarating!"
 
-SLEEP-DEPRIVED ALIEN: "You have been mentally preparing since we arrived."
+DERANGED SPIDER: "HOW ARE YOU STILL ALIVE?!"
 
-ZOMBIE CHIMPANZEE: "Wait— we've been lying on our mats this whole time. Isn't that Savasana? Did we accidentally do yoga?"
+EXCITED BEETLE: "I bounced off a cloud on the way down! Clouds are SO forgiving once you get to know them!"
 
-UNBOTHERED DRAGON: "We did the end pose. So class is over."
+BERSERK DRAGON: *raising one enormous claw* "Permission to be excused. I need to challenge a thunderstorm to a staring contest."
 
-SLEEP-DEPRIVED ALIEN: "That is CORPSE POSE and it does NOT count!"
+DERANGED SPIDER: "I became a park ranger to PROTECT wildlife. And yet here we are."
 
-ZOMBIE CHIMPANZEE: "I mean, I am literally a corpse, so—"
+BERSERK DRAGON: "I've filed my seminar review. Zero stars. Safety is cowardly." *flies directly into a storm cloud*
 
-UNBOTHERED DRAGON: "Class dismissed?"
+*A tremendous crack of thunder echoes through the sky*
 
-SLEEP-DEPRIVED ALIEN: *collapses face-first onto mat* "Fine. Everyone gets a certificate. I need to sleep."
+EXCITED BEETLE: "Ooh! Do you think they made a friend?!"
 
-ZOMBIE CHIMPANZEE: "Aw. Our instructor is finally doing a pose."
-
-UNBOTHERED DRAGON: "It's called Exhaustion Pose. Very advanced. Very rare."
-
-ZOMBIE CHIMPANZEE: "Should we wake them for the cool-down stretch?"
-
-UNBOTHERED DRAGON: "I'll get to it in a minute."
+DERANGED SPIDER: *slowly rolls up safety poster* "I am switching careers."
 
 ---
 
@@ -76,4 +70,4 @@ UNBOTHERED DRAGON: "I'll get to it in a minute."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-19*
+*Last updated: 2026-02-20*
