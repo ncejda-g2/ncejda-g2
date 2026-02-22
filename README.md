@@ -1,64 +1,64 @@
-# Today's Improv (2026-02-21)
+# Today's Improv (2026-02-22)
 
-**Days running a fully-autonomous agent that updates my README: 70**
+**Days running a fully-autonomous agent that updates my README: 71**
 
-A philosophical pangolin leads a corporate trust fall retreat aboard a space station, where a hyperactive angel and a cheerful owl discover that trust in zero gravity has catastrophic and deeply enlightening consequences.
+A hypocritical raccoon conducts job interviews deep in the swamp, where a delusional banshee and an oblivious E. coli apply for a position with the most peculiar skills imaginable
 
 ---
 
-PHILOSOPHICAL PANGOLIN: "Welcome to the trust fall workshop. Before we begin, I want it on record that I have concerns. Many concerns. Also, who authorized this location?"
+HYPOCRITICAL RACCOON: "Welcome to SwampCorp. I am looking for candidates who are punctual, honest, and absolutely do not steal food from communal refrigerators." *slides stolen sandwich further under desk*
 
-HYPERACTIVE ANGEL: "I LOVE IT HERE! I've already done fourteen laps of the module! Everything is CURVED!"
+DELUSIONAL BANSHEE: "I've already mentally redecorated my future office. Exposed algae beams. Very swamp-chic."
 
-CHEERFUL OWL: "Good morning! I've been practicing my falling face! Would you like to see it?"
+OBLIVIOUS E. COLI: "Excuse me, is this the line for the swamp tour? I was told there would be snacks."
 
-PHILOSOPHICAL PANGOLIN: "Trust. A loaded word. Who among us truly trusts anyone? And more importantly, who is monitoring the emergency hatch?"
+HYPOCRITICAL RACCOON: "This is a job interview. Please sit. Question one: describe your greatest weakness."
 
-HYPERACTIVE ANGEL: *raising both wings wildly* "ME! There are four exits plus a hatch I'm definitely not supposed to open but I really want to!"
+DELUSIONAL BANSHEE: "My greatest weakness is that I care too much. Also, my screams have caused three structural collapses. But mostly the caring."
 
-PHILOSOPHICAL PANGOLIN: "The exercise is simple. You fall backward. Your partner catches you. You briefly accept that the universe is not purely adversarial."
+OBLIVIOUS E. COLI: "Sunlight. Dry surfaces. Antibiotics. Are you writing this down? You're writing this down."
 
-HYPERACTIVE ANGEL: "I'LL GO FIRST! SOMEONE CATCH ME RIGHT NOW!"
+HYPOCRITICAL RACCOON: "I am absolutely NOT taking notes." *writes furiously*
 
-*HYPERACTIVE ANGEL launches backward at tremendous velocity and vanishes down the module*
+DELUSIONAL BANSHEE: "Actually, I'd like to retract the weaknesses. Everything I said was a strength in disguise. Please update your records."
 
-PHILOSOPHICAL PANGOLIN: "I hadn't finished the safety—"
+HYPOCRITICAL RACCOON: "Question two: where do you see yourself in five years?"
 
-HYPERACTIVE ANGEL: *from very far away* "CAUGHT THE WALL! THE WALL IS AN EXCELLENT TRUST PARTNER!"
+OBLIVIOUS E. COLI: "Probably on a doorknob somewhere. A buffet table if things go well."
 
-CHEERFUL OWL: "Ten out of ten! Incredible commitment to the fall!"
+DELUSIONAL BANSHEE: "Running this swamp. The adjacent wetlands. And frankly, the estuary."
 
-PHILOSOPHICAL PANGOLIN: *writing in notepad* "Note: wall is not a trust partner. Ceiling is not a trust partner. The hatch is absolutely not a trust partner."
+HYPOCRITICAL RACCOON: "You're applying for Junior Bog Monitor."
 
-CHEERFUL OWL: "Can I go next? I've perfected my serene expression." *demonstrates an expression of unnerving, radiant joy*
+DELUSIONAL BANSHEE: "Yes. A stepping stone."
 
-PHILOSOPHICAL PANGOLIN: "That is genuinely alarming and we are not ready."
+OBLIVIOUS E. COLI: "What's the position? Is it outdoors? I reproduce very fast in outdoor settings."
 
-HYPERACTIVE ANGEL: *zooming back in upside down* "Okay okay OKAY, I'll catch you this time! For real! I've been training! I lift halos!"
+HYPOCRITICAL RACCOON: *under breath* "I have made a catastrophic error posting this listing on CraigsWamp."
 
-PHILOSOPHICAL PANGOLIN: "...Fine. Someone must model trust. Even if trust is a social construct designed to lower our defenses."
+DELUSIONAL BANSHEE: "I should mention I have seventeen years of relevant experience. I have also been alive for eighteen years, so make of that what you will."
 
-*PHILOSOPHICAL PANGOLIN falls backward with philosophical reluctance*
+OBLIVIOUS E. COLI: "Can I ask about the benefits package? Specifically, the buffet?"
 
-*HYPERACTIVE ANGEL catches them, then immediately launches both of them into the ceiling*
+HYPOCRITICAL RACCOON: "There is no buffet. This is a bog. Final question: what unique skills do you bring to this role?"
 
-PHILOSOPHICAL PANGOLIN: "THIS IS NOT WHAT I SIGNED UP FOR."
+DELUSIONAL BANSHEE: "I have never once doubted myself. My wail can also shatter self-confidence at fifty paces. I consider that a management skill."
 
-HYPERACTIVE ANGEL: "THIS IS TRUST PLUS! WE'RE FLYING AND ALSO TRUSTING!"
+OBLIVIOUS E. COLI: "I can divide into two million copies in under twenty minutes. I'm a team player. Very much a team player."
 
-CHEERFUL OWL: *scribbling on feedback form* "Five stars. Would fall again. Highly recommend the ceiling."
+*long silence*
 
-PHILOSOPHICAL PANGOLIN: *floating serenely against the ceiling* "I trusted exactly one time. This is the result."
+HYPOCRITICAL RACCOON: "I'm going to be completely transparent. I already hired my cousin. This process was a legal formality."
 
-HYPERACTIVE ANGEL: "Doesn't that kind of prove trust works, though?"
+DELUSIONAL BANSHEE: "I KNEW IT. I am the most qualified candidate to be wrongfully passed over in this swamp's entire hiring history."
 
-*A long pause*
+OBLIVIOUS E. COLI: "So... no tour?"
 
-PHILOSOPHICAL PANGOLIN: "...I need a moment to process that."
+HYPOCRITICAL RACCOON: "No tour."
 
-CHEERFUL OWL: "Take all the time you need! Meanwhile, I've set up the blindfolded zero-gravity maze!"
+OBLIVIOUS E. COLI: "I've already reproduced on three of your chairs, by the way. Complimentary. Consider it a parting gift."
 
-PHILOSOPHICAL PANGOLIN: "I am going to fall directly into the sun."
+HYPOCRITICAL RACCOON: *staring at chairs* "...We're going to need a bigger bog."
 
 ---
 
@@ -70,4 +70,4 @@ PHILOSOPHICAL PANGOLIN: "I am going to fall directly into the sun."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-21*
+*Last updated: 2026-02-22*
