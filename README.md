@@ -1,64 +1,60 @@
-# Today's Improv (2026-02-22)
+# Today's Improv (2026-02-23)
 
-**Days running a fully-autonomous agent that updates my README: 71**
+**Days running a fully-autonomous agent that updates my README: 72**
 
-A hypocritical raccoon conducts job interviews deep in the swamp, where a delusional banshee and an oblivious E. coli apply for a position with the most peculiar skills imaginable
+A jittery pangolin inventor and a conspiratorial owl share a baffling phone call deep in the jungle, where a humble leaf blower may or may not be the only thing holding the entire rainforest canopy together
 
 ---
 
-HYPOCRITICAL RACCOON: "Welcome to SwampCorp. I am looking for candidates who are punctual, honest, and absolutely do not steal food from communal refrigerators." *slides stolen sandwich further under desk*
+JITTERY PANGOLIN: "H-hello?! Who's there?! The sparks are completely normal, whatever you heard is a lie!"
 
-DELUSIONAL BANSHEE: "I've already mentally redecorated my future office. Exposed algae beams. Very swamp-chic."
+CONSPIRATORIAL OWL: "Is this the inventor? The one who built... the device?"
 
-OBLIVIOUS E. COLI: "Excuse me, is this the line for the swamp tour? I was told there would be snacks."
+JITTERY PANGOLIN: "I've built seventeen devices this week alone, you'll have to narrow it down—"
 
-HYPOCRITICAL RACCOON: "This is a job interview. Please sit. Question one: describe your greatest weakness."
+CONSPIRATORIAL OWL: "The one that HUMS. At exactly 3:47 AM. Every. Single. Night."
 
-DELUSIONAL BANSHEE: "My greatest weakness is that I care too much. Also, my screams have caused three structural collapses. But mostly the caring."
+JITTERY PANGOLIN: "...I call it the Jungle-Tron 9000. It's a leaf blower."
 
-OBLIVIOUS E. COLI: "Sunlight. Dry surfaces. Antibiotics. Are you writing this down? You're writing this down."
+CONSPIRATORIAL OWL: "It is NOT simply a leaf blower. We've been watching it."
 
-HYPOCRITICAL RACCOON: "I am absolutely NOT taking notes." *writes furiously*
+JITTERY PANGOLIN: "Who is 'we'?!"
 
-DELUSIONAL BANSHEE: "Actually, I'd like to retract the weaknesses. Everything I said was a strength in disguise. Please update your records."
+CONSPIRATORIAL OWL: "I'm not at liberty to say. But I will tell you we are organized. We meet Tuesdays. Attendance is mandatory."
 
-HYPOCRITICAL RACCOON: "Question two: where do you see yourself in five years?"
+NERDY CHICKEN: *wandering in from behind a whiteboard* "Did someone call? I brought the schematics— oh, you're on the phone? I'll just reorganize the periodic table wall chart. Again."
 
-OBLIVIOUS E. COLI: "Probably on a doorknob somewhere. A buffet table if things go well."
+JITTERY PANGOLIN: "Not now, Gerald!"
 
-DELUSIONAL BANSHEE: "Running this swamp. The adjacent wetlands. And frankly, the estuary."
+CONSPIRATORIAL OWL: "Who is Gerald?! IS GERALD CLEARED?!"
 
-HYPOCRITICAL RACCOON: "You're applying for Junior Bog Monitor."
+JITTERY PANGOLIN: "He's my research assistant. He alphabetizes things. He's cleared for absolutely nothing."
 
-DELUSIONAL BANSHEE: "Yes. A stepping stone."
+CONSPIRATORIAL OWL: "Alphabetizing is a COVER. The oldest cover there is."
 
-OBLIVIOUS E. COLI: "What's the position? Is it outdoors? I reproduce very fast in outdoor settings."
+NERDY CHICKEN: "Actually, statistically speaking, alphabetizing predates most documented cover operations by approximately four hundred years, so technically—"
 
-HYPOCRITICAL RACCOON: *under breath* "I have made a catastrophic error posting this listing on CraigsWamp."
+CONSPIRATORIAL OWL: "EXACTLY WHAT A COVER WOULD SAY."
 
-DELUSIONAL BANSHEE: "I should mention I have seventeen years of relevant experience. I have also been alive for eighteen years, so make of that what you will."
+JITTERY PANGOLIN: "What do you WANT from me?!"
 
-OBLIVIOUS E. COLI: "Can I ask about the benefits package? Specifically, the buffet?"
+CONSPIRATORIAL OWL: "We need the Jungle-Tron 9000. The fate of the entire rainforest canopy layer depends on it."
 
-HYPOCRITICAL RACCOON: "There is no buffet. This is a bog. Final question: what unique skills do you bring to this role?"
+JITTERY PANGOLIN: "...It only blows leaves."
 
-DELUSIONAL BANSHEE: "I have never once doubted myself. My wail can also shatter self-confidence at fifty paces. I consider that a management skill."
+CONSPIRATORIAL OWL: "...The leaves are load-bearing."
 
-OBLIVIOUS E. COLI: "I can divide into two million copies in under twenty minutes. I'm a team player. Very much a team player."
+JITTERY PANGOLIN: *very long pause* "I'm going to need you to explain that."
 
-*long silence*
+CONSPIRATORIAL OWL: "Meet us at the third fig tree past the waterfall. Come alone. Bring Gerald."
 
-HYPOCRITICAL RACCOON: "I'm going to be completely transparent. I already hired my cousin. This process was a legal formality."
+NERDY CHICKEN: "Oh! Fig trees! Did you know figs are technically inverted flowers? This rendezvous sounds scientifically very promising!"
 
-DELUSIONAL BANSHEE: "I KNEW IT. I am the most qualified candidate to be wrongfully passed over in this swamp's entire hiring history."
+JITTERY PANGOLIN: "How is this my life."
 
-OBLIVIOUS E. COLI: "So... no tour?"
+CONSPIRATORIAL OWL: "One last thing. The device. Does it also... do laundry? Asking for a colleague."
 
-HYPOCRITICAL RACCOON: "No tour."
-
-OBLIVIOUS E. COLI: "I've already reproduced on three of your chairs, by the way. Complimentary. Consider it a parting gift."
-
-HYPOCRITICAL RACCOON: *staring at chairs* "...We're going to need a bigger bog."
+JITTERY PANGOLIN: *hangs up* *stares at leaf blower for a full ten seconds* *slowly picks the phone back up* "...Hello? You said load-bearing?"
 
 ---
 
@@ -70,4 +66,4 @@ HYPOCRITICAL RACCOON: *staring at chairs* "...We're going to need a bigger bog."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-22*
+*Last updated: 2026-02-23*
