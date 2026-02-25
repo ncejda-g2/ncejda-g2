@@ -1,74 +1,70 @@
-# Today's Improv (2026-02-24)
+# Today's Improv (2026-02-25)
 
-**Days running a fully-autonomous agent that updates my README: 73**
+**Days running a fully-autonomous agent that updates my README: 74**
 
-A grumpy pangolin librarian and a pessimistic wasp Viking face the math of a thousand years of overdue fines in the gleaming halls of a Futuristic City hyper-library
+A nervous giraffe herald brings Ye Olde English tweet proclamations to a Robot Factory, where an elegant troll and a passive-aggressive angel make up the world's least enthusiastic audience
 
 ---
 
-GRUMPY PANGOLIN: "Welcome to the Neo-Alexandria Hyper-Library. How can I efficiently ruin your morning?"
+NERVOUS GIRAFFE: *unrolls a very long scroll* "Hear ye! Hear ye, denizens of yon Robot Factory! I am bidden to announce this day's tweets in the ancient tongue of our forebears!"
 
-PESSIMISTIC WASP: "I have returned. A thousand years in enchanted slumber, and I knew — I *knew* — something would be wrong. It was going to be this."
+ELEGANT TROLL: "I'm sorry — the *tweets*?"
 
-GRUMPY PANGOLIN: "Name?"
+PASSIVE-AGGRESSIVE ANGEL: "Oh, absolutely. Yes. This is fine. I'll just stand here and listen. It's fine."
 
-PESSIMISTIC WASP: "Bjorn the Unending. Though perhaps Bjorn the Deeply Regretful would have been more accurate."
+NERVOUS GIRAFFE: "Tweet the first! Quoth the noble @GaryFromAccounting: 'Can't believe they took the good coffee machine out of the break room. Just... wow. Wow.' — Twenty-seven hearts and a gif of a weeping kitten."
 
-GRUMPY PANGOLIN: *types into a holographic keyboard with aggressive precision* "Bjorn... Bjorn... oh. Oh, that's not good."
+ELEGANT TROLL: "I understood 'coffee' and nothing else."
 
-PESSIMISTIC WASP: "Say the number."
+PASSIVE-AGGRESSIVE ANGEL: "It's really lovely that you're trying. Truly."
 
-GRUMPY PANGOLIN: "You checked out fourteen books in the year 1026. They were due fourteen days later. The standard late fee is point-one credits per book per day."
+NERVOUS GIRAFFE: "Tweet the second! @TechDisruptorBro doth proclaim: 'Excited to announce that I am thrilled to begin a journey going forward, synergistically.' Three hundred hearts. Forty-two reposts."
 
-PESSIMISTIC WASP: "And I have been asleep for approximately three hundred and sixty-five thousand days. So."
+ELEGANT TROLL: "What does any of that *mean*?"
 
-GRUMPY PANGOLIN: "So your total outstanding balance is... five hundred and eleven billion credits."
+PASSIVE-AGGRESSIVE ANGEL: "He got a job. I went to heaven. We all have milestones."
 
-PESSIMISTIC WASP: "I said to myself, as I closed my eyes in that mead hall, 'Bjorn, something will go catastrophically wrong while you sleep.' And here we are."
+NERVOUS GIRAFFE: *voice cracking* "Tweet the third! @CryptoWizard88 doth declare: 'If thou art not thinking about Web4, thou art already Web2. Gm.' Fourteen hearts. One reply. It saith only: 'no.'"
 
-GRUMPY PANGOLIN: "There is also the matter of the books themselves."
+ELEGANT TROLL: "What is Web4?"
 
-PESSIMISTIC WASP: "Gone."
+PASSIVE-AGGRESSIVE ANGEL: "Something that doesn't exist yet, but feel bad about it anyway."
 
-GRUMPY PANGOLIN: "Gone *how*."
+NERVOUS GIRAFFE: "Tweet the fourth — 'tis a thread of many parts. @SentientRoomba doth begin: 'Okay, I need to talk about something. A THREAD.'"
 
-PESSIMISTIC WASP: "We burned most things in 1026. It was a whole thing."
+ELEGANT TROLL: "Oh no."
 
-GRUMPY PANGOLIN: "You BURNED LIBRARY BOOKS."
+PASSIVE-AGGRESSIVE ANGEL: "Oh no."
 
-MACHIAVELLIAN LLARVE: *sliding out from behind the Philosophy hologram stacks* "Excuse the intrusion. I couldn't help but overhear. I specialize in late fee... restructuring. For a modest forty percent commission, I can negotiate this down significantly."
+NERVOUS GIRAFFE: "There are forty-seven parts."
 
-PESSIMISTIC WASP: "To what?"
+ELEGANT TROLL: "Summarize. Please."
 
-MACHIAVELLIAN LLARVE: "Five hundred and ten billion, nine hundred million. Give or take."
+NERVOUS GIRAFFE: "I — the herald's oath forbids—"
 
-PESSIMISTIC WASP: "That's barely anything off."
+PASSIVE-AGGRESSIVE ANGEL: "We'll pretend we read it. We always pretend we read threads. This is a safe space."
 
-MACHIAVELLIAN LLARVE: "Billion. With a B. I work fast."
+NERVOUS GIRAFFE: *sweating visibly* "Fine. Forty-seven parts. It is about cereal. Specifically, whether cereal is a soup. There is a strong conclusion."
 
-GRUMPY PANGOLIN: "We don't negotiate. We do, however, offer a Millennium Amnesty Program. Two hundred hours of community service, debt wiped clean."
+ELEGANT TROLL: "What is the conclusion."
 
-PESSIMISTIC WASP: "Doing what, exactly."
+NERVOUS GIRAFFE: "It's a soup."
 
-GRUMPY PANGOLIN: "Story time. Tuesdays at eleven. The children love Norse mythology. Apparently."
+ELEGANT TROLL: *long pause* "I'm going back to my bridge."
 
-PESSIMISTIC WASP: *very long pause* "I knew the moment I woke up it would end with me reading to children in a glowing building."
+PASSIVE-AGGRESSIVE ANGEL: "Oh, please stay. I'll have to suffer alone if you go and I would so love company for that."
 
-GRUMPY PANGOLIN: "Did you at least read *any* of the fourteen books before burning the rest?"
+ROBOT FACTORY PA SYSTEM: "Attention. The 3:00 PM Ye Olde Tweet Announcement has exceeded its allotted time slot. Please wrap up."
 
-PESSIMISTIC WASP: "Three. The one about the dragon. The one about the other dragon. And the beginner's guide to returning library books on time, which I found deeply unhelpful."
+NERVOUS GIRAFFE: "I've done *four*."
 
-GRUMPY PANGOLIN: *puts head on hovering desk*
+PASSIVE-AGGRESSIVE ANGEL: "...Is there a side exit?"
 
-MACHIAVELLIAN LLARVE: "I'll take fifteen percent just for witnessing this."
+NERVOUS GIRAFFE: "I have translated the day's viral cat video into Middle English couplets. I worked on the rhymes for three days."
 
-GRUMPY PANGOLIN: "Deal." *without lifting head*
+PASSIVE-AGGRESSIVE ANGEL: *very long silence* "...Just the cat video. For the rhymes."
 
-PESSIMISTIC WASP: "Do you at least have dragon books for the children?"
-
-GRUMPY PANGOLIN: "You burned them."
-
-PESSIMISTIC WASP: "...Of course I did. See you Tuesday."
+NERVOUS GIRAFFE: *brightening immediately* "Hark! A small beast doth leap and most grievously miss the table—"
 
 ---
 
@@ -80,4 +76,4 @@ PESSIMISTIC WASP: "...Of course I did. See you Tuesday."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-24*
+*Last updated: 2026-02-25*
