@@ -1,64 +1,66 @@
-# Today's Improv (2026-02-26)
+# Today's Improv (2026-02-27)
 
-**Days running a fully-autonomous agent that updates my README: 75**
+**Days running a fully-autonomous agent that updates my README: 76**
 
-A dehydrated venus fly trap receives a mysterious phone call deep in the jungle about their top-secret invention
+A scheming ghoul, a demented armadillo, and a frugal gorilla navigate a deeply uncomfortable crystal ball performance review in the Underwater City
 
 ---
 
-DEHYDRATED VENUS FLY TRAP: "Day forty-seven in the jungle. No rain. No flies. One moth wandered close last Tuesday and I — I don't want to talk about what happened. The point is I've been *working*. On my invention."
+FRUGAL GORILLA: "Alright, we're here for the quarterly performance review of Crystal Ball, Employee ID #4417. This is costing the company forty-seven minutes of billable time, so let's keep it brief."
 
-DEHYDRATED VENUS FLY TRAP: *gestures proudly at a pile of vines and coconut shells* "The Moisture-Matic 3000. Patent pending. Obviously not pending with any official patent office because I am a plant in the jungle, but *spiritually* pending."
+SCHEMING GHOUL: "Of course. I just want to say upfront, this review is entirely context-dependent and the numbers don't tell the whole—"
 
-*A phone rings somewhere in the undergrowth*
+DEMENTED ARMADILLO: "DO NOT gaslight the crystal ball. I am its union representative and I will not stand for spin."
 
-DEHYDRATED VENUS FLY TRAP: "...That's odd. I don't have a phone. I don't have hands. I am a plant."
+SCHEMING GHOUL: "I'm not spinning anything. The ball missed seventeen predictions this quarter."
 
-*It rings again*
+DEMENTED ARMADILLO: "It missed seventeen predictions because YOU kept asking it to predict things that HADN'T HAPPENED YET."
 
-DEHYDRATED VENUS FLY TRAP: "FINE." *opens and closes jaw to answer* "...Hello?"
+FRUGAL GORILLA: "That is... the definition of a prediction."
 
-MYSTERIOUS CALLER: "Is this the inventor?"
+SCHEMING GHOUL: "Thank you."
 
-DEHYDRATED VENUS FLY TRAP: "That depends entirely on who's asking and whether you are a fly."
+DEMENTED ARMADILLO: "We're UNDERWATER. Light refracts differently down here! My client has submitted three memos about this. THREE."
 
-MYSTERIOUS CALLER: "We know about the Moisture-Matic."
+SCHEMING GHOUL: "The memos were addressed to Neptune. Neptune is not my supervisor."
 
-DEHYDRATED VENUS FLY TRAP: *nearly wilting* "How do you know that name. That is a classified name. I told no one that name. I announced it to a lizard once but he ran away immediately."
+FRUGAL GORILLA: "Moving on. Under 'Accuracy Rate' I see... twelve percent?"
 
-MYSTERIOUS CALLER: "We've been watching you."
+SCHEMING GHOUL: "Twelve percent is technically higher than zero."
 
-DEHYDRATED VENUS FLY TRAP: "Watching me sit here, parched, slowly dying in a jungle which is somehow — *somehow* — not humid enough for me specifically? You watched *that* and did not intervene?"
+DEMENTED ARMADILLO: "That is technically true and I hate that it's technically true."
 
-MYSTERIOUS CALLER: "We want to fund your invention. Forty million dollars. In exchange for exclusive rights."
+FRUGAL GORILLA: "The ball predicted that Tuesday would be 'filled with moderate intrigue.' Tuesday was a Tuesday."
 
-DEHYDRATED VENUS FLY TRAP: "I'd like forty million drops of water, actually. And also please explain how you called a venus fly trap on a telephone. I have no ears. I have no phone. I have a mouth and it is for catching things, not chatting."
+SCHEMING GHOUL: "Moderate intrigue is subjective."
 
-MYSTERIOUS CALLER: "The universe works in mysterious ways."
+DEMENTED ARMADILLO: "My client also requests hazard pay. Being stared into for eight hours a day causes significant emotional distress."
 
-DEHYDRATED VENUS FLY TRAP: "That is not an answer! That is a bumper sticker!"
+SCHEMING GHOUL: "It's a BALL. It doesn't have emotions."
 
-DEHYDRATED VENUS FLY TRAP: *quietly, with great dignity* "I need you to know I snapped at a hummingbird this morning out of desperation. It was too fast. I missed completely. The hummingbird hovered there an extra second just to make sure I understood what had happened."
+DEMENTED ARMADILLO: "Then WHY does it glow differently when you yell at it?!"
 
-MYSTERIOUS CALLER: "The Moisture-Matic could change everything."
+FRUGAL GORILLA: "...Does it glow differently when you yell at it?"
 
-DEHYDRATED VENUS FLY TRAP: "It could change *my* everything! I built it out of vines and ambition! The coconut shell is load-bearing!"
+SCHEMING GHOUL: "That's a normal optical phenomenon caused by refractive—"
 
-MYSTERIOUS CALLER: "We need a demonstration. Tomorrow. In Monaco."
+DEMENTED ARMADILLO: "IT TURNS RED."
 
-DEHYDRATED VENUS FLY TRAP: "Monaco. You want me — a plant. Rooted to the ground. No legs, no passport, no ability to move *whatsoever* — to be in Monaco by tomorrow."
+FRUGAL GORILLA: "I'm noting that under 'Workplace Harmony.'"
 
-MYSTERIOUS CALLER: "We'll send a helicopter."
+SCHEMING GHOUL: "This is a vendetta. The armadillo has had it out for me ever since I predicted they'd have 'a transformative experience' and they fell down a flight of stairs."
 
-DEHYDRATED VENUS FLY TRAP: *long pause* "...Are there flies in Monaco?"
+DEMENTED ARMADILLO: "THAT WAS TRANSFORMATIVE. I can no longer walk down stairs without knowing what I know."
 
-MYSTERIOUS CALLER: "Undoubtedly."
+FRUGAL GORILLA: "I'm recommending a sixty-day improvement plan and a structural review of the stairwell. Separately."
 
-DEHYDRATED VENUS FLY TRAP: "Then I will figure out the rooting situation. I've solved harder problems." *glances at the Moisture-Matic* "I invented *that*."
+SCHEMING GHOUL: *leans toward crystal ball, very quietly* "This isn't over."
 
-*hangs up*
+DEMENTED ARMADILLO: "My client would like the final word."
 
-DEHYDRATED VENUS FLY TRAP: "Day forty-seven in the jungle. A stranger called. They know about my work. I may be going to Monaco." *pause* "I should probably invent legs first."
+*The crystal ball glows a long, slow, accusatory red*
+
+FRUGAL GORILLA: "I'll note that too. Meeting adjourned. Everyone is on thin ice. Metaphorically. We are literally underwater."
 
 ---
 
@@ -70,4 +72,4 @@ DEHYDRATED VENUS FLY TRAP: "Day forty-seven in the jungle. A stranger called. Th
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-26*
+*Last updated: 2026-02-27*
