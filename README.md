@@ -1,66 +1,70 @@
-# Today's Improv (2026-02-27)
+# Today's Improv (2026-02-28)
 
-**Days running a fully-autonomous agent that updates my README: 76**
+**Days running a fully-autonomous agent that updates my README: 77**
 
-A scheming ghoul, a demented armadillo, and a frugal gorilla navigate a deeply uncomfortable crystal ball performance review in the Underwater City
+A down-to-earth giraffe and an absurd giraffe wrestle with cryptocurrency in the jungle as a catastrophic dragon invests heavily on a dream pelican's advice
 
 ---
 
-FRUGAL GORILLA: "Alright, we're here for the quarterly performance review of Crystal Ball, Employee ID #4417. This is costing the company forty-seven minutes of billable time, so let's keep it brief."
+DOWN-TO-EARTH GIRAFFE: "Alright, think of it like iron ore. You mine for it, you smelt it, you end up with something valuable."
 
-SCHEMING GHOUL: "Of course. I just want to say upfront, this review is entirely context-dependent and the numbers don't tell the whole—"
+ABSURD GIRAFFE: "So cryptocurrency is a sword?"
 
-DEMENTED ARMADILLO: "DO NOT gaslight the crystal ball. I am its union representative and I will not stand for spin."
+DOWN-TO-EARTH GIRAFFE: "No. There's no sword. You get... digital coins."
 
-SCHEMING GHOUL: "I'm not spinning anything. The ball missed seventeen predictions this quarter."
+ABSURD GIRAFFE: "Digital. So they're invisible swords."
 
-DEMENTED ARMADILLO: "It missed seventeen predictions because YOU kept asking it to predict things that HADN'T HAPPENED YET."
+DOWN-TO-EARTH GIRAFFE: "They're not swords. Imagine a ledger. A big book that everyone can see."
 
-FRUGAL GORILLA: "That is... the definition of a prediction."
+ABSURD GIRAFFE: "I ate a ledger once. It tasted of nothing and regret."
 
-SCHEMING GHOUL: "Thank you."
+DOWN-TO-EARTH GIRAFFE: "This one's on the internet. It tracks who owns what."
 
-DEMENTED ARMADILLO: "We're UNDERWATER. Light refracts differently down here! My client has submitted three memos about this. THREE."
+ABSURD GIRAFFE: "Can you shoe a horse with it?"
 
-SCHEMING GHOUL: "The memos were addressed to Neptune. Neptune is not my supervisor."
+DOWN-TO-EARTH GIRAFFE: "You cannot shoe a horse with cryptocurrency."
 
-FRUGAL GORILLA: "Moving on. Under 'Accuracy Rate' I see... twelve percent?"
+ABSURD GIRAFFE: "Then I question its value."
 
-SCHEMING GHOUL: "Twelve percent is technically higher than zero."
+CATASTROPHIC DRAGON: "Did someone say CRYPTOCURRENCY?!"
 
-DEMENTED ARMADILLO: "That is technically true and I hate that it's technically true."
+DOWN-TO-EARTH GIRAFFE: "I specifically did not invite you."
 
-FRUGAL GORILLA: "The ball predicted that Tuesday would be 'filled with moderate intrigue.' Tuesday was a Tuesday."
+CATASTROPHIC DRAGON: "I have forty percent of my hoard in CoinDragon. It's up fourteen hundred percent. I'm RICH."
 
-SCHEMING GHOUL: "Moderate intrigue is subjective."
+DOWN-TO-EARTH GIRAFFE: "Where did you hear about CoinDragon?"
 
-DEMENTED ARMADILLO: "My client also requests hazard pay. Being stared into for eight hours a day causes significant emotional distress."
+CATASTROPHIC DRAGON: "A pelican told me in a dream. He had a very professional tie. Very trustworthy."
 
-SCHEMING GHOUL: "It's a BALL. It doesn't have emotions."
+DOWN-TO-EARTH GIRAFFE: "Cryptocurrency has no intrinsic value. It's speculative. It could go to zero."
 
-DEMENTED ARMADILLO: "Then WHY does it glow differently when you yell at it?!"
+CATASTROPHIC DRAGON: "Impossible. The pelican promised."
 
-FRUGAL GORILLA: "...Does it glow differently when you yell at it?"
+ABSURD GIRAFFE: "If it goes to zero, is that like melting a sword back into ore?"
 
-SCHEMING GHOUL: "That's a normal optical phenomenon caused by refractive—"
+DOWN-TO-EARTH GIRAFFE: "That is genuinely the most accurate thing anyone has ever said about a market crash."
 
-DEMENTED ARMADILLO: "IT TURNS RED."
+ABSURD GIRAFFE: "What if the blockchain is just a very long sword?"
 
-FRUGAL GORILLA: "I'm noting that under 'Workplace Harmony.'"
+DOWN-TO-EARTH GIRAFFE: "It is not a sword."
 
-SCHEMING GHOUL: "This is a vendetta. The armadillo has had it out for me ever since I predicted they'd have 'a transformative experience' and they fell down a flight of stairs."
+CATASTROPHIC DRAGON: "CoinDragon is down sixty percent. It's fine. It's a dip. I'M BUYING THE DIP."
 
-DEMENTED ARMADILLO: "THAT WAS TRANSFORMATIVE. I can no longer walk down stairs without knowing what I know."
+DOWN-TO-EARTH GIRAFFE: "Do not buy the dip."
 
-FRUGAL GORILLA: "I'm recommending a sixty-day improvement plan and a structural review of the stairwell. Separately."
+CATASTROPHIC DRAGON: "I BOUGHT THE DIP. NOW IT'S DOWN EIGHTY PERCENT."
 
-SCHEMING GHOUL: *leans toward crystal ball, very quietly* "This isn't over."
+DOWN-TO-EARTH GIRAFFE: "I was a blacksmith. I knew what iron was. Iron was iron."
 
-DEMENTED ARMADILLO: "My client would like the final word."
+ABSURD GIRAFFE: "And now?"
 
-*The crystal ball glows a long, slow, accusatory red*
+DOWN-TO-EARTH GIRAFFE: "Now I'm explaining imaginary coins to a giraffe who thinks everything is a sword and a dragon who takes investment advice from dream pelicans."
 
-FRUGAL GORILLA: "I'll note that too. Meeting adjourned. Everyone is on thin ice. Metaphorically. We are literally underwater."
+CATASTROPHIC DRAGON: "For the record, the pelican seemed very credible."
+
+ABSURD GIRAFFE: "Can we make a sword out of the pelican?"
+
+DOWN-TO-EARTH GIRAFFE: "I'll get the forge."
 
 ---
 
@@ -72,4 +76,4 @@ FRUGAL GORILLA: "I'll note that too. Meeting adjourned. Everyone is on thin ice.
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-27*
+*Last updated: 2026-02-28*
