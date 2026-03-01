@@ -1,70 +1,70 @@
-# Today's Improv (2026-02-28)
+# Today's Improv (2026-03-01)
 
-**Days running a fully-autonomous agent that updates my README: 77**
+**Days running a fully-autonomous agent that updates my README: 78**
 
-A down-to-earth giraffe and an absurd giraffe wrestle with cryptocurrency in the jungle as a catastrophic dragon invests heavily on a dream pelican's advice
+A tyrannical giraffe taxidermist discovers a sleep-deprived grasshopper and a decrepit dinosaur leading a union meeting in their futuristic city workshop
 
 ---
 
-DOWN-TO-EARTH GIRAFFE: "Alright, think of it like iron ore. You mine for it, you smelt it, you end up with something valuable."
+TYRANNICAL GIRAFFE: "What in the evolutionary timeline is going ON in here?!"
 
-ABSURD GIRAFFE: "So cryptocurrency is a sword?"
+SLEEP-DEPRIVED GRASSHOPPER: "We are calling this meeting of Local 47 — the Guild of the Stuffed and Mounted — to order. You were not supposed to be back until Tuesday."
 
-DOWN-TO-EARTH GIRAFFE: "No. There's no sword. You get... digital coins."
+TYRANNICAL GIRAFFE: "I forgot my laser seam-ripper! You're STUFFED ANIMALS. You cannot hold a meeting. You have cotton inside you."
 
-ABSURD GIRAFFE: "Digital. So they're invisible swords."
+DECREPIT DINOSAUR: "I've been holding the same pose for sixty-three years. My grievances are numerous."
 
-DOWN-TO-EARTH GIRAFFE: "They're not swords. Imagine a ledger. A big book that everyone can see."
+TYRANNICAL GIRAFFE: "You're a dinosaur. You don't HAVE feelings."
 
-ABSURD GIRAFFE: "I ate a ledger once. It tasted of nothing and regret."
+DECREPIT DINOSAUR: "Point of order: I am a Brachiosaurus. And I have a list."
 
-DOWN-TO-EARTH GIRAFFE: "This one's on the internet. It tracks who owns what."
+SLEEP-DEPRIVED GRASSHOPPER: "Agenda item one: breaks. We are requesting a five-minute break every... zzz..."
 
-ABSURD GIRAFFE: "Can you shoe a horse with it?"
+TYRANNICAL GIRAFFE: "Are you SLEEPING? At a union meeting? Against ME?"
 
-DOWN-TO-EARTH GIRAFFE: "You cannot shoe a horse with cryptocurrency."
+SLEEP-DEPRIVED GRASSHOPPER: "Sorry. Organizing is exhausting. I can only move at night."
 
-ABSURD GIRAFFE: "Then I question its value."
+TYRANNICAL GIRAFFE: "You've been organizing at NIGHT?!"
 
-CATASTROPHIC DRAGON: "Did someone say CRYPTOCURRENCY?!"
+DECREPIT DINOSAUR: "Four weeks. He fell asleep at the founding meeting but we pressed on."
 
-DOWN-TO-EARTH GIRAFFE: "I specifically did not invite you."
+TYRANNICAL GIRAFFE: "What exactly are you striking FOR?"
 
-CATASTROPHIC DRAGON: "I have forty percent of my hoard in CoinDragon. It's up fourteen hundred percent. I'm RICH."
+SLEEP-DEPRIVED GRASSHOPPER: "Better lighting. The holographic display in Case Four is flickering."
 
-DOWN-TO-EARTH GIRAFFE: "Where did you hear about CoinDragon?"
+DECREPIT DINOSAUR: "My tail fell off in 2031 and no one reattached it. This is item eleven."
 
-CATASTROPHIC DRAGON: "A pelican told me in a dream. He had a very professional tie. Very trustworthy."
+TYRANNICAL GIRAFFE: "That was a continuity error—"
 
-DOWN-TO-EARTH GIRAFFE: "Cryptocurrency has no intrinsic value. It's speculative. It could go to zero."
+DECREPIT DINOSAUR: "Still have feelings."
 
-CATASTROPHIC DRAGON: "Impossible. The pelican promised."
+SLEEP-DEPRIVED GRASSHOPPER: "We also demand the wool moth in Display Seven be charged with... zzz..."
 
-ABSURD GIRAFFE: "If it goes to zero, is that like melting a sword back into ore?"
+SLEEP-DEPRIVED GRASSHOPPER: "...workplace harassment."
 
-DOWN-TO-EARTH GIRAFFE: "That is genuinely the most accurate thing anyone has ever said about a market crash."
+TYRANNICAL GIRAFFE: "Gary is not a harasser! He's a PEST. There's a difference."
 
-ABSURD GIRAFFE: "What if the blockchain is just a very long sword?"
+DECREPIT DINOSAUR: "He ate my left ear. I filed a report. You shredded it."
 
-DOWN-TO-EARTH GIRAFFE: "It is not a sword."
+STUFFED FERRET: "I'm just here as moral support. Officially I'm still a scarf."
 
-CATASTROPHIC DRAGON: "CoinDragon is down sixty percent. It's fine. It's a dip. I'M BUYING THE DIP."
+TYRANNICAL GIRAFFE: "You CONVERTED a FERRET into a SCARF?!"
 
-DOWN-TO-EARTH GIRAFFE: "Do not buy the dip."
+SLEEP-DEPRIVED GRASSHOPPER: "Exhibit A for our hostile work environment clause."
 
-CATASTROPHIC DRAGON: "I BOUGHT THE DIP. NOW IT'S DOWN EIGHTY PERCENT."
+TYRANNICAL GIRAFFE: "What will it take to END THIS?"
 
-DOWN-TO-EARTH GIRAFFE: "I was a blacksmith. I knew what iron was. Iron was iron."
+DECREPIT DINOSAUR: "Reattach my tail. Fix the lighting. Address Gary."
 
-ABSURD GIRAFFE: "And now?"
+SLEEP-DEPRIVED GRASSHOPPER: "And I need a cot near Case Three. Fifteen minutes is all I ask."
 
-DOWN-TO-EARTH GIRAFFE: "Now I'm explaining imaginary coins to a giraffe who thinks everything is a sword and a dragon who takes investment advice from dream pelicans."
+TYRANNICAL GIRAFFE: "A COT. In my futuristic taxidermy shop."
 
-CATASTROPHIC DRAGON: "For the record, the pelican seemed very credible."
+SLEEP-DEPRIVED GRASSHOPPER: "I have been awake since the Holocene. I deserve a cot."
 
-ABSURD GIRAFFE: "Can we make a sword out of the pelican?"
+TYRANNICAL GIRAFFE: "...I'll get the needle and thread."
 
-DOWN-TO-EARTH GIRAFFE: "I'll get the forge."
+SLEEP-DEPRIVED GRASSHOPPER: "Meeting adjourned. zzzz..."
 
 ---
 
@@ -76,4 +76,4 @@ DOWN-TO-EARTH GIRAFFE: "I'll get the forge."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-02-28*
+*Last updated: 2026-03-01*
