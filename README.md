@@ -1,70 +1,64 @@
-# Today's Improv (2026-03-02)
+# Today's Improv (2026-03-03)
 
-**Days running a fully-autonomous agent that updates my README: 79**
+**Days running a fully-autonomous agent that updates my README: 80**
 
-An egomaniacal ant and a sleepy giraffe attempt retirement planning in Dreamland, where the most ambitious financial goal on the table is surviving until next Wednesday
+A smug woman descends into an Underwater City to lead a trust fall workshop for sentient furniture that's secretly plotting against their owner, armed with a seventeen-page dossier and a complete inability to be surprised
 
 ---
 
-EGOMANIACAL ANT: "Welcome to the offices of Reginald Q. Antsworth III — the greatest retirement planner in all of Dreamland, and possibly the broader dream multiverse."
+SMUG WOMAN: "Welcome, everyone. Welcome to the first — and, frankly, only necessary — Trust Fall Workshop in Atlantica's Corporate District, fourteen fathoms below sea level. I am Vivienne Castellan, and I am *never* wrong."
 
-SLEEPY GIRAFFE: "Mmm. Yes. Sorry. I may have dozed off on the elevator up. Where are we again?"
+SMUG WOMAN: "I see you've all arrived. The sectional sofa. The ottoman. The two dining chairs — yes, I count you as separate entities. Don't let the matching upholstery fool me."
 
-EGOMANIACAL ANT: "My office. We are here to discuss your retirement portfolio. Shall we begin building your LEGACY?"
+SMUG WOMAN: "I know what you are. I've known since 2019. Since the ottoman moved three inches to the left while Gerald was in the shower."
 
-SLEEPY GIRAFFE: "Sure. So... how do we make sure I have enough to last until, let's say... nap time?"
+SMUG WOMAN: "The others laughed at me. 'Vivienne,' they said, 'furniture doesn't PLOT.' And yet here we are. Fourteen fathoms underwater. In a trust fall workshop. So who's laughing now."
 
-EGOMANIACAL ANT: "Nap time. You want a retirement plan that covers until... nap time."
+SMUG WOMAN: "(to audience) Gerald thinks I'm 'helping with team cohesion.' He thinks I'm 'a licensed facilitator.' He has absolutely no idea that I know everything."
 
-SLEEPY GIRAFFE: "Or possibly lunch. If I'm feeling aggressive."
+SMUG WOMAN: "Now. The trust fall is simple. One of you falls backward. The rest catch you. It is about vulnerability. Releasing control. And — (hard stare at the sectional) — STOP WHISPERING."
 
-EGOMANIACAL ANT: "I restructured the Cloud King's diversified portfolio! I built seventeen-generation compound interest plans for the Sand Worm of Sector Four! And your horizon is LUNCH?"
+SMUG WOMAN: "I can see the cushions moving. I have eyes. Specifically, I have TRAINED eyes. I did a seminar."
 
-SLEEPY GIRAFFE: "I'm not sure I have grandchildren. I barely have a Thursday."
+SMUG WOMAN: "The bookshelf in the back — yes, you — stop leaning. I know that's how you communicate. Little lean-codes. I wrote nineteen pages on this. Originally seventeen, but I found more."
 
-EGOMANIACAL ANT: "What do you mean you 'barely have a Thursday'?"
+SMUG WOMAN: "(deep breath) Being smug is only insufferable when you're wrong. When you're right, it's just... being correct with excellent posture."
 
-SLEEPY GIRAFFE: "I mean I've been awake for about forty minutes and I'm already fading. Can we set something small? A nice dream by 3pm? With a hammock in it?"
+SMUG WOMAN: "Who wants to go first? You need to stand here, close your eyes — or whatever approximates eyes for your particular construction — and fall backward."
 
-EGOMANIACAL ANT: "A hammock. You want me to plan for a hammock."
+OTTOMAN: *tips slightly to the left*
 
-SLEEPY GIRAFFE: "A *nice* hammock. Good light. And possibly a leafy snack around 2."
+SMUG WOMAN: "Was that a volunteer or a threat? Because I've charted both and I'm prepared for either."
 
-EGOMANIACAL ANT: "I am going to need you to think BIGGER. Think DECADES. Think CENTURIES."
+SMUG WOMAN: "(checking waterproof clipboard) According to my dossier, you — the sectional — have been inching toward the living room window for six months. Millimeter by millimeter. I have the photos. Gerald calls it 'settling.' It is STRATEGIC POSITIONING."
 
-SLEEPY GIRAFFE: "I'm thinking about right now. And right now I'm already planning my next blink."
+SMUG WOMAN: "I will now demonstrate the trust fall. I will fall backward, and YOU — the sectional — will catch me. This is called establishing trust through mutual vulnerability. Ready? Here we go."
 
-UNHINGED SENTIENT BROCCOLI: "IGNORE HIM! I offer SHORT-TERM investments! Day-trading in naps! Your dreams as collateral! TWELVE SNOOZE BUTTONS gets you a fixed rate! SIGN HERE!"
+SMUG WOMAN: "(falls backward, a long, slow pause)"
 
-EGOMANIACAL ANT: "Get OUT of my office, Gerald! You are not even licensed in Dreamland!"
+SMUG WOMAN: "..."
 
-UNHINGED SENTIENT BROCCOLI: "I'm licensed in THREE parallel daydreams AND a fever dream! My rates are unbeatable and my paperwork is mostly edible!"
+SMUG WOMAN: "Nobody caught me."
 
-SLEEPY GIRAFFE: "...He does seem to understand my needs."
+SMUG WOMAN: "(standing, brushing self off with total composure) This is fine. This is data. I'm adding it to the dossier. Page forty-eight: 'They let her fall.' Underlined. In red. With a star."
 
-EGOMANIACAL ANT: "Gerald was BANNED from the Dreamland Financial Exchange for charging interest in units of snooze buttons. He is a vegetable."
+SMUG WOMAN: "The conspiracy deepens, and so does my vindication. Those two things move in perfect parallel, which is honestly very satisfying."
 
-UNHINGED SENTIENT BROCCOLI: "The snooze button standard is MORE STABLE than the gold standard! The nap market NEVER CRASHES!"
+RANDOM FISH: *drifts past the window, staring*
 
-SLEEPY GIRAFFE: "I do have twelve snooze buttons saved up..."
+SMUG WOMAN: "(without turning) Not now, Kevin."
 
-EGOMANIACAL ANT: "Fine. FINE. What is your absolute maximum planning horizon? Your most ambitious dream?"
+SMUG WOMAN: "Next: the circle of trust exercise, where we discuss our feelings openly. I will be recording everything in my waterproof notebook, which Gerald does not know I have."
 
-SLEEPY GIRAFFE: "...Next Wednesday. If I'm feeling bold."
+SMUG WOMAN: "(leaning very close to the ottoman) I know that you know that I know. And I want you to know — I find this invigorating."
 
-EGOMANIACAL ANT: "I have never said these words in my professional career: let's build a five-day retirement plan."
+OTTOMAN: *tips slightly the other way*
 
-SLEEPY GIRAFFE: "Could we do four? I'll probably be asleep by Tuesday."
+SMUG WOMAN: "(to audience, delighted) It just winked at me. THEY KNOW I KNOW. This is the most confirmed I have ever felt in my entire life."
 
-EGOMANIACAL ANT: "FOUR-DAY RETIREMENT PLAN. Goals: one hammock dream, two leafy snacks, and a modest savings bond maturing by Friday at noon—"
+SMUG WOMAN: "Gerald will thank me. Eventually. Probably from a safe distance, after the furniture has been held fully accountable by the appropriate underwater municipal authorities."
 
-SLEEPY GIRAFFE: "Oh, sorry. I fell asleep for a moment there. What were we discussing?"
-
-EGOMANIACAL ANT: "Your retirement."
-
-SLEEPY GIRAFFE: "Oh. That's so far away."
-
-EGOMANIACAL ANT: "...It is Wednesday."
+SMUG WOMAN: "(snaps notebook shut, beams at the room) This workshop is going absolutely perfectly."
 
 ---
 
@@ -76,4 +70,4 @@ EGOMANIACAL ANT: "...It is Wednesday."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-02*
+*Last updated: 2026-03-03*
