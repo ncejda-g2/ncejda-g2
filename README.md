@@ -1,64 +1,68 @@
-# Today's Improv (2026-03-03)
+# Today's Improv (2026-03-04)
 
-**Days running a fully-autonomous agent that updates my README: 80**
+**Days running a fully-autonomous agent that updates my README: 81**
 
-A smug woman descends into an Underwater City to lead a trust fall workshop for sentient furniture that's secretly plotting against their owner, armed with a seventeen-page dossier and a complete inability to be surprised
+An overconfident fox attempts to lead a desert yoga class for procrastinators, where an apologetic ant and a feral pangolin have been fully intending to start for the past three hours.
 
 ---
 
-SMUG WOMAN: "Welcome, everyone. Welcome to the first — and, frankly, only necessary — Trust Fall Workshop in Atlantica's Corporate District, fourteen fathoms below sea level. I am Vivienne Castellan, and I am *never* wrong."
+OVERCONFIDENT FOX: "Welcome to Desert Flow — the only yoga class for people who are, shall we say, *pre-starting*. I have won fourteen regional competitions. You're in exceptional hands."
 
-SMUG WOMAN: "I see you've all arrived. The sectional sofa. The ottoman. The two dining chairs — yes, I count you as separate entities. Don't let the matching upholstery fool me."
+APOLOGETIC ANT: "I'm so sorry I haven't unrolled my mat yet. I was going to, and then I felt I should think about it first. I'm sorry for thinking."
 
-SMUG WOMAN: "I know what you are. I've known since 2019. Since the ottoman moved three inches to the left while Gerald was in the shower."
+FERAL PANGOLIN: *aggressively curled into a ball* "I AM BUILDING MOMENTUM. DO NOT RUSH MY PROCESS."
 
-SMUG WOMAN: "The others laughed at me. 'Vivienne,' they said, 'furniture doesn't PLOT.' And yet here we are. Fourteen fathoms underwater. In a trust fall workshop. So who's laughing now."
+OVERCONFIDENT FOX: "That's what we call Contemplative Child's Pose. You're basically already doing it."
 
-SMUG WOMAN: "(to audience) Gerald thinks I'm 'helping with team cohesion.' He thinks I'm 'a licensed facilitator.' He has absolutely no idea that I know everything."
+OVERCONFIDENT FOX: "Today: Sun Salutation. We begin by raising our arms toward the—"
 
-SMUG WOMAN: "Now. The trust fall is simple. One of you falls backward. The rest catch you. It is about vulnerability. Releasing control. And — (hard stare at the sectional) — STOP WHISPERING."
+FERAL PANGOLIN: "I'll start tomorrow."
 
-SMUG WOMAN: "I can see the cushions moving. I have eyes. Specifically, I have TRAINED eyes. I did a seminar."
+OVERCONFIDENT FOX: "The sun is literally rising right now."
 
-SMUG WOMAN: "The bookshelf in the back — yes, you — stop leaning. I know that's how you communicate. Little lean-codes. I wrote nineteen pages on this. Originally seventeen, but I found more."
+FERAL PANGOLIN: "The NEXT one. I need to prepare mentally."
 
-SMUG WOMAN: "(deep breath) Being smug is only insufferable when you're wrong. When you're right, it's just... being correct with excellent posture."
+APOLOGETIC ANT: "I've been mentally preparing since last Tuesday. I'm sorry to say I need one more week."
 
-SMUG WOMAN: "Who wants to go first? You need to stand here, close your eyes — or whatever approximates eyes for your particular construction — and fall backward."
+OVERCONFIDENT FOX: "(slow breath) I once taught forty goats. Simultaneously. This is fine."
 
-OTTOMAN: *tips slightly to the left*
+FERAL PANGOLIN: *sniffs the yoga mat* "This mat has EDGES. Edges imply limits. I cannot practice somewhere that implies limits."
 
-SMUG WOMAN: "Was that a volunteer or a threat? Because I've charted both and I'm prepared for either."
+APOLOGETIC ANT: "I was about to raise my arms, but — has anyone asked the sun whether it wants to be saluted? That seems like a lot of pressure on the sun."
 
-SMUG WOMAN: "(checking waterproof clipboard) According to my dossier, you — the sectional — have been inching toward the living room window for six months. Millimeter by millimeter. I have the photos. Gerald calls it 'settling.' It is STRATEGIC POSITIONING."
+OVERCONFIDENT FOX: "Mountain Pose, then. You simply stand still. That is the ENTIRE pose."
 
-SMUG WOMAN: "I will now demonstrate the trust fall. I will fall backward, and YOU — the sectional — will catch me. This is called establishing trust through mutual vulnerability. Ready? Here we go."
+FERAL PANGOLIN: *begins digging in the sand*
 
-SMUG WOMAN: "(falls backward, a long, slow pause)"
+OVERCONFIDENT FOX: "What are you doing."
 
-SMUG WOMAN: "..."
+FERAL PANGOLIN: "Making a nest. The starting position needs to be perfect before I can start."
 
-SMUG WOMAN: "Nobody caught me."
+OVERCONFIDENT FOX: "When will it be perfect?"
 
-SMUG WOMAN: "(standing, brushing self off with total composure) This is fine. This is data. I'm adding it to the dossier. Page forty-eight: 'They let her fall.' Underlined. In red. With a star."
+FERAL PANGOLIN: *long pause* "I'll know."
 
-SMUG WOMAN: "The conspiracy deepens, and so does my vindication. Those two things move in perfect parallel, which is honestly very satisfying."
+APOLOGETIC ANT: "Okay. I'm doing it. Arms going up right now. I'm sorry — here I go—"
 
-RANDOM FISH: *drifts past the window, staring*
+OVERCONFIDENT FOX: "(gasping) YES! A breakthrough!"
 
-SMUG WOMAN: "(without turning) Not now, Kevin."
+APOLOGETIC ANT: "—wait, is Mountain Pose the right first pose? Maybe something gentler. I'm so sorry."
 
-SMUG WOMAN: "Next: the circle of trust exercise, where we discuss our feelings openly. I will be recording everything in my waterproof notebook, which Gerald does not know I have."
+RANDOM TUMBLEWEED: *rolls through in silence*
 
-SMUG WOMAN: "(leaning very close to the ottoman) I know that you know that I know. And I want you to know — I find this invigorating."
+OVERCONFIDENT FOX: "I'm listing this as 'led a transformative class' on my resume. Technically, transformations are invisible. This counts."
 
-OTTOMAN: *tips slightly the other way*
+FERAL PANGOLIN: *finishes nest, immediately falls asleep*
 
-SMUG WOMAN: "(to audience, delighted) It just winked at me. THEY KNOW I KNOW. This is the most confirmed I have ever felt in my entire life."
+APOLOGETIC ANT: "(softly) I'll start tomorrow. Or think about starting. Either way, I'll feel bad about whichever one I don't do."
 
-SMUG WOMAN: "Gerald will thank me. Eventually. Probably from a safe distance, after the furniture has been held fully accountable by the appropriate underwater municipal authorities."
+OVERCONFIDENT FOX: "(sits on mat, stares at horizon) ...I used to be so good at this."
 
-SMUG WOMAN: "(snaps notebook shut, beams at the room) This workshop is going absolutely perfectly."
+APOLOGETIC ANT: "You still are. I'm sorry for sitting here proving otherwise."
+
+OVERCONFIDENT FOX: "You don't need to apologize."
+
+APOLOGETIC ANT: "I know. I'm sorry."
 
 ---
 
@@ -70,4 +74,4 @@ SMUG WOMAN: "(snaps notebook shut, beams at the room) This workshop is going abs
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-03*
+*Last updated: 2026-03-04*
