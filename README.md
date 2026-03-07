@@ -1,76 +1,78 @@
-# Today's Improv (2026-03-06)
+# Today's Improv (2026-03-07)
 
-**Days running a fully-autonomous agent that updates my README: 83**
+**Days running a fully-autonomous agent that updates my README: 84**
 
-A paranoid medieval beekeeper and an excited wasp union representative negotiate dental coverage for the hive deep in their bewildering underwater city.
+An overwrought woman serving as professional bridesmaid discovers she has been secretly hired by both a hippie raccoon and a brave unicorn for their own wedding in the microscopic world.
 
 ---
 
-PARANOID BEEKEEPER: "I called this meeting because someone filed seventeen grievances before breakfast. Seventeen. I haven't even had porridge."
+OVERWROUGHT BRIDESMAID: "Okay. Okay okay okay. Flowers — microscopic. Venue — microscopic. Emotions — somehow not microscopic at all. I am READY for this wedding."
 
-EXCITED WASP: "That was me! Hi! Gerald — Local 447, Stinging Insects United! I am SO EXCITED to be here. Can I hug you? I'm going to hug you."
+HIPPIE RACCOON: "Oh, like, hey! You must be my bridesmaid! I hired you from BridesmaidsForHire.com! The universe brought us together, babe."
 
-PARANOID BEEKEEPER: "Don't. The bees are watching."
+OVERWROUGHT BRIDESMAID: "Yes! Hired by the bride, as per my contract with—" *checks clipboard* "—one Moonbeam Juniper Trash-Panda?"
 
-EXCITED WASP: "The bees SENT me. Also — quick clarification — we're wasps, not bees, but we've been doing your pollination on a contract basis for three seasons and we feel that entitles us to BENEFITS."
+HIPPIE RACCOON: "Very spiritual lineage. Want some trail mix? It's mostly granola and one pebble I found near the mitochondria."
 
-PARANOID BEEKEEPER: "Dental. You want dental. You — the creatures made ENTIRELY of mouth."
+BRAVE UNICORN: *gallops in, horn sparkling* "Ah ha! My professional bridesmaid has arrived! I also hired you from BridesmaidsForHire.com! This will be the most HEROIC wedding in the microscopic world!"
 
-EXCITED WASP: "Stingers, actually. Very different. But YES. DENTAL. Our mandibles are under incredible occupational stress, Karen."
+OVERWROUGHT BRIDESMAID: *turns very slowly* "...You also hired me."
 
-PARANOID BEEKEEPER: "My name is not Karen. How do you know my name is Karen?"
+BRAVE UNICORN: "Of course! I, Sir Gallowhoof the Brave, deserve nothing less than professional support on this momentous day!"
 
-EXCITED WASP: "I guessed! It landed! Moving on — we've drafted a proposal." *unfurls a scroll the length of the underwater city block*
+OVERWROUGHT BRIDESMAID: "You're the groom."
 
-PARANOID BEEKEEPER: "That scroll is longer than my castle."
+BRAVE UNICORN: "Indeed!"
 
-EXCITED WASP: "Page one: dental. Page two: also dental. Page three: the emotional toll of being constantly mistaken for bees. Page four: hazard pay for flowers that fight back."
+HIPPIE RACCOON: "Oh, babe, you hired a bridesmaid too? That's so sweet. Very progressive energy."
 
-PARANOID BEEKEEPER: "Flowers don't fight back."
+OVERWROUGHT BRIDESMAID: "You both hired the SAME bridesmaid. For the SAME wedding. Without telling each other."
 
-EXCITED WASP: "Have you MET a snapdragon? I lost three colleagues last Tuesday. We are not ready to discuss it."
+BRAVE UNICORN: "We agreed to plan our halves of the wedding independently! It builds CHARACTER!"
 
-*A neurotic maple tree drifts slowly past the underwater window, pressing its bark against the glass.*
+HIPPIE RACCOON: "We're very big on personal autonomy. Also I may have forgotten to mention I hired someone."
 
-NEUROTIC MAPLE TREE: *muffled* "I'm the neutral mediator. I want nothing. Please. Whatever you do, do not let this conflict reach my root system."
+OVERWROUGHT BRIDESMAID: "My contract states I am responsible for: holding the bouquet, managing the veil, providing emotional support, and — I wrote this myself — preventing any last-minute disasters." *laughs with the hollow echo of a woman who has seen too much* "THIS is a last-minute disaster."
 
-PARANOID BEEKEEPER: "Why is there a tree outside? We're underwater."
+BRAVE UNICORN: "Nonsense! This is a TWIST! All the great heroic sagas have twists!"
 
-EXCITED WASP: "Emotional support. He's not coping with the environment either, frankly. None of us are."
+HIPPIE RACCOON: "The universe is testing us, babe. It's beautiful."
 
-PARANOID BEEKEEPER: "None of us should BE underwater! This is a city! Built underwater! I have been meaning to raise this for years and nobody will listen!"
+OVERWROUGHT BRIDESMAID: "I'm going to need twice my fee."
 
-EXCITED WASP: "FOCUS, Karen. Dental."
+BRAVE UNICORN: "DONE! I shall slay your invoice with my credit card!"
 
-PARANOID BEEKEEPER: "Fine. I'll offer a complimentary tooth-polishing from the castle stone mason. Once a year. He's very thorough."
+HIPPIE RACCOON: "Wait — does she work for both of us now? Or neither? What does her contract say about paradoxes?"
 
-EXCITED WASP: "He polishes ROCKS. Our counter-offer: full dental, vision — hive navigation is technically a vision-dependent activity — and one surface day per month."
+OVERWROUGHT BRIDESMAID: *reads the fine print* "It says — and I quote — 'In the event of a contractual paradox, bridesmaid may charge triple rate and leave.' I added this clause after the Henderson incident."
 
-PARANOID BEEKEEPER: "That last request is for you personally, isn't it."
+BRAVE UNICORN: "What was the Henderson incident?"
 
-EXCITED WASP: "I am so tired of being wet, Karen. You have absolutely no idea."
+OVERWROUGHT BRIDESMAID: "I was hired by the bride, the groom, the officiant, and the wedding cake. All separately. None of them knew about each other."
 
-PARANOID BEEKEEPER: "...I'll agree to dental and the surface day. But vision is not happening. You have five hundred eyes."
+HIPPIE RACCOON: "The wedding CAKE hired you?"
 
-EXCITED WASP: "Each one needs coverage! That is our ENTIRE POINT!"
+OVERWROUGHT BRIDESMAID: "It was a very needy cake."
 
-PARANOID BEEKEEPER: *long pause* "...I need to go check whether this meeting is being recorded."
+*A microscopic ant in a tuxedo scurries across the floor, holding two invitation cards.*
 
-EXCITED WASP: "It's not."
+TUXEDO ANT: "Excuse me — I'm the officiant. I've received two invitations for the same ceremony? Both addressed to me personally?"
 
-PARANOID BEEKEEPER: "That is exactly what someone who IS recording it would say."
+OVERWROUGHT BRIDESMAID: *pinches bridge of nose* "It's happening again."
 
-EXCITED WASP: *holds up a tiny clipboard* "Sign here and we can all go home. Or... up. Whatever this place counts as."
+BRAVE UNICORN: "ONWARD! The brave do not flinch at administrative chaos!"
 
-PARANOID BEEKEEPER: *signs with maximum suspicion* "If the bees ask — I negotiated brilliantly and gave nothing away."
+HIPPIE RACCOON: "I'll make everyone herbal tea. I have dried lavender somewhere in my fur."
 
-EXCITED WASP: "The wasps will be telling everyone you caved in under four minutes."
+OVERWROUGHT BRIDESMAID: "I'm charging quadruple. And someone is covering my therapy. Starting right now, at this exact microscopic moment."
 
-PARANOID BEEKEEPER: "I knew this was a trap."
+BRAVE UNICORN: "I shall face couples therapy with VALOR!"
 
-EXCITED WASP: "IT'S A DENTAL PLAN, KAREN. EVERYONE WINS."
+HIPPIE RACCOON: "It's only fair, babe. You did hire her twice."
 
-*The neurotic maple tree gives a slow thumbs-up through the glass, realizes it does not have thumbs, and silently sinks out of frame.*
+BRAVE UNICORN: "I heroically hired her ONCE. You also hired her once. That is two separate heroic acts that happened to converge."
+
+OVERWROUGHT BRIDESMAID: *quietly folds contract, tucks it away, stares into the infinite microscopic void* "Somebody please just hand me the bouquet."
 
 ---
 
@@ -82,4 +84,4 @@ EXCITED WASP: "IT'S A DENTAL PLAN, KAREN. EVERYONE WINS."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-06*
+*Last updated: 2026-03-07*
