@@ -1,78 +1,70 @@
-# Today's Improv (2026-03-07)
+# Today's Improv (2026-03-08)
 
-**Days running a fully-autonomous agent that updates my README: 84**
+**Days running a fully-autonomous agent that updates my README: 85**
 
-An overwrought woman serving as professional bridesmaid discovers she has been secretly hired by both a hippie raccoon and a brave unicorn for their own wedding in the microscopic world.
+A feral chicken inherits a haunted castle in the microscopic world, where the insufferable owl ghost refuses to leave until she fulfills its one last — and very specific — earthly wish.
 
 ---
 
-OVERWROUGHT BRIDESMAID: "Okay. Okay okay okay. Flowers — microscopic. Venue — microscopic. Emotions — somehow not microscopic at all. I am READY for this wedding."
+FERAL CHICKEN: "BOK! I'm here! I'm the princess now! This castle is MINE! I have a deed and everything!"
 
-HIPPIE RACCOON: "Oh, like, hey! You must be my bridesmaid! I hired you from BridesmaidsForHire.com! The universe brought us together, babe."
+INSUFFERABLE OWL GHOST: "Ah. The new owner. How... pedestrian."
 
-OVERWROUGHT BRIDESMAID: "Yes! Hired by the bride, as per my contract with—" *checks clipboard* "—one Moonbeam Juniper Trash-Panda?"
+FERAL CHICKEN: "Why are you glowing? Why is everything in here cold? Why does the chandelier have feelings?"
 
-HIPPIE RACCOON: "Very spiritual lineage. Want some trail mix? It's mostly granola and one pebble I found near the mitochondria."
+INSUFFERABLE OWL GHOST: "I am Professor Reginald Hootsworth the Third. I have haunted this castle for two hundred and forty years and I will continue to do so until you fulfill my one remaining earthly wish."
 
-BRAVE UNICORN: *gallops in, horn sparkling* "Ah ha! My professional bridesmaid has arrived! I also hired you from BridesmaidsForHire.com! This will be the most HEROIC wedding in the microscopic world!"
+FERAL CHICKEN: "Is it grain? I have grain."
 
-OVERWROUGHT BRIDESMAID: *turns very slowly* "...You also hired me."
+INSUFFERABLE OWL GHOST: "My wish is that someone — anyone — reads my manuscript."
 
-BRAVE UNICORN: "Of course! I, Sir Gallowhoof the Brave, deserve nothing less than professional support on this momentous day!"
+FERAL CHICKEN: "...Your what."
 
-OVERWROUGHT BRIDESMAID: "You're the groom."
+INSUFFERABLE OWL GHOST: "My life's work. 'The Complete and Definitive History of Microscopic World Perches: A Seventeen-Volume Study.'"
 
-BRAVE UNICORN: "Indeed!"
+FERAL CHICKEN: "SEVENTEEN VOLUMES?!"
 
-HIPPIE RACCOON: "Oh, babe, you hired a bridesmaid too? That's so sweet. Very progressive energy."
+INSUFFERABLE OWL GHOST: "Volume one is only four hundred pages. It's the short one."
 
-OVERWROUGHT BRIDESMAID: "You both hired the SAME bridesmaid. For the SAME wedding. Without telling each other."
+ROTUND ANT: *scuttles in under the door* "Oh good, you found him. He's been trying to get someone to read that since the Bronze Age."
 
-BRAVE UNICORN: "We agreed to plan our halves of the wedding independently! It builds CHARACTER!"
+INSUFFERABLE OWL GHOST: "The Bronze Age draft was unfinished. The current version is considerably more thorough."
 
-HIPPIE RACCOON: "We're very big on personal autonomy. Also I may have forgotten to mention I hired someone."
+FERAL CHICKEN: "How much more thorough?"
 
-OVERWROUGHT BRIDESMAID: "My contract states I am responsible for: holding the bouquet, managing the veil, providing emotional support, and — I wrote this myself — preventing any last-minute disasters." *laughs with the hollow echo of a woman who has seen too much* "THIS is a last-minute disaster."
+ROTUND ANT: "He started with six hundred pages. He now has nine thousand."
 
-BRAVE UNICORN: "Nonsense! This is a TWIST! All the great heroic sagas have twists!"
+FERAL CHICKEN: *horrified clucking*
 
-HIPPIE RACCOON: "The universe is testing us, babe. It's beautiful."
+INSUFFERABLE OWL GHOST: "I found more to say. Two centuries is a lot of time for reflection."
 
-OVERWROUGHT BRIDESMAID: "I'm going to need twice my fee."
+FERAL CHICKEN: "What if I read just the first chapter?"
 
-BRAVE UNICORN: "DONE! I shall slay your invoice with my credit card!"
+INSUFFERABLE OWL GHOST: "Chapter one is a foreword. Chapter two is the actual introduction. Chapter three is what I call the 'pre-beginning.'"
 
-HIPPIE RACCOON: "Wait — does she work for both of us now? Or neither? What does her contract say about paradoxes?"
+FERAL CHICKEN: "What if I just... skimmed it?"
 
-OVERWROUGHT BRIDESMAID: *reads the fine print* "It says — and I quote — 'In the event of a contractual paradox, bridesmaid may charge triple rate and leave.' I added this clause after the Henderson incident."
+INSUFFERABLE OWL GHOST: *rattles chandelier furiously* "SKIMMED. She said SKIMMED. I did not haunt this castle for two hundred and forty years to be SKIMMED!"
 
-BRAVE UNICORN: "What was the Henderson incident?"
+FERAL CHICKEN: "What if we did a book club? I read a chapter, you get to discuss it, there are snacks?"
 
-OVERWROUGHT BRIDESMAID: "I was hired by the bride, the groom, the officiant, and the wedding cake. All separately. None of them knew about each other."
+INSUFFERABLE OWL GHOST: *pause* "...Define snacks."
 
-HIPPIE RACCOON: "The wedding CAKE hired you?"
+FERAL CHICKEN: "Seeds. Grain. I can do a whole charcuterie situation."
 
-OVERWROUGHT BRIDESMAID: "It was a very needy cake."
+INSUFFERABLE OWL GHOST: "I cannot eat. I am a ghost."
 
-*A microscopic ant in a tuxedo scurries across the floor, holding two invitation cards.*
+FERAL CHICKEN: "So you just... smell them?"
 
-TUXEDO ANT: "Excuse me — I'm the officiant. I've received two invitations for the same ceremony? Both addressed to me personally?"
+INSUFFERABLE OWL GHOST: *wistfully* "I smell them in spirit. It is, frankly, a more pure snacking experience."
 
-OVERWROUGHT BRIDESMAID: *pinches bridge of nose* "It's happening again."
+ROTUND ANT: "He wept — in spirit — for six hours when someone microwaved popcorn in 1987."
 
-BRAVE UNICORN: "ONWARD! The brave do not flinch at administrative chaos!"
+FERAL CHICKEN: "Deal. Book club. Tuesdays. One chapter. Snack smelling. You stop rattling the chandelier."
 
-HIPPIE RACCOON: "I'll make everyone herbal tea. I have dried lavender somewhere in my fur."
+INSUFFERABLE OWL GHOST: *visibly moved, floating with renewed dignity* "I have waited two hundred and forty years for someone to say that."
 
-OVERWROUGHT BRIDESMAID: "I'm charging quadruple. And someone is covering my therapy. Starting right now, at this exact microscopic moment."
-
-BRAVE UNICORN: "I shall face couples therapy with VALOR!"
-
-HIPPIE RACCOON: "It's only fair, babe. You did hire her twice."
-
-BRAVE UNICORN: "I heroically hired her ONCE. You also hired her once. That is two separate heroic acts that happened to converge."
-
-OVERWROUGHT BRIDESMAID: *quietly folds contract, tucks it away, stares into the infinite microscopic void* "Somebody please just hand me the bouquet."
+FERAL CHICKEN: "BOK."
 
 ---
 
@@ -84,4 +76,4 @@ OVERWROUGHT BRIDESMAID: *quietly folds contract, tucks it away, stares into the 
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-07*
+*Last updated: 2026-03-08*
