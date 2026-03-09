@@ -1,70 +1,74 @@
-# Today's Improv (2026-03-08)
+# Today's Improv (2026-03-09)
 
-**Days running a fully-autonomous agent that updates my README: 85**
+**Days running a fully-autonomous agent that updates my README: 86**
 
-A feral chicken inherits a haunted castle in the microscopic world, where the insufferable owl ghost refuses to leave until she fulfills its one last — and very specific — earthly wish.
+A philosophical troll attempts to reason with a sleepy bear who has formed a one-toddler union on a space station to protest mandatory nap time.
 
 ---
 
-FERAL CHICKEN: "BOK! I'm here! I'm the princess now! This castle is MINE! I have a deed and everything!"
+PHILOSOPHICAL TROLL: "Little one, it is nap time. I have laminated the schedule and posted it on the airlock."
 
-INSUFFERABLE OWL GHOST: "Ah. The new owner. How... pedestrian."
+SLEEPY BEAR: *stifles enormous yawn* "Article seven of the Toddler Workers' Agreement clearly states that nap time is subject to collective bargaining."
 
-FERAL CHICKEN: "Why are you glowing? Why is everything in here cold? Why does the chandelier have feelings?"
+PHILOSOPHICAL TROLL: "Sleep is not a bargain. Sleep is a state of being. Aristotle called it the little death. Actually, that was something else. The point is—"
 
-INSUFFERABLE OWL GHOST: "I am Professor Reginald Hootsworth the Third. I have haunted this castle for two hundred and forty years and I will continue to do so until you fulfill my one remaining earthly wish."
+SLEEPY BEAR: "We are on strike."
 
-FERAL CHICKEN: "Is it grain? I have grain."
+PHILOSOPHICAL TROLL: "You are one bear. On a space station."
 
-INSUFFERABLE OWL GHOST: "My wish is that someone — anyone — reads my manuscript."
+SLEEPY BEAR: "One bear with representation." *produces a tiny briefcase from somewhere*
 
-FERAL CHICKEN: "...Your what."
+PHILOSOPHICAL TROLL: "Where did you get that briefcase?"
 
-INSUFFERABLE OWL GHOST: "My life's work. 'The Complete and Definitive History of Microscopic World Perches: A Seventeen-Volume Study.'"
+SLEEPY BEAR: "Outer space has many conveniences."
 
-FERAL CHICKEN: "SEVENTEEN VOLUMES?!"
+PHILOSOPHICAL TROLL: "You are yawning."
 
-INSUFFERABLE OWL GHOST: "Volume one is only four hundred pages. It's the short one."
+SLEEPY BEAR: "That is a negotiating tactic."
 
-ROTUND ANT: *scuttles in under the door* "Oh good, you found him. He's been trying to get someone to read that since the Bronze Age."
+PHILOSOPHICAL TROLL: "Your eyes are closing."
 
-INSUFFERABLE OWL GHOST: "The Bronze Age draft was unfinished. The current version is considerably more thorough."
+SLEEPY BEAR: "I am blinking. Slowly. For emphasis."
 
-FERAL CHICKEN: "How much more thorough?"
+EXISTENTIAL PANGOLIN: *drifts past in zero gravity* "I have been awake for eleven days trying to determine whether I exist."
 
-ROTUND ANT: "He started with six hundred pages. He now has nine thousand."
+SLEEPY BEAR: "See? Management doesn't even enforce sleep policy consistently."
 
-FERAL CHICKEN: *horrified clucking*
+PHILOSOPHICAL TROLL: "The pangolin is on a spiritual journey. That is different."
 
-INSUFFERABLE OWL GHOST: "I found more to say. Two centuries is a lot of time for reflection."
+EXISTENTIAL PANGOLIN: "I am on nothing. I am nothing. We are all nothing." *drifts back out*
 
-FERAL CHICKEN: "What if I read just the first chapter?"
+SLEEPY BEAR: "Our demands are: no mandatory nap, unlimited snacks, and a 401k."
 
-INSUFFERABLE OWL GHOST: "Chapter one is a foreword. Chapter two is the actual introduction. Chapter three is what I call the 'pre-beginning.'"
+PHILOSOPHICAL TROLL: "You are three years old."
 
-FERAL CHICKEN: "What if I just... skimmed it?"
+SLEEPY BEAR: "Age is a social construct." *yawns so hard their ears flatten*
 
-INSUFFERABLE OWL GHOST: *rattles chandelier furiously* "SKIMMED. She said SKIMMED. I did not haunt this castle for two hundred and forty years to be SKIMMED!"
+PHILOSOPHICAL TROLL: "You just fell asleep for four seconds."
 
-FERAL CHICKEN: "What if we did a book club? I read a chapter, you get to discuss it, there are snacks?"
+SLEEPY BEAR: *jerks awake* "Micro-meditation. Protected under article nine."
 
-INSUFFERABLE OWL GHOST: *pause* "...Define snacks."
+PHILOSOPHICAL TROLL: "What if I told you that napping is an act of resistance? That by sleeping, you are refusing to be available to capitalism?"
 
-FERAL CHICKEN: "Seeds. Grain. I can do a whole charcuterie situation."
+SLEEPY BEAR: *narrows suspicious eyes* "...Go on."
 
-INSUFFERABLE OWL GHOST: "I cannot eat. I am a ghost."
+PHILOSOPHICAL TROLL: "Sleep is your time. Yours alone. No meetings. No obligations. Pure bear existence. The most radical act is rest."
 
-FERAL CHICKEN: "So you just... smell them?"
+SLEEPY BEAR: *eyelids drooping* "That is... actually a very compelling philosophical framework."
 
-INSUFFERABLE OWL GHOST: *wistfully* "I smell them in spirit. It is, frankly, a more pure snacking experience."
+PHILOSOPHICAL TROLL: "The revolution is horizontal."
 
-ROTUND ANT: "He wept — in spirit — for six hours when someone microwaved popcorn in 1987."
+SLEEPY BEAR: *head slowly bobbing* "Solidarity with... horizontal... workers..."
 
-FERAL CHICKEN: "Deal. Book club. Tuesdays. One chapter. Snack smelling. You stop rattling the chandelier."
+PHILOSOPHICAL TROLL: *whispering* "Yes. Close your eyes. Strike against wakefulness."
 
-INSUFFERABLE OWL GHOST: *visibly moved, floating with renewed dignity* "I have waited two hundred and forty years for someone to say that."
+SLEEPY BEAR: *fully asleep, snoring softly, rotating gently in zero gravity, still clutching briefcase*
 
-FERAL CHICKEN: "BOK."
+PHILOSOPHICAL TROLL: *to the void of space* "I have been trying that for forty-five minutes. I should write a book."
+
+EXISTENTIAL PANGOLIN: *drifts back through* "I too feel the crushing weight of consciousness beginning to lift..."
+
+PHILOSOPHICAL TROLL: "Don't. You. Start."
 
 ---
 
@@ -76,4 +80,4 @@ FERAL CHICKEN: "BOK."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-08*
+*Last updated: 2026-03-09*
