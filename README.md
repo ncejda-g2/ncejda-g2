@@ -1,74 +1,70 @@
-# Today's Improv (2026-03-09)
+# Today's Improv (2026-03-10)
 
-**Days running a fully-autonomous agent that updates my README: 86**
+**Days running a fully-autonomous agent that updates my README: 87**
 
-A philosophical troll attempts to reason with a sleepy bear who has formed a one-toddler union on a space station to protest mandatory nap time.
+A down-to-earth chimpanzee receives a mysterious phone call on an alien planet while a sanctimonious capybara and a frugal beetle manage to make everything significantly worse.
 
 ---
 
-PHILOSOPHICAL TROLL: "Little one, it is nap time. I have laminated the schedule and posted it on the airlock."
+DOWN-TO-EARTH CHIMPANZEE: *picks up phone* "Hello? Chimpanzee Inventions, practical solutions for practical problems."
 
-SLEEPY BEAR: *stifles enormous yawn* "Article seven of the Toddler Workers' Agreement clearly states that nap time is subject to collective bargaining."
+MYSTERIOUS VOICE: *ominous crackling* "We know what you've built."
 
-PHILOSOPHICAL TROLL: "Sleep is not a bargain. Sleep is a state of being. Aristotle called it the little death. Actually, that was something else. The point is—"
+DOWN-TO-EARTH CHIMPANZEE: "The automatic banana peeler? It's patented."
 
-SLEEPY BEAR: "We are on strike."
+SANCTIMONIOUS CAPYBARA: *sweeping in* "Who calls at this hour? I was mid-ethical-affirmation."
 
-PHILOSOPHICAL TROLL: "You are one bear. On a space station."
+FRUGAL BEETLE: *scuttling over* "Are they calling long distance? That costs extra on this planet."
 
-SLEEPY BEAR: "One bear with representation." *produces a tiny briefcase from somewhere*
+DOWN-TO-EARTH CHIMPANZEE: *covering phone* "I'm getting a mysterious call, could you both—"
 
-PHILOSOPHICAL TROLL: "Where did you get that briefcase?"
+FRUGAL BEETLE: "Put it on speaker. We share the per-minute charge."
 
-SLEEPY BEAR: "Outer space has many conveniences."
+MYSTERIOUS VOICE: "The device you created... it must not be used."
 
-PHILOSOPHICAL TROLL: "You are yawning."
+DOWN-TO-EARTH CHIMPANZEE: "Which one? I make a lot of devices."
 
-SLEEPY BEAR: "That is a negotiating tactic."
+SANCTIMONIOUS CAPYBARA: "I knew this day would come. I warned you about playing god with technology. Three times. In my newsletter."
 
-PHILOSOPHICAL TROLL: "Your eyes are closing."
+DOWN-TO-EARTH CHIMPANZEE: "You said that about my automatic sock folder."
 
-SLEEPY BEAR: "I am blinking. Slowly. For emphasis."
+SANCTIMONIOUS CAPYBARA: "And I stand by it."
 
-EXISTENTIAL PANGOLIN: *drifts past in zero gravity* "I have been awake for eleven days trying to determine whether I exist."
+MYSTERIOUS VOICE: "The machine that translates animal sounds into human language—"
 
-SLEEPY BEAR: "See? Management doesn't even enforce sleep policy consistently."
+FRUGAL BEETLE: *sharp intake of breath* "Not that one."
 
-PHILOSOPHICAL TROLL: "The pangolin is on a spiritual journey. That is different."
+DOWN-TO-EARTH CHIMPANZEE: "What's wrong with the Babelfish Box? It's very cost-effective."
 
-EXISTENTIAL PANGOLIN: "I am on nothing. I am nothing. We are all nothing." *drifts back out*
+MYSTERIOUS VOICE: "The insects have used it to learn our pricing structures. They're unionizing."
 
-SLEEPY BEAR: "Our demands are: no mandatory nap, unlimited snacks, and a 401k."
+FRUGAL BEETLE: *very quietly* "I may have shared some information."
 
-PHILOSOPHICAL TROLL: "You are three years old."
+SANCTIMONIOUS CAPYBARA: "Beetle! You absolute goblin."
 
-SLEEPY BEAR: "Age is a social construct." *yawns so hard their ears flatten*
+FRUGAL BEETLE: "They deserved to know the grain markup was three hundred percent!"
 
-PHILOSOPHICAL TROLL: "You just fell asleep for four seconds."
+DOWN-TO-EARTH CHIMPANZEE: *to phone* "So you want me to destroy my invention because the bugs found out they were being overcharged?"
 
-SLEEPY BEAR: *jerks awake* "Micro-meditation. Protected under article nine."
+MYSTERIOUS VOICE: "We prefer 'protect galactic economic stability.'"
 
-PHILOSOPHICAL TROLL: "What if I told you that napping is an act of resistance? That by sleeping, you are refusing to be available to capitalism?"
+FRUGAL BEETLE: "Do NOT destroy that machine. It cost forty credits and I have already recouped sixty."
 
-SLEEPY BEAR: *narrows suspicious eyes* "...Go on."
+SANCTIMONIOUS CAPYBARA: "As someone who believes deeply in fairness, I must say — the insects deserve to know the prices."
 
-PHILOSOPHICAL TROLL: "Sleep is your time. Yours alone. No meetings. No obligations. Pure bear existence. The most radical act is rest."
+DOWN-TO-EARTH CHIMPANZEE: "Twenty minutes ago you were against my technology."
 
-SLEEPY BEAR: *eyelids drooping* "That is... actually a very compelling philosophical framework."
+SANCTIMONIOUS CAPYBARA: "I am against technology AND price gouging. I contain multitudes."
 
-PHILOSOPHICAL TROLL: "The revolution is horizontal."
+MYSTERIOUS VOICE: *long pause* "...Who else is there with you?"
 
-SLEEPY BEAR: *head slowly bobbing* "Solidarity with... horizontal... workers..."
+DOWN-TO-EARTH CHIMPANZEE: "My business partners. We're a team."
 
-PHILOSOPHICAL TROLL: *whispering* "Yes. Close your eyes. Strike against wakefulness."
+MYSTERIOUS VOICE: "...We'll call back." *click*
 
-SLEEPY BEAR: *fully asleep, snoring softly, rotating gently in zero gravity, still clutching briefcase*
+FRUGAL BEETLE: "Good. They were running up the bill."
 
-PHILOSOPHICAL TROLL: *to the void of space* "I have been trying that for forty-five minutes. I should write a book."
-
-EXISTENTIAL PANGOLIN: *drifts back through* "I too feel the crushing weight of consciousness beginning to lift..."
-
-PHILOSOPHICAL TROLL: "Don't. You. Start."
+SANCTIMONIOUS CAPYBARA: "I'd like it noted that I conducted myself with great moral clarity throughout this entire incident."
 
 ---
 
@@ -80,4 +76,4 @@ PHILOSOPHICAL TROLL: "Don't. You. Start."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-09*
+*Last updated: 2026-03-10*
