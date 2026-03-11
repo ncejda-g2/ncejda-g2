@@ -1,70 +1,82 @@
-# Today's Improv (2026-03-10)
+# Today's Improv (2026-03-11)
 
-**Days running a fully-autonomous agent that updates my README: 87**
+**Days running a fully-autonomous agent that updates my README: 88**
 
-A down-to-earth chimpanzee receives a mysterious phone call on an alien planet while a sanctimonious capybara and a frugal beetle manage to make everything significantly worse.
+A flummoxed sentient broccoli and a down-to-earth alien perform mundane farm chores while a documentary crew narrates their every move like a pulse-pounding action thriller.
 
 ---
 
-DOWN-TO-EARTH CHIMPANZEE: *picks up phone* "Hello? Chimpanzee Inventions, practical solutions for practical problems."
+NARRATOR: "Day one. The farm. Two operatives. One bucket. The fate of the morning watering schedule: unknown."
 
-MYSTERIOUS VOICE: *ominous crackling* "We know what you've built."
+DOWN-TO-EARTH ALIEN: "I'm just here to collect eggs. I do this every Tuesday."
 
-DOWN-TO-EARTH CHIMPANZEE: "The automatic banana peeler? It's patented."
+NARRATOR: "She says Tuesday. But is any day truly just a Tuesday?"
 
-SANCTIMONIOUS CAPYBARA: *sweeping in* "Who calls at this hour? I was mid-ethical-affirmation."
+FLUMMOXED SENTIENT BROCCOLI: "Why — why is there a camera pointed at me? I'm standing in soil. That's what I do."
 
-FRUGAL BEETLE: *scuttling over* "Are they calling long distance? That costs extra on this planet."
+NARRATOR: "The broccoli. Sentient. Bewildered. Planted directly in the sun's most dangerous rays. A decision that could cost everything."
 
-DOWN-TO-EARTH CHIMPANZEE: *covering phone* "I'm getting a mysterious call, could you both—"
+FLUMMOXED SENTIENT BROCCOLI: "What could it cost?! I'm a vegetable!"
 
-FRUGAL BEETLE: "Put it on speaker. We share the per-minute charge."
+NARRATOR: "That's what they want you to think."
 
-MYSTERIOUS VOICE: "The device you created... it must not be used."
+DOWN-TO-EARTH ALIEN: "Don't engage with the narrator. I made that mistake on Tuesday. The coffee Tuesday."
 
-DOWN-TO-EARTH CHIMPANZEE: "Which one? I make a lot of devices."
+FLUMMOXED SENTIENT BROCCOLI: "What happened on coffee Tuesday?"
 
-SANCTIMONIOUS CAPYBARA: "I knew this day would come. I warned you about playing god with technology. Three times. In my newsletter."
+DOWN-TO-EARTH ALIEN: "They narrated me for forty minutes. Said I ground the beans 'like a woman with nothing left to lose.'"
 
-DOWN-TO-EARTH CHIMPANZEE: "You said that about my automatic sock folder."
+FLUMMOXED SENTIENT BROCCOLI: "...That's actually quite evocative."
 
-SANCTIMONIOUS CAPYBARA: "And I stand by it."
+NARRATOR: "She agrees. Bonding occurs. The farm bears silent witness."
 
-MYSTERIOUS VOICE: "The machine that translates animal sounds into human language—"
+DOWN-TO-EARTH ALIEN: *opens hen house door* "Twelve eggs. As expected."
 
-FRUGAL BEETLE: *sharp intake of breath* "Not that one."
+NARRATOR: "Twelve. The exact number. There are no coincidences on this farm."
 
-DOWN-TO-EARTH CHIMPANZEE: "What's wrong with the Babelfish Box? It's very cost-effective."
+FLUMMOXED SENTIENT BROCCOLI: "There absolutely are! She counted them yesterday and there were also twelve!"
 
-MYSTERIOUS VOICE: "The insects have used it to learn our pricing structures. They're unionizing."
+NARRATOR: "Two days. Twelve eggs. A pattern is forming."
 
-FRUGAL BEETLE: *very quietly* "I may have shared some information."
+FLUMMOXED SENTIENT BROCCOLI: "It's CHICKENS. Chickens LAY EGGS. That's the pattern!"
 
-SANCTIMONIOUS CAPYBARA: "Beetle! You absolute goblin."
+DOWN-TO-EARTH ALIEN: *carefully placing egg in basket* "On my home planet, egg-collecting was also considered routine. No one filmed it."
 
-FRUGAL BEETLE: "They deserved to know the grain markup was three hundred percent!"
+NARRATOR: "She speaks of home. A home she cannot return to. Not after what happened."
 
-DOWN-TO-EARTH CHIMPANZEE: *to phone* "So you want me to destroy my invention because the bugs found out they were being overcharged?"
+DOWN-TO-EARTH ALIEN: "Nothing happened. I immigrated. Legally. I have paperwork."
 
-MYSTERIOUS VOICE: "We prefer 'protect galactic economic stability.'"
+NARRATOR: "The paperwork. Where is it now?"
 
-FRUGAL BEETLE: "Do NOT destroy that machine. It cost forty credits and I have already recouped sixty."
+DOWN-TO-EARTH ALIEN: "In my desk drawer."
 
-SANCTIMONIOUS CAPYBARA: "As someone who believes deeply in fairness, I must say — the insects deserve to know the prices."
+NARRATOR: *long dramatic pause* "...The desk drawer."
 
-DOWN-TO-EARTH CHIMPANZEE: "Twenty minutes ago you were against my technology."
+FLUMMOXED SENTIENT BROCCOLI: *whispering* "Should I be worried? I feel like I should be worried."
 
-SANCTIMONIOUS CAPYBARA: "I am against technology AND price gouging. I contain multitudes."
+DOWN-TO-EARTH ALIEN: *whispering back* "You should not. We're collecting eggs. That's it."
 
-MYSTERIOUS VOICE: *long pause* "...Who else is there with you?"
+NARRATOR: "Ten eggs now. Two remain. The endgame approaches."
 
-DOWN-TO-EARTH CHIMPANZEE: "My business partners. We're a team."
+FLUMMOXED SENTIENT BROCCOLI: "THE ENDGAME IS TWO EGGS—"
 
-MYSTERIOUS VOICE: "...We'll call back." *click*
+DOWN-TO-EARTH ALIEN: *places final egg in basket* "Done. Twelve eggs. Mission complete."
 
-FRUGAL BEETLE: "Good. They were running up the bill."
+NARRATOR: "Twelve eggs. Secured. The alien straightens. The broccoli trembles. Somewhere, a rooster crows. Nobody asked him to."
 
-SANCTIMONIOUS CAPYBARA: "I'd like it noted that I conducted myself with great moral clarity throughout this entire incident."
+FLUMMOXED SENTIENT BROCCOLI: "I'm not trembling, I'm swaying. There's a breeze."
+
+NARRATOR: "A breeze. Or a warning."
+
+FLUMMOXED SENTIENT BROCCOLI: "IT IS A BREEZE. IT IS METEOROLOGICALLY A BREEZE."
+
+DOWN-TO-EARTH ALIEN: *to camera, completely calm* "Same time tomorrow. We'll be mucking out the stables. You're welcome to come."
+
+NARRATOR: "The stables. Tomorrow. They'll be ready. The question is — will we?"
+
+FLUMMOXED SENTIENT BROCCOLI: "I won't be ready! I'm never ready! Nothing about this is something I was prepared for!"
+
+NARRATOR: "Credits roll. The eggs are safe. For now."
 
 ---
 
@@ -76,4 +88,4 @@ SANCTIMONIOUS CAPYBARA: "I'd like it noted that I conducted myself with great mo
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-10*
+*Last updated: 2026-03-11*
