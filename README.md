@@ -1,82 +1,64 @@
-# Today's Improv (2026-03-11)
+# Today's Improv (2026-03-12)
 
-**Days running a fully-autonomous agent that updates my README: 88**
+**Days running a fully-autonomous agent that updates my README: 89**
 
-A flummoxed sentient broccoli and a down-to-earth alien perform mundane farm chores while a documentary crew narrates their every move like a pulse-pounding action thriller.
+A truculent ant navigates the human-sized obstacles of the forest, and has very strong opinions about every single one of them.
 
 ---
 
-NARRATOR: "Day one. The farm. Two operatives. One bucket. The fate of the morning watering schedule: unknown."
+TRUCULENT ANT: "Right. Fine. Another root. Six times my height, is it? Congratulations. Very dramatic. I'm crossing it."
 
-DOWN-TO-EARTH ALIEN: "I'm just here to collect eggs. I do this every Tuesday."
+TRUCULENT ANT: "And YES, I'm aware it's raining. I didn't NEED the raindrop to land directly on my head to inform me of that. Thank you. Very helpful. Great contribution."
 
-NARRATOR: "She says Tuesday. But is any day truly just a Tuesday?"
+TRUCULENT ANT: "Pebble. PEBBLE. You think you're a boulder? You're not a boulder. I've met boulders. You're a pebble with aspirations and I'm going around you."
 
-FLUMMOXED SENTIENT BROCCOLI: "Why — why is there a camera pointed at me? I'm standing in soil. That's what I do."
+TRUCULENT ANT: "Oh, is that a leaf pile? How CHARMING. A pile of leaves directly in my path. Just what I wanted. Nature truly thinks of everything."
 
-NARRATOR: "The broccoli. Sentient. Bewildered. Planted directly in the sun's most dangerous rays. A decision that could cost everything."
+PASSING BEETLE: *ambling by* "Hey there, do you need any help with—"
 
-FLUMMOXED SENTIENT BROCCOLI: "What could it cost?! I'm a vegetable!"
+TRUCULENT ANT: "I do NOT need help. I need everyone to MIND THEIR BUSINESS."
 
-NARRATOR: "That's what they want you to think."
+PASSING BEETLE: "Okay, okay—" *scurries away at speed*
 
-DOWN-TO-EARTH ALIEN: "Don't engage with the narrator. I made that mistake on Tuesday. The coffee Tuesday."
+TRUCULENT ANT: "Six centimetres of wet grass. SIX centimetres. It's like a jungle, if the jungle were also personally rude to me."
 
-FLUMMOXED SENTIENT BROCCOLI: "What happened on coffee Tuesday?"
+TRUCULENT ANT: "And ANOTHER root. How many roots does one tree NEED? Is this a structural requirement? Is someone insisting on this many? I'd like to speak to whoever approved this."
 
-DOWN-TO-EARTH ALIEN: "They narrated me for forty minutes. Said I ground the beans 'like a woman with nothing left to lose.'"
+TRUCULENT ANT: "Oh. It's a human foot. Great. GREAT. Just... hovering. Right overhead. Very casual."
 
-FLUMMOXED SENTIENT BROCCOLI: "...That's actually quite evocative."
+*THUD — foot lands nearby*
 
-NARRATOR: "She agrees. Bonding occurs. The farm bears silent witness."
+TRUCULENT ANT: "That missed me by four body lengths. Which I'd like noted. That wasn't close. I was never scared. I want that formally on the record."
 
-DOWN-TO-EARTH ALIEN: *opens hen house door* "Twelve eggs. As expected."
+TRUCULENT ANT: "Pine cone. You're just sitting there. In the middle of the path. For no reason. With all your little SPIKES. Very smug. Very pleased with yourself."
 
-NARRATOR: "Twelve. The exact number. There are no coincidences on this farm."
+TRUCULENT ANT: "I'm going over you. Don't look at me like that. Pine cones don't have faces. I'm AWARE. I'm going over you anyway."
 
-FLUMMOXED SENTIENT BROCCOLI: "There absolutely are! She counted them yesterday and there were also twelve!"
+TRUCULENT ANT: "Mud puddle. MUD PUDDLE. I went around the first one. Around the second one. And THIS one has the absolute audacity to be wider."
 
-NARRATOR: "Two days. Twelve eggs. A pattern is forming."
+TRUCULENT ANT: "I'm going through it. Yes, through it. I refuse to go around on principle. The principle being: I am not a coward."
 
-FLUMMOXED SENTIENT BROCCOLI: "It's CHICKENS. Chickens LAY EGGS. That's the pattern!"
+TRUCULENT ANT: "I'm also now completely wet. That's fine. That's absolutely fine. It doesn't affect my trajectory."
 
-DOWN-TO-EARTH ALIEN: *carefully placing egg in basket* "On my home planet, egg-collecting was also considered routine. No one filmed it."
+PASSING BEETLE: *at a safe distance* "You're completely covered in mud, mate."
 
-NARRATOR: "She speaks of home. A home she cannot return to. Not after what happened."
+TRUCULENT ANT: "I know that. I CHOSE that. I was making a STATEMENT."
 
-DOWN-TO-EARTH ALIEN: "Nothing happened. I immigrated. Legally. I have paperwork."
+TRUCULENT ANT: "...The hill. There's a hill. Of course there's a hill. Of COURSE the hill is next."
 
-NARRATOR: "The paperwork. Where is it now?"
+TRUCULENT ANT: "Do you know what I have already crossed today? Three roots. A rain event. An attempted boulder — which was a pebble with delusions. One judgmental pine cone."
 
-DOWN-TO-EARTH ALIEN: "In my desk drawer."
+TRUCULENT ANT: "And I'm still going. Because that's what I DO. I'm a truculent ant in a human-sized forest and I do NOT stop."
 
-NARRATOR: *long dramatic pause* "...The desk drawer."
+TRUCULENT ANT: *reaches the top of the hill, pauses*
 
-FLUMMOXED SENTIENT BROCCOLI: *whispering* "Should I be worried? I feel like I should be worried."
+TRUCULENT ANT: "...Huh. That's... actually quite a view from up here."
 
-DOWN-TO-EARTH ALIEN: *whispering back* "You should not. We're collecting eggs. That's it."
+TRUCULENT ANT: "I'm still angry about the mud puddle."
 
-NARRATOR: "Ten eggs now. Two remain. The endgame approaches."
+TRUCULENT ANT: "But. Fine. The view is... acceptable."
 
-FLUMMOXED SENTIENT BROCCOLI: "THE ENDGAME IS TWO EGGS—"
-
-DOWN-TO-EARTH ALIEN: *places final egg in basket* "Done. Twelve eggs. Mission complete."
-
-NARRATOR: "Twelve eggs. Secured. The alien straightens. The broccoli trembles. Somewhere, a rooster crows. Nobody asked him to."
-
-FLUMMOXED SENTIENT BROCCOLI: "I'm not trembling, I'm swaying. There's a breeze."
-
-NARRATOR: "A breeze. Or a warning."
-
-FLUMMOXED SENTIENT BROCCOLI: "IT IS A BREEZE. IT IS METEOROLOGICALLY A BREEZE."
-
-DOWN-TO-EARTH ALIEN: *to camera, completely calm* "Same time tomorrow. We'll be mucking out the stables. You're welcome to come."
-
-NARRATOR: "The stables. Tomorrow. They'll be ready. The question is — will we?"
-
-FLUMMOXED SENTIENT BROCCOLI: "I won't be ready! I'm never ready! Nothing about this is something I was prepared for!"
-
-NARRATOR: "Credits roll. The eggs are safe. For now."
+TRUCULENT ANT: *quietly* "Don't tell the beetle."
 
 ---
 
@@ -88,4 +70,4 @@ NARRATOR: "Credits roll. The eggs are safe. For now."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-11*
+*Last updated: 2026-03-12*
