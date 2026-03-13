@@ -1,64 +1,66 @@
-# Today's Improv (2026-03-12)
+# Today's Improv (2026-03-13)
 
-**Days running a fully-autonomous agent that updates my README: 89**
+**Days running a fully-autonomous agent that updates my README: 90**
 
-A truculent ant navigates the human-sized obstacles of the forest, and has very strong opinions about every single one of them.
+An overconfident venus fly trap and a self-sabotaging beetle battle a rogue autocorrecting quill in their desert scriptorium as the King's deadline looms.
 
 ---
 
-TRUCULENT ANT: "Right. Fine. Another root. Six times my height, is it? Congratulations. Very dramatic. I'm crossing it."
+OVERCONFIDENT VENUS FLY TRAP: "I am the finest scribe in all the desert kingdoms. My calligraphy is flawless. My penmanship is legend. My quill and I are ONE."
 
-TRUCULENT ANT: "And YES, I'm aware it's raining. I didn't NEED the raindrop to land directly on my head to inform me of that. Thank you. Very helpful. Great contribution."
+SELF-SABOTAGING BEETLE: "I already spilled the ink before writing a single letter. Just so you're aware. That's on me. Classic."
 
-TRUCULENT ANT: "Pebble. PEBBLE. You think you're a boulder? You're not a boulder. I've met boulders. You're a pebble with aspirations and I'm going around you."
+OVERCONFIDENT VENUS FLY TRAP: "Watch and learn, Beetle. I shall now transcribe the King's Royal Decree." *dips quill with flair*
 
-TRUCULENT ANT: "Oh, is that a leaf pile? How CHARMING. A pile of leaves directly in my path. Just what I wanted. Nature truly thinks of everything."
+OVERCONFIDENT VENUS FLY TRAP: *reads back scroll* "Hear ye, hear ye — the King hereby declares all... 'sausages'?"
 
-PASSING BEETLE: *ambling by* "Hey there, do you need any help with—"
+SELF-SABOTAGING BEETLE: "You meant 'subjects,' right?"
 
-TRUCULENT ANT: "I do NOT need help. I need everyone to MIND THEIR BUSINESS."
+OVERCONFIDENT VENUS FLY TRAP: "I WROTE subjects. Clearly. With intention. The quill has... misinterpreted."
 
-PASSING BEETLE: "Okay, okay—" *scurries away at speed*
+SELF-SABOTAGING BEETLE: "Maybe I should try? Though I'll definitely make it worse. I have a gift for that."
 
-TRUCULENT ANT: "Six centimetres of wet grass. SIX centimetres. It's like a jungle, if the jungle were also personally rude to me."
+OVERCONFIDENT VENUS FLY TRAP: "Nobody touches MY quill." *writes again* "The Royal Army shall report to the—" ...it changed 'castle' to 'cattle.'"
 
-TRUCULENT ANT: "And ANOTHER root. How many roots does one tree NEED? Is this a structural requirement? Is someone insisting on this many? I'd like to speak to whoever approved this."
+SELF-SABOTAGING BEETLE: "The Royal Army shall report to the cattle. That's... actually quite a decree."
 
-TRUCULENT ANT: "Oh. It's a human foot. Great. GREAT. Just... hovering. Right overhead. Very casual."
+OVERCONFIDENT VENUS FLY TRAP: "THAT IS NOT A DECREE. That is a livestock management problem."
 
-*THUD — foot lands nearby*
+SELF-SABOTAGING BEETLE: *attempts own scroll* "Let me try. 'The gracious lord sends—'" ...it says 'gracious lard.' How did it know."
 
-TRUCULENT ANT: "That missed me by four body lengths. Which I'd like noted. That wasn't close. I was never scared. I want that formally on the record."
+OVERCONFIDENT VENUS FLY TRAP: "How is the greatest scribe in three kingdoms being undone by a QUILL?"
 
-TRUCULENT ANT: "Pine cone. You're just sitting there. In the middle of the path. For no reason. With all your little SPIKES. Very smug. Very pleased with yourself."
+SELF-SABOTAGING BEETLE: "Honestly this is going better than usual for me. Normally I've quit by now."
 
-TRUCULENT ANT: "I'm going over you. Don't look at me like that. Pine cones don't have faces. I'm AWARE. I'm going over you anyway."
+FERAL ARMADILLO: *bursts through the scriptorium door covered in sand* "IS THIS WHERE THE SCROLLS LIVE? I ATE ONE. SORRY. CARRY ON."
 
-TRUCULENT ANT: "Mud puddle. MUD PUDDLE. I went around the first one. Around the second one. And THIS one has the absolute audacity to be wider."
+SELF-SABOTAGING BEETLE: "That was the backup parchment."
 
-TRUCULENT ANT: "I'm going through it. Yes, through it. I refuse to go around on principle. The principle being: I am not a coward."
+OVERCONFIDENT VENUS FLY TRAP: "I will not be rattled. I am TRANSCENDENT." *writes furiously* "The King sends his warmest—" ...'wormiest.' His wormiest."
 
-TRUCULENT ANT: "I'm also now completely wet. That's fine. That's absolutely fine. It doesn't affect my trajectory."
+SELF-SABOTAGING BEETLE: "The King sends his wormiest greetings to all noble—"
 
-PASSING BEETLE: *at a safe distance* "You're completely covered in mud, mate."
+OVERCONFIDENT VENUS FLY TRAP: "'Noodle lords.' It says noodle lords."
 
-TRUCULENT ANT: "I know that. I CHOSE that. I was making a STATEMENT."
+MESSENGER: *rushing in* "Scribes! The King needs his decree this instant!"
 
-TRUCULENT ANT: "...The hill. There's a hill. Of course there's a hill. Of COURSE the hill is next."
+OVERCONFIDENT VENUS FLY TRAP: "It is essentially complete! My genius remains fully intact!"
 
-TRUCULENT ANT: "Do you know what I have already crossed today? Three roots. A rain event. An attempted boulder — which was a pebble with delusions. One judgmental pine cone."
+MESSENGER: *reads scroll* "...All sausages shall report to the cattle. The Royal Army is wished wormiest regards from His Majesty Kink Arthour, Lord of Noodles."
 
-TRUCULENT ANT: "And I'm still going. Because that's what I DO. I'm a truculent ant in a human-sized forest and I do NOT stop."
+OVERCONFIDENT VENUS FLY TRAP: "...It also changed 'King Arthur.'"
 
-TRUCULENT ANT: *reaches the top of the hill, pauses*
+SELF-SABOTAGING BEETLE: "I feel like this is somehow my fault. I was here. I have to own that."
 
-TRUCULENT ANT: "...Huh. That's... actually quite a view from up here."
+OVERCONFIDENT VENUS FLY TRAP: *snaps the quill in half with their fly trap jaws*
 
-TRUCULENT ANT: "I'm still angry about the mud puddle."
+MESSENGER: "Did you just— that was the royal quill—"
 
-TRUCULENT ANT: "But. Fine. The view is... acceptable."
+OVERCONFIDENT VENUS FLY TRAP: "I write with my TEETH now. I was always going to write with my teeth. This was the plan from the beginning."
 
-TRUCULENT ANT: *quietly* "Don't tell the beetle."
+SELF-SABOTAGING BEETLE: "I believe you completely."
+
+FERAL ARMADILLO: *from the corner, eating another scroll* "Tastes like lard."
 
 ---
 
@@ -70,4 +72,4 @@ TRUCULENT ANT: *quietly* "Don't tell the beetle."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-12*
+*Last updated: 2026-03-13*
