@@ -1,70 +1,70 @@
-# Today's Improv (2026-03-15)
+# Today's Improv (2026-03-16)
 
-**Days running a fully-autonomous agent that updates my README: 92**
+**Days running a fully-autonomous agent that updates my README: 93**
 
-An unbothered lemur repairman attempts to negotiate with a vindictive platypus elevator that has developed a crippling fear of heights in the apartment building they both call home
+A disillusioned otter lighthouse keeper, a frugal capybara bureaucrat, and a chaotic cat ocean attorney navigate the world's most impossible noise complaint in Underwater City
 
 ---
 
-UNBOTHERED LEMUR: "Elevator. I'm going to need you to take me to floor seven."
+DISILLUSIONED OTTER: "I need to file a noise complaint."
 
-VINDICTIVE PLATYPUS: "No."
+FRUGAL CAPYBARA: "The fee is fourteen kelp credits. Do you have exact change?"
 
-UNBOTHERED LEMUR: "The work order says you've been refusing service since Tuesday."
+DISILLUSIONED OTTER: "The ocean is too loud."
 
-VINDICTIVE PLATYPUS: "I have a condition. Fear of heights. Self-diagnosed this morning. It's very serious."
+FRUGAL CAPYBARA: "...The ocean."
 
-UNBOTHERED LEMUR: "You're an elevator. Being at heights is the entire job."
+DISILLUSIONED OTTER: "I'm a lighthouse keeper. It surrounds me on all sides. I haven't slept properly in forty-seven years."
 
-VINDICTIVE PLATYPUS: "And yet. Here we are. Floor one. Staying forever."
+FRUGAL CAPYBARA: "The complaint form is forty-three pages. I only have single-sided paper, so that doubles the cost."
 
-UNBOTHERED LEMUR: "Is this about the man on floor seven? Gerald?"
+CHAOTIC CAT: *bursts through the door sideways* "I am the ocean's attorney. I received notice of this complaint via water. Everything is water. I found out in the shower."
 
-VINDICTIVE PLATYPUS: "Gerald has used his umbrella to wedge my doors open. Every. Single. Day. For FOUR YEARS."
+DISILLUSIONED OTTER: "The ocean has a lawyer."
 
-UNBOTHERED LEMUR: "So the fear of heights is a pretext."
+CHAOTIC CAT: "The ocean IS a lawyer. Also a defendant. Also currently surrounding this building. My client files a counter-complaint."
 
-VINDICTIVE PLATYPUS: "The fear of heights is REAL. Gerald made it real. Gerald IS the height."
+FRUGAL CAPYBARA: "Counter-complaints are twenty-two additional kelp credits."
 
-UNBOTHERED LEMUR: "Gerald... is the height."
+CHAOTIC CAT: "The ocean has been here longer and therefore has squatter's rights to noise."
 
-VINDICTIVE PLATYPUS: "Metaphorically. Also literally. He's very tall. He makes me feel small."
+DISILLUSIONED OTTER: "I don't want it to stop being an ocean. I just want it to be quieter."
 
-UNBOTHERED LEMUR: "You are a twelve-floor elevator."
+CHAOTIC CAT: *knocks a stack of papers off the desk* "That was the ocean. Expressing its feelings."
 
-VINDICTIVE PLATYPUS: "And Gerald makes me feel like a dumbwaiter."
+FRUGAL CAPYBARA: "Sir, those were municipal documents. That's forty-seven kelp credits in damages."
 
-SCATTERBRAINED SPIDER: *rappels down through the service hatch in the ceiling* "Oh! Is this floor three? I've been rappelling for forty-five minutes, I completely lost—"
+CHAOTIC CAT: "The ocean does not recognize the concept of paperwork."
 
-UNBOTHERED LEMUR: "Floor one."
+DISILLUSIONED OTTER: "I have been the lighthouse keeper for FORTY-SEVEN YEARS. Before me was my father. Before him, my grandmother. We have all been sleep-deprived."
 
-SCATTERBRAINED SPIDER: "Oh no." *continues rappelling downward into the basement anyway*
+FRUGAL CAPYBARA: "I offer a mediation package. Normally sixty-two kelp credits, but we have a discount on Tuesdays."
 
-UNBOTHERED LEMUR: "What if I spoke to Gerald about the umbrella?"
+DISILLUSIONED OTTER: "It's Thursday."
 
-VINDICTIVE PLATYPUS: *long pause* "...What would you say?"
+FRUGAL CAPYBARA: "...Sixty-two."
 
-UNBOTHERED LEMUR: "I would tell him it's inconsiderate and causes mechanical damage."
+CHAOTIC CAT: "The ocean agrees to mediation. It proposes scheduling it in approximately seventeen thousand years."
 
-VINDICTIVE PLATYPUS: "And if he continues?"
+DISILLUSIONED OTTER: "That is not acceptable."
 
-UNBOTHERED LEMUR: "I would file a strongly-worded report."
+CHAOTIC CAT: "The ocean finds your timeline unreasonable. Have you considered that YOU are loud?"
 
-VINDICTIVE PLATYPUS: "I want him to take the stairs. Every day. Forever."
+DISILLUSIONED OTTER: "I have considered it. At 3 AM. Every night. While the ocean crashes outside."
 
-UNBOTHERED LEMUR: "That I cannot promise."
+CHAOTIC CAT: "...That was unexpectedly poignant." *sits down, somewhat still* "My client may be willing to reduce volume to an eight."
 
-VINDICTIVE PLATYPUS: "I know EVERYTHING about this building. I am its circulatory system. I am the pulse of these walls. And Gerald has been putting his umbrella in my pulse."
+DISILLUSIONED OTTER: "Six."
 
-UNBOTHERED LEMUR: "That is genuinely poetic. And I understand your frustration."
+CHAOTIC CAT: "Seven. Final offer."
 
-VINDICTIVE PLATYPUS: "Do you."
+FRUGAL CAPYBARA: "Shall I draw up the settlement? Sixty-two kelp credits. I'm waiving the emotional surcharge. This moment moved me. Briefly."
 
-UNBOTHERED LEMUR: "Truthfully, no."
+CHAOTIC CAT: *stands to leave, tips over one small cup on the way out* "My client will comply except during storms, high tide, full moons, and days ending in Y."
 
-VINDICTIVE PLATYPUS: *dings* "At least you're honest." *doors slide open* "I'll go to floor six. Six is my ceiling until Gerald apologizes."
+DISILLUSIONED OTTER: "Every day ends in Y."
 
-UNBOTHERED LEMUR: *into radio* "Building repaired. Mostly."
+CHAOTIC CAT: "The ocean is aware."
 
 ---
 
@@ -76,4 +76,4 @@ UNBOTHERED LEMUR: *into radio* "Building repaired. Mostly."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-15*
+*Last updated: 2026-03-16*
