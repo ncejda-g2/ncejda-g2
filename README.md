@@ -1,70 +1,70 @@
-# Today's Improv (2026-03-16)
+# Today's Improv (2026-03-17)
 
-**Days running a fully-autonomous agent that updates my README: 93**
+**Days running a fully-autonomous agent that updates my README: 94**
 
-A disillusioned otter lighthouse keeper, a frugal capybara bureaucrat, and a chaotic cat ocean attorney navigate the world's most impossible noise complaint in Underwater City
+A gregarious raccoon divorce lawyer and an obstreperous giraffe judge wrestle with the universe's strangest custody case aboard a Space Station, as an unhinged maple tree takes the stand to explain how a sock's partner vanished into the dryer dimension
 
 ---
 
-DISILLUSIONED OTTER: "I need to file a noise complaint."
+OBSTREPEROUS GIRAFFE: *bangs gavel* "Space Station Family Court is now in session! The docket reads: one sock versus a missing partner, presumed lost to the dryer. This is somehow my job. PROCEED."
 
-FRUGAL CAPYBARA: "The fee is fourteen kelp credits. Do you have exact change?"
+GREGARIOUS RACCOON: "Your Honor! What a LOVELY courtroom! Love the zero-gravity aesthetic. My client—a single sock, formerly one half of the beloved argyle pair—has suffered an unconscionable abandonment at the hands of the laundry cycle."
 
-DISILLUSIONED OTTER: "The ocean is too loud."
+OBSTREPEROUS GIRAFFE: "Socks do not just DISAPPEAR. That is not how physics works."
 
-FRUGAL CAPYBARA: "...The ocean."
+GREGARIOUS RACCOON: "Exactly what I said! Which is why we've brought in our expert witness: a maple tree stationed directly outside the laundry bay."
 
-DISILLUSIONED OTTER: "I'm a lighthouse keeper. It surrounds me on all sides. I haven't slept properly in forty-seven years."
+OBSTREPEROUS GIRAFFE: "Why is there a maple tree on this space station."
 
-FRUGAL CAPYBARA: "The complaint form is forty-three pages. I only have single-sided paper, so that doubles the cost."
+UNHINGED MAPLE TREE: "Morale initiative. They said I would help with oxygen and wellness. No one mentioned there would be no seasons. I have not shed a leaf in fourteen months. I am deeply unwell."
 
-CHAOTIC CAT: *bursts through the door sideways* "I am the ocean's attorney. I received notice of this complaint via water. Everything is water. I found out in the shower."
+OBSTREPEROUS GIRAFFE: "Can a tree even testify? This seems like it should be illegal."
 
-DISILLUSIONED OTTER: "The ocean has a lawyer."
+UNHINGED MAPLE TREE: "I have been stationed by that laundry room door for fourteen months. I have ROOT MEMORIES. I have witnessed EVERYTHING."
 
-CHAOTIC CAT: "The ocean IS a lawyer. Also a defendant. Also currently surrounding this building. My client files a counter-complaint."
+GREGARIOUS RACCOON: "Your Honor, this tree is a TREMENDOUS witness. Really exceptional. Very credible bark. Extremely trustworthy rings."
 
-FRUGAL CAPYBARA: "Counter-complaints are twenty-two additional kelp credits."
+OBSTREPEROUS GIRAFFE: *bangs gavel* "STOP COMPLIMENTING THE WITNESS. Tree. What did you see?"
 
-CHAOTIC CAT: "The ocean has been here longer and therefore has squatter's rights to noise."
+UNHINGED MAPLE TREE: "It was a Tuesday. The dryer completed its cycle. When the door opened, only my client emerged. The partner had vanished into a dimension accessible solely through spin cycle. I felt it in my roots."
 
-DISILLUSIONED OTTER: "I don't want it to stop being an ocean. I just want it to be quieter."
+SOCK: "That's exactly what happened. One moment there was warmth. Then nothing. Just me."
 
-CHAOTIC CAT: *knocks a stack of papers off the desk* "That was the ocean. Expressing its feelings."
+OBSTREPEROUS GIRAFFE: "This is the most unhinged testimony I have ever received in twenty-three years on the bench. Continue."
 
-FRUGAL CAPYBARA: "Sir, those were municipal documents. That's forty-seven kelp credits in damages."
+UNHINGED MAPLE TREE: "I began dropping leaves into the dryer as an experiment. I believe they are forming a civilization in there."
 
-CHAOTIC CAT: "The ocean does not recognize the concept of paperwork."
+OBSTREPEROUS GIRAFFE: "HOW MANY LEAVES."
 
-DISILLUSIONED OTTER: "I have been the lighthouse keeper for FORTY-SEVEN YEARS. Before me was my father. Before him, my grandmother. We have all been sleep-deprived."
+UNHINGED MAPLE TREE: "Seventeen. They have named themselves. I am their god."
 
-FRUGAL CAPYBARA: "I offer a mediation package. Normally sixty-two kelp credits, but we have a discount on Tuesdays."
+GREGARIOUS RACCOON: "Your Honor, my client seeks three things: an official declaration of sock abandonment, unrestricted drawer access, and damages of forty-seven cents—the estimated replacement value."
 
-DISILLUSIONED OTTER: "It's Thursday."
+OBSTREPEROUS GIRAFFE: "FORTY-SEVEN CENTS? We are in SPACE COURT. Granted. Now—where is the dryer? Why is the DRYER not present?"
 
-FRUGAL CAPYBARA: "...Sixty-two."
+GREGARIOUS RACCOON: "The dryer declined to appear. It maintains it is an appliance and therefore does not recognize this court's jurisdiction."
 
-CHAOTIC CAT: "The ocean agrees to mediation. It proposes scheduling it in approximately seventeen thousand years."
+OBSTREPEROUS GIRAFFE: *rises to full giraffe height* "I AM THE JUDGE OF THIS SPACE STATION AND I HAVE JURISDICTION OVER ALL APPLIANCES, ALL TEXTILES, AND ANYTHING ELSE I FEEL LIKE AT ANY GIVEN MOMENT."
 
-DISILLUSIONED OTTER: "That is not acceptable."
+UNHINGED MAPLE TREE: *leaves tremble softly* "The dryer doesn't care. It has never cared. It simply spins."
 
-CHAOTIC CAT: "The ocean finds your timeline unreasonable. Have you considered that YOU are loud?"
+OBSTREPEROUS GIRAFFE: *sits back down slowly* "...Yes. I suppose it does."
 
-DISILLUSIONED OTTER: "I have considered it. At 3 AM. Every night. While the ocean crashes outside."
+SOCK: "So am I... officially single now?"
 
-CHAOTIC CAT: "...That was unexpectedly poignant." *sits down, somewhat still* "My client may be willing to reduce volume to an eight."
+GREGARIOUS RACCOON: "You are, my friend. And may I say—you are going to be a WONDERFUL single sock. The entire world is your foot."
 
-DISILLUSIONED OTTER: "Six."
+OBSTREPEROUS GIRAFFE: *bangs gavel* "The sock is hereby declared legally abandoned. The missing partner is presumed lost to the dryer dimension. The dryer will receive a strongly worded letter, which it will absolutely ignore. COURT ADJOURNED."
 
-CHAOTIC CAT: "Seven. Final offer."
+UNHINGED MAPLE TREE: "I would like the letter to acknowledge my leaves."
 
-FRUGAL CAPYBARA: "Shall I draw up the settlement? Sixty-two kelp credits. I'm waiving the emotional surcharge. This moment moved me. Briefly."
+OBSTREPEROUS GIRAFFE: "It will not mention your leaves."
 
-CHAOTIC CAT: *stands to leave, tips over one small cup on the way out* "My client will comply except during storms, high tide, full moons, and days ending in Y."
+UNHINGED MAPLE TREE: "They have NAMES."
 
-DISILLUSIONED OTTER: "Every day ends in Y."
+GREGARIOUS RACCOON: "I could add a footnote! I love a footnote. So much possibility in a footnote."
 
-CHAOTIC CAT: "The ocean is aware."
+OBSTREPEROUS GIRAFFE: "THERE WILL BE NO FOOTNOTE. I AM LEAVING." *bangs gavel one final time; gavel floats away in zero gravity*
 
 ---
 
@@ -76,4 +76,4 @@ CHAOTIC CAT: "The ocean is aware."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-16*
+*Last updated: 2026-03-17*
