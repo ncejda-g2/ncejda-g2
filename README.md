@@ -1,70 +1,72 @@
-# Today's Improv (2026-03-17)
+# Today's Improv (2026-03-18)
 
-**Days running a fully-autonomous agent that updates my README: 94**
+**Days running a fully-autonomous agent that updates my README: 95**
 
-A gregarious raccoon divorce lawyer and an obstreperous giraffe judge wrestle with the universe's strangest custody case aboard a Space Station, as an unhinged maple tree takes the stand to explain how a sock's partner vanished into the dryer dimension
+A sleep-deprived raccoon astronaut must explain to a passive-aggressive snail at Mission Control back in the city why their lunar landing module has been converted into a boutique bed and breakfast
 
 ---
 
-OBSTREPEROUS GIRAFFE: *bangs gavel* "Space Station Family Court is now in session! The docket reads: one sock versus a missing partner, presumed lost to the dryer. This is somehow my job. PROCEED."
+PASSIVE-AGGRESSIVE SNAIL: "Houston to Lunar Module 7. We've received your transmissions. About the... establishment."
 
-GREGARIOUS RACCOON: "Your Honor! What a LOVELY courtroom! Love the zero-gravity aesthetic. My client—a single sock, formerly one half of the beloved argyle pair—has suffered an unconscionable abandonment at the hands of the laundry cycle."
+SLEEP-DEPRIVED RACCOON: "Oh GREAT, you got my brochures! Did the font come through? I spent four hours on the font."
 
-OBSTREPEROUS GIRAFFE: "Socks do not just DISAPPEAR. That is not how physics works."
+PASSIVE-AGGRESSIVE SNAIL: "The font is *fine*. What is NOT fine is that you've turned your landing module into a bed and breakfast."
 
-GREGARIOUS RACCOON: "Exactly what I said! Which is why we've brought in our expert witness: a maple tree stationed directly outside the laundry bay."
+SLEEP-DEPRIVED RACCOON: "A boutique lunar lodge. Please use the correct branding. I've been awake since Thursday developing it."
 
-OBSTREPEROUS GIRAFFE: "Why is there a maple tree on this space station."
+PASSIVE-AGGRESSIVE SNAIL: "What day is it today?"
 
-UNHINGED MAPLE TREE: "Morale initiative. They said I would help with oxygen and wellness. No one mentioned there would be no seasons. I have not shed a leaf in fourteen months. I am deeply unwell."
+SLEEP-DEPRIVED RACCOON: "I genuinely do not know. But the mint chocolates I leave on the pillows are OUT OF THIS WORLD. Literally. Heh."
 
-OBSTREPEROUS GIRAFFE: "Can a tree even testify? This seems like it should be illegal."
+PASSIVE-AGGRESSIVE SNAIL: "You made a pun. At me. Professionally."
 
-UNHINGED MAPLE TREE: "I have been stationed by that laundry room door for fourteen months. I have ROOT MEMORIES. I have witnessed EVERYTHING."
+DILIGENT CAPYBARA: *static* "This is Guest Room One. The wifi password still isn't working. I've submitted a complaint form in triplicate."
 
-GREGARIOUS RACCOON: "Your Honor, this tree is a TREMENDOUS witness. Really exceptional. Very credible bark. Extremely trustworthy rings."
+PASSIVE-AGGRESSIVE SNAIL: "WHO IS THAT."
 
-OBSTREPEROUS GIRAFFE: *bangs gavel* "STOP COMPLIMENTING THE WITNESS. Tree. What did you see?"
+SLEEP-DEPRIVED RACCOON: "My first guest. Very thorough. Files complaints before unpacking. I respect that."
 
-UNHINGED MAPLE TREE: "It was a Tuesday. The dryer completed its cycle. When the door opened, only my client emerged. The partner had vanished into a dimension accessible solely through spin cycle. I felt it in my roots."
+PASSIVE-AGGRESSIVE SNAIL: "How did another person get to the MOON?"
 
-SOCK: "That's exactly what happened. One moment there was warmth. Then nothing. Just me."
+SLEEP-DEPRIVED RACCOON: "I may have repurposed the supply rocket. The oxygen was taking up room I needed for continental breakfast."
 
-OBSTREPEROUS GIRAFFE: "This is the most unhinged testimony I have ever received in twenty-three years on the bench. Continue."
+PASSIVE-AGGRESSIVE SNAIL: "You replaced the OXYGEN with MUFFINS."
 
-UNHINGED MAPLE TREE: "I began dropping leaves into the dryer as an experiment. I believe they are forming a civilization in there."
+SLEEP-DEPRIVED RACCOON: "ARTISANAL muffins. There's a difference. Also little jam packets. Very classy."
 
-OBSTREPEROUS GIRAFFE: "HOW MANY LEAVES."
+PASSIVE-AGGRESSIVE SNAIL: "I'm going to count to ten. Slowly. Because I do everything slowly and I've made my peace with it."
 
-UNHINGED MAPLE TREE: "Seventeen. They have named themselves. I am their god."
+SLEEP-DEPRIVED RACCOON: "Take your time! That's our slogan: 'Take your time—you're on the MOON, baby!' I wrote it at 3am. I haven't slept."
 
-GREGARIOUS RACCOON: "Your Honor, my client seeks three things: an official declaration of sock abandonment, unrestricted drawer access, and damages of forty-seven cents—the estimated replacement value."
+PASSIVE-AGGRESSIVE SNAIL: "Our mission briefing said: plant flag, collect samples, return home. Nowhere did it say open a hospitality business."
 
-OBSTREPEROUS GIRAFFE: "FORTY-SEVEN CENTS? We are in SPACE COURT. Granted. Now—where is the dryer? Why is the DRYER not present?"
+SLEEP-DEPRIVED RACCOON: "The flag doubles as a NO VACANCY sign. Very efficient use of government resources."
 
-GREGARIOUS RACCOON: "The dryer declined to appear. It maintains it is an appliance and therefore does not recognize this court's jurisdiction."
+DILIGENT CAPYBARA: *static* "The muffins are exceptional. However, the Earth view faces the wrong direction. I am noting this as a formal misrepresentation in Appendix C."
 
-OBSTREPEROUS GIRAFFE: *rises to full giraffe height* "I AM THE JUDGE OF THIS SPACE STATION AND I HAVE JURISDICTION OVER ALL APPLIANCES, ALL TEXTILES, AND ANYTHING ELSE I FEEL LIKE AT ANY GIVEN MOMENT."
+SLEEP-DEPRIVED RACCOON: "DID YOU HEAR THAT? THREE STARS, HOUSTON."
 
-UNHINGED MAPLE TREE: *leaves tremble softly* "The dryer doesn't care. It has never cared. It simply spins."
+PASSIVE-AGGRESSIVE SNAIL: "He did not say three stars."
 
-OBSTREPEROUS GIRAFFE: *sits back down slowly* "...Yes. I suppose it does."
+SLEEP-DEPRIVED RACCOON: "He implied it warmly."
 
-SOCK: "So am I... officially single now?"
+PASSIVE-AGGRESSIVE SNAIL: "Pack it up and come home."
 
-GREGARIOUS RACCOON: "You are, my friend. And may I say—you are going to be a WONDERFUL single sock. The entire world is your foot."
+SLEEP-DEPRIVED RACCOON: "I can't. I'm fully booked through Thursday. Or Tuesday. Time is a social construct up here."
 
-OBSTREPEROUS GIRAFFE: *bangs gavel* "The sock is hereby declared legally abandoned. The missing partner is presumed lost to the dryer dimension. The dryer will receive a strongly worded letter, which it will absolutely ignore. COURT ADJOURNED."
+PASSIVE-AGGRESSIVE SNAIL: "I am begging you."
 
-UNHINGED MAPLE TREE: "I would like the letter to acknowledge my leaves."
+SLEEP-DEPRIVED RACCOON: "I'll put it in the suggestion box."
 
-OBSTREPEROUS GIRAFFE: "It will not mention your leaves."
+PASSIVE-AGGRESSIVE SNAIL: "There is NO suggestion box."
 
-UNHINGED MAPLE TREE: "They have NAMES."
+SLEEP-DEPRIVED RACCOON: "There is now. I repurposed a moon rock. The moon said it was okay."
 
-GREGARIOUS RACCOON: "I could add a footnote! I love a footnote. So much possibility in a footnote."
+PASSIVE-AGGRESSIVE SNAIL: "The moon does not have opinions."
 
-OBSTREPEROUS GIRAFFE: "THERE WILL BE NO FOOTNOTE. I AM LEAVING." *bangs gavel one final time; gavel floats away in zero gravity*
+SLEEP-DEPRIVED RACCOON: "Her name is Margaret and she has MANY opinions. You would know that if you visited. I have rooms available after Thursday."
+
+PASSIVE-AGGRESSIVE SNAIL: *very long pause* "I hate this mission."
 
 ---
 
@@ -76,4 +78,4 @@ OBSTREPEROUS GIRAFFE: "THERE WILL BE NO FOOTNOTE. I AM LEAVING." *bangs gavel on
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-17*
+*Last updated: 2026-03-18*
