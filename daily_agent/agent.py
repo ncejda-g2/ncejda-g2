@@ -193,7 +193,7 @@ Complete this ENTIRE workflow autonomously:
 ## Step 1: Determine Day Count
 Read the file at: {readme_file}
 Extract the current day count. Look for a line containing "Day" followed by a number (e.g., "Day 96" or "Days running... 96").
-If no day count found, use 96 as the current count.
+If no day count found, use 1 as the current count.
 Calculate the new day count by adding 1.
 
 ## Step 2: Filter AI Stories
@@ -299,7 +299,6 @@ Report your progress as you complete each step."""
 
 
 def build_fallback_prompt(
-    situation: str,
     characters_text: str,
     readme_file: Path,
     situations_file: Path,
@@ -309,14 +308,16 @@ def build_fallback_prompt(
     """Build the prompt for fallback mode (no HN stories available)."""
     return f"""You are an autonomous agent that updates the file at {readme_file} daily with a hilarious improv dialog.
 
-Today HN stories could not be fetched (API unavailable or no AI news found). Running in classic improv mode.
+TODAY THERE ARE NO AI STORIES ON HACKER NEWS.
+
+The characters exist to discuss AI news. But there is none. This is an existential crisis.
 
 Complete this ENTIRE workflow autonomously:
 
 ## Step 1: Determine Day Count
 Read the file at: {readme_file}
 Extract the current day count. Look for a line containing "Day" followed by a number.
-If no day count found, use 96 as the current count.
+If no day count found, use 1 as the current count.
 Calculate the new day count by adding 1.
 
 ## Step 2: Invent a NEW Situation
@@ -335,31 +336,37 @@ Use the Edit tool to append it.
 
 ## Step 4: Write the Improv Dialog
 Characters (pool of 3, use 2 or 3): {characters_text}
-Situation (the topic AND backdrop today): {situation}
+
+The characters are AI-generated beings whose sole purpose is to react to AI news. Today there is NONE.
+
+Write an improv dialog where the characters CONFRONT the absence of AI news. Play up the existential comedy:
+- Are they still relevant if there's nothing to discuss?
+- Do they exist if there's no AI news?
+- Can they discuss the absence itself?
+- Is this meta? Are they becoming self-aware?
 
 Requirements:
 - Choose 2 or 3 characters from the pool
 - Format: CHARACTER NAME: "dialog line"
-- 20-30 lines maximum
-- The situation is both the topic AND the setting today (classic improv mode)
-- Use characters' adjectives to inform personality
+- 20-30 lines maximum — short and punchy is funnier than long
+- Use characters' adjectives to inform their personality
 - Have a clear beginning, middle, and punchline ending
 - Keep it clean and work-appropriate
 
 ## Step 5: Update {readme_file}
 Write a new file at: {readme_file}
-Use this structure:
+Use this EXACT structure:
 
 ```markdown
 # 🤖 AI Digest & Improv — Day [NEW DAY COUNT] ({timestamp})
 
-> *No AI news on HN today — classic improv mode!*
+> *No AI news on HN today. The characters are... processing this.*
 
 ---
 
-## 🎭 Today's Improv
+## 🎭 The Characters Process the Void
 
-*[Narrative sentence describing the characters and situation]*
+*[Narrative sentence describing the existential situation]*
 
 [CHARACTER NAME 1]: "dialog line"
 
@@ -369,7 +376,7 @@ Use this structure:
 
 ---
 
-*This README is autonomously updated daily by a Claude agent. When AI news is available, it fetches top stories from Hacker News and has characters discuss them. Today: classic improv mode.*
+*This README is autonomously updated daily by a Claude agent. When AI news is available, it fetches top stories from Hacker News and has characters discuss them. Today there was nothing. The characters handled it... uniquely.*
 
 *Day [NEW DAY COUNT] | Last updated: {timestamp}*
 ```
@@ -400,11 +407,7 @@ async def run_autonomous_agent() -> None:
         stories_text = ""
         fallback_mode = True
 
-    # Step 2: Pick random situation (scenes are dropped)
-    situation = get_random_situation()
-    print(f"Situation: {situation}")
-
-    # Step 3: Generate character pool (always 3, always dialogue)
+    # Step 2: Generate character pool (always 3, always dialogue)
     characters = generate_random_characters(3)
     characters_text = ", ".join(characters)
     print(f"Character pool: {characters_text}\n")
@@ -430,6 +433,9 @@ async def run_autonomous_agent() -> None:
 
     # Build the prompt based on mode
     if not fallback_mode:
+        # Pick random situation only in normal mode
+        situation = get_random_situation()
+        print(f"Situation: {situation}")
         prompt = build_digest_prompt(
             stories_text=stories_text,
             situation=situation,
@@ -441,7 +447,6 @@ async def run_autonomous_agent() -> None:
         )
     else:
         prompt = build_fallback_prompt(
-            situation=situation,
             characters_text=characters_text,
             readme_file=readme_file,
             situations_file=situations_file,
