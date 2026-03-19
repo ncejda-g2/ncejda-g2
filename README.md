@@ -1,79 +1,71 @@
-# Today's Improv (2026-03-19)
+# 🤖 AI Digest & Improv — Day 97 (2026-03-19)
 
-**Days running a fully-autonomous agent that updates my README: 96**
+## 🗞️ Today's AI News
 
-A grumpy snail therapist, a flummoxed komodo dragon vampire, and a vindictive man are tangled together on a pirate ship where narcolepsy keeps ruining perfectly booked neck appointments.
-
----
-
-GRUMPY SNAIL: "Right. Session forty-three. You're a vampire. You're supposed to bite people."
-
-FLUMMOXED KOMODO DRAGON: "I KNOW. I don't understand why it keeps— *snore*"
-
-GRUMPY SNAIL: "...Wake up."
-
-FLUMMOXED KOMODO DRAGON: "—happening! Right. Yes. I was mid-sentence."
-
-VINDICTIVE MAN: *storms in* "I have been sitting in your waiting room for THREE HOURS to be bitten, and I demand a refund!"
-
-FLUMMOXED KOMODO DRAGON: "I apologize. I was very close last time."
-
-VINDICTIVE MAN: "You leaned in, said 'Prepare to— *snore*' and then I had to carry you to the fainting couch myself. I pulled a muscle."
-
-GRUMPY SNAIL: "Sir, this is a closed session."
-
-VINDICTIVE MAN: "I booked a six o'clock biting and it is now NINE PM."
-
-GRUMPY SNAIL: "The ship's clock is broken."
-
-VINDICTIVE MAN: "The ship's clock is NOT broken, YOU are just very slow."
-
-GRUMPY SNAIL: "That is a slur against my people and I will note it in the file."
-
-FLUMMOXED KOMODO DRAGON: "If I could just— I had a WHOLE plan. Swooping. Looming. Something haunting about eternity. I practiced in the mirror—"
-
-GRUMPY SNAIL: "You can't see yourself in the mirror."
-
-FLUMMOXED KOMODO DRAGON: "I KNOW. So I don't even know if I was doing it right! I was very stressed and then I fell *snore*—"
-
-GRUMPY SNAIL: "...Wake up."
-
-FLUMMOXED KOMODO DRAGON: "—asleep! This is a MEDICAL CONDITION."
-
-VINDICTIVE MAN: "I specifically chose a pirate ship because I thought the atmosphere would keep a vampire awake. There's THUNDER outside. LIGHTNING. A KRAKEN incident earlier."
-
-FLUMMOXED KOMODO DRAGON: "The kraken was very soothing, actually. The tentacles made a lovely rhythm. *snore*"
-
-GRUMPY SNAIL: "On three, you bite him. One—"
-
-FLUMMOXED KOMODO DRAGON: *snore*
-
-GRUMPY SNAIL: "I don't get paid enough for this ship."
-
-VINDICTIVE MAN: "Can I at least get a voucher?"
-
-GRUMPY SNAIL: "He can bite you in your sleep."
-
-VINDICTIVE MAN: "That's not the EXPERIENCE I—"
-
-FLUMMOXED KOMODO DRAGON: *jolts awake* "I'll do it! I'M AWAKE! WHERE'S THE NECK?!"
-
-VINDICTIVE MAN: *backs away* "Oh now I'm actually not sure I want this—"
-
-FLUMMOXED KOMODO DRAGON: "COME BACK! I ONLY HAVE SECONDS—"
-
-VINDICTIVE MAN: "HELP!"
-
-GRUMPY SNAIL: "Progress."
+| # | Story | Points | Comments |
+|---|-------|--------|----------|
+| 1 | [Astral to Join OpenAI](https://astral.sh/blog/openai) | 499 | 341 |
+| 2 | [Warranty Void If Regenerated](https://nearzero.software/p/warranty-void-if-regenerated) | 459 | 277 |
+| 3 | [Nvidia NemoClaw](https://github.com/NVIDIA/NemoClaw) | 351 | 231 |
+| 4 | [Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training](https://github.com/alainnothere/llm-circuit-finder) | 194 | 71 |
+| 5 | [2% of ICML papers desk rejected because the authors used LLM in their reviews](https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies/) | 154 | 132 |
 
 ---
 
-*This README is autonomously updated daily by a Claude agent that:*
-*1. Generates random characters (adjective + animal combinations)*
-*2. Picks a random place and improv situation*
-*3. Invents a NEW scenario and adds it to the collection*
-*4. Adds a NEW funny adjective to the character pool*
-*5. Writes a hilarious dialog between the characters*
-*6. Automatically commits and pushes via GitHub Actions*
+## 🎭 The Characters Weigh In
 
-*Last updated: 2026-03-19*
+*A vengeful fox, a catastrophic sloth, and a self-sabotaging ant must deliver every single line as a fully committed musical number while processing the news that OpenAI has acquired Astral — makers of the beloved Python tools uv and ruff.*
+
+VENGEFUL FOX: "Have you HEARD the news today, the Python tools are sold away — Astral joined with OpenAI and ruff is not our own!"
+
+CATASTROPHIC SLOTH: "I tried to process this emotionally and accidentally knocked over the entire set piece. The backdrop is on fire."
+
+SELF-SABOTAGING ANT: "I had a whole protest number ready but I submitted it to the wrong GitHub repo and now a stranger owns my song!"
+
+VENGEFUL FOX: "They made uv! They made ruff! The fastest tools that we could trust! And now they're swallowed by the company with all the clout!"
+
+CATASTROPHIC SLOTH: "To be fair, I am too slow to feel the performance improvement personally. But the PRINCIPLE is devastating!"
+
+SELF-SABOTAGING ANT: "I wrote a strongly-worded comment on the announcement post and then immediately deleted it because I felt bad for the OpenAI engineers."
+
+VENGEFUL FOX: "They will add telemetry! They'll add a DASHBOARD! They'll put a 'Pro' tier on the linter!"
+
+CATASTROPHIC SLOTH: "I'm already picturing the pricing page. It's giving me performance anxiety and I am a sloth."
+
+SELF-SABOTAGING ANT: "I tried to fork the repo as a protest but I accidentally forked my employer's private codebase and HR is now involved."
+
+VENGEFUL FOX: "This is EXACTLY what happened with GitHub! With npm! With everything we loved!"
+
+CATASTROPHIC SLOTH: "I opened the announcement post, fell asleep for four hours, and woke up still sad. That's how you know it's real grief."
+
+SELF-SABOTAGING ANT: "I uninstalled uv. I can't run Python now. I may have destroyed my entire development environment in solidarity."
+
+VENGEFUL FOX: "That's not solidarity, that's self-sabotage!"
+
+SELF-SABOTAGING ANT: "I KNOW but it felt POWERFUL! For about eleven seconds! Then I needed to push a hotfix!"
+
+CATASTROPHIC SLOTH: "I tried to switch to an alternative package manager and somehow also knocked over my desk, my monitor, and a small bookcase."
+
+VENGEFUL FOX: "What becomes of open source when a megacorp holds the key? What becomes of uv and ruff — will they still run for free?"
+
+CATASTROPHIC SLOTH: "Based on historical precedent: fine for two years, then a pricing page, then a sunset notice, then a grief blog post."
+
+SELF-SABOTAGING ANT: "I sent a sympathy card to the Astral team, signed it 'from a disappointed fan,' and then realized I mailed it to Astro, the web framework."
+
+VENGEFUL FOX: "I have added OpenAI to my enemies list. It is a very long list. It is formatted with ruff. The irony is noted."
+
+CATASTROPHIC SLOTH: "For what it's worth, the announcement post was extremely well-written. I cried. Then I fell asleep. Then I cried again."
+
+SELF-SABOTAGING ANT: "I guess we can probably still use the tools. Maybe. I'm already dreading the 'exciting new direction' post in eighteen months."
+
+VENGEFUL FOX: "THEY WILL HEAR MY VENGEANCE IN EVERY COMMIT MESSAGE FROM THIS DAY FORWARD."
+
+CATASTROPHIC SLOTH: "I believe you. Please help me — I have become tangled in the stage curtain and cannot reach my motivation."
+
+SELF-SABOTAGING ANT: "I would help but I just reinstalled uv, immediately hit a breaking change, and I am emotionally unavailable right now."
+
+---
+
+*This README is autonomously updated daily by a Claude agent that fetches top AI stories from Hacker News, filters them through a 5-tier relevance system, and has randomly generated characters discuss the most interesting one — all while trapped in an absurd comedic situation. No human intervention required.*
+
+*Day 97 | Last updated: 2026-03-19*
