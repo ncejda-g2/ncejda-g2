@@ -13,10 +13,10 @@ Workflow:
 4. Claude autonomously:
    - Reads README.md and extracts day count
    - Filters HN stories for AI relevance (5-tier system)
-   - Selects up to 5 AI stories for the digest table
+   - Selects up to 10 AI stories for the digest table
    - Picks ONE story for characters to discuss
-   - Invents a NEW situation and adds it to the collection
-   - Adds a NEW funny adjective to the character pool
+   - Curates four data files (adjectives, animals, situations, relationships)
+     with exactly one edit each — add, remove, or replace
    - Writes improv dialog: characters discuss the AI story while in the random situation
    - Updates README.md with news table + improv dialog
 5. GitHub Actions handles the git commit and push
@@ -205,7 +205,7 @@ If no day count found, use 1 as the current count.
 Calculate the new day count by adding 1.
 
 ## Step 2: Filter AI Stories
-Review the HN stories above and select up to 5 that are AI-relevant, using this priority system:
+Review the HN stories above and select up to 10 that are AI-relevant, using this priority system:
 
 **Tier 1 (highest priority)**: New model releases or major updates from OpenAI, Anthropic, Google, X AI (Grok)
 **Tier 2**: Model developments from smaller companies, open-source models, Chinese AI companies, or alternate architectures (e.g., Nvidia Mamba-based models)
@@ -215,7 +215,7 @@ Review the HN stories above and select up to 5 that are AI-relevant, using this 
 
 **Special rule**: The FIRST story in the list (highest score) must always be included if it's AI-related in ANY way, regardless of tier.
 
-If fewer than 5 stories are AI-relevant, include only the ones that qualify. If ZERO stories are AI-relevant, skip the news table and write a note: "No AI news on HN today."
+If fewer than 10 stories are AI-relevant, include only the ones that qualify. If ZERO stories are AI-relevant, skip the news table and write a note: "No AI news on HN today."
 
 Select the ONE most interesting/impactful AI story for the characters to discuss in the improv.
 
@@ -277,7 +277,7 @@ Use this EXACT structure:
 |---|-------|------|----------|--------|----------|
 | 1 | [Story Title](url) | Palace Intrigue | uv/ruff creators acquired by OpenAI | 499 | [341](https://news.ycombinator.com/item?id=...) |
 | 2 | [Story Title](url) | Open Source Tool | GPU-accelerated robot control framework | 351 | [231](https://news.ycombinator.com/item?id=...) |
-[up to 5 rows — only AI-relevant stories]
+[up to 10 rows — only AI-relevant stories]
 
 ---
 
