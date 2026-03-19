@@ -1,72 +1,70 @@
-# Today's Improv (2026-03-18)
+# Today's Improv (2026-03-19)
 
-**Days running a fully-autonomous agent that updates my README: 95**
+**Days running a fully-autonomous agent that updates my README: 96**
 
-A sleep-deprived raccoon astronaut must explain to a passive-aggressive snail at Mission Control back in the city why their lunar landing module has been converted into a boutique bed and breakfast
+A grumpy snail therapist, a flummoxed komodo dragon vampire, and a vindictive man are tangled together on a pirate ship where narcolepsy keeps ruining perfectly booked neck appointments.
 
 ---
 
-PASSIVE-AGGRESSIVE SNAIL: "Houston to Lunar Module 7. We've received your transmissions. About the... establishment."
+GRUMPY SNAIL: "Right. Session forty-three. You're a vampire. You're supposed to bite people."
 
-SLEEP-DEPRIVED RACCOON: "Oh GREAT, you got my brochures! Did the font come through? I spent four hours on the font."
+FLUMMOXED KOMODO DRAGON: "I KNOW. I don't understand why it keeps— *snore*"
 
-PASSIVE-AGGRESSIVE SNAIL: "The font is *fine*. What is NOT fine is that you've turned your landing module into a bed and breakfast."
+GRUMPY SNAIL: "...Wake up."
 
-SLEEP-DEPRIVED RACCOON: "A boutique lunar lodge. Please use the correct branding. I've been awake since Thursday developing it."
+FLUMMOXED KOMODO DRAGON: "—happening! Right. Yes. I was mid-sentence."
 
-PASSIVE-AGGRESSIVE SNAIL: "What day is it today?"
+VINDICTIVE MAN: *storms in* "I have been sitting in your waiting room for THREE HOURS to be bitten, and I demand a refund!"
 
-SLEEP-DEPRIVED RACCOON: "I genuinely do not know. But the mint chocolates I leave on the pillows are OUT OF THIS WORLD. Literally. Heh."
+FLUMMOXED KOMODO DRAGON: "I apologize. I was very close last time."
 
-PASSIVE-AGGRESSIVE SNAIL: "You made a pun. At me. Professionally."
+VINDICTIVE MAN: "You leaned in, said 'Prepare to— *snore*' and then I had to carry you to the fainting couch myself. I pulled a muscle."
 
-DILIGENT CAPYBARA: *static* "This is Guest Room One. The wifi password still isn't working. I've submitted a complaint form in triplicate."
+GRUMPY SNAIL: "Sir, this is a closed session."
 
-PASSIVE-AGGRESSIVE SNAIL: "WHO IS THAT."
+VINDICTIVE MAN: "I booked a six o'clock biting and it is now NINE PM."
 
-SLEEP-DEPRIVED RACCOON: "My first guest. Very thorough. Files complaints before unpacking. I respect that."
+GRUMPY SNAIL: "The ship's clock is broken."
 
-PASSIVE-AGGRESSIVE SNAIL: "How did another person get to the MOON?"
+VINDICTIVE MAN: "The ship's clock is NOT broken, YOU are just very slow."
 
-SLEEP-DEPRIVED RACCOON: "I may have repurposed the supply rocket. The oxygen was taking up room I needed for continental breakfast."
+GRUMPY SNAIL: "That is a slur against my people and I will note it in the file."
 
-PASSIVE-AGGRESSIVE SNAIL: "You replaced the OXYGEN with MUFFINS."
+FLUMMOXED KOMODO DRAGON: "If I could just— I had a WHOLE plan. Swooping. Looming. Something haunting about eternity. I practiced in the mirror—"
 
-SLEEP-DEPRIVED RACCOON: "ARTISANAL muffins. There's a difference. Also little jam packets. Very classy."
+GRUMPY SNAIL: "You can't see yourself in the mirror."
 
-PASSIVE-AGGRESSIVE SNAIL: "I'm going to count to ten. Slowly. Because I do everything slowly and I've made my peace with it."
+FLUMMOXED KOMODO DRAGON: "I KNOW. So I don't even know if I was doing it right! I was very stressed and then I fell *snore*—"
 
-SLEEP-DEPRIVED RACCOON: "Take your time! That's our slogan: 'Take your time—you're on the MOON, baby!' I wrote it at 3am. I haven't slept."
+GRUMPY SNAIL: "...Wake up."
 
-PASSIVE-AGGRESSIVE SNAIL: "Our mission briefing said: plant flag, collect samples, return home. Nowhere did it say open a hospitality business."
+FLUMMOXED KOMODO DRAGON: "—asleep! This is a MEDICAL CONDITION."
 
-SLEEP-DEPRIVED RACCOON: "The flag doubles as a NO VACANCY sign. Very efficient use of government resources."
+VINDICTIVE MAN: "I specifically chose a pirate ship because I thought the atmosphere would keep a vampire awake. There's THUNDER outside. LIGHTNING. A KRAKEN incident earlier."
 
-DILIGENT CAPYBARA: *static* "The muffins are exceptional. However, the Earth view faces the wrong direction. I am noting this as a formal misrepresentation in Appendix C."
+FLUMMOXED KOMODO DRAGON: "The kraken was very soothing, actually. The tentacles made a lovely rhythm. *snore*"
 
-SLEEP-DEPRIVED RACCOON: "DID YOU HEAR THAT? THREE STARS, HOUSTON."
+GRUMPY SNAIL: "On three, you bite him. One—"
 
-PASSIVE-AGGRESSIVE SNAIL: "He did not say three stars."
+FLUMMOXED KOMODO DRAGON: *snore*
 
-SLEEP-DEPRIVED RACCOON: "He implied it warmly."
+GRUMPY SNAIL: "I don't get paid enough for this ship."
 
-PASSIVE-AGGRESSIVE SNAIL: "Pack it up and come home."
+VINDICTIVE MAN: "Can I at least get a voucher?"
 
-SLEEP-DEPRIVED RACCOON: "I can't. I'm fully booked through Thursday. Or Tuesday. Time is a social construct up here."
+GRUMPY SNAIL: "He can bite you in your sleep."
 
-PASSIVE-AGGRESSIVE SNAIL: "I am begging you."
+VINDICTIVE MAN: "That's not the EXPERIENCE I—"
 
-SLEEP-DEPRIVED RACCOON: "I'll put it in the suggestion box."
+FLUMMOXED KOMODO DRAGON: *jolts awake* "I'll do it! I'M AWAKE! WHERE'S THE NECK?!"
 
-PASSIVE-AGGRESSIVE SNAIL: "There is NO suggestion box."
+VINDICTIVE MAN: *backs away* "Oh now I'm actually not sure I want this—"
 
-SLEEP-DEPRIVED RACCOON: "There is now. I repurposed a moon rock. The moon said it was okay."
+FLUMMOXED KOMODO DRAGON: "COME BACK! I ONLY HAVE SECONDS—"
 
-PASSIVE-AGGRESSIVE SNAIL: "The moon does not have opinions."
+VINDICTIVE MAN: "HELP!"
 
-SLEEP-DEPRIVED RACCOON: "Her name is Margaret and she has MANY opinions. You would know that if you visited. I have rooms available after Thursday."
-
-PASSIVE-AGGRESSIVE SNAIL: *very long pause* "I hate this mission."
+GRUMPY SNAIL: "Progress."
 
 ---
 
@@ -78,4 +76,4 @@ PASSIVE-AGGRESSIVE SNAIL: *very long pause* "I hate this mission."
 *5. Writes a hilarious dialog between the characters*
 *6. Automatically commits and pushes via GitHub Actions*
 
-*Last updated: 2026-03-18*
+*Last updated: 2026-03-19*
