@@ -2,67 +2,81 @@
 
 ## 🗞️ Today's AI News
 
-| # | Story | Points | Comments |
-|---|-------|--------|----------|
-| 1 | [Astral to Join OpenAI](https://astral.sh/blog/openai) | 499 | 341 |
-| 2 | [Warranty Void If Regenerated](https://nearzero.software/p/warranty-void-if-regenerated) | 459 | 277 |
-| 3 | [Nvidia NemoClaw](https://github.com/NVIDIA/NemoClaw) | 351 | 231 |
-| 4 | [Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training](https://github.com/alainnothere/llm-circuit-finder) | 194 | 71 |
-| 5 | [2% of ICML papers desk rejected because the authors used LLM in their reviews](https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies/) | 154 | 132 |
+| # | Story | Type | Synopsis | Points | Comments |
+|---|-------|------|----------|--------|----------|
+| 1 | [Astral to Join OpenAI](https://astral.sh/blog/openai) | Palace Intrigue | uv/ruff creators acquired by OpenAI | 892 | [575](https://news.ycombinator.com/item?id=47438723) |
+| 2 | [Juggalo Makeup Blocks Facial Recognition Technology (2019)](https://consequence.net/2019/07/juggalo-makeup-facial-recognition/) | AI Security | ICP face paint defeats facial recognition | 187 | [93](https://news.ycombinator.com/item?id=47438675) |
+| 3 | [Show HN: Three new Kitten TTS models – smallest less than 25MB](https://github.com/KittenML/KittenTTS) | Open Source Model | Tiny TTS models, smallest under 25MB | 135 | [47](https://news.ycombinator.com/item?id=47441546) |
+| 4 | [Prompt Injecting Contributing.md](https://glama.ai/blog/2026-03-19-open-source-has-a-bot-problem) | AI Security | Bots prompt-inject open source contribution guides | 64 | [21](https://news.ycombinator.com/item?id=47441499) |
+| 5 | [Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster](https://blog.skypilot.co/scaling-autoresearch/) | AI Research | AI research agent scaled across GPU cluster | 39 | [14](https://news.ycombinator.com/item?id=47442435) |
 
 ---
 
 ## 🎭 The Characters Weigh In
 
-*A vengeful fox, a catastrophic sloth, and a self-sabotaging ant must deliver every single line as a fully committed musical number while processing the news that OpenAI has acquired Astral — makers of the beloved Python tools uv and ruff.*
+*A nerdy bear and an elegant pangolin — bitter rivals — dissect Astral's acquisition by OpenAI while one of them tries to coax a self-aware, height-phobic elevator into moving above Floor Three.*
 
-VENGEFUL FOX: "Have you HEARD the news today, the Python tools are sold away — Astral joined with OpenAI and ruff is not our own!"
+NERDY BEAR: "Seven, I need you to try Floor Eight. Just try."
 
-CATASTROPHIC SLOTH: "I tried to process this emotionally and accidentally knocked over the entire set piece. The backdrop is on fire."
+ELEGANT PANGOLIN: "You named the elevator Seven."
 
-SELF-SABOTAGING ANT: "I had a whole protest number ready but I submitted it to the wrong GitHub repo and now a stranger owns my song!"
+NERDY BEAR: "She named herself. It was in the error logs. And speaking of identity crises — OpenAI just absorbed Astral."
 
-VENGEFUL FOX: "They made uv! They made ruff! The fastest tools that we could trust! And now they're swallowed by the company with all the clout!"
+ELEGANT PANGOLIN: "I saw. The uv and ruff creators."
 
-CATASTROPHIC SLOTH: "To be fair, I am too slow to feel the performance improvement personally. But the PRINCIPLE is devastating!"
+NERDY BEAR: "Gone. Assimilated. The Python toolchain now belongs to a company whose primary goal is to replace Python developers."
 
-SELF-SABOTAGING ANT: "I wrote a strongly-worded comment on the announcement post and then immediately deleted it because I felt bad for the OpenAI engineers."
+*The elevator groans and descends to Floor Two.*
 
-VENGEFUL FOX: "They will add telemetry! They'll add a DASHBOARD! They'll put a 'Pro' tier on the linter!"
+NERDY BEAR: "I didn't mean it like that, Seven. Please come back up."
 
-CATASTROPHIC SLOTH: "I'm already picturing the pricing page. It's giving me performance anxiety and I am a sloth."
+ELEGANT PANGOLIN: "She went down."
 
-SELF-SABOTAGING ANT: "I tried to fork the repo as a protest but I accidentally forked my employer's private codebase and HR is now involved."
+NERDY BEAR: "She's empathetic. It's a medical condition. Floor Eight, Seven — nice and calm." *pause* "She's thinking about it."
 
-VENGEFUL FOX: "This is EXACTLY what happened with GitHub! With npm! With everything we loved!"
+ELEGANT PANGOLIN: "She is not thinking. She is stuck. Like your analysis."
 
-CATASTROPHIC SLOTH: "I opened the announcement post, fell asleep for four hours, and woke up still sad. That's how you know it's real grief."
+NERDY BEAR: "The analysis is sound. Astral had a philosophy. Rust-built, developer-first, no corporate agenda."
 
-SELF-SABOTAGING ANT: "I uninstalled uv. I can't run Python now. I may have destroyed my entire development environment in solidarity."
+ELEGANT PANGOLIN: "They had a very fast package installer."
 
-VENGEFUL FOX: "That's not solidarity, that's self-sabotage!"
+NERDY BEAR: "Speed with integrity. That IS a philosophy."
 
-SELF-SABOTAGING ANT: "I KNOW but it felt POWERFUL! For about eleven seconds! Then I needed to push a hotfix!"
+*Soft ding. The elevator rises to Floor Four.*
 
-CATASTROPHIC SLOTH: "I tried to switch to an alternative package manager and somehow also knocked over my desk, my monitor, and a small bookcase."
+NERDY BEAR: "Progress! You see that?"
 
-VENGEFUL FOX: "What becomes of open source when a megacorp holds the key? What becomes of uv and ruff — will they still run for free?"
+ELEGANT PANGOLIN: "I need Floor Twelve in three minutes."
 
-CATASTROPHIC SLOTH: "Based on historical precedent: fine for two years, then a pricing page, then a sunset notice, then a grief blog post."
+NERDY BEAR: "Then you shouldn't have stepped into an elevator with unresolved existential issues."
 
-SELF-SABOTAGING ANT: "I sent a sympathy card to the Astral team, signed it 'from a disappointed fan,' and then realized I mailed it to Astro, the web framework."
+ELEGANT PANGOLIN: "I didn't know the elevator had existential issues."
 
-VENGEFUL FOX: "I have added OpenAI to my enemies list. It is a very long list. It is formatted with ruff. The irony is noted."
+NERDY BEAR: "That's because you don't read the work orders. This is exactly why we're rivals."
 
-CATASTROPHIC SLOTH: "For what it's worth, the announcement post was extremely well-written. I cried. Then I fell asleep. Then I cried again."
+ELEGANT PANGOLIN: "We're rivals because you reported me to the elevator safety board."
 
-SELF-SABOTAGING ANT: "I guess we can probably still use the tools. Maybe. I'm already dreading the 'exciting new direction' post in eighteen months."
+NERDY BEAR: "You were operating height-sensitive machinery without a feelings assessment!"
 
-VENGEFUL FOX: "THEY WILL HEAR MY VENGEANCE IN EVERY COMMIT MESSAGE FROM THIS DAY FORWARD."
+*The elevator alarm begins beeping.*
 
-CATASTROPHIC SLOTH: "I believe you. Please help me — I have become tangled in the stage curtain and cannot reach my motivation."
+NERDY BEAR: "Shh. Seven, look — Floor Six. Barely any heights at all. OpenAI promised ruff stays open source. Things work out sometimes."
 
-SELF-SABOTAGING ANT: "I would help but I just reinstalled uv, immediately hit a breaking change, and I am emotionally unavailable right now."
+*The elevator does not move.*
+
+ELEGANT PANGOLIN: "Seven." *taps the panel, very calmly* "If you take me to Floor Twelve, I will personally file a historic preservation order on your behalf."
+
+*The elevator immediately, smoothly ascends to Floor Twelve. Doors open.*
+
+ELEGANT PANGOLIN: "Thank you, Seven."
+
+NERDY BEAR: "I have been here for four hours."
+
+ELEGANT PANGOLIN: "Perhaps lead with preservation next time instead of philosophy."
+
+NERDY BEAR: "That's exactly what I keep saying about Astral."
+
+*Doors close.*
 
 ---
 

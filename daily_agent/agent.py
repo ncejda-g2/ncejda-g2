@@ -139,6 +139,12 @@ def format_stories_for_prompt(stories: list[dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
+def pick_random_relationship() -> str:
+    """Pick a random relationship from the data file."""
+    relationships = load_list_from_file("relationships.txt")
+    return random.choice(relationships)
+
+
 def generate_random_characters(count: int) -> list[str]:
     """
     Generate a specific number of random characters by combining adjectives and animals.
@@ -180,6 +186,8 @@ def build_digest_prompt(
     readme_file: Path,
     situations_file: Path,
     adjectives_file: Path,
+    animals_file: Path,
+    relationships_file: Path,
     timestamp: str,
 ) -> str:
     """Build the prompt for normal mode (HN stories available)."""
@@ -211,31 +219,34 @@ If fewer than 5 stories are AI-relevant, include only the ones that qualify. If 
 
 Select the ONE most interesting/impactful AI story for the characters to discuss in the improv.
 
-## Step 3: Invent a NEW Situation
-Read the existing situations from: {situations_file}
+## Step 3: Curate Data Files
+Read ALL four data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
 
-Invent ONE new, original, funny situation that works as a comedic backdrop (characters can discuss AI news WHILE dealing with it).
-- Must be different from all existing ones
-- Should be an ongoing activity or predicament, not a single dramatic moment
-- One sentence, similar style to existing ones
+**{adjectives_file}** — Adjectives for character generation
+- Must be funny, vivid, instantly recognizable (NOT colors, NOT SAT words)
+- Good: 'caffeinated', 'unhinged', 'pompous'. Bad: 'recalcitrant', 'lugubrious', 'blue'
+- Add a fresh funny one, OR remove a stale/unfunny one, OR replace a weak one
 
-Add it as a NEW LINE at the END of: {situations_file}
-Use the Edit tool to append it.
+**{animals_file}** — Animals for character names
+- Must be common, recognizable animals everyone knows
+- Good: 'zebra', 'penguin', 'raccoon'. Bad: 'aye-aye', 'pangolin', 'dugong'
+- Add a fun common animal, OR remove an obscure one, OR replace one
 
-## Step 4: Add a NEW Adjective
-Read the existing adjectives from: {adjectives_file}
+**{situations_file}** — Comedic backdrops for improv scenes
+- Format: starts with "they" or "one of them" to anchor to the animal characters
+- Should be ongoing activities/predicaments, not single moments
+- Prefer ADDING new situations over removing — there are always funny new ones to devise
+- Only remove or replace if one is genuinely trite, stale, or unfunny
 
-Invent ONE new, funny adjective for character generation.
-- Different from all existing ones
-- Funny, exciting, or comedic potential (NOT boring like colors)
-- Think: 'cursed', 'delusional', 'chaotic', 'melodramatic', 'paranoid', 'pretentious'
-- Single word only
+**{relationships_file}** — Relationship between the two characters
+- Must be instantly recognizable with comedic potential
+- Good: 'ex', 'landlord', 'parole officer'. Bad: 'acquaintance', 'pen pal'
+- Add a fun relationship, OR remove a weak one, OR replace one
 
-Add it as a NEW LINE at the END of: {adjectives_file}
-Use the Edit tool to append it.
+Use the Edit tool for each file. Report what you changed and why.
 
 ## Step 5: Write the Improv Dialog
-Characters (pool of 3, use 2 or 3): {characters_text}
+Characters (2): {characters_text}
 Situation (comedic backdrop): {situation}
 
 The characters are discussing the AI story you selected in Step 2, WHILE dealing with the situation above.
@@ -244,7 +255,7 @@ The situation is the BACKDROP — the AI news is the TOPIC.
 Example: "A nervous raccoon and hopeful giraffe debate whether GPT-5 will replace them while simultaneously managing a retirement party where the retiree has barricaded themselves in the office."
 
 Requirements:
-- Choose 2 or 3 characters from the pool (pick what's funniest for this combo)
+- Use both characters
 - Format: CHARACTER NAME: "dialog line"
 - 20-30 lines maximum — short and punchy is funnier than long
 - Characters discuss the AI story with opinions, reactions, hot takes
@@ -303,6 +314,8 @@ def build_fallback_prompt(
     readme_file: Path,
     situations_file: Path,
     adjectives_file: Path,
+    animals_file: Path,
+    relationships_file: Path,
     timestamp: str,
 ) -> str:
     """Build the prompt for fallback mode (no HN stories available)."""
@@ -320,22 +333,34 @@ Extract the current day count. Look for a line containing "Day" followed by a nu
 If no day count found, use 1 as the current count.
 Calculate the new day count by adding 1.
 
-## Step 2: Invent a NEW Situation
-Read the existing situations from: {situations_file}
+## Step 2: Curate Data Files
+Read ALL four data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
 
-Invent ONE new, original, funny situation (one sentence, similar style to existing ones).
-Add it as a NEW LINE at the END of: {situations_file}
-Use the Edit tool to append it.
+**{adjectives_file}** — Adjectives for character generation
+- Must be funny, vivid, instantly recognizable (NOT colors, NOT SAT words)
+- Good: 'caffeinated', 'unhinged', 'pompous'. Bad: 'recalcitrant', 'lugubrious', 'blue'
+- Add a fresh funny one, OR remove a stale/unfunny one, OR replace a weak one
 
-## Step 3: Add a NEW Adjective
-Read the existing adjectives from: {adjectives_file}
+**{animals_file}** — Animals for character names
+- Must be common, recognizable animals everyone knows
+- Good: 'zebra', 'penguin', 'raccoon'. Bad: 'aye-aye', 'pangolin', 'dugong'
+- Add a fun common animal, OR remove an obscure one, OR replace one
 
-Invent ONE new, funny adjective (single word, different from all existing ones).
-Add it as a NEW LINE at the END of: {adjectives_file}
-Use the Edit tool to append it.
+**{situations_file}** — Comedic backdrops for improv scenes
+- Format: starts with "they" or "one of them" to anchor to the animal characters
+- Should be ongoing activities/predicaments, not single moments
+- Prefer ADDING new situations over removing — there are always funny new ones to devise
+- Only remove or replace if one is genuinely trite, stale, or unfunny
 
-## Step 4: Write the Improv Dialog
-Characters (pool of 3, use 2 or 3): {characters_text}
+**{relationships_file}** — Relationship between the two characters
+- Must be instantly recognizable with comedic potential
+- Good: 'ex', 'landlord', 'parole officer'. Bad: 'acquaintance', 'pen pal'
+- Add a fun relationship, OR remove a weak one, OR replace one
+
+Use the Edit tool for each file. Report what you changed and why.
+
+## Step 3: Write the Improv Dialog
+Characters (2): {characters_text}
 
 The characters are AI-generated beings whose sole purpose is to react to AI news. Today there is NONE.
 
@@ -346,14 +371,14 @@ Write an improv dialog where the characters CONFRONT the absence of AI news. Pla
 - Is this meta? Are they becoming self-aware?
 
 Requirements:
-- Choose 2 or 3 characters from the pool
+- Use both characters
 - Format: CHARACTER NAME: "dialog line"
 - 20-30 lines maximum — short and punchy is funnier than long
 - Use characters' adjectives to inform their personality
 - Have a clear beginning, middle, and punchline ending
 - Keep it clean and work-appropriate
 
-## Step 5: Update {readme_file}
+## Step 4: Update {readme_file}
 Write a new file at: {readme_file}
 Use this EXACT structure:
 
@@ -408,14 +433,18 @@ async def run_autonomous_agent() -> None:
         fallback_mode = True
 
     # Step 2: Generate character pool (always 3, always dialogue)
-    characters = generate_random_characters(3)
+    characters = generate_random_characters(2)
+    relationship = pick_random_relationship()
     characters_text = ", ".join(characters)
+    characters_text += f"\nRelationship twist: {characters[0]} is {characters[1]}'s {relationship}"
     print(f"Character pool: {characters_text}\n")
 
     # Get the paths to data files for Claude to edit
     readme_file = PROJECT_ROOT / "README.md"
     situations_file = DATA_DIR / "situations.txt"
     adjectives_file = DATA_DIR / "adjectives.txt"
+    animals_file = DATA_DIR / "animals.txt"
+    relationships_file = DATA_DIR / "relationships.txt"
 
     timestamp = datetime.now().strftime("%Y-%m-%d")
 
@@ -443,6 +472,8 @@ async def run_autonomous_agent() -> None:
             readme_file=readme_file,
             situations_file=situations_file,
             adjectives_file=adjectives_file,
+            animals_file=animals_file,
+            relationships_file=relationships_file,
             timestamp=timestamp,
         )
     else:
@@ -451,6 +482,8 @@ async def run_autonomous_agent() -> None:
             readme_file=readme_file,
             situations_file=situations_file,
             adjectives_file=adjectives_file,
+            animals_file=animals_file,
+            relationships_file=relationships_file,
             timestamp=timestamp,
         )
 
