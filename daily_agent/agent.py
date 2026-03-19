@@ -7,28 +7,28 @@ entire workflow autonomously. Claude is provided with all tools upfront and
 handles content creation.
 
 Workflow:
-1. Python generates random characters (adjective + animal), picks a random place and situation
-2. Single comprehensive prompt is sent to Claude with Read, Write, Edit tools
-3. Claude autonomously:
+1. Python fetches HN front page stories via Algolia API
+2. Python generates random characters (adjective + animal) and picks a random situation
+3. Single comprehensive prompt is sent to Claude with Read, Write, Edit tools
+4. Claude autonomously:
    - Reads README.md and extracts day count
-   - Invents a NEW creative scenario and adds it to the situations file
-   - Writes a hilarious improv dialog between characters in the given situation/place
-   - Updates README.md with the dialog
-4. GitHub Actions handles the git commit and push
-
-Key Benefits:
-- True autonomy: One prompt, entire content workflow completed
-- Simpler code: Minimal orchestration needed
-- Claude handles dialog creation, context management, and formatting
-- Growing scenario library: Claude adds one new creative scenario each day
-- Clean git history: Commits show as github-actions[bot]
+   - Filters HN stories for AI relevance (5-tier system)
+   - Selects up to 10 AI stories for the digest table
+   - Picks ONE story for characters to discuss
+   - Curates four data files (adjectives, animals, situations, relationships)
+     with exactly one edit each — add, remove, or replace
+   - Writes improv dialog: characters discuss the AI story while in the random situation
+   - Updates README.md with news table + improv dialog
+5. GitHub Actions handles the git commit and push
 """
 
 import asyncio
+import aiohttp
 import random
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any
 
 from claude_agent_sdk import (
     AssistantMessage,
@@ -61,6 +61,90 @@ def load_list_from_file(filename: str) -> list[str]:
         return [line.strip() for line in f if line.strip()]
 
 
+async def fetch_hn_stories(session: aiohttp.ClientSession) -> list[dict[str, Any]]:
+    """
+    Fetch Hacker News front page stories via Algolia API.
+
+    Args:
+        session: aiohttp ClientSession for making HTTP requests
+
+    Returns:
+        List of story dicts with keys: id, title, url, score, comments, author, created_at, updated_at, text
+        Sorted by score descending. Returns empty list on error or stale data.
+    """
+    try:
+        url = "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=90"
+        async with session.get(url) as resp:
+            data = await resp.json()
+
+        stories = []
+        for hit in data.get("hits", []):
+            story = {
+                "id": int(hit.get("objectID", 0)),
+                "title": hit.get("title", ""),
+                "url": hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID', '')}",
+                "score": hit.get("points", 0),
+                "comments": hit.get("num_comments", 0),
+                "author": hit.get("author", ""),
+                "created_at": hit.get("created_at", ""),
+                "updated_at": hit.get("updated_at", ""),
+                "text": hit.get("story_text", ""),
+            }
+            stories.append(story)
+
+        # Sort by score descending
+        stories.sort(key=lambda s: s["score"], reverse=True)
+
+        # Check staleness: if most recent update is >2 hours old, return empty
+        if stories:
+            from datetime import datetime as dt
+            most_recent = max(stories, key=lambda s: s["updated_at"])
+            if most_recent["updated_at"]:
+                try:
+                    updated_time = dt.fromisoformat(most_recent["updated_at"].replace("Z", "+00:00"))
+                    now = dt.now(timezone.utc)
+                    age = (now - updated_time).total_seconds()
+                    if age > 7200:  # 2 hours in seconds
+                        print("WARNING: Algolia data appears stale (>2h old) — triggering fallback")
+                        return []
+                except (ValueError, TypeError):
+                    pass
+
+        return stories
+
+    except Exception as e:
+        print(f"WARNING: Failed to fetch HN stories: {e}")
+        return []
+
+
+def format_stories_for_prompt(stories: list[dict[str, Any]]) -> str:
+    """
+    Format story list as numbered text block for Claude prompt injection.
+
+    Args:
+        stories: List of story dicts from fetch_hn_stories
+
+    Returns:
+        Formatted numbered string with story details, or empty string if no stories
+    """
+    if not stories:
+        return ""
+
+    lines = []
+    for i, story in enumerate(stories, 1):
+        hn_link = f'https://news.ycombinator.com/item?id={story["id"]}'
+        line = f'{i}. Title: "{story["title"]}" | URL: {story["url"]} | Score: {story["score"]} | Comments: {story["comments"]} | HN Discussion: {hn_link}'
+        lines.append(line)
+
+    return "\n".join(lines)
+
+
+def pick_random_relationship() -> str:
+    """Pick a random relationship from the data file."""
+    relationships = load_list_from_file("relationships.txt")
+    return random.choice(relationships)
+
+
 def generate_random_characters(count: int) -> list[str]:
     """
     Generate a specific number of random characters by combining adjectives and animals.
@@ -84,75 +168,283 @@ def generate_random_characters(count: int) -> list[str]:
     return characters
 
 
-def roll_for_monologue() -> bool:
+def get_random_situation() -> str:
     """
-    Roll a weighted dice to determine if this should be a monologue.
-    20% chance of monologue, 80% chance of dialogue.
+    Pick a random situation from the data file.
 
     Returns:
-        True if monologue mode, False for dialogue mode
-    """
-    return random.random() < 0.2
-
-
-def get_random_situation_and_scene() -> tuple[str, str]:
-    """
-    Pick a random situation and scene from the data files.
-
-    Returns:
-        Tuple of (situation, scene)
+        A random situation string
     """
     situations = load_list_from_file("situations.txt")
-    scenes = load_list_from_file("scenes.txt")
+    return random.choice(situations)
 
-    return random.choice(situations), random.choice(scenes)
+
+def build_digest_prompt(
+    stories_text: str,
+    situation: str,
+    characters_text: str,
+    readme_file: Path,
+    situations_file: Path,
+    adjectives_file: Path,
+    animals_file: Path,
+    relationships_file: Path,
+    timestamp: str,
+) -> str:
+    """Build the prompt for normal mode (HN stories available)."""
+    return f"""You are an autonomous agent that updates the file at {readme_file} daily with an AI news digest and a hilarious improv dialog.
+
+Today's HN front page stories (sorted by score, highest first):
+{stories_text}
+
+Complete this ENTIRE workflow autonomously:
+
+## Step 1: Determine Day Count
+Read the file at: {readme_file}
+Extract the current day count. Look for a line containing "Day" followed by a number (e.g., "Day 96" or "Days running... 96").
+If no day count found, use 1 as the current count.
+Calculate the new day count by adding 1.
+
+## Step 2: Filter AI Stories
+Review the HN stories above and select up to 10 that are AI-relevant, using this priority system:
+
+**Tier 1 (highest priority)**: New model releases or major updates from OpenAI, Anthropic, Google, X AI (Grok)
+**Tier 2**: Model developments from smaller companies, open-source models, Chinese AI companies, or alternate architectures (e.g., Nvidia Mamba-based models)
+**Tier 3**: AI tooling updates — new developer tools, AI workflow tools, Claude Code updates, opencode, context-mode, agent frameworks
+**Tier 4**: AI infrastructure or hardware news (GPUs, inference optimization, deployment)
+**Tier 5 (lowest)**: AI research papers with practical implications
+
+**Special rule**: The FIRST story in the list (highest score) must always be included if it's AI-related in ANY way, regardless of tier.
+
+If fewer than 10 stories are AI-relevant, include only the ones that qualify. If ZERO stories are AI-relevant, skip the news table and write a note: "No AI news on HN today."
+
+Select the ONE most interesting/impactful AI story for the characters to discuss in the improv.
+
+## Step 3: Curate Data Files
+Read ALL four data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
+
+**{adjectives_file}** — Adjectives for character generation
+- Must be funny, vivid, instantly recognizable (NOT colors, NOT SAT words)
+- Good: 'caffeinated', 'unhinged', 'pompous'. Bad: 'recalcitrant', 'lugubrious', 'blue'
+- Add a fresh funny one, OR remove a stale/unfunny one, OR replace a weak one
+
+**{animals_file}** — Animals for character names
+- Must be common, recognizable animals everyone knows
+- Good: 'zebra', 'penguin', 'raccoon'. Bad: 'aye-aye', 'pangolin', 'dugong'
+- Add a fun common animal, OR remove an obscure one, OR replace one
+
+**{situations_file}** — Comedic backdrops for improv scenes
+- Format: starts with "they" or "one of them" to anchor to the animal characters
+- Should be ongoing activities/predicaments, not single moments
+- Prefer ADDING new situations over removing — there are always funny new ones to devise
+- Only remove or replace if one is genuinely trite, stale, or unfunny
+
+**{relationships_file}** — Relationship between the two characters
+- Must be instantly recognizable with comedic potential
+- Good: 'ex', 'landlord', 'parole officer'. Bad: 'acquaintance', 'pen pal'
+- Add a fun relationship, OR remove a weak one, OR replace one
+
+Use the Edit tool for each file. Report what you changed and why.
+
+## Step 5: Write the Improv Dialog
+Characters (2): {characters_text}
+Situation (comedic backdrop): {situation}
+
+The characters are discussing the AI story you selected in Step 2, WHILE dealing with the situation above.
+The situation is the BACKDROP — the AI news is the TOPIC.
+
+Example: "A nervous raccoon and hopeful giraffe debate whether GPT-5 will replace them while simultaneously managing a retirement party where the retiree has barricaded themselves in the office."
+
+Requirements:
+- Use both characters
+- Format: CHARACTER NAME: "dialog line"
+- 20-30 lines maximum — short and punchy is funnier than long
+- Characters discuss the AI story with opinions, reactions, hot takes
+- The situation creates comedic pressure/interruptions throughout
+- Use the characters' adjectives to inform their personality
+- Have a clear beginning, middle, and punchline ending
+- Keep it clean and work-appropriate
+
+## Step 6: Update {readme_file}
+Write a new file at: {readme_file}
+Use this EXACT structure:
+
+```markdown
+# 🤖 AI Digest & Improv — Day [NEW DAY COUNT] ({timestamp})
+
+## 🗞️ Today's AI News
+
+| # | Story | Type | Synopsis | Points | Comments |
+|---|-------|------|----------|--------|----------|
+| 1 | [Story Title](url) | Palace Intrigue | uv/ruff creators acquired by OpenAI | 499 | [341](https://news.ycombinator.com/item?id=...) |
+| 2 | [Story Title](url) | Open Source Tool | GPU-accelerated robot control framework | 351 | [231](https://news.ycombinator.com/item?id=...) |
+[up to 10 rows — only AI-relevant stories]
+
+---
+
+## 🎭 The Characters Weigh In
+
+*[Narrative sentence: "A [adj] [animal] and [adj] [animal] discuss [story topic] while [situation]..."]*
+
+[CHARACTER NAME 1]: "dialog line"
+
+[CHARACTER NAME 2]: "dialog line"
+
+[Continue full dialog...]
+
+---
+
+*This README is autonomously updated daily by a Claude agent that fetches top AI stories from Hacker News, filters them through a 5-tier relevance system, and has randomly generated characters discuss the most interesting one — all while trapped in an absurd comedic situation. No human intervention required.*
+
+*Day [NEW DAY COUNT] | Last updated: {timestamp}*
+```
+
+IMPORTANT formatting rules:
+- Character names in UPPERCASE followed by colon: NERVOUS RACCOON: "line"
+- The narrative sentence in italics (*like this*)
+- Story titles in the table as markdown links: [Title](url)
+- Comments column: link to HN discussion page like [341](https://news.ycombinator.com/item?id=12345) — use the HN Discussion URL provided in the story data
+- Type column: short classification of the story (e.g. "Model Release", "Palace Intrigue", "Open Source Tool", "Research Paper", "Dev Tooling", "Infrastructure", "AI Hardware")
+- Synopsis column: 10 words or fewer describing what the story is about
+
+Report your progress as you complete each step."""
+
+
+def build_fallback_prompt(
+    characters_text: str,
+    readme_file: Path,
+    situations_file: Path,
+    adjectives_file: Path,
+    animals_file: Path,
+    relationships_file: Path,
+    timestamp: str,
+) -> str:
+    """Build the prompt for fallback mode (no HN stories available)."""
+    return f"""You are an autonomous agent that updates the file at {readme_file} daily with a hilarious improv dialog.
+
+TODAY THERE ARE NO AI STORIES ON HACKER NEWS.
+
+The characters exist to discuss AI news. But there is none. This is an existential crisis.
+
+Complete this ENTIRE workflow autonomously:
+
+## Step 1: Determine Day Count
+Read the file at: {readme_file}
+Extract the current day count. Look for a line containing "Day" followed by a number.
+If no day count found, use 1 as the current count.
+Calculate the new day count by adding 1.
+
+## Step 2: Curate Data Files
+Read ALL four data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
+
+**{adjectives_file}** — Adjectives for character generation
+- Must be funny, vivid, instantly recognizable (NOT colors, NOT SAT words)
+- Good: 'caffeinated', 'unhinged', 'pompous'. Bad: 'recalcitrant', 'lugubrious', 'blue'
+- Add a fresh funny one, OR remove a stale/unfunny one, OR replace a weak one
+
+**{animals_file}** — Animals for character names
+- Must be common, recognizable animals everyone knows
+- Good: 'zebra', 'penguin', 'raccoon'. Bad: 'aye-aye', 'pangolin', 'dugong'
+- Add a fun common animal, OR remove an obscure one, OR replace one
+
+**{situations_file}** — Comedic backdrops for improv scenes
+- Format: starts with "they" or "one of them" to anchor to the animal characters
+- Should be ongoing activities/predicaments, not single moments
+- Prefer ADDING new situations over removing — there are always funny new ones to devise
+- Only remove or replace if one is genuinely trite, stale, or unfunny
+
+**{relationships_file}** — Relationship between the two characters
+- Must be instantly recognizable with comedic potential
+- Good: 'ex', 'landlord', 'parole officer'. Bad: 'acquaintance', 'pen pal'
+- Add a fun relationship, OR remove a weak one, OR replace one
+
+Use the Edit tool for each file. Report what you changed and why.
+
+## Step 3: Write the Improv Dialog
+Characters (2): {characters_text}
+
+The characters are AI-generated beings whose sole purpose is to react to AI news. Today there is NONE.
+
+Write an improv dialog where the characters CONFRONT the absence of AI news. Play up the existential comedy:
+- Are they still relevant if there's nothing to discuss?
+- Do they exist if there's no AI news?
+- Can they discuss the absence itself?
+- Is this meta? Are they becoming self-aware?
+
+Requirements:
+- Use both characters
+- Format: CHARACTER NAME: "dialog line"
+- 20-30 lines maximum — short and punchy is funnier than long
+- Use characters' adjectives to inform their personality
+- Have a clear beginning, middle, and punchline ending
+- Keep it clean and work-appropriate
+
+## Step 4: Update {readme_file}
+Write a new file at: {readme_file}
+Use this EXACT structure:
+
+```markdown
+# 🤖 AI Digest & Improv — Day [NEW DAY COUNT] ({timestamp})
+
+> *No AI news on HN today. The characters are... processing this.*
+
+---
+
+## 🎭 The Characters Process the Void
+
+*[Narrative sentence describing the existential situation]*
+
+[CHARACTER NAME 1]: "dialog line"
+
+[CHARACTER NAME 2]: "dialog line"
+
+[Continue full dialog...]
+
+---
+
+*This README is autonomously updated daily by a Claude agent. When AI news is available, it fetches top stories from Hacker News and has characters discuss them. Today there was nothing. The characters handled it... uniquely.*
+
+*Day [NEW DAY COUNT] | Last updated: {timestamp}*
+```
+
+Report your progress as you complete each step."""
 
 
 async def run_autonomous_agent() -> None:
     """
-    Run the autonomous README update agent with a single comprehensive prompt.
-
-    This version provides ALL tools upfront and lets Claude orchestrate the entire
-    workflow autonomously, rather than breaking it into sequential tasks.
+    Run the autonomous HN AI digest + improv agent with a single comprehensive prompt.
     """
 
-    print("Starting Autonomous README Agent (Single-Prompt Workflow)")
+    print("Starting HN AI Digest + Improv Agent")
     print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Working directory: {PROJECT_ROOT}\n")
 
-    # Pick random situation and place first (Claude will use this to decide character count)
-    situation, place = get_random_situation_and_scene()
-    print(f"Place: {place}")
-    print(f"Situation: {situation}")
+    # Step 1: Fetch HN stories
+    print("Fetching HN front page stories...")
+    async with aiohttp.ClientSession() as session:
+        stories = await fetch_hn_stories(session)
 
-    # Roll for monologue mode (20% chance)
-    is_monologue = roll_for_monologue()
-
-    if is_monologue:
-        # Monologue mode: exactly 1 character
-        characters = generate_random_characters(1)
-        characters_text = characters[0]
-        mode_instruction = """MODE: MONOLOGUE (forced by dice roll)
-You MUST write a monologue featuring exactly this one character. No other main characters.
-Side characters may briefly appear for comedic effect, but the focus is on this character's solo performance."""
-        print(f"Mode: MONOLOGUE (20% dice roll)")
-        print(f"Character: {characters_text}\n")
+    if stories:
+        print(f"Fetched {len(stories)} stories from HN")
+        stories_text = format_stories_for_prompt(stories)
+        fallback_mode = False
     else:
-        # Dialogue mode: generate pool of 3, Claude picks how many to use
-        characters = generate_random_characters(3)
-        characters_text = ", ".join(characters)
-        mode_instruction = """MODE: DIALOGUE (Claude chooses character count)
-You have a pool of 3 characters. Based on the situation, decide how many main characters to use:
-- Use 2 characters if the situation is best as a back-and-forth exchange
-- Use 3 characters if the situation benefits from more chaos or perspectives
-- You MAY use just 1 character from the pool if the situation genuinely calls for a monologue
-In general, favor dialogues (2-3 characters). Side characters may appear for comedic effect."""
-        print(f"Mode: DIALOGUE (Claude chooses from pool)")
-        print(f"Character pool: {characters_text}\n")
+        print("No HN stories available — running in fallback (classic improv) mode")
+        stories_text = ""
+        fallback_mode = True
+
+    # Step 2: Generate character pool (always 3, always dialogue)
+    characters = generate_random_characters(2)
+    relationship = pick_random_relationship()
+    characters_text = ", ".join(characters)
+    characters_text += f"\nRelationship twist: {characters[0]} is {characters[1]}'s {relationship}"
+    print(f"Character pool: {characters_text}\n")
 
     # Get the paths to data files for Claude to edit
+    readme_file = PROJECT_ROOT / "README.md"
     situations_file = DATA_DIR / "situations.txt"
     adjectives_file = DATA_DIR / "adjectives.txt"
+    animals_file = DATA_DIR / "animals.txt"
+    relationships_file = DATA_DIR / "relationships.txt"
 
     timestamp = datetime.now().strftime("%Y-%m-%d")
 
@@ -168,133 +460,38 @@ In general, favor dialogues (2-3 characters). Side characters may appear for com
         model="sonnet",
     )
 
-    # Single comprehensive prompt - Claude handles the entire workflow!
-    async with ClaudeSDKClient(options=options) as client:
+    # Build the prompt based on mode
+    if not fallback_mode:
+        # Pick random situation only in normal mode
+        situation = get_random_situation()
+        print(f"Situation: {situation}")
+        prompt = build_digest_prompt(
+            stories_text=stories_text,
+            situation=situation,
+            characters_text=characters_text,
+            readme_file=readme_file,
+            situations_file=situations_file,
+            adjectives_file=adjectives_file,
+            animals_file=animals_file,
+            relationships_file=relationships_file,
+            timestamp=timestamp,
+        )
+    else:
+        prompt = build_fallback_prompt(
+            characters_text=characters_text,
+            readme_file=readme_file,
+            situations_file=situations_file,
+            adjectives_file=adjectives_file,
+            animals_file=animals_file,
+            relationships_file=relationships_file,
+            timestamp=timestamp,
+        )
 
+    async with ClaudeSDKClient(options=options) as client:
         print("Launching autonomous workflow...\n")
         print("=" * 60)
 
-        await client.query(
-            f"""You are an autonomous agent that updates README.md daily with a hilarious improv dialog.
-
-Complete this ENTIRE workflow autonomously:
-
-## Step 1: Determine Day Count
-Read README.md and extract the current day count from the line:
-'Days running a fully-autonomous agent that updates my README: X'
-
-If the line doesn't exist, use 0 as the current count.
-Calculate the new day count by adding 1.
-
-## Step 2: Invent a NEW Scenario
-Your creative task: Invent ONE new, original, funny scenario for future improv dialogs.
-
-Read the existing scenarios from: {situations_file}
-
-Then create a NEW scenario that:
-- Is different from all existing ones (be creative!)
-- Is absurd, funny, or has comedic potential
-- Sets up an interesting situation for characters to improvise
-- Is one sentence, similar in style to existing scenarios
-
-Examples of good scenarios:
-- "Two rival magicians must share an Uber."
-- "A time-traveling food critic reviews prehistoric cuisine."
-- "Tech support for magical artifacts."
-
-Add your new scenario as a NEW LINE at the END of the file: {situations_file}
-Use the Edit tool to append your new scenario.
-
-## Step 3: Add a NEW Adjective
-Your creative task: Invent ONE new, funny adjective for future character generation.
-
-Read the existing adjectives from: {adjectives_file}
-
-Then create a NEW adjective that:
-- Is different from all existing ones
-- Is funny, exciting, or has comedic potential (NOT boring like colors)
-- Think: 'cursed', 'delusional', 'ruffian', 'chaotic', 'melodramatic', 'paranoid', 'pretentious'
-- Single word only
-
-Add your new adjective as a NEW LINE at the END of the file: {adjectives_file}
-Use the Edit tool to append your new adjective.
-
-## Step 4: Create Narrative Title
-Create a narrative title that combines the elements into a flowing sentence.
-
-{mode_instruction}
-
-Characters: {characters_text}
-Place: {place}
-Situation: {situation}
-
-First, decide which character(s) you will use based on the mode above.
-Then create a narrative sentence that flows naturally, featuring only the characters you chose.
-
-Example: "An exhausted capybara and a gourmet bear are superheroes dealing with everyday problems in the microscopic world"
-
-Use proper articles (a/an), make it read naturally, and incorporate the place and situation.
-
-## Step 5: Write the Improv
-Create a hilarious, work-appropriate improv featuring the character(s) you chose in Step 4.
-
-Requirements:
-- Format lines as "CHARACTER NAME: \"dialog line\""
-- Keep it somewhat concise: 30 total lines maximum. Quality over quantity!
-- If MONOLOGUE mode: Write a solo performance. The character talks to themselves, the audience, or narrates their situation. Side characters may briefly appear for comedic effect.
-- If DIALOGUE mode: Write exchanges between your chosen main characters (2-3 from the pool).
-- Side characters can randomly enter the scene for comedic effect (e.g., a waiter, a passerby, an announcer)
-- Use the characters' adjectives to inform their personality and speech patterns
-- The piece should be funny, witty, and capture the absurdity of the situation
-- Keep it clean and work-appropriate
-- Make it very funny and unexpected!
-- Have a clear beginning, middle, and punchline ending
-- Remember: short and punchy is funnier than long and rambling!
-
-## Step 6: Update README.md
-Write a new README.md file with this EXACT structure:
-
-```markdown
-# Today's Improv ({timestamp})
-
-**Days running a fully-autonomous agent that updates my README: [NEW DAY COUNT]**
-
-[Your narrative title here - the sentence you created in Step 4]
-
----
-
-[CHARACTER NAME 1]: "dialog line"
-
-[CHARACTER NAME 2]: "dialog line"
-
-[CHARACTER NAME 1]: "dialog line"
-
-[Continue the full dialog here with all lines...]
-
----
-
-*This README is autonomously updated daily by a Claude agent that:*
-*1. Generates random characters (adjective + animal combinations)*
-*2. Picks a random place and improv situation*
-*3. Invents a NEW scenario and adds it to the collection*
-*4. Adds a NEW funny adjective to the character pool*
-*5. Writes a hilarious dialog between the characters*
-*6. Automatically commits and pushes via GitHub Actions*
-
-*Last updated: {timestamp}*
-```
-
-IMPORTANT:
-- Format character names in UPPERCASE followed by a colon, then their dialog in quotes.
-- Example: HUNGRY BEAR: "I can't focus on this meeting, I'm starving!"
-- The narrative title should be in regular text (not bold, not italicized)
-
-Report your progress as you complete each step. Show me:
-1. The new scenario you invented
-2. The new adjective you added
-3. The narrative title
-4. The dialog"""
-        )
+        await client.query(prompt)
 
         # Stream Claude's response and print progress
         async for message in client.receive_response():
@@ -304,7 +501,7 @@ Report your progress as you complete each step. Show me:
                         print(block.text)
 
         print("\n" + "=" * 60)
-        print("Autonomous agent completed successfully!")
+        print("Agent completed successfully!")
         print("=" * 60)
 
 
