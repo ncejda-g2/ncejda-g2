@@ -8,7 +8,7 @@
 | 2 | [Juggalo Makeup Blocks Facial Recognition Technology (2019)](https://consequence.net/2019/07/juggalo-makeup-facial-recognition/) | AI Security | ICP face paint defeats facial recognition | 187 | [93](https://news.ycombinator.com/item?id=47438675) |
 | 3 | [Show HN: Three new Kitten TTS models – smallest less than 25MB](https://github.com/KittenML/KittenTTS) | Open Source Model | Tiny TTS models, smallest under 25MB | 135 | [47](https://news.ycombinator.com/item?id=47441546) |
 | 4 | [Prompt Injecting Contributing.md](https://glama.ai/blog/2026-03-19-open-source-has-a-bot-problem) | AI Security | Bots prompt-inject open source contribution guides | 64 | [21](https://news.ycombinator.com/item?id=47441499) |
-| 5 | [Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster](https://blog.skypilot.co/scaling-autoresearch/) | AI Research | AI research agent scaled across GPU cluster | 39 | [14](https://news.ycombinator.com/item?id=47442435) |
+| 5 | [Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster](https://blog.skypilot.co/scaling-autoresearch/) | AI Research | AI research agent scaled across GPU cluster | 42 | [17](https://news.ycombinator.com/item?id=47442435) |
 
 ---
 
