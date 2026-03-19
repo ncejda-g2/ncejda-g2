@@ -132,7 +132,8 @@ def format_stories_for_prompt(stories: list[dict[str, Any]]) -> str:
 
     lines = []
     for i, story in enumerate(stories, 1):
-        line = f'{i}. Title: "{story["title"]}" | URL: {story["url"]} | Score: {story["score"]} | Comments: {story["comments"]}'
+        hn_link = f'https://news.ycombinator.com/item?id={story["id"]}'
+        line = f'{i}. Title: "{story["title"]}" | URL: {story["url"]} | Score: {story["score"]} | Comments: {story["comments"]} | HN Discussion: {hn_link}'
         lines.append(line)
 
     return "\n".join(lines)
@@ -261,10 +262,10 @@ Use this EXACT structure:
 
 ## 🗞️ Today's AI News
 
-| # | Story | Points | Comments |
-|---|-------|--------|----------|
-| 1 | [Story Title](url) | 543 | 312 |
-| 2 | [Story Title](url) | 421 | 248 |
+| # | Story | Type | Synopsis | Points | Comments |
+|---|-------|------|----------|--------|----------|
+| 1 | [Story Title](url) | Palace Intrigue | uv/ruff creators acquired by OpenAI | 499 | [341](https://news.ycombinator.com/item?id=...) |
+| 2 | [Story Title](url) | Open Source Tool | GPU-accelerated robot control framework | 351 | [231](https://news.ycombinator.com/item?id=...) |
 [up to 5 rows — only AI-relevant stories]
 
 ---
@@ -290,7 +291,9 @@ IMPORTANT formatting rules:
 - Character names in UPPERCASE followed by colon: NERVOUS RACCOON: "line"
 - The narrative sentence in italics (*like this*)
 - Story titles in the table as markdown links: [Title](url)
-- Points and Comments as plain numbers (no formatting)
+- Comments column: link to HN discussion page like [341](https://news.ycombinator.com/item?id=12345) — use the HN Discussion URL provided in the story data
+- Type column: short classification of the story (e.g. "Model Release", "Palace Intrigue", "Open Source Tool", "Research Paper", "Dev Tooling", "Infrastructure", "AI Hardware")
+- Synopsis column: 10 words or fewer describing what the story is about
 
 Report your progress as you complete each step."""
 
