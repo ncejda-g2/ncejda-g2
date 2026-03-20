@@ -14,7 +14,7 @@ lemur
 otter
 capybara
 pangolin
-E. coli
+pigeon
 sloth
 gorilla
 chicken
