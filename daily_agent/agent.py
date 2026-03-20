@@ -26,14 +26,17 @@ import asyncio
 import aiohttp
 import random
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
 from claude_agent_sdk import (
+    AgentDefinition,
     AssistantMessage,
     ClaudeAgentOptions,
     ClaudeSDKClient,
+    TaskNotificationMessage,
+    TaskStartedMessage,
     TextBlock,
 )
 from dotenv import load_dotenv
@@ -63,28 +66,43 @@ def load_list_from_file(filename: str) -> list[str]:
 
 async def fetch_hn_stories(session: aiohttp.ClientSession) -> list[dict[str, Any]]:
     """
-    Fetch Hacker News front page stories via Algolia API.
+    Fetch Hacker News stories from the last 24 hours via Algolia API.
+
+    Queries all stories (not just current front page) from the past 24h,
+    sorted by popularity. Filters out hiring/job posts.
 
     Args:
         session: aiohttp ClientSession for making HTTP requests
 
     Returns:
         List of story dicts with keys: id, title, url, score, comments, author, created_at, updated_at, text
-        Sorted by score descending. Returns empty list on error or stale data.
+        Sorted by score descending. Returns empty list on error.
     """
     try:
-        url = "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=90"
+        cutoff = int((datetime.now(timezone.utc) - timedelta(hours=24)).timestamp())
+        url = (
+            f"https://hn.algolia.com/api/v1/search?tags=story"
+            f"&numericFilters=created_at_i>{cutoff}"
+            f"&hitsPerPage=200"
+        )
         async with session.get(url) as resp:
             data = await resp.json()
 
         stories = []
         for hit in data.get("hits", []):
+            title = hit.get("title", "")
+
+            # Filter out hiring/job posts
+            title_lower = title.lower()
+            if "is hiring" in title_lower or "who is hiring" in title_lower:
+                continue
+
             story = {
                 "id": int(hit.get("objectID", 0)),
-                "title": hit.get("title", ""),
+                "title": title,
                 "url": hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID', '')}",
-                "score": hit.get("points", 0),
-                "comments": hit.get("num_comments", 0),
+                "score": hit.get("points", 0) or 0,
+                "comments": hit.get("num_comments", 0) or 0,
                 "author": hit.get("author", ""),
                 "created_at": hit.get("created_at", ""),
                 "updated_at": hit.get("updated_at", ""),
@@ -94,21 +112,6 @@ async def fetch_hn_stories(session: aiohttp.ClientSession) -> list[dict[str, Any
 
         # Sort by score descending
         stories.sort(key=lambda s: s["score"], reverse=True)
-
-        # Check staleness: if most recent update is >2 hours old, return empty
-        if stories:
-            from datetime import datetime as dt
-            most_recent = max(stories, key=lambda s: s["updated_at"])
-            if most_recent["updated_at"]:
-                try:
-                    updated_time = dt.fromisoformat(most_recent["updated_at"].replace("Z", "+00:00"))
-                    now = dt.now(timezone.utc)
-                    age = (now - updated_time).total_seconds()
-                    if age > 7200:  # 2 hours in seconds
-                        print("WARNING: Algolia data appears stale (>2h old) — triggering fallback")
-                        return []
-                except (ValueError, TypeError):
-                    pass
 
         return stories
 
@@ -181,6 +184,7 @@ def get_random_situation() -> str:
 
 def build_digest_prompt(
     stories_text: str,
+    story_count: int,
     situation: str,
     characters_text: str,
     readme_file: Path,
@@ -193,7 +197,7 @@ def build_digest_prompt(
     """Build the prompt for normal mode (HN stories available)."""
     return f"""You are an autonomous agent that updates the file at {readme_file} daily with an AI news digest and a hilarious improv dialog.
 
-Today's HN front page stories (sorted by score, highest first):
+Today's HN stories from the last 24 hours (sorted by score, highest first):
 {stories_text}
 
 Complete this ENTIRE workflow autonomously:
@@ -205,7 +209,12 @@ If no day count found, use 1 as the current count.
 Calculate the new day count by adding 1.
 
 ## Step 2: Filter AI Stories
-Review the HN stories above and select up to 10 that are AI-relevant, using this priority system:
+When you read the README in Step 1, also extract ALL story titles and URLs from the existing news table.
+**Do NOT include any story that appeared in yesterday's table** — even if it's still on the front page. Readers want fresh content.
+
+You have a "classifier" sub-agent available — a fast, cheap Haiku model that can classify all {story_count} stories for AI relevance in one batch. Consider sending it the full numbered story list (titles, URLs, scores — it uses all signals, not just titles). Then apply the tier system and dedup against yesterday's table yourself.
+
+Select up to 10 that are AI-relevant AND NOT in yesterday's table, using this priority system:
 
 **Tier 1 (highest priority)**: New model releases or major updates from OpenAI, Anthropic, Google, X AI (Grok)
 **Tier 2**: Model developments from smaller companies, open-source models, Chinese AI companies, or alternate architectures (e.g., Nvidia Mamba-based models)
@@ -244,6 +253,14 @@ Read ALL four data files and make exactly ONE edit to EACH file. Each edit is ei
 - Add a fun relationship, OR remove a weak one, OR replace one
 
 Use the Edit tool for each file. Report what you changed and why.
+
+## Step 4: Research the Story
+Before writing the improv dialog, use WebFetch to read the article you chose in Step 2 — the ONE story the characters will discuss. Skim the actual content so you understand:
+- What specifically happened (not just the headline)
+- Key facts, numbers, or quotes
+- Why it matters
+
+This prevents the characters from making bold but wrong factual claims. You don't need to research all 10 stories — just the one you're writing about.
 
 ## Step 5: Write the Improv Dialog
 Characters (2): {characters_text}
@@ -454,10 +471,44 @@ async def run_autonomous_agent() -> None:
             "Read",
             "Write",
             "Edit",
+            "WebFetch",
         ],
         permission_mode="acceptEdits",
         cwd=str(PROJECT_ROOT),
         model="sonnet",
+        agents={
+            "classifier": AgentDefinition(
+                description=(
+                    "Fast, cheap AI-relevance classifier. Send it a batch of HN story titles "
+                    "and it will return which ones are AI-related. Use this when you have a large "
+                    "number of stories to filter — it's much faster than reviewing them yourself."
+                ),
+                prompt=(
+                    "You are a fast binary classifier. You receive HN stories (title, URL, score, "
+                    "comments) and must identify which are related to AI, machine learning, LLMs, "
+                    "or AI tooling.\n\n"
+                    "Use ALL available signals — titles can be misleading, so pay attention to:\n"
+                    "- URL domains (arxiv.org, openai.com, anthropic.com, huggingface.co = strong AI signal)\n"
+                    "- URL paths (e.g. /blog/ai-, /papers/, /models/)\n"
+                    "- Score and comment count (high engagement on borderline stories = include)\n"
+                    "- You have WebFetch available — if a title is ambiguous and the URL looks like it "
+                    "might be AI-related, fetch the page to check. Don't fetch everything, just the "
+                    "borderline cases where the title alone isn't clear.\n\n"
+                    "AI-relevant includes: model releases, AI company news/acquisitions, AI tools/IDEs, "
+                    "AI research papers, AI policy/regulation/lawsuits, AI infrastructure/hardware, "
+                    "AI coding assistants, robotics/autonomous systems, AI ethics/safety, and "
+                    "AI-adjacent stories (e.g. ArXiv platform news, facial recognition, self-driving).\n\n"
+                    "NOT AI-relevant: general programming, non-AI startups, hardware without AI, "
+                    "science without ML, politics without AI angle, culture/lifestyle.\n\n"
+                    "When in doubt, INCLUDE the story — it's better to surface a borderline story "
+                    "than miss a relevant one. The main agent will make the final call.\n\n"
+                    "Respond with ONLY a JSON array of the story numbers (1-indexed) that are AI-relevant. "
+                    "Example: [1, 5, 12, 37]"
+                ),
+                model="haiku",
+                tools=["WebFetch"],
+            ),
+        },
     )
 
     # Build the prompt based on mode
@@ -467,6 +518,7 @@ async def run_autonomous_agent() -> None:
         print(f"Situation: {situation}")
         prompt = build_digest_prompt(
             stories_text=stories_text,
+            story_count=len(stories),
             situation=situation,
             characters_text=characters_text,
             readme_file=readme_file,
@@ -495,7 +547,11 @@ async def run_autonomous_agent() -> None:
 
         # Stream Claude's response and print progress
         async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
+            if isinstance(message, TaskStartedMessage):
+                print(f"\n🔀 Sub-agent started: {message.task_type}")
+            elif isinstance(message, TaskNotificationMessage):
+                print(f"✅ Sub-agent completed")
+            elif isinstance(message, AssistantMessage):
                 for block in message.content:
                     if isinstance(block, TextBlock):
                         print(block.text)
