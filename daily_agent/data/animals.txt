@@ -14,7 +14,7 @@ lemur
 otter
 capybara
 pangolin
-walrus
+E. coli
 sloth
 gorilla
 chicken
@@ -52,3 +52,4 @@ newt
 komodo dragon
 bacteria
 sentient mushroom
+flamingo

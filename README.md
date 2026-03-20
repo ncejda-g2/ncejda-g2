@@ -4,81 +4,84 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Push events into a running session with channels](https://code.claude.com/docs/en/channels) | Dev Tooling | Claude Code gets live push event channels | 352 | [208](https://news.ycombinator.com/item?id=47448524) |
-| 2 | [FSF statement on copyright infringement lawsuit Bartz v. Anthropic](https://www.fsf.org/blogs/licensing/2026-anthropic-settlement) | AI Legal | FSF weighs in on Anthropic copyright suit | 140 | [68](https://news.ycombinator.com/item?id=47403905) |
-| 3 | [Be intentional about how AI changes your codebase](https://aicode.swerdlow.dev) | AI Practice | Thoughtful guidance on AI-assisted code changes | 140 | [63](https://news.ycombinator.com/item?id=47446373) |
-| 4 | [Cursor Composer 2 is just Kimi K2.5 with RL](https://twitter.com/fynnso/status/2034706304875602030) | Model Dev | Cursor's flagship revealed as Kimi K2.5 fine-tuned | 121 | [57](https://news.ycombinator.com/item?id=47452404) |
-| 5 | [Flash-KMeans: Fast and Memory-Efficient Exact K-Means](https://arxiv.org/abs/2603.09229) | Research Paper | Memory-efficient exact K-means clustering algorithm | 51 | [4](https://news.ycombinator.com/item?id=47409055) |
+| 1 | [Anthropic takes legal action against OpenCode](https://github.com/anomalyco/opencode/pull/18186) | Palace Intrigue | Anthropic sues popular open-source AI coding tool | 458 | [362](https://news.ycombinator.com/item?id=47444748) |
+| 2 | [Push events into a running session with channels](https://code.claude.com/docs/en/channels) | Dev Tooling | Claude Code gains real-time push channel events | 373 | [219](https://news.ycombinator.com/item?id=47448524) |
+| 3 | [Waymo Safety Impact](https://waymo.com/safety/impact/) | AI Safety | Waymo publishes comprehensive autonomous vehicle safety data | 335 | [357](https://news.ycombinator.com/item?id=47445246) |
+| 4 | [Cursor Composer 2 is just Kimi K2.5 with RL](https://twitter.com/fynnso/status/2034706304875602030) | Model Reveal | Cursor's flagship model is secretly Kimi K2.5 underneath | 215 | [99](https://news.ycombinator.com/item?id=47452404) |
+| 5 | [Tesla: Failure of the FSD's degradation detection system](https://static.nhtsa.gov/odi/inv/2026/INOA-EA26002-10023.pdf) | AI Safety | NHTSA probe finds Tesla FSD degradation detection failed | 186 | [119](https://news.ycombinator.com/item?id=47445175) |
+| 6 | [Be intentional about how AI changes your codebase](https://aicode.swerdlow.dev) | AI Practice | Op-ed urging deliberate oversight of AI-generated code | 150 | [84](https://news.ycombinator.com/item?id=47446373) |
+| 7 | [EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages](https://esolang-bench.vercel.app/) | Research Paper | Benchmark tests LLMs on obscure programming languages | 95 | [52](https://news.ycombinator.com/item?id=47446021) |
+| 8 | [No AI in Node.js Core](https://github.com/indutny/no-ai-in-nodejs-core) | Open Source Policy | GitHub proposal to ban AI-generated code from Node.js core | 55 | [33](https://news.ycombinator.com/item?id=47444714) |
+| 9 | [Nvidia's Huang pitches AI tokens on top of salary](https://www.cnbc.com/2026/03/20/nvidia-ai-agents-tokens-human-workers-engineer-jobs-unemployment-jensen-huang.html) | AI Labor | Jensen Huang proposes paying workers in AI compute tokens | 18 | [27](https://news.ycombinator.com/item?id=47454241) |
+| 10 | [Google Search is now using AI to replace headlines](https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment) | AI Products | Google AI rewrites news headlines in Search results | 9 | [3](https://news.ycombinator.com/item?id=47455224) |
 
 ---
 
 ## 🎭 The Characters Weigh In
 
-*An arrogant witch and an overconfident ghost — bitter rivals — dissect whether Cursor Composer 2 is really just Kimi K2.5 with reinforcement learning slapped on top, while one of them tries to convince a 65-million-year-old fossil named Gerald that it's time to let go of his beloved rock collection.*
+*A hippie dragon and clumsy otter — exes — dissect Anthropic's lawsuit against OpenCode while shooting a documentary about the otter making a cup of coffee, narrated as a high-stakes action thriller.*
 
-ARROGANT WITCH: "Gerald. Look at me. Sixty-five million years is a long time to hold onto rocks. We have facilities."
+HIPPIE DRAGON: *[whispers intensely into camera]* "Here... in the wild... the clumsy otter approaches the kettle. A beast of simple needs. Unknowing of the legal storm that brews — not just in this kitchen, but in the halls of silicon power."
 
-OVERCONFIDENT GHOST: "While you're down in the sediment — did you see what they found out about Cursor Composer 2?"
+CLUMSY OTTER: "You don't have to whisper. I'm right here."
 
-ARROGANT WITCH: "I am conducting an archaeological intervention. Do you mind?"
+HIPPIE DRAGON: "Anthropic is suing OpenCode."
 
-OVERCONFIDENT GHOST: "Their big flagship model. It's just Kimi K2.5 with reinforcement learning. A Chinese foundation model in a trench coat."
+CLUMSY OTTER: *[drops kettle]* "What?!"
 
-ARROGANT WITCH: "That can't be right."
+HIPPIE DRAGON: "And the otter... drops the kettle. Another casualty of Big AI."
 
-OVERCONFIDENT GHOST: "It absolutely is. I called it months ago. To everyone who would listen."
+CLUMSY OTTER: "Stop narrating! OpenCode is like — the people's editor. You can't sue the people's editor."
 
-ARROGANT WITCH: "No one listens to you. You are incorporeal."
+HIPPIE DRAGON: "Trademark. Copyright. Vibes infringement. Apparently 'Open' plus 'Code' is now corporate IP, man."
 
-OVERCONFIDENT GHOST: "That is a CHOICE. I choose not to have a body. It's called discipline."
+CLUMSY OTTER: *[picking up kettle with both hands]* "That's insane. That's like suing someone for calling their drink 'hot leaf water.'"
 
-ARROGANT WITCH: *to fossil* "Gerald, put down the ammonite. We've discussed this."
+HIPPIE DRAGON: "The otter rallies. Resilient. Politically awakened. About to spill."
 
-OVERCONFIDENT GHOST: "Think about what this means. Premium pricing for a wrapper. Cursor sold people a rebrand."
+CLUMSY OTTER: "Will you PLEASE stop narrating my every move?"
 
-ARROGANT WITCH: "You literally described your entire career. You copied your cold-wind routine from a ghost named Reginald in 1847."
+HIPPIE DRAGON: "It's a documentary. The people need to see you fill the kettle."
 
-OVERCONFIDENT GHOST: "I IMPROVED on Reginald. That is called reinforcement learning from haunt feedback."
+CLUMSY OTTER: "The people do NOT need to see me fill the kettle. Tell me more about the lawsuit."
 
-ARROGANT WITCH: "...I hate that that's coherent."
+HIPPIE DRAGON: "Federal court. They claimed OpenCode was confusing users into thinking it was endorsed by Anthropic."
 
-OVERCONFIDENT GHOST: "The benchmarks are strong, sure. But trust is gone. You can't just dress up someone else's model as your proprietary flagship."
+CLUMSY OTTER: "Was it?"
 
-ARROGANT WITCH: "Gerald disagrees. I can tell by the way he's clutching the trilobite."
+HIPPIE DRAGON: "Probably not intentionally. But in this economy, 'probably not intentionally' is just 'guilty but relatable.'"
 
-OVERCONFIDENT GHOST: "Gerald is limestone. He has no opinions."
+CLUMSY OTTER: *[spills water on the counter]* "Ugh — "
 
-ARROGANT WITCH: "Gerald has been here longer than either of us and he has CONTEXT."
+HIPPIE DRAGON: *[gravely, to camera]* "Water. Everywhere. Like the tears of open-source developers watching their dreams dissolved by cease and desist."
 
-*A loud clatter as Gerald apparently expresses a strong opinion via rockslide.*
+CLUMSY OTTER: "You are using this documentary as a metaphor machine and I need you to stop doing that."
 
-ARROGANT WITCH: "He said the RL fine-tuning still counts as original work."
+HIPPIE DRAGON: "That is literally what documentaries ARE."
 
-OVERCONFIDENT GHOST: "He did not say that."
+CLUMSY OTTER: "I just think — and this is coming from someone who once deleted a live production database — that if Anthropic goes after small projects, that's a massive vibe shift."
 
-ARROGANT WITCH: "I have a PhD in fossil interpretation."
+HIPPIE DRAGON: "The vibe... has shifted. This is exactly what I kept saying when we were together."
 
-OVERCONFIDENT GHOST: "That is not a real degree."
+CLUMSY OTTER: "This is NOT about us."
 
-ARROGANT WITCH: "Gerald — final offer. Keep the trilobite, give up everything else. We archive the collection with full attribution. Your name on the placard."
+HIPPIE DRAGON: "I'm just saying — you told me 'everything gets acquired eventually.' Ring any bells?"
 
-*Pause.*
+CLUMSY OTTER: "I was talking about my STARTUP. Not our RELATIONSHIP."
 
-ARROGANT WITCH: "He's considering it."
+HIPPIE DRAGON: *[whispering urgently to camera]* "The otter... deflects. Old wounds. Much like the coffee — unfinished. Unresolved."
 
-OVERCONFIDENT GHOST: "He is sedimentary rock. He is not considering anything."
+CLUMSY OTTER: *[slams the coffee maker on]* "THERE. Coffee. Documentary OVER."
 
-ARROGANT WITCH: "And yet somehow he's making more progress than Cursor's PR team."
+HIPPIE DRAGON: *[hushed, heroic]* "The otter has won. This round. But in the ecosystem of AI legal warfare... no one brews in peace."
 
-*Another decisive clatter.*
+*The coffee maker beeps triumphantly.*
 
-ARROGANT WITCH: "Gerald said yes. The trilobite stays. I win."
+CLUMSY OTTER: "Please go home."
 
-OVERCONFIDENT GHOST: "You cannot negotiate with geology and call it a methodology."
+HIPPIE DRAGON: "I drove the film crew."
 
-ARROGANT WITCH: "I just did. And I'll be citing it in my paper on AI provenance too. Sometimes the wrapper IS the product, Gerald. Sometimes it isn't. The difference is whether you tell anyone."
-
-*Gerald says nothing. He keeps the trilobite.*
+CLUMSY OTTER: *[long pause]* "...Have some coffee."
 
 ---
 
