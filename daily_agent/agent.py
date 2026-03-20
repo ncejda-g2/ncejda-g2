@@ -205,7 +205,10 @@ If no day count found, use 1 as the current count.
 Calculate the new day count by adding 1.
 
 ## Step 2: Filter AI Stories
-Review the HN stories above and select up to 10 that are AI-relevant, using this priority system:
+When you read the README in Step 1, also extract ALL story titles and URLs from the existing news table.
+**Do NOT include any story that appeared in yesterday's table** — even if it's still on the front page. Readers want fresh content.
+
+Review the HN stories above and select up to 10 that are AI-relevant AND NOT in yesterday's table, using this priority system:
 
 **Tier 1 (highest priority)**: New model releases or major updates from OpenAI, Anthropic, Google, X AI (Grok)
 **Tier 2**: Model developments from smaller companies, open-source models, Chinese AI companies, or alternate architectures (e.g., Nvidia Mamba-based models)
