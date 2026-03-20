@@ -31,9 +31,12 @@ from pathlib import Path
 from typing import Any
 
 from claude_agent_sdk import (
+    AgentDefinition,
     AssistantMessage,
     ClaudeAgentOptions,
     ClaudeSDKClient,
+    TaskNotificationMessage,
+    TaskStartedMessage,
     TextBlock,
 )
 from dotenv import load_dotenv
@@ -181,6 +184,7 @@ def get_random_situation() -> str:
 
 def build_digest_prompt(
     stories_text: str,
+    story_count: int,
     situation: str,
     characters_text: str,
     readme_file: Path,
@@ -193,7 +197,7 @@ def build_digest_prompt(
     """Build the prompt for normal mode (HN stories available)."""
     return f"""You are an autonomous agent that updates the file at {readme_file} daily with an AI news digest and a hilarious improv dialog.
 
-Today's HN front page stories (sorted by score, highest first):
+Today's HN stories from the last 24 hours (sorted by score, highest first):
 {stories_text}
 
 Complete this ENTIRE workflow autonomously:
@@ -208,7 +212,9 @@ Calculate the new day count by adding 1.
 When you read the README in Step 1, also extract ALL story titles and URLs from the existing news table.
 **Do NOT include any story that appeared in yesterday's table** — even if it's still on the front page. Readers want fresh content.
 
-Review the HN stories above and select up to 10 that are AI-relevant AND NOT in yesterday's table, using this priority system:
+You have a "classifier" sub-agent available — a fast, cheap Haiku model that can classify all {story_count} stories for AI relevance in one batch. Consider sending it the full numbered story list (titles, URLs, scores — it uses all signals, not just titles). Then apply the tier system and dedup against yesterday's table yourself.
+
+Select up to 10 that are AI-relevant AND NOT in yesterday's table, using this priority system:
 
 **Tier 1 (highest priority)**: New model releases or major updates from OpenAI, Anthropic, Google, X AI (Grok)
 **Tier 2**: Model developments from smaller companies, open-source models, Chinese AI companies, or alternate architectures (e.g., Nvidia Mamba-based models)
@@ -461,6 +467,39 @@ async def run_autonomous_agent() -> None:
         permission_mode="acceptEdits",
         cwd=str(PROJECT_ROOT),
         model="sonnet",
+        agents={
+            "classifier": AgentDefinition(
+                description=(
+                    "Fast, cheap AI-relevance classifier. Send it a batch of HN story titles "
+                    "and it will return which ones are AI-related. Use this when you have a large "
+                    "number of stories to filter — it's much faster than reviewing them yourself."
+                ),
+                prompt=(
+                    "You are a fast binary classifier. You receive HN stories (title, URL, score, "
+                    "comments) and must identify which are related to AI, machine learning, LLMs, "
+                    "or AI tooling.\n\n"
+                    "Use ALL available signals — titles can be misleading, so pay attention to:\n"
+                    "- URL domains (arxiv.org, openai.com, anthropic.com, huggingface.co = strong AI signal)\n"
+                    "- URL paths (e.g. /blog/ai-, /papers/, /models/)\n"
+                    "- Score and comment count (high engagement on borderline stories = include)\n"
+                    "- You have WebFetch available — if a title is ambiguous and the URL looks like it "
+                    "might be AI-related, fetch the page to check. Don't fetch everything, just the "
+                    "borderline cases where the title alone isn't clear.\n\n"
+                    "AI-relevant includes: model releases, AI company news/acquisitions, AI tools/IDEs, "
+                    "AI research papers, AI policy/regulation/lawsuits, AI infrastructure/hardware, "
+                    "AI coding assistants, robotics/autonomous systems, AI ethics/safety, and "
+                    "AI-adjacent stories (e.g. ArXiv platform news, facial recognition, self-driving).\n\n"
+                    "NOT AI-relevant: general programming, non-AI startups, hardware without AI, "
+                    "science without ML, politics without AI angle, culture/lifestyle.\n\n"
+                    "When in doubt, INCLUDE the story — it's better to surface a borderline story "
+                    "than miss a relevant one. The main agent will make the final call.\n\n"
+                    "Respond with ONLY a JSON array of the story numbers (1-indexed) that are AI-relevant. "
+                    "Example: [1, 5, 12, 37]"
+                ),
+                model="haiku",
+                tools=["WebFetch"],
+            ),
+        },
     )
 
     # Build the prompt based on mode
@@ -470,6 +509,7 @@ async def run_autonomous_agent() -> None:
         print(f"Situation: {situation}")
         prompt = build_digest_prompt(
             stories_text=stories_text,
+            story_count=len(stories),
             situation=situation,
             characters_text=characters_text,
             readme_file=readme_file,
@@ -498,7 +538,11 @@ async def run_autonomous_agent() -> None:
 
         # Stream Claude's response and print progress
         async for message in client.receive_response():
-            if isinstance(message, AssistantMessage):
+            if isinstance(message, TaskStartedMessage):
+                print(f"\n🔀 Sub-agent started: {message.task_type}")
+            elif isinstance(message, TaskNotificationMessage):
+                print(f"✅ Sub-agent completed")
+            elif isinstance(message, AssistantMessage):
                 for block in message.content:
                     if isinstance(block, TextBlock):
                         print(block.text)
