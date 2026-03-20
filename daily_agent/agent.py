@@ -254,6 +254,14 @@ Read ALL four data files and make exactly ONE edit to EACH file. Each edit is ei
 
 Use the Edit tool for each file. Report what you changed and why.
 
+## Step 4: Research the Story
+Before writing the improv dialog, use WebFetch to read the article you chose in Step 2 — the ONE story the characters will discuss. Skim the actual content so you understand:
+- What specifically happened (not just the headline)
+- Key facts, numbers, or quotes
+- Why it matters
+
+This prevents the characters from making bold but wrong factual claims. You don't need to research all 10 stories — just the one you're writing about.
+
 ## Step 5: Write the Improv Dialog
 Characters (2): {characters_text}
 Situation (comedic backdrop): {situation}
@@ -463,6 +471,7 @@ async def run_autonomous_agent() -> None:
             "Read",
             "Write",
             "Edit",
+            "WebFetch",
         ],
         permission_mode="acceptEdits",
         cwd=str(PROJECT_ROOT),
