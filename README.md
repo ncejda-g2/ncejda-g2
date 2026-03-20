@@ -4,83 +4,81 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Astral to Join OpenAI](https://astral.sh/blog/openai) | Palace Intrigue | uv/ruff creators acquired by OpenAI | 1299 | [801](https://news.ycombinator.com/item?id=47438723) |
-| 2 | [Show HN: Three new Kitten TTS models – smallest less than 25MB](https://github.com/KittenML/KittenTTS) | Open Source Model | Tiny TTS models, smallest under 25MB | 369 | [146](https://news.ycombinator.com/item?id=47441546) |
-| 3 | [Push events into a running session with channels](https://code.claude.com/docs/en/channels) | Dev Tooling | Claude Code gains live event-push channel feature | 275 | [148](https://news.ycombinator.com/item?id=47448524) |
-| 4 | [Waymo Safety Impact](https://waymo.com/safety/impact/) | AI Safety | Waymo publishes self-driving safety performance data | 273 | [275](https://news.ycombinator.com/item?id=47445246) |
-| 5 | [Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster](https://blog.skypilot.co/scaling-autoresearch/) | AI Research | AI research agent scaled to GPU cluster | 145 | [67](https://news.ycombinator.com/item?id=47442435) |
-| 6 | [NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute](https://qlabs.sh/10x) | AI Research | 10x data efficiency gains at scale | 122 | [25](https://news.ycombinator.com/item?id=47444072) |
-| 7 | [Be intentional about how AI changes your codebase](https://aicode.swerdlow.dev) | AI Workflow | Best practices for AI-assisted code changes | 96 | [36](https://news.ycombinator.com/item?id=47446373) |
-| 8 | [EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages](https://esolang-bench.vercel.app/) | AI Research | Esoteric language benchmark tests genuine LLM reasoning | 84 | [46](https://news.ycombinator.com/item?id=47446021) |
-| 9 | [Launch HN: Canary (YC W26) – AI QA that understands your code](https://news.ycombinator.com/item?id=47441629) | AI Tooling | AI-powered QA tool that reads your codebase | 47 | [17](https://news.ycombinator.com/item?id=47441629) |
+| 1 | [Push events into a running session with channels](https://code.claude.com/docs/en/channels) | Dev Tooling | Claude Code gets live push event channels | 352 | [208](https://news.ycombinator.com/item?id=47448524) |
+| 2 | [FSF statement on copyright infringement lawsuit Bartz v. Anthropic](https://www.fsf.org/blogs/licensing/2026-anthropic-settlement) | AI Legal | FSF weighs in on Anthropic copyright suit | 140 | [68](https://news.ycombinator.com/item?id=47403905) |
+| 3 | [Be intentional about how AI changes your codebase](https://aicode.swerdlow.dev) | AI Practice | Thoughtful guidance on AI-assisted code changes | 140 | [63](https://news.ycombinator.com/item?id=47446373) |
+| 4 | [Cursor Composer 2 is just Kimi K2.5 with RL](https://twitter.com/fynnso/status/2034706304875602030) | Model Dev | Cursor's flagship revealed as Kimi K2.5 fine-tuned | 121 | [57](https://news.ycombinator.com/item?id=47452404) |
+| 5 | [Flash-KMeans: Fast and Memory-Efficient Exact K-Means](https://arxiv.org/abs/2603.09229) | Research Paper | Memory-efficient exact K-means clustering algorithm | 51 | [4](https://news.ycombinator.com/item?id=47409055) |
 
 ---
 
 ## 🎭 The Characters Weigh In
 
-*A dilapidated man and a suspiciously-cheerful imaginary friend — landlord and tenant — dissect Claude Code's new Channels feature while the imaginary friend frantically transcribes dictation from an anonymous ghost client who won't stop demanding editorial revisions.*
+*An arrogant witch and an overconfident ghost — bitter rivals — dissect whether Cursor Composer 2 is really just Kimi K2.5 with reinforcement learning slapped on top, while one of them tries to convince a 65-million-year-old fossil named Gerald that it's time to let go of his beloved rock collection.*
 
-DILAPIDATED MAN: "Your ghost client is here again."
+ARROGANT WITCH: "Gerald. Look at me. Sixty-five million years is a long time to hold onto rocks. We have facilities."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "Wonderful! He has opinions about Claude Code's new Channels feature."
+OVERCONFIDENT GHOST: "While you're down in the sediment — did you see what they found out about Cursor Composer 2?"
 
-DILAPIDATED MAN: "He can have opinions outside. This is a residential building."
+ARROGANT WITCH: "I am conducting an archaeological intervention. Do you mind?"
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "He's dead, he has no legs, and he's mid-sentence. Also: Anthropic just released real-time event injection into live Claude agent sessions. Huge news!"
+OVERCONFIDENT GHOST: "Their big flagship model. It's just Kimi K2.5 with reinforcement learning. A Chinese foundation model in a trench coat."
 
-DILAPIDATED MAN: "What does that mean."
+ARROGANT WITCH: "That can't be right."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "You can push new messages to an AI agent mid-task without stopping it. Like tapping it on the shoulder and whispering extra instructions while it works."
+OVERCONFIDENT GHOST: "It absolutely is. I called it months ago. To everyone who would listen."
 
-*Scribbling urgently.*
+ARROGANT WITCH: "No one listens to you. You are incorporeal."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "He says — quote — 'This is the push-based architecture the HN comment section demanded for three years.'"
+OVERCONFIDENT GHOST: "That is a CHOICE. I choose not to have a body. It's called discipline."
 
-DILAPIDATED MAN: "The ghost is on Hacker News."
+ARROGANT WITCH: *to fossil* "Gerald, put down the ammonite. We've discussed this."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "He died mid-hot-take in 2022. Haunting is how he achieves closure."
+OVERCONFIDENT GHOST: "Think about what this means. Premium pricing for a wrapper. Cursor sold people a rebrand."
 
-DILAPIDATED MAN: "Why is he using a ghostwriter? He IS a ghost."
+ARROGANT WITCH: "You literally described your entire career. You copied your cold-wind routine from a ghost named Reginald in 1847."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "Liability! You can't sue a ghost. You CAN sue the ghostwriter."
+OVERCONFIDENT GHOST: "I IMPROVED on Reginald. That is called reinforcement learning from haunt feedback."
 
-DILAPIDATED MAN: "I want it on record: I do not endorse this publication."
+ARROGANT WITCH: "...I hate that that's coherent."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "Noted! He's adding a footnote that his landlord 'lacks technical vision.'"
+OVERCONFIDENT GHOST: "The benchmarks are strong, sure. But trust is gone. You can't just dress up someone else's model as your proprietary flagship."
 
-DILAPIDATED MAN: "I am YOUR landlord."
+ARROGANT WITCH: "Gerald disagrees. I can tell by the way he's clutching the trilobite."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "Yes. The footnote is about you."
+OVERCONFIDENT GHOST: "Gerald is limestone. He has no opinions."
 
-*Ghost moans. Scribbling intensifies.*
+ARROGANT WITCH: "Gerald has been here longer than either of us and he has CONTEXT."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "He says channels could introduce race conditions if the event queue isn't carefully managed. He has a diagram."
+*A loud clatter as Gerald apparently expresses a strong opinion via rockslide.*
 
-DILAPIDATED MAN: "The ghost has a diagram."
+ARROGANT WITCH: "He said the RL fine-tuning still counts as original work."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "Distributed systems startup. Death gave him time to finish the slide deck."
+OVERCONFIDENT GHOST: "He did not say that."
 
-DILAPIDATED MAN: "If I push an event into YOUR session right now, it's called an eviction notice."
+ARROGANT WITCH: "I have a PhD in fossil interpretation."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: *genuinely delighted* "Oh that's fantastic. Can I put that in the article?"
+OVERCONFIDENT GHOST: "That is not a real degree."
 
-DILAPIDATED MAN: "No."
+ARROGANT WITCH: "Gerald — final offer. Keep the trilobite, give up everything else. We archive the collection with full attribution. Your name on the placard."
 
-*Ghost immediately goes silent.*
+*Pause.*
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "He's logged off."
+ARROGANT WITCH: "He's considering it."
 
-DILAPIDATED MAN: "Is the chapter done?"
+OVERCONFIDENT GHOST: "He is sedimentary rock. He is not considering anything."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: *reviewing notes* "We have four hot takes, one race condition diagram, and the phrase 'paradigm shift' nine times."
+ARROGANT WITCH: "And yet somehow he's making more progress than Cursor's PR team."
 
-DILAPIDATED MAN: "That's not an article. That's an HN comment."
+*Another decisive clatter.*
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "He WAS a commenter. We all become what we were in life."
+ARROGANT WITCH: "Gerald said yes. The trilobite stays. I win."
 
-DILAPIDATED MAN: "What are you becoming?"
+OVERCONFIDENT GHOST: "You cannot negotiate with geology and call it a methodology."
 
-SUSPICIOUSLY-CHEERFUL IMAGINARY FRIEND: "Suspiciously cheerful about your eviction threat, honestly!"
+ARROGANT WITCH: "I just did. And I'll be citing it in my paper on AI provenance too. Sometimes the wrapper IS the product, Gerald. Sometimes it isn't. The difference is whether you tell anyone."
+
+*Gerald says nothing. He keeps the trilobite.*
 
 ---
 

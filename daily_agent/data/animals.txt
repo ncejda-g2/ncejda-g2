@@ -14,7 +14,7 @@ lemur
 otter
 capybara
 pangolin
-pigeon
+walrus
 sloth
 gorilla
 chicken
