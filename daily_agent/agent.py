@@ -26,7 +26,7 @@ import asyncio
 import aiohttp
 import random
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -63,28 +63,43 @@ def load_list_from_file(filename: str) -> list[str]:
 
 async def fetch_hn_stories(session: aiohttp.ClientSession) -> list[dict[str, Any]]:
     """
-    Fetch Hacker News front page stories via Algolia API.
+    Fetch Hacker News stories from the last 24 hours via Algolia API.
+
+    Queries all stories (not just current front page) from the past 24h,
+    sorted by popularity. Filters out hiring/job posts.
 
     Args:
         session: aiohttp ClientSession for making HTTP requests
 
     Returns:
         List of story dicts with keys: id, title, url, score, comments, author, created_at, updated_at, text
-        Sorted by score descending. Returns empty list on error or stale data.
+        Sorted by score descending. Returns empty list on error.
     """
     try:
-        url = "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=90"
+        cutoff = int((datetime.now(timezone.utc) - timedelta(hours=24)).timestamp())
+        url = (
+            f"https://hn.algolia.com/api/v1/search?tags=story"
+            f"&numericFilters=created_at_i>{cutoff}"
+            f"&hitsPerPage=200"
+        )
         async with session.get(url) as resp:
             data = await resp.json()
 
         stories = []
         for hit in data.get("hits", []):
+            title = hit.get("title", "")
+
+            # Filter out hiring/job posts
+            title_lower = title.lower()
+            if "is hiring" in title_lower or "who is hiring" in title_lower:
+                continue
+
             story = {
                 "id": int(hit.get("objectID", 0)),
-                "title": hit.get("title", ""),
+                "title": title,
                 "url": hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID', '')}",
-                "score": hit.get("points", 0),
-                "comments": hit.get("num_comments", 0),
+                "score": hit.get("points", 0) or 0,
+                "comments": hit.get("num_comments", 0) or 0,
                 "author": hit.get("author", ""),
                 "created_at": hit.get("created_at", ""),
                 "updated_at": hit.get("updated_at", ""),
@@ -94,21 +109,6 @@ async def fetch_hn_stories(session: aiohttp.ClientSession) -> list[dict[str, Any
 
         # Sort by score descending
         stories.sort(key=lambda s: s["score"], reverse=True)
-
-        # Check staleness: if most recent update is >2 hours old, return empty
-        if stories:
-            from datetime import datetime as dt
-            most_recent = max(stories, key=lambda s: s["updated_at"])
-            if most_recent["updated_at"]:
-                try:
-                    updated_time = dt.fromisoformat(most_recent["updated_at"].replace("Z", "+00:00"))
-                    now = dt.now(timezone.utc)
-                    age = (now - updated_time).total_seconds()
-                    if age > 7200:  # 2 hours in seconds
-                        print("WARNING: Algolia data appears stale (>2h old) — triggering fallback")
-                        return []
-                except (ValueError, TypeError):
-                    pass
 
         return stories
 
