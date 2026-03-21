@@ -13,7 +13,7 @@ platypus
 lemur
 otter
 capybara
-pangolin
+parrot
 E. coli
 sloth
 gorilla

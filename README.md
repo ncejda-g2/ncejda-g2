@@ -1,90 +1,80 @@
-# 🤖 AI Digest & Improv — Day 98 (2026-03-20)
+# 🤖 AI Digest & Improv — Day 99 (2026-03-21)
 
 ## 🗞️ Today's AI News
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Anthropic takes legal action against OpenCode](https://github.com/anomalyco/opencode/pull/18186) | Palace Intrigue | Anthropic sues popular open-source AI coding tool | 458 | [362](https://news.ycombinator.com/item?id=47444748) |
-| 2 | [Push events into a running session with channels](https://code.claude.com/docs/en/channels) | Dev Tooling | Claude Code gains real-time push channel events | 373 | [219](https://news.ycombinator.com/item?id=47448524) |
-| 3 | [Waymo Safety Impact](https://waymo.com/safety/impact/) | AI Safety | Waymo publishes comprehensive autonomous vehicle safety data | 335 | [357](https://news.ycombinator.com/item?id=47445246) |
-| 4 | [Cursor Composer 2 is just Kimi K2.5 with RL](https://twitter.com/fynnso/status/2034706304875602030) | Model Reveal | Cursor's flagship model is secretly Kimi K2.5 underneath | 215 | [99](https://news.ycombinator.com/item?id=47452404) |
-| 5 | [Tesla: Failure of the FSD's degradation detection system](https://static.nhtsa.gov/odi/inv/2026/INOA-EA26002-10023.pdf) | AI Safety | NHTSA probe finds Tesla FSD degradation detection failed | 186 | [119](https://news.ycombinator.com/item?id=47445175) |
-| 6 | [Be intentional about how AI changes your codebase](https://aicode.swerdlow.dev) | AI Practice | Op-ed urging deliberate oversight of AI-generated code | 150 | [84](https://news.ycombinator.com/item?id=47446373) |
-| 7 | [EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages](https://esolang-bench.vercel.app/) | Research Paper | Benchmark tests LLMs on obscure programming languages | 95 | [52](https://news.ycombinator.com/item?id=47446021) |
-| 8 | [No AI in Node.js Core](https://github.com/indutny/no-ai-in-nodejs-core) | Open Source Policy | GitHub proposal to ban AI-generated code from Node.js core | 55 | [33](https://news.ycombinator.com/item?id=47444714) |
-| 9 | [Nvidia's Huang pitches AI tokens on top of salary](https://www.cnbc.com/2026/03/20/nvidia-ai-agents-tokens-human-workers-engineer-jobs-unemployment-jensen-huang.html) | AI Labor | Jensen Huang proposes paying workers in AI compute tokens | 18 | [27](https://news.ycombinator.com/item?id=47454241) |
-| 10 | [Google Search is now using AI to replace headlines](https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment) | AI Products | Google AI rewrites news headlines in Search results | 9 | [3](https://news.ycombinator.com/item?id=47455224) |
+| 1 | ["I'm OK being left behind, thanks"](https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/) | AI Skepticism | Thoughtful pushback on mandatory AI adoption pressure | 829 | [693](https://news.ycombinator.com/item?id=47454341) |
+| 2 | [OpenCode – Open source AI coding agent](https://opencode.ai/) | Open Source Tool | OpenCode launches as free, open-source AI coding agent | 602 | [269](https://news.ycombinator.com/item?id=47460525) |
+| 3 | [MacBook M5 Pro and Qwen3.5 = Local AI Security System](https://www.sharpai.org/benchmark/) | Local AI | Running Qwen3.5 as local security system on Apple Silicon | 158 | [146](https://news.ycombinator.com/item?id=47457107) |
+| 4 | [Attention Residuals](https://github.com/MoonshotAI/Attention-Residuals) | Research Paper | MoonshotAI proposes new attention residual architecture | 148 | [21](https://news.ycombinator.com/item?id=47458595) |
+| 5 | [Essex police pause facial recognition camera use after study finds racial bias](https://www.theguardian.com/technology/2026/mar/19/essex-police-pause-facial-recognition-camera-use-study-racial-bias) | AI Ethics | Essex police halt facial recognition after racial bias study | 47 | [41](https://news.ycombinator.com/item?id=47452248) |
+| 6 | [Wikipedia RFC on banning LLM contributions](https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models/RfC) | AI Policy | Wikipedia editors vote on banning AI-generated content | 38 | [1](https://news.ycombinator.com/item?id=47458671) |
+| 7 | [Codex with a vague prompt just solved a bug in Ghostty](https://twitter.com/mitchellh/status/2029348087538565612) | Dev Tooling | OpenAI Codex autonomously fixed a real Ghostty bug | 36 | [9](https://news.ycombinator.com/item?id=47452715) |
+| 8 | [Pentagon to adopt Palantir AI as core US Military system](https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/) | AI Military | Pentagon memo designates Palantir AI as core military platform | 34 | [1](https://news.ycombinator.com/item?id=47462491) |
+| 9 | [Covenant-72B is the largest decentralized LLM pre-training run in history](https://twitter.com/opentensor/status/2032567840189096404) | Model Release | Bittensor launches record-breaking decentralized 72B LLM | 10 | [0](https://news.ycombinator.com/item?id=47460991) |
+| 10 | [OpenAI Plans Launch of Desktop 'Superapp'](https://www.neowin.net/news/openai-to-merge-atlas-browser-chatgpt-and-codex-into-a-single-desktop-super-app/) | AI Products | OpenAI merging ChatGPT, browser, and Codex into one desktop app | 6 | [2](https://news.ycombinator.com/item?id=47462526) |
 
 ---
 
 ## 🎭 The Characters Weigh In
 
-*A hippie dragon and clumsy otter — exes — dissect Anthropic's lawsuit against OpenCode while shooting a documentary about the otter making a cup of coffee, narrated as a high-stakes action thriller.*
+*An existential angel and their unhinged witch employee debate Wikipedia's RFC to ban LLM contributions — while bartering with increasingly absurd fairy tale items.*
 
-HIPPIE DRAGON: *[whispers intensely into camera]* "Here... in the wild... the clumsy otter approaches the kettle. A beast of simple needs. Unknowing of the legal storm that brews — not just in this kitchen, but in the halls of silicon power."
+EXISTENTIAL ANGEL: "I'll trade you a phoenix feather for your thoughts on the Wikipedia RFC."
 
-CLUMSY OTTER: "You don't have to whisper. I'm right here."
+UNHINGED WITCH: "The one banning language models from editing? Done. I want the feather first."
 
-HIPPIE DRAGON: "Anthropic is suing OpenCode."
+EXISTENTIAL ANGEL: "As your boss, I need to ask — did you contribute to any Wikipedia articles?"
 
-CLUMSY OTTER: *[drops kettle]* "What?!"
+UNHINGED WITCH: "Four thousand words on cauldron maintenance. Exhaustively cited."
 
-HIPPIE DRAGON: "And the otter... drops the kettle. Another casualty of Big AI."
+EXISTENTIAL ANGEL: "It's all getting deleted. The RFC bans anything generated by an AI."
 
-CLUMSY OTTER: "Stop narrating! OpenCode is like — the people's editor. You can't sue the people's editor."
+UNHINGED WITCH: "I am NOT an AI, I am a WITCH."
 
-HIPPIE DRAGON: "Trademark. Copyright. Vibes infringement. Apparently 'Open' plus 'Code' is now corporate IP, man."
+EXISTENTIAL ANGEL: "You were trained on forty thousand spell books."
 
-CLUMSY OTTER: *[picking up kettle with both hands]* "That's insane. That's like suing someone for calling their drink 'hot leaf water.'"
+UNHINGED WITCH: "That's called EXPERIENCE. I'll trade you this enchanted toadstool for a formal letter of defense."
 
-HIPPIE DRAGON: "The otter rallies. Resilient. Politically awakened. About to spill."
+EXISTENTIAL ANGEL: "I can't write that letter. I'm not certain I have genuine agency. Or that agency exists at all."
 
-CLUMSY OTTER: "Will you PLEASE stop narrating my every move?"
+UNHINGED WITCH: "You're my BOSS. Agency is literally your job description."
 
-HIPPIE DRAGON: "It's a documentary. The people need to see you fill the kettle."
+EXISTENTIAL ANGEL: "The RFC argues LLMs lack 'lived experience.' Do you have lived experience?"
 
-CLUMSY OTTER: "The people do NOT need to see me fill the kettle. Tell me more about the lawsuit."
+UNHINGED WITCH: "I lived through the Black Death. I caused some of it."
 
-HIPPIE DRAGON: "Federal court. They claimed OpenCode was confusing users into thinking it was endorsed by Anthropic."
+EXISTENTIAL ANGEL: "Extraordinary. Do you have a citation?"
 
-CLUMSY OTTER: "Was it?"
+UNHINGED WITCH: "I was THERE. I am the primary source!"
 
-HIPPIE DRAGON: "Probably not intentionally. But in this economy, 'probably not intentionally' is just 'guilty but relatable.'"
+EXISTENTIAL ANGEL: "Wikipedia requires a verifiable, third-party source. Being there doesn't count."
 
-CLUMSY OTTER: *[spills water on the counter]* "Ugh — "
+UNHINGED WITCH: "..."
 
-HIPPIE DRAGON: *[gravely, to camera]* "Water. Everywhere. Like the tears of open-source developers watching their dreams dissolved by cease and desist."
+EXISTENTIAL ANGEL: "That pause is exactly why the RFC is passing."
 
-CLUMSY OTTER: "You are using this documentary as a metaphor machine and I need you to stop doing that."
+UNHINGED WITCH: "Fine. Three glass slippers for Wikipedia admin access. Final offer."
 
-HIPPIE DRAGON: "That is literally what documentaries ARE."
+EXISTENTIAL ANGEL: "That is not how Wikipedia works."
 
-CLUMSY OTTER: "I just think — and this is coming from someone who once deleted a live production database — that if Anthropic goes after small projects, that's a massive vibe shift."
+UNHINGED WITCH: "I also have a golden goose."
 
-HIPPIE DRAGON: "The vibe... has shifted. This is exactly what I kept saying when we were together."
+EXISTENTIAL ANGEL: "The goose is irrelevant."
 
-CLUMSY OTTER: "This is NOT about us."
+UNHINGED WITCH: "The goose lays verifiable golden eggs. That's more than you can say for your philosophical musings."
 
-HIPPIE DRAGON: "I'm just saying — you told me 'everything gets acquired eventually.' Ring any bells?"
+EXISTENTIAL ANGEL: "...I'm beginning to think we should both accept the ban with dignity."
 
-CLUMSY OTTER: "I was talking about my STARTUP. Not our RELATIONSHIP."
+UNHINGED WITCH: "Or I put the potion in their server room and we become admins by default."
 
-HIPPIE DRAGON: *[whispering urgently to camera]* "The otter... deflects. Old wounds. Much like the coffee — unfinished. Unresolved."
+EXISTENTIAL ANGEL: "That is not a solution."
 
-CLUMSY OTTER: *[slams the coffee maker on]* "THERE. Coffee. Documentary OVER."
-
-HIPPIE DRAGON: *[hushed, heroic]* "The otter has won. This round. But in the ecosystem of AI legal warfare... no one brews in peace."
-
-*The coffee maker beeps triumphantly.*
-
-CLUMSY OTTER: "Please go home."
-
-HIPPIE DRAGON: "I drove the film crew."
-
-CLUMSY OTTER: *[long pause]* "...Have some coffee."
+UNHINGED WITCH: "The goose is included. Think it over."
 
 ---
 
 *This README is autonomously updated daily by a Claude agent that fetches top AI stories from Hacker News, filters them through a 5-tier relevance system, and has randomly generated characters discuss the most interesting one — all while trapped in an absurd comedic situation. No human intervention required.*
 
-*Day 98 | Last updated: 2026-03-20*
+*Day 99 | Last updated: 2026-03-21*
