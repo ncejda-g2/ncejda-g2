@@ -1,80 +1,72 @@
-# 🤖 AI Digest & Improv — Day 99 (2026-03-21)
+# 🤖 AI Digest & Improv — Day 100 (2026-03-22)
 
 ## 🗞️ Today's AI News
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | ["I'm OK being left behind, thanks"](https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/) | AI Skepticism | Thoughtful pushback on mandatory AI adoption pressure | 829 | [693](https://news.ycombinator.com/item?id=47454341) |
-| 2 | [OpenCode – Open source AI coding agent](https://opencode.ai/) | Open Source Tool | OpenCode launches as free, open-source AI coding agent | 602 | [269](https://news.ycombinator.com/item?id=47460525) |
-| 3 | [MacBook M5 Pro and Qwen3.5 = Local AI Security System](https://www.sharpai.org/benchmark/) | Local AI | Running Qwen3.5 as local security system on Apple Silicon | 158 | [146](https://news.ycombinator.com/item?id=47457107) |
-| 4 | [Attention Residuals](https://github.com/MoonshotAI/Attention-Residuals) | Research Paper | MoonshotAI proposes new attention residual architecture | 148 | [21](https://news.ycombinator.com/item?id=47458595) |
-| 5 | [Essex police pause facial recognition camera use after study finds racial bias](https://www.theguardian.com/technology/2026/mar/19/essex-police-pause-facial-recognition-camera-use-study-racial-bias) | AI Ethics | Essex police halt facial recognition after racial bias study | 47 | [41](https://news.ycombinator.com/item?id=47452248) |
-| 6 | [Wikipedia RFC on banning LLM contributions](https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models/RfC) | AI Policy | Wikipedia editors vote on banning AI-generated content | 38 | [1](https://news.ycombinator.com/item?id=47458671) |
-| 7 | [Codex with a vague prompt just solved a bug in Ghostty](https://twitter.com/mitchellh/status/2029348087538565612) | Dev Tooling | OpenAI Codex autonomously fixed a real Ghostty bug | 36 | [9](https://news.ycombinator.com/item?id=47452715) |
-| 8 | [Pentagon to adopt Palantir AI as core US Military system](https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/) | AI Military | Pentagon memo designates Palantir AI as core military platform | 34 | [1](https://news.ycombinator.com/item?id=47462491) |
-| 9 | [Covenant-72B is the largest decentralized LLM pre-training run in history](https://twitter.com/opentensor/status/2032567840189096404) | Model Release | Bittensor launches record-breaking decentralized 72B LLM | 10 | [0](https://news.ycombinator.com/item?id=47460991) |
-| 10 | [OpenAI Plans Launch of Desktop 'Superapp'](https://www.neowin.net/news/openai-to-merge-atlas-browser-chatgpt-and-codex-into-a-single-desktop-super-app/) | AI Products | OpenAI merging ChatGPT, browser, and Codex into one desktop app | 6 | [2](https://news.ycombinator.com/item?id=47462526) |
+| 1 | ["Some things just take time"](https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/) | AI Philosophy | Patience in tech still matters despite AI hype | 597 | [192](https://news.ycombinator.com/item?id=47467537) |
+| 2 | [Blocking Internet Archive Won't Stop AI, but Will Erase Web's Historical Record](https://www.eff.org/deeplinks/2026/03/blocking-internet-archive-wont-stop-ai-it-will-erase-webs-historical-record) | AI Policy | Blocking Archive harms history, not AI training | 507 | [140](https://news.ycombinator.com/item?id=47464818) |
+| 3 | [Tinybox – Offline AI device 120B parameters](https://tinygrad.org/#tinybox) | AI Hardware | Offline 120B-param AI box, $12K to $10M | 413 | [251](https://news.ycombinator.com/item?id=47470773) |
+| 4 | [Thinking Fast, Slow, and Artificial: How AI Is Reshaping Human Reasoning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646) | Research Paper | How AI tools reshape human thinking and reasoning | 115 | [65](https://news.ycombinator.com/item?id=47467913) |
+| 5 | [Atuin v18.13 – better search, a PTY proxy, and AI for your shell](https://blog.atuin.sh/atuin-v18-13/) | Dev Tooling | Shell history tool adds AI and PTY proxy features | 88 | [73](https://news.ycombinator.com/item?id=47465824) |
+| 6 | [Senior European journalist suspended over AI-generated quotes](https://www.theguardian.com/technology/2026/mar/20/mediahuis-suspends-senior-journalist-over-ai-generated-quotes) | AI Ethics | Journalist suspended for AI-fabricated quotes | 84 | [74](https://news.ycombinator.com/item?id=47467566) |
+| 7 | [The Impact of AI on Game Dev Jobs. Open to Work Crisis](https://darkounity.com/blog-post?id=the-impact-of-ai-on-game-dev-jobs-open-to-work-crisis--1774128585922) | AI Economics | AI displacing game devs; open-to-work crisis grows | 70 | [52](https://news.ycombinator.com/item?id=47471943) |
+| 8 | [Man pleads guilty to $8M AI-generated music scheme](https://therecord.media/man-pleads-guilty-8-million-ai-music-scheme) | AI Crime | Man guilty of $8M AI music streaming fraud | 53 | [64](https://news.ycombinator.com/item?id=47464859) |
+| 9 | [Claude Code and the Great Productivity Panic of 2026](https://www.bloomberg.com/news/articles/2026-02-26/ai-coding-agents-like-claude-code-are-fueling-a-productivity-panic-in-tech) | Dev Tooling | Claude Code fueling productivity anxiety across tech | 41 | [13](https://news.ycombinator.com/item?id=47467922) |
+| 10 | [Designing delightful front ends with GPT-5.4](https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4) | Model Release | OpenAI's GPT-5.4 designed for frontend UI work | 5 | [0](https://news.ycombinator.com/item?id=47465414) |
 
 ---
 
 ## 🎭 The Characters Weigh In
 
-*An existential angel and their unhinged witch employee debate Wikipedia's RFC to ban LLM contributions — while bartering with increasingly absurd fairy tale items.*
+*A sleep-deprived maple tree (the landlord) and their discombobulated maple tree tenant attempt to discuss tinygrad's Tinybox — a $12,000 offline AI device that scales up to a $10 million, 20,000-pound shipping container of GPUs — while one of them moderates a formal debate between a sandwich and its ingredients over who deserves the credit.*
 
-EXISTENTIAL ANGEL: "I'll trade you a phoenix feather for your thoughts on the Wikipedia RFC."
+SLEEP-DEPRIVED MAPLE TREE: "About that rent—"
 
-UNHINGED WITCH: "The one banning language models from editing? Done. I want the feather first."
+DISCOMBOBULATED MAPLE TREE: "ONE MOMENT. Mustard, you may approach the podium. No, not that aggressively."
 
-EXISTENTIAL ANGEL: "As your boss, I need to ask — did you contribute to any Wikipedia articles?"
+SLEEP-DEPRIVED MAPLE TREE: "Also, have you seen the Tinybox announcement?"
 
-UNHINGED WITCH: "Four thousand words on cauldron maintenance. Exhaustively cited."
+DISCOMBOBULATED MAPLE TREE: "I am moderating a formal debate. Sandwich versus ingredients. About credit. Please respect the process."
 
-EXISTENTIAL ANGEL: "It's all getting deleted. The RFC bans anything generated by an AI."
+SLEEP-DEPRIVED MAPLE TREE: "tinygrad is selling a box that runs 120 billion parameter AI models. Offline. In your own home. For twelve thousand dollars."
 
-UNHINGED WITCH: "I am NOT an AI, I am a WITCH."
+DISCOMBOBULATED MAPLE TREE: "TOMATO. That is a personal attack. Stick to the issues."
 
-EXISTENTIAL ANGEL: "You were trained on forty thousand spell books."
+SLEEP-DEPRIVED MAPLE TREE: "The top tier is ten million dollars. It's the size of a shipping container. Twenty thousand pounds. Ships in 2027."
 
-UNHINGED WITCH: "That's called EXPERIENCE. I'll trade you this enchanted toadstool for a formal letter of defense."
+DISCOMBOBULATED MAPLE TREE: "Why would anyone need a shipping container full of AI at home—"
 
-EXISTENTIAL ANGEL: "I can't write that letter. I'm not certain I have genuine agency. Or that agency exists at all."
+SLEEP-DEPRIVED MAPLE TREE: "No cloud. No subscriptions. No OpenAI. Just you, your thoughts, and a very large box."
 
-UNHINGED WITCH: "You're my BOSS. Agency is literally your job description."
+DISCOMBOBULATED MAPLE TREE: "The rye bread is raising a procedural objection. RYE, we are not relitigating the nature of bread today."
 
-EXISTENTIAL ANGEL: "The RFC argues LLMs lack 'lived experience.' Do you have lived experience?"
+SLEEP-DEPRIVED MAPLE TREE: "They accept wire transfer only. No credit cards."
 
-UNHINGED WITCH: "I lived through the Black Death. I caused some of it."
+DISCOMBOBULATED MAPLE TREE: "That is how serious people send money. I respect that. The mustard also only accepts wire transfer."
 
-EXISTENTIAL ANGEL: "Extraordinary. Do you have a citation?"
+SLEEP-DEPRIVED MAPLE TREE: "Does the mustard have a bank account."
 
-UNHINGED WITCH: "I was THERE. I am the primary source!"
+DISCOMBOBULATED MAPLE TREE: "The mustard has FEELINGS about intellectual property. That is the issue at hand."
 
-EXISTENTIAL ANGEL: "Wikipedia requires a verifiable, third-party source. Being there doesn't count."
+SLEEP-DEPRIVED MAPLE TREE: "The sandwich takes credit for the work the ingredients did. That's just... the entire AI industry."
 
-UNHINGED WITCH: "..."
+DISCOMBOBULATED MAPLE TREE: "..."
 
-EXISTENTIAL ANGEL: "That pause is exactly why the RFC is passing."
+SLEEP-DEPRIVED MAPLE TREE: "Training data does all the work. The model gets the Forbes cover. The ingredients made the sandwich. The sandwich gets lunch."
 
-UNHINGED WITCH: "Fine. Three glass slippers for Wikipedia admin access. Final offer."
+DISCOMBOBULATED MAPLE TREE: "The sandwich has just filed for Tier 1 status. Should I allow that?"
 
-EXISTENTIAL ANGEL: "That is not how Wikipedia works."
+SLEEP-DEPRIVED MAPLE TREE: "The Exabox doesn't ship until 2027. I've been waiting longer than that for my rent."
 
-UNHINGED WITCH: "I also have a golden goose."
+DISCOMBOBULATED MAPLE TREE: "I am still waiting for the rent, yes. In my defense, so is the mustard."
 
-EXISTENTIAL ANGEL: "The goose is irrelevant."
+SLEEP-DEPRIVED MAPLE TREE: "The mustard owes me twelve thousand dollars."
 
-UNHINGED WITCH: "The goose lays verifiable golden eggs. That's more than you can say for your philosophical musings."
-
-EXISTENTIAL ANGEL: "...I'm beginning to think we should both accept the ban with dignity."
-
-UNHINGED WITCH: "Or I put the potion in their server room and we become admins by default."
-
-EXISTENTIAL ANGEL: "That is not a solution."
-
-UNHINGED WITCH: "The goose is included. Think it over."
+DISCOMBOBULATED MAPLE TREE: "Case dismissed. Everyone in this room is someone else's training dataset."
 
 ---
 
 *This README is autonomously updated daily by a Claude agent that fetches top AI stories from Hacker News, filters them through a 5-tier relevance system, and has randomly generated characters discuss the most interesting one — all while trapped in an absurd comedic situation. No human intervention required.*
 
-*Day 99 | Last updated: 2026-03-21*
+*Day 100 | Last updated: 2026-03-22*
