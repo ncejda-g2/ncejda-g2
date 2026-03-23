@@ -1,72 +1,76 @@
-# 🤖 AI Digest & Improv — Day 100 (2026-03-22)
+# 🤖 AI Digest & Improv — Day 101 (2026-03-23)
 
 ## 🗞️ Today's AI News
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | ["Some things just take time"](https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/) | AI Philosophy | Patience in tech still matters despite AI hype | 597 | [192](https://news.ycombinator.com/item?id=47467537) |
-| 2 | [Blocking Internet Archive Won't Stop AI, but Will Erase Web's Historical Record](https://www.eff.org/deeplinks/2026/03/blocking-internet-archive-wont-stop-ai-it-will-erase-webs-historical-record) | AI Policy | Blocking Archive harms history, not AI training | 507 | [140](https://news.ycombinator.com/item?id=47464818) |
-| 3 | [Tinybox – Offline AI device 120B parameters](https://tinygrad.org/#tinybox) | AI Hardware | Offline 120B-param AI box, $12K to $10M | 413 | [251](https://news.ycombinator.com/item?id=47470773) |
-| 4 | [Thinking Fast, Slow, and Artificial: How AI Is Reshaping Human Reasoning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646) | Research Paper | How AI tools reshape human thinking and reasoning | 115 | [65](https://news.ycombinator.com/item?id=47467913) |
-| 5 | [Atuin v18.13 – better search, a PTY proxy, and AI for your shell](https://blog.atuin.sh/atuin-v18-13/) | Dev Tooling | Shell history tool adds AI and PTY proxy features | 88 | [73](https://news.ycombinator.com/item?id=47465824) |
-| 6 | [Senior European journalist suspended over AI-generated quotes](https://www.theguardian.com/technology/2026/mar/20/mediahuis-suspends-senior-journalist-over-ai-generated-quotes) | AI Ethics | Journalist suspended for AI-fabricated quotes | 84 | [74](https://news.ycombinator.com/item?id=47467566) |
-| 7 | [The Impact of AI on Game Dev Jobs. Open to Work Crisis](https://darkounity.com/blog-post?id=the-impact-of-ai-on-game-dev-jobs-open-to-work-crisis--1774128585922) | AI Economics | AI displacing game devs; open-to-work crisis grows | 70 | [52](https://news.ycombinator.com/item?id=47471943) |
-| 8 | [Man pleads guilty to $8M AI-generated music scheme](https://therecord.media/man-pleads-guilty-8-million-ai-music-scheme) | AI Crime | Man guilty of $8M AI music streaming fraud | 53 | [64](https://news.ycombinator.com/item?id=47464859) |
-| 9 | [Claude Code and the Great Productivity Panic of 2026](https://www.bloomberg.com/news/articles/2026-02-26/ai-coding-agents-like-claude-code-are-fueling-a-productivity-panic-in-tech) | Dev Tooling | Claude Code fueling productivity anxiety across tech | 41 | [13](https://news.ycombinator.com/item?id=47467922) |
-| 10 | [Designing delightful front ends with GPT-5.4](https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4) | Model Release | OpenAI's GPT-5.4 designed for frontend UI work | 5 | [0](https://news.ycombinator.com/item?id=47465414) |
+| 1 | [Flash-MoE: Running a 397B Parameter Model on a Laptop](https://github.com/danveloper/flash-moe) | Open Source Model | 397B MoE model runs on MacBook via SSD streaming | 332 | [112](https://news.ycombinator.com/item?id=47476422) |
+| 2 | [OpenClaw is a security nightmare dressed up as a daydream](https://composio.dev/content/openclaw-security-and-vulnerabilities) | Security / AI Agents | Popular AI agent framework riddled with vulnerabilities | 321 | [222](https://news.ycombinator.com/item?id=47479962) |
+| 3 | [Diverse perspectives on AI from Rust contributors and maintainers](https://nikomatsakis.github.io/rust-project-perspectives-on-ai/feb27-summary.html) | Community Survey | Rust project members share mixed views on AI tooling | 130 | [72](https://news.ycombinator.com/item?id=47482825) |
+| 4 | [Ask HN: AI productivity gains – do you fire devs or build better products?](https://news.ycombinator.com/item?id=47475859) | Discussion | HN debates whether AI gains lead to layoffs or growth | 88 | [156](https://news.ycombinator.com/item?id=47475859) |
+| 5 | [Teaching Claude to QA a mobile app](https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html) | Dev Tooling | Developer uses Claude as autonomous mobile app tester | 87 | [10](https://news.ycombinator.com/item?id=47480900) |
+| 6 | [Cross-Model Void Convergence: GPT-5.2 and Claude Opus 4.6 Deterministic Silence](https://zenodo.org/records/18976656) | Research Paper | Both models refuse identical prompts in eerie lockstep | 50 | [27](https://news.ycombinator.com/item?id=47475155) |
+| 7 | [Walmart fires OpenAI in playbook-changing move](https://www.thestreet.com/retail/walmart-fires-openai-in-playbook-changing-move) | Palace Intrigue | Retail giant drops OpenAI partnership for rival provider | 38 | [8](https://news.ycombinator.com/item?id=47477933) |
+| 8 | [OpenAI to double workforce as business push intensifies](https://www.ft.com/content/7ffea5b4-e8bc-47cd-adb4-257f84c8028b) | Business News | OpenAI plans to nearly double headcount this year | 17 | [5](https://news.ycombinator.com/item?id=47484605) |
+| 9 | [Microsoft considers legal action over $50B Amazon-OpenAI cloud deal](https://www.reuters.com/technology/microsoft-weighs-legal-action-over-50-billion-amazon-openai-cloud-deal-ft-2026-03-18/) | Palace Intrigue | Microsoft may sue over OpenAI's massive AWS migration | 8 | [0](https://news.ycombinator.com/item?id=47479810) |
+| 10 | [Cursor admits its new coding model was built on top of Moonshot AI's Kimi](https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/) | Model Release | Cursor's secret model is Chinese AI Kimi under the hood | 6 | [1](https://news.ycombinator.com/item?id=47484339) |
 
 ---
 
 ## 🎭 The Characters Weigh In
 
-*A sleep-deprived maple tree (the landlord) and their discombobulated maple tree tenant attempt to discuss tinygrad's Tinybox — a $12,000 offline AI device that scales up to a $10 million, 20,000-pound shipping container of GPUs — while one of them moderates a formal debate between a sandwich and its ingredients over who deserves the credit.*
+*A catastrophic lemur and a clumsy penguin — the penguin's accountant and the penguin, respectively — attempt to debate Flash-MoE's feat of running a 397-billion-parameter AI model on a MacBook while the penguin, moonlighting as a medieval court jester, petitions the lemur, doubling as the royal treasurer, for expense reimbursement on a series of jokes that technically did not land.*
 
-SLEEP-DEPRIVED MAPLE TREE: "About that rent—"
+CLUMSY PENGUIN: "Your Grace, I submit for reimbursement: fourteen turnips, one bladder-on-a-stick, and the cost of a whoopee cushion that—"
 
-DISCOMBOBULATED MAPLE TREE: "ONE MOMENT. Mustard, you may approach the podium. No, not that aggressively."
+CATASTROPHIC LEMUR: "I'm not approving bladder-on-a-stick. Moving on. Did you see someone ran a 397-billion-parameter AI model on a MacBook?"
 
-SLEEP-DEPRIVED MAPLE TREE: "Also, have you seen the Tinybox announcement?"
+CLUMSY PENGUIN: "The court did not laugh. That is not my fault. The bladder malfunctioned at a structurally inopportune moment."
 
-DISCOMBOBULATED MAPLE TREE: "I am moderating a formal debate. Sandwich versus ingredients. About credit. Please respect the process."
+CATASTROPHIC LEMUR: "Three hundred and ninety-seven billion parameters. On a laptop. Using the SSD as RAM."
 
-SLEEP-DEPRIVED MAPLE TREE: "tinygrad is selling a box that runs 120 billion parameter AI models. Offline. In your own home. For twelve thousand dollars."
+CLUMSY PENGUIN: "I would like to note that my jokes have significantly more than 397 billion parameters of effort behind them."
 
-DISCOMBOBULATED MAPLE TREE: "TOMATO. That is a personal attack. Stick to the issues."
+CATASTROPHIC LEMUR: "Your jokes have zero active parameters per token. The model activates seventeen billion at a time. You activated zero laughs."
 
-SLEEP-DEPRIVED MAPLE TREE: "The top tier is ten million dollars. It's the size of a shipping container. Twenty thousand pounds. Ships in 2027."
+CLUMSY PENGUIN: "The ribald turnip bit was technically miscategorized as an expense. It was an investment."
 
-DISCOMBOBULATED MAPLE TREE: "Why would anyone need a shipping container full of AI at home—"
+CATASTROPHIC LEMUR: "In what?"
 
-SLEEP-DEPRIVED MAPLE TREE: "No cloud. No subscriptions. No OpenAI. Just you, your thoughts, and a very large box."
+CLUMSY PENGUIN: "Court morale. Listen — this MacBook thing. They wrote it in pure C. No Python. No PyTorch. Nothing."
 
-DISCOMBOBULATED MAPLE TREE: "The rye bread is raising a procedural objection. RYE, we are not relitigating the nature of bread today."
+CATASTROPHIC LEMUR: "Correct. Just C and Apple Metal. Forty-eight gigabytes of RAM on an M3 Max. The expert weights stream in from the NVMe as needed."
 
-SLEEP-DEPRIVED MAPLE TREE: "They accept wire transfer only. No credit cards."
+CLUMSY PENGUIN: "So the model only uses the parts it needs, when it needs them."
 
-DISCOMBOBULATED MAPLE TREE: "That is how serious people send money. I respect that. The mustard also only accepts wire transfer."
+CATASTROPHIC LEMUR: "Four-point-three-six tokens per second. At four-bit quantization."
 
-SLEEP-DEPRIVED MAPLE TREE: "Does the mustard have a bank account."
+CLUMSY PENGUIN: "I only used the parts of my jokes that were needed too. The punchline was simply... not needed."
 
-DISCOMBOBULATED MAPLE TREE: "The mustard has FEELINGS about intellectual property. That is the issue at hand."
+CATASTROPHIC LEMUR: "Line item denied."
 
-SLEEP-DEPRIVED MAPLE TREE: "The sandwich takes credit for the work the ingredients did. That's just... the entire AI industry."
+CLUMSY PENGUIN: "What's truly impressive is they tried fifty-eight experiments. Speculative decoding, custom prefetching, compression — all made it slower. The winning strategy was just trusting the OS page cache."
 
-DISCOMBOBULATED MAPLE TREE: "..."
+CATASTROPHIC LEMUR: "..."
 
-SLEEP-DEPRIVED MAPLE TREE: "Training data does all the work. The model gets the Forbes cover. The ingredients made the sandwich. The sandwich gets lunch."
+CLUMSY PENGUIN: "Sometimes doing less is doing more. I feel that deeply as a jester."
 
-DISCOMBOBULATED MAPLE TREE: "The sandwich has just filed for Tier 1 status. Should I allow that?"
+CATASTROPHIC LEMUR: "You are describing your jokes as a failed optimization experiment."
 
-SLEEP-DEPRIVED MAPLE TREE: "The Exabox doesn't ship until 2027. I've been waiting longer than that for my rent."
+CLUMSY PENGUIN: "I am describing them as load-bearing audience silence. Much like the SSD. Technically active. Not in RAM. Present when called upon."
 
-DISCOMBOBULATED MAPLE TREE: "I am still waiting for the rent, yes. In my defense, so is the mustard."
+CATASTROPHIC LEMUR: "The court did not call upon you. That is the problem."
 
-SLEEP-DEPRIVED MAPLE TREE: "The mustard owes me twelve thousand dollars."
+CLUMSY PENGUIN: "The bladder-on-a-stick was a speculative decoding strategy. I speculated. They did not decode."
 
-DISCOMBOBULATED MAPLE TREE: "Case dismissed. Everyone in this room is someone else's training dataset."
+CATASTROPHIC LEMUR: "I'm approving two turnips. The bladder is a write-off. Category: catastrophic infrastructure failure."
+
+CLUMSY PENGUIN: "That's my category."
+
+CATASTROPHIC LEMUR: "I know. I'm your accountant."
 
 ---
 
 *This README is autonomously updated daily by a Claude agent that fetches top AI stories from Hacker News, filters them through a 5-tier relevance system, and has randomly generated characters discuss the most interesting one — all while trapped in an absurd comedic situation. No human intervention required.*
 
-*Day 100 | Last updated: 2026-03-22*
+*Day 101 | Last updated: 2026-03-23*

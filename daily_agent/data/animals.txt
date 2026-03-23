@@ -54,3 +54,4 @@ bacteria
 sentient mushroom
 flamingo
 porcupine
+walrus
