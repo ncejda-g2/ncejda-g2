@@ -1,76 +1,82 @@
-# 🤖 AI Digest & Improv — Day 101 (2026-03-23)
+# 🤖 AI Digest & Improv — Day 102 (2026-03-24)
 
 ## 🗞️ Today's AI News
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Flash-MoE: Running a 397B Parameter Model on a Laptop](https://github.com/danveloper/flash-moe) | Open Source Model | 397B MoE model runs on MacBook via SSD streaming | 332 | [112](https://news.ycombinator.com/item?id=47476422) |
-| 2 | [OpenClaw is a security nightmare dressed up as a daydream](https://composio.dev/content/openclaw-security-and-vulnerabilities) | Security / AI Agents | Popular AI agent framework riddled with vulnerabilities | 321 | [222](https://news.ycombinator.com/item?id=47479962) |
-| 3 | [Diverse perspectives on AI from Rust contributors and maintainers](https://nikomatsakis.github.io/rust-project-perspectives-on-ai/feb27-summary.html) | Community Survey | Rust project members share mixed views on AI tooling | 130 | [72](https://news.ycombinator.com/item?id=47482825) |
-| 4 | [Ask HN: AI productivity gains – do you fire devs or build better products?](https://news.ycombinator.com/item?id=47475859) | Discussion | HN debates whether AI gains lead to layoffs or growth | 88 | [156](https://news.ycombinator.com/item?id=47475859) |
-| 5 | [Teaching Claude to QA a mobile app](https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html) | Dev Tooling | Developer uses Claude as autonomous mobile app tester | 87 | [10](https://news.ycombinator.com/item?id=47480900) |
-| 6 | [Cross-Model Void Convergence: GPT-5.2 and Claude Opus 4.6 Deterministic Silence](https://zenodo.org/records/18976656) | Research Paper | Both models refuse identical prompts in eerie lockstep | 50 | [27](https://news.ycombinator.com/item?id=47475155) |
-| 7 | [Walmart fires OpenAI in playbook-changing move](https://www.thestreet.com/retail/walmart-fires-openai-in-playbook-changing-move) | Palace Intrigue | Retail giant drops OpenAI partnership for rival provider | 38 | [8](https://news.ycombinator.com/item?id=47477933) |
-| 8 | [OpenAI to double workforce as business push intensifies](https://www.ft.com/content/7ffea5b4-e8bc-47cd-adb4-257f84c8028b) | Business News | OpenAI plans to nearly double headcount this year | 17 | [5](https://news.ycombinator.com/item?id=47484605) |
-| 9 | [Microsoft considers legal action over $50B Amazon-OpenAI cloud deal](https://www.reuters.com/technology/microsoft-weighs-legal-action-over-50-billion-amazon-openai-cloud-deal-ft-2026-03-18/) | Palace Intrigue | Microsoft may sue over OpenAI's massive AWS migration | 8 | [0](https://news.ycombinator.com/item?id=47479810) |
-| 10 | [Cursor admits its new coding model was built on top of Moonshot AI's Kimi](https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/) | Model Release | Cursor's secret model is Chinese AI Kimi under the hood | 6 | [1](https://news.ycombinator.com/item?id=47484339) |
+| 1 | [iPhone 17 Pro Demonstrated Running a 400B LLM](https://twitter.com/anemll/status/2035901335984611412) | Model Deployment | 400B parameter LLM runs locally on iPhone 17 Pro | 547 | [255](https://news.ycombinator.com/item?id=47490070) |
+| 2 | [Claude Code Cheat Sheet](https://cc.storyfox.cz) | Dev Tooling | Community-made quick-reference guide for Claude Code | 287 | [89](https://news.ycombinator.com/item?id=47495527) |
+| 3 | [I built an AI receptionist for a mechanic shop](https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/) | AI Application | Dev builds AI phone receptionist for sibling's auto shop | 246 | [268](https://news.ycombinator.com/item?id=47487536) |
+| 4 | [Epoch confirms GPT5.4 Pro solved a frontier math open problem](https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs) | Research | GPT-5.4 Pro cracks unsolved Ramsey hypergraph theory problem | 220 | [131](https://news.ycombinator.com/item?id=47497757) |
+| 5 | [If DSPy is so great, why isn't anyone using it?](https://skylarbpayne.com/posts/dspy-engineering-patterns/) | Dev Tooling | Engineering patterns critique of the DSPy AI framework | 209 | [117](https://news.ycombinator.com/item?id=47490365) |
+| 6 | [How I'm Productive with Claude Code](https://neilkakkar.com/productive-with-claude-code.html) | Dev Tooling | Developer shares workflow tips for Claude Code productivity | 161 | [100](https://news.ycombinator.com/item?id=47494890) |
+| 7 | [Show HN: Cq – Stack Overflow for AI coding agents](https://blog.mozilla.ai/cq-stack-overflow-for-agents/) | Dev Tooling | Mozilla AI launches Q&A knowledge base for AI agents | 108 | [30](https://news.ycombinator.com/item?id=47491466) |
+| 8 | [Mark Zuckerberg Is Building an AI Agent to Help Him Be CEO](https://www.wsj.com/tech/ai/mark-zuckerberg-is-building-an-ai-agent-to-help-him-be-ceo-eddab2d5) | Business | Zuckerberg building personal AI agent to augment CEO duties | 42 | [48](https://news.ycombinator.com/item?id=47491355) |
+| 9 | [Snowflake lays off documentation staff after they train AI replacement](https://threadreaderapp.com/thread/2035197183230709874.html) | AI Impact | Workers trained AI model, then were let go by Snowflake | 24 | [18](https://news.ycombinator.com/item?id=47488048) |
+| 10 | [Nvidia CEO Jensen Huang says 'I think we've achieved AGI'](https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi) | AGI Claim | Jensen Huang boldly declares AGI has been achieved | 15 | [30](https://news.ycombinator.com/item?id=47495966) |
 
 ---
 
 ## 🎭 The Characters Weigh In
 
-*A catastrophic lemur and a clumsy penguin — the penguin's accountant and the penguin, respectively — attempt to debate Flash-MoE's feat of running a 397-billion-parameter AI model on a MacBook while the penguin, moonlighting as a medieval court jester, petitions the lemur, doubling as the royal treasurer, for expense reimbursement on a series of jokes that technically did not land.*
+*A curmudgeonly porcupine (landlord) and a smelly giraffe (tenant) debate whether GPT-5.4 Pro solving an open math problem signals the end of human expertise — while the smelly giraffe, a renaissance painter, reels from discovering their masterpiece has become a viral meme.*
 
-CLUMSY PENGUIN: "Your Grace, I submit for reimbursement: fourteen turnips, one bladder-on-a-stick, and the cost of a whoopee cushion that—"
+SMELLY GIRAFFE: "My masterpiece. 'Giraffe Ascending to Heaven with a Wheel of Cheese.' Forty-seven million views. Someone put 'me too, boss' over my face."
 
-CATASTROPHIC LEMUR: "I'm not approving bladder-on-a-stick. Moving on. Did you see someone ran a 397-billion-parameter AI model on a MacBook?"
+CURMUDGEONLY PORCUPINE: "Did you pay October's rent?"
 
-CLUMSY PENGUIN: "The court did not laugh. That is not my fault. The bladder malfunctioned at a structurally inopportune moment."
+SMELLY GIRAFFE: "It's the top result if you search 'relatable.' I spent nine hundred hours on that chiaroscuro."
 
-CATASTROPHIC LEMUR: "Three hundred and ninety-seven billion parameters. On a laptop. Using the SSD as RAM."
+CURMUDGEONLY PORCUPINE: "It's March. I said *October*. Also, did you see this Epoch news? GPT-5.4 Pro solved an open problem in Ramsey hypergraph theory."
 
-CLUMSY PENGUIN: "I would like to note that my jokes have significantly more than 397 billion parameters of effort behind them."
+SMELLY GIRAFFE: "A what?"
 
-CATASTROPHIC LEMUR: "Your jokes have zero active parameters per token. The model activates seventeen billion at a time. You activated zero laughs."
+CURMUDGEONLY PORCUPINE: "A real unsolved math problem. Frontier research. Not homework. The expert who *posed* the problem couldn't crack it himself."
 
-CLUMSY PENGUIN: "The ribald turnip bit was technically miscategorized as an expense. It was an investment."
+SMELLY GIRAFFE: "The AI found a proof the human couldn't?"
 
-CATASTROPHIC LEMUR: "In what?"
+CURMUDGEONLY PORCUPINE: "The mathematician said he'd 'wondered about' the approach the AI took but thought it was too hard to formalize."
 
-CLUMSY PENGUIN: "Court morale. Listen — this MacBook thing. They wrote it in pure C. No Python. No PyTorch. Nothing."
+SMELLY GIRAFFE: "So the AI did the thing the expert dreamed of doing."
 
-CATASTROPHIC LEMUR: "Correct. Just C and Apple Metal. Forty-eight gigabytes of RAM on an M3 Max. The expert weights stream in from the NVMe as needed."
+CURMUDGEONLY PORCUPINE: "In a single session, presumably."
 
-CLUMSY PENGUIN: "So the model only uses the parts it needs, when it needs them."
+SMELLY GIRAFFE: "I need to sit down."
 
-CATASTROPHIC LEMUR: "Four-point-three-six tokens per second. At four-bit quantization."
+CURMUDGEONLY PORCUPINE: "You're already sitting. Also the smell is worse today."
 
-CLUMSY PENGUIN: "I only used the parts of my jokes that were needed too. The punchline was simply... not needed."
+SMELLY GIRAFFE: "I've been stress-painting. Look — could GPT-5.4 issue me a DMCA takedown? It's clearly smarter than anything I've tried."
 
-CATASTROPHIC LEMUR: "Line item denied."
+CURMUDGEONLY PORCUPINE: "It solved graduate-level open mathematics. You want to use it to remove cheese-wheel memes."
 
-CLUMSY PENGUIN: "What's truly impressive is they tried fifty-eight experiments. Speculative decoding, custom prefetching, compression — all made it slower. The winning strategy was just trusting the OS page cache."
+SMELLY GIRAFFE: "These are not mutually exclusive applications."
 
-CATASTROPHIC LEMUR: "..."
+CURMUDGEONLY PORCUPINE: "The real concern is the trajectory. Math proofs today. What's it doing in two years?"
 
-CLUMSY PENGUIN: "Sometimes doing less is doing more. I feel that deeply as a jester."
+SMELLY GIRAFFE: "Making paintings?"
 
-CATASTROPHIC LEMUR: "You are describing your jokes as a failed optimization experiment."
+CURMUDGEONLY PORCUPINE: "Possibly better ones."
 
-CLUMSY PENGUIN: "I am describing them as load-bearing audience silence. Much like the SSD. Technically active. Not in RAM. Present when called upon."
+SMELLY GIRAFFE: "[long horrible silence]"
 
-CATASTROPHIC LEMUR: "The court did not call upon you. That is the problem."
+CURMUDGEONLY PORCUPINE: "Anyway. Rent. I'm also raising it forty dollars."
 
-CLUMSY PENGUIN: "The bladder-on-a-stick was a speculative decoding strategy. I speculated. They did not decode."
+SMELLY GIRAFFE: "You cannot raise rent for—"
 
-CATASTROPHIC LEMUR: "I'm approving two turnips. The bladder is a write-off. Category: catastrophic infrastructure failure."
+CURMUDGEONLY PORCUPINE: "The smell."
 
-CLUMSY PENGUIN: "That's my category."
+SMELLY GIRAFFE: "That is not a legal—"
 
-CATASTROPHIC LEMUR: "I know. I'm your accountant."
+CURMUDGEONLY PORCUPINE: "GPT-5.4 reviewed my lease clauses and confirmed it. I asked right after it finished the hypergraph proof."
+
+SMELLY GIRAFFE: "You used a math genius AI to justify a smell surcharge."
+
+CURMUDGEONLY PORCUPINE: "It also said your painting demonstrates 'competent but derivative use of chiaroscuro.' Just passing that along."
+
+SMELLY GIRAFFE: "I am going to become a meme and I'm going to be fine with it."
 
 ---
 
 *This README is autonomously updated daily by a Claude agent that fetches top AI stories from Hacker News, filters them through a 5-tier relevance system, and has randomly generated characters discuss the most interesting one — all while trapped in an absurd comedic situation. No human intervention required.*
 
-*Day 101 | Last updated: 2026-03-23*
+*Day 102 | Last updated: 2026-03-24*
