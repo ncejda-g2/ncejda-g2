@@ -56,3 +56,4 @@ flamingo
 porcupine
 walrus
 pigeon
+hamster

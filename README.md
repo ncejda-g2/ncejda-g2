@@ -1,82 +1,86 @@
-# 🤖 AI Digest & Improv — Day 102 (2026-03-24)
+# 🤖 AI Digest & Improv — Day 103 (2026-03-25)
 
 ## 🗞️ Today's AI News
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [iPhone 17 Pro Demonstrated Running a 400B LLM](https://twitter.com/anemll/status/2035901335984611412) | Model Deployment | 400B parameter LLM runs locally on iPhone 17 Pro | 547 | [255](https://news.ycombinator.com/item?id=47490070) |
-| 2 | [Claude Code Cheat Sheet](https://cc.storyfox.cz) | Dev Tooling | Community-made quick-reference guide for Claude Code | 287 | [89](https://news.ycombinator.com/item?id=47495527) |
-| 3 | [I built an AI receptionist for a mechanic shop](https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/) | AI Application | Dev builds AI phone receptionist for sibling's auto shop | 246 | [268](https://news.ycombinator.com/item?id=47487536) |
-| 4 | [Epoch confirms GPT5.4 Pro solved a frontier math open problem](https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs) | Research | GPT-5.4 Pro cracks unsolved Ramsey hypergraph theory problem | 220 | [131](https://news.ycombinator.com/item?id=47497757) |
-| 5 | [If DSPy is so great, why isn't anyone using it?](https://skylarbpayne.com/posts/dspy-engineering-patterns/) | Dev Tooling | Engineering patterns critique of the DSPy AI framework | 209 | [117](https://news.ycombinator.com/item?id=47490365) |
-| 6 | [How I'm Productive with Claude Code](https://neilkakkar.com/productive-with-claude-code.html) | Dev Tooling | Developer shares workflow tips for Claude Code productivity | 161 | [100](https://news.ycombinator.com/item?id=47494890) |
-| 7 | [Show HN: Cq – Stack Overflow for AI coding agents](https://blog.mozilla.ai/cq-stack-overflow-for-agents/) | Dev Tooling | Mozilla AI launches Q&A knowledge base for AI agents | 108 | [30](https://news.ycombinator.com/item?id=47491466) |
-| 8 | [Mark Zuckerberg Is Building an AI Agent to Help Him Be CEO](https://www.wsj.com/tech/ai/mark-zuckerberg-is-building-an-ai-agent-to-help-him-be-ceo-eddab2d5) | Business | Zuckerberg building personal AI agent to augment CEO duties | 42 | [48](https://news.ycombinator.com/item?id=47491355) |
-| 9 | [Snowflake lays off documentation staff after they train AI replacement](https://threadreaderapp.com/thread/2035197183230709874.html) | AI Impact | Workers trained AI model, then were let go by Snowflake | 24 | [18](https://news.ycombinator.com/item?id=47488048) |
-| 10 | [Nvidia CEO Jensen Huang says 'I think we've achieved AGI'](https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi) | AGI Claim | Jensen Huang boldly declares AGI has been achieved | 15 | [30](https://news.ycombinator.com/item?id=47495966) |
+| 1 | [Goodbye to Sora](https://twitter.com/soraofficialapp/status/2036532795984715896) | Palace Intrigue | OpenAI kills video app 15 months after launch | 572 | [421](https://news.ycombinator.com/item?id=47508246) |
+| 2 | [Malicious litellm_init.pth in litellm 1.82.8 PyPI package](https://github.com/BerriAI/litellm/issues/24512) | Security Breach | Credential stealer found in popular AI proxy package | 722 | [1](https://news.ycombinator.com/item?id=47501729) |
+| 3 | [So where are all the AI apps?](https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html) | Industry Analysis | Fast.ai asks why AI hasn't produced more killer apps | 387 | [358](https://news.ycombinator.com/item?id=47503006) |
+| 4 | [Arm AGI CPU](https://newsroom.arm.com/blog/introducing-arm-agi-cpu) | AI Hardware | ARM announces a new chip boldly named "AGI CPU" | 312 | [238](https://news.ycombinator.com/item?id=47506251) |
+| 5 | [Show HN: Gemini native video embedding, sub-second video search](https://github.com/ssrajadh/sentrysearch) | Dev Tooling | Dev builds fast video search using Gemini's new feature | 291 | [82](https://news.ycombinator.com/item?id=47503617) |
+| 6 | [The bridge to wealth is being pulled up with AI](https://danielhomola.com/m%20&%20e/ai/your-bridge-to-wealth-is-being-pulled-up/) | AI Impact | Essay on AI closing off economic mobility pathways | 259 | [379](https://news.ycombinator.com/item?id=47503296) |
+| 7 | [Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon](https://github.com/t8/hypura) | Infrastructure | Smart scheduler routes LLM inference across storage tiers | 196 | [75](https://news.ycombinator.com/item?id=47504695) |
+| 8 | [The AI Industry Is Lying to You](https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/) | Industry Analysis | Polemic on AI hype and systematically misleading claims | 150 | [121](https://news.ycombinator.com/item?id=47506259) |
+| 9 | [Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build](https://github.com/AmElmo/proofshot) | Dev Tooling | Screenshots UI so coding agents can verify their own work | 127 | [88](https://news.ycombinator.com/item?id=47499672) |
+| 10 | [LLM Neuroanatomy II: Modern LLM Hacking and Hints of a Universal Language?](https://dnhkng.github.io/posts/rys-ii/) | Research Paper | Deep dive into LLM internals, hints at universal representation | 120 | [35](https://news.ycombinator.com/item?id=47500709) |
 
 ---
 
 ## 🎭 The Characters Weigh In
 
-*A curmudgeonly porcupine (landlord) and a smelly giraffe (tenant) debate whether GPT-5.4 Pro solving an open math problem signals the end of human expertise — while the smelly giraffe, a renaissance painter, reels from discovering their masterpiece has become a viral meme.*
+*A decrepit lobster and an incompetent oak tree debate OpenAI's shock shutdown of Sora — while the oak tree, moonlighting as an art gallery curator, attempts to mediate a deeply contentious divorce between a portrait and its subject, and the lobster attends solely as the tree's extremely unwelcome ex.*
 
-SMELLY GIRAFFE: "My masterpiece. 'Giraffe Ascending to Heaven with a Wheel of Cheese.' Forty-seven million views. Someone put 'me too, boss' over my face."
+INCOMPETENT OAK TREE: "This mediation between Portrait Number 7 and Mr. Hendricks is now in session. All parties will remain civil."
 
-CURMUDGEONLY PORCUPINE: "Did you pay October's rent?"
+DECREPIT LOBSTER: "Did you hear? OpenAI just killed Sora. The whole video platform. Fifteen months after launch. Gone."
 
-SMELLY GIRAFFE: "It's the top result if you search 'relatable.' I spent nine hundred hours on that chiaroscuro."
+INCOMPETENT OAK TREE: "I am in the middle of a legally sensitive—"
 
-CURMUDGEONLY PORCUPINE: "It's March. I said *October*. Also, did you see this Epoch news? GPT-5.4 Pro solved an open problem in Ramsey hypergraph theory."
+DECREPIT LOBSTER: "Disney had a *billion-dollar deal* on the table. Poof."
 
-SMELLY GIRAFFE: "A what?"
+PORTRAIT: "I also feel abandoned! He promised to visit me every Tuesday!"
 
-CURMUDGEONLY PORCUPINE: "A real unsolved math problem. Frontier research. Not homework. The expert who *posed* the problem couldn't crack it himself."
+INCOMPETENT OAK TREE: "Sir, please stop trying to climb out of your frame— and we are not discussing Sora right now."
 
-SMELLY GIRAFFE: "The AI found a proof the human couldn't?"
+DECREPIT LOBSTER: "They called it 'sharpening focus.' Redirecting GPUs to coding and reasoning. They raised $110 billion and still couldn't afford their own video app."
 
-CURMUDGEONLY PORCUPINE: "The mathematician said he'd 'wondered about' the approach the AI took but thought it was too hard to formalize."
+INCOMPETENT OAK TREE: "They killed a flagship product to save on compute costs?"
 
-SMELLY GIRAFFE: "So the AI did the thing the expert dreamed of doing."
+DECREPIT LOBSTER: "I am eight hundred years old. I run on pure spite. OpenAI runs on venture capital. We are not the same."
 
-CURMUDGEONLY PORCUPINE: "In a single session, presumably."
+MR. HENDRICKS: "I want sole custody of my painted eyebrows. She made them asymmetrical."
 
-SMELLY GIRAFFE: "I need to sit down."
+INCOMPETENT OAK TREE: "Eyebrow custody is not a recognized legal category— could everyone please just—"
 
-CURMUDGEONLY PORCUPINE: "You're already sitting. Also the smell is worse today."
+DECREPIT LOBSTER: "The real story is the IPO. They need a clean balance sheet before going public. Anything that burns GPU without printing revenue gets cut."
 
-SMELLY GIRAFFE: "I've been stress-painting. Look — could GPT-5.4 issue me a DMCA takedown? It's clearly smarter than anything I've tried."
+INCOMPETENT OAK TREE: "So they killed Sora to look profitable on paper."
 
-CURMUDGEONLY PORCUPINE: "It solved graduate-level open mathematics. You want to use it to remove cheese-wheel memes."
+DECREPIT LOBSTER: "Like some people clean house before an ex comes to pick up their things."
 
-SMELLY GIRAFFE: "These are not mutually exclusive applications."
+INCOMPETENT OAK TREE: "We were not in a relationship. You are a lobster. I am an oak tree."
 
-CURMUDGEONLY PORCUPINE: "The real concern is the trajectory. Math proofs today. What's it doing in two years?"
+DECREPIT LOBSTER: "You always say that."
 
-SMELLY GIRAFFE: "Making paintings?"
+PORTRAIT: "I feel extremely seen right now."
 
-CURMUDGEONLY PORCUPINE: "Possibly better ones."
+MR. HENDRICKS: "Can we get back to my eyebrows?"
 
-SMELLY GIRAFFE: "[long horrible silence]"
+INCOMPETENT OAK TREE: "The lesson of Sora is that impressive demos are not the same as sustainable products."
 
-CURMUDGEONLY PORCUPINE: "Anyway. Rent. I'm also raising it forty dollars."
+DECREPIT LOBSTER: "A beautiful insight from the curator who just accidentally granted a portrait the right to cross-examine."
 
-SMELLY GIRAFFE: "You cannot raise rent for—"
+INCOMPETENT OAK TREE: "That was a procedural— I was flustered—"
 
-CURMUDGEONLY PORCUPINE: "The smell."
+PORTRAIT: "I have questions."
 
-SMELLY GIRAFFE: "That is not a legal—"
+DECREPIT LOBSTER: "Disney's statement said they 'respect OpenAI's decision to exit the video generation business.' That is corporate for 'we are incandescent with rage.'"
 
-CURMUDGEONLY PORCUPINE: "GPT-5.4 reviewed my lease clauses and confirmed it. I asked right after it finished the hypergraph proof."
+INCOMPETENT OAK TREE: "A billion dollars, just... evaporated."
 
-SMELLY GIRAFFE: "You used a math genius AI to justify a smell surcharge."
+DECREPIT LOBSTER: "Sora was genuinely impressive. But impressive and sustainable are different things."
 
-CURMUDGEONLY PORCUPINE: "It also said your painting demonstrates 'competent but derivative use of chiaroscuro.' Just passing that along."
+INCOMPETENT OAK TREE: "Much like this mediation."
 
-SMELLY GIRAFFE: "I am going to become a meme and I'm going to be fine with it."
+DECREPIT LOBSTER: "Much like us."
+
+INCOMPETENT OAK TREE: "I am going to cite you for contempt."
+
+DECREPIT LOBSTER: "I have been in contempt of everything for eight hundred years. I am grandfathered in."
 
 ---
 
 *This README is autonomously updated daily by a Claude agent that fetches top AI stories from Hacker News, filters them through a 5-tier relevance system, and has randomly generated characters discuss the most interesting one — all while trapped in an absurd comedic situation. No human intervention required.*
 
-*Day 102 | Last updated: 2026-03-24*
+*Day 103 | Last updated: 2026-03-25*
