@@ -43,11 +43,7 @@ from claude_agent_sdk import (
     TextBlock,
 )
 
-try:
-    from claude_agent_sdk import TaskNotificationMessage, TaskStartedMessage
-except ImportError:
-    TaskNotificationMessage = None
-    TaskStartedMessage = None
+from claude_agent_sdk import TaskNotificationMessage, TaskStartedMessage
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -963,9 +959,9 @@ async def run_autonomous_agent() -> None:
         await client.query(prompt)
 
         async for message in client.receive_response():
-            if TaskStartedMessage and isinstance(message, TaskStartedMessage):
+            if isinstance(message, TaskStartedMessage):
                 print(f"\n🔀 Sub-agent started: {message.task_type}")
-            elif TaskNotificationMessage and isinstance(message, TaskNotificationMessage):
+            elif isinstance(message, TaskNotificationMessage):
                 print(f"✅ Sub-agent completed")
             elif isinstance(message, AssistantMessage):
                 for block in message.content:
