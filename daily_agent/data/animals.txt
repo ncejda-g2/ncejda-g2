@@ -57,3 +57,5 @@ porcupine
 walrus
 seagull
 marmot
+pigeon
+hamster

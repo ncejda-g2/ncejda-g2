@@ -9,7 +9,7 @@ elegant
 mischievous
 rotund
 exhausted
-frugal
+glitchy
 enlightened
 apologetic
 arrogant
@@ -84,3 +84,4 @@ aggressively-mediocre
 fiscally-irresponsible
 unraveling
 terminally-curious
+terminally-earnest

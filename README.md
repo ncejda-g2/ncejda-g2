@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Goodbye to Sora](https://twitter.com/soraofficialapp/status/2036532795984715896) | Palace Intrigue | OpenAI kills Sora video app after 15 months | 877 | [640](https://news.ycombinator.com/item?id=47508246) |
-| 2 | [Is anybody else bored of talking about AI?](https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/) | Opinion | Developer confesses AI fatigue to roaring agreement | 677 | [463](https://news.ycombinator.com/item?id=47508745) |
-| 3 | [Show HN: Gemini can now natively embed video, so I built sub-second video search](https://github.com/ssrajadh/sentrysearch) | Dev Tooling | Gemini video embeddings enable instant semantic video search | 377 | [95](https://news.ycombinator.com/item?id=47503617) |
-| 4 | [Arm AGI CPU](https://newsroom.arm.com/blog/introducing-arm-agi-cpu) | AI Hardware | ARM unveils CPU purpose-built for AGI workloads | 369 | [280](https://news.ycombinator.com/item?id=47506251) |
-| 5 | [TurboQuant: Redefining AI efficiency with extreme compression](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/) | Research | Google's extreme quantization slashes LLM inference costs | 300 | [87](https://news.ycombinator.com/item?id=47513475) |
-| 6 | [The bridge to wealth is being pulled up with AI](https://danielhomola.com/m%20&%20e/ai/your-bridge-to-wealth-is-being-pulled-up/) | Opinion | AI threatens traditional economic mobility pathways | 263 | [390](https://news.ycombinator.com/item?id=47503296) |
-| 7 | [Disney Exits OpenAI Deal After AI Giant Shutters Sora](https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/) | Palace Intrigue | Disney's $1B OpenAI partnership collapses with Sora | 204 | [3](https://news.ycombinator.com/item?id=47509234) |
-| 8 | [Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon](https://github.com/t8/hypura) | Infrastructure | LLM scheduler optimizes unified memory tiers on Apple Silicon | 210 | [82](https://news.ycombinator.com/item?id=47504695) |
-| 9 | [The AI Industry Is Lying to You](https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/) | Opinion | Scathing critique of AI industry's misleading capability claims | 155 | [124](https://news.ycombinator.com/item?id=47506259) |
-| 10 | [Local LLM App by Ente](https://ente.com/blog/ensu/) | Dev Tooling | Privacy-first local LLM app from the photo storage folks | 99 | [36](https://news.ycombinator.com/item?id=47516650) |
+| 1 | [Goodbye to Sora](https://twitter.com/soraofficialapp/status/2036532795984715896) | Palace Intrigue | OpenAI kills video app 15 months after launch | 572 | [421](https://news.ycombinator.com/item?id=47508246) |
+| 2 | [Malicious litellm_init.pth in litellm 1.82.8 PyPI package](https://github.com/BerriAI/litellm/issues/24512) | Security Breach | Credential stealer found in popular AI proxy package | 722 | [1](https://news.ycombinator.com/item?id=47501729) |
+| 3 | [So where are all the AI apps?](https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html) | Industry Analysis | Fast.ai asks why AI hasn't produced more killer apps | 387 | [358](https://news.ycombinator.com/item?id=47503006) |
+| 4 | [Arm AGI CPU](https://newsroom.arm.com/blog/introducing-arm-agi-cpu) | AI Hardware | ARM announces a new chip boldly named "AGI CPU" | 312 | [238](https://news.ycombinator.com/item?id=47506251) |
+| 5 | [Show HN: Gemini native video embedding, sub-second video search](https://github.com/ssrajadh/sentrysearch) | Dev Tooling | Dev builds fast video search using Gemini's new feature | 291 | [82](https://news.ycombinator.com/item?id=47503617) |
+| 6 | [The bridge to wealth is being pulled up with AI](https://danielhomola.com/m%20&%20e/ai/your-bridge-to-wealth-is-being-pulled-up/) | AI Impact | Essay on AI closing off economic mobility pathways | 259 | [379](https://news.ycombinator.com/item?id=47503296) |
+| 7 | [Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon](https://github.com/t8/hypura) | Infrastructure | Smart scheduler routes LLM inference across storage tiers | 196 | [75](https://news.ycombinator.com/item?id=47504695) |
+| 8 | [The AI Industry Is Lying to You](https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/) | Industry Analysis | Polemic on AI hype and systematically misleading claims | 150 | [121](https://news.ycombinator.com/item?id=47506259) |
+| 9 | [Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build](https://github.com/AmElmo/proofshot) | Dev Tooling | Screenshots UI so coding agents can verify their own work | 127 | [88](https://news.ycombinator.com/item?id=47499672) |
+| 10 | [LLM Neuroanatomy II: Modern LLM Hacking and Hints of a Universal Language?](https://dnhkng.github.io/posts/rys-ii/) | Research Paper | Deep dive into LLM internals, hints at universal representation | 120 | [35](https://news.ycombinator.com/item?id=47500709) |
 
 ---
 
