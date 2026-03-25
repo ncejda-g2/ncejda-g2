@@ -25,20 +25,25 @@ Workflow:
 import asyncio
 import aiohttp
 import random
+import re
 import sys
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+
+import feedparser
+from bs4 import BeautifulSoup
 
 from claude_agent_sdk import (
     AgentDefinition,
     AssistantMessage,
     ClaudeAgentOptions,
     ClaudeSDKClient,
-    TaskNotificationMessage,
-    TaskStartedMessage,
     TextBlock,
 )
+
+from claude_agent_sdk import TaskNotificationMessage, TaskStartedMessage
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -142,6 +147,361 @@ def format_stories_for_prompt(stories: list[dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
+# ---------------------------------------------------------------------------
+# AI Lab Blog Fetching (OpenAI, Google AI, Anthropic)
+# ---------------------------------------------------------------------------
+
+_RSS_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; AINewspaper/1.0; +https://github.com/ncejda/ncejda-g2)"
+}
+
+
+async def fetch_rss_posts(
+    session: aiohttp.ClientSession,
+    feed_url: str,
+    source_name: str,
+    max_age_days: int = 2,
+) -> list[dict[str, Any]]:
+    """
+    Fetch and parse an RSS/Atom feed, returning recent posts.
+
+    Args:
+        session: aiohttp ClientSession for making HTTP requests
+        feed_url: URL of the RSS/Atom feed
+        source_name: Human-readable label (e.g. "OpenAI", "Google AI")
+        max_age_days: Only include posts published within this many days
+
+    Returns:
+        List of post dicts with keys: title, url, date, date_obj, source, summary, category
+    """
+    try:
+        async with session.get(
+            feed_url,
+            headers=_RSS_HEADERS,
+            allow_redirects=True,
+            timeout=aiohttp.ClientTimeout(total=15),
+        ) as resp:
+            if resp.status != 200:
+                print(f"WARNING: RSS feed {feed_url} returned status {resp.status}")
+                return []
+            text = await resp.text()
+
+        feed = feedparser.parse(text)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
+
+        posts: list[dict[str, Any]] = []
+        for entry in feed.entries[:30]:
+            # Parse published date
+            published: datetime | None = None
+            for attr in ("published_parsed", "updated_parsed"):
+                parsed = getattr(entry, attr, None)
+                if parsed:
+                    published = datetime(*parsed[:6], tzinfo=timezone.utc)
+                    break
+
+            if published and published < cutoff:
+                continue
+
+            # Extract category/tag
+            category = ""
+            if hasattr(entry, "tags") and entry.tags:
+                category = entry.tags[0].get("term", "")
+
+            post = {
+                "title": entry.get("title", "").strip(),
+                "url": entry.get("link", ""),
+                "date": published.strftime("%b %d, %Y") if published else "Unknown",
+                "date_obj": published,
+                "source": source_name,
+                "summary": (entry.get("summary") or "").strip()[:200],
+                "category": category,
+            }
+            if post["title"] and post["url"]:
+                posts.append(post)
+
+        return posts
+
+    except Exception as e:
+        print(f"WARNING: Failed to fetch RSS feed {feed_url}: {e}")
+        return []
+
+
+async def fetch_anthropic_posts(
+    session: aiohttp.ClientSession,
+    max_age_days: int = 2,
+) -> list[dict[str, Any]]:
+    """
+    Scrape recent blog posts from Anthropic's engineering, news, and research pages.
+
+    Anthropic does not provide an RSS feed, so we parse HTML directly.
+
+    Args:
+        session: aiohttp ClientSession
+        max_age_days: Only include posts published within this many days
+
+    Returns:
+        List of post dicts (same schema as fetch_rss_posts)
+    """
+    pages = [
+        ("https://www.anthropic.com/engineering", "Engineering"),
+        ("https://www.anthropic.com/news", "News"),
+        ("https://www.anthropic.com/research", "Research"),
+    ]
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
+    all_posts: list[dict[str, Any]] = []
+    seen_urls: set[str] = set()
+
+    for page_url, category in pages:
+        try:
+            async with session.get(
+                page_url,
+                headers=_RSS_HEADERS,
+                timeout=aiohttp.ClientTimeout(total=15),
+            ) as resp:
+                if resp.status != 200:
+                    print(f"WARNING: Anthropic {category} page returned {resp.status}")
+                    continue
+                html = await resp.text()
+
+            soup = BeautifulSoup(html, "html.parser")
+
+            for a_tag in soup.find_all("a", href=True):
+                href: str = a_tag["href"]
+
+                # Match blog post URL patterns
+                if not re.match(r"^/(engineering|news|research)/[a-z0-9]", href):
+                    continue
+
+                full_url = f"https://www.anthropic.com{href}"
+                if full_url in seen_urls:
+                    continue
+                seen_urls.add(full_url)
+
+                # Extract title from headings inside the link
+                title = ""
+                heading = a_tag.find(["h2", "h3", "h4"])
+                if heading:
+                    title = heading.get_text(strip=True)
+                if not title:
+                    # Fallback: use meaningful text content
+                    text = a_tag.get_text(" ", strip=True)
+                    cleaned = re.sub(
+                        r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},?\s+\d{4}",
+                        "",
+                        text,
+                    ).strip()
+                    if 10 < len(cleaned) < 200:
+                        title = cleaned
+
+                if not title:
+                    continue
+
+                # Extract date from card text
+                card_text = a_tag.get_text(" ", strip=True)
+                date_str = ""
+                date_obj: datetime | None = None
+                date_match = re.search(
+                    r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},?\s+\d{4}",
+                    card_text,
+                )
+                if date_match:
+                    date_str = date_match.group()
+                    try:
+                        date_obj = datetime.strptime(
+                            date_str.replace(",", ""), "%b %d %Y"
+                        ).replace(tzinfo=timezone.utc)
+                    except ValueError:
+                        pass
+
+                if date_obj and date_obj < cutoff:
+                    continue
+
+                # Determine category from URL path
+                post_category = category
+                if href.startswith("/engineering/"):
+                    post_category = "Engineering"
+                elif href.startswith("/research/"):
+                    post_category = "Research"
+                elif href.startswith("/news/"):
+                    post_category = "News"
+
+                all_posts.append({
+                    "title": title,
+                    "url": full_url,
+                    "date": date_str or "Unknown",
+                    "date_obj": date_obj,
+                    "source": "Anthropic",
+                    "summary": "",
+                    "category": post_category,
+                })
+
+        except Exception as e:
+            print(f"WARNING: Failed to scrape Anthropic {category}: {e}")
+            continue
+
+    return all_posts
+
+
+async def fetch_sitemap_posts(
+    session: aiohttp.ClientSession,
+    sitemap_url: str,
+    source_name: str,
+    url_prefix: str,
+    max_age_days: int = 2,
+) -> list[dict[str, Any]]:
+    """
+    Fetch recent posts from a sitemap.xml, filtering by URL prefix and lastmod date.
+
+    Works for sites like xAI and Mistral that don't offer RSS but have well-structured
+    sitemaps with <lastmod> timestamps.
+
+    Args:
+        session: aiohttp session
+        sitemap_url: URL to the sitemap.xml
+        source_name: Display name (e.g. "xAI", "Mistral")
+        url_prefix: Only include URLs starting with this (e.g. "https://x.ai/news/")
+        max_age_days: How far back to look
+
+    Returns:
+        List of post dicts with title derived from URL slug.
+    """
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
+    posts: list[dict[str, Any]] = []
+
+    try:
+        async with session.get(
+            sitemap_url,
+            headers=_RSS_HEADERS,
+            timeout=aiohttp.ClientTimeout(total=15),
+        ) as resp:
+            if resp.status != 200:
+                print(f"WARNING: {source_name} sitemap returned {resp.status}")
+                return []
+            xml_text = await resp.text()
+    except Exception as e:
+        print(f"WARNING: Failed to fetch {source_name} sitemap: {e}")
+        return []
+
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError as e:
+        print(f"WARNING: Failed to parse {source_name} sitemap XML: {e}")
+        return []
+
+    # Sitemaps use the namespace: http://www.sitemaps.org/schemas/sitemap/0.9
+    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+
+    for url_elem in root.findall("sm:url", ns):
+        loc_elem = url_elem.find("sm:loc", ns)
+        if loc_elem is None or loc_elem.text is None:
+            continue
+
+        loc = loc_elem.text.strip()
+        if not loc.startswith(url_prefix):
+            continue
+
+        slug = loc.removeprefix(url_prefix).strip("/")
+        if not slug:
+            continue
+
+        date_obj: datetime | None = None
+        date_str = ""
+        lastmod_elem = url_elem.find("sm:lastmod", ns)
+        if lastmod_elem is not None and lastmod_elem.text:
+            raw = lastmod_elem.text.strip()
+            # Try ISO format variants: 2026-03-24T12:00:00+00:00 or 2026-03-24
+            for fmt in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d"):
+                try:
+                    date_obj = datetime.strptime(raw, fmt)
+                    if date_obj.tzinfo is None:
+                        date_obj = date_obj.replace(tzinfo=timezone.utc)
+                    date_str = date_obj.strftime("%b %d, %Y")
+                    break
+                except ValueError:
+                    continue
+
+        if date_obj and date_obj < cutoff:
+            continue
+
+        # Derive title from slug: "my-cool-post" → "My Cool Post"
+        title = slug.replace("-", " ").replace("_", " ").title()
+
+        posts.append({
+            "title": title,
+            "url": loc,
+            "date": date_str or "Unknown",
+            "date_obj": date_obj,
+            "source": source_name,
+            "summary": "",
+            "category": "Blog",
+        })
+
+    return posts
+
+
+async def fetch_ai_lab_posts(session: aiohttp.ClientSession) -> list[dict[str, Any]]:
+    """
+    Fetch recent blog posts from all tracked AI labs in parallel.
+
+    Sources: OpenAI (RSS), Google AI (RSS), Anthropic (HTML scraping),
+    xAI (sitemap), Mistral (sitemap).
+
+    Returns:
+        Combined list of posts sorted by date (newest first).
+        Posts without a parseable date appear last.
+    """
+    results = await asyncio.gather(
+        fetch_rss_posts(session, "https://openai.com/blog/rss.xml", "OpenAI"),
+        fetch_rss_posts(session, "https://blog.google/technology/ai/rss/", "Google AI"),
+        fetch_anthropic_posts(session),
+        fetch_sitemap_posts(session, "https://x.ai/sitemap.xml", "xAI", "https://x.ai/news/"),
+        fetch_sitemap_posts(session, "https://mistral.ai/sitemap.xml", "Mistral", "https://mistral.ai/news/"),
+        return_exceptions=True,
+    )
+
+    all_posts: list[dict[str, Any]] = []
+    source_names = ["OpenAI", "Google AI", "Anthropic", "xAI", "Mistral"]
+    for posts, name in zip(results, source_names):
+        if isinstance(posts, BaseException):
+            print(f"WARNING: Failed to fetch {name} posts: {posts}")
+        else:
+            all_posts.extend(posts)
+
+    # Sort newest first; posts without dates go last
+    epoch = datetime.min.replace(tzinfo=timezone.utc)
+    all_posts.sort(key=lambda p: p.get("date_obj") or epoch, reverse=True)
+
+    return all_posts
+
+
+def format_lab_posts_for_prompt(posts: list[dict[str, Any]]) -> str:
+    """
+    Format AI lab posts as a numbered text block for Claude prompt injection.
+
+    Args:
+        posts: List of post dicts from fetch_ai_lab_posts
+
+    Returns:
+        Formatted numbered string, or empty string if no posts
+    """
+    if not posts:
+        return ""
+
+    lines = []
+    for i, post in enumerate(posts, 1):
+        line = (
+            f'{i}. Title: "{post["title"]}" | URL: {post["url"]}'
+            f' | Source: {post["source"]} | Category: {post.get("category", "General")}'
+            f' | Date: {post["date"]}'
+        )
+        if post.get("summary"):
+            line += f" | Summary: {post['summary'][:100]}"
+        lines.append(line)
+
+    return "\n".join(lines)
+
+
 def pick_random_relationship() -> str:
     """Pick a random relationship from the data file."""
     relationships = load_list_from_file("relationships.txt")
@@ -185,6 +545,8 @@ def get_random_situation() -> str:
 def build_digest_prompt(
     stories_text: str,
     story_count: int,
+    lab_posts_text: str,
+    lab_post_count: int,
     situation: str,
     characters_text: str,
     readme_file: Path,
@@ -194,27 +556,18 @@ def build_digest_prompt(
     relationships_file: Path,
     timestamp: str,
 ) -> str:
-    """Build the prompt for normal mode (HN stories available)."""
-    return f"""You are an autonomous agent that updates the file at {readme_file} daily with an AI news digest and a hilarious improv dialog.
+    """Build the prompt for normal mode (HN stories and/or lab posts available)."""
 
-Today's HN stories from the last 24 hours (sorted by score, highest first):
-{stories_text}
+    hn_section = ""
+    if stories_text:
+        hn_section = f"""
+## Step 2: Filter HN Stories
+When you read the README in Step 1, also extract ALL story titles and URLs from the existing news tables (both Hacker News AND AI Labs).
+**Do NOT include any story or post that appeared in yesterday's tables** — readers want fresh content.
 
-Complete this ENTIRE workflow autonomously:
+You have a "classifier" sub-agent available — a fast, cheap Haiku model that can classify all {story_count} stories for AI relevance in one batch. Consider sending it the full numbered story list (titles, URLs, scores — it uses all signals, not just titles). Then apply the tier system and dedup against yesterday's tables yourself.
 
-## Step 1: Determine Day Count
-Read the file at: {readme_file}
-Extract the current day count. Look for a line containing "Day" followed by a number (e.g., "Day 96" or "Days running... 96").
-If no day count found, use 1 as the current count.
-Calculate the new day count by adding 1.
-
-## Step 2: Filter AI Stories
-When you read the README in Step 1, also extract ALL story titles and URLs from the existing news table.
-**Do NOT include any story that appeared in yesterday's table** — even if it's still on the front page. Readers want fresh content.
-
-You have a "classifier" sub-agent available — a fast, cheap Haiku model that can classify all {story_count} stories for AI relevance in one batch. Consider sending it the full numbered story list (titles, URLs, scores — it uses all signals, not just titles). Then apply the tier system and dedup against yesterday's table yourself.
-
-Select up to 10 that are AI-relevant AND NOT in yesterday's table, using this priority system:
+Select up to 10 that are AI-relevant AND NOT in yesterday's tables, using this priority system:
 
 **Tier 1 (highest priority)**: New model releases or major updates from OpenAI, Anthropic, Google, X AI (Grok)
 **Tier 2**: Model developments from smaller companies, open-source models, Chinese AI companies, or alternate architectures (e.g., Nvidia Mamba-based models)
@@ -224,11 +577,51 @@ Select up to 10 that are AI-relevant AND NOT in yesterday's table, using this pr
 
 **Special rule**: The FIRST story in the list (highest score) must always be included if it's AI-related in ANY way, regardless of tier.
 
-If fewer than 10 stories are AI-relevant, include only the ones that qualify. If ZERO stories are AI-relevant, skip the news table and write a note: "No AI news on HN today."
+If fewer than 10 stories are AI-relevant, include only the ones that qualify. If ZERO stories are AI-relevant, skip the HN table and write a note: "No AI news on HN today."
+"""
 
-Select the ONE most interesting/impactful AI story for the characters to discuss in the improv.
+    lab_section = ""
+    if lab_posts_text:
+        lab_section = f"""
+## Step 3: Review AI Lab Posts
+Recent blog posts from OpenAI, Google AI, Anthropic, xAI, and Mistral ({lab_post_count} posts found):
+{lab_posts_text}
 
-## Step 3: Curate Data Files
+Filter these posts for the "From the AI Labs" table. ONLY include posts about:
+- Model releases, updates, or benchmarks
+- Research papers, technical deep-dives, or novel methods
+- Engineering opinion pieces, design philosophy, or architecture insights
+- Developer tools, APIs, or platform capabilities
+
+EXCLUDE posts about:
+- Hiring, job openings, or team announcements
+- C-suite changes or leadership news
+- Lawsuits, legal disputes, or regulatory filings
+- Funding rounds, partnerships, or business deals
+- Generic company PR, event recaps, or awards
+
+If a post title is ambiguous, use WebFetch to skim it before deciding. Dedup against yesterday's AI Labs table to avoid repeats.
+"""
+    elif not stories_text:
+        lab_section = """
+## Step 3: AI Lab Posts
+No recent posts found from AI labs. Skip the AI Labs section.
+"""
+
+    return f"""You are an autonomous agent that updates the file at {readme_file} daily as "The AI Newspaper" — a daily briefing with Hacker News AI stories, official AI lab blog posts, and a comic strip.
+
+{"Today's HN stories from the last 24 hours (sorted by score, highest first):" if stories_text else "No HN stories were available today."}
+{stories_text}
+
+Complete this ENTIRE workflow autonomously:
+
+## Step 1: Determine Day Count
+Read the file at: {readme_file}
+Extract the current day count. Look for a line containing "Day" followed by a number (e.g., "Day 96" or "Days running... 96").
+If no day count found, use 1 as the current count.
+Calculate the new day count by adding 1.
+{hn_section}{lab_section}
+## Step 4: Curate Data Files
 Read ALL four data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
 
 **{adjectives_file}** — Adjectives for character generation
@@ -254,19 +647,19 @@ Read ALL four data files and make exactly ONE edit to EACH file. Each edit is ei
 
 Use the Edit tool for each file. Report what you changed and why.
 
-## Step 4: Research the Story
-Before writing the improv dialog, use WebFetch to read the article you chose in Step 2 — the ONE story the characters will discuss. Skim the actual content so you understand:
+## Step 5: Research the Story
+Pick the ONE most interesting/impactful story from EITHER the HN stories or the AI Lab posts — whichever is most newsworthy today. Use WebFetch to read the article so you understand:
 - What specifically happened (not just the headline)
 - Key facts, numbers, or quotes
 - Why it matters
 
-This prevents the characters from making bold but wrong factual claims. You don't need to research all 10 stories — just the one you're writing about.
+This prevents the characters from making bold but wrong factual claims. You only need to research the one story you're writing about.
 
-## Step 5: Write the Improv Dialog
+## Step 6: Write the Comic Strip
 Characters (2): {characters_text}
 Situation (comedic backdrop): {situation}
 
-The characters are discussing the AI story you selected in Step 2, WHILE dealing with the situation above.
+The characters are discussing the story you selected in Step 5, WHILE dealing with the situation above.
 The situation is the BACKDROP — the AI news is the TOPIC.
 
 Example: "A nervous raccoon and hopeful giraffe debate whether GPT-5 will replace them while simultaneously managing a retirement party where the retiree has barricaded themselves in the office."
@@ -275,30 +668,42 @@ Requirements:
 - Use both characters
 - Format: CHARACTER NAME: "dialog line"
 - 20-30 lines maximum — short and punchy is funnier than long
-- Characters discuss the AI story with opinions, reactions, hot takes
+- Characters discuss the story with opinions, reactions, hot takes
 - The situation creates comedic pressure/interruptions throughout
 - Use the characters' adjectives to inform their personality
 - Have a clear beginning, middle, and punchline ending
 - Keep it clean and work-appropriate
 
-## Step 6: Update {readme_file}
+## Step 7: Update {readme_file}
 Write a new file at: {readme_file}
 Use this EXACT structure:
 
 ```markdown
-# 🤖 AI Digest & Improv — Day [NEW DAY COUNT] ({timestamp})
+# 📰 The AI Newspaper — Day [NEW DAY COUNT] ({timestamp})
 
-## 🗞️ Today's AI News
+*AI curated AI news for humans*
+
+## 🗞️ Hacker News
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
 | 1 | [Story Title](url) | Palace Intrigue | uv/ruff creators acquired by OpenAI | 499 | [341](https://news.ycombinator.com/item?id=...) |
 | 2 | [Story Title](url) | Open Source Tool | GPU-accelerated robot control framework | 351 | [231](https://news.ycombinator.com/item?id=...) |
-[up to 10 rows — only AI-relevant stories]
+[up to 10 rows — only AI-relevant stories, or "No AI news on HN today." if none]
 
 ---
 
-## 🎭 The Characters Weigh In
+## 🔬 From the AI Labs
+
+| # | Post | Lab | Category | Date |
+|---|------|-----|----------|------|
+| 1 | [Post Title](url) | Anthropic | Engineering | Mar 24 |
+| 2 | [Post Title](url) | OpenAI | Research | Mar 23 |
+[all recent lab posts, or "No new lab posts this week." if none]
+
+---
+
+## 🎭 The Comic Strip
 
 *[Narrative sentence: "A [adj] [animal] and [adj] [animal] discuss [story topic] while [situation]..."]*
 
@@ -310,7 +715,7 @@ Use this EXACT structure:
 
 ---
 
-*This README is autonomously updated daily by a Claude agent that fetches top AI stories from Hacker News, filters them through a 5-tier relevance system, and has randomly generated characters discuss the most interesting one — all while trapped in an absurd comedic situation. No human intervention required.*
+*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and has randomly generated animal characters debate the most interesting story — all while trapped in an absurd comedic situation.*
 
 *Day [NEW DAY COUNT] | Last updated: {timestamp}*
 ```
@@ -318,10 +723,12 @@ Use this EXACT structure:
 IMPORTANT formatting rules:
 - Character names in UPPERCASE followed by colon: NERVOUS RACCOON: "line"
 - The narrative sentence in italics (*like this*)
-- Story titles in the table as markdown links: [Title](url)
-- Comments column: link to HN discussion page like [341](https://news.ycombinator.com/item?id=12345) — use the HN Discussion URL provided in the story data
-- Type column: short classification of the story (e.g. "Model Release", "Palace Intrigue", "Open Source Tool", "Research Paper", "Dev Tooling", "Infrastructure", "AI Hardware")
-- Synopsis column: 10 words or fewer describing what the story is about
+- Story titles in both tables as markdown links: [Title](url)
+- HN Comments column: link to HN discussion like [341](https://news.ycombinator.com/item?id=12345)
+- HN Type column: short classification (e.g. "Model Release", "Palace Intrigue", "Open Source Tool", "Research Paper", "Dev Tooling", "Infrastructure", "AI Hardware")
+- HN Synopsis column: 10 words or fewer describing the story
+- AI Labs table: Lab column shows the source (OpenAI, Anthropic, Google AI, xAI, Mistral), Category shows the post type (e.g. "Model Release", "Research", "Engineering", "Developer Tools"), Date is short format (e.g. "Mar 24")
+- If a section has no content, include the section header with an italicized note
 
 Report your progress as you complete each step."""
 
@@ -335,10 +742,10 @@ def build_fallback_prompt(
     relationships_file: Path,
     timestamp: str,
 ) -> str:
-    """Build the prompt for fallback mode (no HN stories available)."""
-    return f"""You are an autonomous agent that updates the file at {readme_file} daily with a hilarious improv dialog.
+    """Build the prompt for fallback mode (no news from any source)."""
+    return f"""You are an autonomous agent that updates the file at {readme_file} daily as "The AI Newspaper."
 
-TODAY THERE ARE NO AI STORIES ON HACKER NEWS.
+TODAY THERE IS NO AI NEWS — nothing from Hacker News, nothing from OpenAI, Anthropic, or Google AI blogs.
 
 The characters exist to discuss AI news. But there is none. This is an existential crisis.
 
@@ -376,12 +783,12 @@ Read ALL four data files and make exactly ONE edit to EACH file. Each edit is ei
 
 Use the Edit tool for each file. Report what you changed and why.
 
-## Step 3: Write the Improv Dialog
+## Step 3: Write the Comic Strip
 Characters (2): {characters_text}
 
 The characters are AI-generated beings whose sole purpose is to react to AI news. Today there is NONE.
 
-Write an improv dialog where the characters CONFRONT the absence of AI news. Play up the existential comedy:
+Write a comic strip dialog where the characters CONFRONT the absence of AI news. Play up the existential comedy:
 - Are they still relevant if there's nothing to discuss?
 - Do they exist if there's no AI news?
 - Can they discuss the absence itself?
@@ -400,13 +807,15 @@ Write a new file at: {readme_file}
 Use this EXACT structure:
 
 ```markdown
-# 🤖 AI Digest & Improv — Day [NEW DAY COUNT] ({timestamp})
+# 📰 The AI Newspaper — Day [NEW DAY COUNT] ({timestamp})
 
-> *No AI news on HN today. The characters are... processing this.*
+*AI curated AI news for humans*
+
+> *No AI news today — nothing from Hacker News, nothing from the labs. The characters are... processing this.*
 
 ---
 
-## 🎭 The Characters Process the Void
+## 🎭 The Comic Strip
 
 *[Narrative sentence describing the existential situation]*
 
@@ -418,7 +827,7 @@ Use this EXACT structure:
 
 ---
 
-*This README is autonomously updated daily by a Claude agent. When AI news is available, it fetches top stories from Hacker News and has characters discuss them. Today there was nothing. The characters handled it... uniquely.*
+*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors OpenAI/Anthropic/Google AI blogs for new posts, and has randomly generated animal characters debate the most interesting story. Today there was nothing. The characters handled it... uniquely.*
 
 *Day [NEW DAY COUNT] | Last updated: {timestamp}*
 ```
@@ -427,36 +836,40 @@ Report your progress as you complete each step."""
 
 
 async def run_autonomous_agent() -> None:
-    """
-    Run the autonomous HN AI digest + improv agent with a single comprehensive prompt.
-    """
+    """Run the autonomous AI Newspaper agent with a single comprehensive prompt."""
 
-    print("Starting HN AI Digest + Improv Agent")
+    print("Starting The AI Newspaper Agent")
     print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Working directory: {PROJECT_ROOT}\n")
 
-    # Step 1: Fetch HN stories
-    print("Fetching HN front page stories...")
     async with aiohttp.ClientSession() as session:
-        stories = await fetch_hn_stories(session)
+        print("Fetching HN stories and AI lab posts in parallel...")
+        hn_task = fetch_hn_stories(session)
+        lab_task = fetch_ai_lab_posts(session)
+        stories, lab_posts = await asyncio.gather(hn_task, lab_task)
 
     if stories:
         print(f"Fetched {len(stories)} stories from HN")
         stories_text = format_stories_for_prompt(stories)
-        fallback_mode = False
     else:
-        print("No HN stories available — running in fallback (classic improv) mode")
+        print("No HN stories available")
         stories_text = ""
-        fallback_mode = True
 
-    # Step 2: Generate character pool (always 3, always dialogue)
+    if lab_posts:
+        print(f"Fetched {len(lab_posts)} posts from AI labs")
+        lab_posts_text = format_lab_posts_for_prompt(lab_posts)
+    else:
+        print("No recent AI lab posts found")
+        lab_posts_text = ""
+
+    has_any_news = bool(stories_text or lab_posts_text)
+
     characters = generate_random_characters(2)
     relationship = pick_random_relationship()
     characters_text = ", ".join(characters)
     characters_text += f"\nRelationship twist: {characters[0]} is {characters[1]}'s {relationship}"
     print(f"Character pool: {characters_text}\n")
 
-    # Get the paths to data files for Claude to edit
     readme_file = PROJECT_ROOT / "README.md"
     situations_file = DATA_DIR / "situations.txt"
     adjectives_file = DATA_DIR / "adjectives.txt"
@@ -465,7 +878,6 @@ async def run_autonomous_agent() -> None:
 
     timestamp = datetime.now().strftime("%Y-%m-%d")
 
-    # Configure agent options
     options = ClaudeAgentOptions(
         allowed_tools=[
             "Read",
@@ -511,14 +923,14 @@ async def run_autonomous_agent() -> None:
         },
     )
 
-    # Build the prompt based on mode
-    if not fallback_mode:
-        # Pick random situation only in normal mode
+    if has_any_news:
         situation = get_random_situation()
         print(f"Situation: {situation}")
         prompt = build_digest_prompt(
             stories_text=stories_text,
             story_count=len(stories),
+            lab_posts_text=lab_posts_text,
+            lab_post_count=len(lab_posts),
             situation=situation,
             characters_text=characters_text,
             readme_file=readme_file,
@@ -529,6 +941,7 @@ async def run_autonomous_agent() -> None:
             timestamp=timestamp,
         )
     else:
+        print("No news from any source — running in fallback mode")
         prompt = build_fallback_prompt(
             characters_text=characters_text,
             readme_file=readme_file,
@@ -545,7 +958,6 @@ async def run_autonomous_agent() -> None:
 
         await client.query(prompt)
 
-        # Stream Claude's response and print progress
         async for message in client.receive_response():
             if isinstance(message, TaskStartedMessage):
                 print(f"\n🔀 Sub-agent started: {message.task_type}")

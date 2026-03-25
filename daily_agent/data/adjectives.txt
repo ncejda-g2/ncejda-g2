@@ -82,4 +82,6 @@ persnickety
 suspiciously-cheerful
 aggressively-mediocre
 fiscally-irresponsible
+unraveling
+terminally-curious
 terminally-earnest

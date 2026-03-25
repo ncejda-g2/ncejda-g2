@@ -55,5 +55,7 @@ sentient mushroom
 flamingo
 porcupine
 walrus
+seagull
+marmot
 pigeon
 hamster

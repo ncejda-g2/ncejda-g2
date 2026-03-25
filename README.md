@@ -1,6 +1,8 @@
-# 🤖 AI Digest & Improv — Day 103 (2026-03-25)
+# 📰 The AI Newspaper — Day 103 (2026-03-25)
 
-## 🗞️ Today's AI News
+*AI curated AI news for humans*
+
+## 🗞️ Hacker News
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
@@ -17,70 +19,76 @@
 
 ---
 
-## 🎭 The Characters Weigh In
+## 🔬 From the AI Labs
 
-*A decrepit lobster and an incompetent oak tree debate OpenAI's shock shutdown of Sora — while the oak tree, moonlighting as an art gallery curator, attempts to mediate a deeply contentious divorce between a portrait and its subject, and the lobster attends solely as the tree's extremely unwelcome ex.*
-
-INCOMPETENT OAK TREE: "This mediation between Portrait Number 7 and Mr. Hendricks is now in session. All parties will remain civil."
-
-DECREPIT LOBSTER: "Did you hear? OpenAI just killed Sora. The whole video platform. Fifteen months after launch. Gone."
-
-INCOMPETENT OAK TREE: "I am in the middle of a legally sensitive—"
-
-DECREPIT LOBSTER: "Disney had a *billion-dollar deal* on the table. Poof."
-
-PORTRAIT: "I also feel abandoned! He promised to visit me every Tuesday!"
-
-INCOMPETENT OAK TREE: "Sir, please stop trying to climb out of your frame— and we are not discussing Sora right now."
-
-DECREPIT LOBSTER: "They called it 'sharpening focus.' Redirecting GPUs to coding and reasoning. They raised $110 billion and still couldn't afford their own video app."
-
-INCOMPETENT OAK TREE: "They killed a flagship product to save on compute costs?"
-
-DECREPIT LOBSTER: "I am eight hundred years old. I run on pure spite. OpenAI runs on venture capital. We are not the same."
-
-MR. HENDRICKS: "I want sole custody of my painted eyebrows. She made them asymmetrical."
-
-INCOMPETENT OAK TREE: "Eyebrow custody is not a recognized legal category— could everyone please just—"
-
-DECREPIT LOBSTER: "The real story is the IPO. They need a clean balance sheet before going public. Anything that burns GPU without printing revenue gets cut."
-
-INCOMPETENT OAK TREE: "So they killed Sora to look profitable on paper."
-
-DECREPIT LOBSTER: "Like some people clean house before an ex comes to pick up their things."
-
-INCOMPETENT OAK TREE: "We were not in a relationship. You are a lobster. I am an oak tree."
-
-DECREPIT LOBSTER: "You always say that."
-
-PORTRAIT: "I feel extremely seen right now."
-
-MR. HENDRICKS: "Can we get back to my eyebrows?"
-
-INCOMPETENT OAK TREE: "The lesson of Sora is that impressive demos are not the same as sustainable products."
-
-DECREPIT LOBSTER: "A beautiful insight from the curator who just accidentally granted a portrait the right to cross-examine."
-
-INCOMPETENT OAK TREE: "That was a procedural— I was flustered—"
-
-PORTRAIT: "I have questions."
-
-DECREPIT LOBSTER: "Disney's statement said they 'respect OpenAI's decision to exit the video generation business.' That is corporate for 'we are incandescent with rage.'"
-
-INCOMPETENT OAK TREE: "A billion dollars, just... evaporated."
-
-DECREPIT LOBSTER: "Sora was genuinely impressive. But impressive and sustainable are different things."
-
-INCOMPETENT OAK TREE: "Much like this mediation."
-
-DECREPIT LOBSTER: "Much like us."
-
-INCOMPETENT OAK TREE: "I am going to cite you for contempt."
-
-DECREPIT LOBSTER: "I have been in contempt of everything for eight hundred years. I am grandfathered in."
+| # | Post | Lab | Category | Date |
+|---|------|-----|----------|------|
+| 1 | [Helping developers build safer AI experiences for teens](https://openai.com/index/teen-safety-policies-gpt-oss-safeguard) | OpenAI | Safety | Mar 24 |
+| 2 | [Powering product discovery in ChatGPT](https://openai.com/index/powering-product-discovery-in-chatgpt) | OpenAI | Developer Tools | Mar 24 |
+| 3 | [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps) | Anthropic | Engineering | Mar 24 |
+| 4 | [Economic Index report: Learning curves](https://www.anthropic.com/research/economic-index-march-2026-report) | Anthropic | Research | Mar 24 |
+| 5 | [Creating with Sora Safely](https://openai.com/index/creating-with-sora-safely) | OpenAI | Safety | Mar 23 |
+| 6 | [Long-running Claude for scientific computing](https://www.anthropic.com/research/long-running-Claude) | Anthropic | Research | Mar 23 |
+| 7 | [Vibe physics: The AI grad student](https://www.anthropic.com/research/vibe-physics) | Anthropic | Research | Mar 23 |
+| 8 | [How we monitor internal coding agents for misalignment](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment) | OpenAI | Safety | Mar 19 |
+| 9 | [OpenAI to acquire Astral](https://openai.com/index/openai-to-acquire-astral) | OpenAI | Developer Tools | Mar 19 |
 
 ---
 
-*This README is autonomously updated daily by a Claude agent that fetches top AI stories from Hacker News, filters them through a 5-tier relevance system, and has randomly generated characters discuss the most interesting one — all while trapped in an absurd comedic situation. No human intervention required.*
+## 🎭 The Comic Strip
+
+*An oblivious gorilla and a chronically-online dragon debate OpenAI's abrupt shutdown of its Sora video app — and the billion-dollar Disney deal that went down with it — while the dragon is mid-testimony before a congressional subcommittee on whether their prize-winning heirloom tomatoes constitute a national security threat.*
+
+CHRONICALLY-ONLINE DRAGON: "Senator, my Black Prince tomatoes are NOT weaponizable — hold on, have you SEEN that OpenAI killed Sora?"
+
+OBLIVIOUS GORILLA: "I'm just here because you're three days late on rent. What is a Sora?"
+
+CHRONICALLY-ONLINE DRAGON: "It was only the most astonishing AI video generator ever built. Launched in 2025. Most-downloaded iOS app in its category within DAYS."
+
+OBLIVIOUS GORILLA: "Sounds successful. Why'd they kill it?"
+
+CHRONICALLY-ONLINE DRAGON: "GPU costs. IPO pressure. Hollywood threatening lawsuits. Disney had literally given them a BILLION dollars and now that deal is just... gone."
+
+OBLIVIOUS GORILLA: "A billion dollars. Wow."
+
+CHRONICALLY-ONLINE DRAGON: [into microphone] "Mr. Chairman, I request a brief recess to process my parasocial grief."
+
+SENATOR JENKINS [off-panel]: "The tomato hearing is not in recess."
+
+OBLIVIOUS GORILLA: "So Disney paid a billion dollars for a product that is now shutting down after fifteen months."
+
+CHRONICALLY-ONLINE DRAGON: "Disney called it a 'three-year partnership.' OpenAI called it 'refocusing priorities.' I call it the most expensive pivot in recorded history."
+
+OBLIVIOUS GORILLA: "Huh. That's like if I bought your apartment building and then you immediately stopped paying rent."
+
+CHRONICALLY-ONLINE DRAGON: "That is a COMPLETELY different situation and also please lower your voice, I'm on C-SPAN."
+
+SENATOR JENKINS [off-panel]: "Can the tomatoes generate video content?"
+
+CHRONICALLY-ONLINE DRAGON: "They are TOMATOES, Senator. Unlike Sora, they do not require a data center to exist."
+
+OBLIVIOUS GORILLA: "That's actually your strongest argument for why they're not a security threat."
+
+CHRONICALLY-ONLINE DRAGON: "I am aware. I have been posting about this all morning. Three hundred and twelve people have liked my tribute thread."
+
+OBLIVIOUS GORILLA: "Did any of them offer to help with your rent?"
+
+CHRONICALLY-ONLINE DRAGON: "The real tragedy is that OpenAI built a product people actually loved and then decided text and code were more profitable. The internet weeps."
+
+OBLIVIOUS GORILLA: "The internet wept. I need eight hundred dollars."
+
+SENATOR JENKINS [off-panel]: "We'll take a five-minute recess."
+
+CHRONICALLY-ONLINE DRAGON: [immediately typing] "DEVELOPING: Congress acknowledges the Sora shutdown. I am vindicated."
+
+OBLIVIOUS GORILLA: "That's not what happened."
+
+CHRONICALLY-ONLINE DRAGON: "It's called *framing*, and it's the only skill left that AI cannot replicate."
+
+OBLIVIOUS GORILLA: "Pay your rent."
+
+---
+
+*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and has randomly generated animal characters debate the most interesting story — all while trapped in an absurd comedic situation.*
 
 *Day 103 | Last updated: 2026-03-25*
