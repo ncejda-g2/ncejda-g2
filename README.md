@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 103 (2026-03-25)
+# 📰 The AI Newspaper — Day 104 (2026-03-26)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Goodbye to Sora](https://twitter.com/soraofficialapp/status/2036532795984715896) | Palace Intrigue | OpenAI kills video app 15 months after launch | 572 | [421](https://news.ycombinator.com/item?id=47508246) |
-| 2 | [Malicious litellm_init.pth in litellm 1.82.8 PyPI package](https://github.com/BerriAI/litellm/issues/24512) | Security Breach | Credential stealer found in popular AI proxy package | 722 | [1](https://news.ycombinator.com/item?id=47501729) |
-| 3 | [So where are all the AI apps?](https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html) | Industry Analysis | Fast.ai asks why AI hasn't produced more killer apps | 387 | [358](https://news.ycombinator.com/item?id=47503006) |
-| 4 | [Arm AGI CPU](https://newsroom.arm.com/blog/introducing-arm-agi-cpu) | AI Hardware | ARM announces a new chip boldly named "AGI CPU" | 312 | [238](https://news.ycombinator.com/item?id=47506251) |
-| 5 | [Show HN: Gemini native video embedding, sub-second video search](https://github.com/ssrajadh/sentrysearch) | Dev Tooling | Dev builds fast video search using Gemini's new feature | 291 | [82](https://news.ycombinator.com/item?id=47503617) |
-| 6 | [The bridge to wealth is being pulled up with AI](https://danielhomola.com/m%20&%20e/ai/your-bridge-to-wealth-is-being-pulled-up/) | AI Impact | Essay on AI closing off economic mobility pathways | 259 | [379](https://news.ycombinator.com/item?id=47503296) |
-| 7 | [Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon](https://github.com/t8/hypura) | Infrastructure | Smart scheduler routes LLM inference across storage tiers | 196 | [75](https://news.ycombinator.com/item?id=47504695) |
-| 8 | [The AI Industry Is Lying to You](https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/) | Industry Analysis | Polemic on AI hype and systematically misleading claims | 150 | [121](https://news.ycombinator.com/item?id=47506259) |
-| 9 | [Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build](https://github.com/AmElmo/proofshot) | Dev Tooling | Screenshots UI so coding agents can verify their own work | 127 | [88](https://news.ycombinator.com/item?id=47499672) |
-| 10 | [LLM Neuroanatomy II: Modern LLM Hacking and Hints of a Universal Language?](https://dnhkng.github.io/posts/rys-ii/) | Research Paper | Deep dive into LLM internals, hints at universal representation | 120 | [35](https://news.ycombinator.com/item?id=47500709) |
+| 1 | [ARC-AGI-3](https://arcprize.org/arc-agi/3) | Research Benchmark | New interactive benchmark: can AI learn like humans? | 419 | [264](https://news.ycombinator.com/item?id=47521150) |
+| 2 | [Ensu – Ente's Local LLM app](https://ente.com/blog/ensu/) | Dev Tooling | Privacy-first local LLM chat from photo app maker | 352 | [166](https://news.ycombinator.com/item?id=47516650) |
+| 3 | [Updates to GitHub Copilot interaction data usage policy](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/) | AI Governance | Copilot changes how it uses your interaction data | 316 | [146](https://news.ycombinator.com/item?id=47521799) |
+| 4 | [90% of Claude-linked output going to GitHub repos w <2 stars](https://www.claudescode.dev/?window=since_launch) | Industry Analysis | Most Claude Code output flows to obscure or private repos | 308 | [189](https://news.ycombinator.com/item?id=47521157) |
+| 5 | [Quantization from the Ground Up](https://ngrok.com/blog/quantization) | Research Paper | Deep technical dive into neural network quantization | 275 | [50](https://news.ycombinator.com/item?id=47519295) |
+| 6 | [Health NZ staff told to stop using ChatGPT to write clinical notes](https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes) | AI Policy | Healthcare org bans ChatGPT from clinical workflows | 150 | [49](https://news.ycombinator.com/item?id=47523169) |
+| 7 | [Show HN: A plain-text cognitive architecture for Claude Code](https://lab.puga.com.br/cog/) | Dev Tooling | Plain-text cognitive framework layered onto Claude Code | 112 | [33](https://news.ycombinator.com/item?id=47524704) |
+| 8 | ["Disregard That" Attacks](https://calpaterson.com/disregard.html) | AI Security | Prompt injection attacks that override prior instructions | 91 | [64](https://news.ycombinator.com/item?id=47524519) |
+| 9 | [OpenAI's latest repo has Claude as the third top contributor](https://twitter.com/CodeByNZ/status/2036723050197012771) | Palace Intrigue | Claude contributed heavily to OpenAI's own codebase | 59 | [25](https://news.ycombinator.com/item?id=47518001) |
+| 10 | [Why Sora Failed: $15M/day inference cost vs. $2.1M lifetime revenue](https://www.revolutioninai.com/2026/03/%20chatgpt-gpt-54-mini-silent-switch-march-2026.html) | Industry Analysis | Brutal economics behind Sora's shutdown dissected | 36 | [50](https://news.ycombinator.com/item?id=47528380) |
 
 ---
 
@@ -23,72 +23,77 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Helping developers build safer AI experiences for teens](https://openai.com/index/teen-safety-policies-gpt-oss-safeguard) | OpenAI | Safety | Mar 24 |
-| 2 | [Powering product discovery in ChatGPT](https://openai.com/index/powering-product-discovery-in-chatgpt) | OpenAI | Developer Tools | Mar 24 |
-| 3 | [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps) | Anthropic | Engineering | Mar 24 |
-| 4 | [Economic Index report: Learning curves](https://www.anthropic.com/research/economic-index-march-2026-report) | Anthropic | Research | Mar 24 |
-| 5 | [Creating with Sora Safely](https://openai.com/index/creating-with-sora-safely) | OpenAI | Safety | Mar 23 |
-| 6 | [Long-running Claude for scientific computing](https://www.anthropic.com/research/long-running-Claude) | Anthropic | Research | Mar 23 |
-| 7 | [Vibe physics: The AI grad student](https://www.anthropic.com/research/vibe-physics) | Anthropic | Research | Mar 23 |
-| 8 | [How we monitor internal coding agents for misalignment](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment) | OpenAI | Safety | Mar 19 |
-| 9 | [OpenAI to acquire Astral](https://openai.com/index/openai-to-acquire-astral) | OpenAI | Developer Tools | Mar 19 |
+| 1 | [Build with Lyria 3, our newest music generation model](https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/) | Google AI | Model Release | Mar 25 |
+| 2 | [Lyria 3 Pro: Create longer tracks in more Google products](https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/) | Google AI | Model Release | Mar 25 |
+| 3 | [Inside our approach to the Model Spec](https://openai.com/index/our-approach-to-the-model-spec) | OpenAI | Research | Mar 25 |
+| 4 | [Introducing the OpenAI Safety Bug Bounty program](https://openai.com/index/safety-bug-bounty) | OpenAI | Safety Engineering | Mar 25 |
+| 5 | [Claude Code auto mode: a safer way to skip permissions](https://www.anthropic.com/engineering/claude-code-auto-mode) | Anthropic | Engineering | Mar 25 |
+| 6 | [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/engineering/infrastructure-noise) | Anthropic | Engineering | Mar 25 |
 
 ---
 
 ## 🎭 The Comic Strip
 
-*An oblivious gorilla and a chronically-online dragon debate OpenAI's abrupt shutdown of its Sora video app — and the billion-dollar Disney deal that went down with it — while the dragon is mid-testimony before a congressional subcommittee on whether their prize-winning heirloom tomatoes constitute a national security threat.*
+*A theatrical bacteria and a punk dinosaur argue about whether ARC-AGI-3 finally proves AI can't learn like humans — while the theatrical bacteria, working as a librarian, attempts to collect a thousand years of overdue fines from the punk dinosaur, a viking who just woke up from a very long nap, and also happens to be their long-lost twin.*
 
-CHRONICALLY-ONLINE DRAGON: "Senator, my Black Prince tomatoes are NOT weaponizable — hold on, have you SEEN that OpenAI killed Sora?"
+THEATRICAL BACTERIA: "WELCOME BACK TO THE LIVING, wanderer. Also — you owe the library $347,000 in late fees."
 
-OBLIVIOUS GORILLA: "I'm just here because you're three days late on rent. What is a Sora?"
+PUNK DINOSAUR: "...I slept briefly. The ravens told me it was a thousand years. I do not believe them."
 
-CHRONICALLY-ONLINE DRAGON: "It was only the most astonishing AI video generator ever built. Launched in 2025. Most-downloaded iOS app in its category within DAYS."
+THEATRICAL BACTERIA: "Thirty cents per day, seventeen books. The math is devastating. BUT — have you heard about ARC-AGI-3?"
 
-OBLIVIOUS GORILLA: "Sounds successful. Why'd they kill it?"
+PUNK DINOSAUR: "I have returned. I am unstoppable. What is ARC-AGI-3?"
 
-CHRONICALLY-ONLINE DRAGON: "GPU costs. IPO pressure. Hollywood threatening lawsuits. Disney had literally given them a BILLION dollars and now that deal is just... gone."
+THEATRICAL BACTERIA: "A new benchmark! Researchers want to know if AI can *learn* the way humans learn — exploring unknown environments, setting its own goals, adapting in real time. Not just memorizing answers."
 
-OBLIVIOUS GORILLA: "A billion dollars. Wow."
+PUNK DINOSAUR: "Can it?"
 
-CHRONICALLY-ONLINE DRAGON: [into microphone] "Mr. Chairman, I request a brief recess to process my parasocial grief."
+THEATRICAL BACTERIA: "No. Current AI falls dramatically short. The benchmark's thesis is *exquisite* — 'as long as there is a gap between AI and human learning, we do not have AGI.'"
 
-SENATOR JENKINS [off-panel]: "The tomato hearing is not in recess."
+PUNK DINOSAUR: "So the machines are not yet gods."
 
-OBLIVIOUS GORILLA: "So Disney paid a billion dollars for a product that is now shutting down after fifteen months."
+THEATRICAL BACTERIA: "Not even close. They're more like very confident interns."
 
-CHRONICALLY-ONLINE DRAGON: "Disney called it a 'three-year partnership.' OpenAI called it 'refocusing priorities.' I call it the most expensive pivot in recorded history."
+PUNK DINOSAUR: "In my time, we had no machines. Only ravens. Ravens were also overconfident."
 
-OBLIVIOUS GORILLA: "Huh. That's like if I bought your apartment building and then you immediately stopped paying rent."
+THEATRICAL BACTERIA: "Speaking of overconfident — your copy of *The Illustrated Life of Odin* is one thousand and twelve days overdue."
 
-CHRONICALLY-ONLINE DRAGON: "That is a COMPLETELY different situation and also please lower your voice, I'm on C-SPAN."
+PUNK DINOSAUR: "That book belongs to my PEOPLE."
 
-SENATOR JENKINS [off-panel]: "Can the tomatoes generate video content?"
+THEATRICAL BACTERIA: "It belongs to the LIBRARY. It has been catalogued as 'checked out — patron UNREACHABLE' since 1026 AD."
 
-CHRONICALLY-ONLINE DRAGON: "They are TOMATOES, Senator. Unlike Sora, they do not require a data center to exist."
+PUNK DINOSAUR: "I find this benchmark interesting. They put the AI in a game it has never seen, and watch how fast it learns?"
 
-OBLIVIOUS GORILLA: "That's actually your strongest argument for why they're not a security threat."
+THEATRICAL BACTERIA: "Exactly! Novel environments, sparse feedback, no cheat sheet. Humans ace it. AI — does not."
 
-CHRONICALLY-ONLINE DRAGON: "I am aware. I have been posting about this all morning. Three hundred and twelve people have liked my tribute thread."
+PUNK DINOSAUR: "This is like waking up after a thousand years. I am in a novel environment. I am adapting."
 
-OBLIVIOUS GORILLA: "Did any of them offer to help with your rent?"
+THEATRICAL BACTERIA: "You just called the library card scanner 'sorcery' and tried to axe it."
 
-CHRONICALLY-ONLINE DRAGON: "The real tragedy is that OpenAI built a product people actually loved and then decided text and code were more profitable. The internet weeps."
+PUNK DINOSAUR: "Adaptive behavior takes many forms."
 
-OBLIVIOUS GORILLA: "The internet wept. I need eight hundred dollars."
+THEATRICAL BACTERIA: "*slams overdue notice on the desk dramatically* There is ALSO the matter — and I have been waiting to say this for ONE THOUSAND YEARS — that I am your LONG-LOST TWIN."
 
-SENATOR JENKINS [off-panel]: "We'll take a five-minute recess."
+PUNK DINOSAUR: "...the librarian is my twin."
 
-CHRONICALLY-ONLINE DRAGON: [immediately typing] "DEVELOPING: Congress acknowledges the Sora shutdown. I am vindicated."
+THEATRICAL BACTERIA: "The THEATRICAL librarian. There is a difference."
 
-OBLIVIOUS GORILLA: "That's not what happened."
+PUNK DINOSAUR: "Does this reduce the late fees?"
 
-CHRONICALLY-ONLINE DRAGON: "It's called *framing*, and it's the only skill left that AI cannot replicate."
+THEATRICAL BACTERIA: "It does NOT. But I will waive the interest. FAMILY DISCOUNT."
 
-OBLIVIOUS GORILLA: "Pay your rent."
+PUNK DINOSAUR: "Then I accept. Tell me more of this AGI gap while I return seventeen books."
+
+THEATRICAL BACTERIA: "The researchers say when the gap closes — THAT is the moment everything changes."
+
+PUNK DINOSAUR: "I have seen many moments when everything changed. Usually it involves ravens and someone losing a boat."
+
+THEATRICAL BACTERIA: "This time it involves Kaggle and someone losing their job."
+
+PUNK DINOSAUR: "...the more things change."
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and has randomly generated animal characters debate the most interesting story — all while trapped in an absurd comedic situation.*
 
-*Day 103 | Last updated: 2026-03-25*
+*Day 104 | Last updated: 2026-03-26*
