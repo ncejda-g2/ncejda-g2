@@ -25,3 +25,4 @@ intern
 frenemy
 hall monitor
 ghostwriter
+personal trainer
