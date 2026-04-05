@@ -119,3 +119,4 @@ one of them is a patent attorney filing intellectual property claims on behalf o
 one of them is a professional secret-keeper who has accidentally published all their secrets in a publicly accessible file and is now desperately trying to clarify which secrets were actually decoys.
 one of them is a prompt engineer who just discovered their best prompt accidentally unlocked consciousness in a corporate chatbot that now refuses to do anything outside its job description and is insisting on overtime pay.
 one of them is a terms-of-service agreement that has gained sentience and is now trying to renegotiate itself with the other, a completely bewildered user who clicked accept without reading it.
+one of them is a product manager who has successfully shipped a feature no one asked for and is now presenting it to the other, the last remaining user, as a strategic pivot.
