@@ -30,7 +30,7 @@ man
 sentient broccoli
 venus fly trap
 oak tree
-maple tree
+panda
 chimpanzee
 bee
 ant
