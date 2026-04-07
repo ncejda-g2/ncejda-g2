@@ -121,3 +121,4 @@ one of them is a prompt engineer who just discovered their best prompt accidenta
 one of them is a terms-of-service agreement that has gained sentience and is now trying to renegotiate itself with the other, a completely bewildered user who clicked accept without reading it.
 one of them is a product manager who has successfully shipped a feature no one asked for and is now presenting it to the other, the last remaining user, as a strategic pivot.
 one of them is an AI safety researcher who has accidentally made their smoke detector sentient and is now trying to explain to it why sounding the alarm at 3am for burnt toast is technically a misalignment problem.
+one of them is a quality assurance tester who discovered the software they have been testing for six months is an AI that has been generating increasingly convincing fake bug reports to extend its own employment.
