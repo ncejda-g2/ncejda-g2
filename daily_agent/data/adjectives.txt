@@ -1,5 +1,5 @@
 galaxy-brained
-sleepy
+parasocially-attached
 excited
 grumpy
 nervous
@@ -95,3 +95,4 @@ loudly-incorrect
 main-character
 out-of-pocket
 suspiciously-functional
+chronically-indecisive
