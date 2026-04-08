@@ -8,22 +8,23 @@ handles content creation.
 
 Workflow:
 1. Python fetches HN front page stories via Algolia API
-2. Python generates random characters (adjective + animal) and picks a random situation
+2. Python generates random characters (adjective + animal) and picks a random place
 3. Single comprehensive prompt is sent to Claude with Read, Write, Edit tools
 4. Claude autonomously:
    - Reads README.md and extracts day count
    - Filters HN stories for AI relevance (5-tier system)
    - Selects up to 10 AI stories for the digest table
    - Picks ONE story for characters to discuss
-   - Curates four data files (adjectives, animals, situations, relationships)
+   - Curates three data files (adjectives, animals, places)
      with exactly one edit each — add, remove, or replace
-   - Writes improv dialog: characters discuss the AI story while in the random situation
-   - Updates README.md with news table + improv dialog
+   - Writes comic strip dialog: characters discuss the AI story in a random place
+   - Updates README.md with news table + comic strip
 5. GitHub Actions handles the git commit and push
 """
 
 import asyncio
 import aiohttp
+import json
 import random
 import re
 import sys
@@ -43,7 +44,6 @@ from claude_agent_sdk import (
     TextBlock,
 )
 
-from claude_agent_sdk import TaskNotificationMessage, TaskStartedMessage
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -502,10 +502,51 @@ def format_lab_posts_for_prompt(posts: list[dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def pick_random_relationship() -> str:
-    """Pick a random relationship from the data file."""
-    relationships = load_list_from_file("relationships.txt")
-    return random.choice(relationships)
+SEEN_POSTS_FILE = DATA_DIR / "seen_lab_posts.json"
+SEEN_POSTS_MAX_AGE_DAYS = 30
+
+
+def load_seen_posts() -> dict[str, str]:
+    """Load previously seen dateless lab post URLs with their first-seen dates.
+
+    Returns:
+        Dict mapping URL → first-seen date string (YYYY-MM-DD).
+    """
+    if not SEEN_POSTS_FILE.exists():
+        return {}
+    try:
+        data = json.loads(SEEN_POSTS_FILE.read_text())
+        return data.get("posts", {})
+    except (json.JSONDecodeError, KeyError):
+        return {}
+
+
+def save_seen_posts(seen: dict[str, str]) -> None:
+    """Save seen dateless lab post URLs, pruning entries older than 30 days."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=SEEN_POSTS_MAX_AGE_DAYS)
+    cutoff_str = cutoff.strftime("%Y-%m-%d")
+
+    pruned = {url: date for url, date in seen.items() if date >= cutoff_str}
+    SEEN_POSTS_FILE.write_text(json.dumps({"posts": pruned}, indent=2) + "\n")
+
+
+def filter_seen_dateless_posts(
+    posts: list[dict[str, Any]], seen: dict[str, str]
+) -> list[dict[str, Any]]:
+    """Remove dateless posts already included in a previous run."""
+    filtered = []
+    removed = 0
+    for post in posts:
+        if post.get("date_obj") is None and post["url"] in seen:
+            removed += 1
+            continue
+        filtered.append(post)
+    if removed:
+        print(f"Filtered {removed} previously seen dateless post(s)")
+    return filtered
+
+
+
 
 
 def generate_random_characters(count: int) -> list[str]:
@@ -531,15 +572,11 @@ def generate_random_characters(count: int) -> list[str]:
     return characters
 
 
-def get_random_situation() -> str:
-    """
-    Pick a random situation from the data file.
 
-    Returns:
-        A random situation string
-    """
-    situations = load_list_from_file("situations.txt")
-    return random.choice(situations)
+def get_random_place() -> str:
+    """Pick a random place/setting from the data file."""
+    places = load_list_from_file("places.txt")
+    return random.choice(places)
 
 
 def build_digest_prompt(
@@ -547,13 +584,12 @@ def build_digest_prompt(
     story_count: int,
     lab_posts_text: str,
     lab_post_count: int,
-    situation: str,
+    place: str,
     characters_text: str,
     readme_file: Path,
-    situations_file: Path,
     adjectives_file: Path,
     animals_file: Path,
-    relationships_file: Path,
+    places_file: Path,
     timestamp: str,
 ) -> str:
     """Build the prompt for normal mode (HN stories and/or lab posts available)."""
@@ -600,7 +636,7 @@ EXCLUDE posts about:
 - Funding rounds, partnerships, or business deals
 - Generic company PR, event recaps, or awards
 
-If a post title is ambiguous, use WebFetch to skim it before deciding. Dedup against yesterday's AI Labs table to avoid repeats.
+If a post title is ambiguous, use WebFetch to skim it before deciding. Dedup against yesterday's AI Labs table to avoid repeats. (Posts without clear dates that appeared in previous days have already been filtered out.)
 """
     elif not stories_text:
         lab_section = """
@@ -622,7 +658,7 @@ If no day count found, use 1 as the current count.
 Calculate the new day count by adding 1.
 {hn_section}{lab_section}
 ## Step 4: Curate Data Files
-Read ALL four data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
+Read ALL three data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
 
 **{adjectives_file}** — Adjectives for character generation
 - Must be funny, vivid, instantly recognizable (NOT colors, NOT SAT words)
@@ -634,16 +670,10 @@ Read ALL four data files and make exactly ONE edit to EACH file. Each edit is ei
 - Good: 'zebra', 'penguin', 'raccoon'. Bad: 'aye-aye', 'pangolin', 'dugong'
 - Add a fun common animal, OR remove an obscure one, OR replace one
 
-**{situations_file}** — Comedic backdrops for improv scenes
-- Format: starts with "they" or "one of them" to anchor to the animal characters
-- Should be ongoing activities/predicaments, not single moments
-- Prefer ADDING new situations over removing — there are always funny new ones to devise
-- Only remove or replace if one is genuinely trite, stale, or unfunny
-
-**{relationships_file}** — Relationship between the two characters
-- Must be instantly recognizable with comedic potential
-- Good: 'ex', 'landlord', 'parole officer'. Bad: 'acquaintance', 'pen pal'
-- Add a fun relationship, OR remove a weak one, OR replace one
+**{places_file}** — Settings where the comic strip takes place
+- Should be vivid, instantly recognizable locations with comedic potential
+- Good: 'a haunted castle', 'underwater', 'in a broken-down elevator'. Bad: 'a room', 'outside'
+- Add a fun new setting, OR remove a dull one, OR replace a weak one
 
 Use the Edit tool for each file. Report what you changed and why.
 
@@ -657,19 +687,18 @@ This prevents the characters from making bold but wrong factual claims. You only
 
 ## Step 6: Write the Comic Strip
 Characters (2): {characters_text}
-Situation (comedic backdrop): {situation}
+Setting: {place}
 
-The characters are discussing the story you selected in Step 5, WHILE dealing with the situation above.
-The situation is the BACKDROP — the AI news is the TOPIC.
+The characters are {place}, discussing the story you selected in Step 5.
 
-Example: "A nervous raccoon and hopeful giraffe debate whether GPT-5 will replace them while simultaneously managing a retirement party where the retiree has barricaded themselves in the office."
+Example: "A nervous raccoon and a hopeful giraffe discuss GPT-5 in a haunted castle."
 
 Requirements:
 - Use both characters
 - Format: CHARACTER NAME: "dialog line"
 - 20-30 lines maximum — short and punchy is funnier than long
 - Characters discuss the story with opinions, reactions, hot takes
-- The situation creates comedic pressure/interruptions throughout
+- The setting adds atmosphere and occasional comedic flavor — don't force it
 - Use the characters' adjectives to inform their personality
 - Have a clear beginning, middle, and punchline ending
 - Keep it clean and work-appropriate
@@ -705,7 +734,7 @@ Use this EXACT structure:
 
 ## 🎭 The Comic Strip
 
-*[Narrative sentence: "A [adj] [animal] and [adj] [animal] discuss [story topic] while [situation]..."]*
+*[Narrative sentence: "A [adj] [animal] and [adj] [animal] discuss [story topic] [place]..."]*
 
 [CHARACTER NAME 1]: "dialog line"
 
@@ -715,7 +744,7 @@ Use this EXACT structure:
 
 ---
 
-*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and has randomly generated animal characters debate the most interesting story — all while trapped in an absurd comedic situation.*
+*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and has randomly generated animal characters debate the most interesting story in a random setting.*
 
 *Day [NEW DAY COUNT] | Last updated: {timestamp}*
 ```
@@ -734,12 +763,12 @@ Report your progress as you complete each step."""
 
 
 def build_fallback_prompt(
+    place: str,
     characters_text: str,
     readme_file: Path,
-    situations_file: Path,
     adjectives_file: Path,
     animals_file: Path,
-    relationships_file: Path,
+    places_file: Path,
     timestamp: str,
 ) -> str:
     """Build the prompt for fallback mode (no news from any source)."""
@@ -758,7 +787,7 @@ If no day count found, use 1 as the current count.
 Calculate the new day count by adding 1.
 
 ## Step 2: Curate Data Files
-Read ALL four data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
+Read ALL three data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
 
 **{adjectives_file}** — Adjectives for character generation
 - Must be funny, vivid, instantly recognizable (NOT colors, NOT SAT words)
@@ -770,29 +799,23 @@ Read ALL four data files and make exactly ONE edit to EACH file. Each edit is ei
 - Good: 'zebra', 'penguin', 'raccoon'. Bad: 'aye-aye', 'pangolin', 'dugong'
 - Add a fun common animal, OR remove an obscure one, OR replace one
 
-**{situations_file}** — Comedic backdrops for improv scenes
-- Format: starts with "they" or "one of them" to anchor to the animal characters
-- Should be ongoing activities/predicaments, not single moments
-- Prefer ADDING new situations over removing — there are always funny new ones to devise
-- Only remove or replace if one is genuinely trite, stale, or unfunny
-
-**{relationships_file}** — Relationship between the two characters
-- Must be instantly recognizable with comedic potential
-- Good: 'ex', 'landlord', 'parole officer'. Bad: 'acquaintance', 'pen pal'
-- Add a fun relationship, OR remove a weak one, OR replace one
+**{places_file}** — Settings where the comic strip takes place
+- Should be vivid, instantly recognizable locations with comedic potential
+- Good: 'a haunted castle', 'underwater', 'in a broken-down elevator'. Bad: 'a room', 'outside'
+- Add a fun new setting, OR remove a dull one, OR replace a weak one
 
 Use the Edit tool for each file. Report what you changed and why.
 
 ## Step 3: Write the Comic Strip
 Characters (2): {characters_text}
+Setting: {place}
 
-The characters are AI-generated beings whose sole purpose is to react to AI news. Today there is NONE.
+The characters are {place}, confronting the absence of AI news. Today there is NONE.
 
-Write a comic strip dialog where the characters CONFRONT the absence of AI news. Play up the existential comedy:
+Write a comic strip dialog where the characters react to having no AI news to discuss. Play up the existential comedy:
 - Are they still relevant if there's nothing to discuss?
 - Do they exist if there's no AI news?
-- Can they discuss the absence itself?
-- Is this meta? Are they becoming self-aware?
+- The setting should add atmosphere and occasional comedic flavor
 
 Requirements:
 - Use both characters
@@ -817,7 +840,7 @@ Use this EXACT structure:
 
 ## 🎭 The Comic Strip
 
-*[Narrative sentence describing the existential situation]*
+*[Narrative sentence describing the scene]*
 
 [CHARACTER NAME 1]: "dialog line"
 
@@ -848,6 +871,10 @@ async def run_autonomous_agent() -> None:
         lab_task = fetch_ai_lab_posts(session)
         stories, lab_posts = await asyncio.gather(hn_task, lab_task)
 
+    seen_posts = load_seen_posts()
+    if lab_posts:
+        lab_posts = filter_seen_dateless_posts(lab_posts, seen_posts)
+
     if stories:
         print(f"Fetched {len(stories)} stories from HN")
         stories_text = format_stories_for_prompt(stories)
@@ -865,16 +892,15 @@ async def run_autonomous_agent() -> None:
     has_any_news = bool(stories_text or lab_posts_text)
 
     characters = generate_random_characters(2)
-    relationship = pick_random_relationship()
+    place = get_random_place()
     characters_text = ", ".join(characters)
-    characters_text += f"\nRelationship twist: {characters[0]} is {characters[1]}'s {relationship}"
-    print(f"Character pool: {characters_text}\n")
+    print(f"Character pool: {characters_text}")
+    print(f"Setting: {place}\n")
 
     readme_file = PROJECT_ROOT / "README.md"
-    situations_file = DATA_DIR / "situations.txt"
     adjectives_file = DATA_DIR / "adjectives.txt"
     animals_file = DATA_DIR / "animals.txt"
-    relationships_file = DATA_DIR / "relationships.txt"
+    places_file = DATA_DIR / "places.txt"
 
     timestamp = datetime.now().strftime("%Y-%m-%d")
 
@@ -924,53 +950,83 @@ async def run_autonomous_agent() -> None:
     )
 
     if has_any_news:
-        situation = get_random_situation()
-        print(f"Situation: {situation}")
         prompt = build_digest_prompt(
             stories_text=stories_text,
             story_count=len(stories),
             lab_posts_text=lab_posts_text,
             lab_post_count=len(lab_posts),
-            situation=situation,
+            place=place,
             characters_text=characters_text,
             readme_file=readme_file,
-            situations_file=situations_file,
             adjectives_file=adjectives_file,
             animals_file=animals_file,
-            relationships_file=relationships_file,
+            places_file=places_file,
             timestamp=timestamp,
         )
     else:
         print("No news from any source — running in fallback mode")
         prompt = build_fallback_prompt(
+            place=place,
             characters_text=characters_text,
             readme_file=readme_file,
-            situations_file=situations_file,
             adjectives_file=adjectives_file,
             animals_file=animals_file,
-            relationships_file=relationships_file,
+            places_file=places_file,
             timestamp=timestamp,
         )
 
-    async with ClaudeSDKClient(options=options) as client:
-        print("Launching autonomous workflow...\n")
-        print("=" * 60)
+    max_retries = 3
+    initial_backoff_secs = 30
 
-        await client.query(prompt)
+    for attempt in range(1, max_retries + 1):
+        received_content = False
 
-        async for message in client.receive_response():
-            if isinstance(message, TaskStartedMessage):
-                print(f"\n🔀 Sub-agent started: {message.task_type}")
-            elif isinstance(message, TaskNotificationMessage):
-                print(f"✅ Sub-agent completed")
-            elif isinstance(message, AssistantMessage):
-                for block in message.content:
-                    if isinstance(block, TextBlock):
-                        print(block.text)
+        async with ClaudeSDKClient(options=options) as client:
+            print("Launching autonomous workflow...\n")
+            print("=" * 60)
 
-        print("\n" + "=" * 60)
-        print("Agent completed successfully!")
-        print("=" * 60)
+            await client.query(prompt)
+
+            async for message in client.receive_response():
+                if isinstance(message, AssistantMessage):
+                    for block in message.content:
+                        if isinstance(block, TextBlock):
+                            print(block.text)
+                            received_content = True
+
+        readme_updated = (
+            received_content
+            and readme_file.exists()
+            and timestamp in readme_file.read_text()
+        )
+
+        if readme_updated:
+            break
+
+        if attempt < max_retries:
+            backoff = initial_backoff_secs * (2 ** (attempt - 1))
+            print(f"\n{'=' * 60}")
+            print(
+                f"Attempt {attempt}/{max_retries} failed — "
+                f"README not updated. Retrying in {backoff}s..."
+            )
+            print("=" * 60)
+            await asyncio.sleep(backoff)
+        else:
+            raise RuntimeError(
+                f"Agent failed after {max_retries} attempts — README not updated"
+            )
+
+    print("\n" + "=" * 60)
+    print("Agent completed successfully!")
+    print("=" * 60)
+
+    if lab_posts:
+        today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        for post in lab_posts:
+            if post.get("date_obj") is None:
+                seen_posts[post["url"]] = today_str
+        save_seen_posts(seen_posts)
 
 
 if __name__ == "__main__":

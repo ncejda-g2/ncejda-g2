@@ -67,3 +67,5 @@ hippo
 elephant
 ferret
 goat
+zebra
+manatee
