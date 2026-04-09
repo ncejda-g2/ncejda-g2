@@ -26,7 +26,7 @@ alien
 robot
 dinosaur
 woman
-man
+crab
 sentient broccoli
 venus fly trap
 narwhal
