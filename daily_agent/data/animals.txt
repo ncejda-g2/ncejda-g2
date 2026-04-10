@@ -69,3 +69,4 @@ ferret
 goat
 zebra
 manatee
+cheetah
