@@ -70,3 +70,4 @@ goat
 zebra
 manatee
 cheetah
+golden retriever
