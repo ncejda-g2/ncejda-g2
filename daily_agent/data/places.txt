@@ -23,3 +23,4 @@ in a server room during an outage
 at a self-checkout that keeps asking for assistance
 inside a CAPTCHA that won't accept any answer
 in a Silicon Valley ping-pong room at 2am
+inside a Terms of Service agreement

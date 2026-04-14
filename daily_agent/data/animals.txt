@@ -71,3 +71,4 @@ zebra
 manatee
 cheetah
 golden retriever
+wolf
