@@ -72,3 +72,4 @@ manatee
 cheetah
 golden retriever
 wolf
+corgi
