@@ -73,3 +73,4 @@ cheetah
 golden retriever
 wolf
 corgi
+rabbit
