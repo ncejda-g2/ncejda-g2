@@ -18,7 +18,7 @@ mortified
 doom-optimistic
 vibe-coded
 hoity-toity
-hippie
+data-poisoned
 punk
 rockstar
 unhinged

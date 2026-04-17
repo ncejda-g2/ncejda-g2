@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 125 (2026-04-16)
+# 📰 The AI Newspaper — Day 126 (2026-04-17)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Elevated errors on Claude.ai, API, Claude Code](https://claudestatus.com/) | Service Outage | Claude.ai and API hit widespread errors | 242 | [218](https://news.ycombinator.com/item?id=47779730) |
-| 2 | [Does Gas Town 'steal' usage from users' LLM credits to improve itself?](https://github.com/gastownhall/gastown/issues/3649) | Controversy | LLM tool accused of consuming users' API credits | 229 | [112](https://news.ycombinator.com/item?id=47785053) |
-| 3 | [AI-assisted cognition endangers human development?](https://heidenstedt.org/posts/2026/ai-assisted-cognition-endangers-human-development/) | AI Ethics | Essay argues AI assistance stunts human thinking | 221 | [174](https://news.ycombinator.com/item?id=47783024) |
-| 4 | [Gemini Robotics-ER 1.6](https://deepmind.google/blog/gemini-robotics-er-1-6/) | Model Release | Google's new AI brain for autonomous industrial robots | 208 | [69](https://news.ycombinator.com/item?id=47779094) |
-| 5 | [ChatGPT for Excel](https://chatgpt.com/apps/spreadsheets/) | Product Launch | OpenAI brings ChatGPT natively into spreadsheets | 174 | [126](https://news.ycombinator.com/item?id=47785397) |
-| 6 | [AI ruling prompts warnings from US lawyers: Your chats could be used against you](https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/) | AI Policy | Court rules AI chats don't have attorney-client privilege | 148 | [96](https://news.ycombinator.com/item?id=47778308) |
-| 7 | [Darkbloom – Private inference on idle Macs](https://darkbloom.dev) | Open Source Tool | Run private AI inference using idle Mac hardware | 132 | [72](https://news.ycombinator.com/item?id=47788542) |
-| 8 | [The Gemini app is now on Mac](https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/) | Product Launch | Google Gemini lands as a native macOS app | 131 | [63](https://news.ycombinator.com/item?id=47782256) |
-| 9 | [Stop Using Ollama](https://sleepingrobots.com/dreams/stop-using-ollama/) | Dev Opinion | Developer argues against Ollama for local LLM use | 114 | [23](https://news.ycombinator.com/item?id=47788385) |
-| 10 | [CPUs Aren't Dead. Gemma2B Out Scored GPT-3.5 Turbo on Test That Made It Famous](https://seqpu.com/CPUsArentDead/) | Research | Gemma 2B beats GPT-3.5 Turbo on its famous benchmark | 95 | [46](https://news.ycombinator.com/item?id=47781998) |
+| 1 | [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Model Release | Anthropic's new flagship: 13% coding lift, better vision | 1653 | [1175](https://news.ycombinator.com/item?id=47793411) |
+| 2 | [Qwen3.6-35B-A3B: Agentic coding power, now open to all](https://qwen.ai/blog?id=qwen3.6-35b-a3b) | Open Source Model | Alibaba's 35B MoE model with only 3B active params | 1021 | [447](https://news.ycombinator.com/item?id=47792764) |
+| 3 | [Codex for almost everything](https://openai.com/index/codex-for-almost-everything/) | Dev Tooling | OpenAI Codex gains computer use and image generation | 805 | [403](https://news.ycombinator.com/item?id=47796469) |
+| 4 | [€54k spike in 13h from unrestricted Firebase browser key accessing Gemini APIs](https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262) | AI Security | Exposed Firebase key racks up $54k Gemini bill | 383 | [278](https://news.ycombinator.com/item?id=47791871) |
+| 5 | [Cloudflare's AI Platform: an inference layer designed for agents](https://blog.cloudflare.com/ai-platform/) | Infrastructure | Cloudflare builds inference layer designed for AI agents | 267 | [60](https://news.ycombinator.com/item?id=47792538) |
+| 6 | [Codex Hacked a Samsung TV](https://blog.calif.io/p/codex-hacked-a-samsung-tv) | AI Security | AI coding agent successfully exploits Samsung smart TV | 234 | [125](https://news.ycombinator.com/item?id=47791212) |
+| 7 | [AI cybersecurity is not proof of work](https://antirez.com/news/163) | AI Opinion | Antirez: AI security hype lacks real proof-of-work rigor | 219 | [84](https://news.ycombinator.com/item?id=47791236) |
+| 8 | [Android CLI: Build Android apps 3x faster using any agent](https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html) | Dev Tooling | Google tool builds Android apps 3x faster via agents | 197 | [67](https://news.ycombinator.com/item?id=47797665) |
+| 9 | [We gave an AI a 3 year retail lease and asked it to make a profit](https://andonlabs.com/blog/andon-market-launch) | AI Experiment | Startup gave AI a retail lease to earn profit | 191 | [262](https://news.ycombinator.com/item?id=47794391) |
+| 10 | [GPT‑Rosalind for life sciences research](https://openai.com/index/introducing-gpt-rosalind/) | Model Release | OpenAI launches GPT-Rosalind for drug discovery research | 88 | [22](https://news.ycombinator.com/item?id=47798244) |
 
 ---
 
@@ -23,64 +23,78 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Gemini 3.1 Flash TTS: the next generation of expressive AI speech](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/) | Google AI | Model Release | Apr 15 |
-| 2 | [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk/) | OpenAI | Developer Tools | Apr 15 |
-| 3 | [Connectors](https://mistral.ai/news/connectors) | Mistral | Developer Tools | Apr 15 |
+| 1 | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic | Model Release | Apr 16 |
+| 2 | [Codex for (almost) everything](https://openai.com/index/codex-for-almost-everything) | OpenAI | Developer Tools | Apr 16 |
+| 3 | [Introducing GPT-Rosalind for life sciences research](https://openai.com/index/introducing-gpt-rosalind) | OpenAI | Research | Apr 16 |
+| 4 | [A new way to explore the web with AI Mode in Chrome](https://blog.google/products-and-platforms/products/search/ai-mode-chrome/) | Google AI | Product | Apr 16 |
+| 5 | [New ways to create personalized images in the Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/) | Google AI | Model Update | Apr 16 |
 
 ---
 
 ## 🎭 The Comic Strip
 
-*A caffeinated chimpanzee and a theatrical meerkat discuss Gemini Robotics-ER 1.6 inside a Terms of Service agreement.*
+*A tyrannical shark and a litigious capybara discuss Claude Opus 4.7 at the world's last Blockbuster Video.*
 
-CAFFEINATED CHIMPANZEE: "Google just gave Boston Dynamics' Spot robot a brain upgrade. Gemini Robotics-ER 1.6. It can read analog gauges on industrial pipes. Autonomously."
+TYRANNICAL SHARK: "Anthropic dropped Opus 4.7 today. Thirteen percent better at coding. Twenty-one percent fewer errors on documents."
 
-THEATRICAL MEERKAT: "Fascinating. I am currently standing on Clause 4.2, Subsection (b). It says Google has perpetual license to all information encountered by its systems."
+LITIGIOUS CAPYBARA: "I am suing."
 
-CAFFEINATED CHIMPANZEE: "93% accuracy on instrument reading. Two cameras at once — overhead and wrist-mounted. The robot knows if it completed a task even when its view is blocked."
+TYRANNICAL SHARK: "You haven't even heard the whole announcement."
 
-THEATRICAL MEERKAT: "A robot detective."
+LITIGIOUS CAPYBARA: "Preemptive suit. To establish standing."
 
-CAFFEINATED CHIMPANZEE: "An autonomous factory inspector. Wanders the facility floor. Reads meters. Files reports. Zero humans required."
+TYRANNICAL SHARK: "They added a new 'xhigh' effort level. You can tell it to think even harder than before."
 
-THEATRICAL MEERKAT: *clutches chest dramatically* "What happens when the gauge reads DANGER and no human is there?"
+LITIGIOUS CAPYBARA: "So the default isn't maximum effort? I want damages for every time it could have tried harder and didn't."
 
-CAFFEINATED CHIMPANZEE: "The robot reads it, understands it, and reacts."
+TYRANNICAL SHARK: "Price is unchanged. Five dollars per million input tokens."
 
-THEATRICAL MEERKAT: "The robot tells itself?"
+LITIGIOUS CAPYBARA: "Unchanged pricing for thirteen percent more capability is unjust enrichment."
 
-CAFFEINATED CHIMPANZEE: "Yes. And then does something about it."
+TYRANNICAL SHARK: "That is genuinely not how pricing works."
 
-THEATRICAL MEERKAT: *turns slowly to read the clause beside them* "Section 12: User acknowledges that automated systems may monitor, interpret, and act upon any condition within the covered facility without prior—"
+LITIGIOUS CAPYBARA: "My attorney disagrees. My attorney is also Claude."
 
-CAFFEINATED CHIMPANZEE: "Don't read ahead."
+TYRANNICAL SHARK: "Image resolution is now 3.75 megapixels. Three times what it was before."
 
-THEATRICAL MEERKAT: "I live INSIDE a Terms of Service agreement and a two-camera robot is now my safety inspector."
+LITIGIOUS CAPYBARA: "Three TIMES? What was it seeing before? Blurry thumbnails?"
 
-CAFFEINATED CHIMPANZEE: "93% accurate."
+TYRANNICAL SHARK: "More or less."
 
-THEATRICAL MEERKAT: "What happens in the other 7%?"
+LITIGIOUS CAPYBARA: "I'm filing a class action on behalf of every image it misidentified."
 
-CAFFEINATED CHIMPANZEE: "..."
+[A Blockbuster employee slowly rewinds a VHS copy of "Her" in the background.]
 
-THEATRICAL MEERKAT: "WHAT HAPPENS IN THE OTHER 7%?"
+TYRANNICAL SHARK: "It can also verify its own outputs now. Self-check the work."
 
-[A Spot robot wrist-camera slowly pans across the fine print they are standing on.]
+LITIGIOUS CAPYBARA: "A model that grades its own homework is a conflict of interest."
 
-CAFFEINATED CHIMPANZEE: "Incidentally, this conversation is now training data. See Clause 8.1."
+TYRANNICAL SHARK: "It's called self-verification."
 
-THEATRICAL MEERKAT: "I want to opt out."
+LITIGIOUS CAPYBARA: "In my jurisdiction it's called fraud."
 
-CAFFEINATED CHIMPANZEE: "You clicked agree in 2019."
+TYRANNICAL SHARK: "You have a jurisdiction?"
 
-THEATRICAL MEERKAT: "I DIDN'T READ IT."
+LITIGIOUS CAPYBARA: "I'm incorporating one. Delaware. Favorable AI tort law."
 
-CAFFEINATED CHIMPANZEE: "Nobody does. That's literally why we're here."
+[Tyrannical Shark glances at the Blockbuster's "Going Out of Business" banner — still hanging, eleven years later.]
 
-[The Spot robot takes a photo of them both and labels it: FACILITY INSPECTION COMPLETE — ANOMALIES DETECTED: 2.]
+TYRANNICAL SHARK: "Every tech giant eventually has a Blockbuster moment. Even Anthropic."
+
+LITIGIOUS CAPYBARA: "I am prepared."
+
+TYRANNICAL SHARK: "You've already pre-filed the lawsuit, haven't you."
+
+LITIGIOUS CAPYBARA: "In seventeen jurisdictions. Including two I invented."
+
+TYRANNICAL SHARK: "Remarkable."
+
+LITIGIOUS CAPYBARA: "I also sued the 'xhigh' effort level directly. It should have been the default."
+
+[The "Be Kind, Rewind" sign glows softly above them both as the Blockbuster closes for the eleven thousandth consecutive night.]
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and has randomly generated animal characters debate the most interesting story in a random setting.*
 
-*Day 125 | Last updated: 2026-04-16*
+*Day 126 | Last updated: 2026-04-17*
