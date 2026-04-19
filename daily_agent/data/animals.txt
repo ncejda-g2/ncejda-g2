@@ -19,7 +19,7 @@ sloth
 gorilla
 chicken
 horse
-witch
+weasel
 dragon
 unicorn
 alien
