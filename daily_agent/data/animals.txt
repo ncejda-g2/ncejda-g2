@@ -40,7 +40,7 @@ snail
 lobster
 troll
 ghoul
-banshee
+emu
 wasp
 spider
 mongoose
