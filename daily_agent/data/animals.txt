@@ -48,7 +48,7 @@ ghost
 angel
 demon
 squirrel
-newt
+frog
 komodo dragon
 dolphin
 sentient mushroom
