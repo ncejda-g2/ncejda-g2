@@ -28,7 +28,7 @@ dinosaur
 shark
 crab
 sentient broccoli
-venus fly trap
+alligator
 narwhal
 panda
 chimpanzee
