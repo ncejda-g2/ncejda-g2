@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 131 (2026-04-22)
+# 📰 The AI Newspaper — Day 132 (2026-04-23)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [ChatGPT Images 2.0](https://openai.com/index/introducing-chatgpt-images-2-0/) | Model Release | OpenAI launches major image generation upgrade | 711 | [545](https://news.ycombinator.com/item?id=47852835) |
-| 2 | [SpaceX says it has agreement to acquire Cursor for $60B](https://twitter.com/spacex/status/2046713419978453374) | Palace Intrigue | SpaceX eyes $60B option to buy AI coding tool | 512 | [618](https://news.ycombinator.com/item?id=47855293) |
-| 3 | [Claude Code to be removed from Anthropic's Pro plan?](https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a) | AI Business | Anthropic strips Claude Code from $20/mo tier | 501 | [486](https://news.ycombinator.com/item?id=47854477) |
-| 4 | [Meta to start capturing employee mouse movements, keystrokes for AI training](https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/) | AI Privacy | Meta monitors workers' input to train AI agents | 480 | [357](https://news.ycombinator.com/item?id=47851948) |
-| 5 | [Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return](https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/) | AI Business | Anthropic-Amazon $5B deal ties $100B to AWS | 269 | [280](https://news.ycombinator.com/item?id=47848276) |
-| 6 | [Show HN: GoModel – an open-source AI gateway in Go](https://github.com/ENTERPILOT/GOModel/) | Open Source Tool | Unified Go gateway for routing AI model calls | 172 | [63](https://news.ycombinator.com/item?id=47849097) |
-| 7 | [CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production](https://www.brex.com/crabtrap) | Dev Tooling | HTTP proxy uses LLM judge to secure AI agents | 108 | [36](https://news.ycombinator.com/item?id=47850212) |
-| 8 | [Anthropic's Mythos Model Is Being Accessed by Unauthorized Users](https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users) | AI Security | New Anthropic model hacked day of announcement | 37 | [3](https://news.ycombinator.com/item?id=47855093) |
-| 9 | [Mozilla Used Anthropic's Mythos to Find and Fix 271 Bugs in Firefox](https://www.wired.com/story/mozilla-used-anthropics-mythos-to-find-271-bugs-in-firefox/) | AI Engineering | Anthropic's Mythos finds 271 Firefox zero-days | 33 | [11](https://news.ycombinator.com/item?id=47853649) |
-| 10 | [Deep Research Max: a step change for autonomous research agents](https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/) | Model Release | Google upgrades Gemini Deep Research capabilities | 9 | [0](https://news.ycombinator.com/item?id=47851065) |
+| 1 | [Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model](https://qwen.ai/blog?id=qwen3.6-27b) | Model Release | 27B open model beats frontier coding benchmarks | 807 | [377](https://news.ycombinator.com/item?id=47863217) |
+| 2 | [Our eighth generation TPUs: two chips for the agentic era](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/) | AI Hardware | Google unveils TPU 8T and 8I for AI workloads | 429 | [211](https://news.ycombinator.com/item?id=47862497) |
+| 3 | [Over-editing refers to a model modifying code beyond what is necessary](https://nrehiew.github.io/blog/minimal_editing/) | Research Paper | Study finds LLMs change far more code than needed | 343 | [193](https://news.ycombinator.com/item?id=47866913) |
+| 4 | [Website streamed live directly from a model](https://flipbook.page/) | Dev Tooling | Site rendered in real-time by an AI model | 239 | [68](https://news.ycombinator.com/item?id=47867048) |
+| 5 | [Parallel agents in Zed](https://zed.dev/blog/parallel-agents) | Dev Tooling | Zed editor adds concurrent AI agent support | 212 | [116](https://news.ycombinator.com/item?id=47866750) |
+| 6 | [Workspace Agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt/) | Model Release | ChatGPT launches Codex-powered automation agents | 132 | [49](https://news.ycombinator.com/item?id=47866860) |
+| 7 | [Kernel code removals driven by LLM-created security reports](https://lwn.net/Articles/1068928/) | AI Security | LLM-generated vuln reports prompt Linux kernel removals | 112 | [94](https://news.ycombinator.com/item?id=47862230) |
+| 8 | [Ping-pong robot beats top-level human players](https://www.reuters.com/sports/ping-pong-robot-ace-makes-history-by-beating-top-level-human-players-2026-04-22/) | AI Robotics | AI robot wins against elite table tennis players | 108 | [114](https://news.ycombinator.com/item?id=47864785) |
+| 9 | [Top MAGA influencer revealed to be AI](https://nypost.com/2026/04/21/us-news/top-maga-influencer-emily-hart-revealed-to-be-ai-created-by-a-guy-in-india/) | AI Deception | Large-following influencer exposed as synthetic persona | 84 | [46](https://news.ycombinator.com/item?id=47864808) |
+| 10 | [Anker made its own chip to bring AI to all its products](https://www.theverge.com/tech/916463/anker-thus-chip-announcement) | AI Hardware | Anker's custom "Thus" chip adds on-device AI processing | 65 | [44](https://news.ycombinator.com/item?id=47866368) |
 
 ---
 
@@ -23,61 +23,80 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Scaling Codex to enterprises worldwide](https://openai.com/index/scaling-codex-to-enterprises-worldwide) | OpenAI | Developer Tools | Apr 21 |
-| 2 | [Two Users One CLI: People and Agents](https://mistral.ai/news/two-users-one-cli-people-and-agents) | Mistral | Developer Tools | Apr '26 |
+| 1 | [Introducing workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt) | OpenAI | Product | Apr 22 |
+| 2 | [Speeding up agentic workflows with WebSockets in the Responses API](https://openai.com/index/speeding-up-agentic-workflows-with-websockets) | OpenAI | Engineering | Apr 22 |
+| 3 | [Introducing OpenAI Privacy Filter](https://openai.com/index/introducing-openai-privacy-filter) | OpenAI | Research | Apr 22 |
+| 4 | [Making ChatGPT better for clinicians](https://openai.com/index/making-chatgpt-better-for-clinicians) | OpenAI | Product | Apr 22 |
+| 5 | [We're launching two specialized TPUs for the agentic era](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/) | Google AI | Infrastructure | Apr 22 |
+| 6 | [What 81,000 people told us about the economics of AI](https://www.anthropic.com/research/81k-economics) | Anthropic | Research | Apr 22 |
+| 7 | [Announcing the Anthropic Economic Index Survey](https://www.anthropic.com/research/economic-index-survey-announcement) | Anthropic | Research | Apr 22 |
 
 ---
 
 ## 🎭 The Comic Strip
 
-*A chronically-online giraffe and a catastrophic horse discuss SpaceX's $60B option to acquire Cursor at the edge of a black hole.*
+*A mischievous meerkat and a catastrophic porcupine discuss Qwen3.6-27B's benchmark-breaking performance in a doomsday bunker.*
 
-CHRONICALLY-ONLINE GIRAFFE: "SpaceX has secured the right to acquire Cursor for sixty billion dollars."
+MISCHIEVOUS MEERKAT: "I've been studying the Qwen3.6-27B benchmarks. Something doesn't add up."
 
-CATASTROPHIC HORSE: "So the coding tool that half the internet uses to write code is now owned by the man who builds rockets."
+CATASTROPHIC PORCUPINE: "Studying by flashlight in a doomsday bunker. Very appropriate for whatever this is."
 
-CHRONICALLY-ONLINE GIRAFFE: "Not YET. It's an option. They can acquire it later this year for sixty billion, or just pay ten billion for the collaboration work if they decide not to."
+MISCHIEVOUS MEERKAT: "77.2% on SWE-bench Verified. Better than most frontier models that cost ten times as much to run."
 
-CATASTROPHIC HORSE: "So the minimum cost is ten billion dollars. For software. That helps people write software."
+CATASTROPHIC PORCUPINE: "How large is the model?"
 
-CHRONICALLY-ONLINE GIRAFFE: "SpaceX has a million H100-equivalent supercomputer called Colossus. Cursor has eighteen million developer users. Put them together and apparently you get the world's most useful AI."
+MISCHIEVOUS MEERKAT: "27 billion parameters."
 
-CATASTROPHIC HORSE: "Or you get a coding assistant that decides to launch itself into orbit."
+CATASTROPHIC PORCUPINE: "That's a tenth the size of—"
 
-CHRONICALLY-ONLINE GIRAFFE: "I have been watching the replies all morning. Every developer on the internet is having a different kind of breakdown."
+MISCHIEVOUS MEERKAT: "Yes. A tenth the size. Beating them at coding."
 
-CATASTROPHIC HORSE: "What kind?"
+[A quill embeds itself in the bunker wall.]
 
-CHRONICALLY-ONLINE GIRAFFE: "Tab one: 'Elon is going to enshittify Cursor.' Tab two: 'Actually this is fine.' Tab three: 'I switched to Zed six weeks ago and this is vindication.' Tab four: a seventeen-minute YouTube video titled 'IT'S OVER.'"
+CATASTROPHIC PORCUPINE: "Sorry. Startled. So—is this the end of the big expensive labs?"
 
-CATASTROPHIC HORSE: "Which tab is correct?"
+MISCHIEVOUS MEERKAT: "Don't catastrophize."
 
-CHRONICALLY-ONLINE GIRAFFE: "I have not closed any of them."
+CATASTROPHIC PORCUPINE: "That is literally my function."
 
-[The black hole pulses. A notification arrives.]
+MISCHIEVOUS MEERKAT: "Fair. But look at the math score: AIME 2026, 94.1 percent. Olympic-level."
 
-CATASTROPHIC HORSE: "Wait. If SpaceX trains a model on Cursor's millions of developer sessions—every commit, every prompt, every embarrassing variable name—"
+CATASTROPHIC PORCUPINE: "From 27 billion parameters."
 
-CHRONICALLY-ONLINE GIRAFFE: "It knows everything. Every TODO comment. Every 'fix later.' Every 'why does this even work.'"
+MISCHIEVOUS MEERKAT: "From 27 billion parameters."
 
-CATASTROPHIC HORSE: "The most powerful AI in existence will have context on humanity's worst code."
+CATASTROPHIC PORCUPINE: "Every data center in the world is now a very expensive paperweight."
 
-CHRONICALLY-ONLINE GIRAFFE: "That IS humanity's worst code. And it will emerge from it knowing everything."
+MISCHIEVOUS MEERKAT: "Again—catastrophizing."
 
-CATASTROPHIC HORSE: "I think we're being sucked in."
+CATASTROPHIC PORCUPINE: "Or: correctly predicting outcomes."
 
-CHRONICALLY-ONLINE GIRAFFE: "The black hole or the situation?"
+[Another quill shoots into the ceiling.]
 
-CATASTROPHIC HORSE: "Both. Definitely both."
+MISCHIEVOUS MEERKAT: "My scheme: we run this locally on that laptop we have down here."
 
-CHRONICALLY-ONLINE GIRAFFE: "I'm going to post about this before we cross the event horizon."
+CATASTROPHIC PORCUPINE: "The one missing the spacebar?"
 
-CATASTROPHIC HORSE: "WHO ARE YOU POSTING TO."
+MISCHIEVOUS MEERKAT: "Still has all the letters. Mostly."
 
-CHRONICALLY-ONLINE GIRAFFE: "I have seventeen thousand followers. Some of them must be outside the Schwarzschild radius."
+CATASTROPHIC PORCUPINE: "And we ask it — what? How to escape the bunker?"
+
+MISCHIEVOUS MEERKAT: "It has a million-token context window. I'll paste in the full operations manual."
+
+CATASTROPHIC PORCUPINE: "The manual that says there's no exit."
+
+MISCHIEVOUS MEERKAT: "It's very good at finding solutions its authors missed."
+
+CATASTROPHIC PORCUPINE: "The bunker authors intended no exit."
+
+MISCHIEVOUS MEERKAT: "94.1% on math that stumps humans. I like our odds."
+
+CATASTROPHIC PORCUPINE: "Watch out—"
+
+MISCHIEVOUS MEERKAT: "NOT AGAIN."
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and has randomly generated animal characters debate the most interesting story in a random setting.*
 
-*Day 131 | Last updated: 2026-04-22*
+*Day 132 | Last updated: 2026-04-23*

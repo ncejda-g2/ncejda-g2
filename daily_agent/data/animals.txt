@@ -76,3 +76,4 @@ corgi
 rabbit
 goose
 peacock
+coyote
