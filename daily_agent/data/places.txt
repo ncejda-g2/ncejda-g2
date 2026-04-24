@@ -31,3 +31,4 @@ at an airport gate where the flight has been delayed 6 hours
 in a metaverse that has no users
 at a product launch where the live demo crashes
 in a recursive loop that never terminates
+at a congressional hearing about AI
