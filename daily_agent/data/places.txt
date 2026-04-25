@@ -32,3 +32,4 @@ in a metaverse that has no users
 at a product launch where the live demo crashes
 in a recursive loop that never terminates
 at a congressional hearing about AI
+in a live coding interview that has already gone off the rails

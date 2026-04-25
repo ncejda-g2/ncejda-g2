@@ -78,3 +78,4 @@ goose
 peacock
 coyote
 duck
+hyena
