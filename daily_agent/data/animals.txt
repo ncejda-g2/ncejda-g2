@@ -43,7 +43,7 @@ ghoul
 emu
 wasp
 spider
-mongoose
+rhino
 ghost
 angel
 demon
