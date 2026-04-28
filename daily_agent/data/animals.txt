@@ -27,7 +27,7 @@ robot
 dinosaur
 shark
 crab
-sentient broccoli
+jaguar
 alligator
 narwhal
 panda
