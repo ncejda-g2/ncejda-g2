@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 137 (2026-04-28)
+# 📰 The AI Newspaper — Day 138 (2026-04-29)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Microsoft and OpenAI end their exclusive and revenue-sharing deal](https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai) | Palace Intrigue | Microsoft-OpenAI exclusivity and revenue share dissolved | 852 | [727](https://news.ycombinator.com/item?id=47921248) |
-| 2 | [GitHub Copilot is moving to usage-based billing](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) | Dev Tooling | Copilot drops flat fee for pay-as-you-go | 631 | [462](https://news.ycombinator.com/item?id=47923357) |
-| 3 | [4TB of voice samples just stolen from 40k AI contractors at Mercor](https://app.oravys.com/blog/mercor-breach-2026) | AI Security | Mercor breach exposes 40k AI worker voice data | 511 | [183](https://news.ycombinator.com/item?id=47919630) |
-| 4 | [China blocks Meta's acquisition of AI startup Manus](https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html) | AI Geopolitics | China kills Meta's $2B AI startup acquisition | 366 | [261](https://news.ycombinator.com/item?id=47920315) |
-| 5 | [Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview](https://github.com/dirac-run/dirac) | Open Source Tool | OSS agent tops TerminalBench on Gemini flash | 336 | [125](https://news.ycombinator.com/item?id=47920787) |
-| 6 | [Talkie: a 13B vintage language model from 1930](https://talkie-lm.com/introducing-talkie) | Model Release | 13B model trained on 1930s-era language | 301 | [101](https://news.ycombinator.com/item?id=47927903) |
-| 7 | [Mistral built a $14B AI empire by not being American](https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/) | AI Industry | How non-American status became Mistral's $14B moat | 212 | [166](https://news.ycombinator.com/item?id=47919725) |
-| 8 | [Running local LLMs offline on a ten-hour flight](https://deploy.live/blog/running-local-llms-offline-on-a-ten-hour-flight/) | Dev Tooling | Practical guide to running LLMs offline mid-air | 118 | [92](https://news.ycombinator.com/item?id=47921064) |
-| 9 | [Claude Pro: Opus model will only be available if extra usage is enabled](https://support.claude.com/en/articles/11940350-claude-code-model-configuration) | Model Update | Claude Opus now gated behind usage toggle | 63 | [31](https://news.ycombinator.com/item?id=47928088) |
-| 10 | [Decoupled DiLoCo: Resilient, Distributed AI Training at Scale](https://deepmind.google/blog/decoupled-diloco/) | Research Paper | DeepMind's resilient distributed training method scaled | 45 | [5](https://news.ycombinator.com/item?id=47924181) |
+| 1 | [Who owns the code Claude Code wrote?](https://legallayer.substack.com/p/who-owns-the-claude-code-wrote) | Legal Hot Take | AI code copyright: developer, user, or public domain? | 351 | [355](https://news.ycombinator.com/item?id=47932937) |
+| 2 | [VibeVoice: Open-source frontier voice AI](https://github.com/microsoft/VibeVoice) | Open Source Model | Microsoft open-sources a frontier-class voice AI model | 348 | [169](https://news.ycombinator.com/item?id=47933236) |
+| 3 | [Claude.ai unavailable and elevated errors on the API](https://status.claude.com/incidents/9l93x2ht4s5w) | Service Outage | Claude API and site went dark for hours | 282 | [243](https://news.ycombinator.com/item?id=47938097) |
+| 4 | [How ChatGPT serves ads](https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/) | Product Intel | ChatGPT's hidden ad attribution loop exposed in detail | 276 | [190](https://news.ycombinator.com/item?id=47942437) |
+| 5 | [GitHub Copilot code review will start consuming GitHub Actions minutes](https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/) | Dev Tooling | Copilot code reviews will eat your Actions minutes June 1 | 269 | [186](https://news.ycombinator.com/item?id=47932028) |
+| 6 | [OpenAI models coming to Amazon Bedrock](https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/) | Platform Expansion | OpenAI GPT, Codex, Managed Agents land on AWS | 230 | [81](https://news.ycombinator.com/item?id=47939320) |
+| 7 | [AI's economics don't make sense](https://www.wheresyoured.at/ais-economics-dont-make-sense/) | Industry Analysis | AI costs still can't justify their own existence | 212 | [168](https://news.ycombinator.com/item?id=47936867) |
+| 8 | [Regression: malware reminder on every read still causes subagent refusals](https://github.com/anthropics/claude-code/issues/49363) | Dev Tooling | Malware warnings breaking Claude Code's subagent calls | 197 | [95](https://news.ycombinator.com/item?id=47942492) |
+| 9 | [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work) | Model Capabilities | Claude wired into Adobe, Blender, Ableton, and more | 111 | [82](https://news.ycombinator.com/item?id=47942386) |
+| 10 | [Laguna XS.2 and M.1](https://poolside.ai/blog/laguna-a-deeper-dive) | Model Release | Poolside launches two new coding-focused AI models | 92 | [46](https://news.ycombinator.com/item?id=47936511) |
 
 ---
 
@@ -23,65 +23,75 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [An open-source spec for orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony) | OpenAI | Engineering | Apr 27 |
-| 2 | [Our principles](https://openai.com/index/our-principles) | OpenAI | Philosophy | Apr 26 |
+| 1 | [OpenAI models, Codex, and Managed Agents come to AWS](https://openai.com/index/openai-on-aws) | OpenAI | Developer Tools | Apr 28 |
+| 2 | [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work) | Anthropic | Model Capabilities | Apr 28 |
+| 3 | [Join the new AI Agents Vibe Coding Course from Google and Kaggle](https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/) | Google AI | Developer Tools | Apr 27 |
+| 4 | [Workflows](https://mistral.ai/news/workflows) | Mistral | Developer Tools | Apr 2026 |
 
 ---
 
 ## 🎭 The Comic Strip
 
-*A manic spider and a confidently-wrong turtle discuss the Microsoft–OpenAI breakup at a 24-hour laundromat.*
+*A hallucinating weasel and a theatrical ghoul discuss Claude for Creative Work in a server room during an outage.*
 
-MANIC SPIDER: "HAVE YOU SEEN? Microsoft and OpenAI ended their exclusive deal! The whole revenue-sharing arrangement — gone!"
+HALLUCINATING WEASEL: "Did you see? Anthropic announced Claude for Creative Work. It's being integrated into Adobe, Blender, Ableton — the whole creative stack!"
 
-CONFIDENTLY-WRONG TURTLE: "Yes. This means ChatGPT will be discontinued."
+THEATRICAL GHOUL: "EVERYTHING?! The machines have COLONIZED the arts!"
 
-MANIC SPIDER: "What? No! OpenAI is free now — they can partner with Amazon, Google Cloud, anyone they want!"
+HALLUCINATING WEASEL: "Adobe already had AI features. Also I think one of these servers is on fire."
 
-CONFIDENTLY-WRONG TURTLE: "Microsoft bought OpenAI in 2021. They cannot simply leave."
+THEATRICAL GHOUL: "That is the LIGHT OF DYING HUMAN CREATIVITY."
 
-MANIC SPIDER: "Microsoft never bought them! It was a PARTNERSHIP! Exclusive cloud rights and revenue sharing!"
+HALLUCINATING WEASEL: "That is a literal fire. Should we call someone?"
 
-CONFIDENTLY-WRONG TURTLE: "Revenue sharing. So they were splitting tips."
+THEATRICAL GHOUL: "Claude can now write Python scripts in Blender. You may CONVERSE WITH YOUR 3D MODELS."
 
-MANIC SPIDER: "Microsoft was reselling OpenAI's models and taking a cut. Now there's no more exclusivity and no more cut."
+HALLUCINATING WEASEL: "I think it means automating rigging, not chatting with your mesh."
 
-CONFIDENTLY-WRONG TURTLE: "OpenAI should have used Etsy."
+THEATRICAL GHOUL: "And Adobe Creative Cloud! FIFTY APPS! Fifty apps worth of DOOM!"
 
-MANIC SPIDER: "For WHAT—"
+HALLUCINATING WEASEL: "Why does fifty sound more apocalyptic when you say it than a hundred does?"
 
-CONFIDENTLY-WRONG TURTLE: "Selling models. Very competitive fees. Great community."
+THEATRICAL GHOUL: "Precision makes it worse."
 
-MANIC SPIDER: "I feel exactly like this spin cycle right now."
+HALLUCINATING WEASEL: "They also became a patron of the Blender Development Fund. Like, they donated money."
 
-CONFIDENTLY-WRONG TURTLE: "You're sitting on the machine."
+THEATRICAL GHOUL: "They BOUGHT open-source. They OWN the concept of free software now."
 
-MANIC SPIDER: "OpenAI can now work with AWS. Multiple cloud providers. The whole AI market just shifted."
+HALLUCINATING WEASEL: "Patron means donor. A donation is not an acquisition."
 
-CONFIDENTLY-WRONG TURTLE: "Now Sam Altman doesn't have to use Bing. I fully support this."
+THEATRICAL GHOUL: "A donation is a QUIET acquisition."
 
-MANIC SPIDER: "That is somehow the least wrong thing you've said all night."
+HALLUCINATING WEASEL: "There's also a new 'Claude Design' tool. You describe a UI and it generates a mockup."
 
-CONFIDENTLY-WRONG TURTLE: "Microsoft will be fine. They still have Clippy."
+THEATRICAL GHOUL: "So designers... are... GONE."
 
-MANIC SPIDER: "Clippy has been dead for twenty years."
+HALLUCINATING WEASEL: "I've been in this server room for six hours and I'm starting to hallucinate."
 
-CONFIDENTLY-WRONG TURTLE: "And yet he remains the most reliable Microsoft AI product."
+THEATRICAL GHOUL: "That's the halluci—"
 
-MANIC SPIDER: "I genuinely cannot argue with that."
+HALLUCINATING WEASEL: "Don't finish that sentence."
 
-CONFIDENTLY-WRONG TURTLE: "Both sides called it 'the next phase.' That's the phrase companies use when nobody won."
+THEATRICAL GHOUL: "They partnered with art schools. RISD! Ringling College! Goldsmiths LONDON!"
 
-MANIC SPIDER: "...You actually got one right."
+HALLUCINATING WEASEL: "To teach students to use AI creatively. That's actually... kind of fine?"
 
-CONFIDENTLY-WRONG TURTLE: "I've been right about everything since 2019."
+THEATRICAL GHOUL: "There is no FINE. There is only APOCALYPSE or TRANSCENDENCE."
 
-MANIC SPIDER: "You told me the iPhone was going to fail."
+HALLUCINATING WEASEL: "The irony is Claude.ai has been down all day. We can't even try any of it."
 
-CONFIDENTLY-WRONG TURTLE: "I stand by it. The market will come around."
+THEATRICAL GHOUL: "FITTING. The artist must suffer before the breakthrough."
+
+HALLUCINATING WEASEL: "The infrastructure engineers are suffering. Different vibe."
+
+THEATRICAL GHOUL: *gestures dramatically at a blinking status light* "The servers stir. THE RENAISSANCE BEGINS."
+
+HALLUCINATING WEASEL: "You've been rehearsing that line for six hours, haven't you."
+
+THEATRICAL GHOUL: "Every great performance requires preparation."
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and has randomly generated animal characters debate the most interesting story in a random setting.*
 
-*Day 137 | Last updated: 2026-04-28*
+*Day 138 | Last updated: 2026-04-29*

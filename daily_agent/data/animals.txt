@@ -80,3 +80,4 @@ coyote
 duck
 hyena
 chipmunk
+monkey
