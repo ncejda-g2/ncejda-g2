@@ -6,8 +6,7 @@ This agent uses the **Claude Agent SDK** framework to autonomously update your R
 
 1. **Claude Code CLI** (required - the SDK uses it as a runtime)
 2. **Python 3.8+**
-3. **Anthropic API Key**
-4. **OpenAI API Key**
+3. **G2 LiteLLM proxy access** (provides Anthropic and OpenAI models via `https://llmproxy.g2.com`)
 
 ## 1. Install Claude Code CLI
 
@@ -34,19 +33,30 @@ This installs:
 - `aiohttp` - For async HTTP requests (DALL-E, XKCD)
 - `python-dotenv` - For environment variable management
 
-## 3. Configure API Keys
+## 3. Configure Environment Variables
 
-Create a `.env` file in the project root:
+Create a `.env` file in the project root (it is gitignored — never commit it):
 
-```bash
-cp .env.example .env
+```
+LITELLM_BASE_URL=https://llmproxy.g2.com
+LITELLM_API_KEY=<your G2 LiteLLM proxy key>
+ANTHROPIC_BASE_URL=https://llmproxy.g2.com/anthropic
+ANTHROPIC_API_KEY=<your G2 LiteLLM proxy key — same value as LITELLM_API_KEY>
 ```
 
-Edit `.env` and add your API keys:
-```
-ANTHROPIC_API_KEY=your_anthropic_key_here
-OPENAI_API_KEY=your_openai_key_here
-```
+Both keys hold the same value. `ANTHROPIC_API_KEY` and `ANTHROPIC_BASE_URL`
+are read by the Claude Code CLI subprocess (it only knows those names);
+`LITELLM_API_KEY` and `LITELLM_BASE_URL` are read by `custom_tools.py`
+for image generation. All API traffic — Anthropic chat and OpenAI image
+generation — routes through the G2 LiteLLM proxy.
+
+For CI (GitHub Actions), the values are stored in repo settings:
+- `LITELLM_API_KEY` → Secrets and variables → Actions → Repository secrets
+- `LITELLM_BASE_URL` → Secrets and variables → Actions → Repository variables
+- `ANTHROPIC_BASE_URL` → Secrets and variables → Actions → Repository variables
+
+The workflow reads `LITELLM_API_KEY` once and exposes it under both
+`ANTHROPIC_API_KEY` and `LITELLM_API_KEY` to the agent process.
 
 ## 4. Test the Agent Manually
 
@@ -165,10 +175,8 @@ Run: `curl -fsSL https://claude.ai/install.sh | bash`
 - Add to shell profile if needed: `ssh-add --apple-use-keychain ~/.ssh/id_rsa`
 
 ### API errors?
-- Verify `.env` file exists and has valid keys
-- Check API quotas:
-  - Anthropic Console: https://console.anthropic.com
-  - OpenAI Dashboard: https://platform.openai.com/usage
+- Verify `.env` file exists and has valid `ANTHROPIC_BASE_URL` + `ANTHROPIC_API_KEY` + `LITELLM_API_KEY`
+- Confirm the LiteLLM proxy is reachable: `curl https://llmproxy.g2.com/v1/models | head`
 
 ### Agent SDK import errors?
 Make sure you installed: `pip install claude-agent-sdk`

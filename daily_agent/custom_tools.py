@@ -97,19 +97,28 @@ async def fetch_xkcd_comic(args: dict[str, Any]) -> dict[str, Any]:
 
 @tool(
     "generate_image",
-    "Generate an image using OpenAI's gpt-image-1 model and save it directly. Returns the file path.",
+    "Generate an image using OpenAI's gpt-image-2 model via the G2 LiteLLM proxy and save it directly. Returns the file path.",
     {"prompt": str, "filename": str},
 )
 async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
-    """Generate image using OpenAI's gpt-image-1 model. Returns base64-encoded image data and saves it."""
+    """Generate image using gpt-image-2 via LiteLLM proxy. Returns base64-encoded image data and saves it."""
     try:
-        openai_api_key = os.getenv("OPENAI_API_KEY")
-        if not openai_api_key:
+        litellm_api_key = os.getenv("LITELLM_API_KEY")
+        litellm_base_url = os.getenv("LITELLM_BASE_URL")
+        missing = [
+            name
+            for name, value in (
+                ("LITELLM_API_KEY", litellm_api_key),
+                ("LITELLM_BASE_URL", litellm_base_url),
+            )
+            if not value
+        ]
+        if missing:
             return {
                 "content": [
                     {
                         "type": "text",
-                        "text": "Error: OPENAI_API_KEY environment variable not set",
+                        "text": f"Error: missing environment variable(s): {', '.join(missing)}",
                     }
                 ],
                 "is_error": True,
@@ -118,19 +127,20 @@ async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
         prompt = args["prompt"]
         filename = args["filename"]
 
-        # Ensure filename ends with .png
         if not filename.endswith(".png"):
             filename = f"{filename}.png"
 
+        image_gen_url = f"{litellm_base_url.rstrip('/')}/v1/images/generations"
+
         async with aiohttp.ClientSession() as session:
             async with session.post(
-                "https://api.openai.com/v1/images/generations",
+                image_gen_url,
                 headers={
-                    "Authorization": f"Bearer {openai_api_key}",
+                    "Authorization": f"Bearer {litellm_api_key}",
                     "Content-Type": "application/json",
                 },
                 json={
-                    "model": "gpt-image-1",
+                    "model": "openai/gpt-image-2",
                     "prompt": prompt,
                     "size": "1024x1536",
                     "quality": "medium",
@@ -143,7 +153,7 @@ async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
                         "content": [
                             {
                                 "type": "text",
-                                "text": f"gpt-image-1 API error {response.status}: {error_text}",
+                                "text": f"gpt-image-2 proxy error {response.status}: {error_text}",
                             }
                         ],
                         "is_error": True,

@@ -913,7 +913,7 @@ async def run_autonomous_agent() -> None:
         ],
         permission_mode="acceptEdits",
         cwd=str(PROJECT_ROOT),
-        model="sonnet",
+        model="claude-sonnet-4-6",
         agents={
             "classifier": AgentDefinition(
                 description=(
@@ -943,7 +943,7 @@ async def run_autonomous_agent() -> None:
                     "Respond with ONLY a JSON array of the story numbers (1-indexed) that are AI-relevant. "
                     "Example: [1, 5, 12, 37]"
                 ),
-                model="haiku",
+                model="claude-haiku-4-5",
                 tools=["WebFetch"],
             ),
         },
