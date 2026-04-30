@@ -104,12 +104,21 @@ async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
     """Generate image using gpt-image-2 via LiteLLM proxy. Returns base64-encoded image data and saves it."""
     try:
         litellm_api_key = os.getenv("LITELLM_API_KEY")
-        if not litellm_api_key:
+        litellm_base_url = os.getenv("LITELLM_BASE_URL")
+        missing = [
+            name
+            for name, value in (
+                ("LITELLM_API_KEY", litellm_api_key),
+                ("LITELLM_BASE_URL", litellm_base_url),
+            )
+            if not value
+        ]
+        if missing:
             return {
                 "content": [
                     {
                         "type": "text",
-                        "text": "Error: LITELLM_API_KEY environment variable not set",
+                        "text": f"Error: missing environment variable(s): {', '.join(missing)}",
                     }
                 ],
                 "is_error": True,
@@ -121,9 +130,11 @@ async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
         if not filename.endswith(".png"):
             filename = f"{filename}.png"
 
+        image_gen_url = f"{litellm_base_url.rstrip('/')}/v1/images/generations"
+
         async with aiohttp.ClientSession() as session:
             async with session.post(
-                "https://llmproxy.g2.com/v1/images/generations",
+                image_gen_url,
                 headers={
                     "Authorization": f"Bearer {litellm_api_key}",
                     "Content-Type": "application/json",

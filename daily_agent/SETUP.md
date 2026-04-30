@@ -38,22 +38,25 @@ This installs:
 Create a `.env` file in the project root (it is gitignored — never commit it):
 
 ```
+LITELLM_BASE_URL=https://llmproxy.g2.com
+LITELLM_API_KEY=<your G2 LiteLLM proxy key>
 ANTHROPIC_BASE_URL=https://llmproxy.g2.com/anthropic
-ANTHROPIC_API_KEY=<your G2 LiteLLM proxy key>
-LITELLM_API_KEY=<your G2 LiteLLM proxy key — same value as ANTHROPIC_API_KEY>
+ANTHROPIC_API_KEY=<your G2 LiteLLM proxy key — same value as LITELLM_API_KEY>
 ```
 
-Both keys hold the same value. `ANTHROPIC_API_KEY` is read by the Claude
-Code CLI subprocess (it expects that name); `LITELLM_API_KEY` is read by
-`custom_tools.py` for image generation. All API traffic — Anthropic chat
-and OpenAI image generation — routes through the G2 LiteLLM proxy.
+Both keys hold the same value. `ANTHROPIC_API_KEY` and `ANTHROPIC_BASE_URL`
+are read by the Claude Code CLI subprocess (it only knows those names);
+`LITELLM_API_KEY` and `LITELLM_BASE_URL` are read by `custom_tools.py`
+for image generation. All API traffic — Anthropic chat and OpenAI image
+generation — routes through the G2 LiteLLM proxy.
 
 For CI (GitHub Actions), the values are stored in repo settings:
-- `LITELLM_API_KEY` → Secrets and variables → Actions → Secrets
-- `ANTHROPIC_BASE_URL` → Secrets and variables → Actions → Variables
+- `LITELLM_API_KEY` → Secrets and variables → Actions → Repository secrets
+- `LITELLM_BASE_URL` → Secrets and variables → Actions → Repository variables
+- `ANTHROPIC_BASE_URL` → Secrets and variables → Actions → Repository variables
 
-The workflow reads `LITELLM_API_KEY` once and exposes it under both env
-var names to the agent.
+The workflow reads `LITELLM_API_KEY` once and exposes it under both
+`ANTHROPIC_API_KEY` and `LITELLM_API_KEY` to the agent process.
 
 ## 4. Test the Agent Manually
 
