@@ -23,7 +23,6 @@ Workflow:
 """
 
 import asyncio
-import aiohttp
 import json
 import random
 import re
@@ -33,25 +32,60 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
+import aiohttp
 import feedparser
 from bs4 import BeautifulSoup
-
 from claude_agent_sdk import (
     AgentDefinition,
     AssistantMessage,
     ClaudeAgentOptions,
     ClaudeSDKClient,
     TextBlock,
+    create_sdk_mcp_server,
 )
-
+from custom_tools import generate_image
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 
-# Project paths
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = Path(__file__).parent / "data"
+SCENES_DIR = DATA_DIR / "comic_text"
+
+def build_comic_style_direction(hat_first: str, hat_second: str) -> str:
+    return (
+        "A 6-panel comic in a minimalist modern flat-design aesthetic. "
+        "Flat solid pastel colors only - pale lavender background, "
+        "soft pastel-blue and pastel-pink characters with no shading or gradients. "
+        "Characters are drawn as smooth simple geometric blob shapes with rounded bodies, "
+        "oversized round heads, large round black-dot eyes, and minimal facial features. "
+        "Characters are completely BALD - no hair, no ponytails, no fringe, no eyebrows, no facial hair. "
+        "Characters are NOT gendered - androgynous featureless blobs distinguished only by color "
+        "(one pastel-blue, one pastel-pink) and slight differences in body shape. "
+        "EVERY character in EVERY panel wears their distinct hat - "
+        f"the first character (the one with the first adjective in the scene) wears a {hat_first}, "
+        f"the second character wears a {hat_second}. "
+        "Each character's hat is consistent across all 6 panels and never comes off. "
+        "The hats are clearly visible and rendered with comic exaggeration - oversized, silly, "
+        "instantly recognizable. "
+        "No outlines on the characters, no fur texture, no detailed anatomy, no clothing details "
+        "beyond simple solid color body shapes (and the hats). "
+        "All facial expressions are conveyed through eye shape and mouth shape only. "
+        "Backgrounds are minimal - solid pastel color blocks suggesting the setting "
+        "with maybe one or two simple geometric props. "
+        "Speech bubbles are clean white rectangles with thin clean black borders "
+        "and a small triangular pointer, with neat sentence-case dialog inside. "
+        "Composition is calm and gentle - characters mostly facing each other. "
+        "Avoid: anime, manga, hair, gendered features, cross-hatching, realistic features, "
+        "glossy 3D shading, saturated colors, harsh contrast, action lines."
+    )
+
+COMIC_LAYOUT_DIRECTION = (
+    "Layout: a 2x3 grid of comic panels (2 columns wide, 3 rows tall) with thin white gutters between them. "
+    "Panel reading order: top-left, top-right, middle-left, middle-right, bottom-left, bottom-right. "
+    "Tall portrait 1024x1792 aspect ratio. Each panel must be clearly delimited. "
+    "No author signature, no watermarks, no text outside speech bubbles."
+)
 
 
 def load_list_from_file(filename: str) -> list[str]:
@@ -105,7 +139,8 @@ async def fetch_hn_stories(session: aiohttp.ClientSession) -> list[dict[str, Any
             story = {
                 "id": int(hit.get("objectID", 0)),
                 "title": title,
-                "url": hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID', '')}",
+                "url": hit.get("url")
+                or f"https://news.ycombinator.com/item?id={hit.get('objectID', '')}",
                 "score": hit.get("points", 0) or 0,
                 "comments": hit.get("num_comments", 0) or 0,
                 "author": hit.get("author", ""),
@@ -326,15 +361,17 @@ async def fetch_anthropic_posts(
                 elif href.startswith("/news/"):
                     post_category = "News"
 
-                all_posts.append({
-                    "title": title,
-                    "url": full_url,
-                    "date": date_str or "Unknown",
-                    "date_obj": date_obj,
-                    "source": "Anthropic",
-                    "summary": "",
-                    "category": post_category,
-                })
+                all_posts.append(
+                    {
+                        "title": title,
+                        "url": full_url,
+                        "date": date_str or "Unknown",
+                        "date_obj": date_obj,
+                        "source": "Anthropic",
+                        "summary": "",
+                        "category": post_category,
+                    }
+                )
 
         except Exception as e:
             print(f"WARNING: Failed to scrape Anthropic {category}: {e}")
@@ -427,15 +464,17 @@ async def fetch_sitemap_posts(
         # Derive title from slug: "my-cool-post" → "My Cool Post"
         title = slug.replace("-", " ").replace("_", " ").title()
 
-        posts.append({
-            "title": title,
-            "url": loc,
-            "date": date_str or "Unknown",
-            "date_obj": date_obj,
-            "source": source_name,
-            "summary": "",
-            "category": "Blog",
-        })
+        posts.append(
+            {
+                "title": title,
+                "url": loc,
+                "date": date_str or "Unknown",
+                "date_obj": date_obj,
+                "source": source_name,
+                "summary": "",
+                "category": "Blog",
+            }
+        )
 
     return posts
 
@@ -455,8 +494,15 @@ async def fetch_ai_lab_posts(session: aiohttp.ClientSession) -> list[dict[str, A
         fetch_rss_posts(session, "https://openai.com/blog/rss.xml", "OpenAI"),
         fetch_rss_posts(session, "https://blog.google/technology/ai/rss/", "Google AI"),
         fetch_anthropic_posts(session),
-        fetch_sitemap_posts(session, "https://x.ai/sitemap.xml", "xAI", "https://x.ai/news/"),
-        fetch_sitemap_posts(session, "https://mistral.ai/sitemap.xml", "Mistral", "https://mistral.ai/news/"),
+        fetch_sitemap_posts(
+            session, "https://x.ai/sitemap.xml", "xAI", "https://x.ai/news/"
+        ),
+        fetch_sitemap_posts(
+            session,
+            "https://mistral.ai/sitemap.xml",
+            "Mistral",
+            "https://mistral.ai/news/",
+        ),
         return_exceptions=True,
     )
 
@@ -546,9 +592,6 @@ def filter_seen_dateless_posts(
     return filtered
 
 
-
-
-
 def generate_random_characters(count: int) -> list[str]:
     """
     Generate a specific number of random characters by combining adjectives and animals.
@@ -572,7 +615,6 @@ def generate_random_characters(count: int) -> list[str]:
     return characters
 
 
-
 def get_random_place() -> str:
     """Pick a random place/setting from the data file."""
     places = load_list_from_file("places.txt")
@@ -590,6 +632,9 @@ def build_digest_prompt(
     adjectives_file: Path,
     animals_file: Path,
     places_file: Path,
+    hats_file: Path,
+    scene_file: Path,
+    hat_pair: tuple[str, str],
     timestamp: str,
 ) -> str:
     """Build the prompt for normal mode (HN stories and/or lab posts available)."""
@@ -658,22 +703,28 @@ If no day count found, use 1 as the current count.
 Calculate the new day count by adding 1.
 {hn_section}{lab_section}
 ## Step 4: Curate Data Files
-Read ALL three data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
+Read all three data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
 
 **{adjectives_file}** — Adjectives for character generation
-- Must be funny, vivid, instantly recognizable (NOT colors, NOT SAT words)
-- Good: 'caffeinated', 'unhinged', 'pompous'. Bad: 'recalcitrant', 'lugubrious', 'blue'
-- Add a fresh funny one, OR remove a stale/unfunny one, OR replace a weak one
+- These adjectives drive a comic image, so they MUST be visually depictable. An illustrator must be able to draw a character that looks "<adjective>" at a glance — through posture, expression, body language, or accessory.
+- Test before adding: "If I told an illustrator to draw a [word] character with no other context, would they instantly know what to draw?" If no, REJECT.
+- GOOD (instantly visualizable): 'caffeinated', 'unhinged', 'pompous', 'sleep-deprived', 'sweaty', 'shivering', 'smug', 'panicked', 'overconfident', 'feral', 'overdressed', 'soggy'
+- BAD (abstract concepts that don't translate to a single image): 'fiscally-irresponsible', 'aggressively-mediocre', 'tab-hoarding', 'enshittified', 'npc-coded', 'recalcitrant', 'lugubrious'
+- BAD (descriptive but not character-defining): 'blue', 'tall', 'old' — these describe appearance, not personality
+- Add a fresh visually-depictable one, OR remove an abstract/non-visual one, OR replace a weak one
+- Audit hint: when reading the existing list, flag any that fail the illustrator test as candidates for removal/replacement.
 
-**{animals_file}** — Animals for character names
-- Must be common, recognizable animals everyone knows
-- Good: 'zebra', 'penguin', 'raccoon'. Bad: 'aye-aye', 'pangolin', 'dugong'
-- Add a fun common animal, OR remove an obscure one, OR replace one
-
-**{places_file}** — Settings where the comic strip takes place
+**{places_file}** — Settings where the comic takes place
 - Should be vivid, instantly recognizable locations with comedic potential
 - Good: 'a haunted castle', 'underwater', 'in a broken-down elevator'. Bad: 'a room', 'outside'
 - Add a fun new setting, OR remove a dull one, OR replace a weak one
+
+**{hats_file}** — Absurd hats worn by the blob characters in the comic
+- Each line is one hat — described as a noun phrase the image model can render directly
+- Must be visually distinctive and instantly recognizable, with comedic potential
+- Good: 'jester hat with three drooping bells', 'foam cowboy hat', 'tinfoil pyramid hat', 'beekeeper veil-and-hat combo'
+- Bad: 'a hat', 'something nice' (too vague), 'metaphorical hat of regret' (not literal/visual)
+- Add a fun new absurd hat, OR remove a dull one, OR replace a weak one
 
 Use the Edit tool for each file. Report what you changed and why.
 
@@ -685,25 +736,99 @@ Pick the ONE most interesting/impactful story from EITHER the HN stories or the 
 
 This prevents the characters from making bold but wrong factual claims. You only need to research the one story you're writing about.
 
-## Step 6: Write the Comic Strip
-Characters (2): {characters_text}
+## Step 6: Write the Comic Scene
+Characters: pick two of these — {characters_text}
+Use ONLY the adjectives — the characters are people whose appearance is implied by their adjective. Drop any species words. (The visual style of the rendering comes from the style block in Step 7 — do not describe style here.)
+
+CRITICAL: an illustrator must be able to draw "[adjective] character" at a glance. If an adjective is abstract (e.g. "fiscally-irresponsible", "tab-hoarding") and you can't picture how it would look on a character's posture/expression, PICK DIFFERENT ADJECTIVES. If both candidates in the pool fail the illustrator test, regenerate by picking two different adjectives from the {adjectives_file} file directly. Strong visual adjectives lead to good comics.
+
 Setting: {place}
 
 The characters are {place}, discussing the story you selected in Step 5.
 
-Example: "A nervous raccoon and a hopeful giraffe discuss GPT-5 in a haunted castle."
+Example setup: "A nervous person and a hopeful person discuss GPT-5 in a haunted castle."
 
-Requirements:
-- Use both characters
-- Format: CHARACTER NAME: "dialog line"
-- 20-30 lines maximum — short and punchy is funnier than long
-- Characters discuss the story with opinions, reactions, hot takes
-- The setting adds atmosphere and occasional comedic flavor — don't force it
-- Use the characters' adjectives to inform their personality
-- Have a clear beginning, middle, and punchline ending
-- Keep it clean and work-appropriate
+Write a short 6-panel comic scene. This text serves TWO purposes:
+(a) it gets persisted to disk (Step 6.5) for the historical record
+(b) it's the exact dialog source the image-gen call uses verbatim (Step 7)
 
-## Step 7: Update {readme_file}
+Format the scene EXACTLY like this (header in italics, then 6 panel blocks):
+
+```
+*[narrative intro: "A [adj] person and a [adj] person discuss [story topic] {place}."]*
+
+Panel 1:
+[setup]
+ADJECTIVE PERSON: "dialog line, max 12 words, must fit a speech bubble"
+
+Panel 2:
+[build]
+OTHER ADJECTIVE PERSON: "dialog line"
+OTHER ADJECTIVE PERSON: "second short line, optional"
+
+Panel 3:
+[pivot]
+ADJECTIVE PERSON: "the reveal or twist line"
+
+Panel 4:
+[silent reaction]
+[Visual: describe what is happening in this panel - usually a wordless beat reaction shot.]
+
+Panel 5:
+[punch]
+ADJECTIVE PERSON: "punchline setup"
+OTHER ADJECTIVE PERSON: "the punchline"
+
+Panel 6:
+[button]
+[Visual: describe the closing visual beat — a sight gag, a reveal, etc. Optionally one final dialog line.]
+ADJECTIVE PERSON: "final button line, optional"
+```
+
+Hard requirements:
+- EXACTLY 6 panels (Panel 1 through Panel 6)
+- Each panel begins with a `[beat-label]` line: setup, build, pivot, silent reaction, punch, button (use these exact labels)
+- Panel 4 MUST be a wordless beat — only a `[Visual: ...]` line, no dialog. This silent beat is essential for comedic timing.
+- Other panels can mix dialog and `[Visual: ...]` action notes. Use action notes for closeups, sight gags, screen contents, etc.
+- Speech bubbles are short — each dialog line ≤12 words. Hard ceiling.
+- Speaker labels are UPPERCASE: "EXISTENTIAL PERSON" not "existential rhino"
+- 0-2 dialog lines per panel — vary it. Don't make every panel a back-and-forth.
+- Use both characters across the scene. They don't both have to speak in every panel.
+- Use the adjectives to inform personality. Use the setting for atmosphere — don't overforce it.
+- Have a clear comedic arc: setup → build → pivot/reveal → silent reaction → punchline → button.
+- Keep it clean and work-appropriate.
+- Smart, specific dialog beats > generic punchlines. Reference real facts from the story.
+
+## Step 6.5: Persist the Scene to Disk
+Use the Write tool to save the EXACT scene text from Step 6 to: {scene_file}
+
+This file is the source of truth for the comic. The image-gen call in Step 7 uses this same text, and the file is preserved for future reference.
+
+## Step 7: Generate the Comic Image
+Now turn the scene into a 6-panel image.
+
+Compose a SINGLE image-generation prompt with all of:
+
+1. **Style direction (use this paragraph verbatim — the hats are pre-assigned by the system, the FIRST adjective in your scene's narrative intro corresponds to the first hat below, the SECOND adjective to the second hat):**
+{build_comic_style_direction(hat_pair[0], hat_pair[1])}
+
+2. **Layout direction (use this paragraph verbatim):**
+{COMIC_LAYOUT_DIRECTION}
+
+3. **Scene context:** the narrative intro line from your scene (without the asterisks).
+
+4. **Render this 6-panel comic. Use the dialog EXACTLY as written - do NOT paraphrase, do NOT shorten, do NOT rewrite. Some panels are SILENT (no speech bubbles) - that is intentional pacing, do not add dialog where none is written. Visual descriptions in [brackets] tell you what to draw in that panel.**
+Then list each panel block (Panel 1 through Panel 6) with the exact dialog and visual notes from your scene. Format each panel block exactly as it appears in your scene file.
+
+5. **Character anchors (style-neutral — visual aesthetic comes from §1, do NOT add style words here):** "Both characters are human. The model designs their appearance based on the adjectives — the {{first adjective}} character should look {{first adjective}} (clothing, posture, expression all reflect that trait), and the {{second adjective}} character should look {{second adjective}}. The two characters appear with consistent appearance, costume, and colors across all 6 panels. The setting backdrop ({place}) is visible in every panel. Vary panel composition: wide establishing shots, medium two-shots, close-ups for emotional beats."
+
+Then call the image-generation tool. The tool name is `mcp__comic__generate_image`. Pass:
+- `prompt`: the full image-gen prompt you composed above
+- `filename`: `"comic_{timestamp}"` (the .png suffix is added automatically)
+
+The tool will save the image to `daily_agent/generated_images/comic_{timestamp}.png` at 1024x1792 resolution. If the call fails (returns is_error: True), retry ONCE with a slightly tightened prompt. If it fails twice, proceed to Step 8 — the README will reference a missing image and we'll fix it next run.
+
+## Step 8: Update {readme_file}
 Write a new file at: {readme_file}
 Use this EXACT structure:
 
@@ -732,26 +857,24 @@ Use this EXACT structure:
 
 ---
 
-## 🎭 The Comic Strip
+## The Comic Strip
 
-*[Narrative sentence: "A [adj] [animal] and [adj] [animal] discuss [story topic] [place]..."]*
+*[Narrative sentence: "A [adj] person and a [adj] person discuss [story topic] [place]..."]*
 
-[CHARACTER NAME 1]: "dialog line"
-
-[CHARACTER NAME 2]: "dialog line"
-
-[Continue full dialog...]
+<img src="daily_agent/generated_images/comic_{timestamp}.png" width="600" alt="Today's 6-panel comic strip">
 
 ---
 
-*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and has randomly generated animal characters debate the most interesting story in a random setting.*
+*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and has two randomly generated characters debate the most interesting story in a random setting.*
 
 *Day [NEW DAY COUNT] | Last updated: {timestamp}*
 ```
 
 IMPORTANT formatting rules:
-- Character names in UPPERCASE followed by colon: NERVOUS RACCOON: "line"
-- The narrative sentence in italics (*like this*)
+- The narrative sentence in italics (*like this*) — this is the only text in the comic section; the rest is the image
+- Image embed must use the exact <img> HTML tag shown in the template (raw HTML, not markdown image syntax) so GitHub width-constrains it to 600px
+- Image path must match the filename you passed to mcp__comic__generate_image (i.e. comic_{timestamp}.png)
+- In speech bubbles drawn into the image, character names in UPPERCASE (e.g. EXISTENTIAL PERSON)
 - Story titles in both tables as markdown links: [Title](url)
 - HN Comments column: link to HN discussion like [341](https://news.ycombinator.com/item?id=12345)
 - HN Type column: short classification (e.g. "Model Release", "Palace Intrigue", "Open Source Tool", "Research Paper", "Dev Tooling", "Infrastructure", "AI Hardware")
@@ -769,6 +892,9 @@ def build_fallback_prompt(
     adjectives_file: Path,
     animals_file: Path,
     places_file: Path,
+    hats_file: Path,
+    scene_file: Path,
+    hat_pair: tuple[str, str],
     timestamp: str,
 ) -> str:
     """Build the prompt for fallback mode (no news from any source)."""
@@ -787,45 +913,115 @@ If no day count found, use 1 as the current count.
 Calculate the new day count by adding 1.
 
 ## Step 2: Curate Data Files
-Read ALL three data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
+Read all three data files and make exactly ONE edit to EACH file. Each edit is either an add, a remove, or a replace — at most +1 and/or -1 lines per file.
 
 **{adjectives_file}** — Adjectives for character generation
-- Must be funny, vivid, instantly recognizable (NOT colors, NOT SAT words)
-- Good: 'caffeinated', 'unhinged', 'pompous'. Bad: 'recalcitrant', 'lugubrious', 'blue'
-- Add a fresh funny one, OR remove a stale/unfunny one, OR replace a weak one
+- These adjectives drive a comic image, so they MUST be visually depictable. An illustrator must be able to draw a character that looks "<adjective>" at a glance — through posture, expression, body language, or accessory.
+- Test before adding: "If I told an illustrator to draw a [word] character with no other context, would they instantly know what to draw?" If no, REJECT.
+- GOOD (instantly visualizable): 'caffeinated', 'unhinged', 'pompous', 'sleep-deprived', 'sweaty', 'shivering', 'smug', 'panicked', 'overconfident', 'feral', 'overdressed', 'soggy'
+- BAD (abstract concepts that don't translate to a single image): 'fiscally-irresponsible', 'aggressively-mediocre', 'tab-hoarding', 'enshittified', 'npc-coded', 'recalcitrant', 'lugubrious'
+- BAD (descriptive but not character-defining): 'blue', 'tall', 'old' — these describe appearance, not personality
+- Add a fresh visually-depictable one, OR remove an abstract/non-visual one, OR replace a weak one
+- Audit hint: when reading the existing list, flag any that fail the illustrator test as candidates for removal/replacement.
 
-**{animals_file}** — Animals for character names
-- Must be common, recognizable animals everyone knows
-- Good: 'zebra', 'penguin', 'raccoon'. Bad: 'aye-aye', 'pangolin', 'dugong'
-- Add a fun common animal, OR remove an obscure one, OR replace one
-
-**{places_file}** — Settings where the comic strip takes place
+**{places_file}** — Settings where the comic takes place
 - Should be vivid, instantly recognizable locations with comedic potential
 - Good: 'a haunted castle', 'underwater', 'in a broken-down elevator'. Bad: 'a room', 'outside'
 - Add a fun new setting, OR remove a dull one, OR replace a weak one
 
+**{hats_file}** — Absurd hats worn by the blob characters in the comic
+- Each line is one hat — described as a noun phrase the image model can render directly
+- Must be visually distinctive and instantly recognizable, with comedic potential
+- Good: 'jester hat with three drooping bells', 'foam cowboy hat', 'tinfoil pyramid hat', 'beekeeper veil-and-hat combo'
+- Bad: 'a hat', 'something nice' (too vague), 'metaphorical hat of regret' (not literal/visual)
+- Add a fun new absurd hat, OR remove a dull one, OR replace a weak one
+
 Use the Edit tool for each file. Report what you changed and why.
 
-## Step 3: Write the Comic Strip
-Characters (2): {characters_text}
+## Step 3: Write the Comic Scene
+Characters: pick two of these — {characters_text}
+Use ONLY the adjectives — the characters are people. Drop any species words.
+
+CRITICAL: an illustrator must be able to draw "[adjective] character" at a glance. If an adjective is abstract and you can't picture how it would look on a character, PICK DIFFERENT ADJECTIVES from {adjectives_file}. Strong visual adjectives lead to good comics.
+
 Setting: {place}
 
 The characters are {place}, confronting the absence of AI news. Today there is NONE.
 
-Write a comic strip dialog where the characters react to having no AI news to discuss. Play up the existential comedy:
+Write a 6-panel scene reacting to the void. Play up the existential comedy:
 - Are they still relevant if there's nothing to discuss?
 - Do they exist if there's no AI news?
-- The setting should add atmosphere and occasional comedic flavor
+- The setting adds atmosphere
 
-Requirements:
-- Use both characters
-- Format: CHARACTER NAME: "dialog line"
-- 20-30 lines maximum — short and punchy is funnier than long
-- Use characters' adjectives to inform their personality
-- Have a clear beginning, middle, and punchline ending
-- Keep it clean and work-appropriate
+Format the scene EXACTLY like this:
 
-## Step 4: Update {readme_file}
+```
+*[narrative intro: "A [adj] person and a [adj] person face the void {place}."]*
+
+Panel 1:
+[setup]
+ADJECTIVE PERSON: "dialog noticing the absence of news"
+
+Panel 2:
+[build]
+OTHER ADJECTIVE PERSON: "dialog escalating the crisis"
+
+Panel 3:
+[pivot]
+ADJECTIVE PERSON: "the existential reveal"
+
+Panel 4:
+[silent reaction]
+[Visual: describe a wordless reaction shot.]
+
+Panel 5:
+[punch]
+ADJECTIVE PERSON: "punchline setup"
+OTHER ADJECTIVE PERSON: "the punchline"
+
+Panel 6:
+[button]
+[Visual: closing visual beat. Optional final dialog line.]
+ADJECTIVE PERSON: "final button line, optional"
+```
+
+Hard requirements:
+- EXACTLY 6 panels with the beat labels: setup, build, pivot, silent reaction, punch, button
+- Panel 4 MUST be a wordless beat (only `[Visual: ...]`, no dialog)
+- Speech bubbles ≤12 words each
+- Speaker labels UPPERCASE, "ADJECTIVE PERSON" format (no animal/species)
+- 0-2 dialog lines per panel
+- Use both characters across the scene; not every panel needs both
+- Clean and work-appropriate
+
+## Step 3.5: Persist the Scene to Disk
+Use the Write tool to save the EXACT scene text from Step 3 to: {scene_file}
+
+This file is the source of truth and the image-gen call uses this same text.
+
+## Step 4: Generate the Comic Image
+Compose a SINGLE image-generation prompt with all of:
+
+1. **Style direction (use this paragraph verbatim — the hats are pre-assigned by the system, the FIRST adjective in your scene's narrative intro corresponds to the first hat below, the SECOND adjective to the second hat):**
+{build_comic_style_direction(hat_pair[0], hat_pair[1])}
+
+2. **Layout direction (use this paragraph verbatim):**
+{COMIC_LAYOUT_DIRECTION}
+
+3. **Scene context:** the narrative intro line from your scene (without asterisks).
+
+4. **Render this 6-panel comic. Use the dialog EXACTLY as written - do NOT paraphrase. Some panels are SILENT (no speech bubbles) - that is intentional pacing. Visual descriptions in [brackets] tell you what to draw.**
+List each panel block (Panel 1 through Panel 6) with the exact dialog and visual notes from your scene file.
+
+5. **Character anchors (style-neutral — visual aesthetic comes from §1, do NOT add style words here):** "Both characters are human. Their appearance reflects their adjective traits and stays consistent across all 6 panels. The setting backdrop ({place}) is visible in every panel. Vary panel composition: wide establishing shots, medium two-shots, close-ups for emotional beats."
+
+Then call `mcp__comic__generate_image` with:
+- `prompt`: the full image-gen prompt you composed above
+- `filename`: `"comic_{timestamp}"`
+
+The tool saves to `daily_agent/generated_images/comic_{timestamp}.png` at 1024x1792. If it fails twice, proceed to Step 5 anyway.
+
+## Step 5: Update {readme_file}
 Write a new file at: {readme_file}
 Use this EXACT structure:
 
@@ -838,19 +1034,15 @@ Use this EXACT structure:
 
 ---
 
-## 🎭 The Comic Strip
+## The Comic Strip
 
 *[Narrative sentence describing the scene]*
 
-[CHARACTER NAME 1]: "dialog line"
-
-[CHARACTER NAME 2]: "dialog line"
-
-[Continue full dialog...]
+<img src="daily_agent/generated_images/comic_{timestamp}.png" width="600" alt="Today's 6-panel comic strip">
 
 ---
 
-*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors OpenAI/Anthropic/Google AI blogs for new posts, and has randomly generated animal characters debate the most interesting story. Today there was nothing. The characters handled it... uniquely.*
+*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors OpenAI/Anthropic/Google AI blogs for new posts, and has two randomly generated characters debate the most interesting story. Today there was nothing. The characters handled it... uniquely.*
 
 *Day [NEW DAY COUNT] | Last updated: {timestamp}*
 ```
@@ -901,8 +1093,23 @@ async def run_autonomous_agent() -> None:
     adjectives_file = DATA_DIR / "adjectives.txt"
     animals_file = DATA_DIR / "animals.txt"
     places_file = DATA_DIR / "places.txt"
+    hats_file = DATA_DIR / "hats.txt"
+
+    all_hats = load_list_from_file("hats.txt")
+    if len(all_hats) < 2:
+        raise RuntimeError(f"hats.txt must contain at least 2 entries, found {len(all_hats)}")
+    picked_hats = random.sample(all_hats, 2)
+    hat_pair = (picked_hats[0], picked_hats[1])
+    print(f"Random hats: '{hat_pair[0]}' / '{hat_pair[1]}'")
 
     timestamp = datetime.now().strftime("%Y-%m-%d")
+    SCENES_DIR.mkdir(parents=True, exist_ok=True)
+    scene_file = SCENES_DIR / f"{timestamp}.txt"
+
+    comic_server = create_sdk_mcp_server(
+        name="comic",
+        tools=[generate_image],
+    )
 
     options = ClaudeAgentOptions(
         allowed_tools=[
@@ -910,7 +1117,9 @@ async def run_autonomous_agent() -> None:
             "Write",
             "Edit",
             "WebFetch",
+            "mcp__comic__generate_image",
         ],
+        mcp_servers={"comic": comic_server},
         permission_mode="acceptEdits",
         cwd=str(PROJECT_ROOT),
         model="claude-sonnet-4-6",
@@ -961,6 +1170,9 @@ async def run_autonomous_agent() -> None:
             adjectives_file=adjectives_file,
             animals_file=animals_file,
             places_file=places_file,
+            hats_file=hats_file,
+            scene_file=scene_file,
+            hat_pair=hat_pair,
             timestamp=timestamp,
         )
     else:
@@ -972,6 +1184,9 @@ async def run_autonomous_agent() -> None:
             adjectives_file=adjectives_file,
             animals_file=animals_file,
             places_file=places_file,
+            hats_file=hats_file,
+            scene_file=scene_file,
+            hat_pair=hat_pair,
             timestamp=timestamp,
         )
 

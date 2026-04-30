@@ -142,7 +142,7 @@ async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
                 json={
                     "model": "openai/gpt-image-2",
                     "prompt": prompt,
-                    "size": "1024x1536",
+                    "size": "1024x1792",
                     "quality": "medium",
                     "n": 1,
                 },
