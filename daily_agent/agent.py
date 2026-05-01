@@ -40,10 +40,11 @@ from claude_agent_sdk import (
     AssistantMessage,
     ClaudeAgentOptions,
     ClaudeSDKClient,
+    ResultMessage,
     TextBlock,
     create_sdk_mcp_server,
 )
-from custom_tools import generate_image
+from custom_tools import generate_image, image_gen_usage_log
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -51,6 +52,7 @@ load_dotenv()
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = Path(__file__).parent / "data"
 SCENES_DIR = DATA_DIR / "comic_text"
+TOKENS_DIR = DATA_DIR / "tokens"
 
 def build_comic_style_direction(hat_first: str, hat_second: str) -> str:
     return (
@@ -1193,48 +1195,99 @@ async def run_autonomous_agent() -> None:
     max_retries = 3
     initial_backoff_secs = 30
 
-    for attempt in range(1, max_retries + 1):
-        received_content = False
+    total_cost_usd = 0.0
+    total_usage: dict[str, int] = {}
+    total_turns = 0
+    total_duration_ms = 0
+    attempts_used = 0
 
-        async with ClaudeSDKClient(options=options) as client:
-            print("Launching autonomous workflow...\n")
-            print("=" * 60)
+    try:
+        for attempt in range(1, max_retries + 1):
+            received_content = False
+            result_message: ResultMessage | None = None
 
-            await client.query(prompt)
+            async with ClaudeSDKClient(options=options) as client:
+                print("Launching autonomous workflow...\n")
+                print("=" * 60)
 
-            async for message in client.receive_response():
-                if isinstance(message, AssistantMessage):
-                    for block in message.content:
-                        if isinstance(block, TextBlock):
-                            print(block.text)
-                            received_content = True
+                await client.query(prompt)
 
-        readme_updated = (
-            received_content
-            and readme_file.exists()
-            and timestamp in readme_file.read_text()
+                async for message in client.receive_response():
+                    if isinstance(message, AssistantMessage):
+                        for block in message.content:
+                            if isinstance(block, TextBlock):
+                                print(block.text)
+                                received_content = True
+                    elif isinstance(message, ResultMessage):
+                        result_message = message
+
+            attempts_used = attempt
+            if result_message is not None:
+                if result_message.total_cost_usd:
+                    total_cost_usd += result_message.total_cost_usd
+                if result_message.usage:
+                    for k, v in result_message.usage.items():
+                        if isinstance(v, (int, float)):
+                            total_usage[k] = total_usage.get(k, 0) + int(v)
+                total_turns += result_message.num_turns
+                total_duration_ms += result_message.duration_ms
+
+            readme_updated = (
+                received_content
+                and readme_file.exists()
+                and timestamp in readme_file.read_text()
+            )
+
+            if readme_updated:
+                break
+
+            if attempt < max_retries:
+                backoff = initial_backoff_secs * (2 ** (attempt - 1))
+                print(f"\n{'=' * 60}")
+                print(
+                    f"Attempt {attempt}/{max_retries} failed — "
+                    f"README not updated. Retrying in {backoff}s..."
+                )
+                print("=" * 60)
+                await asyncio.sleep(backoff)
+            else:
+                raise RuntimeError(
+                    f"Agent failed after {max_retries} attempts — README not updated"
+                )
+
+        print("\n" + "=" * 60)
+        print("Agent completed successfully!")
+        print("=" * 60)
+    finally:
+        TOKENS_DIR.mkdir(parents=True, exist_ok=True)
+        tokens_file = TOKENS_DIR / f"{timestamp}.json"
+
+        anthropic_total_tokens = (
+            total_usage.get("input_tokens", 0)
+            + total_usage.get("output_tokens", 0)
+            + total_usage.get("cache_creation_input_tokens", 0)
+            + total_usage.get("cache_read_input_tokens", 0)
+        )
+        image_gen_total_tokens = sum(
+            int(entry.get("usage", {}).get("total_tokens", 0))
+            for entry in image_gen_usage_log
         )
 
-        if readme_updated:
-            break
-
-        if attempt < max_retries:
-            backoff = initial_backoff_secs * (2 ** (attempt - 1))
-            print(f"\n{'=' * 60}")
-            print(
-                f"Attempt {attempt}/{max_retries} failed — "
-                f"README not updated. Retrying in {backoff}s..."
-            )
-            print("=" * 60)
-            await asyncio.sleep(backoff)
-        else:
-            raise RuntimeError(
-                f"Agent failed after {max_retries} attempts — README not updated"
-            )
-
-    print("\n" + "=" * 60)
-    print("Agent completed successfully!")
-    print("=" * 60)
+        tokens_data = {
+            "date": timestamp,
+            "model": "claude-sonnet-4-6",
+            "attempts": attempts_used,
+            "total_cost_usd": round(total_cost_usd, 6),
+            "total_duration_ms": total_duration_ms,
+            "total_turns": total_turns,
+            "anthropic_usage": total_usage,
+            "anthropic_total_tokens": anthropic_total_tokens,
+            "image_gen_usage": image_gen_usage_log,
+            "image_gen_total_tokens": image_gen_total_tokens,
+            "grand_total_tokens": anthropic_total_tokens + image_gen_total_tokens,
+        }
+        tokens_file.write_text(json.dumps(tokens_data, indent=2) + "\n")
+        print(f"Token usage report written to {tokens_file}")
 
     if lab_posts:
         today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
