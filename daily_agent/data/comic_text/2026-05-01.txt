@@ -1,0 +1,28 @@
+*[A vengeful person and an unqualified person discuss Claude Code's OpenClaw billing trigger on a sinking pirate ship.]*
+
+Panel 1:
+[setup]
+VENGEFUL PERSON: "Claude Code charged me double for typing 'OpenClaw' in a commit."
+
+Panel 2:
+[build]
+UNQUALIFIED PERSON: "OpenClaw is a competitor framework. Naturally it triggers special mode."
+UNQUALIFIED PERSON: "It's in the terms of service. Probably."
+
+Panel 3:
+[pivot]
+VENGEFUL PERSON: "My session hit 100% quota. Mid-pull request. One word."
+
+Panel 4:
+[silent reaction]
+[Visual: The ship lists sharply to one side. Both characters slide toward the railing, still deadpan, each clutching a laptop. Water begins rushing across the deck.]
+
+Panel 5:
+[punch]
+UNQUALIFIED PERSON: "Think of it as a competitor protection surcharge."
+VENGEFUL PERSON: "I think of it as theft."
+
+Panel 6:
+[button]
+[Visual: A wooden barrel labeled "OPENCLAW" bobs past in the rising floodwater on the deck between them.]
+UNQUALIFIED PERSON: "Don't say that word again. We can't afford the fee."

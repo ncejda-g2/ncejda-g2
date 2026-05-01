@@ -37,3 +37,4 @@ in an escape room where no one is cooperating
 at a hackathon where the demo crashed an hour ago
 in a driverless car that won't stop circling the block
 at a VC pitch where the demo is actively hallucinating
+in a burning server room during a performance review
