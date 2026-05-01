@@ -1192,6 +1192,7 @@ async def run_autonomous_agent() -> None:
         tokens_data = {
             "date": timestamp,
             "model": "claude-sonnet-4-6",
+            "attempts": 1,
             "total_cost_usd": round(total_cost_usd, 6),
             "total_duration_ms": total_duration_ms,
             "total_turns": total_turns,
