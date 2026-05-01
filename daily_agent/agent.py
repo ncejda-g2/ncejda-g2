@@ -724,7 +724,14 @@ Read all three data files and make exactly ONE edit to EACH file. Each edit is e
 - Must be visually distinctive and instantly recognizable, with comedic potential
 - Good: 'jester hat with three drooping bells', 'foam cowboy hat', 'tinfoil pyramid hat', 'beekeeper veil-and-hat combo'
 - Bad: 'a hat', 'something nice' (too vague), 'metaphorical hat of regret' (not literal/visual)
-- Add a fun new absurd hat, OR remove a dull one, OR replace a weak one
+- ALLOWED categories (totally fine — pick from these or invent within them):
+  - Generic everyday/sport: baseball cap, foam cowboy hat, bucket hat, trucker cap, beanie, visor, bike helmet
+  - Holiday/secular festive: santa hat, party cone hat, birthday crown, new-year's-eve top hat
+  - Occupational: chef's toque, welder's mask, construction hard hat, nurse's cap, firefighter helmet, hairnet
+  - Fantasy/fictional: wizard hat, jester hat, knight's plume helmet, viking helmet with horns, dragon-scale helm
+  - Absurd novelty props: propeller beanie, tinfoil pyramid hat, rubber-duck helmet, hat made of taped-together pencils, helmet with a goldfish bowl on top
+- HARD RULE — never add culturally, religiously, or ethnically loaded headwear. Examples of what to NEVER add: turbans, fezzes, sombreros, conical Asian straw hats / "rice hats", keffiyehs, kippot/yarmulkes, tagelmusts, papal/bishop's mitres, nun's habits, Native American war bonnets / feathered headdresses, pith helmets, dreadlock-tams, hijabs/niqabs, or any hat that signals a specific real-world ethnic, national, or religious group. If you see one in the existing list, REMOVE it as your edit.
+- Add a fun new absurd hat from the allowed categories, OR remove a dull or culturally-loaded one, OR replace a weak one
 
 Use the Edit tool for each file. Report what you changed and why.
 
@@ -934,7 +941,14 @@ Read all three data files and make exactly ONE edit to EACH file. Each edit is e
 - Must be visually distinctive and instantly recognizable, with comedic potential
 - Good: 'jester hat with three drooping bells', 'foam cowboy hat', 'tinfoil pyramid hat', 'beekeeper veil-and-hat combo'
 - Bad: 'a hat', 'something nice' (too vague), 'metaphorical hat of regret' (not literal/visual)
-- Add a fun new absurd hat, OR remove a dull one, OR replace a weak one
+- ALLOWED categories (totally fine — pick from these or invent within them):
+  - Generic everyday/sport: baseball cap, foam cowboy hat, bucket hat, trucker cap, beanie, visor, bike helmet
+  - Holiday/secular festive: santa hat, party cone hat, birthday crown, new-year's-eve top hat
+  - Occupational: chef's toque, welder's mask, construction hard hat, nurse's cap, firefighter helmet, hairnet
+  - Fantasy/fictional: wizard hat, jester hat, knight's plume helmet, viking helmet with horns, dragon-scale helm
+  - Absurd novelty props: propeller beanie, tinfoil pyramid hat, rubber-duck helmet, hat made of taped-together pencils, helmet with a goldfish bowl on top
+- HARD RULE — never add culturally, religiously, or ethnically loaded headwear. Examples of what to NEVER add: turbans, fezzes, sombreros, conical Asian straw hats / "rice hats", keffiyehs, kippot/yarmulkes, tagelmusts, papal/bishop's mitres, nun's habits, Native American war bonnets / feathered headdresses, pith helmets, dreadlock-tams, hijabs/niqabs, or any hat that signals a specific real-world ethnic, national, or religious group. If you see one in the existing list, REMOVE it as your edit.
+- Add a fun new absurd hat from the allowed categories, OR remove a dull or culturally-loaded one, OR replace a weak one
 
 Use the Edit tool for each file. Report what you changed and why.
 
