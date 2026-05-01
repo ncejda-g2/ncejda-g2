@@ -14,6 +14,10 @@ from claude_agent_sdk import tool
 
 PROJECT_ROOT = Path(__file__).parent.parent
 
+# Per-run usage log populated by generate_image. Read by agent.py to roll
+# image gen tokens into the daily spend artifact.
+image_gen_usage_log: list[dict[str, Any]] = []
+
 
 @tool(
     "get_max_xkcd_number",
@@ -160,6 +164,12 @@ async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
                     }
 
                 data = await response.json()
+
+                usage = data.get("usage")
+                if usage:
+                    image_gen_usage_log.append(
+                        {"model": "openai/gpt-image-2", "usage": usage}
+                    )
 
                 # gpt-image-1 returns base64-encoded image in b64_json field
                 base64_image = data["data"][0]["b64_json"]
