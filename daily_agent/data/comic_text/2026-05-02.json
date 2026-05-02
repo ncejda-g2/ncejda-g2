@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-02",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "sleep-deprived",
+    "adjective_second": "theatrical",
+    "narrative_intro": "*A sleep-deprived person and a theatrical person discuss DeepSeek V4 at an airport gate where the flight has been delayed 6 hours.*",
+    "panel1": "[setup]\nSLEEP-DEPRIVED PERSON: \"DeepSeek V4-Pro has 1.6 trillion parameters.\"",
+    "panel2": "[build]\nTHEATRICAL PERSON: \"Extraordinary! A titan! An colossus of intellect!\"\nSLEEP-DEPRIVED PERSON: \"Only 49 billion actually turn on.\"",
+    "panel3": "[pivot]\nTHEATRICAL PERSON: \"...that's 3% showing up.\"\nSLEEP-DEPRIVED PERSON: \"$1.74 per million tokens. Cheaper than GPT-5.4 Nano.\"",
+    "panel4": "[silent reaction]\n[Visual: The theatrical person stares into the middle distance, one hand frozen mid-flourish. Behind them, the departure board still reads DELAYED. A crumpled $500B funding announcement flyer blows across the floor.]",
+    "panel5": "[punch]\nTHEATRICAL PERSON: \"So it's a frontier model... on a Spirit Airlines budget.\"\nSLEEP-DEPRIVED PERSON: \"About 3 to 6 months behind. Open weights.\"",
+    "panel6": "[button]\n[Visual: Both stare at their boarding passes. The gate agent's screen quietly runs DeepSeek V4-Flash. A hand-written sign reads: 'WE ALSO ONLY ACTIVATE 3% AT A TIME.']"
+  },
+  "narrative_summary": "The joke reframes DeepSeek V4's 3%-active Mixture-of-Experts architecture as a relatable 'barely showing up and still competitive' energy, set against the backdrop of a 6-hour delay where budget options are suddenly looking very appealing.",
+  "rationale": "Candidate 1 earns its punchline most cleanly: the gate agent's handwritten sign 'WE ALSO ONLY ACTIVATE 3% AT A TIME' is a genuinely earned visual callback that ties the MoE architecture joke to the setting without over-explaining it, and the deadpan voice keeps the specific numbers (1.6T params, 49B active, $1.74/M tokens) landing as dry comedy rather than lecture. Candidates 4 and 5 tie on score but 4 over-explains the deflation and 5 muddles speaker attribution in panel 3, giving Candidate 1 the edge on execution.",
+  "image_filename": "comic_2026-05-02.png",
+  "story_title": "DeepSeek V4\u2013almost on the frontier, a fraction of the price",
+  "story_url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+  "place": "at an airport gate where the flight has been delayed 6 hours",
+  "hat_pair": [
+    "nurse's cap",
+    "construction hard hat"
+  ],
+  "no_news_mode": false
+}
