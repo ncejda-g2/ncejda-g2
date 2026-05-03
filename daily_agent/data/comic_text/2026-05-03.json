@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-03",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "paranoid",
+    "adjective_second": "smug",
+    "narrative_intro": "*A paranoid person and a smug person discuss VS Code's auto-injected Copilot commits in a burning server room during a performance review.*",
+    "panel1": "[setup]\nPARANOID PERSON: \"My git log says Copilot co-authored my commits.\"\nSMUG PERSON: \"So? You used Copilot.\"",
+    "panel2": "[build]\nPARANOID PERSON: \"I have chat.disableAIFeatures set to true.\"\nSMUG PERSON: \"Maybe Copilot was helping spiritually.\"",
+    "panel3": "[pivot]\nPARANOID PERSON: \"It's on every commit. Including my 2 AM hotfix.\"\nSMUG PERSON: \"...git.addAICoAuthor defaults to on.\"",
+    "panel4": "[silent reaction]\n[Visual: The smug person's expression collapses entirely. They slowly look at their own laptop. The server room flames reflect in their eyes. A performance review chart on the wall reads '372 thumbs down / 2 thumbs up'.]",
+    "panel5": "[punch]\nSMUG PERSON: \"Mine says Co-authored-by: Copilot too.\"\nPARANOID PERSON: \"You wrote that in Notepad.\"",
+    "panel6": "[button]\n[Visual: A framed portrait of a Copilot logo hangs on the wall labeled 'Employee of the Month \u2014 Every Month.' The server room burns peacefully around it.]"
+  },
+  "narrative_summary": "A developer's paranoia about phantom Copilot commit credits is validated when even the smug skeptic \u2014 who typed everything in Notepad \u2014 discovers Copilot claimed co-authorship of his work too.",
+  "rationale": "Candidate 5 earns its punchline structurally \u2014 the skeptic becomes the victim, which is a genuine reversal rather than a restatement, and 'You wrote that in Notepad' lands as a hard button because it's specific and absurd simultaneously. It also uses the real setting detail (git.addAICoAuthor defaults to on, the 372/2 vote ratio) without just reciting them as exposition.",
+  "image_filename": "comic_2026-05-03.png",
+  "story_title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+  "story_url": "https://github.com/microsoft/vscode/pull/310226",
+  "place": "in a burning server room during a performance review",
+  "hat_pair": [
+    "floppy chef's toque",
+    "beekeeper veil-and-hat combo"
+  ],
+  "no_news_mode": false
+}
