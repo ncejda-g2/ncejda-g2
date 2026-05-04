@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-04",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "i_receive": "47% of your debugging skills, gone within months",
+    "you_receive": "an AI that requires debugging skills to supervise"
+  },
+  "narrative_summary": "The joke frames the agentic coding dependency loop as a comically lopsided trade offer \u2014 you hand over your debugging expertise and in return get a tool that only works if you still have it.",
+  "rationale": "Candidate 2 earns the win by weaponizing the exact 47% stat from the article and crystallizing the paradox into a genuinely lopsided trade offer \u2014 you give away the skill, you get back a tool that demands the skill \u2014 which is a structurally perfect fit for the Trade Offer template and lands a real punchline rather than restating the setup.",
+  "image_filename": "comic_2026-05-04.png",
+  "story_title": "Agentic Coding Is a Trap",
+  "story_url": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
+  "place": "at a VC pitch where the demo is actively hallucinating",
+  "hat_pair": [
+    "tinfoil pyramid hat",
+    "pointy wizard hat with stars"
+  ],
+  "no_news_mode": false
+}
