@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-05-05",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "caption": "your AI model can't fail government vetting / if changing the system prompt makes it a new model every time"
+  },
+  "narrative_summary": "The joke exploits the story's own absurdity: since nobody can define when a system prompt change constitutes a 'new model,' you could theoretically dodge re-review forever by just tweaking the prompt \u2014 smug self-defeating logic applied to a real unanswered policy question.",
+  "rationale": "Candidates 1 and 5 tie on raw score but Candidate 1's phrasing is tighter \u2014 'every time' at the end adds a slight escalating rhythm that makes the self-defeating logic land harder than Candidate 5's more neutral 'brand new model.' Roll Safe is the ideal template for smug circular logic, and the system-prompt loophole is the sharpest specific detail the story offers.",
+  "image_filename": "comic_2026-05-05.png",
+  "story_title": "White House Considers Vetting A.I. Models Before They Are Released",
+  "story_url": "https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html",
+  "place": "at a gas station in the desert",
+  "hat_pair": [
+    "beekeeper veil-and-hat combo",
+    "plague-doctor beaked hat"
+  ],
+  "no_news_mode": false
+}
