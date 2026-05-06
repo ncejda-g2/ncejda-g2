@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-06",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "smug",
+    "adjective_second": "deranged",
+    "narrative_intro": "*A smug person and a deranged person discuss computer-use agents versus structured APIs on a runaway train.*",
+    "panel1": "[setup]\nSMUG PERSON: \"Our vision agent can use any website. No APIs needed.\"\n[Visual: Smug person gestures at a laptop showing a browser with seventeen open tabs.]",
+    "panel2": "[build]\nDERANGED PERSON: \"How's the admin panel task going?\"\nSMUG PERSON: \"Fifty-three steps. Seventeen minutes. Very thorough.\"",
+    "panel3": "[pivot]\nDERANGED PERSON: \"The direct API did it in eight calls. Twenty seconds.\"\nSMUG PERSON: \"...It missed data below the fold.\"",
+    "panel4": "[silent reaction]\n[Visual: The deranged person holds up a printout: '551,000 INPUT TOKENS.' The smug person stares at it. The train screams past a sign reading '45X CHEAPER.' Neither blinks.]",
+    "panel5": "[punch]\nDERANGED PERSON: \"So you paid to watch it fail to scroll down.\"\nSMUG PERSON: \"We gave it a fourteen-step walkthrough. It succeeded eventually.\"",
+    "panel6": "[button]\n[Visual: A framed poster on the train wall reads: 'An agent that must see in order to act will always pay for the seeing.' It is on fire. The smug person is nodding at it approvingly.]"
+  },
+  "narrative_summary": "A smug computer-use evangelist is confronted with the specific, damning numbers from the benchmarking study \u2014 53 steps, 551k tokens, a scroll-down failure \u2014 while a deranged skeptic delivers the verdict perfectly flat on a runaway train.",
+  "rationale": "Candidate 1 earns its edge through the silent panel 4 \u2014 holding up the '551,000 INPUT TOKENS' printout while neither character blinks is a genuine visual beat, not just a restatement. The closing image of the smug person approvingly nodding at a burning poster is a sharper button than the other two, which both end on the same 'train on fire' gag without the ironic character payoff.",
+  "image_filename": "comic_2026-05-06.png",
+  "story_title": "Computer Use is 45x more expensive than structured APIs",
+  "story_url": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/",
+  "place": "on a runaway train",
+  "hat_pair": [
+    "viking helmet with tall curving horns",
+    "crown made of bent paperclips"
+  ],
+  "no_news_mode": false
+}
