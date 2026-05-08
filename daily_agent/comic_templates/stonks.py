@@ -8,7 +8,7 @@ def _build(fields: dict[str, str]) -> str:
     headline = fields["headline"]
     return f"""A single-panel "Stonks" reaction meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image, single full-bleed panel.
+Layout: square 1024x1024 image, single full-bleed panel.
 
 Background: a flat-design ROYAL-BLUE stock ticker grid pattern filling the entire panel. Rows and \
 columns of small white numbers and percentages laid out in a clean tabular grid — readable values \

@@ -10,7 +10,7 @@ def _build(fields: dict[str, str]) -> str:
 The goal is to MATCH THE ICONIC MEME EXACTLY — including the specific head-and-eye pose described \
 below. Treat the head/eye direction as the most important visual element along with the pinch gesture.
 
-Layout: tall portrait 1024x1792 image, single full-bleed panel.
+Layout: square 1024x1024 image, single full-bleed panel.
 
 Background: a warm-lit medieval fantasy interior reminiscent of an elven hall. On the LEFT side of \
 the panel, a flat-design stone-arch hearth/fireplace with rounded curved stone blocks framing a dark \

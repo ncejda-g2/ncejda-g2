@@ -9,7 +9,7 @@ def _build(fields: dict[str, str]) -> str:
     cheems_caption = fields["cheems_caption"]
     return f"""A single-panel "Buff Doge vs Cheems" comparison meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image, single full-bleed panel, pale teal solid background. The \
+Layout: square 1024x1024 image, single full-bleed panel, pale teal solid background. The \
 panel is divided down the middle into LEFT half and RIGHT half by a thin vertical white gutter.
 
 LEFT half: a TALL, MUSCULAR pastel-yellow blob character standing tall and proud, body filled out \

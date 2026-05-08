@@ -41,12 +41,52 @@ TemplateFilter = Literal["meme", "classic", "any"]
 """
 
 
+MEME_COOLDOWN_DAYS = 7
+"""Skip a meme template if it was used in any of the last N persisted scenes."""
+
+
 def _allowed_templates(template_filter: TemplateFilter) -> dict[str, MemeTemplate]:
     if template_filter == "meme":
         return {k: v for k, v in REGISTRY.items() if k != "classic_6_panel"}
     if template_filter == "classic":
         return {"classic_6_panel": REGISTRY["classic_6_panel"]}
     return dict(REGISTRY)
+
+
+def _recent_meme_template_ids(
+    scenes_dir: Path | None, *, lookback: int = MEME_COOLDOWN_DAYS
+) -> set[str]:
+    """Read the N most recent comic-text JSONs and return template_ids that ran in 'meme' mode."""
+    if scenes_dir is None or not scenes_dir.is_dir():
+        return set()
+    files = sorted(scenes_dir.glob("*.json"), reverse=True)[:lookback]
+    recent: set[str] = set()
+    for fp in files:
+        try:
+            data = json.loads(fp.read_text())
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"[scene_pipeline] cooldown: skipping {fp.name} ({exc})")
+            continue
+        if data.get("template_filter") != "meme":
+            continue
+        tid = data.get("template_id")
+        if isinstance(tid, str):
+            recent.add(tid)
+    return recent
+
+
+def _apply_cooldown(
+    allowed: dict[str, MemeTemplate], recent: set[str]
+) -> dict[str, MemeTemplate]:
+    """Drop recently-used templates from `allowed`, falling back if that would empty the pool."""
+    filtered = {k: v for k, v in allowed.items() if k not in recent}
+    if not filtered:
+        print(
+            f"[scene_pipeline] cooldown: all {len(allowed)} templates in cooldown; "
+            "falling back to full pool"
+        )
+        return allowed
+    return filtered
 
 
 # ---------------------------------------------------------------------------
@@ -103,15 +143,15 @@ VOICES: list[tuple[str, str]] = [
         "deadpan",
         "Lean into deadpan, dry humor. The funniest version delivers the joke "
         "flat — no flourish, no exclamation, no explanatory setup. The setup IS "
-        "the joke. Templates that suit you: Same Picture, Always Has Been, "
-        "This Is Fine, classic 6-panel.",
+        "the joke. Pick whichever template best lets a single understated beat "
+        "do the work.",
     ),
     (
         "absurd",
         "Lean into absurdity and surreal twists. The funniest version goes "
         "somewhere unexpected — pick a template where the visual logic itself "
-        "is the punchline. Templates that suit you: Expanding Brain, Trade "
-        "Offer, Buff Doge vs Cheems.",
+        "is the punchline. Choose the template whose shape best fits your "
+        "absurd take on this specific story.",
     ),
     (
         "specific",
@@ -123,15 +163,14 @@ VOICES: list[tuple[str, str]] = [
     (
         "escalation",
         "Lean into escalation. Each beat should raise the stakes from the "
-        "last. Templates that suit you: Expanding Brain, Anakin/Padme, "
-        "classic 6-panel, Two Buttons.",
+        "last. Pick a template that has multiple beats or ranks so the "
+        "escalation actually has somewhere to go.",
     ),
     (
         "sight_gag",
         "Lean into visual comedy. Pick a template where the visual carries the "
-        "joke and let the caption be a quiet observation. Templates that suit "
-        "you: Disaster Girl, This Is Fine, Stonks, Roll Safe, One Does Not "
-        "Simply.",
+        "joke and let the caption be a quiet observation. Favor templates "
+        "where a single striking image does most of the work.",
     ),
 ]
 
@@ -410,6 +449,7 @@ async def pick_winning_scene(
     story: StoryContext,
     *,
     template_filter: TemplateFilter = "any",
+    scenes_dir: Path | None = None,
 ) -> WinningScene:
     """Run 5 generators in parallel, then a critic, return the winning scene.
 
@@ -417,8 +457,23 @@ async def pick_winning_scene(
     - "meme":    only the 13 meme templates
     - "classic": only classic_6_panel (best-of-5 on classic scene-writing)
     - "any":     no constraint (all 14)
+
+    `scenes_dir` enables the meme-template cooldown: when set and
+    `template_filter='meme'`, any meme used in the most-recent
+    MEME_COOLDOWN_DAYS persisted scenes is removed from the pool.
     """
     allowed = _allowed_templates(template_filter)
+    if template_filter == "meme":
+        recent = _recent_meme_template_ids(scenes_dir)
+        if recent:
+            before = set(allowed.keys())
+            allowed = _apply_cooldown(allowed, recent)
+            excluded = sorted(before - set(allowed.keys()))
+            if excluded:
+                print(
+                    f"[scene_pipeline] cooldown: excluded {excluded} "
+                    f"(meme picks in last {MEME_COOLDOWN_DAYS} days)"
+                )
     print(
         f"[scene_pipeline] template filter: {template_filter!r} "
         f"({len(allowed)} templates available)"
@@ -503,11 +558,12 @@ async def render_scene_to_image(
     if not base_url or not api_key:
         raise RuntimeError("LITELLM_BASE_URL and LITELLM_API_KEY must be set")
 
+    image_size = "1024x1792" if scene.template_id == "classic_6_panel" else "1024x1024"
     url = f"{base_url.rstrip('/')}/v1/images/generations"
     payload = {
         "model": "openai/gpt-image-2",
         "prompt": image_prompt,
-        "size": "1024x1792",
+        "size": image_size,
         "quality": "medium",
         "n": 1,
     }

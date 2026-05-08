@@ -9,7 +9,7 @@ def _build(fields: dict[str, str]) -> str:
     you_receive = fields["you_receive"]
     return f"""A single-panel "Trade Offer" reaction meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image, single full-bleed panel. Background: a flat solid deep-purple \
+Layout: square 1024x1024 image, single full-bleed panel. Background: a flat solid deep-purple \
 moody indoor scene with a few brighter purple horizontal LED light strip accents along the upper \
 walls (flat-design, no gradients, no glow blur — just dark purple with a couple of brighter purple \
 strip rectangles to evoke an influencer-style room).

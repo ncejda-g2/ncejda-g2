@@ -9,7 +9,7 @@ def _build(fields: dict[str, str]) -> str:
     button_right = fields["button_right"]
     return f"""A single-panel "Daily Struggle / Two Buttons" reaction meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image, single full-bleed panel, pale yellow solid background.
+Layout: square 1024x1024 image, single full-bleed panel, pale yellow solid background.
 
 In the lower half of the panel: a control panel with TWO large round red push-buttons side by side, \
 each button has a clean white rectangular caption box mounted directly above it. \
