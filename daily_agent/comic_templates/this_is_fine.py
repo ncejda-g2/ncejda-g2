@@ -9,7 +9,7 @@ def _build(fields: dict[str, str]) -> str:
     speech = fields.get("speech", "This is fine.")
     return f"""A single-panel "This Is Fine" reaction meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image, single full-bleed panel.
+Layout: square 1024x1024 image, single full-bleed panel.
 
 A pastel-pink blob character sits calmly at a small wooden round table at the center of the panel, \
 holding a tiny white coffee mug with one stubby cartoon arm. The blob has a serene, slightly forced \

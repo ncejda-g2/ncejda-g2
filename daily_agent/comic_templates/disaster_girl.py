@@ -8,7 +8,7 @@ def _build(fields: dict[str, str]) -> str:
     caption = fields["caption"]
     return f"""A single-panel "Disaster Girl" reaction meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image, single full-bleed panel.
+Layout: square 1024x1024 image, single full-bleed panel.
 
 FOREGROUND (lower-right portion of the panel): a single pastel-pink blob character shown from the \
 shoulders up, slightly off-center to the right, looking directly toward the viewer with a tiny \

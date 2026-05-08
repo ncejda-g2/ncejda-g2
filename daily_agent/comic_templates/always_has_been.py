@@ -9,7 +9,7 @@ def _build(fields: dict[str, str]) -> str:
     back_speech = fields.get("back_speech", "always has been")
     return f"""A single-panel "Always Has Been" astronaut reaction meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image, single full-bleed panel. Background: deep navy starfield with \
+Layout: square 1024x1024 image, single full-bleed panel. Background: deep navy starfield with \
 small flat-design white stars and a curved horizon of a planet (pale blue Earth-like) at the bottom \
 quarter of the panel.
 

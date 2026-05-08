@@ -9,8 +9,8 @@ def _build(fields: dict[str, str]) -> str:
     caption_bottom = fields["caption_bottom"]
     return f"""A 2-panel vertical-stacked reaction meme in {BLOB_STYLE}
 
-Layout: two equal square panels stacked vertically with a thin white gutter between them. \
-Tall portrait 1024x1792 aspect ratio. Each panel is clearly delimited. \
+Layout: two equal-height rectangular panels stacked vertically with a thin white gutter between them. \
+Square 1024x1024 aspect ratio (each panel ends up roughly 1024 wide by ~512 tall). Each panel is clearly delimited. \
 Solid pastel beige-yellow background fills both panels.
 
 Panel 1 (top): a single bald pastel-pink simple geometric blob character with a smooth rounded body, \

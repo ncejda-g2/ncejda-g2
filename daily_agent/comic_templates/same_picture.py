@@ -10,7 +10,7 @@ def _build(fields: dict[str, str]) -> str:
     speech = fields.get("speech", "they're the same picture")
     return f"""A single-panel "They're the Same Picture" reaction meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image, single full-bleed panel, pale beige solid background \
+Layout: square 1024x1024 image, single full-bleed panel, pale beige solid background \
 suggesting an office wall.
 
 A single pastel-pink blob character stands at the center of the panel, shown from the waist up, \

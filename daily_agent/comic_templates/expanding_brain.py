@@ -9,27 +9,27 @@ def _build(fields: dict[str, str]) -> str:
     p2 = fields["panel2_caption"]
     p3 = fields["panel3_caption"]
     p4 = fields["panel4_caption"]
-    return f"""A 4-panel vertical "Expanding Brain / Galaxy Brain" meme in {BLOB_STYLE}
+    return f"""A 4-panel "Expanding Brain / Galaxy Brain" meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image divided into FOUR equal-height horizontal panels stacked \
-vertically with thin white gutters between them. Each panel shows the SAME pastel-blue blob \
-character on the LEFT, head shown in profile facing right so the brain inside is visible, paired \
-with a clean white rectangular caption box on the RIGHT.
+Layout: square 1024x1024 image divided into a 2x2 grid of FOUR equal panels with thin white \
+gutters between them. Reading order: top-left, top-right, bottom-left, bottom-right. Each panel \
+shows the SAME pastel-blue blob character on the LEFT, head shown in profile facing right so the \
+brain inside is visible, paired with a clean white rectangular caption box on the RIGHT.
 
-Panel 1 (top): Blob in profile, normal small pink brain faintly visible inside head, \
+Panel 1 (top-left): Blob in profile, normal small pink brain faintly visible inside head, \
 neutral expression. Caption: {p1!r}.
 
-Panel 2: SAME blob in profile, brain noticeably larger and gently glowing pale-blue. \
+Panel 2 (top-right): SAME blob in profile, brain noticeably larger and gently glowing pale-blue. \
 Mildly impressed expression. Caption: {p2!r}.
 
-Panel 3: SAME blob in profile, brain very large, glowing bright with several radiating light rays \
-escaping the head. Smug enlightened expression. Caption: {p3!r}.
+Panel 3 (bottom-left): SAME blob in profile, brain very large, glowing bright with several radiating \
+light rays escaping the head. Smug enlightened expression. Caption: {p3!r}.
 
-Panel 4 (bottom): SAME blob in profile, head replaced by an enormous swirling cosmic galaxy of \
+Panel 4 (bottom-right): SAME blob in profile, head replaced by an enormous swirling cosmic galaxy of \
 stars, nebulae, and cosmic energy. Caption: {p4!r}.
 
-The four backgrounds progress from pale beige (top) to pale lavender to pale teal to deep navy with \
-tiny stars (bottom) to underline the escalating cosmic enlightenment."""
+The four backgrounds progress from pale beige (top-left) to pale lavender (top-right) to pale teal \
+(bottom-left) to deep navy with tiny stars (bottom-right) to underline the escalating cosmic enlightenment."""
 
 
 TEMPLATE = MemeTemplate(

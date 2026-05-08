@@ -8,7 +8,7 @@ def _build(fields: dict[str, str]) -> str:
     caption = fields["caption"]
     return f"""A single-panel "Roll Safe / Smart Guy Tapping Head" reaction meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image, single full-bleed panel, flat solid pale beige background.
+Layout: square 1024x1024 image, single full-bleed panel, flat solid pale beige background.
 
 A single pastel-pink blob character is shown from the shoulders up, centered. The head is turned \
 slightly to one side so the viewer sees it at a THREE-QUARTER angle, NOT facing dead-on.

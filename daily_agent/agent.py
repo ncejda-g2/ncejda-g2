@@ -743,18 +743,27 @@ def build_readme_prompt(
     hn_stories: list[dict],
     lab_posts: list[dict],
     image_filename: str,
-    comic_narrative: str,
     timestamp: str,
     no_news: bool,
+    *,
+    is_meme: bool,
+    story_title: str,
+    story_url: str,
 ) -> str:
     """Second agent call: write the README using pre-computed inputs.
 
-    Everything is decided before this call: stories are filtered, the comic
-    image is generated and saved, the narrative caption is written. The agent
-    only formats the README.
+    `is_meme` selects layout: memes render square at width=400, classic
+    6-panel renders portrait at width=600. `story_title`/`story_url` are
+    empty strings on no-news days (the attribution line is then omitted).
     """
     hn_block = json.dumps(hn_stories, indent=2)
     lab_block = json.dumps(lab_posts, indent=2)
+
+    image_width = 400 if is_meme else 600
+    if story_title and story_url:
+        attribution_line = f"\n\n_Based on: [{story_title}]({story_url})_"
+    else:
+        attribution_line = ""
 
     if no_news:
         no_news_note = (
@@ -803,7 +812,6 @@ def build_readme_prompt(
 
 ## Comic
 - Image: `daily_agent/generated_images/{image_filename}` (already generated and saved)
-- Narrative caption (use VERBATIM in the comic section, in italics): {comic_narrative!r}
 
 # Task
 Use the Write tool to save the new README to {readme_file} with this EXACT structure:
@@ -815,9 +823,7 @@ Use the Write tool to save the new README to {readme_file} with this EXACT struc
 
 {sections_template}## The Comic Strip
 
-*{{COMIC_NARRATIVE}}*
-
-<img src="daily_agent/generated_images/{image_filename}" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/{image_filename}" width="{image_width}" alt="Today's comic strip">{attribution_line}
 
 ---
 
@@ -826,12 +832,12 @@ Use the Write tool to save the new README to {readme_file} with this EXACT struc
 *Day {day_count} | Last updated: {timestamp}*
 ```
 
-Replace `{{COMIC_NARRATIVE}}` with the narrative caption from the inputs (without the surrounding quotes). Replace the bracketed table-row instructions with actual filled rows from the JSON inputs.
+Replace the bracketed table-row instructions with actual filled rows from the JSON inputs. Reproduce the comic section EXACTLY as shown — including the `<img>` tag with its width attribute, and the attribution line if present (it may be empty on no-news days).
 
 Formatting rules:
 - Story titles in both tables: markdown links `[Title](url)` — use the JSON-provided URLs verbatim
 - HN Comments column: link to HN discussion `[<points>](<comments_url>)` — wait, no — Comments column shows the discussion link as `[<num_comments_or_points>](comments_url)` where the visible number is the comments count. (For these inputs we just have points, so use the points number as the link text.)
-- Use the raw `<img>` HTML tag shown above (not markdown image syntax) so GitHub width-constrains the image to 600px
+- Use the raw `<img>` HTML tag shown above (not markdown image syntax) so GitHub respects the width attribute
 - If `hn_stories` is empty, put `*No AI news on HN today.*` in place of the HN table
 - If `lab_posts` is empty, put `*No new lab posts this week.*` in place of the lab table
 
@@ -1097,7 +1103,7 @@ async def run_autonomous_agent() -> None:
             no_news_mode = True
 
         winning_scene = await pick_winning_scene(
-            story_ctx, template_filter=template_filter
+            story_ctx, template_filter=template_filter, scenes_dir=SCENES_DIR
         )
 
         # 6. Render image
@@ -1132,15 +1138,9 @@ async def run_autonomous_agent() -> None:
         scene_metadata_file.write_text(json.dumps(scene_metadata, indent=2) + "\n")
         print(f"Scene metadata: {scene_metadata_file}")
 
-        # Build the comic narrative caption used in the README
-        if winning_scene.template_id == "classic_6_panel":
-            # Classic uses the generator-written narrative_intro (already wrapped
-            # in asterisks). Strip them — README adds its own italics.
-            comic_narrative = winning_scene.fields.get(
-                "narrative_intro", winning_scene.narrative_summary
-            ).strip("* ")
-        else:
-            comic_narrative = winning_scene.narrative_summary
+        is_meme = winning_scene.template_id != "classic_6_panel"
+        attribution_title = "" if no_news_mode else story_ctx.title
+        attribution_url = "" if no_news_mode else story_ctx.url
 
         # 8. Readme agent call
         print("\n" + "=" * 60)
@@ -1152,9 +1152,11 @@ async def run_autonomous_agent() -> None:
             hn_stories=hn_table,
             lab_posts=lab_table,
             image_filename=image_filename,
-            comic_narrative=comic_narrative,
             timestamp=timestamp,
             no_news=no_news_mode,
+            is_meme=is_meme,
+            story_title=attribution_title,
+            story_url=attribution_url,
         )
         _, readme_result = await _run_agent_call(readme_prompt, options)
         _accumulate(readme_result)

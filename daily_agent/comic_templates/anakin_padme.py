@@ -10,7 +10,7 @@ def _build(fields: dict[str, str]) -> str:
     p4 = fields["panel4_dialog"]
     return f"""A 4-panel "Anakin and Padme" reaction meme in {BLOB_STYLE}
 
-Layout: tall portrait 1024x1792 image divided into a 2x2 grid of FOUR equal panels with thin white \
+Layout: square 1024x1024 image divided into a 2x2 grid of FOUR equal panels with thin white \
 gutters between them. Reading order: top-left, top-right, bottom-left, bottom-right.
 
 The setting in every panel is the same: an outdoor green meadow at sunset with a soft pale orange \
