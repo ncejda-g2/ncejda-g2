@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-05-08",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "caption": "ai can't flood your open-source repo with slop / if you ban LLM contributions in your code of conduct"
+  },
+  "narrative_summary": "The joke references Zig's specific February 2026 code-of-conduct ban on LLM contributions as the absurdly logical but self-defeating solution to AI slop overwhelming human reviewers \u2014 framed as smug tautological wisdom.",
+  "rationale": "Candidate 3 earns maximum specificity by naming Zig's actual February 2026 CoC ban \u2014 a real, verifiable fact that most readers won't know \u2014 which makes the smug Roll Safe framing feel earned rather than generic. The tautological punchline ('ban it in the CoC') is absurdly logical and lands cleanly without just restating the setup.",
+  "image_filename": "comic_2026-05-08.png",
+  "story_title": "AI slop is killing online communities",
+  "story_url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
+  "place": "in a meeting that could have been an email",
+  "hat_pair": [
+    "cycling helmet with action-cam",
+    "construction hard hat"
+  ],
+  "no_news_mode": false
+}
