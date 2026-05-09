@@ -46,3 +46,6 @@ inside a broken vending machine that only accepts crypto
 at a stock exchange trading floor during a market crash
 inside a dying startup's final all-hands meeting
 on a space elevator stuck between floors
+inside a spam folder
+on a broken escalator in a crowded airport
+inside a live production database being dropped

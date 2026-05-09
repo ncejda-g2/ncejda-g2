@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-09",
+  "template_id": "drake",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "caption_top": "ai art for your six-figure tech startup",
+    "caption_bottom": "your 6-year-old niece's drawing on jspaint.app"
+  },
+  "narrative_summary": "Drake rejects the polished AI art that signals 'low social literacy' and approves the blog post's deadpan alternatives \u2014 the niece's drawing and jspaint.app \u2014 calling out the absurdity that hand-drawn chaos now carries more social credibility than a six-figure worker's AI output.",
+  "rationale": "Candidate 3 earns its specificity points by naming jspaint.app \u2014 a real, absurd detail from the source article \u2014 which transforms a generic 'child drawing beats AI' joke into something that rewards readers who know the story. The jspaint.app callout also sharpens the punchline: it's not just a crayon scrawl, it's a crayon scrawl made in a retro browser paint tool, which escalates the absurdity one beat further than every other candidate.",
+  "image_filename": "comic_2026-05-09.png",
+  "story_title": "People Hate AI Art",
+  "story_url": "https://mccue.dev/pages/5-8-26-ai-art",
+  "place": "inside a Terms of Service agreement",
+  "hat_pair": [
+    "shower cap covered in sticky notes",
+    "helmet made entirely of rubber ducks"
+  ],
+  "no_news_mode": false
+}
