@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 149 (2026-05-09)
+# 📰 The AI Newspaper — Day 150 (2026-05-09)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [AI is breaking two vulnerability cultures](https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures) | Research Paper | AI tools collide with security disclosure norms in real-time | 275 | [275](https://news.ycombinator.com/item?id=48066524) |
-| 2 | [People Hate AI Art](https://mccue.dev/pages/5-8-26-ai-art) | Palace Intrigue | Using AI art signals "low social literacy", per heated post | 98 | [98](https://news.ycombinator.com/item?id=48070548) |
-| 3 | [Show HN: Git for AI Agents](https://github.com/regent-vcs/re_gent) | Dev Tooling | Version control system designed specifically for AI agents | 96 | [96](https://news.ycombinator.com/item?id=48063548) |
-| 4 | [Court to DOGE: Asking ChatGPT 'Is This DEI?' Is Not Proper Legal Process](https://www.techdirt.com/2026/05/08/court-to-doge-bros-asking-chatgpt-yo-is-this-dei-is-not-proper-legal-process-also-a-first-amendment-violation/) | Palace Intrigue | Judge rejects ChatGPT as substitute for legal review process | 79 | [79](https://news.ycombinator.com/item?id=48066038) |
-| 5 | [Can LLMs model real-world systems in TLA+?](https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/) | Research Paper | Benchmarking LLMs on formal specification of real systems | 45 | [45](https://news.ycombinator.com/item?id=48065254) |
-| 6 | [Hallucinations Undermine Trust; Metacognition Is a Way Forward](https://arxiv.org/abs/2605.01428) | Research Paper | Paper argues metacognition can fix LLM hallucination trust gap | 16 | [16](https://news.ycombinator.com/item?id=48064373) |
-| 7 | [ASML to invest $1.5B in Mistral at over $11B valuation](https://www.calcalistech.com/ctechnews/article/bycca4sclg) | Model Release | Chip giant ASML backs Mistral at $11.7B pre-money valuation | 15 | [15](https://news.ycombinator.com/item?id=48069166) |
-| 8 | [Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama](https://www.cyera.com/research/bleeding-llama-critical-unauthenticated-memory-leak-in-ollama) | Dev Tooling | Critical unauth memory leak found in popular local LLM runner | 9 | [9](https://news.ycombinator.com/item?id=48066322) |
-| 9 | [We Spent 10 Days Touring Chinese AI Labs. Here's What We Saw](https://blog.readsail.com/p/we-spent-10-days-touring-chinese) | Research Paper | First-hand tour of Chinese AI labs reveals culture and scale | 11 | [11](https://news.ycombinator.com/item?id=48066035) |
-| 10 | [Claude Flags Hantavirus Vaccine Questions as Security Risk](https://news.ycombinator.com/item?id=48060572) | Palace Intrigue | Claude over-refuses hantavirus vaccine queries as security threat | 11 | [11](https://news.ycombinator.com/item?id=48060572) |
+| 1 | [A recent experience with ChatGPT 5.5 Pro](https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/) | Model Release | Mathematician finds ChatGPT 5.5 Pro does PhD-level math | 174 | [174](https://news.ycombinator.com/item?id=48071262) |
+| 2 | [Using Claude Code: The unreasonable effectiveness of HTML](https://twitter.com/trq212/status/2052809885763747935) | Dev Tooling | HTML proves surprisingly powerful for Claude Code projects | 78 | [78](https://news.ycombinator.com/item?id=48071940) |
+| 3 | [I Will Never Use AI to Code](https://antman-does-software.com/i-will-never-use-ai-to-code-or-write) | Palace Intrigue | Developer refuses AI coding tools on principle | 39 | [39](https://news.ycombinator.com/item?id=48072319) |
+| 4 | [Human typing habits and token counts](https://pankajpipada.com/posts/2026-05-08-human-habits-tokens/) | Research Paper | Human typing speed analyzed through LLM token lens | 21 | [21](https://news.ycombinator.com/item?id=48062606) |
+| 5 | [Show HN: A Local-First Agentic Knowledge Manager](https://github.com/egroup-labs/kept) | Dev Tooling | Local AI agent manages your personal knowledge base | 16 | [16](https://news.ycombinator.com/item?id=48060900) |
+| 6 | [AI's Circular Psychosis](https://www.wheresyoured.at/premium-ais-circular-psychosis/) | Palace Intrigue | Essay argues AI hype creates self-reinforcing delusions | 10 | [10](https://news.ycombinator.com/item?id=48070826) |
+| 7 | [Show HN: Crit – local review tool for agent plans and code diffs](https://crit.md/) | Dev Tooling | Local tool reviews AI agent plans before execution | 10 | [10](https://news.ycombinator.com/item?id=48062402) |
+| 8 | [Anthropic weighs deal for near $1T valuation as revenue surges](https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d) | Palace Intrigue | Anthropic approaches trillion-dollar valuation on surging revenue | 10 | [10](https://news.ycombinator.com/item?id=48069323) |
+| 9 | [Pentagon will 'never again' rely on a single AI provider, official says](https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-will-never-again-rely-single-ai-provider-official-says/413399/) | Palace Intrigue | US military diversifies AI vendors after single-provider failure | 10 | [10](https://news.ycombinator.com/item?id=48068983) |
+| 10 | [Trump jumps from 'anything goes' to 'strict regulation' AI policy](https://www.theregister.com/ai-and-ml/2026/05/08/trump-jumps-from-anything-goes-to-strict-regulation-ai-policy/5234687) | Palace Intrigue | Trump flips AI policy to strict regulation stance | 8 | [8](https://news.ycombinator.com/item?id=48066877) |
 
 ---
 
@@ -23,19 +23,19 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Running Codex safely at OpenAI](https://openai.com/index/running-codex-safely) | OpenAI | Engineering | May 08 |
-| 2 | [Teaching Claude why](https://www.anthropic.com/research/teaching-claude-why) | Anthropic | Research | May 08 |
+| 1 | [Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber) | OpenAI | Model Release | May 07 |
+| 2 | [Advancing voice intelligence with new models in the API](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api) | OpenAI | Model Release | May 07 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-05-09.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-05-09.png" width="600" alt="Today's comic strip">
 
-_Based on: [People Hate AI Art](https://mccue.dev/pages/5-8-26-ai-art)_
+_Based on: [A recent experience with ChatGPT 5.5 Pro](https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 149 | Last updated: 2026-05-09*
+*Day 150 | Last updated: 2026-05-09*
