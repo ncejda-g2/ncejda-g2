@@ -50,3 +50,4 @@ inside a spam folder
 on a broken escalator in a crowded airport
 inside a live production database being dropped
 inside a chatbot's context window that's almost full
+inside a customer support chatbot that has completely given up
