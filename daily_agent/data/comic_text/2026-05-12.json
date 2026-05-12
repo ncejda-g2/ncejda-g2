@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-12",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "overdressed",
+    "adjective_second": "gobsmacked",
+    "narrative_intro": "*An overdressed person and a gobsmacked person discuss the UCF commencement booing on a Zoom call where nobody can hear you.*",
+    "panel1": "[setup]\nOVERDRESSED PERSON: \"Great news \u2014 I'm keynoting UCF Arts and Humanities!\"\n[Visual: Overdressed person in a blazer, beaming, slides deck visible on screen: 'AI: THE NEXT INDUSTRIAL REVOLUTION']",
+    "panel2": "[build]\nOVERDRESSED PERSON: \"I'll open with 'AI is the next industrial revolution.'\"\nGOBSMACKED PERSON: \"To the humanities graduates specifically?\"",
+    "panel3": "[pivot]\nOVERDRESSED PERSON: \"Okay, I struck a chord. May I finish?\"\n[Visual: The Zoom call shows a caption: 'AUDIENCE: AI SUCKS' scrolling in the chat.]",
+    "panel4": "[silent reaction]\n[Visual: Gobsmacked person's jaw has fully unhinged. Overdressed person stares blankly at the camera. The Zoom participant count ticks from 847 to 0.]",
+    "panel5": "[punch]\nGOBSMACKED PERSON: \"You asked 800 English majors to celebrate their replacement.\"\nOVERDRESSED PERSON: \"The slide had a very nice font.\"",
+    "panel6": "[button]\n[Visual: Overdressed person's LinkedIn notification reads: 'Gloria Caulfield, Tavistock Group, has endorsed you for Public Speaking.' The gobsmacked person has left the call.]"
+  },
+  "narrative_summary": "An overdressed corporate Zoom speaker barrels into her 'AI is the industrial revolution' pitch to a crowd of humanities graduates and is obliterated by boos, with her gobsmacked colleague realizing too late that the audience was exactly the people AI is replacing.",
+  "rationale": "Candidate 3 earns the highest specificity by naming UCF, the Tavistock Group, and the real quote ('May I finish?'), and its closing beat \u2014 'The slide had a very nice font' \u2014 is the only punchline that reframes the speaker's obliviousness with a fresh, character-specific detail rather than restating the obvious. The LinkedIn endorsement button also adds a second earned laugh without punching down.",
+  "image_filename": "comic_2026-05-12.png",
+  "story_title": "Students boo commencement speaker after she calls AI next industrial revolution",
+  "story_url": "https://www.404media.co/ucf-ai-commencement-speaker-booed/",
+  "place": "on a Zoom call where nobody can hear you",
+  "hat_pair": [
+    "hard hat with a tiny disco ball glued to the top",
+    "full-face motorcycle helmet with googly eyes stuck on"
+  ],
+  "no_news_mode": false
+}
