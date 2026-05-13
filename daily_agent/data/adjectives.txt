@@ -37,7 +37,7 @@ unqualified
 manic
 backstabbing
 bumbling
-catastrophic
+trembling
 overconfident
 vengeful
 incompetent
@@ -66,7 +66,7 @@ curmudgeonly
 harebrained
 gobsmacked
 scatterbrained
-chronically-online
+hyperventilating
 perpetually-offended
 persnickety
 suspiciously-cheerful
