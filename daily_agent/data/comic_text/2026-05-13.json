@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-13",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "i_receive": "every pixel your cursor touches, fed to gemini",
+    "you_receive": "you can say 'fix this' instead of typing"
+  },
+  "narrative_summary": "Google's AI pointer deal is framed as a comically lopsided trade: Google vacuums up everything under your cursor via Gemini surveillance while you get the convenience of a two-word voice command.",
+  "rationale": "Candidate 3 earns the specificity point by naming Gemini directly in the trade offer itself rather than burying it in the summary, making the surveillance joke land with a concrete target. The 'instead of typing' closer is marginally crisper than 'at a pdf' because it highlights the laziness exchange rather than just the absurdity of the medium.",
+  "image_filename": "comic_2026-05-13.png",
+  "story_title": "Reimagining the mouse pointer for the AI era",
+  "story_url": "https://deepmind.google/blog/ai-pointer/",
+  "place": "inside a chatbot's context window that's almost full",
+  "hat_pair": [
+    "baseball cap with curled brim",
+    "bucket hat with a tiny aquarium built into the brim"
+  ],
+  "no_news_mode": false
+}
