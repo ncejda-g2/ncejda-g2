@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-14",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "twitchy",
+    "adjective_second": "exasperated",
+    "narrative_intro": "*A twitchy person and an exasperated person discuss AI brain-rot in a doomsday bunker.*",
+    "panel1": "[setup]\nTWITCHY PERSON: \"Google said 75% of their code is AI-generated now.\"\nEXASPERATED PERSON: \"I know. I read it.\"",
+    "panel2": "[build]\nTWITCHY PERSON: \"Microsoft's CTO wants 95% by 2030.\"\nEXASPERATED PERSON: \"I know. I\u2014 wait, how do YOU know?\"",
+    "panel3": "[pivot]\nTWITCHY PERSON: \"I asked Copilot to summarize it for me.\"\nEXASPERATED PERSON: \"The article about AI rotting developer brains.\"",
+    "panel4": "[silent reaction]\n[Visual: The exasperated person stares directly at the viewer, one eye twitching. A single flickering bunker lightbulb swings overhead. The twitchy person is already typing into a laptop labeled 'COPILOT' with both hands like a concert pianist.]",
+    "panel5": "[punch]\nEXASPERATED PERSON: \"Can you even write a for-loop anymore?\"\nTWITCHY PERSON: \"I'll ask it.\"",
+    "panel6": "[button]\n[Visual: The bunker wall has a whiteboard. It reads: 'SKILLS REMAINING: 1. Prompting AI. 2. ???' The exasperated person has quietly begun digging an escape tunnel with a spoon.]"
+  },
+  "narrative_summary": "A developer who can no longer think without AI assistance uses Copilot to summarize the article about AI rotting developer brains, confirming the thesis in real time while their colleague despairs in a doomsday bunker.",
+  "rationale": "Candidate 5 earns its laughs structurally \u2014 using Copilot to summarize the article about AI rotting brains is a self-demonstrating joke that proves the thesis in real time, which is a genuinely fresh angle none of the others attempt. The closing beat (asking Copilot how to write a for-loop) doesn't restate the setup but escalates it, and the escape-tunnel button gag adds a visual payoff that feels earned rather than tacked on.",
+  "image_filename": "comic_2026-05-14.png",
+  "story_title": "Software Developers Say AI Is Rotting Their Brains",
+  "story_url": "https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/",
+  "place": "in a doomsday bunker",
+  "hat_pair": [
+    "bucket hat with a tiny aquarium built into the brim",
+    "firefighter helmet with a tiny rubber chicken mounted on top"
+  ],
+  "no_news_mode": false
+}

@@ -54,3 +54,4 @@ inside a customer support chatbot that has completely given up
 in a courtroom where the AI judge keeps citing hallucinated laws
 at a robot therapist's waiting room
 at a robot-staffed restaurant where the kitchen is actively on fire
+at a tech keynote where the demo robot has gone rogue
