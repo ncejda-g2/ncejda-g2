@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-14",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "sweaty",
+    "adjective_second": "chaotic",
+    "narrative_intro": "*A sweaty person and a chaotic person discuss Anthropic's new Agent SDK billing in a parking garage during an alien invasion.*",
+    "panel1": "[setup]\nSWEATY PERSON: \"Anthropic split my Pro subscription. Twenty bucks for SDK.\"\nCHAOTIC PERSON: \"Split it how?\"",
+    "panel2": "[build]\nSWEATY PERSON: \"Headless Claude, GitHub Actions, `claude -p` \u2014 all separate now.\"\nCHAOTIC PERSON: \"Okay but the aliens\u2014\"",
+    "panel3": "[pivot]\nSWEATY PERSON: \"Someone published a repo called 'claude-pee' as a workaround.\"\nCHAOTIC PERSON: \"That's the real news.\"",
+    "panel4": "[silent reaction]\n[Visual: Both characters stand completely motionless, mouths agape. An alien tripod looms through the parking garage entrance behind them, ignored. A small sign on the wall reads 'LEVEL P2.']",
+    "panel5": "[punch]\nCHAOTIC PERSON: \"VentureBeat said Anthropic 'carved out all non-interactive use.'\"\nSWEATY PERSON: \"The repo has 400 stars already.\"",
+    "panel6": "[button]\n[Visual: The alien tripod is scanning its own phone. A beam of light illuminates a claude.ai billing page. The alien looks sweaty.]"
+  },
+  "narrative_summary": "Two humans ignore an alien invasion to obsess over Anthropic's SDK billing split and the satirical 'claude-pee' repo, only to reveal the aliens are also stressed about their Claude plan limits.",
+  "rationale": "Candidate 5 earns its punchline by flipping the joke onto the aliens themselves \u2014 they're also stressed about Claude billing \u2014 which is a genuine structural surprise rather than just restating the human characters' indifference. The 'LEVEL P2' sign is a tight visual callback to 'claude -p' that rewards close readers, and the alien-with-a-billing-page button lands as a earned escalation rather than a restatement.",
+  "image_filename": "comic_2026-05-14.png",
+  "story_title": "Use the Claude Agent SDK with Your Claude Plan",
+  "story_url": "https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan",
+  "place": "in a parking garage during an alien invasion",
+  "hat_pair": [
+    "plague-doctor beaked hat",
+    "foam shark-fin hat"
+  ],
+  "no_news_mode": false
+}
