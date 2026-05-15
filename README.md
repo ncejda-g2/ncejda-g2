@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 151 (2026-05-14)
+# 📰 The AI Newspaper — Day 152 (2026-05-15)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Altman forced to confront claims at OpenAI trial that he's a prolific liar](https://arstechnica.com/tech-policy/2026/05/altman-forced-to-confront-claims-at-openai-trial-that-hes-a-prolific-liar/) | Palace Intrigue | Altman testifies under oath he's honest | 89 | [89](https://news.ycombinator.com/item?id=48125801) |
-| 2 | [Anthropic carves all non-interactive use out of monthly subscriptions](https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch) | Dev Tooling | Programmatic Claude use gets separate credit pool | 5 | [5](https://news.ycombinator.com/item?id=48129586) |
-| 3 | [Claude subscription changes coverage of `claude -p`](https://x.com/i/trending/2054617957440143639) | Dev Tooling | Headless mode carved out of subscription limits | 45 | [45](https://news.ycombinator.com/item?id=48126281) |
-| 4 | [The US is winning the AI race where it matters most: commercialization](https://avkcode.github.io/blog/us-winning-ai-race.html) | AI Hardware | US leads AI commercialization over China, Europe | 170 | [170](https://news.ycombinator.com/item?id=48121929) |
-| 5 | [Meta won't let you block its AI account on Threads](https://www.theverge.com/tech/929091/meta-ai-threads-account-block) | Model Release | Meta AI presence on Threads is unblockable | 141 | [141](https://news.ycombinator.com/item?id=48126981) |
-| 6 | [Software Developers Say AI Is Rotting Their Brains](https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/) | Palace Intrigue | Devs fear AI dependency is eroding core skills | 89 | [89](https://news.ycombinator.com/item?id=48121717) |
-| 7 | [The AI Backlash Could Get Ugly](https://www.theatlantic.com/technology/2026/05/ai-backlash-data-centers-political-violence/687151/) | Palace Intrigue | Atlantic warns AI opposition may turn violent | 70 | [70](https://news.ycombinator.com/item?id=48122624) |
-| 8 | [Show HN: Torrix, self hosted, LLM Observability,(no Postgres, no Redis)](https://github.com/torrix-ai/install) | Dev Tooling | Lightweight self-hosted LLM observability tool | 29 | [29](https://news.ycombinator.com/item?id=48120912) |
-| 9 | [Google finds first AI-developed zero-day that bypasses 2FA](https://www.tomshardware.com/tech-industry/cyber-security/google-finds-first-ai-developed-zero-day-that-bypasses-2fa-self-morphing-malware-and-gemini-powered-backdoors-signal-a-new-era-of-cybercrime) | Research Paper | AI-written malware exploits 2FA, signals new era | 11 | [11](https://news.ycombinator.com/item?id=48120630) |
-| 10 | [Continual Harness: Online Adaptation for Self-Improving Foundation Agents](https://arxiv.org/abs/2605.09998) | Research Paper | Framework for agents that improve themselves online | 7 | [7](https://news.ycombinator.com/item?id=48126112) |
+| 1 | [AI is making me dumb](https://jpain.io/god-damn-ai-is-making-me-dumb/) | Palace Intrigue | Developer confesses AI dependency is eroding their skills | 446 | [446](https://news.ycombinator.com/item?id=48139148) |
+| 2 | [New arXiv policy: 1-year ban for hallucinated references](https://twitter.com/tdietterich/status/2055000956144935055) | Research Paper | arXiv bans authors one year for AI-hallucinated citations | 365 | [365](https://news.ycombinator.com/item?id=48140922) |
+| 3 | [Bitcoin trader recovers wallet with help of Claude](https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup) | Palace Intrigue | Claude brute-forced 3.5T passwords to recover $400k Bitcoin | 318 | [318](https://news.ycombinator.com/item?id=48136240) |
+| 4 | [Codex is now in the ChatGPT mobile app](https://openai.com/index/work-with-codex-from-anywhere/) | Model Release | OpenAI Codex coding agent launches on iOS and Android | 231 | [231](https://news.ycombinator.com/item?id=48140529) |
+| 5 | [The AI Zombification of Universities](https://www.thenewcritic.com/p/the-great-zombification) | Palace Intrigue | Essay argues AI is hollowing out university thinking and culture | 177 | [177](https://news.ycombinator.com/item?id=48139355) |
+| 6 | [Ontario auditors find doctors' AI note takers routinely blow basic facts](https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771) | Research Paper | Audit finds medical AI scribes hallucinate patient facts | 155 | [155](https://news.ycombinator.com/item?id=48142188) |
+| 7 | [What's in a GGUF, besides the weights – and what's still missing?](https://nobodywho.ooo/posts/whats-in-a-gguf/) | Research Paper | Deep dive into GGUF model format gaps and metadata | 112 | [112](https://news.ycombinator.com/item?id=48138332) |
+| 8 | [The people writing AI alignment policy are not whose work is being replaced](https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it) | Palace Intrigue | Critique of who gets to define AI alignment and for whom | 89 | [89](https://news.ycombinator.com/item?id=48139144) |
+| 9 | [Grok Build](https://x.ai/news/grok-build-cli) | Model Release | xAI launches Grok Build CLI for agentic coding | 87 | [87](https://news.ycombinator.com/item?id=48139115) |
+| 10 | [Claude for Legal](https://github.com/anthropics/claude-for-legal) | Dev Tooling | Anthropic open-sources Claude legal workflow templates | 69 | [69](https://news.ycombinator.com/item?id=48141234) |
 
 ---
 
@@ -23,19 +23,20 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox) | OpenAI | Engineering | May 13 |
-| 2 | [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business) | Anthropic | News | May 13 |
+| 1 | [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere) | OpenAI | Model Release | May 14 |
+| 2 | [Helping ChatGPT better recognize context in sensitive conversations](https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations) | OpenAI | Research | May 14 |
+| 3 | [2028: Two scenarios for global AI leadership](https://www.anthropic.com/research/2028-ai-leadership) | Anthropic | Research | May 14 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-05-14.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-05-15.png" width="600" alt="Today's comic strip">
 
-_Based on: [Use the Claude Agent SDK with Your Claude Plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)_
+_Based on: [Bitcoin trader recovers wallet with help of Claude](https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 151 | Last updated: 2026-05-14*
+*Day 152 | Last updated: 2026-05-15*

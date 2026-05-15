@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-15",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "unbothered",
+    "adjective_second": "hyperventilating",
+    "narrative_intro": "*An unbothered person and a hyperventilating person discuss a $400,000 Bitcoin recovery at an airport gate where the flight has been delayed 6 hours.*",
+    "panel1": "[setup]\nHYPERVENTILATING CROW: \"Claude just cracked a Bitcoin wallet from 2015.\"\nUNBOTHERED GHOST: \"Oh neat. How?\"",
+    "panel2": "[build]\nHYPERVENTILATING CROW: \"It tried 3.5 trillion password combinations.\"\nUNBOTHERED GHOST: \"Hm. Why so many?\"",
+    "panel3": "[pivot]\nHYPERVENTILATING CROW: \"The guy changed the password while stoned and forgot it.\"\nUNBOTHERED GHOST: \"Eleven years ago.\"",
+    "panel4": "[silent reaction]\n[Visual: The hyperventilating crow clutches the gate seat armrests. The unbothered ghost floats perfectly still. The departure board behind them flips to DELAYED: 6 HRS. A single tumbleweed rolls past the duty-free shop.]",
+    "panel5": "[punch]\nUNBOTHERED GHOST: \"So an AI did eleven years of math...\"\nUNBOTHERED GHOST: \"...because of one bad Tuesday.\"",
+    "panel6": "[button]\n[Visual: The hyperventilating crow pulls out a laptop. On screen: a half-written email to Anthropic titled 'RE: My 2019 crypto password (I was also a little stoned).']"
+  },
+  "narrative_summary": "The joke escalates from a simple headline to the absurd human truth \u2014 3.5 trillion AI computations exist solely because of one impaired decision, landing on the silent implication that this is not a unique situation.",
+  "rationale": "Candidate 4 earns its punchline twice \u2014 'one bad Tuesday' reframes the astronomical math as a human-scale failure, and the button gag (the crow's half-written email) adds a specific, earned visual that implies universality without stating it. It's the only entry where the closing beat genuinely escalates beyond the setup rather than restating it.",
+  "image_filename": "comic_2026-05-15.png",
+  "story_title": "Bitcoin trader recovers wallet with help of Claude",
+  "story_url": "https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup",
+  "place": "at an airport gate where the flight has been delayed 6 hours",
+  "hat_pair": [
+    "oversized propeller beanie",
+    "shower cap covered in sticky notes"
+  ],
+  "no_news_mode": false
+}
