@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-18",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "smug",
+    "adjective_second": "exhausted",
+    "narrative_intro": "*A smug person and an exhausted person discuss AI speeding up software development in a Silicon Valley ping-pong room at 2am.*",
+    "panel1": "[setup]\nSMUG PERSON: \"AI crushed it \u2014 coding phase down from 70 days to three.\"",
+    "panel2": "[build]\nEXHAUSTED PERSON: \"Three days. Wow. What about requirements scoping?\"\nSMUG PERSON: \"...also changed.\"",
+    "panel3": "[pivot]\nEXHAUSTED PERSON: \"Changed how?\"\nSMUG PERSON: \"Five days to forty. But the coding part is very fast.\"",
+    "panel4": "[silent reaction]\n[Visual: The exhausted person holds a Gantt chart that accordion-unfolds to the floor, stretching past the ping-pong table. The smug person's grin flickers exactly once.]",
+    "panel5": "[punch]\nEXHAUSTED PERSON: \"So AI just gave devs the docs they've begged for since forever?\"\nSMUG PERSON: \"We're calling it a breakthrough.\"",
+    "panel6": "[button]\n[Visual: A dog-eared comic-book copy of 'The Goal' sits on the ping-pong table. Someone has scrawled 'THE BOTTLENECK WAS NEVER THE CODE' on a sticky note attached to the cover.]"
+  },
+  "narrative_summary": "A smug tech bro brags that AI cut coding from 70 days to 3, only for an exhausted colleague to unfurl a Gantt chart revealing requirements scoping ballooned from 5 to 40 days \u2014 exposing that AI just accidentally fulfilled developers' oldest wish: actually getting decent documentation.",
+  "rationale": "Candidate 2 edges out Candidate 5 on punchline delivery: 'We're calling it a breakthrough' is a sharper, more satirically loaded button than the sticky-note gag, and the accordion-unfolding Gantt chart visual is a stronger earned sight gag than a cold coffee stare. Both tie on total but Candidate 2's panel 5 punch lands with more institutional absurdity rather than just restating the irony.",
+  "image_filename": "comic_2026-05-18.png",
+  "story_title": "I don't think AI will make your processes go faster",
+  "story_url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+  "place": "in a Silicon Valley ping-pong room at 2am",
+  "hat_pair": [
+    "firefighter helmet with a tiny rubber chicken mounted on top",
+    "crash helmet with a tiny working traffic light mounted on top"
+  ],
+  "no_news_mode": false
+}

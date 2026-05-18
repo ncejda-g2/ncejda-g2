@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 157 (2026-05-17)
+# 📰 The AI Newspaper — Day 158 (2026-05-18)
 
 *AI curated AI news for humans*
 
@@ -6,33 +6,35 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Zerostack – A Unix-inspired coding agent written in pure Rust](https://crates.io/crates/zerostack/1.0.0) | Open Source Tool | Unix-inspired Rust coding agent releases v1.0 | 328 | [328](https://news.ycombinator.com/item?id=48164287) |
-| 2 | [SANA-WM, a 2.6B open-source world model for 1-minute 720p video](https://nvlabs.github.io/Sana/WM/) | Model Release | 2.6B open-source model generates 1-min 720p video | 327 | [327](https://news.ycombinator.com/item?id=48159445) |
-| 3 | [DeepSeek-V4-Flash means LLM steering is interesting again](https://www.seangoedecke.com/steering-vectors/) | Research Paper | DeepSeek-V4-Flash makes activation steering accessible again | 230 | [230](https://news.ycombinator.com/item?id=48160807) |
-| 4 | [δ-mem: Efficient Online Memory for Large Language Models](https://arxiv.org/abs/2605.12357) | Research Paper | Online memory mechanism cuts LLM cost and latency | 208 | [208](https://news.ycombinator.com/item?id=48158506) |
-| 5 | [OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership/) | Model Release | OpenAI gives ChatGPT Plus free to all Malta citizens | 155 | [155](https://news.ycombinator.com/item?id=48163392) |
-| 6 | [US is starting to see heavy job losses in roles exposed to AI](https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai) | Research Paper | 18 AI-exposed occupations lost 0.2% jobs vs +0.8% overall | 153 | [153](https://news.ycombinator.com/item?id=48162354) |
-| 7 | [OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days](https://twitter.com/steipete/status/2055346265869721905) | Palace Intrigue | Dev burns $1.3M in OpenAI tokens — for free, as employee | 150 | [150](https://news.ycombinator.com/item?id=48159227) |
-| 8 | [Self-Distillation Enables Continual Learning [pdf]](https://arxiv.org/abs/2601.19897) | Research Paper | Self-distillation prevents catastrophic forgetting in models | 46 | [46](https://news.ycombinator.com/item?id=48165265) |
-| 9 | [I tried to make Claude make me money on open-source bounties](https://github.com/ztc00/algora-scout/blob/main/POST.md) | Dev Tooling | Dev uses Claude to hunt open-source bounties, shares results | 34 | [34](https://news.ycombinator.com/item?id=48164229) |
-| 10 | [Mode collapse has a name, and he's selling cancer treatment advice on Amazon](https://danielmay.co.uk/posts/cheap-agents-alumni-shirts-and-elias-thorne/) | Research Paper | LLM mode collapse exploited to sell fake cancer cures | 25 | [25](https://news.ycombinator.com/item?id=48160837) |
+| 1 | [I don't think AI will make your processes go faster](https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/) | Research Paper | AI shrinks coding but explodes documentation overhead | 574 | [574](https://news.ycombinator.com/item?id=48168221) |
+| 2 | [AI is a technology not a product](https://daringfireball.net/2026/05/ai_is_technology_not_a_product) | Research Paper | Daring Fireball argues AI is infrastructure, not a product | 404 | [404](https://news.ycombinator.com/item?id=48168626) |
+| 3 | [AI subscriptions are a ticking time bomb for enterprise](https://www.thestateofbrand.com/news/ai-subscription-time-bomb) | Research Paper | Enterprise AI subscription costs building toward explosion | 393 | [393](https://news.ycombinator.com/item?id=48168056) |
+| 4 | [Apple Silicon costs more than OpenRouter](https://www.williamangel.net/blog/2026/05/17/offline-llm-energy-use.html) | Infrastructure | Running LLMs locally on Apple Silicon costs more than cloud | 312 | [312](https://news.ycombinator.com/item?id=48168198) |
+| 5 | [Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep](https://github.com/MinishLab/semble) | Dev Tooling | Agent code search tool uses 98% fewer tokens than grep | 312 | [312](https://news.ycombinator.com/item?id=48169874) |
+| 6 | [GenCAD](https://gencad.github.io/) | Open Source Tool | Open-source AI-generative CAD tool | 293 | [293](https://news.ycombinator.com/item?id=48173429) |
+| 7 | [CUDA Books](https://github.com/alternbits/awesome-cuda-books) | AI Hardware | Curated reading list for GPU and CUDA programming | 190 | [190](https://news.ycombinator.com/item?id=48168485) |
+| 8 | [Mistral's CEO: Europe has 2 years to stop becoming America's AI 'vassal state'](https://www.businessinsider.com/mistral-ceo-warns-europe-2-years-avoid-us-ai-dependence-2026-5) | Palace Intrigue | Mistral CEO warns Europe faces AI colonization by US | 103 | [103](https://news.ycombinator.com/item?id=48170122) |
+| 9 | [Most Americans don't trust AI – or the people in charge of it (2025)](https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai) | Research Paper | Pew/Gallup: public AI trust and confidence hit new lows | 90 | [90](https://news.ycombinator.com/item?id=48174808) |
+| 10 | [An AI Hate Wave Is Here](https://www.axios.com/2026/05/17/ai-backlash-polling-sentiment) | Research Paper | Only 18% of youth hopeful; 70% say AI moving too fast | 84 | [84](https://news.ycombinator.com/item?id=48173318) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-*No new lab posts this week.*
+| # | Post | Lab | Category | Date |
+|---|------|-----|----------|------|
+| 1 | [Connectors](https://mistral.ai/news/connectors) | Mistral | Developer Tools | May 2026 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-05-17.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-05-18.png" width="600" alt="Today's comic strip">
 
-_Based on: [OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days](https://twitter.com/steipete/status/2055346265869721905)_
+_Based on: [I don't think AI will make your processes go faster](https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 157 | Last updated: 2026-05-17*
+*Day 158 | Last updated: 2026-05-18*
