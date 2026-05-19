@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 158 (2026-05-18)
+# 📰 The AI Newspaper — Day 159 (2026-05-19)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [I don't think AI will make your processes go faster](https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/) | Research Paper | AI shrinks coding but explodes documentation overhead | 574 | [574](https://news.ycombinator.com/item?id=48168221) |
-| 2 | [AI is a technology not a product](https://daringfireball.net/2026/05/ai_is_technology_not_a_product) | Research Paper | Daring Fireball argues AI is infrastructure, not a product | 404 | [404](https://news.ycombinator.com/item?id=48168626) |
-| 3 | [AI subscriptions are a ticking time bomb for enterprise](https://www.thestateofbrand.com/news/ai-subscription-time-bomb) | Research Paper | Enterprise AI subscription costs building toward explosion | 393 | [393](https://news.ycombinator.com/item?id=48168056) |
-| 4 | [Apple Silicon costs more than OpenRouter](https://www.williamangel.net/blog/2026/05/17/offline-llm-energy-use.html) | Infrastructure | Running LLMs locally on Apple Silicon costs more than cloud | 312 | [312](https://news.ycombinator.com/item?id=48168198) |
-| 5 | [Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep](https://github.com/MinishLab/semble) | Dev Tooling | Agent code search tool uses 98% fewer tokens than grep | 312 | [312](https://news.ycombinator.com/item?id=48169874) |
-| 6 | [GenCAD](https://gencad.github.io/) | Open Source Tool | Open-source AI-generative CAD tool | 293 | [293](https://news.ycombinator.com/item?id=48173429) |
-| 7 | [CUDA Books](https://github.com/alternbits/awesome-cuda-books) | AI Hardware | Curated reading list for GPU and CUDA programming | 190 | [190](https://news.ycombinator.com/item?id=48168485) |
-| 8 | [Mistral's CEO: Europe has 2 years to stop becoming America's AI 'vassal state'](https://www.businessinsider.com/mistral-ceo-warns-europe-2-years-avoid-us-ai-dependence-2026-5) | Palace Intrigue | Mistral CEO warns Europe faces AI colonization by US | 103 | [103](https://news.ycombinator.com/item?id=48170122) |
-| 9 | [Most Americans don't trust AI – or the people in charge of it (2025)](https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai) | Research Paper | Pew/Gallup: public AI trust and confidence hit new lows | 90 | [90](https://news.ycombinator.com/item?id=48174808) |
-| 10 | [An AI Hate Wave Is Here](https://www.axios.com/2026/05/17/ai-backlash-polling-sentiment) | Research Paper | Only 18% of youth hopeful; 70% say AI moving too fast | 84 | [84](https://news.ycombinator.com/item?id=48173318) |
+| 1 | [Elon Musk has lost his lawsuit against Sam Altman and OpenAI](https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/) | Palace Intrigue | Jury unanimously rules Musk's $135B claim time-barred | 933 | [933](https://news.ycombinator.com/item?id=48182754) |
+| 2 | [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless) | Dev Tooling | Anthropic buys API SDK auto-generation company Stainless | 439 | [439](https://news.ycombinator.com/item?id=48182281) |
+| 3 | [The last six months in LLMs in five minutes](https://simonwillison.net/2026/May/19/5-minute-llms/) | Research Paper | Simon Willison's rapid-fire AI recap for Spring 2026 | 358 | [358](https://news.ycombinator.com/item?id=48188183) |
+| 4 | [Eric Schmidt speech about AI booed during graduation](https://www.nbcnews.com/tech/tech-news/former-google-ceo-booed-graduation-speech-ai-rcna345585) | Palace Intrigue | Graduates loudly boo ex-Google CEO's pro-AI speech | 353 | [353](https://news.ycombinator.com/item?id=48177785) |
+| 5 | [We let AIs run radio stations](https://andonlabs.com/blog/andon-fm) | Open Source Tool | Fully autonomous AI-hosted radio experiment goes live | 245 | [245](https://news.ycombinator.com/item?id=48183301) |
+| 6 | [Qwen 3.7 Preview](https://twitter.com/Alibaba_Qwen/status/2056403591464984753) | Model Release | Alibaba previews next generation of Qwen model | 231 | [231](https://news.ycombinator.com/item?id=48181877) |
+| 7 | [AI eats the world (Spring 26) [pdf]](https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf) | Research Paper | Comprehensive Spring 2026 AI industry landscape report | 215 | [215](https://news.ycombinator.com/item?id=48179021) |
+| 8 | [Cursor Introduces Composer 2.5](https://cursor.com/blog/composer-2-5) | Dev Tooling | Cursor's AI code editor gets major Composer upgrade | 133 | [133](https://news.ycombinator.com/item?id=48182516) |
+| 9 | [Voice AI Systems Are Vulnerable to Hidden Audio Attacks](https://spectrum.ieee.org/voice-ai-audio-attacks) | Research Paper | Researchers demonstrate adversarial attacks on voice AI | 119 | [119](https://news.ycombinator.com/item?id=48178378) |
+| 10 | [Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint](https://modal.com/blog/truly-serverless-gpus) | Infrastructure | Modal cuts GPU cold-start latency 40x via CUDA checkpointing | 81 | [81](https://news.ycombinator.com/item?id=48183038) |
 
 ---
 
@@ -23,18 +23,18 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Connectors](https://mistral.ai/news/connectors) | Mistral | Developer Tools | May 2026 |
+| 1 | [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless) | Anthropic | Developer Tools | May 18 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-05-18.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-05-19.png" width="600" alt="Today's comic strip">
 
-_Based on: [I don't think AI will make your processes go faster](https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/)_
+_Based on: [Elon Musk has lost his lawsuit against Sam Altman and OpenAI](https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 158 | Last updated: 2026-05-18*
+*Day 159 | Last updated: 2026-05-19*
