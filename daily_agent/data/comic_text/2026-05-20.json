@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-20",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "gobsmacked",
+    "adjective_second": "smarmy",
+    "narrative_intro": "*A gobsmacked person and a smarmy person discuss Karpathy joining Anthropic on a runaway train.*",
+    "panel1": "[setup]\nGOBSMACKED PERSON: \"Karpathy just joined Anthropic's pre-training team.\"\nSMARMY PERSON: \"Cool. Who's Karpathy?\"",
+    "panel2": "[build]\nGOBSMACKED PERSON: \"OpenAI co-founder. Tesla AI director. Wrote half the internet's neural net tutorials.\"\nSMARMY PERSON: \"Still not ringing a bell.\"",
+    "panel3": "[pivot]\nGOBSMACKED PERSON: \"He's literally building a team where Claude trains Claude.\"\nSMARMY PERSON: \"Oh \u2014 the guy OpenAI lost.\"",
+    "panel4": "[silent reaction]\n[Visual: The gobsmacked person's jaw unhinges completely. The smarmy person scrolls a phone. Outside the train window, a blurred sign reads 'FRONTIER: NEXT FEW YEARS' as the train accelerates downhill.]",
+    "panel5": "[punch]\nSMARMY PERSON: \"So Claude is now doing Karpathy's pretraining research?\"\nGOBSMACKED PERSON: \"Starting immediately, yes.\"\nSMARMY PERSON: \"Claude replaced Karpathy faster than Karpathy replaced OpenAI.\"",
+    "panel6": "[button]\n[Visual: A small Claude logo sits in the conductor's seat at the front of the runaway train, confidently gripping the throttle.]"
+  },
+  "narrative_summary": "The joke escalates from 'who's Karpathy' ignorance to the ironic punchline that Claude is already automating the job Karpathy just arrived to do, capped by Claude literally driving the runaway train.",
+  "rationale": "Candidate 4 earns its punchline structurally \u2014 the 'who's Karpathy' ignorance setup pays off with the genuinely surprising reversal that Claude replaced Karpathy faster than Karpathy replaced OpenAI, which is a tight, earned joke rather than a restatement. The escalation from feigned ignorance to dawning horror also makes the best use of the 6-panel template's build mechanics.",
+  "image_filename": "comic_2026-05-20.png",
+  "story_title": "I've joined Anthropic",
+  "story_url": "https://twitter.com/karpathy/status/2056753169888334312",
+  "place": "on a runaway train",
+  "hat_pair": [
+    "swim cap with rubber flowers",
+    "santa hat"
+  ],
+  "no_news_mode": false
+}
