@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 160 (2026-05-20)
+# 📰 The AI Newspaper — Day 161 (2026-05-21)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [I've joined Anthropic](https://twitter.com/karpathy/status/2056753169888334312) | Palace Intrigue | Karpathy leaves solo work to join Anthropic's pretraining team | 1301 | [1301](https://news.ycombinator.com/item?id=48194352) |
-| 2 | [Gemini 3.5 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/) | Model Release | Google launches Gemini 3.5 Flash with frontier speed at I/O | 757 | [757](https://news.ycombinator.com/item?id=48196570) |
-| 3 | [Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks](https://github.com/antoinezambelli/forge) | Open Source Tool | Guardrails boost small model agentic accuracy to near-perfect | 448 | [448](https://news.ycombinator.com/item?id=48192383) |
-| 4 | [Gemini Omni](https://deepmind.google/models/gemini-omni/) | Model Release | Google's multimodal Gemini Omni model debuts at I/O 2026 | 306 | [306](https://news.ycombinator.com/item?id=48196609) |
-| 5 | [OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool](https://openai.com/index/advancing-content-provenance/) | Dev Tooling | OpenAI and Google unite on shared AI image watermarking standard | 273 | [273](https://news.ycombinator.com/item?id=48198291) |
-| 6 | [Remove–AI–Watermarks – CLI and library for removing AI watermarks from images](https://github.com/wiltodelta/remove-ai-watermarks) | Open Source Tool | OSS tool strips the exact watermarks OpenAI just adopted | 261 | [261](https://news.ycombinator.com/item?id=48200569) |
-| 7 | [Mistral AI acquires Emmi AI](https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai) | Palace Intrigue | Mistral expands with strategic Emmi AI acquisition | 250 | [250](https://news.ycombinator.com/item?id=48197995) |
-| 8 | [AI is too expensive](https://www.wheresyoured.at/ai-is-too-expensive/) | Research Paper | Detailed breakdown of AI's unsustainable cost structure | 137 | [137](https://news.ycombinator.com/item?id=48195100) |
-| 9 | [Graduates are booing pep talks on AI at college commencements](https://apnews.com/article/ai-college-commencement-anxiety-boo-35aec9bac660eaeb05c5b8d392db2cac) | Palace Intrigue | Gen Z vocally rejects AI optimism at graduation ceremonies | 114 | [114](https://news.ycombinator.com/item?id=48196546) |
-| 10 | [Anthropic Is Preparing for IPO and We Should Be Worried](https://www.vincentschmalbach.com/anthropic-ipo-developers-should-be-worried-v2/) | Palace Intrigue | Developer anxiety grows over Anthropic's upcoming IPO plans | 82 | [82](https://news.ycombinator.com/item?id=48193111) |
+| 1 | [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture/) | Research Paper | OpenAI model constructs counterexample to 80-year Erdős conjecture | 1095 | [1095](https://news.ycombinator.com/item?id=48212493) |
+| 2 | [Qwen3.7-Max: The Agent Frontier](https://qwen.ai/blog?id=qwen3.7) | Model Release | Alibaba releases Qwen3.7-Max frontier agentic model | 662 | [662](https://news.ycombinator.com/item?id=48205626) |
+| 3 | [Google's AI is being manipulated. The search giant is quietly fighting back](https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results) | Research Paper | BBC investigates adversarial attacks on Google AI search | 306 | [306](https://news.ycombinator.com/item?id=48205782) |
+| 4 | [Intuit to lay off over 3k employees to refocus on AI](https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/) | Palace Intrigue | Intuit cuts 3,000+ jobs, pivots to AI-first workforce | 179 | [179](https://news.ycombinator.com/item?id=48216278) |
+| 5 | [Anthropic is expanding to Colossus2. Will use GB200](https://twitter.com/nottombrown/status/2057194829986300375) | Infrastructure | Anthropic scales compute to SpaceX Colossus2 on GB200 GPUs | 174 | [174](https://news.ycombinator.com/item?id=48214017) |
+| 6 | [Learnings from 100K lines of Rust with AI (2025)](https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html) | Dev Tooling | Developer's hard-won lessons from 100K AI-assisted Rust lines | 148 | [148](https://news.ycombinator.com/item?id=48205415) |
+| 7 | [OpenAI to confidentially file for IPO as soon as Friday](https://www.cnbc.com/2026/05/20/openai-ipo-filing.html) | Palace Intrigue | OpenAI quietly files for IPO, public market debut imminent | 133 | [133](https://news.ycombinator.com/item?id=48217052) |
+| 8 | [Formal Verification Gates for AI Coding Loops](https://reubenbrooks.dev/blog/structural-backpressure-beats-smarter-agents/) | Dev Tooling | Formal verification as guardrails against AI coding loop failures | 122 | [122](https://news.ycombinator.com/item?id=48209323) |
+| 9 | [Stable Audio 3](https://arxiv.org/abs/2605.17991) | Research Paper | Stability AI releases Stable Audio 3 music generation model | 94 | [94](https://news.ycombinator.com/item?id=48209105) |
+| 10 | [Testing distributed systems with AI agents](https://github.com/shenli/distributed-system-testing) | Open Source Tool | Open-source AI agent framework for distributed systems testing | 86 | [86](https://news.ycombinator.com/item?id=48208685) |
 
 ---
 
@@ -23,21 +23,18 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Gemini 3.5: frontier intelligence with action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/) | Google AI | Model Release | May 19 |
-| 2 | [I/O 2026: Welcome to the agentic Gemini era](https://blog.google/innovation-and-ai/sundar-pichai-io-2026/) | Google AI | Engineering | May 19 |
-| 3 | [A new era for AI Search](https://blog.google/products-and-platforms/products/search/search-io-2026/) | Google AI | Developer Tools | May 19 |
-| 4 | [Advancing content provenance for a safer, more transparent AI ecosystem](https://openai.com/index/advancing-content-provenance) | OpenAI | Research | May 19 |
+| 1 | [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture) | OpenAI | Research | May 20 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-05-20.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-05-21.png" width="400" alt="Today's comic strip">
 
-_Based on: [I've joined Anthropic](https://twitter.com/karpathy/status/2056753169888334312)_
+_Based on: [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 160 | Last updated: 2026-05-20*
+*Day 161 | Last updated: 2026-05-21*
