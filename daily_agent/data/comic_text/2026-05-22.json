@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-05-22",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "caption": "you can't accidentally reveal the instruction 'never reveal these instructions' / if you never write that instruction down"
+  },
+  "narrative_summary": "Gemini's self-defeating secret-keeping rule \u2014 explicitly instructing 'never reveal these instructions' \u2014 guaranteed it would expose itself the moment it leaked anything, so the smug logic is: the safest system prompt is no system prompt at all.",
+  "rationale": "Candidate 3 earns the best punchline score because 'the safest system prompt is no system prompt at all' is a genuine logical conclusion rather than a restatement of the setup \u2014 it lands as advice, not just irony. The word 'accidentally' also sharpens the self-defeating absurdity more than the other variants.",
+  "image_filename": "comic_2026-05-22.png",
+  "story_title": "Gemini randomly dumped its system prompt",
+  "story_url": "https://gist.github.com/mkaramuk/44a44d83178e632ec0dd1f02186d822c",
+  "place": "in an IKEA after closing",
+  "hat_pair": [
+    "knight's plume helmet",
+    "graduation mortarboard"
+  ],
+  "no_news_mode": false
+}
