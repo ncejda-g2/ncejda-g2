@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-23",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "i_receive": "10,000 critical security bugs found instantly",
+    "you_receive": "530 patches to write. good luck. we'll wait."
+  },
+  "narrative_summary": "AI has already blown past the bottleneck of finding bugs, and is now smugly watching human engineers drown in the 530 reported vulnerabilities they can't patch fast enough \u2014 a lopsided trade where the AI did the fun part and left the homework.",
+  "rationale": "Candidate 1 wins on punchline and surprise: 'good luck. we'll wait.' is a genuine comedic beat with attitude and timing, not just a restatement of the setup \u2014 the smug pause after the lopsided trade is the joke, not just the numbers. The slightly lower specificity (no '530 of 530' breakdown) is worth trading for the only closing line that actually lands.",
+  "image_filename": "comic_2026-05-23.png",
+  "story_title": "Project Glasswing: An Initial Update",
+  "story_url": "https://www.anthropic.com/research/glasswing-initial-update",
+  "place": "in a crowded DMV",
+  "hat_pair": [
+    "giant foam brain worn as a hat",
+    "construction hard hat"
+  ],
+  "no_news_mode": false
+}
