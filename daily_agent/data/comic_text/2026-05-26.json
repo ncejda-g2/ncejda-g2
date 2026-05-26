@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-05-26",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "panel1_caption": "EU passes AI regulations",
+    "panel2_caption": "G7 issues AI governance framework",
+    "panel3_caption": "Vatican drops 42,300-word encyclical on Silicon Valley",
+    "panel4_caption": "God has opinions on your transformer architecture"
+  },
+  "narrative_summary": "The joke escalates from mundane regulatory bodies to the Pope \u2014 and ultimately God \u2014 weighing in on AI governance, treating the Vatican's unprecedented encyclical as the most cosmic possible flex in the AI policy debate.",
+  "rationale": "Candidate 5 earns its tie-breaking win on punchline strength \u2014 'God has opinions on your transformer architecture' is the sharpest, most unexpected closing beat, pivoting from institutional escalation to a genuinely funny specific detail (transformer architecture) that rewards the technically literate reader. Candidate 4's '1891' callback is clever but lands as a restatement rather than a true punchline.",
+  "image_filename": "comic_2026-05-26.png",
+  "story_title": "Magnifica Humanitas",
+  "story_url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+  "place": "at the edge of a black hole",
+  "hat_pair": [
+    "top hat with a tiny working cuckoo clock built into the brim",
+    "crash helmet with a tiny windshield wiper on the visor"
+  ],
+  "no_news_mode": false
+}
