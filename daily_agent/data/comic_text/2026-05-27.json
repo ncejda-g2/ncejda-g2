@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-27",
+  "template_id": "two_buttons",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "button_left": "Prove $951M R&D Spend Improved the App",
+    "button_right": "Add Claude Code to the Leaderboard"
+  },
+  "narrative_summary": "Uber's COO admits the link between AI spending and product outcomes 'is not there yet,' but the internal leaderboard kept rewarding usage volume anyway \u2014 so leadership is sweating over the impossible choice between accountability and the dopamine hit of the scoreboard.",
+  "rationale": "Candidate 3 earns its score by nailing the actual absurdity of the story \u2014 not just 'money spent, no results' but the specific detail that a usage leaderboard was the mechanism that blew the budget, making the Two Buttons template a perfect fit: leadership genuinely cannot press both buttons simultaneously. The punchline lands because 'Add Claude Code to the Leaderboard' is the thing they clearly already chose, which makes the sweat earned rather than decorative.",
+  "image_filename": "comic_2026-05-27.png",
+  "story_title": "Uber blows through its AI budget in 1 quarter",
+  "story_url": "https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/",
+  "place": "at a VC pitch where the demo is actively hallucinating",
+  "hat_pair": [
+    "backwards bike helmet with racing stripes",
+    "absurdly tall stovepipe top hat"
+  ],
+  "no_news_mode": false
+}
