@@ -1,8 +1,5 @@
 {
   "posts": {
-    "https://mistral.ai/news/connectors": "2026-04-16",
-    "https://mistral.ai/news/two-users-one-cli-people-and-agents": "2026-04-22",
-    "https://www.anthropic.com/engineering/april-23-postmortem": "2026-04-24",
     "https://mistral.ai/news/workflows": "2026-04-29",
     "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5": "2026-04-30",
     "https://x.ai/news/anthropic-compute-partnership": "2026-05-08",
@@ -78,6 +75,7 @@
     "https://mistral.ai/news/mistral-small-4": "2026-05-13",
     "https://mistral.ai/news/forge": "2026-05-13",
     "https://mistral.ai/news/voxtral-tts": "2026-05-13",
-    "https://www.anthropic.com/news/pwc-expanded-partnership": "2026-05-15"
+    "https://www.anthropic.com/news/pwc-expanded-partnership": "2026-05-15",
+    "https://www.anthropic.com/engineering/how-we-contain-claude": "2026-05-29"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-29",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "exhausted",
+    "adjective_second": "sheepish",
+    "narrative_intro": "*An exhausted person and a sheepish person discuss Claude Opus 4.8 at a gas station in the desert.*",
+    "panel1": "[setup]\nEXHAUSTED PERSON: \"Anthropic rewrote 750,000 lines of code in 11 days.\"\nSHEEPISH PERSON: \"Impressive. Who did the work?\"",
+    "panel2": "[build]\nEXHAUSTED PERSON: \"Hundreds of Opus 4.8 agents. In parallel.\"\nSHEEPISH PERSON: \"And the previous version couldn't do that?\"",
+    "panel3": "[pivot]\nEXHAUSTED PERSON: \"The previous version just... quietly watched bad code pass through.\"\nSHEEPISH PERSON: \"It was comfortable with that?\"",
+    "panel4": "[silent reaction]\n[Visual: The sheepish person stares at a single gas pump displaying $25/M output tokens. A tumbleweed rolls past. Neither person blinks.]",
+    "panel5": "[punch]\nEXHAUSTED PERSON: \"Anthropic's words: 'quite comfortable.'\"\nSHEEPISH PERSON: \"They shipped that.\"",
+    "panel6": "[button]\nEXHAUSTED PERSON: \"At the same price.\"\n[Visual: The gas station's price board reads: REGULAR $5/M \u00b7 PREMIUM $25/M \u00b7 SELF-AWARE: \u221e]"
+  },
+  "narrative_summary": "The joke lands on Anthropic's deadpan admission that its previous flagship model was 'quite comfortable' letting bad code slide through, reframed as a product feature calmly discussed at a desert gas station where the price board echoes the token pricing.",
+  "rationale": "Candidate 1 earns its tie-breaking edge through the panel 6 price board gag \u2014 'SELF-AWARE: \u221e' \u2014 which is the only closing beat that adds a genuinely new idea rather than restating the bug-tolerance premise, and the desert gas station token-pricing visual metaphor is tightest here. The deadpan silence of panel 4 also does real structural work that the escalation and sight-gag versions slightly undercut with over-explanation.",
+  "image_filename": "comic_2026-05-29.png",
+  "story_title": "Claude Opus 4.8",
+  "story_url": "https://www.anthropic.com/news/claude-opus-4-8",
+  "place": "at a gas station in the desert",
+  "hat_pair": [
+    "beret tilted dramatically",
+    "hard hat with a tiny disco ball glued to the top"
+  ],
+  "no_news_mode": false
+}
