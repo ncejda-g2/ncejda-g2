@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-29",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "hyperventilating",
+    "adjective_second": "nerdy",
+    "narrative_intro": "*A hyperventilating person and a nerdy person discuss Claude Opus 4.8 in a metaverse that has no users.*",
+    "panel1": "[setup]\nNERDY PERSON: \"Opus 4.8 is 61% cheaper than 4.7 per Databricks.\"\nHYPERVENTILATING PERSON: \"So frontier AI doesn't have to cost a fortune?\"",
+    "panel2": "[build]\nNERDY PERSON: \"84% on Mind2Web. Beats GPT-5.5. 2.5\u00d7 faster in Fast mode.\"\nHYPERVENTILATING PERSON: \"What's the catch?\"",
+    "panel3": "[pivot]\nNERDY PERSON: \"It's also 4\u00d7 more likely to call out your bad code.\"\nHYPERVENTILATING PERSON: \"...my code?\"",
+    "panel4": "[silent reaction]\n[Visual: The hyperventilating person slowly rotates their laptop screen away from the nerdy person. Behind them, a vast empty metaverse plaza stretches to the horizon \u2014 no users, just tumbleweeds made of pixel art.]",
+    "panel5": "[punch]\nHYPERVENTILATING PERSON: \"What if I just... use the expensive slow one.\"\nNERDY PERSON: \"That's not how cheaper works.\"",
+    "panel6": "[button]\n[Visual: The laptop screen is now fully facing a wall. On it, Claude's review reads: '47 critical issues found.' A single Harvey legal-benchmark trophy sits in the corner, glowing smugly at 10%.]"
+  },
+  "narrative_summary": "A nerdy person rattles off Opus 4.8's impressive cost and benchmark stats until the hyperventilating person realizes the model's new code-flaw-catching ability threatens their own terrible code, and tries to opt back into expensive ignorance.",
+  "rationale": "Candidate 5 earns its punchline by pivoting from the story's headline stats to a genuinely fresh angle \u2014 the user's own bad code as the real casualty of improvement \u2014 and the laptop-facing-the-wall visual gag pays off the setup rather than restating it. The '47 critical issues found' button is specific, earned, and funny without being obvious.",
+  "image_filename": "comic_2026-05-29.png",
+  "story_title": "Claude Opus 4.8",
+  "story_url": "https://www.anthropic.com/news/claude-opus-4-8",
+  "place": "in a metaverse that has no users",
+  "hat_pair": [
+    "crash helmet with a tiny windshield wiper on the visor",
+    "full-face motorcycle helmet with googly eyes stuck on"
+  ],
+  "no_news_mode": false
+}

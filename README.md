@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 167 (2026-05-28)
+# 📰 The AI Newspaper — Day 168 (2026-05-29)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [I'm Tired of Talking to AI](https://orchidfiles.com/im-tired-of-ai-generated-answers/) | Palace Intrigue | Reader exhausted as humans outsource replies to AI proxies | 1906 | [1906](https://news.ycombinator.com/item?id=48292224) |
-| 2 | [DuckDuckGo search saw 28% more visits after Google said people love AI mode](https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/) | Palace Intrigue | DDG traffic surges as users flee Google's AI-first search | 845 | [845](https://news.ycombinator.com/item?id=48296649) |
-| 3 | [I think Anthropic and OpenAI have found product-market fit](https://simonwillison.net/2026/May/27/product-market-fit/) | Palace Intrigue | Willison argues Anthropic and OpenAI have finally nailed PMF | 842 | [842](https://news.ycombinator.com/item?id=48296794) |
-| 4 | [YouTube to automatically label AI-generated videos](https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/) | Dev Tooling | YouTube auto-labels AI-generated content to inform viewers | 842 | [842](https://news.ycombinator.com/item?id=48299753) |
-| 5 | [Tech CEOs are apparently suffering from AI psychosis](https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/) | Palace Intrigue | CEOs adopting delusional, grandiose AI beliefs, report claims | 641 | [641](https://news.ycombinator.com/item?id=48295679) |
-| 6 | [Training our own AI models](https://posthog.com/blog/training-ai-models) | Open Source Tool | PostHog trains its own models for product analytics features | 199 | [199](https://news.ycombinator.com/item?id=48296359) |
-| 7 | [Zig 2026: No-AI Policy, $670K Foundation, Left GitHub and Why Zig Isn't 1.0](https://www.youtube.com/watch?v=iqddnwKF8HQ) | Palace Intrigue | Zig lang adopts official no-AI-generated-code policy | 49 | [49](https://news.ycombinator.com/item?id=48303273) |
-| 8 | [Why AI Agents Cannot Change Software Systems](https://phroneses.com/articles/build/notes/agents-cannot-maintain-systems.html) | Research Paper | Argues AI agents fundamentally cannot maintain complex software | 46 | [46](https://news.ycombinator.com/item?id=48294315) |
-| 9 | [Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction](https://arxiv.org/abs/2605.21779) | Research Paper | LLM multi-agent system auto-discovers and reproduces vulnerabilities | 45 | [45](https://news.ycombinator.com/item?id=48297723) |
-| 10 | [Illinois Lawmakers Just Passed America's Strongest AI Safety Bill](https://www.wired.com/story/illinois-pass-major-ai-safety-law-pritzker/) | Palace Intrigue | Illinois enacts nation's toughest AI safety legislation | 11 | [11](https://news.ycombinator.com/item?id=48302940) |
+| 1 | [Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8) | Model Release | Anthropic's new Opus 4.8 is faster, cheaper, crushes benchmarks | 1489 | [1489](https://news.ycombinator.com/item?id=48311647) |
+| 2 | [Disagreement among frontier LLMs on real-world fact-checks](https://lenz.io/research/llm-disagreement) | Research Paper | Top LLMs disagree on real-world fact checks | 487 | [487](https://news.ycombinator.com/item?id=48307887) |
+| 3 | [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h) | Palace Intrigue | Anthropic surpasses OpenAI in valuation at $965B | 338 | [338](https://news.ycombinator.com/item?id=48313048) |
+| 4 | [Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue](https://llmgame.scalex.dev) | Open Source Tool | 60-second game satirizes AI agent permission dialogs | 310 | [310](https://news.ycombinator.com/item?id=48308376) |
+| 5 | [Various LLM Smells](https://shvbsle.in/various-llm-smells/) | Research Paper | Catalog of bad patterns emerging in LLM outputs | 298 | [298](https://news.ycombinator.com/item?id=48313810) |
+| 6 | [Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions](https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/) | Palace Intrigue | Both AI CEOs backpedal on AI-will-destroy-jobs prophecies | 210 | [210](https://news.ycombinator.com/item?id=48314363) |
+| 7 | [AI sticker shock hits corporate America](https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs) | Palace Intrigue | Enterprises stunned by unexpectedly huge AI cost bills | 159 | [159](https://news.ycombinator.com/item?id=48307098) |
+| 8 | [Dynamic Workflows in Claude Code](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code) | Dev Tooling | Claude Code gains hundreds of parallel subagents | 143 | [143](https://news.ycombinator.com/item?id=48311705) |
+| 9 | [About LLMs at Zig Days](https://kristoff.it/blog/llms-at-zig-days/) | Research Paper | Zig community debates LLM use at annual conference | 78 | [78](https://news.ycombinator.com/item?id=48313219) |
+| 10 | [The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin](https://minimaxir.com/2026/05/openrouter-hy3/) | Model Release | Mystery model dominates OpenRouter rankings by huge margin | 71 | [71](https://news.ycombinator.com/item?id=48317294) |
 
 ---
 
@@ -23,20 +23,19 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Building self-improving tax agents with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex) | OpenAI | Engineering | May 27 |
-| 2 | [Warp's big bet on building open source with GPT-5.5](https://openai.com/index/warp) | OpenAI | Developer Tools | May 27 |
-| 3 | [Economic Research Coding agents in the social sciences](https://www.anthropic.com/research/coding-agents-social-sciences) | Anthropic | Research | May 27 |
+| 1 | [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8) | Anthropic | Model Release | May 28 |
+| 2 | [OpenAI's Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework) | OpenAI | Research | May 28 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-05-28.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-05-29.png" width="600" alt="Today's comic strip">
 
-_Based on: [I'm Tired of Talking to AI](https://orchidfiles.com/im-tired-of-ai-generated-answers/)_
+_Based on: [Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 167 | Last updated: 2026-05-28*
+*Day 168 | Last updated: 2026-05-29*
