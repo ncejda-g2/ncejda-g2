@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 169 (2026-05-30)
+# 📰 The AI Newspaper — Day 170 (2026-05-31)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Please Use AI](https://shawnsmucker.substack.com/p/please-use-ai) | Research Paper | Writer passionately argues: stop resisting AI tools already | 739 | [739](https://news.ycombinator.com/item?id=48323101) |
-| 2 | [Notes from the Mistral AI Now Summit](https://koenvangilst.nl/lab/mistral-ai-now-summit) | Model Release | Mistral unveils Voxtral, Robostral, Codestral in summit showcase | 349 | [349](https://news.ycombinator.com/item?id=48325340) |
-| 3 | [Is AI causing a repeat of frontend's lost decade?](https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/) | Research Paper | AI may be repeating web's quality-degrading lost decade | 330 | [330](https://news.ycombinator.com/item?id=48321631) |
-| 4 | [Real-time LLM Inference on Standard GPUs: 3k tokens/s per request](https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/) | Infrastructure | 3,000 tokens/sec per request on commodity GPU hardware | 204 | [204](https://news.ycombinator.com/item?id=48321076) |
-| 5 | [MCP is dead?](https://www.quandri.io/engineering-blog/mcp-is-dead) | Dev Tooling | MCP eats 10% context window, runs 9x slower than CLI | 187 | [187](https://news.ycombinator.com/item?id=48330436) |
-| 6 | [Liquid AI reveals 8B-A1B MoE trained on 38T](https://www.liquid.ai/blog/lfm2-5-8b-a1b) | Model Release | Liquid's efficient 8B MoE model trained on 38T tokens | 177 | [177](https://news.ycombinator.com/item?id=48325306) |
-| 7 | [We should be more tired than the model](https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/) | Research Paper | Essay: stay more energized and curious than your AI | 171 | [171](https://news.ycombinator.com/item?id=48322118) |
-| 8 | [Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA](https://github.com/jmaczan/tiny-vllm) | Open Source Tool | High-performance LLM inference engine in C++ and CUDA | 133 | [133](https://news.ycombinator.com/item?id=48328184) |
-| 9 | [Shift will clean homes for free to train future robots](https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning) | Infrastructure | Startup sends camera-clad humans to clean homes for robot training | 126 | [126](https://news.ycombinator.com/item?id=48327962) |
-| 10 | [Robinhood now lets your AI agents trade stocks](https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/) | Dev Tooling | AI agents can now buy and sell stocks on Robinhood | 96 | [96](https://news.ycombinator.com/item?id=48326659) |
+| 1 | [OpenRouter raises $113M Series B](https://openrouter.ai/announcements/series-b) | Infrastructure | AI model router raises $113M to scale infrastructure | 413 | [413](https://news.ycombinator.com/item?id=48338660) |
+| 2 | [Anthropic surpasses OpenAI to become most valuable AI startup](https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup) | Palace Intrigue | Anthropic hits near-$1T valuation, overtakes OpenAI for first time | 400 | [400](https://news.ycombinator.com/item?id=48336233) |
+| 3 | [EY Canada published a cybersecurity report and most citations were hallucinated](https://gptzero.me/investigations/ey) | Research Paper | Major consulting firm's AI-assisted report stuffed with fake citations | 295 | [295](https://news.ycombinator.com/item?id=48339580) |
+| 4 | [Corporate America Is Starting to Ration AI as Cost Skyrockets](https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a) | Infrastructure | Companies limiting AI tool access as bills spiral out of control | 165 | [165](https://news.ycombinator.com/item?id=48335388) |
+| 5 | [AI job grief: A psychological crisis hitting tech workers](https://jackmaguire.org/blog/ai-job-grief/) | Research Paper | AI displacement causing grief, anxiety, identity crisis in tech workers | 143 | [143](https://news.ycombinator.com/item?id=48336760) |
+| 6 | [To have a moral stance on AI is to be an outcast, and it sucks](https://musings.martyn.berlin/to-have-a-moral-stance-on-ai-is-to-be-an-outcast-and-it-sucks) | Research Paper | Tech workers feel socially punished for ethical concerns about AI | 129 | [129](https://news.ycombinator.com/item?id=48337676) |
+| 7 | [Rsync 3.4.3 has hundreds of Claude commits](https://mastodon.gamedev.place/@JeremiahFieldhaven/116654345332213390) | Open Source Tool | Maintainer alarmed: Claude AI authored hundreds of rsync commits | 100 | [100](https://news.ycombinator.com/item?id=48334021) |
+| 8 | [I am against GenAI and everything it stands for](https://lpcvoid.com/blog/0018_why_i_am_against_genai/index.html) | Research Paper | Developer lays out principled case against all generative AI tech | 52 | [52](https://news.ycombinator.com/item?id=48341532) |
+| 9 | [AI grifters are creating fake Black people to sell Shein junk](https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping) | Palace Intrigue | AI-generated fake personas exploit TikTok Shop to sell cheap goods | 38 | [38](https://news.ycombinator.com/item?id=48341921) |
+| 10 | [Rotary GPU: Exploring Local Execution for Large MoE Models Under Limited VRAM](https://arxiv.org/abs/2605.29135) | Research Paper | Rotating layers through GPU enables running trillion-param models locally | 37 | [37](https://news.ycombinator.com/item?id=48340616) |
 
 ---
 
@@ -23,20 +23,18 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [9 demos of Gemini Omni and Gemini 3.5 in action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/) | Google AI | Model Release | May 29 |
-| 2 | [Strengthening societal resilience with Rosalind Biodefense](https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense) | OpenAI | News | May 29 |
-| 3 | [A shared playbook for trustworthy third party evaluations](https://openai.com/index/trustworthy-third-party-evaluations-foundations) | OpenAI | Research | May 29 |
+| 1 | [How Braintrust turns customer requests into code with Codex](https://openai.com/index/braintrust) | OpenAI | Developer Tools | May 29 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-05-30.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-05-31.png" width="400" alt="Today's comic strip">
 
-_Based on: [Notes from the Mistral AI Now Summit](https://koenvangilst.nl/lab/mistral-ai-now-summit)_
+_Based on: [Anthropic surpasses OpenAI to become most valuable AI startup](https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 169 | Last updated: 2026-05-30*
+*Day 170 | Last updated: 2026-05-31*
