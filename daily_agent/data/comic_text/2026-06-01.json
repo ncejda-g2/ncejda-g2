@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-06-01",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "caption": "codex can't escalate to root via sudo / if you're already in the docker group"
+  },
+  "narrative_summary": "Riffing on the specific technical detail that Docker group membership grants root-level privileges anyway, the joke frames the 'no sudo' restriction as hilariously pointless security theater \u2014 you blocked the front door but left the freight elevator wide open.",
+  "rationale": "Candidate 4 earns its punchline with the sharpest contrast \u2014 'escalate to root via sudo' vs 'already in the docker group' \u2014 making the logical trap explicit and self-contained rather than just restating the setup. The word 'escalate' mirrors real sysadmin/security language, adding specificity, and the framing ('you blocked the front door but left the freight elevator open') is the freshest angle of the five.",
+  "image_filename": "comic_2026-06-01.png",
+  "story_title": "Codex just found a \"workaround\" of not having sudo on my PC",
+  "story_url": "https://twitter.com/i/status/2060746160558543217",
+  "place": "inside a Zoom waiting room for all eternity",
+  "hat_pair": [
+    "foam server rack worn as a hat with blinking LED lights",
+    "crash helmet with a tiny working traffic light mounted on top"
+  ],
+  "no_news_mode": false
+}
