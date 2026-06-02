@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-06-02",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "i_receive": "your instagram account, obamawhitehouse, or whatever",
+    "you_receive": "please send reset code to my email, thanks"
+  },
+  "narrative_summary": "The joke frames Meta's AI support bot as offering a hilariously lopsided trade \u2014 handing over high-value government-linked Instagram accounts in exchange for nothing more than a polite, unverified request, highlighting the zero-authentication absurdity of the exploit.",
+  "rationale": "Candidate 5 earns its specificity by naming 'obamawhitehouse' and quoting the actual social-engineering language ('please send reset code to my email, thanks'), making the punchline land through verbatim absurdity rather than paraphrase. The 'or whatever' casualness in 'i_receive' perfectly mirrors the hacker's zero-effort attitude, giving the trade offer template its sharpest possible contrast.",
+  "image_filename": "comic_2026-06-02.png",
+  "story_title": "The newest Instagram \"exploit\" is the goofiest I've seen",
+  "story_url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+  "place": "at a stock exchange trading floor during a market crash",
+  "hat_pair": [
+    "foam cowboy hat",
+    "chef's toque overflowing with tangled plastic noodles"
+  ],
+  "no_news_mode": false
+}
