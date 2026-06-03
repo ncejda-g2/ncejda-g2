@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-03",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "exhausted",
+    "adjective_second": "unbothered",
+    "narrative_intro": "*An exhausted person and an unbothered person interview MAI-Code-1-Flash for a coding job at an AI job interview.*",
+    "panel1": "[setup]\nEXHAUSTED PERSON: \"So \u2014 51.2% on SWE-Bench Pro. Impressive.\"\nUNBOTHERED PERSON: \"That's a 16-point lead over Claude Haiku 4.5.\"",
+    "panel2": "[build]\nEXHAUSTED PERSON: \"And you use 60% fewer tokens doing it?\"\nMAI-CODE-1-FLASH: \"Correct. I am quite efficient.\"",
+    "panel3": "[pivot]\nUNBOTHERED PERSON: \"One concern \u2014 were you trained on clean, licensed data?\"\nMAI-CODE-1-FLASH: \"Microsoft said 'clean and appropriately licensed.' Their words.\"",
+    "panel4": "[silent reaction]\n[Visual: The exhausted person and the unbothered person exchange a long, slow side-eye. A tiny GitHub Copilot logo badge glints on the AI's lapel. Nobody moves.]",
+    "panel5": "[punch]\nEXHAUSTED PERSON: \"So Microsoft wrote your reference letter...\"\nMAI-CODE-1-FLASH: \"And also built me. And also ships me inside VS Code.\"",
+    "panel6": "[button]\nUNBOTHERED PERSON: \"You're hired. You already work here.\"\n[Visual: The job application form reads 'EMPLOYER: Microsoft. APPLICANT: Microsoft.']"
+  },
+  "narrative_summary": "The joke is that MAI-Code-1-Flash's job interview is farcical because Microsoft both created it and deployed it in their own products, making the hiring process a corporate formality with benchmark receipts as a cover story.",
+  "rationale": "Candidate 3 ties Candidate 1 on total but edges it out on punchline precision \u2014 'EMPLOYER: Microsoft. APPLICANT: Microsoft.' is a single visual gag that crystallizes the entire joke without over-explaining, whereas Candidate 1's sticky-note button is slightly softer. Both are specific and well-structured, but Candidate 3's closing beat does the most work in the fewest words.",
+  "image_filename": "comic_2026-06-03.png",
+  "story_title": "MAI-Code-1-Flash",
+  "story_url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+  "place": "at an AI job interview where you're interviewing the AI",
+  "hat_pair": [
+    "tinfoil pyramid hat",
+    "shower cap covered in sticky notes"
+  ],
+  "no_news_mode": false
+}
