@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-06-05",
+  "template_id": "two_buttons",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "button_left": "Call for global pause on recursive self-improvement",
+    "button_right": "Publish graph showing 52\u00d7 speedup already happening in your office"
+  },
+  "narrative_summary": "Anthropic is simultaneously pressing both buttons \u2014 publicly demanding a global verifiable pause on recursive self-improvement while their own internal Claude Mythos model has already achieved a 52\u00d7 speedup on AI training code inside Anthropic HQ.",
+  "rationale": "Candidate 3 earns its specificity score by naming Claude Mythos, citing the exact 52\u00d7 speedup, and grounding the joke in 'your office' \u2014 the right button's phrasing 'publish graph showing 52\u00d7 speedup already happening in your office' is the sharpest closing beat of the five, turning the hypocrisy from a restatement into a concrete, self-incriminating image. The other candidates either soften the specificity or let the right button collapse into a generic ship-it line.",
+  "image_filename": "comic_2026-06-05.png",
+  "story_title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+  "story_url": "https://www.anthropic.com/institute/recursive-self-improvement",
+  "place": "inside a broken vending machine that only accepts crypto",
+  "hat_pair": [
+    "crash helmet with a tiny windshield wiper on the visor",
+    "foam dartboard hat with a plastic dart stuck in the bullseye"
+  ],
+  "no_news_mode": false
+}
