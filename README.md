@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 176 (2026-06-06)
+# 📰 The AI Newspaper — Day 177 (2026-06-07)
 
 *AI curated AI news for humans*
 
@@ -6,35 +6,33 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Did Claude increase bugs in rsync?](https://alexispurslane.github.io/rsync-analysis/) | Research Paper | Data shows Claude didn't cause rsync's bug spike after all | 390 | [390](https://news.ycombinator.com/item?id=48411635) |
-| 2 | [Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency](https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/) | Model Release | Google optimizes Gemma 4 for mobile via quantization-aware training | 334 | [334](https://news.ycombinator.com/item?id=48414653) |
-| 3 | [S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic](https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/) | Palace Intrigue | S&P 500 rules block AI giants from fast-track index entry | 265 | [265](https://news.ycombinator.com/item?id=48421442) |
-| 4 | [Programmers will document for Claude, but not for each other](https://blog.plover.com/2026/03/09/#documentation-wins-2) | Research Paper | Devs write docs for AI assistants but skip writing for humans | 178 | [178](https://news.ycombinator.com/item?id=48411510) |
-| 5 | [Hacker News, Sans AI](https://elijahpotter.dev/articles/hacker-news-sans-AI) | Palace Intrigue | Dev builds filter that strips all AI stories from HN feed | 162 | [162](https://news.ycombinator.com/item?id=48417916) |
-| 6 | [Ask HN: What is your (AI) dev tech stack / workflow?](https://news.ycombinator.com/item?id=48413629) | Dev Tooling | Community shares AI developer workflows and tool stacks | 129 | [129](https://news.ycombinator.com/item?id=48413629) |
-| 7 | [Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens](https://github.com/zdk/lowfat) | Dev Tooling | CLI filter cuts LLM token usage by 91.8% via context pruning | 126 | [126](https://news.ycombinator.com/item?id=48409955) |
-| 8 | [Ask HN: Why is the HN crowd so anti-AI?](https://news.ycombinator.com/item?id=48420827) | Palace Intrigue | HN thread debates the community's growing anti-AI sentiment | 117 | [117](https://news.ycombinator.com/item?id=48420827) |
-| 9 | [Transformers are inherently succinct](https://openreview.net/pdf?id=Yxz92UuPLQ) | Research Paper | Paper proves transformer models are computationally succinct circuits | 113 | [113](https://news.ycombinator.com/item?id=48416635) |
-| 10 | [Google to pay SpaceX $920M a month for compute capacity at xAI data centers](https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html) | Infrastructure | Google rents $920M monthly compute from SpaceX's xAI data centers | 74 | [74](https://news.ycombinator.com/item?id=48417490) |
+| 1 | [Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot](https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/) | Palace Intrigue | AI chatbot exploited to hijack 20k Instagram accounts | 564 | [564](https://news.ycombinator.com/item?id=48427643) |
+| 2 | [Nvidia is proposing a beast of a CPU system for Windows PCs](https://twitter.com/lemire/status/2062880075117113739) | AI Hardware | Nvidia proposes powerful new CPU platform for Windows PCs | 275 | [275](https://news.ycombinator.com/item?id=48424605) |
+| 3 | [The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy](https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/) | Infrastructure | Smart TVs are silent nodes in the AI data economy | 206 | [206](https://news.ycombinator.com/item?id=48422993) |
+| 4 | [Police in England and Wales told to halt AI use in court statements](https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241) | Palace Intrigue | UK police barred from AI-assisted court witness statements | 151 | [151](https://news.ycombinator.com/item?id=48426022) |
+| 5 | [US House lawmakers release draft bill to prohibit state AI rules](https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/) | Palace Intrigue | House bill would preempt all state-level AI regulations | 117 | [117](https://news.ycombinator.com/item?id=48425031) |
+| 6 | [I design with Claude more than Figma now](https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/) | Dev Tooling | Jane Street dev now designs with Claude, not Figma | 113 | [113](https://news.ycombinator.com/item?id=48431981) |
+| 7 | [Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering](https://arxiv.org/abs/2601.14470) | Research Paper | Study maps token spend across agentic software engineering tasks | 92 | [92](https://news.ycombinator.com/item?id=48430923) |
+| 8 | [Meta Keeps Delaying the Release of Its New AI Model to Developers](https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c) | Model Release | Meta's unreleased AI model keeps missing its developer deadlines | 63 | [63](https://news.ycombinator.com/item?id=48424252) |
+| 9 | [Universal Memory Protocol – a shared format for agent memory](https://universalmemoryprotocol.io/) | Open Source Tool | Open standard proposes shared memory format for AI agents | 39 | [39](https://news.ycombinator.com/item?id=48428796) |
+| 10 | [Computex 2026: Are We Heading for the Agentic PC Era Yet?](https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/) | AI Hardware | Computex ponders whether the agentic PC era has arrived | 30 | [30](https://news.ycombinator.com/item?id=48428647) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-| # | Post | Lab | Category | Date |
-|---|------|-----|----------|------|
-| 1 | [Making Claude a Chemist](https://www.anthropic.com/research/making-claude-a-chemist) | Anthropic | Research | Jun 05 |
+*No new lab posts this week.*
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-06-06.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-06-07.png" width="600" alt="Today's comic strip">
 
-_Based on: [Did Claude increase bugs in rsync?](https://alexispurslane.github.io/rsync-analysis/)_
+_Based on: [Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot](https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 176 | Last updated: 2026-06-06*
+*Day 177 | Last updated: 2026-06-07*
