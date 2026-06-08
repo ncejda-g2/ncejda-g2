@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 177 (2026-06-07)
+# 📰 The AI Newspaper — Day 178 (2026-06-08)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot](https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/) | Palace Intrigue | AI chatbot exploited to hijack 20k Instagram accounts | 564 | [564](https://news.ycombinator.com/item?id=48427643) |
-| 2 | [Nvidia is proposing a beast of a CPU system for Windows PCs](https://twitter.com/lemire/status/2062880075117113739) | AI Hardware | Nvidia proposes powerful new CPU platform for Windows PCs | 275 | [275](https://news.ycombinator.com/item?id=48424605) |
-| 3 | [The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy](https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/) | Infrastructure | Smart TVs are silent nodes in the AI data economy | 206 | [206](https://news.ycombinator.com/item?id=48422993) |
-| 4 | [Police in England and Wales told to halt AI use in court statements](https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241) | Palace Intrigue | UK police barred from AI-assisted court witness statements | 151 | [151](https://news.ycombinator.com/item?id=48426022) |
-| 5 | [US House lawmakers release draft bill to prohibit state AI rules](https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/) | Palace Intrigue | House bill would preempt all state-level AI regulations | 117 | [117](https://news.ycombinator.com/item?id=48425031) |
-| 6 | [I design with Claude more than Figma now](https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/) | Dev Tooling | Jane Street dev now designs with Claude, not Figma | 113 | [113](https://news.ycombinator.com/item?id=48431981) |
-| 7 | [Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering](https://arxiv.org/abs/2601.14470) | Research Paper | Study maps token spend across agentic software engineering tasks | 92 | [92](https://news.ycombinator.com/item?id=48430923) |
-| 8 | [Meta Keeps Delaying the Release of Its New AI Model to Developers](https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c) | Model Release | Meta's unreleased AI model keeps missing its developer deadlines | 63 | [63](https://news.ycombinator.com/item?id=48424252) |
-| 9 | [Universal Memory Protocol – a shared format for agent memory](https://universalmemoryprotocol.io/) | Open Source Tool | Open standard proposes shared memory format for AI agents | 39 | [39](https://news.ycombinator.com/item?id=48428796) |
-| 10 | [Computex 2026: Are We Heading for the Agentic PC Era Yet?](https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/) | AI Hardware | Computex ponders whether the agentic PC era has arrived | 30 | [30](https://news.ycombinator.com/item?id=48428647) |
+| 1 | [LLMs are eroding my software engineering career and I don't know what to do](https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/) | Palace Intrigue | Senior engineer watches LLMs hollow out their entire skill stack | 960 | [960](https://news.ycombinator.com/item?id=48434312) |
+| 2 | [Anthropic, please ship an official Claude Desktop for Linux](https://github.com/anthropics/claude-code/issues/65697) | Palace Intrigue | Linux devs flood Anthropic GitHub demanding a native desktop client | 493 | [493](https://news.ycombinator.com/item?id=48434436) |
+| 3 | [Show HN: Lathe – Use LLMs to learn a new domain, not skip past it](https://github.com/devenjarvis/lathe) | Dev Tooling | Open-source tool uses LLMs to deepen learning, not bypass it | 309 | [309](https://news.ycombinator.com/item?id=48433756) |
+| 4 | [DeepSeek V4 Pro beats GPT-5.5 Pro on precision](https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision) | Model Release | Chinese lab DeepSeek V4 Pro outscores GPT-5.5 on precision benchmarks | 261 | [261](https://news.ycombinator.com/item?id=48440448) |
+| 5 | [The OnlyFans Economy of American AI](https://leoveanu.com/2026-06-06-qwen3.7max/) | Palace Intrigue | US AI sector mirrors creator economy: few superstars, many paying subscribers | 142 | [142](https://news.ycombinator.com/item?id=48435371) |
+| 6 | [If LLMs Have Human-Like Attributes, Then So Does Age of Empires II](https://arxiv.org/abs/2605.31514) | Research Paper | Paper refutes LLM personhood claims via videogame counterexample | 111 | [111](https://news.ycombinator.com/item?id=48437568) |
+| 7 | [Algorithmic Monocultures in Hiring](https://algorithmichiring.github.io/) | Research Paper | AI hiring tools homogenize candidate pools, creating systemic fragility | 90 | [90](https://news.ycombinator.com/item?id=48440549) |
+| 8 | [Flock license plate reader wrongly linked a San Diego man to a violent crime](https://timesofsandiego.com/crime/2026/06/07/a-flock-license-plate-reader-linked-a-san-diego-man-to-a-violent-crime-he-was-five-miles-away/) | Palace Intrigue | AI surveillance misidentifies innocent man as violent crime suspect | 83 | [83](https://news.ycombinator.com/item?id=48438421) |
+| 9 | [Anthropic/OpenAI may be spending more than $1000 for every $100 you pay them](https://ea.rna.nl/2026/06/07/anthropic-openai-may-be-spending-more-than-1000-for-every-100-you-pay-them/) | Palace Intrigue | Analysis: AI labs may burn $1000 in costs for every $100 in revenue | 65 | [65](https://news.ycombinator.com/item?id=48434342) |
+| 10 | [Efficient and Training-Free Single-Image Diffusion Models](https://arxiv.org/abs/2606.04299) | Research Paper | New technique generates diffusion models from a single image, no training | 51 | [51](https://news.ycombinator.com/item?id=48433305) |
 
 ---
 
@@ -27,12 +27,12 @@
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-06-07.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-06-08.png" width="600" alt="Today's comic strip">
 
-_Based on: [Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot](https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/)_
+_Based on: [LLMs are eroding my software engineering career and I don't know what to do](https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 177 | Last updated: 2026-06-07*
+*Day 178 | Last updated: 2026-06-08*

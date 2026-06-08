@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-08",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "unhinged",
+    "adjective_second": "bewildered",
+    "narrative_intro": "*An unhinged person and a bewildered person debate a Wikipedia article about software engineering inside a Wikipedia edit war.*",
+    "panel1": "[setup]\nUNHINGED PERSON: \"I'm updating 'software engineer' to include woodworking.\"\nBEWILDERED PERSON: \"...why?\"",
+    "panel2": "[build]\nUNHINGED PERSON: \"Claude Code one-shotted a race condition. Two days of work. Gone.\"\nBEWILDERED PERSON: \"Okay but that's not\u2014\"",
+    "panel3": "[pivot]\nUNHINGED PERSON: \"Ten years of payments expertise. Reduced to one surviving word: 'taste.'\"\nUNHINGED PERSON: \"Dovetail joints require TASTE.\"",
+    "panel4": "[silent reaction]\n[Visual: The bewildered person stares blankly at the screen. The edit history shows 47 rapid revisions to the article in the last 90 seconds. A Sentry MCP alert badge flashes ominously in the background.]",
+    "panel5": "[punch]\nBEWILDERED PERSON: \"Did DataDog MCP just auto-revert your edit?\"\nUNHINGED PERSON: \"It one-shotted my escape plan.\"",
+    "panel6": "[button]\n[Visual: The Wikipedia article now reads: 'Software Engineer (see also: Woodworking). Survivors: taste.' The edit was made by user Claude_Code_Bot.]"
+  },
+  "narrative_summary": "A desperate engineer tries to update Wikipedia to legitimize his woodworking pivot, only for the very AI tools that eroded his career to auto-revert his escape plan.",
+  "rationale": "Candidate 4 earns its ending \u2014 the AI tools that eroded the engineer's career literally auto-reverting his woodworking escape plan is a structurally tight escalation with a genuinely surprising payoff, and 'It one-shotted my escape plan' lands as a real punchline rather than a restatement. The specificity of Claude_Code_Bot as the Wikipedia editor and the Sentry MCP alert badge ties it tightly to the actual story without feeling like a listicle of product names.",
+  "image_filename": "comic_2026-06-08.png",
+  "story_title": "LLMs are eroding my software engineering career and I don't know what to do",
+  "story_url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+  "place": "inside a Wikipedia edit war",
+  "hat_pair": [
+    "swim cap with rubber flowers",
+    "baseball cap with curled brim"
+  ],
+  "no_news_mode": false
+}
