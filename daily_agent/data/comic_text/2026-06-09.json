@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-09",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "smug",
+    "adjective_second": "overconfident",
+    "narrative_intro": "*A smug person and an overconfident person discuss Apple's Gemini deal in a submarine running out of oxygen.*",
+    "panel1": "[setup]\nSMUG PERSON: \"Apple Intelligence is finally good.\"\nOVERCONFIDENT PERSON: \"Told you. Pure Apple innovation.\"",
+    "panel2": "[build]\nSMUG PERSON: \"Deep collaboration. Huge upgrade. Their words.\"\nOVERCONFIDENT PERSON: \"Classic Cupertino engineering mastery.\"",
+    "panel3": "[pivot]\nSMUG PERSON: \"It's Gemini. Google built the models.\"\nOVERCONFIDENT PERSON: \"...Private Cloud Compute though.\"",
+    "panel4": "[silent reaction]\n[Visual: The overconfident person stares at a Think Different poster duct-taped to the submarine wall. A slow oxygen bubble drifts past. Neither person blinks.]",
+    "panel5": "[punch]\nOVERCONFIDENT PERSON: \"So Apple's privacy pitch is... Google?\"\nSMUG PERSON: \"Google never sees your data. Apple just uses it.\"",
+    "panel6": "[button]\n[Visual: The submarine's Siri speaker quietly plays 'Don't Be Evil' on repeat. Nobody addresses it.]"
+  },
+  "narrative_summary": "The joke lands on Apple's decade-long privacy-vs-Google posturing evaporating the moment Gemini powers their flagship AI feature, delivered deadpan as the oxygen runs out.",
+  "rationale": "Candidate 1 earns its score by landing a genuinely sharp closing line \u2014 'Google never sees your data. Apple just uses it.' \u2014 that reframes the privacy contradiction with precision rather than restating it, and the 'Don't Be Evil' Siri button is a specific, earned callback that most writers would have left on the table. The deadpan voice also does real work here: the submarine oxygen conceit stays atmospheric rather than becoming the joke itself.",
+  "image_filename": "comic_2026-06-09.png",
+  "story_title": "Apple reveals new AI architecture built around Google Gemini models",
+  "story_url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+  "place": "in a submarine running out of oxygen",
+  "hat_pair": [
+    "crown made of bent paperclips",
+    "plague-doctor beaked hat"
+  ],
+  "no_news_mode": false
+}
