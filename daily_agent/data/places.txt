@@ -77,3 +77,4 @@ at a Michelin-starred restaurant where the robot chef is having an existential c
 at the bottom of a pile of unread emails
 at a tech conference where the keynote speaker is a very confident hallucination
 inside a glitching augmented reality headset
+at an AI safety summit where the AI has already taken over the catering
