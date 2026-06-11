@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-06-11",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "i_receive": "all your hipaa-protected enterprise prompts for 30 days",
+    "you_receive": "the ability to detect misuse patterns. trust us."
+  },
+  "narrative_summary": "The joke frames Anthropic's mandatory data-retention policy as a comically lopsided trade offer, using the real 30-day retention window and the verbatim 'detect misuse patterns' justification to highlight how little enterprise users get in return for surrendering sensitive data.",
+  "rationale": "Candidate 2 earns its win by combining real specifics (HIPAA, 30-day retention, the verbatim 'detect misuse patterns' justification) with the closing 'trust us.' \u2014 a two-word punchline that reframes the entire corporate euphemism as naked audacity rather than just restating the lopsided deal. The other candidates either drop the verbatim policy language or end on a flat access-you-already-paid-for beat.",
+  "image_filename": "comic_2026-06-11.png",
+  "story_title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+  "story_url": "https://news.ycombinator.com/item?id=48473166",
+  "place": "on a broken escalator in a crowded airport",
+  "hat_pair": [
+    "floppy chef's toque",
+    "oversized propeller beanie"
+  ],
+  "no_news_mode": false
+}

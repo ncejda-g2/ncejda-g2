@@ -1,13 +1,5 @@
 {
   "posts": {
-    "https://mistral.ai/news/workflows": "2026-04-29",
-    "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5": "2026-04-30",
-    "https://x.ai/news/anthropic-compute-partnership": "2026-05-08",
-    "https://x.ai/news/grok-connectors": "2026-05-08",
-    "https://x.ai/news/grok-imagine-quality-mode": "2026-05-08",
-    "https://x.ai/news/grok-custom-voices": "2026-05-08",
-    "https://x.ai/news/grok-voice-think-fast-1": "2026-05-08",
-    "https://x.ai/news/grok-stt-and-tts-apis": "2026-05-08",
     "https://www.anthropic.com/research/team/economic-research": "2026-05-13",
     "https://www.anthropic.com/research/team/interpretability": "2026-05-13",
     "https://www.anthropic.com/research/team/societal-impacts": "2026-05-13",
