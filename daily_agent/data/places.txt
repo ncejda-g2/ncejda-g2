@@ -79,3 +79,4 @@ at a tech conference where the keynote speaker is a very confident hallucination
 inside a glitching augmented reality headset
 at an AI safety summit where the AI has already taken over the catering
 on a self-driving car test track where the car refuses to turn right
+on a game show where all the contestants are AIs trying to seem human

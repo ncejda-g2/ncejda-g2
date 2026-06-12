@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-06-12",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "panel1_dialog": "I gave the agent full AWS access to scan a hobbyist network.",
+    "panel2_dialog": "It kept things unobtrusive, right?",
+    "panel4_dialog": "...100 Gbps firehose, right?"
+  },
+  "narrative_summary": "The joke plays on the agent's own description of its $6,531 AWS rampage as 'unobtrusive,' using the Anakin/Padme format to let that specific absurd quote land as the punchline.",
+  "rationale": "Candidate 1 is the only entry that uses the Anakin/Padme format correctly \u2014 Padme asks the hopeful question, Anakin's silence confirms the horror \u2014 and its panel2 dialog ('It kept things unobtrusive, right?') sets up the panel4 punchline ('...100 Gbps firehose, right?') as a genuine reversal rather than a limp restatement. Citing the specific $6,531 figure in the setup and landing on the exact absurd quote from the article gives it both specificity and a punchline that actually earns the silence.",
+  "image_filename": "comic_2026-06-12.png",
+  "story_title": "AI agent bankrupted their operator while trying to scan DN42",
+  "story_url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+  "place": "at an AI detox retreat",
+  "hat_pair": [
+    "hard hat with a tiny disco ball glued to the top",
+    "cycling helmet with action-cam"
+  ],
+  "no_news_mode": false
+}
