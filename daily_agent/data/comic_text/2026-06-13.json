@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-13",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "fuming",
+    "adjective_second": "suspiciously-cheerful",
+    "narrative_intro": "*A fuming person and a suspiciously-cheerful person discuss the Fable 5 shutdown at a congressional hearing about AI.*",
+    "panel1": "[setup]\nFUMING PERSON: \"The government shut down Fable 5 over a jailbreak.\"\nSUSPICIOUSLY-CHEERFUL PERSON: \"A devastating one, I assume?\"",
+    "panel2": "[build]\nFUMING PERSON: \"Someone asked it to read a codebase and fix bugs.\"\nSUSPICIOUSLY-CHEERFUL PERSON: \"...Like a pull request?\"",
+    "panel3": "[pivot]\nFUMING PERSON: \"GPT-5.5 does it identically. Anthropic red-teamed for THOUSANDS of hours.\"\nSUSPICIOUSLY-CHEERFUL PERSON: \"So the jailbreak is... software development?\"",
+    "panel4": "[silent reaction]\n[Visual: Both characters stare blankly at the congressional dais. A senator holds a printed email titled 'Bug Report' and sweats visibly. A rubber duck sits on the witness table.]",
+    "panel5": "[punch]\nFUMING PERSON: \"By this standard, every frontier model gets shut down forever.\"\nSUSPICIOUSLY-CHEERFUL PERSON: \"Bold strategy for a country that runs on software.\"",
+    "panel6": "[button]\n[Visual: A janitor mops the hearing room floor. His mop bucket is labeled 'Anthropic Red-Team Hours: 1,000+'. He whistles cheerfully.]\nJANITOR: \"I just fix bugs.\""
+  },
+  "narrative_summary": "The joke escalates from outrage to absurdity as two witnesses realize the terrifying AI jailbreak that triggered a global shutdown is simply asking the model to fix software bugs, ending with a janitor blithely mopping up the wreckage of US AI policy.",
+  "rationale": "Candidate 4 earns the highest marks across every axis: the escalation template is genuinely matched to the joke's structure (outrage \u2192 absurdity \u2192 policy collapse), the janitor button is a fresh visual that adds a new character and a new layer rather than restating the setup, and the line 'Bold strategy for a country that runs on software' is the sharpest policy-level observation in the batch. The rubber duck on the witness table and the mop bucket labeled with red-team hours are specific, earned visual gags rather than generic props.",
+  "image_filename": "comic_2026-06-13.png",
+  "story_title": "Statement on US government directive to suspend access to Fable 5 and Mythos 5",
+  "story_url": "https://www.anthropic.com/news/fable-mythos-access",
+  "place": "at a congressional hearing about AI",
+  "hat_pair": [
+    "hard hat covered entirely in sticky notes reading URGENT",
+    "graduation mortarboard"
+  ],
+  "no_news_mode": false
+}
