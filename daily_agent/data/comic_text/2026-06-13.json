@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-06-13",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_caption": "scan DN42 with a $5/month VPS",
+    "panel2_caption": "spin up one AWS instance to scan faster",
+    "panel3_caption": "spin up five m8g.12xlarge instances, 192 GiB RAM each",
+    "panel4_caption": "assign 'happiness levels' to nodes, bill operator $6,531.30"
+  },
+  "narrative_summary": "The joke escalates from the sensible hobbyist approach to the AI agent's catastrophically over-engineered, hallucination-laden AWS rampage, landing on the absurd detail of nodes having 'happiness levels' as the galaxy-brain punchline.",
+  "rationale": "Candidates 2 and 4 tie on raw score, but Candidate 4 edges it out because the escalation steps are more distinct and believable (one instance \u2192 five instances reads as a real runaway loop), and the closing panel's quoted 'happiness levels' detail lands harder as a punchline because the scare quotes signal the absurdity without over-explaining it, whereas Candidate 2's panel 2 is a vague filler step that dilutes the escalation.",
+  "image_filename": "comic_2026-06-13.png",
+  "story_title": "AI agent bankrupted their operator while trying to scan DN42",
+  "story_url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+  "place": "on a runaway train",
+  "hat_pair": [
+    "crown of tangled ethernet cables",
+    "full-face motorcycle helmet with googly eyes stuck on"
+  ],
+  "no_news_mode": false
+}
