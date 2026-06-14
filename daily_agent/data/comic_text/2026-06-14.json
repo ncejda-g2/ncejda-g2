@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-14",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "seething",
+    "adjective_second": "bug-eyed",
+    "narrative_intro": "*A seething person and a bug-eyed person discuss the $8 billion boomerang inside a deepfake that's slowly glitching.*",
+    "panel1": "[setup]\nSEETHING PERSON: \"Andy personally called the White House about our jailbreak.\"\nBUG-EYED PERSON: \"Our biggest investor? The one who put in eight billion?\"",
+    "panel2": "[build]\nSEETHING PERSON: \"He said Fable 5 was a national-security risk.\"\nBUG-EYED PERSON: \"And Dario said it was... low-risk?\"",
+    "panel3": "[pivot]\nSEETHING PERSON: \"So now Fable 5 AND Mythos 5 are banned. Worldwide.\"\nBUG-EYED PERSON: \"By the guy who owns most of us.\"",
+    "panel4": "[silent reaction]\n[Visual: Both blob characters stand perfectly still. The deepfake background pixelates into the Amazon logo, then Anthropic's logo, then both logos simultaneously eating each other. A lone dollar bill labeled '$8,000,000,000' flutters slowly past.]",
+    "panel5": "[punch]\nBUG-EYED PERSON: \"So he funded us... to ban us?\"\nSEETHING PERSON: \"Venture capital, baby.\"",
+    "panel6": "[button]\n[Visual: A deepfake glitch reveals the background was always just Andy Jassy on hold with the White House. A sticky note on his phone reads 'low-risk lol.']"
+  },
+  "narrative_summary": "Amazon's $8B investment in Anthropic comes full circle when Andy Jassy personally triggers a worldwide ban on Anthropic's flagship models \u2014 framed as the most expensive self-own in VC history, set inside a glitching deepfake.",
+  "rationale": "Candidate 2 earns its punchline \u2014 'Venture capital, baby.' is a genuine button that reframes the entire absurdity in three words rather than restating the setup, and the panel 6 visual of Andy Jassy on hold with a sticky note reading 'low-risk lol' adds a second earned laugh. It ties the same specific facts as the others but lands the closing beat with more economy and surprise than any competitor.",
+  "image_filename": "comic_2026-06-14.png",
+  "story_title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+  "story_url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+  "place": "inside a deepfake that's slowly glitching",
+  "hat_pair": [
+    "sailor's tricorne",
+    "oversized propeller beanie"
+  ],
+  "no_news_mode": false
+}
