@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-06-14",
+  "template_id": "two_buttons",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "button_left": "Fix the Mythos jailbreak quietly",
+    "button_right": "Keep shipping to 190 countries"
+  },
+  "narrative_summary": "Anthropic faces the classic two-button dilemma: patch the jailbreak vulnerability or keep the consumer model running globally \u2014 the joke lands on the tension that choosing the second option got their AI models classified as weapons technology.",
+  "rationale": "Candidate 4 earns the highest score by combining genuine specificity (Mythos jailbreak, 190 countries) with a closing beat that actually lands \u2014 'Keep shipping to 190 countries' escalates the stakes beyond the obvious and makes the export-controls consequence feel earned rather than just restated. The Two Buttons template is a perfect fit for a binary choice that blew up in Anthropic's face.",
+  "image_filename": "comic_2026-06-14.png",
+  "story_title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+  "story_url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+  "place": "in a burning server room during a performance review",
+  "hat_pair": [
+    "absurdly tall stovepipe top hat",
+    "swim cap with rubber flowers"
+  ],
+  "no_news_mode": false
+}
