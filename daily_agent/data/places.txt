@@ -82,3 +82,4 @@ on a self-driving car test track where the car refuses to turn right
 on a game show where all the contestants are AIs trying to seem human
 at a speed-dating event where all the other participants are AIs claiming to be human
 at a live press conference where the AI spokesperson keeps contradicting itself
+inside a smart fridge that's judging your dietary choices

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-06-15",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_caption": "hiring consultants to study AI adoption",
+    "panel2_caption": "using AI to write your AI adoption report",
+    "panel3_caption": "AI hallucinates fake quotes from UBS, NHS, and Swiss Federal Railways",
+    "panel4_caption": "your flagship report on responsible AI oversight requires human oversight to not be a lie"
+  },
+  "narrative_summary": "The joke escalates from sensible consulting practice to KPMG's self-own: a Big Four firm used AI to write a report about responsible AI use, got caught hallucinating claims about real organizations, and their own response was 'we expect human oversight' \u2014 the exact thing they forgot to do.",
+  "rationale": "Candidate 4 is the only entry that earns its punchline rather than restating the setup \u2014 the escalating panels build to a genuinely ironic payoff ('your flagship report on responsible AI oversight requires human oversight to not be a lie'), and it's the only candidate that names real organizations (UBS, NHS, Swiss Federal Railways), making it specifically tied to this story. The Expanding Brain template is also the correct shape for an escalating self-own, whereas Disaster Girl on a text-only caption is a weak fit for all five competitors.",
+  "image_filename": "comic_2026-06-15.png",
+  "story_title": "KPMG pulls report on AI usage due to apparent hallucinations",
+  "story_url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+  "place": "at the bottom of a pile of unread emails",
+  "hat_pair": [
+    "graduation mortarboard",
+    "foam toaster hat with two slices of toast permanently popping up"
+  ],
+  "no_news_mode": false
+}
