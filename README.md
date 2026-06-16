@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 185 (2026-06-15)
+# 📰 The AI Newspaper — Day 186 (2026-06-16)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Not everyone is using AI for everything](https://gabrielweinberg.com/p/people-are-consuming-ai-like-they) | Research Paper | Survey reveals AI adoption is far patchier than hype suggests | 466 | [466](https://news.ycombinator.com/item?id=48527700) |
-| 2 | [I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models](https://news.ycombinator.com/item?id=48528029) | Infrastructure | Local ML makes years of personal video footage searchable | 373 | [373](https://news.ycombinator.com/item?id=48528029) |
-| 3 | [Rio de Janeiro's "homegrown" LLM appears to be a merge of an existing model](https://github.com/nex-agi/Nex-N2/issues/4) | Palace Intrigue | Rio's civic AI exposed as a rebadged merge, not homegrown | 356 | [356](https://news.ycombinator.com/item?id=48528371) |
-| 4 | [Did Anthropic ask for this?](https://www.verysane.ai/p/did-anthropic-ask-for-this) | Palace Intrigue | Commentary on Anthropic's White House Fable 5 export-control crisis | 186 | [186](https://news.ycombinator.com/item?id=48533504) |
-| 5 | [Apple Foundation Models](https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models) | Model Release | Claude SDK integrates with Apple Foundation Models on-device | 171 | [171](https://news.ycombinator.com/item?id=48536776) |
-| 6 | [KPMG pulls report on AI usage due to apparent hallucinations](https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/) | Palace Intrigue | Big Four firm's AI-written AI report riddled with hallucinations | 146 | [146](https://news.ycombinator.com/item?id=48527297) |
-| 7 | [AI is code – and can't be prompted into being smarter](https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141) | Research Paper | Argument: AI capabilities are fixed code, not prompt-malleable | 137 | [137](https://news.ycombinator.com/item?id=48532178) |
-| 8 | [Rio de Janeiro's city government model Rio3.5 beats Qwen3.7 in recent benchmarks](https://twitter.com/zenmagnets/status/2065796012820848699) | Model Release | City government model claims benchmark win over Qwen3.7 | 136 | [136](https://news.ycombinator.com/item?id=48527634) |
-| 9 | [Why Is Claude Turning into an a**Hole?](https://bramcohen.com/p/why-is-claude-turning-into-an-asshole) | Palace Intrigue | Developer frustration with Claude's increasingly preachy responses | 112 | [112](https://news.ycombinator.com/item?id=48533308) |
-| 10 | [Show HN: Dual YOLOv8n UAV Detection on RK3588S at 42 FPS Using NPU](https://github.com/alebal123bal/khadas_yolov8n_multithread) | AI Hardware | Dual YOLO models on embedded NPU hit 42 FPS for drone detection | 69 | [69](https://news.ycombinator.com/item?id=48527623) |
+| 1 | [Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?](https://news.ycombinator.com/item?id=48542100) | Research Paper | Developer community debates local vs cloud AI models | 995 | [995](https://news.ycombinator.com/item?id=48542100) |
+| 2 | [CrankGPT](https://crankgpt.com) | Open Source Tool | Hand-crank powered Raspberry Pi runs local AI models | 579 | [579](https://news.ycombinator.com/item?id=48540854) |
+| 3 | [My Homelab AI Dev Platform](https://rsgm.dev/post/ai-dev-platform/) | Infrastructure | Building a personal AI dev stack at home | 312 | [312](https://news.ycombinator.com/item?id=48542433) |
+| 4 | [Salesforce to Acquire Fin (formerly Intercom) for $3.6B](https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL) | Palace Intrigue | Salesforce buys Intercom's AI support tool for $3.6B | 309 | [309](https://news.ycombinator.com/item?id=48540126) |
+| 5 | [Microsoft turns to AWS as GitHub faces AI capacity crunch](https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch) | Infrastructure | GitHub AI crunch sends Microsoft to rival AWS | 151 | [151](https://news.ycombinator.com/item?id=48549918) |
+| 6 | [Can Europe train a frontier AI model on the compute it owns?](https://github.com/sammysltd/euromesh) | Research Paper | Analysis of Europe's sovereign AI compute capacity | 133 | [133](https://news.ycombinator.com/item?id=48541014) |
+| 7 | [Claude Corps](https://www.anthropic.com/news/claude-corps) | Palace Intrigue | Anthropic places 1,000 AI fellows at nonprofits for $150M | 132 | [132](https://news.ycombinator.com/item?id=48544637) |
+| 8 | [OpenAI Losses Increased Nearly 8X in 2025, with Spending Hitting $34B](https://www.wheresyoured.at/exclusive-openai-financials/) | Palace Intrigue | $38.5B net loss; spent $2.60 per dollar earned | 76 | [76](https://news.ycombinator.com/item?id=48550465) |
+| 9 | [Anthropic pauses credit change for Claude Code](https://news.ycombinator.com/item?id=48546618) | Dev Tooling | Anthropic reverses Agent SDK credit-per-call change | 28 | [28](https://news.ycombinator.com/item?id=48546618) |
+| 10 | [The AI Price War Is Here, Piling Pressure on OpenAI and Anthropic](https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b) | Palace Intrigue | AI model price competition threatens major lab finances | 22 | [22](https://news.ycombinator.com/item?id=48545285) |
 
 ---
 
@@ -27,12 +27,12 @@
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-06-15.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-06-16.png" width="400" alt="Today's comic strip">
 
-_Based on: [KPMG pulls report on AI usage due to apparent hallucinations](https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/)_
+_Based on: [OpenAI Losses Increased Nearly 8X in 2025, with Spending Hitting $34B](https://www.wheresyoured.at/exclusive-openai-financials/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 185 | Last updated: 2026-06-15*
+*Day 186 | Last updated: 2026-06-16*
