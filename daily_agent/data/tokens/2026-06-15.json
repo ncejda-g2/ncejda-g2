@@ -1,0 +1,18 @@
+{
+  "date": "2026-06-15",
+  "model": "claude-sonnet-4-6",
+  "attempts": 1,
+  "total_cost_usd": 0.930392,
+  "total_duration_ms": 399967,
+  "total_turns": 19,
+  "anthropic_usage": {
+    "input_tokens": 980,
+    "cache_creation_input_tokens": 64251,
+    "cache_read_input_tokens": 446438,
+    "output_tokens": 12480
+  },
+  "anthropic_total_tokens": 524149,
+  "image_gen_usage": [],
+  "image_gen_total_tokens": 0,
+  "grand_total_tokens": 524149
+}

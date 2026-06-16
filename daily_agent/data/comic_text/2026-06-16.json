@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-06-16",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "caption": "you can't pay $100/month for Claude / if you spent $4,400 on dual RTX 3090s"
+  },
+  "narrative_summary": "The joke uses the Roll Safe logic to deadpan the developers' math: the 'savings' of ditching Claude require upfront hardware spend that takes 3.6 years to break even, so the smug self-defeating wisdom lands perfectly on the situation.",
+  "rationale": "Candidate 1 earns its score by weaponizing the Roll Safe template perfectly \u2014 the self-defeating logic IS the joke, and the exact numbers ($100/month, $4,400, 3.6 years) make the smug face land with surgical precision rather than vague irony. The punchline doesn't restate the setup; it completes a logical trap the reader walks into themselves.",
+  "image_filename": "comic_2026-06-16.png",
+  "story_title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+  "story_url": "https://news.ycombinator.com/item?id=48542100",
+  "place": "in a meeting that could have been an email",
+  "hat_pair": [
+    "absurdly tall stovepipe top hat",
+    "snorkel mask worn as a hat with the tube pointing straight up"
+  ],
+  "no_news_mode": false
+}
