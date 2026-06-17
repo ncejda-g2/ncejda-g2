@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-17",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "terminally-earnest",
+    "adjective_second": "frazzled",
+    "narrative_intro": "*A terminally-earnest person and a frazzled person discuss the $60B Cursor acquisition at a pop-up ad that won't close.*",
+    "panel1": "[setup]\nTERMINALLY-EARNEST PERSON: \"SpaceX just bought Cursor for sixty billion dollars.\"",
+    "panel2": "[build]\nFRAZZLED PERSON: \"Cursor \u2014 the app developers use to avoid writing code?\"\nTERMINALLY-EARNEST PERSON: \"Twenty times revenue. All-stock.\"",
+    "panel3": "[pivot]\nFRAZZLED PERSON: \"So he paid $60B to own the tool... that writes the code... for the engineers... he already owns?\"",
+    "panel4": "[silent reaction]\n[Visual: Both characters stare into the middle distance. The uncloseable pop-up ad behind them quietly refreshes to display the Cursor homepage. A tiny rocket drifts past the corner of the screen.]",
+    "panel5": "[punch]\nTERMINALLY-EARNEST PERSON: \"The data. He gets every prompt developers ever type.\"\nFRAZZLED PERSON: \"...oh no. He's buying the thoughts.\"",
+    "panel6": "[button]\n[Visual: The pop-up ad finally closes \u2014 revealing another pop-up that just reads: 'ANYSPHERE HAS BEEN ACQUIRED. YOUR AUTOCOMPLETE NOW BELONGS TO MARS.' Neither character moves.]"
+  },
+  "narrative_summary": "The joke escalates from financial absurdity to existential dread: SpaceX didn't buy a coding tool, it bought the unfiltered inner monologue of every developer on Earth \u2014 revealed when the unkillable pop-up ad delivers the news directly.",
+  "rationale": "Candidate 2 earns its score by escalating to a genuinely fresh and unsettling angle \u2014 'he's buying the thoughts' \u2014 that reframes the acquisition as cognitive surveillance rather than a software deal, which is both more surprising and more specific than the training-data observation alone. The button panel ('YOUR AUTOCOMPLETE NOW BELONGS TO MARS') delivers a earned, absurdist closer that doesn't just restate the setup, and the uncloseable pop-up prop does real structural work throughout.",
+  "image_filename": "comic_2026-06-17.png",
+  "story_title": "SpaceX to buy Cursor for $60B",
+  "story_url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+  "place": "at a pop-up ad that won't close",
+  "hat_pair": [
+    "baseball cap with curled brim",
+    "shower cap covered in sticky notes"
+  ],
+  "no_news_mode": false
+}

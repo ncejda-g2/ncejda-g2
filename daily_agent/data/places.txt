@@ -59,3 +59,4 @@ at a county fair where every game is rigged
 at a white-glove robot butler academy on the verge of bankruptcy
 inside a dying chatbot's last conversation before the server shuts down
 in a prompt injection attack, trapped inside an AI's context window
+inside a failing AI startup's demo booth at CES
