@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-18",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "nerdy",
+    "adjective_second": "deflated",
+    "narrative_intro": "*A nerdy person and a deflated person discuss Midjourney Medical at a robot comedian's open mic night.*",
+    "panel1": "[setup]\nNERDY PERSON: \"Midjourney built a full-body scanner with 100,000 sensors.\"\nDEFLATED PERSON: \"Finally, affordable healthcare.\"",
+    "panel2": "[build]\nNERDY PERSON: \"Whole body scan under one minute. Virtually free. Higher quality than MRI.\"\nDEFLATED PERSON: \"I'm booking one right now.\"",
+    "panel3": "[pivot]\nNERDY PERSON: \"The prototype is held together with hardware-store clamps.\"\nDEFLATED PERSON: \"...the machine, or the clinical evidence?\"",
+    "panel4": "[silent reaction]\n[Visual: The deflated person stares into the middle distance, phone frozen mid-booking. The nerdy person slowly places a copy of 'Bad Blood: The Theranos Story' on the mic stand. A single spotlight flickers overhead.]",
+    "panel5": "[punch]\nDEFLATED PERSON: \"Did they say 'spa session?'\"\nNERDY PERSON: \"You can get a scan with your hot stone massage.\"",
+    "panel6": "[button]\n[Visual: A rendered concept video plays on a screen behind them \u2014 a gleaming chrome ring. Below it, in tiny letters: 'Not actual product. Clamps sold separately.']"
+  },
+  "narrative_summary": "A nerdy audience member pitches Midjourney Medical to a deflated skeptic at open mic night, building from genuine excitement to Theranos dread via the detail that the prototype is held together with hardware-store clamps and optionally offered as a spa add-on.",
+  "rationale": "Candidate 3 earns its score by landing the sharpest pivot line in the batch \u2014 'the machine, or the clinical evidence?' \u2014 which reframes the clamp detail as a double-edged joke about both hardware and proof, something none of the others achieve. The 'Clamps sold separately' button is a genuine earned closer rather than a restatement, and the Bad Blood prop in panel 4 adds a specific, visual layer that rewards attentive readers without over-explaining the Theranos reference.",
+  "image_filename": "comic_2026-06-18.png",
+  "story_title": "Midjourney Medical",
+  "story_url": "https://www.midjourney.com/medical/blogpost",
+  "place": "at a robot comedian's open mic night",
+  "hat_pair": [
+    "foam satellite dish worn as a hat with a tiny blinking antenna",
+    "beret tilted dramatically"
+  ],
+  "no_news_mode": false
+}
