@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-06-18",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "panel1_dialog": "Revenue more than tripled to $13 billion in 2025!",
+    "panel2_dialog": "So the losses got smaller too...right?",
+    "panel4_dialog": "...$20.92 billion in losses...right?"
+  },
+  "narrative_summary": "The joke hinges on the gut-punch that tripling revenue somehow coincided with OpenAI nearly tripling its operating losses to $20.92B, turning the good news into a trap.",
+  "rationale": "Candidates 3 and 4 tie on total, but Candidate 3 edges it out because embedding '$20.92 billion in losses' directly into the silent Panel 4 transforms the Anakin-stare beat into a specific gut-punch rather than a generic reversal \u2014 the number does the comedic heavy lifting that Panel 4 is designed to carry. Candidate 4 is nearly identical but 'this year' is slightly vaguer than '2025,' making Candidate 3 the tighter execution.",
+  "image_filename": "comic_2026-06-18.png",
+  "story_title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
+  "story_url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+  "place": "at a pop-up ad that won't close",
+  "hat_pair": [
+    "helmet made entirely of rubber ducks",
+    "knight's plume helmet"
+  ],
+  "no_news_mode": false
+}

@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 158 (2026-06-17)
+# 📰 The AI Newspaper — Day 159 (2026-06-18)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Running local models is good now](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/) | Dev Tooling | Local LLMs now reach ~75% frontier accuracy for agentic coding | 1090 | [1090](https://news.ycombinator.com/item?id=48555993) |
-| 2 | [SpaceX to buy Cursor for $60B](https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/) | Palace Intrigue | Elon's SpaceX acquires AI coding tool Anysphere for $60B | 932 | [932](https://news.ycombinator.com/item?id=48553224) |
-| 3 | [Feds freaked over Fable 5 after 'fix this code', not jailbreak, say researchers](https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827) | Palace Intrigue | US gov Anthropic ban triggered by mundane prompt, not jailbreak | 554 | [554](https://news.ycombinator.com/item?id=48552687) |
-| 4 | [GPT‑NL: a sovereign language model for the Netherlands](https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/) | Model Release | Dutch government backs sovereign open LLM for the Netherlands | 154 | [154](https://news.ycombinator.com/item?id=48559188) |
-| 5 | [OpenAI Losses Increased Nearly 8X in 2025, with Spending Hitting $34B](https://www.wheresyoured.at/exclusive-openai-financials/) | Palace Intrigue | Leaked docs show OpenAI burning $34B/yr ahead of IPO | 140 | [140](https://news.ycombinator.com/item?id=48550465) |
-| 6 | [Qwen-Robot Suite: A Foundation Model Suite for Physical World Intelligence](https://qwen.ai/blog?id=qwen-robotsuite) | Model Release | Alibaba Qwen launches robotics foundation model suite | 133 | [133](https://news.ycombinator.com/item?id=48554814) |
-| 7 | [SubQ 1.1 Small](https://subq.ai/subq-1-1-small-technical-report) | Model Release | SubQ releases compact small model technical report | 113 | [113](https://news.ycombinator.com/item?id=48556163) |
-| 8 | [Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More](https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/) | Dev Tooling | Wolfram 15 ships with built-in AI assistant and new core features | 108 | [108](https://news.ycombinator.com/item?id=48563609) |
-| 9 | [GateGPT: 56k tokens per second Transformer (KV cache) on FPGA at 80 MHz](https://twitter.com/fguzmanai/status/2065832668172845209) | Infrastructure | FPGA runs full Transformer KV-cache at 56k tokens/second | 37 | [37](https://news.ycombinator.com/item?id=48557535) |
-| 10 | [GLM-5.2: Frontier Intelligence, Open Weights](https://twitter.com/Zai_org/status/2066938937344495629) | Model Release | Z.ai releases open-weight GLM-5.2 for long-horizon tasks | 27 | [27](https://news.ycombinator.com/item?id=48562094) |
+| 1 | [Sixty percent of US consumers say 'AI' in brand messaging is a turnoff](https://wpvip.com/future-of-the-web-2026/) | AI Hardware | Consumers increasingly repelled by AI branding in products | 1019 | [1019](https://news.ycombinator.com/item?id=48569278) |
+| 2 | [Only 16 Percent of Americans Think AI Will Have a Positive Impact on Society](https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/) | Palace Intrigue | Pew study: only 16% of Americans see AI as a positive force | 373 | [373](https://news.ycombinator.com/item?id=48573332) |
+| 3 | [AI demands more engineering discipline. Not less](https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline) | Dev Tooling | Essay argues AI raises, not lowers, the bar for engineers | 350 | [350](https://news.ycombinator.com/item?id=48570948) |
+| 4 | [Leaked financial docs show OpenAI is losing billions of dollars a year](https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/) | Palace Intrigue | $20.9B in 2025 losses despite $13B revenue | 344 | [344](https://news.ycombinator.com/item?id=48577208) |
+| 5 | [Midjourney Medical](https://www.midjourney.com/medical/blogpost) | Model Release | Midjourney launches AI medical imaging product line | 236 | [236](https://news.ycombinator.com/item?id=48579650) |
+| 6 | [The founder's playbook: Building an AI-native startup](https://claude.com/blog/the-founders-playbook) | Dev Tooling | Anthropic publishes Claude-focused guide for AI startup founders | 215 | [215](https://news.ycombinator.com/item?id=48566832) |
+| 7 | [A robot is sprinting towards you. Do you want it running on Claude or Grok?](https://openrouter.ai/blog/insights/royale-last-agent-standing/) | Research Paper | OpenRouter benchmark pits frontier models in autonomous robot scenarios | 193 | [193](https://news.ycombinator.com/item?id=48576824) |
+| 8 | [Anthropic employees accuse Trump administration of targeting them](https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html) | Palace Intrigue | Staff say government ban on Fable 5 is political retaliation | 173 | [173](https://news.ycombinator.com/item?id=48571660) |
+| 9 | [Using AI to improve a challenging reaction in medicinal chemistry](https://openai.com/index/ai-chemist-improves-reaction/) | Research Paper | OpenAI GPT-5.4 agent autonomously optimizes drug synthesis step | 51 | [51](https://news.ycombinator.com/item?id=48573757) |
+| 10 | [Noam Shazeer is joining OpenAI](https://www.reuters.com/technology/googles-gemini-co-lead-noam-shazeer-join-openai-2026-06-18/) | Palace Intrigue | Gemini co-lead and attention mechanism co-inventor defects to OpenAI | 31 | [31](https://news.ycombinator.com/item?id=48578957) |
 
 ---
 
@@ -23,19 +23,20 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Predicting model behavior before release by simulating deployment](https://openai.com/index/deployment-simulation) | OpenAI | Research | Jun 16 |
-| 2 | [Agentic coding and persistent returns to expertise](https://www.anthropic.com/research/claude-code-expertise) | Anthropic | Research | Jun 16 |
+| 1 | [New research shows how AMIE, our medical AI, could help manage health conditions](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/) | Google AI | Research | Jun 17 |
+| 2 | [A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry](https://openai.com/index/ai-chemist-improves-reaction) | OpenAI | Research | Jun 17 |
+| 3 | [Introducing LifeSciBench](https://openai.com/index/introducing-life-sci-bench) | OpenAI | Research | Jun 17 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-06-17.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-06-18.png" width="400" alt="Today's comic strip">
 
-_Based on: [SpaceX to buy Cursor for $60B](https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/)_
+_Based on: [Leaked financial docs show OpenAI is losing billions of dollars a year](https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 158 | Last updated: 2026-06-17*
+*Day 159 | Last updated: 2026-06-18*
