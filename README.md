@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 191 (2026-06-21)
+# 📰 The AI Newspaper — Day 192 (2026-06-22)
 
 *AI curated AI news for humans*
 
@@ -6,35 +6,33 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Temporary Cloudflare accounts for AI agents](https://blog.cloudflare.com/temporary-accounts/) | Dev Tooling | Ephemeral Cloudflare Workers let agents deploy without accounts | 206 | [206](https://news.ycombinator.com/item?id=48608394) |
-| 2 | [When I reject AI code even if it works](https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/) | Dev Tooling | Dev argues quality matters more than mere correctness | 170 | [170](https://news.ycombinator.com/item?id=48614631) |
-| 3 | [The 100k Whys of AI](https://lcamtuf.substack.com/p/the-100000-whys-of-ai) | Research Paper | lcamtuf dissects why AI keeps defying expectations | 98 | [98](https://news.ycombinator.com/item?id=48616017) |
-| 4 | [Building reliable agentic AI systems](https://martinfowler.com/articles/reliable-llm-bayer.html) | Dev Tooling | Martin Fowler on trustworthy agentic AI architectures | 91 | [91](https://news.ycombinator.com/item?id=48615680) |
-| 5 | [Tesla allegedly in autopilot mode crashes into Texas house, woman killed](https://abcnews.com/US/tesla-allegedly-autopilot-mode-crashes-texas-house-woman/story?id=134062374) | Palace Intrigue | Autopilot fatal crash renews autonomous vehicle scrutiny | 86 | [86](https://news.ycombinator.com/item?id=48613481) |
-| 6 | [Show HN: We post-trained a model that pen tests instead of refusing](https://www.argusred.com/cli) | Open Source Tool | Model fine-tuned to hack rather than decline requests | 79 | [79](https://news.ycombinator.com/item?id=48609231) |
-| 7 | ['We had to get out of the way': The backlash over delivery robots](https://www.bbc.com/news/articles/c0rygp005wjo) | Palace Intrigue | Pedestrians push back against sidewalk delivery bots | 73 | [73](https://news.ycombinator.com/item?id=48614390) |
-| 8 | [Project Fetch: Phase Two](https://www.anthropic.com/research/project-fetch-phase-two) | Research Paper | Claude Opus 4.7 controls robot dog 20x faster than humans | 57 | [57](https://news.ycombinator.com/item?id=48614311) |
-| 9 | [UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence](https://www.publictechnology.net/2026/06/15/public-order-justice-and-rights/home-office-launches-75m-policeai-to-capitalise-on-artificial-intelligence/) | Infrastructure | UK funds £75M AI program across law enforcement | 38 | [38](https://news.ycombinator.com/item?id=48612806) |
-| 10 | [Trump says he no longer views Anthropic as a threat after G7 meeting](https://thenextweb.com/news/trump-anthropic-not-national-security-threat-axios-interview) | Palace Intrigue | Trump drops national-security concern about Anthropic post-G7 | 22 | [22](https://news.ycombinator.com/item?id=48612877) |
+| 1 | [Identity verification on Claude](https://support.claude.com/en/articles/14328960-identity-verification-on-claude) | Palace Intrigue | Anthropic now requires ID verification for some Claude features | 766 | [766](https://news.ycombinator.com/item?id=48618455) |
+| 2 | [Apertus – Open Foundation Model for Sovereign AI](https://apertvs.ai/) | Open Source Tool | New open foundation model aimed at AI sovereignty | 394 | [394](https://news.ycombinator.com/item?id=48622778) |
+| 3 | [There is minimal downside to switching to open models](https://www.marble.onl/posts/cancel_claude.html) | Research Paper | Analysis argues open models match Claude at far lower cost | 235 | [235](https://news.ycombinator.com/item?id=48622518) |
+| 4 | [GLM 5.2 vs. Opus](https://techstackups.com/comparisons/glm-5.2-vs-opus/) | Model Release | Benchmark face-off between GLM 5.2 and Claude Opus | 145 | [145](https://news.ycombinator.com/item?id=48626866) |
+| 5 | [Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions](https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions) | Dev Tooling | Fine-tuning tiny Qwen 3 model yields solid categorization results | 143 | [143](https://news.ycombinator.com/item?id=48623434) |
+| 6 | [Sakana Fugu](https://sakana.ai/fugu/) | Model Release | Sakana AI drops new Fugu model release | 128 | [128](https://news.ycombinator.com/item?id=48624782) |
+| 7 | [Show HN: Recall – Local project memory for Claude Code](https://github.com/raiyanyahya/recall) | Dev Tooling | Open-source local memory plugin for Claude Code | 115 | [115](https://news.ycombinator.com/item?id=48622590) |
+| 8 | [Codex logging bug may write TBs to local SSDs](https://github.com/openai/codex/issues/28224) | Dev Tooling | OpenAI Codex CLI bug floods SSDs with massive logs | 102 | [102](https://news.ycombinator.com/item?id=48626930) |
+| 9 | [Petition against Meta's employee training data collection for ML models](https://mcipetition.com/) | Palace Intrigue | Workers petition against Meta using their data for ML training | 71 | [71](https://news.ycombinator.com/item?id=48623721) |
+| 10 | [Claude: Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6](https://status.claude.com/incidents/lv35v0q9nsj2) | Infrastructure | Multiple Claude Opus and Sonnet models hit elevated error rates | 33 | [33](https://news.ycombinator.com/item?id=48624153) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-| # | Post | Lab | Category | Date |
-|---|------|-----|----------|------|
-| 1 | [Project Fetch: Phase Two](https://www.anthropic.com/research/project-fetch-phase-two) | Anthropic | Research | Jun 21 |
+*No new lab posts this week.*
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-06-21.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-06-22.png" width="600" alt="Today's comic strip">
 
-_Based on: [Project Fetch: Phase Two](https://www.anthropic.com/research/project-fetch-phase-two)_
+_Based on: [Identity verification on Claude](https://support.claude.com/en/articles/14328960-identity-verification-on-claude)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 191 | Last updated: 2026-06-21*
+*Day 192 | Last updated: 2026-06-22*

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-22",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "sheepish",
+    "adjective_second": "glassy-eyed",
+    "narrative_intro": "*A sheepish person and a glassy-eyed person discuss Anthropic's new government ID requirement for Claude in a live coding interview that has already gone off the rails.*",
+    "panel1": "[setup]\nSHEEPISH PERSON: \"Claude, finish my binary search tree. Interview's in two minutes.\"\nGLASSY-EYED PERSON: \"Bold strategy.\"",
+    "panel2": "[build]\nSHEEPISH PERSON: \"It's asking me to upload a government ID and a selfie.\"\nGLASSY-EYED PERSON: \"To autocomplete a for-loop?\"",
+    "panel3": "[pivot]\nSHEEPISH PERSON: \"'Being responsible with powerful technology starts with knowing who is using it.'\"\nGLASSY-EYED PERSON: \"...The binary search tree was the powerful technology.\"",
+    "panel4": "[silent reaction]\n[Visual: Both characters stare at the screen. The interviewer's disembodied floating head has appeared in the corner of the room, also staring. A half-drawn binary search tree sits on a whiteboard behind them, one node labeled '???'.]",
+    "panel5": "[punch]\nSHEEPISH PERSON: \"My passport expired.\"\nGLASSY-EYED PERSON: \"Persona Identities cannot help you now.\"",
+    "panel6": "[button]\n[Visual: The whiteboard now shows a binary search tree where every node is a tiny passport photo of the sheepish person. The interviewer's head has quietly left the room.]"
+  },
+  "narrative_summary": "A panicked interviewee tries to use Claude to cheat a live coding test, only to be stopped by Anthropic's new biometric ID verification wall, leaving them passport-less, treeless, and jobless.",
+  "rationale": "Candidate 2 earns its score through genuine escalation logic \u2014 the absurdist visual payoff of a binary search tree where every node is a passport photo is a genuinely earned, unexpected image that couldn't exist in any other comic, and the disembodied interviewer head quietly leaving the room is a strong button. Candidate 3 ties on total but its punchline ('Verified Human \u2014 Still Can't Fizzbuzz') is sharper in isolation yet the strip's build is less surprising; Candidate 2's absurdist pivot in panel 3 ('...The binary search tree was the powerful technology') reframes the premise more freshly.",
+  "image_filename": "comic_2026-06-22.png",
+  "story_title": "Identity verification on Claude",
+  "story_url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+  "place": "in a live coding interview that has already gone off the rails",
+  "hat_pair": [
+    "shower cap covered in sticky notes",
+    "oversized propeller beanie"
+  ],
+  "no_news_mode": false
+}

@@ -98,3 +98,4 @@ glassy-eyed
 wild-eyed
 gleeful
 cross-eyed
+blustering
