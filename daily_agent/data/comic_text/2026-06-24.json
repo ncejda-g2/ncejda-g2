@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-06-24",
+  "template_id": "two_buttons",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "button_left": "Mute the channel to focus",
+    "button_right": "Let @Claude ping us at 3am"
+  },
+  "narrative_summary": "The 'Ambient mode' that proactively interrupts your team unprompted creates the dilemma of either silencing your new coworker or accepting unsolicited 3am pings.",
+  "rationale": "Candidate 1 ties on total but wins on punchline: the '3am pings' beat is a concrete, escalated consequence rather than a restated feature, and the two-buttons shape perfectly fits a genuine mute-vs-tolerate dilemma. Candidate 4 is specific but its final panel just stacks features without a real comedic turn.",
+  "image_filename": "comic_2026-06-24.png",
+  "story_title": "Introducing Claude Tag",
+  "story_url": "https://www.anthropic.com/news/introducing-claude-tag",
+  "place": "in a rapidly deflating bouncy castle",
+  "hat_pair": [
+    "swim cap with rubber flowers",
+    "roman centurion helmet"
+  ],
+  "no_news_mode": false
+}
