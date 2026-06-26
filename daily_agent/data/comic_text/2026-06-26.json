@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-26",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "manic",
+    "adjective_second": "sulking",
+    "narrative_intro": "*A manic person and a sulking person discuss the first decoded Herculaneum scroll at an AI-powered drive-through that keeps misunderstanding every order.*",
+    "panel1": "[setup]\nMANIC PERSON: \"AI read a scroll sealed since Vesuvius, 79 AD!\"\nSULKING PERSON: \"Two thousand years. What's it say?\"",
+    "panel2": "[build]\nMANIC PERSON: \"A Stoic treatise: 'we depart from ourselves...'\"\nSPEAKER BOX: \"DID YOU SAY TWO MCFLURRIES FOR ARISTOCREON?\"",
+    "panel3": "[pivot]\nMANIC PERSON: \"No! Chrysippus's nephew, Aristocreon, the philosopher\u2014\"\nSPEAKER BOX: \"ADDING NEPHEW. ANYTHING ELSE, CHRYSIPPUS?\"",
+    "panel4": "[silent reaction]\n[Visual: Both blobs stare flatly at the speaker box. A carbonized receipt slowly extrudes from the slot, curling like a tiny scroll.]",
+    "panel5": "[punch]\nSULKING PERSON: \"It got 22 columns off a charred scroll.\"\nMANIC PERSON: \"And zero columns off my order.\"",
+    "panel6": "[button]\n[Visual: The receipt unfurls, ink barely visible: 'we will not grasp it, if in some way we depart from ourselves... \u2014 no pickles.']"
+  },
+  "narrative_summary": "An AI that flawlessly decoded a 2,000-year-old Stoic scroll cannot understand a drive-through order, mangling the real names and quotes onto a charred receipt.",
+  "rationale": "Candidate 2 weaves the real names (Aristocreon, Chrysippus) and the actual quote into the drive-through mishearing engine itself, so every panel escalates the joke and the final receipt button pays off both the scroll and the order. Candidate 4 ties for total but reuses the quote as a single gag rather than building a structural through-line, making 2 the cleaner, denser execution.",
+  "image_filename": "comic_2026-06-26.png",
+  "story_title": "An entire Herculaneum scroll has been read for the first time",
+  "story_url": "https://scrollprize.org/firstscroll",
+  "place": "at an AI-powered drive-through that keeps misunderstanding every order",
+  "hat_pair": [
+    "beekeeper veil-and-hat combo",
+    "foam hot air balloon basket hat with a tiny balloon floating on top"
+  ],
+  "no_news_mode": false
+}
