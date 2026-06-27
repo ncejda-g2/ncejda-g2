@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 196 (2026-06-26)
+# 📰 The AI Newspaper — Day 197 (2026-06-27)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [An entire Herculaneum scroll has been read for the first time](https://scrollprize.org/firstscroll) | Research Paper | ML decodes first complete ancient Herculaneum scroll | 1266 | [1266](https://news.ycombinator.com/item?id=48675179) |
-| 2 | [Ford AI hiccups push carmaker to rehire 'gray beard' inspectors](https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short) | Palace Intrigue | Ford's AI quality-checks fail; human inspectors rehired | 587 | [587](https://news.ycombinator.com/item?id=48674446) |
-| 3 | [Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion](https://github.com/inkeep/open-knowledge) | Open Source Tool | Open-source AI knowledge base alternative to Obsidian/Notion | 264 | [264](https://news.ycombinator.com/item?id=48675435) |
-| 4 | [Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line](https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true) | AI Hardware | Apple skips M6, launches AI-focused M7 chip lineup | 242 | [242](https://news.ycombinator.com/item?id=48676795) |
-| 5 | [AI children's books, body horror edition](https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition) | Research Paper | AI-generated kids' books produce disturbing body horror | 179 | [179](https://news.ycombinator.com/item?id=48681250) |
-| 6 | [Political bias in AI: Where the AI models stand](https://trakkr.ai/bias) | Research Paper | Benchmark measures political bias across major AI models | 145 | [145](https://news.ycombinator.com/item?id=48672779) |
-| 7 | [Un-0: Generating Images with Coupled Oscillators](https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/) | Model Release | New image model uses coupled oscillators, not diffusion | 145 | [145](https://news.ycombinator.com/item?id=48679007) |
-| 8 | [What happened after 2k people tried to hack my AI assistant](https://www.fernandoi.cl/posts/hackmyclaw/) | Research Paper | 2,000 users attempt to jailbreak a lawyer AI chatbot | 124 | [124](https://news.ycombinator.com/item?id=48681687) |
-| 9 | [Tell HN: OpenAI has started putting ads on paid programs](https://news.ycombinator.com/item?id=48673194) | Palace Intrigue | OpenAI begins inserting ads into paid subscriber tier | 111 | [111](https://news.ycombinator.com/item?id=48673194) |
-| 10 | [US Govt to individually approve who gets GPT 5.6](https://old.reddit.com/r/LocalLLaMA/comments/1ufo0un/us_govt_to_individually_approve_who_gets_gpt_56/) | Palace Intrigue | Trump admin asks OpenAI to stagger GPT-5.6 rollout | 81 | [81](https://news.ycombinator.com/item?id=48683021) |
+| 1 | [U.S. government will decide who gets to use GPT-5.6](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/) | Palace Intrigue | Trump admin vets GPT-5.6 access customer-by-customer | 987 | [987](https://news.ycombinator.com/item?id=48690101) |
+| 2 | [Previewing GPT‑5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol/) | Model Release | OpenAI previews next-generation GPT-5.6 Sol model | 969 | [969](https://news.ycombinator.com/item?id=48689028) |
+| 3 | [U.S. allows Anthropic to release Mythos AI to 'trusted' US organizations](https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies) | Palace Intrigue | Commerce Secretary unlocks Claude Mythos 5 for 100+ US institutions | 395 | [395](https://news.ycombinator.com/item?id=48692995) |
+| 4 | [The gap between open weights LLMs and closed source LLMs](https://blog.doubleword.ai/frontier-os-llm) | Research Paper | Analysis of performance gap between open and closed frontier LLMs | 185 | [185](https://news.ycombinator.com/item?id=48692058) |
+| 5 | [Data centers trigger voter backlash](https://www.newsweek.com/cost-me-the-election-data-centers-trigger-voter-backlash-12118327) | Infrastructure | Voters punish politicians who approved data center buildouts | 183 | [183](https://news.ycombinator.com/item?id=48689275) |
+| 6 | [Show HN: Smart model routing directly in Claude, Codex and Cursor](https://github.com/workweave/router) | Dev Tooling | Automatic AI model routing embedded in coding tools | 165 | [165](https://news.ycombinator.com/item?id=48688700) |
+| 7 | [The AI industry is pouring millions into US elections](https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds) | Palace Intrigue | AI companies flood US elections with hundreds of millions in spending | 115 | [115](https://news.ycombinator.com/item?id=48687483) |
+| 8 | [AI in mathematics is forcing big questions](https://spectrum.ieee.org/ai-in-mathematics) | Research Paper | AI proving theorems raises hard questions about mathematical creativity | 108 | [108](https://news.ycombinator.com/item?id=48692883) |
+| 9 | [The AI backlash is only getting started](https://www.economist.com/leaders/2026/06/25/the-ai-backlash-is-only-getting-started) | Palace Intrigue | The Economist argues global public AI backlash is accelerating | 89 | [89](https://news.ycombinator.com/item?id=48686219) |
+| 10 | [Summary of METR's predeployment evaluation of GPT-5.6 Sol](https://metr.org/blog/2026-06-26-gpt-5-6-sol/) | Research Paper | Safety org evaluates GPT-5.6 Sol before restricted deployment | 7 | [7](https://news.ycombinator.com/item?id=48690710) |
 
 ---
 
@@ -23,18 +23,19 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [How agents are transforming work](https://openai.com/index/how-agents-are-transforming-work) | OpenAI | Research | Jun 25 |
+| 1 | [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol) | OpenAI | Model Release | Jun 26 |
+| 2 | [Economic Research Anthropic Economic Index report: Cadences](https://www.anthropic.com/research/economic-index-june-2026-report) | Anthropic | Research | Jun 26 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-06-26.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-06-27.png" width="600" alt="Today's comic strip">
 
-_Based on: [An entire Herculaneum scroll has been read for the first time](https://scrollprize.org/firstscroll)_
+_Based on: [U.S. allows Anthropic to release Mythos AI to 'trusted' US organizations](https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 196 | Last updated: 2026-06-26*
+*Day 197 | Last updated: 2026-06-27*

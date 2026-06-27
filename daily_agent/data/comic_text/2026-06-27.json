@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-27",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "scheming",
+    "adjective_second": "bewildered",
+    "narrative_intro": "*A scheming person and a bewildered person discuss the Claude Mythos 5 export license underwater.*",
+    "panel1": "[setup]\nSCHEMING PERSON: \"Lutnick personally lifted the export block on Mythos 5.\"\nBEWILDERED PERSON: \"The whole government? For one model?\"",
+    "panel2": "[build]\nSCHEMING PERSON: \"Only 100-plus 'trusted' institutions get in.\"\nBEWILDERED PERSON: \"Trusted by what \u2014 a vibe check?\"",
+    "panel3": "[pivot]\nSCHEMING PERSON: \"The approved list lives in a physical paper annex.\"\nBEWILDERED PERSON: \"Frontier AI gated by a three-ring binder?\"",
+    "panel4": "[silent reaction]\n[Visual: Both float frozen, staring at a laminated 'ANNEX A' clipboard drifting between bubbles. A passing fish reads it.]",
+    "panel5": "[punch]\nSCHEMING PERSON: \"And Claude Fable 5 is still fully blocked.\"\nBEWILDERED PERSON: \"You banned the WEAK one?\"",
+    "panel6": "[button]\n[Visual: A velvet rope strung across a coral reef. Bouncer-blob checks Fable 5 against the clipboard.]\nBOUNCER: \"Mythos, you're in. Fable, not tonight.\""
+  },
+  "narrative_summary": "Two underwater blobs marvel that the US government became the bouncer for a frontier-AI nightclub \u2014 admitting the powerful Mythos 5 via a paper annex while the weaker Fable 5 stays banned.",
+  "rationale": "Candidate 4 escalates the absurdity through each panel (a vibe check, a three-ring binder, banning the WEAK one) instead of just restating the bouncer premise, and its final bouncer line lands as an earned button rather than a recap.",
+  "image_filename": "comic_2026-06-27.png",
+  "story_title": "U.S. allows Anthropic to release Mythos AI to 'trusted' US organizations",
+  "story_url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+  "place": "underwater",
+  "hat_pair": [
+    "helmet made entirely of rubber ducks",
+    "dunce cap with the word SMART scrawled on it in marker"
+  ],
+  "no_news_mode": false
+}
