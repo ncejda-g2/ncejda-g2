@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 197 (2026-06-27)
+# 📰 The AI Newspaper — Day 198 (2026-06-28)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [U.S. government will decide who gets to use GPT-5.6](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/) | Palace Intrigue | Trump admin vets GPT-5.6 access customer-by-customer | 987 | [987](https://news.ycombinator.com/item?id=48690101) |
-| 2 | [Previewing GPT‑5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol/) | Model Release | OpenAI previews next-generation GPT-5.6 Sol model | 969 | [969](https://news.ycombinator.com/item?id=48689028) |
-| 3 | [U.S. allows Anthropic to release Mythos AI to 'trusted' US organizations](https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies) | Palace Intrigue | Commerce Secretary unlocks Claude Mythos 5 for 100+ US institutions | 395 | [395](https://news.ycombinator.com/item?id=48692995) |
-| 4 | [The gap between open weights LLMs and closed source LLMs](https://blog.doubleword.ai/frontier-os-llm) | Research Paper | Analysis of performance gap between open and closed frontier LLMs | 185 | [185](https://news.ycombinator.com/item?id=48692058) |
-| 5 | [Data centers trigger voter backlash](https://www.newsweek.com/cost-me-the-election-data-centers-trigger-voter-backlash-12118327) | Infrastructure | Voters punish politicians who approved data center buildouts | 183 | [183](https://news.ycombinator.com/item?id=48689275) |
-| 6 | [Show HN: Smart model routing directly in Claude, Codex and Cursor](https://github.com/workweave/router) | Dev Tooling | Automatic AI model routing embedded in coding tools | 165 | [165](https://news.ycombinator.com/item?id=48688700) |
-| 7 | [The AI industry is pouring millions into US elections](https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds) | Palace Intrigue | AI companies flood US elections with hundreds of millions in spending | 115 | [115](https://news.ycombinator.com/item?id=48687483) |
-| 8 | [AI in mathematics is forcing big questions](https://spectrum.ieee.org/ai-in-mathematics) | Research Paper | AI proving theorems raises hard questions about mathematical creativity | 108 | [108](https://news.ycombinator.com/item?id=48692883) |
-| 9 | [The AI backlash is only getting started](https://www.economist.com/leaders/2026/06/25/the-ai-backlash-is-only-getting-started) | Palace Intrigue | The Economist argues global public AI backlash is accelerating | 89 | [89](https://news.ycombinator.com/item?id=48686219) |
-| 10 | [Summary of METR's predeployment evaluation of GPT-5.6 Sol](https://metr.org/blog/2026-06-26-gpt-5-6-sol/) | Research Paper | Safety org evaluates GPT-5.6 Sol before restricted deployment | 7 | [7](https://news.ycombinator.com/item?id=48690710) |
+| 1 | [DSpark: Speculative decoding accelerates LLM inference [pdf]](https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf) | Research Paper | DeepSeek paper: speculative decoding speeds LLM inference | 756 | [756](https://news.ycombinator.com/item?id=48696585) |
+| 2 | [Asian AI startups launch Mythos-like models](https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/) | Model Release | Asian labs race to fill US export-ban AI vacuum | 219 | [219](https://news.ycombinator.com/item?id=48697958) |
+| 3 | [The best response to AI slop and online noise is from Robin Williams](https://jayacunzo.com/blog/your-move-chief) | Palace Intrigue | Creativity as the antidote to AI-generated slop | 196 | [196](https://news.ycombinator.com/item?id=48703452) |
+| 4 | [Ford hired AI and sacked humans. It backfired badly](https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html) | Palace Intrigue | Ford's AI automation drive ends in costly reversal | 169 | [169](https://news.ycombinator.com/item?id=48703968) |
+| 5 | [Post-Mythos Cybersecurity: Keep calm and carry on](https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/) | Palace Intrigue | Cybersecurity landscape analyzed in post-Mythos AI era | 145 | [145](https://news.ycombinator.com/item?id=48698559) |
+| 6 | [AMD Strix Halo RDMA Cluster Setup Guide](https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md) | AI Hardware | Guide for RDMA-linked AMD Strix Halo cluster running vLLM | 122 | [122](https://news.ycombinator.com/item?id=48703258) |
+| 7 | [Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work](https://github.com/kageroumado/adrafinil) | Dev Tooling | Mac utility keeps AI agents running with lid closed | 108 | [108](https://news.ycombinator.com/item?id=48701512) |
+| 8 | [Wayfinder Router: deterministic routing of queries between local and hosted LLM](https://github.com/itsthelore/wayfinder-router) | Open Source Tool | Routes queries between local and hosted LLMs deterministically | 53 | [53](https://news.ycombinator.com/item?id=48704373) |
+| 9 | [Anthropic says Alibaba used 25k accounts to mine Claude](https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/) | Palace Intrigue | Alibaba secretly ran 25k accounts to extract Claude's capabilities | 37 | [37](https://news.ycombinator.com/item?id=48699483) |
+| 10 | [Powerful Anthropic model, Fable 5, on track to return soon](https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon) | Model Release | Anthropic's flagship Fable 5 model approaching re-release | 4 | [4](https://news.ycombinator.com/item?id=48703825) |
 
 ---
 
@@ -23,19 +23,18 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol) | OpenAI | Model Release | Jun 26 |
-| 2 | [Economic Research Anthropic Economic Index report: Cadences](https://www.anthropic.com/research/economic-index-june-2026-report) | Anthropic | Research | Jun 26 |
+| 1 | [How we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude) | Anthropic | Engineering | Jun 28 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-06-27.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-06-28.png" width="400" alt="Today's comic strip">
 
-_Based on: [U.S. allows Anthropic to release Mythos AI to 'trusted' US organizations](https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies)_
+_Based on: [Asian AI startups launch Mythos-like models](https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 197 | Last updated: 2026-06-27*
+*Day 198 | Last updated: 2026-06-28*
