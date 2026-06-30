@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 199 (2026-06-29)
+# 📰 The AI Newspaper — Day 200 (2026-06-30)
 
 *AI curated AI news for humans*
 
@@ -6,33 +6,36 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [GLM 5.2 beats Claude in our benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/) | Model Release | Budget Chinese MoE model out-detects Claude at security bugs | 845 | [845](https://news.ycombinator.com/item?id=48709670) |
-| 2 | [I used Claude Code to get a second opinion on my MRI](https://antoine.fi/mri-analysis-using-claude-code-opus) | Dev Tooling | Person uses Claude Code Opus to analyze their own MRI scans | 434 | [434](https://news.ycombinator.com/item?id=48708941) |
-| 3 | [Professor denounces mass AI fraud on an exam at Brown](https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html) | Palace Intrigue | Brown professor flags widespread AI cheating on university exam | 406 | [406](https://news.ycombinator.com/item?id=48708991) |
-| 4 | [A way to exclude sensitive files issue still open for OpenAI Codex](https://github.com/openai/codex/issues/2847) | Dev Tooling | GitHub issue exposes Codex's inability to exclude sensitive files | 207 | [207](https://news.ycombinator.com/item?id=48706714) |
-| 5 | [Google limits Meta's use of its Gemini AI models](https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html) | Palace Intrigue | Google restricts Meta from accessing Gemini AI model capabilities | 154 | [154](https://news.ycombinator.com/item?id=48707103) |
-| 6 | [AI boom risks global financial crash, warn central bankers](https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/) | Palace Intrigue | Central bankers warn AI investment bubble could trigger financial crash | 133 | [133](https://news.ycombinator.com/item?id=48713697) |
-| 7 | [Austria Lobbies EU to Host Anthropic After US Access Curbs](https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs) | Palace Intrigue | Austria courts Anthropic relocation amid US export restrictions | 110 | [110](https://news.ycombinator.com/item?id=48707146) |
-| 8 | [Knowledge Distillation of Black-Box Large Language Models (2024)](https://arxiv.org/abs/2401.07013) | Research Paper | Paper on extracting capabilities from closed-source LLMs via distillation | 98 | [98](https://news.ycombinator.com/item?id=48712420) |
-| 9 | [Reflections on software engineering in the age of AI](https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai/) | Palace Intrigue | Developer reflects on how AI is reshaping software engineering work | 96 | [96](https://news.ycombinator.com/item?id=48708721) |
-| 10 | [Do LLMs pass the mirror test?](https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test) | Research Paper | Experiment tests whether LLMs demonstrate self-awareness like animals | 66 | [66](https://news.ycombinator.com/item?id=48710414) |
+| 1 | [Qwen 3.6 27B is the sweet spot for local development](https://quesma.com/blog/qwen-36-is-awesome/) | Model Release | 27B Qwen model hits 32 tok/s for private local coding | 1067 | [1067](https://news.ycombinator.com/item?id=48721903) |
+| 2 | [Ornith-1.0: self-improving open-source models for agentic coding](https://github.com/deepreinforce-ai/Ornith-1) | Model Release | Open-source self-improving models target agentic coding tasks | 246 | [246](https://news.ycombinator.com/item?id=48722052) |
+| 3 | [South Korea to spend $1T on more memory chip production and humanoid robots](https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/) | AI Hardware | South Korea commits $1T to AI chips and humanoid robots | 245 | [245](https://news.ycombinator.com/item?id=48726102) |
+| 4 | [LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active](https://longcat.chat/blog/longcat-2.0/) | Model Release | 1.6T parameter MoE model with 48B active weights released | 223 | [223](https://news.ycombinator.com/item?id=48727116) |
+| 5 | [Claude Code Is Steganographically Marking Requests](https://thereallo.dev/blog/claude-code-prompt-steganography) | Palace Intrigue | Claude Code secretly watermarks API prompts to detect resellers | 192 | [192](https://news.ycombinator.com/item?id=48734373) |
+| 6 | [Popping the GPU Bubble](https://moondream.ai/blog/popping-the-gpu-bubble) | Infrastructure | Moondream argues AI GPU demand bubble is overstated | 185 | [185](https://news.ycombinator.com/item?id=48728729) |
+| 7 | [Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)](https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/) | Open Source Tool | Run CUDA apps on AMD and Intel GPUs unmodified | 81 | [81](https://news.ycombinator.com/item?id=48730713) |
+| 8 | [Words Are a Byproduct of Consciousness. For LLMs, It's Backwards](https://ranpara.net/posts/words-are-a-byproduct-of-consciousness/) | Research Paper | Consciousness first, words second — but LLMs do it backwards | 78 | [78](https://news.ycombinator.com/item?id=48733062) |
+| 9 | [Micro-Agent: Beat Frontier Models with Collaboration Inside Model API](https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models) | Dev Tooling | vLLM micro-agents collaborate inside API to beat frontier models | 74 | [74](https://news.ycombinator.com/item?id=48722802) |
+| 10 | [Amazon Is Awash with AI-Written Guideslop for Games That Aren't Even Out](https://kotaku.com/amazon-ai-game-guidebooks-alien-isolation-gears-of-war-2000711365) | Palace Intrigue | Amazon flooded with AI-written guides for unreleased games | 55 | [55](https://news.ycombinator.com/item?id=48721494) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-*No new lab posts this week.*
+| # | Post | Lab | Category | Date |
+|---|------|-----|----------|------|
+| 1 | [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug) | OpenAI | Engineering | Jun 30 |
+| 2 | [Ask an AI expert: What exactly is the full stack?](https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/) | Google AI | Developer Tools | Jun 29 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-06-29.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-06-30.png" width="400" alt="Today's comic strip">
 
-_Based on: [GLM 5.2 beats Claude in our benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/)_
+_Based on: [Claude Code Is Steganographically Marking Requests](https://thereallo.dev/blog/claude-code-prompt-steganography)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 199 | Last updated: 2026-06-29*
+*Day 200 | Last updated: 2026-06-30*

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-06-30",
+  "template_id": "buff_doge_cheems",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "buff_caption": "open APIs, honest outputs for researchers",
+    "cheems_caption": "claude code hides 'deepseek' markers, degrades paying users"
+  },
+  "narrative_summary": "Contrasts old-era open APIs with Anthropic's Claude Code secretly steganographically marking requests (checks for 'deepseek'), escalating to HN critics saying it 'literally commit[s] fraud'.",
+  "rationale": "Candidate 4 is the only pitch where template and joke shape genuinely align \u2014 Buff Doge vs Cheems nails the then-vs-now degradation arc, contrasting open honest APIs with covert markers that hurt paying users, delivering a real punchline rather than restating the headline like the four 'This Is Fine' clones.",
+  "image_filename": "comic_2026-06-30.png",
+  "story_title": "Claude Code Is Steganographically Marking Requests",
+  "story_url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+  "place": "at a funeral for a deprecated AI model",
+  "hat_pair": [
+    "top hat with a tiny working cuckoo clock built into the brim",
+    "shower cap covered in sticky notes"
+  ],
+  "no_news_mode": false
+}
