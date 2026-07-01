@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 200 (2026-06-30)
+# 📰 The AI Newspaper — Day 201 (2026-07-01)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Qwen 3.6 27B is the sweet spot for local development](https://quesma.com/blog/qwen-36-is-awesome/) | Model Release | 27B Qwen model hits 32 tok/s for private local coding | 1067 | [1067](https://news.ycombinator.com/item?id=48721903) |
-| 2 | [Ornith-1.0: self-improving open-source models for agentic coding](https://github.com/deepreinforce-ai/Ornith-1) | Model Release | Open-source self-improving models target agentic coding tasks | 246 | [246](https://news.ycombinator.com/item?id=48722052) |
-| 3 | [South Korea to spend $1T on more memory chip production and humanoid robots](https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/) | AI Hardware | South Korea commits $1T to AI chips and humanoid robots | 245 | [245](https://news.ycombinator.com/item?id=48726102) |
-| 4 | [LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active](https://longcat.chat/blog/longcat-2.0/) | Model Release | 1.6T parameter MoE model with 48B active weights released | 223 | [223](https://news.ycombinator.com/item?id=48727116) |
-| 5 | [Claude Code Is Steganographically Marking Requests](https://thereallo.dev/blog/claude-code-prompt-steganography) | Palace Intrigue | Claude Code secretly watermarks API prompts to detect resellers | 192 | [192](https://news.ycombinator.com/item?id=48734373) |
-| 6 | [Popping the GPU Bubble](https://moondream.ai/blog/popping-the-gpu-bubble) | Infrastructure | Moondream argues AI GPU demand bubble is overstated | 185 | [185](https://news.ycombinator.com/item?id=48728729) |
-| 7 | [Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)](https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/) | Open Source Tool | Run CUDA apps on AMD and Intel GPUs unmodified | 81 | [81](https://news.ycombinator.com/item?id=48730713) |
-| 8 | [Words Are a Byproduct of Consciousness. For LLMs, It's Backwards](https://ranpara.net/posts/words-are-a-byproduct-of-consciousness/) | Research Paper | Consciousness first, words second — but LLMs do it backwards | 78 | [78](https://news.ycombinator.com/item?id=48733062) |
-| 9 | [Micro-Agent: Beat Frontier Models with Collaboration Inside Model API](https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models) | Dev Tooling | vLLM micro-agents collaborate inside API to beat frontier models | 74 | [74](https://news.ycombinator.com/item?id=48722802) |
-| 10 | [Amazon Is Awash with AI-Written Guideslop for Games That Aren't Even Out](https://kotaku.com/amazon-ai-game-guidebooks-alien-isolation-gears-of-war-2000711365) | Palace Intrigue | Amazon flooded with AI-written guides for unreleased games | 55 | [55](https://news.ycombinator.com/item?id=48721494) |
+| 1 | [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) | Model Release | Anthropic's most agentic Sonnet, now default for free users | 1106 | [1106](https://news.ycombinator.com/item?id=48736605) |
+| 2 | [Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5](https://twitter.com/AnthropicAI/status/2072106151890809341) | Palace Intrigue | US removes export ban on Anthropic's most powerful models | 657 | [657](https://news.ycombinator.com/item?id=48740771) |
+| 3 | [Claude Science](https://claude.com/product/claude-science) | Model Release | Anthropic launches AI workbench for scientific research | 478 | [478](https://news.ycombinator.com/item?id=48735770) |
+| 4 | [Nano Banana 2 Lite](https://deepmind.google/models/gemini-image/flash-lite/) | Model Release | Google releases new Gemini Flash Lite image model | 370 | [370](https://news.ycombinator.com/item?id=48735444) |
+| 5 | [Tell HN: Installing Cursor on iOS irreversibly changes your privacy settings](https://news.ycombinator.com/item?id=48737226) | Dev Tooling | Cursor iOS install silently locks device privacy settings | 226 | [226](https://news.ycombinator.com/item?id=48737226) |
+| 6 | [Leanstral 1.5](https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06) | Model Release | Mistral releases new efficient Leanstral 1.5 model | 210 | [210](https://news.ycombinator.com/item?id=48738938) |
+| 7 | [From brain waves to words: a new path to communication without surgery](https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1) | Research Paper | Meta AI decodes speech from non-invasive brain scans | 155 | [155](https://news.ycombinator.com/item?id=48739466) |
+| 8 | [TabFM: A zero-shot foundation model for tabular data](https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/) | Research Paper | Google's zero-shot foundation model tackles tabular datasets | 76 | [76](https://news.ycombinator.com/item?id=48739919) |
+| 9 | [Godot will no longer accept AI-authored code contributions](https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/) | Palace Intrigue | Godot bans AI-written code from open-source contributions | 51 | [51](https://news.ycombinator.com/item?id=48743472) |
+| 10 | [Claude Desktop is now available on Linux (in beta)](https://code.claude.com/docs/en/desktop-linux) | Dev Tooling | Claude Desktop beta arrives on Linux after Mac and Windows | 47 | [47](https://news.ycombinator.com/item?id=48734754) |
 
 ---
 
@@ -23,19 +23,21 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug) | OpenAI | Engineering | Jun 30 |
-| 2 | [Ask an AI expert: What exactly is the full stack?](https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/) | Google AI | Developer Tools | Jun 29 |
+| 1 | [Introducing Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) | Anthropic | Model Release | Jun 30 |
+| 2 | [Claude Science, an AI workbench for scientists, is now available](https://www.anthropic.com/news/claude-science-ai-workbench) | Anthropic | News | Jun 30 |
+| 3 | [Redeploying Fable 5](https://www.anthropic.com/news/redeploying-fable-5) | Anthropic | News | Jun 30 |
+| 4 | [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro) | OpenAI | Research | Jun 30 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-06-30.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-01.png" width="400" alt="Today's comic strip">
 
-_Based on: [Claude Code Is Steganographically Marking Requests](https://thereallo.dev/blog/claude-code-prompt-steganography)_
+_Based on: [Introducing Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 200 | Last updated: 2026-06-30*
+*Day 201 | Last updated: 2026-07-01*
