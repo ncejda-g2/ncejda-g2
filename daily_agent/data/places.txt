@@ -99,3 +99,4 @@ at a food court where every stall is run by a different AI startup
 in a server closet that has been declared a sovereign nation
 at a midnight product launch for software nobody asked for
 inside a smart mirror that keeps giving unsolicited life advice
+inside a 404 error page on a site that no longer exists

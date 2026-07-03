@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-07-03",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "panel1_caption": "asking your AI nicely not to help with malware",
+    "panel2_caption": "adding a system prompt that says 'please behave'",
+    "panel3_caption": "publishing a 0-to-10 Cyber Jailbreak Severity scoring rubric",
+    "panel4_caption": "bureaucratically certifying the apocalypse via cyber-safeguards@anthropic.com"
+  },
+  "narrative_summary": "The joke escalates from naive AI safety measures to Anthropic's CJS framework, landing on the absurdity of formally scoring the end of civilization through an official email inbox.",
+  "rationale": "Candidate 5 ties Candidate 3 on total but wins on surprise \u2014 'bureaucratically certifying the apocalypse' is a genuinely fresh reframe that elevates the punchline beyond mere process-mockery, while the escalation from 'please behave' system prompt to civilizational sign-off email lands harder than Candidate 3's more literal recitation of real details.",
+  "image_filename": "comic_2026-07-03.png",
+  "story_title": "More details on Fable 5's cyber safeguards and our jailbreak framework",
+  "story_url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+  "place": "in a live coding interview that has already gone off the rails",
+  "hat_pair": [
+    "novelty fake arrow-through-the-head headband",
+    "foam keyboard worn flat as a hat with giant letter keys spelling HELP"
+  ],
+  "no_news_mode": false
+}
