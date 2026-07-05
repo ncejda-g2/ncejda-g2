@@ -101,3 +101,4 @@ at a midnight product launch for software nobody asked for
 inside a smart mirror that keeps giving unsolicited life advice
 inside a 404 error page on a site that no longer exists
 in a server room cordoned off with crime scene tape after an AI incident
+inside a training dataset being cleaned for biases

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-07-05",
+  "template_id": "this_is_fine",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "caption": "enterprise zero data retention quietly asking about minecraft bricks"
+  },
+  "narrative_summary": "The 'This Is Fine' dog calmly sits as the joke lands on Anthropic's ZDR isolation being so broken that a paying enterprise customer got asked mid-session about Minecraft temple bricks \u2014 the specific leaked quote makes the catastrophe vivid while the template's serene denial does the heavy lifting.",
+  "rationale": "Candidate 5 earns its score by leaning into the specific leaked quote ('minecraft bricks') as the vivid detail that makes the catastrophe concrete, while 'quietly asking' does real comic work \u2014 the adverb reframes the leak as polite, almost apologetic, which is a fresher angle than just naming the feature. The template's serene denial and the caption's understatement are genuinely in sync rather than just restating the premise.",
+  "image_filename": "comic_2026-07-05.png",
+  "story_title": "Potential session/cache leakage between workspace instances or consumer accounts",
+  "story_url": "https://github.com/anthropics/claude-code/issues/74066",
+  "place": "inside a multiplayer video game lobby where nobody can agree on the map",
+  "hat_pair": [
+    "foam rocket ship worn as a pointy hat with tiny exhaust flames at the base",
+    "foam dartboard hat with a plastic dart stuck in the bullseye"
+  ],
+  "no_news_mode": false
+}
