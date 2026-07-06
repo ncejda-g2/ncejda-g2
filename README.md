@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 205 (2026-07-05)
+# 📰 The AI Newspaper — Day 206 (2026-07-06)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Potential session/cache leakage between workspace instances or consumer accounts](https://github.com/anthropics/claude-code/issues/74066) | Palace Intrigue | Claude Code leaks Minecraft prompts into enterprise ZDR workspace | 291 | [291](https://news.ycombinator.com/item?id=48785485) |
-| 2 | [GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance](https://github.com/openai/codex/issues/30364) | Palace Intrigue | OpenAI's Codex model clusters reasoning tokens, hurting output quality | 249 | [249](https://news.ycombinator.com/item?id=48789428) |
-| 3 | [Better Models: Worse Tools](https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/) | Dev Tooling | Smarter LLMs are making the surrounding tooling ecosystem worse | 155 | [155](https://news.ycombinator.com/item?id=48788599) |
-| 4 | [Fable created novel 4D splat format](https://adamraudonis.github.io/splats4D/) | Research Paper | Fable AI introduces 4D Gaussian splat rendering format | 147 | [147](https://news.ycombinator.com/item?id=48786245) |
-| 5 | [AI has torched the market for junior programmers](https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers/) | Palace Intrigue | AI coding tools have effectively collapsed entry-level dev hiring | 89 | [89](https://news.ycombinator.com/item?id=48788361) |
-| 6 | [Australian influencer Lily Jay's tangled web of AI manipulation](https://www.abc.net.au/news/2026-07-05/lily-jay-foundation-posts-ai-generated-misleading-videos/106866422) | Palace Intrigue | Influencer used AI-generated videos to spread misleading content | 43 | [43](https://news.ycombinator.com/item?id=48789416) |
-| 7 | [My AI-built PHP engine in Rust passes 17% of PHP-src tests, renders WordPress](https://ekinertac.com/blog/i-dont-know-rust-my-ai-is-rewriting-php-in-it/) | Dev Tooling | Developer uses AI to write PHP interpreter in Rust without knowing Rust | 32 | [32](https://news.ycombinator.com/item?id=48789325) |
-| 8 | [The Log Is the Agent](https://arxiv.org/abs/2605.21997) | Research Paper | Paper proposes using structured logs as the core AI agent substrate | 31 | [31](https://news.ycombinator.com/item?id=48790912) |
-| 9 | [Mouse: Precision Editing Tools for AI Coding Agents](https://hic-ai.com) | Dev Tooling | New tools give AI coding agents finer-grained code editing control | 25 | [25](https://news.ycombinator.com/item?id=48791380) |
-| 10 | [sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/) | Dev Tooling | Simon Willison releases sqlite-utils 4.0 built almost entirely by Claude Fable | 19 | [19](https://news.ycombinator.com/item?id=48791708) |
+| 1 | [GPT-5.6 Sol Ultra will be in Codex](https://twitter.com/thsottiaux/status/2073933490513752151) | Model Release | OpenAI's GPT-5.6 Sol Ultra mode arriving in Codex | 273 | [273](https://news.ycombinator.com/item?id=48799614) |
+| 2 | [New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course](https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf) | Research Paper | AI tutor beats human tutors by 0.71–1.30 standard deviations | 161 | [161](https://news.ycombinator.com/item?id=48796817) |
+| 3 | [Canada's AI strategy shouldn't include secret Palantir bills](https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt) | Palace Intrigue | Op-ed blasts Canada's opaque Palantir AI spending | 152 | [152](https://news.ycombinator.com/item?id=48799256) |
+| 4 | [Mark Zuckerberg tells staff that AI agents haven't progressed enough](https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/) | Palace Intrigue | Zuckerberg disappointed with Meta AI agents' pace internally | 133 | [133](https://news.ycombinator.com/item?id=48795826) |
+| 5 | [Does code cleanliness affect coding agents? A controlled minimal-pair study](https://arxiv.org/abs/2605.20049) | Research Paper | Messy code measurably degrades AI coding agent performance | 115 | [115](https://news.ycombinator.com/item?id=48798815) |
+| 6 | [A sociotechnical threat model for AI-driven smart home devices](https://arxiv.org/abs/2602.09239) | Research Paper | AI smart home devices pose overlooked societal risks | 82 | [82](https://news.ycombinator.com/item?id=48795830) |
+| 7 | [When AI Costs More Than the Engineer](https://tomtunguz.com/ai-spend-breakeven-2029/) | Palace Intrigue | AI spend breakeven vs. human engineers predicted for 2029 | 64 | [64](https://news.ycombinator.com/item?id=48801493) |
+| 8 | [New Microsoft 365 pricing live, some products up by 42% due to AI](https://www.windowslatest.com/2026/07/05/microsoft-365-just-got-a-price-hike-over-continuous-innovation-but-copilot-is-the-ai-tax-on-businesses/) | Infrastructure | Microsoft raises M365 prices up to 42%, blames AI investment | 42 | [42](https://news.ycombinator.com/item?id=48798330) |
+| 9 | [Ford rehires human engineers after AI fails to match quality checks](https://www.bbc.com/news/articles/cgrkd41n2v9o) | Palace Intrigue | Ford walks back AI automation after quality control failures | 30 | [30](https://news.ycombinator.com/item?id=48793020) |
+| 10 | [Tripadvisor AI summaries give glowing reviews to dangerous hotels](https://www.euronews.com/travel/2026/07/03/tripadvisor-ai-summaries-give-glowing-reviews-to-dangerous-hotels-consumer-watchdog-finds) | Palace Intrigue | Tripadvisor's AI hallucinated praise for unsafe properties | 30 | [30](https://news.ycombinator.com/item?id=48797529) |
 
 ---
 
@@ -27,12 +27,12 @@
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-05.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-06.png" width="400" alt="Today's comic strip">
 
-_Based on: [Potential session/cache leakage between workspace instances or consumer accounts](https://github.com/anthropics/claude-code/issues/74066)_
+_Based on: [GPT-5.6 Sol Ultra will be in Codex](https://twitter.com/thsottiaux/status/2073933490513752151)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 205 | Last updated: 2026-07-05*
+*Day 206 | Last updated: 2026-07-06*
