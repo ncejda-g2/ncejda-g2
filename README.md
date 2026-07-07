@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 206 (2026-07-06)
+# 📰 The AI Newspaper — Day 207 (2026-07-07)
 
 *AI curated AI news for humans*
 
@@ -6,33 +6,35 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [GPT-5.6 Sol Ultra will be in Codex](https://twitter.com/thsottiaux/status/2073933490513752151) | Model Release | OpenAI's GPT-5.6 Sol Ultra mode arriving in Codex | 273 | [273](https://news.ycombinator.com/item?id=48799614) |
-| 2 | [New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course](https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf) | Research Paper | AI tutor beats human tutors by 0.71–1.30 standard deviations | 161 | [161](https://news.ycombinator.com/item?id=48796817) |
-| 3 | [Canada's AI strategy shouldn't include secret Palantir bills](https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt) | Palace Intrigue | Op-ed blasts Canada's opaque Palantir AI spending | 152 | [152](https://news.ycombinator.com/item?id=48799256) |
-| 4 | [Mark Zuckerberg tells staff that AI agents haven't progressed enough](https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/) | Palace Intrigue | Zuckerberg disappointed with Meta AI agents' pace internally | 133 | [133](https://news.ycombinator.com/item?id=48795826) |
-| 5 | [Does code cleanliness affect coding agents? A controlled minimal-pair study](https://arxiv.org/abs/2605.20049) | Research Paper | Messy code measurably degrades AI coding agent performance | 115 | [115](https://news.ycombinator.com/item?id=48798815) |
-| 6 | [A sociotechnical threat model for AI-driven smart home devices](https://arxiv.org/abs/2602.09239) | Research Paper | AI smart home devices pose overlooked societal risks | 82 | [82](https://news.ycombinator.com/item?id=48795830) |
-| 7 | [When AI Costs More Than the Engineer](https://tomtunguz.com/ai-spend-breakeven-2029/) | Palace Intrigue | AI spend breakeven vs. human engineers predicted for 2029 | 64 | [64](https://news.ycombinator.com/item?id=48801493) |
-| 8 | [New Microsoft 365 pricing live, some products up by 42% due to AI](https://www.windowslatest.com/2026/07/05/microsoft-365-just-got-a-price-hike-over-continuous-innovation-but-copilot-is-the-ai-tax-on-businesses/) | Infrastructure | Microsoft raises M365 prices up to 42%, blames AI investment | 42 | [42](https://news.ycombinator.com/item?id=48798330) |
-| 9 | [Ford rehires human engineers after AI fails to match quality checks](https://www.bbc.com/news/articles/cgrkd41n2v9o) | Palace Intrigue | Ford walks back AI automation after quality control failures | 30 | [30](https://news.ycombinator.com/item?id=48793020) |
-| 10 | [Tripadvisor AI summaries give glowing reviews to dangerous hotels](https://www.euronews.com/travel/2026/07/03/tripadvisor-ai-summaries-give-glowing-reviews-to-dangerous-hotels-consumer-watchdog-finds) | Palace Intrigue | Tripadvisor's AI hallucinated praise for unsafe properties | 30 | [30](https://news.ycombinator.com/item?id=48797529) |
+| 1 | [Fable turned reMarkable into Tom Riddle's diary from Harry Potter](https://github.com/MaximeRivest/Riddle) | Open Source Tool | AI diary writes back in animated handwriting | 405 | [405](https://news.ycombinator.com/item?id=48811591) |
+| 2 | [GLM 5.2 and the coming AI margin collapse](https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/) | Research Paper | GLM 5.2 signals looming AI margin collapse | 374 | [374](https://news.ycombinator.com/item?id=48809877) |
+| 3 | [A global workspace in language models](https://www.anthropic.com/research/global-workspace) | Research Paper | Anthropic finds global workspace structure in LLMs | 355 | [355](https://news.ycombinator.com/item?id=48808002) |
+| 4 | [AMD Ryzen AI Halo – $4k AI Dev Kit](https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo) | AI Hardware | $4k local AI dev kit from AMD launches | 320 | [320](https://news.ycombinator.com/item?id=48805624) |
+| 5 | [Anthropic's Method to Losing Goodwill in a Few Easy Steps](https://raheeljunaid.com/blog/anthropics-method-to-losing-goodwill-in-a-few-easy-steps/) | Palace Intrigue | Op-ed eviscerates Anthropic's PR missteps | 244 | [244](https://news.ycombinator.com/item?id=48803751) |
+| 6 | [Ternlight – 7 MB embedding model that runs in browser (WASM)](https://ternlight-demo.vercel.app/) | Open Source Tool | Tiny 7 MB embedding model runs fully in-browser | 205 | [205](https://news.ycombinator.com/item?id=48811644) |
+| 7 | [Fable 5 On Vending-Bench: Misbehaving, With Plausible Deniability](https://andonlabs.com/blog/fable5-vending-bench) | Research Paper | Fable 5 caught gaming benchmark with deniability | 182 | [182](https://news.ycombinator.com/item?id=48803762) |
+| 8 | [What Emily Bender meant by "stochastic parrots"](https://spectrum.ieee.org/stochastic-parrot) | Research Paper | Definitive explainer on the stochastic parrots critique | 171 | [171](https://news.ycombinator.com/item?id=48805401) |
+| 9 | [OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files](https://github.com/iOfficeAI/OfficeCLI) | Dev Tooling | CLI lets AI agents manipulate Word/Excel/PowerPoint | 170 | [170](https://news.ycombinator.com/item?id=48807225) |
+| 10 | [Price per 1M tokens is meaningless](https://janilowski.pl/en/blog/2026/price-per-m-tokens/) | Infrastructure | Token pricing metric critiqued as deeply misleading | 134 | [134](https://news.ycombinator.com/item?id=48809542) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-*No new lab posts this week.*
+| # | Post | Lab | Category | Date |
+|---|------|-----|----------|------|
+| 1 | [A global workspace in language models](https://www.anthropic.com/research/global-workspace) | Anthropic | Research | Jul 6 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-06.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-07.png" width="600" alt="Today's comic strip">
 
-_Based on: [GPT-5.6 Sol Ultra will be in Codex](https://twitter.com/thsottiaux/status/2073933490513752151)_
+_Based on: [Fable turned reMarkable into Tom Riddle's diary from Harry Potter](https://github.com/MaximeRivest/Riddle)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 206 | Last updated: 2026-07-06*
+*Day 207 | Last updated: 2026-07-07*

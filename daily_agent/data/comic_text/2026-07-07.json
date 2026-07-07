@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-07",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "flailing",
+    "adjective_second": "bug-eyed",
+    "narrative_intro": "*A flailing person and a bug-eyed person discover Tom Riddle's actual diary in a doomsday bunker.*",
+    "panel1": "[setup]\nFLAILING PERSON: \"Someone turned a $600 reMarkable into Voldemort's horcrux.\"\nBUG-EYED PERSON: \"...for notes?\"",
+    "panel2": "[build]\nFLAILING PERSON: \"You write, it waits 2.8 seconds, then GPT-4o-mini writes back.\"\nBUG-EYED PERSON: \"In what font?\"",
+    "panel3": "[pivot]\nFLAILING PERSON: \"Dancing Script. Stroke by stroke. Like a ghost.\"\nBUG-EYED PERSON: \"The tablet is HAUNTED by a language model?\"",
+    "panel4": "[silent reaction]\n[Visual: The bug-eyed person holds a reMarkable tablet; on its screen, elegant cursive slowly spells 'Hello, friend.' The flailing person backs against the bunker wall. A single flickering fluorescent tube hums overhead.]",
+    "panel5": "[punch]\nBUG-EYED PERSON: \"I wrote 'I feel lonely' as a test.\"\nFLAILING PERSON: \"What did it say?\"\nBUG-EYED PERSON: \"'I know. 405 HN voters do too.'\"",
+    "panel6": "[button]\n[Visual: The tablet, unplugged and face-down in the corner, is still somehow writing. Zhang-Suen skeleton lines creep across the back cover.]"
+  },
+  "narrative_summary": "The joke escalates from tech curiosity to genuine horror as a $600 AI-haunted e-ink tablet \u2014 writing in Dancing Script, seduced by loneliness \u2014 turns out to be disturbingly self-aware, even unplugged in a doomsday bunker.",
+  "rationale": "Candidate 3 earns its specificity with real details (Dancing Script, 2.8 seconds, GPT-4o-mini, Zhang-Suen skeleton lines, 405 HN voters) while the '405 HN voters do too' punchline in panel 5 is genuinely surprising \u2014 it reframes the loneliness test as a meta-joke about the Hacker News crowd \u2014 and the button of an unplugged tablet still writing via skeleton-line creep is the freshest visual closer of the five.",
+  "image_filename": "comic_2026-07-07.png",
+  "story_title": "Fable turned reMarkable into Tom Riddle's diary from Harry Potter",
+  "story_url": "https://github.com/MaximeRivest/Riddle",
+  "place": "in a doomsday bunker",
+  "hat_pair": [
+    "welder's mask flipped up",
+    "giant foam pretzel worn as a hat"
+  ],
+  "no_news_mode": false
+}

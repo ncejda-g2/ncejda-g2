@@ -109,3 +109,4 @@ dumbstruck
 recoiling
 groveling
 rattled
+loopy
