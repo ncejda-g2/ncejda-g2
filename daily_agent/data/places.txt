@@ -105,3 +105,4 @@ inside a training dataset being cleaned for biases
 on a first date where one party is secretly a chatbot
 inside a neural network mid-hallucination
 at an all-hands meeting where the CEO is a deepfake
+inside a live Twitch stream that's gone horribly wrong
