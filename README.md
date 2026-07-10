@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 209 (2026-07-09)
+# 📰 The AI Newspaper — Day 210 (2026-07-10)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [GPT‑Live](https://openai.com/index/introducing-gpt-live/) | Model Release | OpenAI launches real-time voice model powering ChatGPT | 693 | [693](https://news.ycombinator.com/item?id=48834405) |
-| 2 | [Grok 4.5](https://x.ai/news/grok-4-5) | Model Release | xAI releases Grok 4.5 to widespread HN debate | 612 | [612](https://news.ycombinator.com/item?id=48835111) |
-| 3 | [Mistral's Robostral Navigate: a state of the art robotics navigation model](https://mistral.ai/news/robostral-navigate/) | Model Release | Mistral drops new foundation model for robot navigation | 463 | [463](https://news.ycombinator.com/item?id=48832212) |
-| 4 | [Show HN: Microsoft releases Flint, a visualization language for AI agents](https://microsoft.github.io/flint-chart/#/) | Dev Tooling | Microsoft's charting DSL built specifically for AI agents | 273 | [273](https://news.ycombinator.com/item?id=48834924) |
-| 5 | [SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence](https://cognition.com/blog/swe-1-7) | Research Paper | Cognition's SWE-1.7 closes gap on GPT-5.5 and Opus | 262 | [262](https://news.ycombinator.com/item?id=48833866) |
-| 6 | [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations/) | Research Paper | OpenAI audit exposes reliability flaws in SWE-Bench Pro | 211 | [211](https://news.ycombinator.com/item?id=48837396) |
-| 7 | [The classifiers Anthropic puts in front of Fable are too zealous](https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html) | Palace Intrigue | Fable blocks basic science tasks but recommends ice cream | 203 | [203](https://news.ycombinator.com/item?id=48837162) |
-| 8 | [We made Grok 4.5, GPT-5.5, and Claude build the same apps](https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off) | Research Paper | Independent app build-off pits three top models head-to-head | 149 | [149](https://news.ycombinator.com/item?id=48838772) |
-| 9 | [Suspecting AI cheating, Ivy League prof ordered in-person final; scores fell 50%](https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/) | Palace Intrigue | Brown prof bans AI on final; class average halves overnight | 106 | [106](https://news.ycombinator.com/item?id=48838611) |
-| 10 | [Benchmarking coding agents on Databricks' multi-million line codebase](https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase) | Research Paper | Real-world coding agent evals on a massive production codebase | 77 | [77](https://news.ycombinator.com/item?id=48837696) |
+| 1 | [GPT-5.6](https://openai.com/index/gpt-5-6/) | Model Release | OpenAI launches GPT-5.6 in three tiers: Sol, Terra, Luna | 1230 | [1230](https://news.ycombinator.com/item?id=48849066) |
+| 2 | [Hy3](https://hy.tencent.com/research/hy3) | Model Release | Tencent's 295B MoE model rivals trillion-scale SOTA | 459 | [459](https://news.ycombinator.com/item?id=48847552) |
+| 3 | [Muse Spark 1.1](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) | Model Release | Meta releases Muse Spark 1.1 AI model via public API | 371 | [371](https://news.ycombinator.com/item?id=48846184) |
+| 4 | [ChatGPT Work](https://openai.com/index/chatgpt-for-your-most-ambitious-work/) | Model Release | OpenAI launches agentic ChatGPT for long-horizon work | 335 | [335](https://news.ycombinator.com/item?id=48849059) |
+| 5 | [AI content is everywhere on social media, especially LinkedIn](https://www.pangram.com/blog/ai-in-your-feed) | Research Paper | Study: AI-generated content now dominates LinkedIn feeds | 214 | [214](https://news.ycombinator.com/item?id=48847940) |
+| 6 | [GLM 5.2 is nearly as accurate as a human book keeper](https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark) | Model Release | Chinese GLM 5.2 matches human accuracy on VAT accounting | 201 | [201](https://news.ycombinator.com/item?id=48850414) |
+| 7 | [OpenAI faked inability to search training data, hid billions of logs, NYT says](https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/) | Palace Intrigue | NYT: OpenAI hid 78M logs and secret Project Giraffe tool | 58 | [58](https://news.ycombinator.com/item?id=48850831) |
+| 8 | [DeepSeek aims to make its own AI chip](https://www.proactiveinvestors.com/companies/news/1095178/deepseek-makes-pivot-that-should-put-silicon-valley-on-high-alert-1095178.html) | AI Hardware | DeepSeek pivots to building its own AI chips | 55 | [55](https://news.ycombinator.com/item?id=48846708) |
+| 9 | [How version control will evolve for the agent boom](https://entire.io/blog/how-version-control-will-evolve-for-the-agent-boom) | Dev Tooling | Version control must evolve for the AI agent era | 49 | [49](https://news.ycombinator.com/item?id=48844709) |
+| 10 | [Ways to think about token pricing](https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing) | Research Paper | Benedict Evans analyzes AI token economics and pricing models | 40 | [40](https://news.ycombinator.com/item?id=48847181) |
 
 ---
 
@@ -23,20 +23,22 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Introducing GPT-Live](https://openai.com/index/introducing-gpt-live/) | OpenAI | Model Release | Jul 08 |
-| 2 | [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations/) | OpenAI | Research | Jul 08 |
-| 3 | [Alignment: An off switch for dual use knowledge in AI models](https://www.anthropic.com/research/off-switch-dual-use) | Anthropic | Research | Jul 08 |
+| 1 | [GPT-5.6: Frontier intelligence that scales with your ambition](https://openai.com/index/gpt-5-6) | OpenAI | Model Release | Jul 09 |
+| 2 | [GPT-5.6 is now the preferred model in Microsoft 365 Copilot](https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot) | OpenAI | Developer Tools | Jul 09 |
+| 3 | [ChatGPT is now a partner for your most ambitious work](https://openai.com/index/chatgpt-for-your-most-ambitious-work) | OpenAI | Developer Tools | Jul 09 |
+| 4 | [GPT-5.5 Bio Bug Bounty](https://openai.com/index/bio-bug-bounty) | OpenAI | Research | Jul 09 |
+| 5 | [Introducing a way to reflect on how you use Claude](https://www.anthropic.com/news/reflect-with-claude) | Anthropic | Developer Tools | Jul 09 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-09.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-10.png" width="400" alt="Today's comic strip">
 
-_Based on: [The classifiers Anthropic puts in front of Fable are too zealous](https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html)_
+_Based on: [GPT-5.6](https://openai.com/index/gpt-5-6/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 209 | Last updated: 2026-07-09*
+*Day 210 | Last updated: 2026-07-10*
