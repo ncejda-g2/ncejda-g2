@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 210 (2026-07-10)
+# 📰 The AI Newspaper — Day 211 (2026-07-11)
 
 *AI curated AI news for humans*
 
@@ -6,39 +6,33 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [GPT-5.6](https://openai.com/index/gpt-5-6/) | Model Release | OpenAI launches GPT-5.6 in three tiers: Sol, Terra, Luna | 1230 | [1230](https://news.ycombinator.com/item?id=48849066) |
-| 2 | [Hy3](https://hy.tencent.com/research/hy3) | Model Release | Tencent's 295B MoE model rivals trillion-scale SOTA | 459 | [459](https://news.ycombinator.com/item?id=48847552) |
-| 3 | [Muse Spark 1.1](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) | Model Release | Meta releases Muse Spark 1.1 AI model via public API | 371 | [371](https://news.ycombinator.com/item?id=48846184) |
-| 4 | [ChatGPT Work](https://openai.com/index/chatgpt-for-your-most-ambitious-work/) | Model Release | OpenAI launches agentic ChatGPT for long-horizon work | 335 | [335](https://news.ycombinator.com/item?id=48849059) |
-| 5 | [AI content is everywhere on social media, especially LinkedIn](https://www.pangram.com/blog/ai-in-your-feed) | Research Paper | Study: AI-generated content now dominates LinkedIn feeds | 214 | [214](https://news.ycombinator.com/item?id=48847940) |
-| 6 | [GLM 5.2 is nearly as accurate as a human book keeper](https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark) | Model Release | Chinese GLM 5.2 matches human accuracy on VAT accounting | 201 | [201](https://news.ycombinator.com/item?id=48850414) |
-| 7 | [OpenAI faked inability to search training data, hid billions of logs, NYT says](https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/) | Palace Intrigue | NYT: OpenAI hid 78M logs and secret Project Giraffe tool | 58 | [58](https://news.ycombinator.com/item?id=48850831) |
-| 8 | [DeepSeek aims to make its own AI chip](https://www.proactiveinvestors.com/companies/news/1095178/deepseek-makes-pivot-that-should-put-silicon-valley-on-high-alert-1095178.html) | AI Hardware | DeepSeek pivots to building its own AI chips | 55 | [55](https://news.ycombinator.com/item?id=48846708) |
-| 9 | [How version control will evolve for the agent boom](https://entire.io/blog/how-version-control-will-evolve-for-the-agent-boom) | Dev Tooling | Version control must evolve for the AI agent era | 49 | [49](https://news.ycombinator.com/item?id=48844709) |
-| 10 | [Ways to think about token pricing](https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing) | Research Paper | Benedict Evans analyzes AI token economics and pricing models | 40 | [40](https://news.ycombinator.com/item?id=48847181) |
+| 1 | [Apple sues OpenAI, accuses ex-employees of stealing trade secrets](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) | Palace Intrigue | Apple sues OpenAI for ex-employee trade secret theft | 908 | [908](https://news.ycombinator.com/item?id=48865019) |
+| 2 | [GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf) | Research Paper | GPT-5.6 Sol Ultra proves famous unsolved math conjecture | 424 | [424](https://news.ycombinator.com/item?id=48863490) |
+| 3 | [AI-generated videos to maximally drive a target brain region](https://nevo-project.epfl.ch/) | Research Paper | AI-generated videos engineered to target specific brain regions | 273 | [273](https://news.ycombinator.com/item?id=48856904) |
+| 4 | [How the terrorist group Boko Haram uses frontier AI](https://casp.ac/reports/ai-enabled-terrorism) | Research Paper | Boko Haram exploiting frontier AI for battlefield advantage | 202 | [202](https://news.ycombinator.com/item?id=48863707) |
+| 5 | [GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps](https://www.tryai.dev/blog/gpt-5.6-build-off-12-models) | Model Release | GPT-5.6, Grok 4.5, Claude race in a 4-app build-off | 141 | [141](https://news.ycombinator.com/item?id=48865093) |
+| 6 | [Please don't discontinue Gemini 2.5 Flash](https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246) | Palace Intrigue | Community pleads with Google to keep Gemini 2.5 Flash alive | 120 | [120](https://news.ycombinator.com/item?id=48864507) |
+| 7 | [Unified Memory, Explained: Why Mini PCs Can Run 70B Models a Big GPU Can't](https://vettedconsumer.com/unified-memory-explained-why-mini-pcs-can-run-70b-models-a-big-gpu-cant-and-where-they-slow-down/) | Infrastructure | Why mini PCs outrun big GPUs when running 70B models | 71 | [71](https://news.ycombinator.com/item?id=48858171) |
+| 8 | [The Annotated JEPA](https://elonlit.com/scrivings/the-annotated-jepa/) | Research Paper | Annotated deep-dive into LeCun's JEPA architecture | 58 | [58](https://news.ycombinator.com/item?id=48859835) |
+| 9 | [Hands-On with the AMD Ryzen AI Halo](https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx) | AI Hardware | Hands-on review of AMD's new AI chip platform | 43 | [43](https://news.ycombinator.com/item?id=48861833) |
+| 10 | [Meta pulls new AI image feature after days of backlash](https://www.bbc.com/news/articles/c2dy6e8klw0o) | Palace Intrigue | Meta yanks controversial AI image feature after user backlash | 42 | [42](https://news.ycombinator.com/item?id=48867233) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-| # | Post | Lab | Category | Date |
-|---|------|-----|----------|------|
-| 1 | [GPT-5.6: Frontier intelligence that scales with your ambition](https://openai.com/index/gpt-5-6) | OpenAI | Model Release | Jul 09 |
-| 2 | [GPT-5.6 is now the preferred model in Microsoft 365 Copilot](https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot) | OpenAI | Developer Tools | Jul 09 |
-| 3 | [ChatGPT is now a partner for your most ambitious work](https://openai.com/index/chatgpt-for-your-most-ambitious-work) | OpenAI | Developer Tools | Jul 09 |
-| 4 | [GPT-5.5 Bio Bug Bounty](https://openai.com/index/bio-bug-bounty) | OpenAI | Research | Jul 09 |
-| 5 | [Introducing a way to reflect on how you use Claude](https://www.anthropic.com/news/reflect-with-claude) | Anthropic | Developer Tools | Jul 09 |
+*No new lab posts this week.*
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-10.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-11.png" width="400" alt="Today's comic strip">
 
-_Based on: [GPT-5.6](https://openai.com/index/gpt-5-6/)_
+_Based on: [Apple sues OpenAI, accuses ex-employees of stealing trade secrets](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
-*Day 210 | Last updated: 2026-07-10*
+*Day 211 | Last updated: 2026-07-11*

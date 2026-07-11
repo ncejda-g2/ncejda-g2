@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-07-11",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_caption": "emailing yourself files before you quit",
+    "panel2_caption": "exploiting a post-departure security bug to grab schematics",
+    "panel3_caption": "texting 'LOL so funny' about it immediately after",
+    "panel4_caption": "asking job candidates to bring 'actual parts' to your interview as show-and-tell"
+  },
+  "narrative_summary": "The joke escalates through the increasingly brazen alleged trade-secret theft methods in the Apple v. OpenAI lawsuit, landing on Tang Tan's reported 'bring actual hardware to your interview' gambit as the galaxy-brain absurdist peak.",
+  "rationale": "Candidate 4 is the only entry that actually earns its format \u2014 the Expanding Brain template demands escalation, and the four-panel structure delivers it perfectly, moving from mundane (emailing yourself files) to brazen (exploiting a security bug) to self-incriminating (the 'LOL so funny' text) to galaxy-brained absurdist peak (asking interview candidates to bring stolen hardware as show-and-tell). The other four candidates are functionally identical single-beat jokes that use the Disaster Girl template as a caption frame rather than exploiting any visual or structural comedy \u2014 the 'LOL so funny' quote is funny once, but it's not a punchline, it's just a restatement of the setup.",
+  "image_filename": "comic_2026-07-11.png",
+  "story_title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+  "story_url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+  "place": "in a parking garage during an alien invasion",
+  "hat_pair": [
+    "foam shark-fin hat",
+    "foam speech bubble hat with the word 'typing...' displayed on it"
+  ],
+  "no_news_mode": false
+}
