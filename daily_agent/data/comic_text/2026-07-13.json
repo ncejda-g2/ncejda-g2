@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-13",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "deflated",
+    "adjective_second": "high-strung",
+    "narrative_intro": "*A deflated person and a high-strung person discuss Claude Code's token bloat at a tech keynote where the demo robot has gone rogue.*",
+    "panel1": "[setup]\nHIGH-STRUNG PERSON: \"Claude Code is answering our prompt!\"\nDEFLATED PERSON: \"It sent 32,800 tokens first. Just warming up.\"",
+    "panel2": "[build]\nHIGH-STRUNG PERSON: \"Warming up for what?!\"\nDEFLATED PERSON: \"Twenty-seven tool schemas. Three reminder blocks. You know.\"",
+    "panel3": "[pivot]\nHIGH-STRUNG PERSON: \"The prompt was one word: 'OK'!\"\nDEFLATED PERSON: \"It wrote 53,000 cache tokens. Also billed at premium.\"",
+    "panel4": "[silent reaction]\n[Visual: The demo robot behind them has frozen mid-rampage, holding a tiny invoice. Both characters stare at the robot. The invoice reads '90,000 tokens' in large numerals. A single spotlight flickers overhead.]",
+    "panel5": "[punch]\nHIGH-STRUNG PERSON: \"Did it at least score better than OpenCode?\"\nDEFLATED PERSON: \"Identical benchmarks. Every single one.\"",
+    "panel6": "[button]\n[Visual: The rogue demo robot quietly hands them a second invoice labeled 'Cache Write Surcharge.' It has also written 'OK' on a tiny chalkboard. The chalkboard cost $47.]\n"
+  },
+  "narrative_summary": "Claude Code burns 32,800 tokens of scaffolding and 53,000 premium cache tokens just to reply 'OK,' matching OpenCode on every benchmark \u2014 so the punchline is the invoice the rogue demo robot hands them for the privilege.",
+  "rationale": "Candidate 2 edges out Candidate 5 on surprise and punchline construction: the double-invoice button (first the 90k-token bill, then a separate 'Cache Write Surcharge' with the '$47 chalkboard' gag) escalates rather than merely restating, and the specificity of 53,000 premium cache tokens adds a layer of absurdity that Candidate 5's cleaner robot-says-OK closer doesn't quite match in comedic density.",
+  "image_filename": "comic_2026-07-13.png",
+  "story_title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+  "story_url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+  "place": "at a tech keynote where the demo robot has gone rogue",
+  "hat_pair": [
+    "foam thought bubble hat with a tiny glowing question mark floating inside it",
+    "knight's plume helmet"
+  ],
+  "no_news_mode": false
+}
