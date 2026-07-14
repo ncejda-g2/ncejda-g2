@@ -42,6 +42,7 @@ LITELLM_BASE_URL=https://llmproxy.g2.com
 LITELLM_API_KEY=<your G2 LiteLLM proxy key>
 ANTHROPIC_BASE_URL=https://llmproxy.g2.com/anthropic
 ANTHROPIC_API_KEY=<your G2 LiteLLM proxy key — same value as LITELLM_API_KEY>
+GITHUB_TOKEN=<optional GitHub token for higher public API rate limits>
 ```
 
 Both keys hold the same value. `ANTHROPIC_API_KEY` and `ANTHROPIC_BASE_URL`
@@ -49,6 +50,11 @@ are read by the Claude Code CLI subprocess (it only knows those names);
 `LITELLM_API_KEY` and `LITELLM_BASE_URL` are read by `custom_tools.py`
 for image generation. All API traffic — Anthropic chat and OpenAI image
 generation — routes through the G2 LiteLLM proxy.
+
+`GITHUB_TOKEN` is optional for local runs because public repository metadata is
+available without authentication, but setting it avoids GitHub's low anonymous
+API rate limit when the agent must inspect many Trending candidates. GitHub
+Actions supplies its built-in token automatically.
 
 For CI (GitHub Actions), the values are stored in repo settings:
 - `LITELLM_API_KEY` → Secrets and variables → Actions → Repository secrets
@@ -77,12 +83,13 @@ Or use the wrapper script:
 When you run it, you'll see the agent:
 
 1. **Read README** - Check current day count
-2. **Generate Characters** - Create 1-3 random characters using Python's random module (true randomness!)
-3. **Fetch XKCD** - Get max comic number via tool, pick random comic with Python, fetch comic details including alt text
-4. **Write 3-Panel Story** - Claude writes a funny 3-panel story (setup, development, punchline) combining characters and XKCD
-5. **Generate Comic Strip** - Call OpenAI's gpt-image-1 model to create a single 3-panel comic strip image
-6. **Update README** - Write new README.md with XKCD link, alt text, and comic strip (width-constrained at 800px)
-7. **Commit & Push** - Automatically commit and push all changes including images to GitHub
+2. **Fetch News Sources** - Fetch recent Hacker News stories and official AI lab posts
+3. **Track GitHub Trending** - Scrape daily, weekly, and monthly Trending, preserve observed streaks, and select broad AI-related repositories
+4. **Research Community Reaction** - Search Hacker News for substantive independent reactions to selected repositories
+5. **Generate Characters and Scene** - Choose random characters and a setting, then generate and critique candidate comic scenes
+6. **Generate Comic Strip** - Render the winning scene with the configured image model
+7. **Update README** - Write the news, lab, Trending, and comic sections
+8. **Commit & Push** - GitHub Actions commits the README, state snapshots, and generated image
 
 ## 5. Set Up Cron Job (macOS)
 
@@ -144,6 +151,8 @@ tail -f /Users/ncejda/github/ncejda-g2/daily_agent/cron.log
 This agent uses the Claude Agent SDK, which means:
 
 - **Claude is the orchestrator** - It decides how to use tools to accomplish tasks
+- **Python owns Trending order and state** - GitHub rank, seven-day cooldowns, and observed streaks are deterministic
+- **Repository text is capability-limited** - README excerpts are bounded and classified by a no-tools model call
 - **Custom tools** defined in `custom_tools.py`:
   - `get_max_xkcd_number` - Get latest XKCD number
   - `fetch_xkcd_comic` - Fetch specific XKCD comic
