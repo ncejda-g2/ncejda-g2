@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-07-14",
+  "template_id": "same_picture",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "paper_left": "AI proves Zig is inferior to Rust for production code",
+    "paper_right": "Claude wrote 4 memory bugs per week and no one reviewed them"
+  },
+  "narrative_summary": "Anthropic's spin that Bun's Zig-to-Rust migration proves AI sufficiency is the same picture as 'unchecked AI slop accumulated so many bugs the team had to flee the language.'",
+  "rationale": "Candidate 3 is the only one that earns its punchline structurally \u2014 the 'same picture' template is a perfect fit because the joke IS about two framings of identical facts, and the contrast between Anthropic's marketing spin and the raw bug-rate reality lands as a genuine reveal rather than a restatement. Every other candidate just slaps the 'this is fine' meme on the story without the template doing any comedic work.",
+  "image_filename": "comic_2026-07-14.png",
+  "story_title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+  "story_url": "https://raymyers.org/post/zig-creator-calls-spade-a-spade",
+  "place": "on a space elevator stuck between floors",
+  "hat_pair": [
+    "bucket hat with a tiny aquarium built into the brim",
+    "full-face motorcycle helmet with googly eyes stuck on"
+  ],
+  "no_news_mode": false
+}
