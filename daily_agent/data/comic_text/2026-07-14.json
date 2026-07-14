@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-14",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "theatrical",
+    "adjective_second": "apoplectic",
+    "narrative_intro": "*A theatrical person and an apoplectic person discuss the Bun/Zig-to-Rust rewrite in a submarine running out of oxygen.*",
+    "panel1": "[setup]\nTHEATRICAL PERSON: \"50 Claude agents rewrote 500K lines in 11 days!\"\nAPOPLECTIC PERSON: \"That's... actually fast.\"",
+    "panel2": "[build]\nTHEATRICAL PERSON: \"One million lines of Rust! Thirteen hundred lines per minute!\"\nAPOPLECTIC PERSON: \"Okay, I'm almost impressed.\"",
+    "panel3": "[pivot]\nAPOPLECTIC PERSON: \"Did anyone review the million lines?\"\nTHEATRICAL PERSON: \"The test suite passed!\"",
+    "panel4": "[silent reaction]\n[Visual: The apoplectic person's eye twitches violently. The theatrical person holds up a tiny trophy labeled '$165K.' A red warning light marked 'O\u2082 CRITICAL' blinks overhead. Both stare at a printout simply labeled 'unsafe' covering the entire wall.]",
+    "panel5": "[punch]\nAPOPLECTIC PERSON: \"Andrew Kelley called it 'unreviewed slop!'\"\nTHEATRICAL PERSON: \"The slop PASSED, though.\"",
+    "panel6": "[button]\nTHEATRICAL PERSON: \"Anthropic raised $132 billion.\"\n[Visual: The submarine's hull is visibly patched with printed Rust code. The oxygen gauge reads 'unsafe.']"
+  },
+  "narrative_summary": "The joke escalates from genuine amazement at the speed stat to dawning horror that 'the tests passed' is the only quality assurance for a million lines of unreviewed AI slop, landing on the irony that even the submarine holding them is held together by unsafe Rust.",
+  "rationale": "Candidate 4 earns its ending: the submarine hull patched with Rust code and the oxygen gauge reading 'unsafe' is a genuine visual punchline that pays off the setup rather than just restating it, and the escalation structure \u2014 from 'actually fast' to dawning horror \u2014 gives the template its best possible shape. The '$165K trophy' detail and 'the slop PASSED, though' line are specific and land with the right deadpan timing.",
+  "image_filename": "comic_2026-07-14.png",
+  "story_title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+  "story_url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+  "place": "in a submarine running out of oxygen",
+  "hat_pair": [
+    "foam diploma scroll worn as a top hat with a tiny tassel dangling off",
+    "welder's mask flipped up"
+  ],
+  "no_news_mode": false
+}

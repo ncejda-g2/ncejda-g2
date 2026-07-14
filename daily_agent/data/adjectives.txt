@@ -115,3 +115,4 @@ awestruck
 preening
 cocky
 doe-eyed
+tipsy
