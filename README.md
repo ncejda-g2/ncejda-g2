@@ -27,18 +27,6 @@
 
 ---
 
-## 🔥 Trending AI Repositories
-
-### New and Noteworthy
-
-| Project | Description | Stars | Recent stars | Source | Independent take |
-|---|---|---:|---:|---|---|
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Open-source AI agents, RAG applications, and reusable agent skills across major LLM providers. | 120,523 | +1,104 today | Daily #2 | [HN praised it as a useful, well-curated LLM resource.](https://news.ycombinator.com/item?id=42510073) |
-| [skills](https://github.com/mattpocock/skills) | Reusable skills for improving AI coding agents across engineering, testing, documentation, and debugging workflows. | 169,808 | +1,559 today | Daily #3 | N/A |
-| [destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | A safety hook that blocks destructive shell and git commands issued by AI coding agents. | 4,227 | +481 today | Daily #4 | N/A |
-
----
-
 ## The Comic Strip
 
 <img src="daily_agent/generated_images/comic_2026-07-14.png" width="600" alt="Today's comic strip">
@@ -47,6 +35,6 @@ _Based on: [Zig Creator Calls Spade a Spade, Anthropic Blows Smoke](https://raym
 
 ---
 
-*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
+*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
 
 *Day 214 | Last updated: 2026-07-14*
