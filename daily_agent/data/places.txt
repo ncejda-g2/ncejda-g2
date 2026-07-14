@@ -62,3 +62,4 @@ in a prompt injection attack, trapped inside an AI's context window
 inside a failing AI startup's demo booth at CES
 at a live AI conference where the keynote demo just achieved sentience
 at a robot therapy session that is going badly
+at a data center being seized by eminent domain while the servers are still running

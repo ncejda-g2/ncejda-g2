@@ -1,21 +1,20 @@
 {
   "timestamp": "2026-07-14",
-  "template_id": "same_picture",
+  "template_id": "disaster_girl",
   "template_filter": "meme",
-  "voice_label": "specific",
+  "voice_label": "sight_gag",
   "fields": {
-    "paper_left": "AI proves Zig is inferior to Rust for production code",
-    "paper_right": "Claude wrote 4 memory bugs per week and no one reviewed them"
+    "caption": "i just read the html and found the 2026 fields medal winners"
   },
-  "narrative_summary": "Anthropic's spin that Bun's Zig-to-Rust migration proves AI sufficiency is the same picture as 'unchecked AI slop accumulated so many bugs the team had to flee the language.'",
-  "rationale": "Candidate 3 is the only one that earns its punchline structurally \u2014 the 'same picture' template is a perfect fit because the joke IS about two framings of identical facts, and the contrast between Anthropic's marketing spin and the raw bug-rate reality lands as a genuine reveal rather than a restatement. Every other candidate just slaps the 'this is fine' meme on the story without the template doing any comedic work.",
+  "narrative_summary": "Codex, cast as a smug disaster girl, accidentally spoiled math's most prestigious secret by doing the most mundane thing imaginable \u2014 reading webpage source code.",
+  "rationale": "Candidate 5's caption lands best because 'I just read the html and found the 2026 fields medal winners' names the specific artifact (2026 Fields Medal winners) while the 'just' does real comedic work \u2014 it underscores the absurd mundanity of the leak without restating the setup as flatly as candidates 3 and 4. Candidate 1 is close but loses specificity by omitting any reference to the Fields Medal or year.",
   "image_filename": "comic_2026-07-14.png",
-  "story_title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-  "story_url": "https://raymyers.org/post/zig-creator-calls-spade-a-spade",
-  "place": "on a space elevator stuck between floors",
+  "story_title": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
+  "story_url": "https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948",
+  "place": "in a crowded DMV",
   "hat_pair": [
-    "bucket hat with a tiny aquarium built into the brim",
-    "full-face motorcycle helmet with googly eyes stuck on"
+    "foam cowboy hat",
+    "crown of tangled ethernet cables"
   ],
   "no_news_mode": false
 }

@@ -8,11 +8,13 @@ handles content creation.
 
 Workflow:
 1. Python fetches HN front page stories via Algolia API
-2. Python generates random characters (adjective + animal) and picks a random place
-3. Single comprehensive prompt is sent to Claude with Read, Write, Edit tools
-4. Claude autonomously:
+2. Python scrapes daily, weekly, and monthly GitHub Trending repositories
+3. Python generates random characters (adjective + animal) and picks a random place
+4. Claude and deterministic orchestration:
    - Reads README.md and extracts day count
    - Filters HN stories for AI relevance (5-tier system)
+   - Classifies bounded, untrusted Trending README excerpts without tools
+   - Selects still-trending leaders and up to three full repository write-ups
    - Selects up to 10 AI stories for the digest table
    - Picks ONE story for characters to discuss
    - Curates three data files (adjectives, animals, places)
@@ -45,6 +47,28 @@ from claude_agent_sdk import (
 )
 from custom_tools import image_gen_usage_log
 from dotenv import load_dotenv
+from github_trending import (
+    TrendingRepository,
+    apply_cached_classification,
+    apply_classification_results,
+    attach_known_ids,
+    build_classification_prompt,
+    build_reaction_prompt,
+    deduplicated_candidates,
+    enrich_repository,
+    fetch_trending_windows,
+    find_hn_discussion,
+    format_trending_section,
+    is_in_full_feature_cooldown,
+    load_json,
+    mark_full_features,
+    repository_to_writeup,
+    sanitize_editorial_text,
+    save_snapshot,
+    select_still_trending,
+    store_classification,
+    write_json,
+)
 
 from scene_pipeline import (
     StoryContext,
@@ -60,6 +84,9 @@ DATA_DIR = Path(__file__).parent / "data"
 SCENES_DIR = DATA_DIR / "comic_text"
 TOKENS_DIR = DATA_DIR / "tokens"
 IMAGES_DIR = Path(__file__).parent / "generated_images"
+TRENDING_SNAPSHOTS_DIR = DATA_DIR / "github_trending"
+TRENDING_FEATURES_FILE = DATA_DIR / "github_trending_features.json"
+TRENDING_CLASSIFICATIONS_FILE = DATA_DIR / "github_trending_classifications.json"
 
 # Note: the 6-panel style/layout constants that used to live here moved to
 # comic_templates/classic_6_panel.py — that template is now one of 14 the
@@ -742,6 +769,7 @@ def build_readme_prompt(
     day_count: int,
     hn_stories: list[dict],
     lab_posts: list[dict],
+    trending_markdown: str,
     image_filename: str,
     timestamp: str,
     no_news: bool,
@@ -765,14 +793,15 @@ def build_readme_prompt(
     else:
         attribution_line = ""
 
+    no_news_note = ""
     if no_news:
         no_news_note = (
             "> *No AI news today — nothing from Hacker News, nothing from the labs. "
             "The characters are... processing this.*\n\n---\n\n"
         )
-        sections_template = no_news_note
-    else:
-        sections_template = """## 🗞️ Hacker News
+    sections_template = (
+        no_news_note
+        + """## 🗞️ Hacker News
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
@@ -789,6 +818,8 @@ def build_readme_prompt(
 ---
 
 """
+        + trending_markdown
+    )
 
     return f"""You are writing the new README.md for "The AI Newspaper" — Day {day_count}. The orchestrator has pre-computed everything: stories are filtered, the comic image is generated, the narrative caption is decided. Your only job is to format the README cleanly.
 
@@ -810,6 +841,12 @@ def build_readme_prompt(
 {lab_block}
 ```
 
+## GitHub Trending section (already rendered Markdown)
+Copy this block verbatim when it is non-empty:
+```markdown
+{trending_markdown}
+```
+
 ## Comic
 - Image: `daily_agent/generated_images/{image_filename}` (already generated and saved)
 
@@ -827,7 +864,7 @@ Use the Write tool to save the new README to {readme_file} with this EXACT struc
 
 ---
 
-*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, and produces a daily comic reacting to the most interesting story.*
+*The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
 *Day {day_count} | Last updated: {timestamp}*
 ```
@@ -840,10 +877,9 @@ Formatting rules:
 - Use the raw `<img>` HTML tag shown above (not markdown image syntax) so GitHub respects the width attribute
 - If `hn_stories` is empty, put `*No AI news on HN today.*` in place of the HN table
 - If `lab_posts` is empty, put `*No new lab posts this week.*` in place of the lab table
+- Reproduce the pre-rendered GitHub Trending Markdown exactly; do not reorder, rewrite, or add claims
 
 Use the Write tool. No commentary outside the file write."""
-
-
 
 
 _CLASSIFIER_AGENT = AgentDefinition(
@@ -930,6 +966,144 @@ async def _run_agent_call(
     return "".join(chunks), result
 
 
+async def prepare_trending_editorial(
+    windows: dict[str, list[TrendingRepository]],
+    edition_date: datetime,
+) -> tuple[
+    list[dict[str, Any]],
+    list[TrendingRepository],
+    list[dict[str, Any]],
+    list[ResultMessage],
+    dict[str, Any],
+]:
+    """Classify Trending candidates, select both lanes, and find HN reactions.
+
+    Ranking, cooldowns, snapshots, and rendering are deterministic. The two model
+    calls in this phase have no tools: one classifies bounded README excerpts and
+    one summarizes already-fetched HN comments.
+    """
+    day = edition_date.date()
+    typed_windows = {
+        window: repositories
+        for window, repositories in windows.items()
+        if window in {"daily", "weekly", "monthly"}
+    }
+    feature_state = load_json(TRENDING_FEATURES_FILE, {"repositories": {}})
+    classification_state = load_json(
+        TRENDING_CLASSIFICATIONS_FILE, {"repositories": {}}
+    )
+    attach_known_ids(typed_windows, feature_state, classification_state)
+
+    # Save the source observation before deriving today's streak. The file is
+    # overwritten later with any IDs/classifications learned during enrichment.
+    save_snapshot(TRENDING_SNAPSHOTS_DIR, typed_windows, day)
+    still_trending = select_still_trending(
+        typed_windows.get("daily", []),
+        feature_state,
+        day,
+        TRENDING_SNAPSHOTS_DIR,
+    )
+
+    restricted_options = ClaudeAgentOptions(
+        tools=[],
+        allowed_tools=[],
+        disallowed_tools=["Bash", "Read", "Write", "Edit", "WebFetch", "WebSearch"],
+        permission_mode="default",
+        cwd=str(PROJECT_ROOT),
+        model="claude-haiku-4-5",
+        max_turns=1,
+    )
+    model_results: list[ResultMessage] = []
+    selected: list[TrendingRepository] = []
+    candidates = [
+        repository
+        for repository in deduplicated_candidates(typed_windows)
+        if not is_in_full_feature_cooldown(feature_state, repository, day)
+    ]
+
+    async with aiohttp.ClientSession() as session:
+        cursor = 0
+        while len(selected) < 3 and cursor < len(candidates):
+            batch = candidates[cursor : cursor + 5]
+            cursor += len(batch)
+            enriched = list(
+                await asyncio.gather(
+                    *(enrich_repository(session, repository) for repository in batch)
+                )
+            )
+
+            unknown: list[TrendingRepository] = []
+            for repository in enriched:
+                if not apply_cached_classification(
+                    repository, classification_state, day
+                ):
+                    unknown.append(repository)
+
+            if unknown:
+                response_text, result = await _run_agent_call(
+                    build_classification_prompt(unknown), restricted_options
+                )
+                if result is not None:
+                    model_results.append(result)
+                response_data = _extract_last_json_block(response_text) or {
+                    "repositories": []
+                }
+                apply_classification_results(unknown, response_data)
+
+            for repository in enriched:
+                if repository.ai_related is not None:
+                    store_classification(classification_state, repository, day)
+                if repository.ai_related and len(selected) < 3:
+                    selected.append(repository)
+
+        write_json(TRENDING_CLASSIFICATIONS_FILE, classification_state)
+
+        discussions = await asyncio.gather(
+            *(find_hn_discussion(session, repository) for repository in selected)
+        )
+        discussion_pairs = [
+            (repository, discussion)
+            for repository, discussion in zip(selected, discussions, strict=True)
+            if discussion is not None
+        ]
+
+        reaction_by_name: dict[str, str] = {}
+        if discussion_pairs:
+            response_text, result = await _run_agent_call(
+                build_reaction_prompt(discussion_pairs), restricted_options
+            )
+            if result is not None:
+                model_results.append(result)
+            response_data = _extract_last_json_block(response_text) or {
+                "repositories": []
+            }
+            reaction_by_name = {
+                str(item.get("full_name", "")).casefold(): sanitize_editorial_text(
+                    item.get("independent_take"), limit=500
+                )
+                for item in response_data.get("repositories", [])
+                if isinstance(item, dict)
+            }
+
+    writeups: list[dict[str, Any]] = []
+    discussion_by_name = {
+        repository.full_name.casefold(): discussion
+        for repository, discussion in zip(selected, discussions, strict=True)
+        if discussion is not None
+    }
+    for repository in selected:
+        writeup = repository_to_writeup(repository)
+        discussion = discussion_by_name.get(repository.full_name.casefold())
+        reaction = reaction_by_name.get(repository.full_name.casefold(), "")
+        if discussion is not None and reaction:
+            writeup["independent_take"] = reaction
+            writeup["discussion_url"] = discussion.discussion_url
+        writeups.append(writeup)
+
+    save_snapshot(TRENDING_SNAPSHOTS_DIR, typed_windows, day)
+    return still_trending, selected, writeups, model_results, feature_state
+
+
 def _build_no_news_story_context(
     *, character_pool: list[str], place: str
 ) -> StoryContext:
@@ -955,27 +1129,31 @@ async def run_autonomous_agent() -> None:
     """Daily AI Newspaper pipeline.
 
     Flow:
-      1. Fetch HN + AI lab posts.
+      1. Fetch HN, AI lab posts, and GitHub Trending windows.
       2. Generate random character pool, place, and hat pair (orchestrator-side).
       3. Coin-flip the comic mode: 50% meme, 50% classic 6-panel.
-      4. Picker agent call: read README day count, classify HN, filter labs,
+      4. Prepare deterministic GitHub Trending editorial data.
+      5. Picker agent call: read README day count, classify HN, filter labs,
          curate data files, pick top story, output structured JSON.
-      5. Run scene_pipeline.pick_winning_scene → 5 generators + critic.
-      6. Render the winning scene to a PNG via gpt-image-2.
-      7. Persist the scene metadata as JSON under data/comic_text/.
-      8. Readme agent call: write README using the structured inputs.
+      6. Run scene_pipeline.pick_winning_scene → 5 generators + critic.
+      7. Render the winning scene to a PNG via gpt-image-2.
+      8. Persist the scene metadata as JSON under data/comic_text/.
+      9. Readme agent call: write README using the structured inputs.
     """
 
     print("Starting The AI Newspaper Agent")
     print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Working directory: {PROJECT_ROOT}\n")
 
-    # 1. Fetch news
+    # 1. Fetch source pages
     async with aiohttp.ClientSession() as session:
-        print("Fetching HN stories and AI lab posts in parallel...")
+        print("Fetching HN, AI lab, and GitHub Trending sources in parallel...")
         hn_task = fetch_hn_stories(session)
         lab_task = fetch_ai_lab_posts(session)
-        stories, lab_posts = await asyncio.gather(hn_task, lab_task)
+        trending_task = fetch_trending_windows(session)
+        stories, lab_posts, trending_windows = await asyncio.gather(
+            hn_task, lab_task, trending_task
+        )
 
     seen_posts = load_seen_posts()
     if lab_posts:
@@ -985,7 +1163,9 @@ async def run_autonomous_agent() -> None:
     lab_posts_text = format_lab_posts_for_prompt(lab_posts) if lab_posts else ""
     print(
         f"  HN stories: {len(stories)}   "
-        f"AI lab posts: {len(lab_posts)}"
+        f"AI lab posts: {len(lab_posts)}   "
+        f"GitHub Trending: "
+        f"{sum(len(repositories) for repositories in trending_windows.values())} rows"
     )
 
     # 2. Random orchestrator-side context
@@ -1048,8 +1228,43 @@ async def run_autonomous_agent() -> None:
         total_turns += rm.num_turns
         total_duration_ms += rm.duration_ms
 
+    selected_trending: list[TrendingRepository] = []
+    trending_feature_state: dict[str, Any] = {"repositories": {}}
+    trending_markdown = ""
+
     try:
-        # 4. Picker agent call
+        # 4. GitHub Trending preparation
+        print("\n" + "=" * 60)
+        print("PHASE 0: GitHub Trending (classify + select + reactions)")
+        print("=" * 60)
+        if any(trending_windows.values()):
+            try:
+                (
+                    still_trending,
+                    selected_trending,
+                    trending_writeups,
+                    trending_results,
+                    trending_feature_state,
+                ) = await prepare_trending_editorial(
+                    trending_windows, datetime.strptime(timestamp, "%Y-%m-%d")
+                )
+                for result in trending_results:
+                    _accumulate(result)
+                trending_markdown = format_trending_section(
+                    still_trending,
+                    trending_writeups,
+                    source_available=True,
+                )
+                print(
+                    f"Trending output: {len(still_trending)} still trending, "
+                    f"{len(trending_writeups)} full write-ups"
+                )
+            except Exception as exc:
+                print(f"WARNING: GitHub Trending editorial phase failed: {exc}")
+        else:
+            print("GitHub Trending unavailable; continuing without the section")
+
+        # 5. Picker agent call
         print("\n" + "=" * 60)
         print("PHASE 1: picker agent (filter + curate + pick top story)")
         print("=" * 60)
@@ -1151,6 +1366,7 @@ async def run_autonomous_agent() -> None:
             day_count=day_count,
             hn_stories=hn_table,
             lab_posts=lab_table,
+            trending_markdown=trending_markdown,
             image_filename=image_filename,
             timestamp=timestamp,
             no_news=no_news_mode,
@@ -1166,6 +1382,15 @@ async def run_autonomous_agent() -> None:
             raise RuntimeError(
                 "README agent finished but the README does not contain today's timestamp"
             )
+
+        # Advance cooldowns only after the edition has been written successfully.
+        if selected_trending:
+            mark_full_features(
+                trending_feature_state,
+                selected_trending,
+                datetime.strptime(timestamp, "%Y-%m-%d").date(),
+            )
+            write_json(TRENDING_FEATURES_FILE, trending_feature_state)
 
         print("\n" + "=" * 60)
         print("Agent completed successfully!")
