@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-06",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "neurotic",
+    "adjective_second": "punk",
+    "narrative_intro": "*A neurotic person and a punk person discuss the rsync AI bug scandal in a doomsday bunker.*",
+    "panel1": "[setup]\nNEUROTIC PERSON: \"Claude destroyed rsync! v3.4.3 caused a 329-comment meltdown!\"",
+    "panel2": "[build]\nPUNK PERSON: \"Did you check v3.4.1? No AI. 59 bugs. Nine commits.\"",
+    "panel3": "[pivot]\nNEUROTIC PERSON: \"That's... 39.39 severity per ten commits. The worst ever.\"\nPUNK PERSON: \"Zero outrage. Zero.\"",
+    "panel4": "[silent reaction]\n[Visual: The neurotic person's eyes slowly slide sideways toward a wall of printed rsync changelogs taped in a conspiracy web. A single string of red yarn connects v3.4.1 to a sticky note reading 'NO AI TO BLAME'. A bunker emergency light blinks overhead.]",
+    "panel5": "[punch]\nNEUROTIC PERSON: \"So the p-value was 46%. It was a coin flip the whole time?\"\nPUNK PERSON: \"The AI scored the bugs. To prove AI's fine.\"",
+    "panel6": "[button]\n[Visual: The neurotic person stares at a framed print of the permutation test graph on the bunker wall. They've added a sticky note: 'Nobody noticed because there was no AI to be angry at.' Below it, a smaller sticky: 'I noticed.' Below that, even smaller: 'I am so angry.']\nNEUROTIC PERSON: \"I need more yarn.\"",
+    "narrative_summary": "The joke is that the anti-AI rsync outrage collapses under its own statistics \u2014 the worst release had zero AI involvement, the p-value was a coin flip, and the only thing proven is that humans need a villain, not a bug count."
+  },
+  "narrative_summary": "The joke is that the anti-AI rsync outrage collapses under its own statistics \u2014 the worst release had zero AI involvement, the p-value was a coin flip, and the only thing proven is that humans need a villain, not a bug count.",
+  "rationale": "Candidate 5 earns its win through the escalating sticky-note button \u2014 'I noticed. I am so angry.' \u2014 which is a genuinely earned visual gag that doesn't just restate the setup but adds a new layer of self-aware absurdity. The conspiracy-yarn visual in panel 4 is the best use of the bunker setting across all five candidates, and 'I need more yarn' is a clean, specific closer that lands harder than any of the competitors' final lines.",
+  "image_filename": "comic_2026-06-06.png",
+  "story_title": "Did Claude increase bugs in rsync?",
+  "story_url": "https://alexispurslane.github.io/rsync-analysis/",
+  "place": "in a doomsday bunker",
+  "hat_pair": [
+    "party cone hat with chinstrap",
+    "foam cowboy hat"
+  ],
+  "no_news_mode": false
+}

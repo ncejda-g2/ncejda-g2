@@ -1,21 +1,28 @@
 {
   "timestamp": "2026-05-09",
-  "template_id": "drake",
-  "template_filter": "meme",
-  "voice_label": "specific",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
   "fields": {
-    "caption_top": "ai art for your six-figure tech startup",
-    "caption_bottom": "your 6-year-old niece's drawing on jspaint.app"
+    "adjective_first": "overdressed",
+    "adjective_second": "unbothered",
+    "narrative_intro": "*An overdressed person and an unbothered person discuss ChatGPT 5.5 Pro solving open math research in a server room during an outage.*",
+    "panel1": "[setup]\nOVERDRESSED PERSON: \"Gowers gave it Nathanson's Sumset Problem.\"\nUNBOTHERED PERSON: \"The unsolved one? Cute.\"",
+    "panel2": "[build]\nOVERDRESSED PERSON: \"It hit a quadratic upper bound for h=2.\"\nOVERDRESSED PERSON: \"In seventeen minutes.\"",
+    "panel3": "[pivot]\nUNBOTHERED PERSON: \"How long for a PhD mathematician?\"\nOVERDRESSED PERSON: \"Gowers said... a week or two.\"",
+    "panel4": "[silent reaction]\n[Visual: The unbothered person's coffee mug slowly tips sideways, spilling in slow motion. Neither character moves. Emergency backup lights flicker on, casting red across rows of silent servers.]",
+    "panel5": "[punch]\nOVERDRESSED PERSON: \"Then it improved exponential-in-k to O(k^(10h\u00b3)).\"\nUNBOTHERED PERSON: \"...in the same hour?\"",
+    "panel6": "[button]\n[Visual: A framed PhD diploma on the server room wall slides quietly off its nail and lands face-down on the floor. Neither character looks at it.]"
   },
-  "narrative_summary": "Drake rejects the polished AI art that signals 'low social literacy' and approves the blog post's deadpan alternatives \u2014 the niece's drawing and jspaint.app \u2014 calling out the absurdity that hand-drawn chaos now carries more social credibility than a six-figure worker's AI output.",
-  "rationale": "Candidate 3 earns its specificity points by naming jspaint.app \u2014 a real, absurd detail from the source article \u2014 which transforms a generic 'child drawing beats AI' joke into something that rewards readers who know the story. The jspaint.app callout also sharpens the punchline: it's not just a crayon scrawl, it's a crayon scrawl made in a retro browser paint tool, which escalates the absurdity one beat further than every other candidate.",
+  "narrative_summary": "Two characters process ChatGPT 5.5 Pro solving PhD-level open math in under an hour, culminating in a PhD diploma silently falling off the wall.",
+  "rationale": "Candidate 5 earns its punchline through pure visual restraint \u2014 the PhD diploma sliding off the wall while neither character reacts is a genuinely fresh sight gag that doesn't editorialize, letting the specific numbers (17 minutes, a week of PhD work, O(k^(10h\u00b3))) do the devastating work. The 'neither character looks at it' button is the best closing beat in the set because it adds a layer of denial that the other candidates' whiteboard gags can't match.",
   "image_filename": "comic_2026-05-09.png",
-  "story_title": "People Hate AI Art",
-  "story_url": "https://mccue.dev/pages/5-8-26-ai-art",
-  "place": "inside a Terms of Service agreement",
+  "story_title": "A recent experience with ChatGPT 5.5 Pro",
+  "story_url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
+  "place": "in a server room during an outage",
   "hat_pair": [
-    "shower cap covered in sticky notes",
-    "helmet made entirely of rubber ducks"
+    "pointy wizard hat with stars",
+    "orange traffic cone worn as a hat"
   ],
   "no_news_mode": false
 }

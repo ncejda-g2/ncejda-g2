@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-19",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "slumped",
+    "adjective_second": "mischievous",
+    "narrative_intro": "*A slumped person and a mischievous person discuss vibe-coding gold rushes at a robot rights protest outside Congress.*",
+    "panel1": "[setup]\nSLUMPED PERSON: \"I built an app on Replit. Passive income, baby.\"",
+    "panel2": "[build]\nMISCHIEVOUS PERSON: \"Nice! How much did you make in 24 days?\"\nSLUMPED PERSON: \"Technically I made zero. I *spent* $1,982.\"",
+    "panel3": "[pivot]\nMISCHIEVOUS PERSON: \"Token costs are impossible to predict upfront.\"\nSLUMPED PERSON: \"That's what the influencer forgot to mention.\"",
+    "panel4": "[silent reaction]\n[Visual: The slumped person holds up a phone showing a TikTok: 'I make 10k a month from home thanks to Replit!!' \u2014 the mischievous person slowly turns to face the camera with dead eyes, holding a protest sign that now reads 'RIGHTS FOR MY REMAINING SAVINGS'.]",
+    "panel5": "[punch]\nSLUMPED PERSON: \"At least Herbalife gave me a free shaker cup.\"\nMISCHIEVOUS PERSON: \"AI gave you a 404 and a billing alert.\"",
+    "panel6": "[button]\n[Visual: A passing robot carrying a 'ROBOTS DESERVE DIGNITY' sign glances at the phone bill, shudders, and quickens its pace.]"
+  },
+  "narrative_summary": "A broke 22-year-old who burned $1,982 on Replit tokens in 24 days realizes vibe-coding's MLM grift is even worse than Herbalife \u2014 at least Herbalife had physical product \u2014 while a protest robot wants no part of this economy.",
+  "rationale": "Candidate 3 earns its win on punchline and fit: 'At least Herbalife gave me a free shaker cup / AI gave you a 404 and a billing alert' is a genuinely earned comparison that advances the Herbalife thesis with a specific, unexpected detail rather than just restating it. The TikTok visual in panel 4 also does real comedic work, grounding the MLM-influencer angle in a concrete, recognizable format.",
+  "image_filename": "comic_2026-06-19.png",
+  "story_title": "Generative AI Is Having Its Herbalife Moment",
+  "story_url": "https://www.whatwelo.st/p/generative-ai-is-having-its-herbalife",
+  "place": "at a robot rights protest outside Congress",
+  "hat_pair": [
+    "foam cowboy hat",
+    "jester hat with three drooping bells"
+  ],
+  "no_news_mode": false
+}

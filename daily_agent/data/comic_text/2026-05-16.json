@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-05-16",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_caption": "using AI to help write code",
+    "panel2_caption": "posting raw ChatGPT screenshots as your own reasoning",
+    "panel3_caption": "giving security staff with no coding background full autonomous AI control",
+    "panel4_caption": "concluding physics and mathematics are incorrect because ChatGPT said so"
+  },
+  "narrative_summary": "The joke escalates through real examples from the HN thread \u2014 from reasonable AI use to galaxy-brained 'AI beat Newton' logic \u2014 capturing the 'AI psychosis' arc Hashimoto warned about.",
+  "rationale": "Candidate 4 earns its specificity score by including the genuinely surprising and concrete detail about 'security staff with no coding background given full autonomous AI control' \u2014 a real HN-thread beat that none of the others use \u2014 which makes the escalation feel earned rather than generic. The punchline lands harder because the penultimate panel is so absurdly specific that 'physics is wrong' reads as the inevitable galaxy-brain conclusion rather than just a restatement.",
+  "image_filename": "comic_2026-05-16.png",
+  "story_title": "\"I believe there are entire companies right now under AI psychosis\"",
+  "story_url": "https://twitter.com/mitchellh/status/2055380239711457578",
+  "place": "inside a Zoom waiting room for all eternity",
+  "hat_pair": [
+    "floppy chef's toque",
+    "baseball cap with curled brim"
+  ],
+  "no_news_mode": false
+}

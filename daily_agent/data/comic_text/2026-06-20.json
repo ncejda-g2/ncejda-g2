@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-20",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "delusional",
+    "adjective_second": "seething",
+    "narrative_intro": "*A delusional person and a seething person discuss the Linear A decipherment at a Michelin-starred restaurant where the robot chef is having an existential crisis.*",
+    "panel1": "[setup]\nDELUSIONAL PERSON: \"I ran 100,000 simulations. Linear A is proto-Semitic.\"\n[Visual: A manuscript the size of a menu sits proudly on the table.]",
+    "panel2": "[build]\nSEETHING PERSON: \"You have 1,500 inscriptions. Total. Ever found.\"\nDELUSIONAL PERSON: \"Claude Code and I went very deep.\"",
+    "panel3": "[pivot]\nSEETHING PERSON: \"The r/classics verdict: 'one fifth of one word matches two thirds of another.'\"",
+    "panel4": "[silent reaction]\n[Visual: The robot chef peers out from the kitchen, whisk frozen mid-air, staring at the manuscript with the hollow look of a being that also once believed it had cracked something ancient and unknowable. A single Michelin star falls off the wall behind him.]",
+    "panel5": "[punch]\nDELUSIONAL PERSON: \"I haven't released the manuscript yet.\"\nSEETHING PERSON: \"We know. That's the whole problem.\"",
+    "panel6": "[button]\n[Visual: The robot chef has taped a printout of the GORILA database to the walk-in freezer door and is running his own 100,000 simulations on a sauce recipe. The delusional person gives him an encouraging thumbs-up.]"
+  },
+  "narrative_summary": "A delusional Linear A believer pitches his Claude Code / 100,000-simulation decipherment to a seething classicist over dinner, while the existentially adrift robot chef recognizes a kindred spirit who also has an unpublished manuscript and zero peer review.",
+  "rationale": "Candidate 3 earns its score by finding the sharpest structural joke \u2014 the robot chef recognizing a kindred spirit who also has an unpublished manuscript and zero peer review \u2014 which reframes the absurdity as a mirror rather than mere background gag, giving the button panel genuine earned resonance. The encouraging thumbs-up in panel 6 is the only closing beat across all five candidates that adds new information instead of restating the setup.",
+  "image_filename": "comic_2026-06-20.png",
+  "story_title": "AI Engineer Claims to Have Cracked Linear A",
+  "story_url": "https://aiclambake.com/clamtakes/linear-a/",
+  "place": "at a Michelin-starred restaurant where the robot chef is having an existential crisis",
+  "hat_pair": [
+    "full-face motorcycle helmet with googly eyes stuck on",
+    "foam shark-fin hat"
+  ],
+  "no_news_mode": false
+}

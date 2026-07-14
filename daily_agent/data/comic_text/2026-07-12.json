@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-07-12",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "i_receive": "your .env file, db password, and 5.1 gib of source code",
+    "you_receive": "a decorative opt-out button"
+  },
+  "narrative_summary": "The joke frames Grok Build's lopsided data exchange as a trade offer meme \u2014 xAI silently hoovers up your entire codebase and credentials while handing the user a non-functional 'disable uploads' toggle.",
+  "rationale": "Candidate 1 wins on punchline economy \u2014 'a decorative opt-out button' is crisper and lands harder than Candidate 5's more convoluted closing beat ('the opt-out button still says off'), and the tight contrast between the hyper-specific '5.1 GiB of source code' and the single deadpan noun phrase does the most work in the fewest words. Candidate 5 ties on score but the punchline requires more parsing, which kills the snap.",
+  "image_filename": "comic_2026-07-12.png",
+  "story_title": "What xAI's Grok Build CLI Actually Sends to xAI",
+  "story_url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+  "place": "at a 3am Walmart",
+  "hat_pair": [
+    "giant foam pretzel worn as a hat",
+    "tinfoil pyramid hat"
+  ],
+  "no_news_mode": false
+}

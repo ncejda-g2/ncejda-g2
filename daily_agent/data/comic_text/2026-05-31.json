@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-05-31",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "panel1_dialog": "We left OpenAI to build AI more safely and ethically!",
+    "panel2_dialog": "So you're worth less than the $852B company you fled... right?",
+    "panel4_dialog": "...right?"
+  },
+  "narrative_summary": "Anthropic's founders fled OpenAI over ethics, and now sit at ~$1T valuation while OpenAI trails at $852B \u2014 the 'safety' company out-greed'd the greedy company, and Padme's hopeful question goes chillingly unanswered.",
+  "rationale": "Candidate 3 earns its punchline by anchoring the irony in the actual $852B figure, making Padme's unanswered '...right?' land with real weight rather than vague implication. The specificity of naming OpenAI's valuation transforms a generic 'ethics-to-riches' observation into a pointed, fact-grounded joke that rewards readers who know the story.",
+  "image_filename": "comic_2026-05-31.png",
+  "story_title": "Anthropic surpasses OpenAI to become most valuable AI startup",
+  "story_url": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
+  "place": "inside a spam folder",
+  "hat_pair": [
+    "foam server rack worn as a hat with blinking LED lights",
+    "oversized propeller beanie"
+  ],
+  "no_news_mode": false
+}

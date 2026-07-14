@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-23",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "manic",
+    "adjective_second": "scowling",
+    "narrative_intro": "*A manic person and a scowling person discuss Claude Code's Extended Thinking logs at a 3am Walmart.*",
+    "panel1": "[setup]\nMANIC PERSON: \"Compliance needs Claude's reasoning. I exported the thinking logs!\"",
+    "panel2": "[build]\nSCOWLING PERSON: \"That's a summary. The raw thinking got discarded.\"\nMANIC PERSON: \"A summary's basically the same thing, right?\"",
+    "panel3": "[pivot]\nSCOWLING PERSON: \"It's lossy. Like a JPEG. And there's a 600-character encrypted blob.\"",
+    "panel4": "[silent reaction]\n[Visual: Manic person holds the printout up to a flickering Walmart fluorescent light, squinting at the encrypted gibberish. Scowling person stares.]",
+    "panel5": "[punch]\nMANIC PERSON: \"So I'll just decrypt it!\"\nSCOWLING PERSON: \"Only Anthropic can. You need an enterprise agreement.\"",
+    "panel6": "[button]\n[Visual: Manic person at self-checkout scanning the printout. Screen reads: 'CURATED PERFORMANCE \u2014 $0.00'. Scowling person walks away.]"
+  },
+  "narrative_summary": "An eager dev tries to use Claude Code's Extended Thinking logs as an audit trail, only to escalate through every wall \u2014 it's a lossy summary, an undecryptable signature, and enterprise-locked \u2014 landing on the reveal that they audited a performance, not actual reasoning.",
+  "rationale": "Candidate 4 uses the escalation voice to actually build through each wall (lossy summary, encrypted blob, enterprise lock) so the template earns its shape, and the '$0.00 curated performance' self-checkout button lands as a real reveal rather than restating the premise. Candidate 5's receipt-printer sight gag is fresher, but its punchline mostly recaps; the escalation structure gives 4 the edge.",
+  "image_filename": "comic_2026-06-23.png",
+  "story_title": "The text in Claude Code's \"Extended Thinking\" output is not authentic",
+  "story_url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+  "place": "at a 3am Walmart",
+  "hat_pair": [
+    "shower cap covered in sticky notes",
+    "powdered barrister's wig with a tiny gavel taped to the top"
+  ],
+  "no_news_mode": false
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-19",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "melodramatic",
+    "adjective_second": "insufferable",
+    "narrative_intro": "*A melodramatic person and an insufferable person discuss Elon Musk's dismissed $97B lawsuit on a sinking pirate ship.*",
+    "panel1": "[setup]\nMELODRAMATIC PERSON: \"Musk sued OpenAI for $97 billion to save humanity!\"",
+    "panel2": "[build]\nINSUFFERABLE PERSON: \"The jury took, what, minutes to throw it out?\"\nMELODRAMATIC PERSON: \"He waited too long to sue. Statute of limitations.\"",
+    "panel3": "[pivot]\nINSUFFERABLE PERSON: \"So his lawyer's whole response was just... one word?\"\nMELODRAMATIC PERSON: \"'Appeal.'\"",
+    "panel4": "[silent reaction]\n[Visual: Both characters stare blankly at each other. The ship lists 45 degrees. A cannonball labeled 'IPO' sails cheerfully overhead toward the horizon.]",
+    "panel5": "[punch]\nINSUFFERABLE PERSON: \"He missed the deadline to stop OpenAI going for-profit...\"\nMELODRAMATIC PERSON: \"...and the deadline to sue about missing the deadline.\"",
+    "panel6": "[button]\n[Visual: The ship's mast snaps; a flag reading 'xAI: Compete In The Market Now' unfurls. The melodramatic person solemnly raises it anyway.]"
+  },
+  "narrative_summary": "The joke escalates from Musk's grandiose lawsuit through its single-word legal response to the absurd irony of a man who missed two deadlines in a row, punctuated by OpenAI's IPO sailing serenely past on a sinking ship.",
+  "rationale": "Candidate 4 earns its punchline structurally \u2014 'he missed the deadline to stop OpenAI going for-profit, and the deadline to sue about missing the deadline' is a genuinely escalating double-beat that isn't just restating setup, and the template shape (setup \u2192 build \u2192 pivot \u2192 silent beat \u2192 punch \u2192 button) maps cleanly onto that escalation. The 'missed two deadlines in a row' framing is the freshest angle in the batch and is grounded in real, specific facts from the story.",
+  "image_filename": "comic_2026-05-19.png",
+  "story_title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+  "story_url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+  "place": "on a sinking pirate ship",
+  "hat_pair": [
+    "construction hard hat",
+    "hard hat with a tiny disco ball glued to the top"
+  ],
+  "no_news_mode": false
+}

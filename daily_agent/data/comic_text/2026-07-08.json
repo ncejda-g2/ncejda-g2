@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-08",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "cowering",
+    "adjective_second": "glowering",
+    "narrative_intro": "*A cowering person and a glowering person discuss Odra's $10k-a-week AI code deletion service at the bottom of a pile of unread emails.*",
+    "panel1": "[setup]\nCOWERING PERSON: \"Our codebase hit 100,000 lines last night.\"\nGLOWERING PERSON: \"The AI agent has been busy.\"",
+    "panel2": "[build]\nCOWERING PERSON: \"It wrote fourteen date formatters.\"\nGLOWERING PERSON: \"Fourteen.\"\nCOWERING PERSON: \"Fourteen.\"",
+    "panel3": "[pivot]\nGLOWERING PERSON: \"Odra charges $10,000 a week to delete this.\"\nCOWERING PERSON: \"...using Claude Code.\"",
+    "panel4": "[silent reaction]\n[Visual: Both blobs stare at each other in total silence. Behind them, fourteen tiny identical calendar icons float in the air like ghosts.]",
+    "panel5": "[punch]\nCOWERING PERSON: \"So we pay Claude to write it\u2014\"\nGLOWERING PERSON: \"\u2014and pay Claude to kill it.\"",
+    "panel6": "[button]\n[Visual: A fifteenth date formatter quietly materialises in the corner. It is labeled 'date_formatter_FINAL_v2_USE_THIS.js'.]"
+  },
+  "narrative_summary": "The joke lands on the absurd ouroboros of paying AI to generate code and then paying humans armed with AI to delete it, crowned by a date formatter that refuses to die.",
+  "rationale": "Candidate 2 edges out Candidate 3 on punchline: the button panel's 'date_formatter_FINAL_v2_USE_THIS.js' filename is a universally recognized developer horror that earns its laugh independently, while Candidate 3's 'Claude says you're welcome' is clever but slightly over-explains the joke. The echo-repeat of 'Fourteen. / Fourteen.' in panel 2 also gives Candidate 2 a tighter comedic rhythm that Candidate 3 lacks.",
+  "image_filename": "comic_2026-07-08.png",
+  "story_title": "We charge $10k a week to delete AI-generated code",
+  "story_url": "https://odra.dev/slopfix/",
+  "place": "at the bottom of a pile of unread emails",
+  "hat_pair": [
+    "beekeeper veil-and-hat combo",
+    "nurse's cap"
+  ],
+  "no_news_mode": false
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-06-25",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_caption": "renting Nvidia GPUs to run your model",
+    "panel2_caption": "building your own chip to ditch Nvidia",
+    "panel3_caption": "naming it 'Jalape\u00f1o' for some reason",
+    "panel4_caption": "having your AI design the silicon it will run on"
+  },
+  "narrative_summary": "The escalation from renting Nvidia chips up to OpenAI's recursive move of letting its own models design the Jalape\u00f1o chip they'll then run on.",
+  "rationale": "Candidate 4 has the best escalation rhythm for the galaxy-brain template, and the 'naming it Jalape\u00f1o for some reason' beat breaks the pattern before the recursive kicker lands harder than the straight-faced restatements in 2 and 3.",
+  "image_filename": "comic_2026-06-25.png",
+  "story_title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+  "story_url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+  "place": "at a robot-staffed restaurant where the kitchen is actively on fire",
+  "hat_pair": [
+    "foam speech bubble hat with the word 'typing...' displayed on it",
+    "chef's toque overflowing with tangled plastic noodles"
+  ],
+  "no_news_mode": false
+}

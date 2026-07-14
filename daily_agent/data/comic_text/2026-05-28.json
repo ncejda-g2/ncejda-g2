@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-28",
+  "template_id": "buff_doge_cheems",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "buff_caption": "reading the github reply and responding to it",
+    "cheems_caption": "screenshotting chatgpt's reply and forwarding it unread"
+  },
+  "narrative_summary": "The joke contrasts the old-fashioned act of actually engaging with a response against the viral GitHub story's protagonist who screenshot-forwarded a ChatGPT answer twice without ever reading it.",
+  "rationale": "Candidate 1 earns the highest specificity by naming the GitHub context explicitly and adding the detail that the forwarding happened twice \u2014 a concrete escalation that sharpens the absurdity. The 'twice without ever reading it' beat gives the cheems caption a closing sting that the near-identical competitors lack, turning a restatement into an actual punchline.",
+  "image_filename": "comic_2026-05-28.png",
+  "story_title": "I'm Tired of Talking to AI",
+  "story_url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
+  "place": "at a hackathon where the demo crashed an hour ago",
+  "hat_pair": [
+    "plague-doctor beaked hat",
+    "foam cowboy hat"
+  ],
+  "no_news_mode": false
+}

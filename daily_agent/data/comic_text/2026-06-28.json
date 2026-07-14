@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-06-28",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "i_receive": "frontier model capability, zero export controls",
+    "you_receive": "a model named 'Fugu' after the fish that can kill you"
+  },
+  "narrative_summary": "Sakana's pitch of frontier power without export-ban risk is the trade, undercut by naming the model after lethally poisonous pufferfish.",
+  "rationale": "Candidate 4 uses the real product name 'Fugu' and lands a self-contained twist \u2014 the same word naming the model also names a fish that can kill you \u2014 making the trade-offer template pay off with an actual reversal rather than restating the export-ban premise like the others.",
+  "image_filename": "comic_2026-06-28.png",
+  "story_title": "Asian AI startups launch Mythos-like models",
+  "story_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+  "place": "in a doomsday bunker",
+  "hat_pair": [
+    "foam satellite dish worn as a hat with a tiny blinking antenna",
+    "foam light bulb hat with a tiny glowing filament at the peak"
+  ],
+  "no_news_mode": false
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-05-21",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "panel1_dialog": "An AI just disproved Erd\u0151s's 80-year-old geometry conjecture using algebraic number theory.",
+    "panel2_dialog": "So human mathematicians will still check it and find the flaw... right?",
+    "panel4_dialog": "...right?"
+  },
+  "narrative_summary": "The joke plays on the dawning horror that the AI's cross-disciplinary leap was verified as genuinely correct \u2014 even Fields medalist Tim Gowers was impressed \u2014 leaving no human escape hatch.",
+  "rationale": "Candidate 3 earns its specificity by naming Tim Gowers and the algebraic number theory angle, and the 'find the flaw' framing sharpens the Anakin/Padme beat into genuine dread rather than vague unease. Candidate 1 is close but the Roll Safe format rewards a tighter logical inversion, and 'let the AI read algebraic number theory' is slightly too inside-baseball without the payoff of a named authority confirming there's no escape hatch.",
+  "image_filename": "comic_2026-05-21.png",
+  "story_title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+  "story_url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+  "place": "inside a live production database being dropped",
+  "hat_pair": [
+    "deerstalker detective hat",
+    "crash helmet with a tiny working traffic light mounted on top"
+  ],
+  "no_news_mode": false
+}

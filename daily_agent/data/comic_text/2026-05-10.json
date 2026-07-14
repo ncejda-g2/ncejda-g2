@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-10",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "unqualified",
+    "adjective_second": "gobsmacked",
+    "narrative_intro": "*An unqualified person and a gobsmacked person discuss LLM document corruption at an abandoned theme park.*",
+    "panel1": "[setup]\nUNQUALIFIED PERSON: \"I let GPT handle my crystallography report.\"\nGOBSMACKED PERSON: \"The whole thing?\"",
+    "panel2": "[build]\nUNQUALIFIED PERSON: \"Nineteen frontier models tested. They're basically pros.\"\nGOBSMACKED PERSON: \"Sure, sure.\"",
+    "panel3": "[pivot]\nGOBSMACKED PERSON: \"DELEGATE-52 says they corrupt 25% of content.\"\nUNQUALIFIED PERSON: \"Silently. Over time.\"",
+    "panel4": "[silent reaction]\n[Visual: Both characters stare at a printout. Every fourth line is replaced with gibberish. Behind them, an abandoned roller coaster car slowly rolls past, carrying only a stack of corrupted documents.]",
+    "panel5": "[punch]\nGOBSMACKED PERSON: \"'Sparse but severe.' That's my thesis.\"\nUNQUALIFIED PERSON: \"Was.\"",
+    "panel6": "[button]\n[Visual: A defunct theme-park sign now reads 'DELEGATE-LAND: Where 25% of Your Document Goes to Die.' Unqualified person adds agentic tool use. Nothing improves.]"
+  },
+  "narrative_summary": "A character who trusted an LLM with a full professional document discovers \u2014 via DELEGATE-52's damning 25% corruption finding \u2014 that their work was quietly, severely ruined, punchlined by the benchmark's own phrase 'sparse but severe' describing their now-destroyed thesis.",
+  "rationale": "Candidate 3 earns its punchline \u2014 'Sparse but severe. That's my thesis.' / 'Was.' is a clean two-beat closer that weaponizes the paper's own clinical language against the character without restating the setup, and the specificity (DELEGATE-52, 19 frontier models, 25% corruption, crystallography) is tightly woven rather than dropped in as a list. Candidate 4 ties on total but the 'chapter four just says music notation forty times' gag slightly oversells the absurdism, diluting the deadpan precision that makes the 'sparse but severe' callback land.",
+  "image_filename": "comic_2026-05-10.png",
+  "story_title": "LLMs corrupt your documents when you delegate",
+  "story_url": "https://arxiv.org/abs/2604.15597",
+  "place": "at an abandoned theme park",
+  "hat_pair": [
+    "swim cap with rubber flowers",
+    "full-face motorcycle helmet with googly eyes stuck on"
+  ],
+  "no_news_mode": false
+}

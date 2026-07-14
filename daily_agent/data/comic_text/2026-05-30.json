@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-30",
+  "template_id": "same_picture",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "paper_left": "Mistral AI Now Summit: partnerships, products, big vision",
+    "paper_right": "no benchmarks, no pricing, vibes for work"
+  },
+  "narrative_summary": "The joke reframes Mistral's own summit slogan 'Vibe for Work' as an accidental self-own \u2014 the event literally had no hard data, just vibes.",
+  "rationale": "Candidate 5 earns its punchline by weaponizing Mistral's own branding against them \u2014 'Vibe for Work' as an accidental confession that the summit was content-free is a genuinely fresh angle, not just a restatement of the setup. The self-own framing is more surprising than the four anakin_padme entries, which all land on the same '...right?' beat without meaningful differentiation.",
+  "image_filename": "comic_2026-05-30.png",
+  "story_title": "Notes from the Mistral AI Now Summit",
+  "story_url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+  "place": "at a product launch where the live demo crashes",
+  "hat_pair": [
+    "roman centurion helmet",
+    "shower cap covered in sticky notes"
+  ],
+  "no_news_mode": false
+}

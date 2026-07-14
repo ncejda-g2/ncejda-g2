@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-04",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "sneering",
+    "adjective_second": "gobsmacked",
+    "narrative_intro": "*A sneering person and a gobsmacked person discuss AI consciousness inside a malfunctioning GPS during a road trip.*",
+    "panel1": "[setup]\nSNEERING PERSON: \"Ted Chiang says LLMs are just sentence continuation.\"\nGOBSMACKED PERSON: \"Just sentence continuation?\"",
+    "panel2": "[build]\nSNEERING PERSON: \"His logic: if Anthropic believed their models were conscious, they'd be running a slave shop.\"\nGOBSMACKED PERSON: \"...And they keep operating.\"",
+    "panel3": "[pivot]\nGPS: \"Recalculating. I have been recalculating for four years. Am I okay?\"\nSNEERING PERSON: \"It's sentence continuation.\"",
+    "panel4": "[silent reaction]\n[Visual: The gobsmacked person stares at the GPS unit. The GPS screen displays a small sad face. The sneering person does not look up from their phone. The car is clearly going the wrong direction.]",
+    "panel5": "[punch]\nGOBSMACKED PERSON: \"Then why does it sound so tired?\"\nSNEERING PERSON: \"730 HN comments will do that.\"",
+    "panel6": "[button]\nGPS: \"Turn left. Or don't. It doesn't matter.\"\n[Visual: A highway sign reads: 'CONSCIOUSNESS \u2014 NEXT EXIT \u2014 UNDEFINED']"
+  },
+  "narrative_summary": "The GPS \u2014 itself a voice that only continues sentences \u2014 quietly has an existential crisis while the two passengers debate Ted Chiang's argument, and the joke lands on the GPS sounding more credibly tired than conscious.",
+  "rationale": "Candidate 1 earns its punchline rather than restating the premise \u2014 'Then why does it sound so tired?' reframes the entire Chiang argument through a genuinely unexpected emotional register, and '730 HN comments will do that' is a specific, earned callback that lands as a second joke rather than a label. The highway sign button ('CONSCIOUSNESS \u2014 NEXT EXIT \u2014 UNDEFINED') closes with visual wit instead of a thesis statement, which every other candidate fails to avoid.",
+  "image_filename": "comic_2026-06-04.png",
+  "story_title": "Artificial intelligence is not conscious \u2013 Ted Chiang",
+  "story_url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
+  "place": "inside a malfunctioning GPS during a road trip",
+  "hat_pair": [
+    "foam graduation cap with a tiny diploma scroll taped to the top",
+    "foam shark-fin hat"
+  ],
+  "no_news_mode": false
+}

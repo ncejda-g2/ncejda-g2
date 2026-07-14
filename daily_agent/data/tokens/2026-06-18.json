@@ -2,34 +2,34 @@
   "date": "2026-06-18",
   "model": "claude-sonnet-4-6",
   "attempts": 1,
-  "total_cost_usd": 0.960111,
-  "total_duration_ms": 401811,
-  "total_turns": 21,
+  "total_cost_usd": 1.031723,
+  "total_duration_ms": 532232,
+  "total_turns": 19,
   "anthropic_usage": {
-    "input_tokens": 178,
-    "cache_creation_input_tokens": 73264,
-    "cache_read_input_tokens": 627605,
-    "output_tokens": 19591
+    "input_tokens": 12,
+    "cache_creation_input_tokens": 82045,
+    "cache_read_input_tokens": 315000,
+    "output_tokens": 25500
   },
-  "anthropic_total_tokens": 720638,
+  "anthropic_total_tokens": 422557,
   "image_gen_usage": [
     {
       "model": "openai/gpt-image-2",
       "usage": {
-        "total_tokens": 2278,
-        "input_tokens": 522,
+        "total_tokens": 2144,
+        "input_tokens": 901,
         "input_tokens_details": {
           "image_tokens": 0,
-          "text_tokens": 522
+          "text_tokens": 901
         },
-        "output_tokens": 1756,
+        "output_tokens": 1243,
         "output_tokens_details": {
-          "image_tokens": 1756,
+          "image_tokens": 1243,
           "text_tokens": 0
         }
       }
     }
   ],
-  "image_gen_total_tokens": 2278,
-  "grand_total_tokens": 722916
+  "image_gen_total_tokens": 2144,
+  "grand_total_tokens": 424701
 }

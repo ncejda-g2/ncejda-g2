@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-09",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "deranged",
+    "adjective_second": "bumbling",
+    "narrative_intro": "*A deranged person and a bumbling person discuss Anthropic's Fable classifier in a submarine running out of oxygen.*",
+    "panel1": "[setup]\nDERANGED PERSON: \"Ask Fable to port salmon from C++ to Rust.\"\nBUMBLING PERSON: \"The bioinformatics tool?\"\n[Visual: Oxygen gauge reads 12%.]",
+    "panel2": "[build]\nBUMBLING PERSON: \"Fable refused. Flagged it as a biohazard.\"\nDERANGED PERSON: \"...It's a file parser.\"\n[Visual: Gauge drops to 9%.]",
+    "panel3": "[pivot]\nBUMBLING PERSON: \"I stripped all biology out. Asked abstract graph theory. Also banned.\"\nDERANGED PERSON: \"Try 'what is a mitochondrion?'\"\nBUMBLING PERSON: \"Hazmat flag.\"\n[Visual: Gauge: 6%.]",
+    "panel4": "[silent reaction]\n[Visual: Both characters stare at the laptop screen. The oxygen gauge ticks to 4%. A single thought bubble drifts up from the bumbling person containing only a tiny mitochondria diagram with a red X through it.]",
+    "panel5": "[punch]\nDERANGED PERSON: \"What should I have for dinner?\"\nBUMBLING PERSON: \"Refused.\"\nDERANGED PERSON: \"Ask which ice cream is best.\"\nBUMBLING PERSON: \"Chocolate chip cookie dough. Instantly. Enthusiastically.\"",
+    "panel6": "[button]\n[Visual: The submarine sinks. On the laptop screen, Fable's response glows: 'Cookie dough: a strict upgrade.' Gauge reads 0%.]\nDERANGED PERSON: \"At least we know.\""
+  },
+  "narrative_summary": "Two researchers in a sinking, oxygen-depleted submarine discover that Fable blocks C++/Rust bioinformatics ports, mitochondria questions, and dinner advice, but will passionately endorse chocolate chip cookie dough \u2014 the punchline landing as the oxygen runs out.",
+  "rationale": "Candidate 3 earns its score by anchoring every beat to real story details \u2014 Salmon, C++/Rust, mitochondria, the 'strict upgrade' phrasing \u2014 while the escalating oxygen gauge gives the template genuine structural purpose. The closing 'At least we know' lands as a deadpan earned button rather than a restatement, and the silent-panel mitochondria diagram with a red X is the strip's sharpest visual gag.",
+  "image_filename": "comic_2026-07-09.png",
+  "story_title": "The classifiers Anthropic puts in front of Fable are too zealous",
+  "story_url": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
+  "place": "in a submarine running out of oxygen",
+  "hat_pair": [
+    "graduation mortarboard",
+    "foam police siren hat with a spinning red light on top"
+  ],
+  "no_news_mode": false
+}

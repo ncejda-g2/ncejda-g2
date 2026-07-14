@@ -4,25 +4,25 @@
   "template_filter": "classic",
   "voice_label": "sight_gag",
   "fields": {
-    "adjective_first": "sweaty",
-    "adjective_second": "chaotic",
-    "narrative_intro": "*A sweaty person and a chaotic person discuss Anthropic's new Agent SDK billing in a parking garage during an alien invasion.*",
-    "panel1": "[setup]\nSWEATY PERSON: \"Anthropic split my Pro subscription. Twenty bucks for SDK.\"\nCHAOTIC PERSON: \"Split it how?\"",
-    "panel2": "[build]\nSWEATY PERSON: \"Headless Claude, GitHub Actions, `claude -p` \u2014 all separate now.\"\nCHAOTIC PERSON: \"Okay but the aliens\u2014\"",
-    "panel3": "[pivot]\nSWEATY PERSON: \"Someone published a repo called 'claude-pee' as a workaround.\"\nCHAOTIC PERSON: \"That's the real news.\"",
-    "panel4": "[silent reaction]\n[Visual: Both characters stand completely motionless, mouths agape. An alien tripod looms through the parking garage entrance behind them, ignored. A small sign on the wall reads 'LEVEL P2.']",
-    "panel5": "[punch]\nCHAOTIC PERSON: \"VentureBeat said Anthropic 'carved out all non-interactive use.'\"\nSWEATY PERSON: \"The repo has 400 stars already.\"",
-    "panel6": "[button]\n[Visual: The alien tripod is scanning its own phone. A beam of light illuminates a claude.ai billing page. The alien looks sweaty.]"
+    "adjective_first": "twitchy",
+    "adjective_second": "exasperated",
+    "narrative_intro": "*A twitchy person and an exasperated person discuss AI brain-rot in a doomsday bunker.*",
+    "panel1": "[setup]\nTWITCHY PERSON: \"Google said 75% of their code is AI-generated now.\"\nEXASPERATED PERSON: \"I know. I read it.\"",
+    "panel2": "[build]\nTWITCHY PERSON: \"Microsoft's CTO wants 95% by 2030.\"\nEXASPERATED PERSON: \"I know. I\u2014 wait, how do YOU know?\"",
+    "panel3": "[pivot]\nTWITCHY PERSON: \"I asked Copilot to summarize it for me.\"\nEXASPERATED PERSON: \"The article about AI rotting developer brains.\"",
+    "panel4": "[silent reaction]\n[Visual: The exasperated person stares directly at the viewer, one eye twitching. A single flickering bunker lightbulb swings overhead. The twitchy person is already typing into a laptop labeled 'COPILOT' with both hands like a concert pianist.]",
+    "panel5": "[punch]\nEXASPERATED PERSON: \"Can you even write a for-loop anymore?\"\nTWITCHY PERSON: \"I'll ask it.\"",
+    "panel6": "[button]\n[Visual: The bunker wall has a whiteboard. It reads: 'SKILLS REMAINING: 1. Prompting AI. 2. ???' The exasperated person has quietly begun digging an escape tunnel with a spoon.]"
   },
-  "narrative_summary": "Two humans ignore an alien invasion to obsess over Anthropic's SDK billing split and the satirical 'claude-pee' repo, only to reveal the aliens are also stressed about their Claude plan limits.",
-  "rationale": "Candidate 5 earns its punchline by flipping the joke onto the aliens themselves \u2014 they're also stressed about Claude billing \u2014 which is a genuine structural surprise rather than just restating the human characters' indifference. The 'LEVEL P2' sign is a tight visual callback to 'claude -p' that rewards close readers, and the alien-with-a-billing-page button lands as a earned escalation rather than a restatement.",
+  "narrative_summary": "A developer who can no longer think without AI assistance uses Copilot to summarize the article about AI rotting developer brains, confirming the thesis in real time while their colleague despairs in a doomsday bunker.",
+  "rationale": "Candidate 5 earns its laughs structurally \u2014 using Copilot to summarize the article about AI rotting brains is a self-demonstrating joke that proves the thesis in real time, which is a genuinely fresh angle none of the others attempt. The closing beat (asking Copilot how to write a for-loop) doesn't restate the setup but escalates it, and the escape-tunnel button gag adds a visual payoff that feels earned rather than tacked on.",
   "image_filename": "comic_2026-05-14.png",
-  "story_title": "Use the Claude Agent SDK with Your Claude Plan",
-  "story_url": "https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan",
-  "place": "in a parking garage during an alien invasion",
+  "story_title": "Software Developers Say AI Is Rotting Their Brains",
+  "story_url": "https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/",
+  "place": "in a doomsday bunker",
   "hat_pair": [
-    "plague-doctor beaked hat",
-    "foam shark-fin hat"
+    "bucket hat with a tiny aquarium built into the brim",
+    "firefighter helmet with a tiny rubber chicken mounted on top"
   ],
   "no_news_mode": false
 }

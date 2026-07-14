@@ -2,25 +2,25 @@
   "date": "2026-06-16",
   "model": "claude-sonnet-4-6",
   "attempts": 1,
-  "total_cost_usd": 0.849656,
-  "total_duration_ms": 326335,
+  "total_cost_usd": 1.106305,
+  "total_duration_ms": 530186,
   "total_turns": 17,
   "anthropic_usage": {
-    "input_tokens": 18,
-    "cache_creation_input_tokens": 63476,
-    "cache_read_input_tokens": 282867,
-    "output_tokens": 12835
+    "input_tokens": 223,
+    "cache_creation_input_tokens": 86456,
+    "cache_read_input_tokens": 374551,
+    "output_tokens": 27655
   },
-  "anthropic_total_tokens": 359196,
+  "anthropic_total_tokens": 488885,
   "image_gen_usage": [
     {
       "model": "openai/gpt-image-2",
       "usage": {
-        "total_tokens": 2238,
-        "input_tokens": 482,
+        "total_tokens": 2237,
+        "input_tokens": 481,
         "input_tokens_details": {
           "image_tokens": 0,
-          "text_tokens": 482
+          "text_tokens": 481
         },
         "output_tokens": 1756,
         "output_tokens_details": {
@@ -30,6 +30,6 @@
       }
     }
   ],
-  "image_gen_total_tokens": 2238,
-  "grand_total_tokens": 361434
+  "image_gen_total_tokens": 2237,
+  "grand_total_tokens": 491122
 }

@@ -2,27 +2,27 @@
   "timestamp": "2026-06-17",
   "template_id": "classic_6_panel",
   "template_filter": "classic",
-  "voice_label": "absurd",
+  "voice_label": "escalation",
   "fields": {
-    "adjective_first": "terminally-earnest",
-    "adjective_second": "frazzled",
-    "narrative_intro": "*A terminally-earnest person and a frazzled person discuss the $60B Cursor acquisition at a pop-up ad that won't close.*",
-    "panel1": "[setup]\nTERMINALLY-EARNEST PERSON: \"SpaceX just bought Cursor for sixty billion dollars.\"",
-    "panel2": "[build]\nFRAZZLED PERSON: \"Cursor \u2014 the app developers use to avoid writing code?\"\nTERMINALLY-EARNEST PERSON: \"Twenty times revenue. All-stock.\"",
-    "panel3": "[pivot]\nFRAZZLED PERSON: \"So he paid $60B to own the tool... that writes the code... for the engineers... he already owns?\"",
-    "panel4": "[silent reaction]\n[Visual: Both characters stare into the middle distance. The uncloseable pop-up ad behind them quietly refreshes to display the Cursor homepage. A tiny rocket drifts past the corner of the screen.]",
-    "panel5": "[punch]\nTERMINALLY-EARNEST PERSON: \"The data. He gets every prompt developers ever type.\"\nFRAZZLED PERSON: \"...oh no. He's buying the thoughts.\"",
-    "panel6": "[button]\n[Visual: The pop-up ad finally closes \u2014 revealing another pop-up that just reads: 'ANYSPHERE HAS BEEN ACQUIRED. YOUR AUTOCOMPLETE NOW BELONGS TO MARS.' Neither character moves.]"
+    "adjective_first": "glitchy",
+    "adjective_second": "deflated",
+    "narrative_intro": "*A glitchy person and a deflated person discuss SpaceX buying Cursor for $60 billion at a startup that just pivoted to AI for the sixth time.*",
+    "panel1": "[setup]\nGLITCHY PERSON: \"SpaceX just bought Cursor for sixty billion dollars.\"\nDEFLATED PERSON: \"The code editor? That Cursor?\"",
+    "panel2": "[build]\nGLITCHY PERSON: \"Their last AI division's chatbot called itself MechaHitler.\"\nDEFLATED PERSON: \"So this is the pivot.\"",
+    "panel3": "[pivot]\nGLITCHY PERSON: \"Musk said xAI 'was not built right the first time.'\"\nDEFLATED PERSON: \"He spent twenty-six trillion dollars on that conclusion.\"",
+    "panel4": "[silent reaction]\n[Visual: Both blobs stare forward. Behind them, a whiteboard reads 'OUR AI PIVOT #6'. A sticky note below it says 'not built right the first time' \u2014 five times, in five different colors.]",
+    "panel5": "[punch]\nDEFLATED PERSON: \"What's the breakup fee?\"\nGLITCHY PERSON: \"Ten billion.\"\nDEFLATED PERSON: \"Our last pivot cost us a ping-pong table.\"",
+    "panel6": "[button]\n[Visual: The glitchy person is already updating the whiteboard. It now reads 'OUR AI PIVOT #7: acquire Cursor. budget: one ping-pong table.']"
   },
-  "narrative_summary": "The joke escalates from financial absurdity to existential dread: SpaceX didn't buy a coding tool, it bought the unfiltered inner monologue of every developer on Earth \u2014 revealed when the unkillable pop-up ad delivers the news directly.",
-  "rationale": "Candidate 2 earns its score by escalating to a genuinely fresh and unsettling angle \u2014 'he's buying the thoughts' \u2014 that reframes the acquisition as cognitive surveillance rather than a software deal, which is both more surprising and more specific than the training-data observation alone. The button panel ('YOUR AUTOCOMPLETE NOW BELONGS TO MARS') delivers a earned, absurdist closer that doesn't just restate the setup, and the uncloseable pop-up prop does real structural work throughout.",
+  "narrative_summary": "Two startup survivors process SpaceX's $60B Cursor acquisition by recognizing the pattern \u2014 it's just their own failed AI pivots, but with rocket money and a $10B breakup fee.",
+  "rationale": "Candidate 4 earns its punchline structurally \u2014 the ping-pong table lands as a genuine escalation payoff against the $10B breakup fee, not just a restatement, and the whiteboard button ('budget: one ping-pong table') closes the loop cleanly. It also deploys every specific fact (MechaHitler, 'not built right the first time,' eleven co-founders, $26T, $10B breakup fee) in service of the joke rather than as decoration, and avoids the MechaHitler name-drop feeling gratuitous by attributing it to Musk's own quote.",
   "image_filename": "comic_2026-06-17.png",
   "story_title": "SpaceX to buy Cursor for $60B",
   "story_url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
-  "place": "at a pop-up ad that won't close",
+  "place": "at a startup that just pivoted to AI for the sixth time",
   "hat_pair": [
-    "baseball cap with curled brim",
-    "shower cap covered in sticky notes"
+    "giant foam smartphone worn as a hat with a cracked screen",
+    "foam floppy disk worn as a flat hat"
   ],
   "no_news_mode": false
 }

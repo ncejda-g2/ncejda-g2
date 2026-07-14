@@ -1,22 +1,28 @@
 {
   "timestamp": "2026-06-18",
-  "template_id": "anakin_padme",
-  "template_filter": "meme",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
   "voice_label": "specific",
   "fields": {
-    "panel1_dialog": "Revenue more than tripled to $13 billion in 2025!",
-    "panel2_dialog": "So the losses got smaller too...right?",
-    "panel4_dialog": "...$20.92 billion in losses...right?"
+    "adjective_first": "nerdy",
+    "adjective_second": "deflated",
+    "narrative_intro": "*A nerdy person and a deflated person discuss Midjourney Medical at a robot comedian's open mic night.*",
+    "panel1": "[setup]\nNERDY PERSON: \"Midjourney built a full-body scanner with 100,000 sensors.\"\nDEFLATED PERSON: \"Finally, affordable healthcare.\"",
+    "panel2": "[build]\nNERDY PERSON: \"Whole body scan under one minute. Virtually free. Higher quality than MRI.\"\nDEFLATED PERSON: \"I'm booking one right now.\"",
+    "panel3": "[pivot]\nNERDY PERSON: \"The prototype is held together with hardware-store clamps.\"\nDEFLATED PERSON: \"...the machine, or the clinical evidence?\"",
+    "panel4": "[silent reaction]\n[Visual: The deflated person stares into the middle distance, phone frozen mid-booking. The nerdy person slowly places a copy of 'Bad Blood: The Theranos Story' on the mic stand. A single spotlight flickers overhead.]",
+    "panel5": "[punch]\nDEFLATED PERSON: \"Did they say 'spa session?'\"\nNERDY PERSON: \"You can get a scan with your hot stone massage.\"",
+    "panel6": "[button]\n[Visual: A rendered concept video plays on a screen behind them \u2014 a gleaming chrome ring. Below it, in tiny letters: 'Not actual product. Clamps sold separately.']"
   },
-  "narrative_summary": "The joke hinges on the gut-punch that tripling revenue somehow coincided with OpenAI nearly tripling its operating losses to $20.92B, turning the good news into a trap.",
-  "rationale": "Candidates 3 and 4 tie on total, but Candidate 3 edges it out because embedding '$20.92 billion in losses' directly into the silent Panel 4 transforms the Anakin-stare beat into a specific gut-punch rather than a generic reversal \u2014 the number does the comedic heavy lifting that Panel 4 is designed to carry. Candidate 4 is nearly identical but 'this year' is slightly vaguer than '2025,' making Candidate 3 the tighter execution.",
+  "narrative_summary": "A nerdy audience member pitches Midjourney Medical to a deflated skeptic at open mic night, building from genuine excitement to Theranos dread via the detail that the prototype is held together with hardware-store clamps and optionally offered as a spa add-on.",
+  "rationale": "Candidate 3 earns its score by landing the sharpest pivot line in the batch \u2014 'the machine, or the clinical evidence?' \u2014 which reframes the clamp detail as a double-edged joke about both hardware and proof, something none of the others achieve. The 'Clamps sold separately' button is a genuine earned closer rather than a restatement, and the Bad Blood prop in panel 4 adds a specific, visual layer that rewards attentive readers without over-explaining the Theranos reference.",
   "image_filename": "comic_2026-06-18.png",
-  "story_title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
-  "story_url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
-  "place": "at a pop-up ad that won't close",
+  "story_title": "Midjourney Medical",
+  "story_url": "https://www.midjourney.com/medical/blogpost",
+  "place": "at a robot comedian's open mic night",
   "hat_pair": [
-    "helmet made entirely of rubber ducks",
-    "knight's plume helmet"
+    "foam satellite dish worn as a hat with a tiny blinking antenna",
+    "beret tilted dramatically"
   ],
   "no_news_mode": false
 }

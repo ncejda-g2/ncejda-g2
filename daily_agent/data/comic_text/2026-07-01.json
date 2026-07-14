@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-07-01",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "caption": "you can't be mad about paying $5/M for Opus / if Sonnet 5 already closes the gap for $2/M"
+  },
+  "narrative_summary": "The joke is that Opus 4.8 buyers outsmarted themselves \u2014 Roll Safe logic applied to the real price gap between Sonnet 5 ($2/M) and Opus ($5/M) with benchmarks nearly identical.",
+  "rationale": "Candidate 3 earns its punchline with real numbers ($5/M vs $2/M) and a genuine insight \u2014 Opus buyers got quietly undercut by a cheaper model closing the benchmark gap \u2014 which is exactly the Roll Safe tautological-logic shape. The specificity does the comedic heavy lifting that the other candidates leave vague.",
+  "image_filename": "comic_2026-07-01.png",
+  "story_title": "Introducing Claude Sonnet 5",
+  "story_url": "https://www.anthropic.com/news/claude-sonnet-5",
+  "place": "at a congressional hearing about AI",
+  "hat_pair": [
+    "hard hat covered entirely in sticky notes reading URGENT",
+    "knight's plume helmet"
+  ],
+  "no_news_mode": false
+}

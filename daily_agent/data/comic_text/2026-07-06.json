@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-07-06",
+  "template_id": "same_picture",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "paper_left": "GPT-5.6 Sol Ultra: subagents collaborating mid-task",
+    "paper_right": "gpt-4 plus 'use subagents proactively' in the system prompt"
+  },
+  "narrative_summary": "The joke deflates the hype of 'Ultra' mode by revealing it's essentially one extra instruction line in a prompt, making it a textbook 'same picture' repackaging gag.",
+  "rationale": "Candidate 4 earns the highest punchline score because swapping 'base model + one line' for the specific callback to 'gpt-4' sharpens the absurdity \u2014 it implies the Ultra tier isn't even a new model, just an old one with a sticky note. The surprise bump comes from that unexpected downgrade framing, which lands harder than the others' neutral restatements.",
+  "image_filename": "comic_2026-07-06.png",
+  "story_title": "GPT-5.6 Sol Ultra will be in Codex",
+  "story_url": "https://twitter.com/thsottiaux/status/2073933490513752151",
+  "place": "in an IKEA after closing",
+  "hat_pair": [
+    "foam pineapple crown worn as a tall hat",
+    "bucket hat with googly eyes all over it"
+  ],
+  "no_news_mode": false
+}

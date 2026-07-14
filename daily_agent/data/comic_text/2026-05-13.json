@@ -1,22 +1,21 @@
 {
   "timestamp": "2026-05-13",
-  "template_id": "anakin_padme",
+  "template_id": "trade_offer",
   "template_filter": "meme",
   "voice_label": "specific",
   "fields": {
-    "panel1_dialog": "The Magic Pointer turns 'This' and 'That' into commands \u2014 no typing!",
-    "panel2_dialog": "So it's not constantly tracking everywhere my cursor hovers... right?",
-    "panel4_dialog": "...right?"
+    "i_receive": "every pixel your cursor touches, fed to gemini",
+    "you_receive": "you can say 'fix this' instead of typing"
   },
-  "narrative_summary": "Google's own evangelist framing \u2014 'just point at stuff!' \u2014 gets deflated by the immediate, obvious privacy horror that sparked the 'Don't hijack my mouse pointer' backlash the same day.",
-  "rationale": "Candidate 3 earns the specificity point by quoting Google's actual branded name 'Magic Pointer' and the real product framing 'This' and 'That' (capitalized as in the blog), while also nodding to the documented 'Don't hijack my mouse pointer' backlash \u2014 grounding the joke in real-world reaction rather than generic surveillance anxiety. The template fit is ideal and the deadpan silence of panel 3 does the heavy lifting the others all share, but the extra specificity detail gives it the edge.",
+  "narrative_summary": "Google's AI pointer deal is framed as a comically lopsided trade: Google vacuums up everything under your cursor via Gemini surveillance while you get the convenience of a two-word voice command.",
+  "rationale": "Candidate 3 earns the specificity point by naming Gemini directly in the trade offer itself rather than burying it in the summary, making the surveillance joke land with a concrete target. The 'instead of typing' closer is marginally crisper than 'at a pdf' because it highlights the laziness exchange rather than just the absurdity of the medium.",
   "image_filename": "comic_2026-05-13.png",
   "story_title": "Reimagining the mouse pointer for the AI era",
   "story_url": "https://deepmind.google/blog/ai-pointer/",
-  "place": "in a burning server room during a performance review",
+  "place": "inside a chatbot's context window that's almost full",
   "hat_pair": [
-    "party cone hat with chinstrap",
-    "construction hard hat"
+    "baseball cap with curled brim",
+    "bucket hat with a tiny aquarium built into the brim"
   ],
   "no_news_mode": false
 }

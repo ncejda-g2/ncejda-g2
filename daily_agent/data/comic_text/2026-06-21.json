@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-06-21",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "panel1_dialog": "Claude programmed a robodog 20x faster than our entire human team.",
+    "panel2_dialog": "...it still needed a human to plug in the laptop, right?",
+    "panel4_dialog": "...right?"
+  },
+  "narrative_summary": "The joke highlights that Claude Opus 4.7 autonomously crushed every task 20x faster with 10x less code, but the punchline is that the one remaining human job is literally just plugging in a laptop \u2014 and even that sounds precarious.",
+  "rationale": "Candidate 3 earns its punchline by landing on the single most absurd specific detail \u2014 a human's only remaining job is literally plugging in a laptop \u2014 which is both funnier and more precise than the generic 'did we automate ourselves out?' framing that candidates 4 and 5 recycle. The Anakin/Padme template fits perfectly because the escalating dread is baked into the structure, and '...right?' hits harder when the implied answer is 'no, and also that job sounds precarious.'",
+  "image_filename": "comic_2026-06-21.png",
+  "story_title": "Project Fetch: Phase Two",
+  "story_url": "https://www.anthropic.com/research/project-fetch-phase-two",
+  "place": "in a metaverse that has no users",
+  "hat_pair": [
+    "bucket hat with googly eyes all over it",
+    "party cone hat with chinstrap"
+  ],
+  "no_news_mode": false
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-17",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "scatterbrained",
+    "adjective_second": "melodramatic",
+    "narrative_intro": "*A scatterbrained person and a melodramatic person discuss 600 billion OpenAI tokens in a submarine running out of oxygen.*",
+    "panel1": "[setup]\nSCATTERBRAINED PERSON: \"I generated 8,826 commits in thirty days.\"\nMELODRAMATIC PERSON: \"Across how many repos?\"",
+    "panel2": "[build]\nSCATTERBRAINED PERSON: \"Ninety-four. Cost $1.3 million in tokens.\"\nMELODRAMATIC PERSON: \"You SPENT $1.3 million?!\"",
+    "panel3": "[pivot]\nSCATTERBRAINED PERSON: \"No, I work at OpenAI now. It was free.\"\nMELODRAMATIC PERSON: \"...Free.\"",
+    "panel4": "[silent reaction]\n[Visual: The melodramatic person's eyes go completely flat. A single oxygen warning light blinks red. A Post-it on the wall reads 'HN comment: productive output or token-burning theater?' The scatterbrained person is already opening a new terminal.]",
+    "panel5": "[punch]\nMELODRAMATIC PERSON: \"We are running out of oxygen down here.\"\nSCATTERBRAINED PERSON: \"Committing a fix now. Eighty-three files changed.\"",
+    "panel6": "[button]\n[Visual: The submarine dashboard shows one new GitHub notification: 'OpenClaw v0.0.4,891 released \u2014 faster than humans can assess.']"
+  },
+  "narrative_summary": "The joke is that Peter's $1.3M token bonfire only registers as absurd when compared to a submarine slowly suffocating \u2014 and even then he's already shipping commits about it.",
+  "rationale": "Candidate 5 earns its punchline by turning the submarine's oxygen crisis into a direct straight-line for the scatterbrained person's compulsive committing \u2014 'Committing a fix now. Eighty-three files changed.' is a genuinely earned beat, not a restatement. The button panel's version number joke ('v0.0.4,891') is the most specific and surprising closing gag of the set, landing the 'faster than humans can assess' HN skepticism without spelling it out.",
+  "image_filename": "comic_2026-05-17.png",
+  "story_title": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days",
+  "story_url": "https://twitter.com/steipete/status/2055346265869721905",
+  "place": "in a submarine running out of oxygen",
+  "hat_pair": [
+    "giant foam brain worn as a hat",
+    "hockey goalie mask painted to look like a shocked emoji face"
+  ],
+  "no_news_mode": false
+}

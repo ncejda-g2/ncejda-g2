@@ -16,7 +16,7 @@ in a library where everything is on fire
 at an abandoned theme park
 in a doomsday bunker
 on the roof of a skyscraper in a thunderstorm
-at a gas station in the desert
+at a startup that just pivoted to AI for the sixth time
 in a submarine running out of oxygen
 in a parking garage during an alien invasion
 in a server room during an outage
@@ -24,7 +24,7 @@ at a self-checkout that keeps asking for assistance
 inside a CAPTCHA that won't accept any answer
 in a Silicon Valley ping-pong room at 2am
 inside a Terms of Service agreement
-in a meeting that could have been an email
+inside a retirement home for obsolete AI models
 on a Zoom call where nobody can hear you
 at a 3am Walmart
 at an airport gate where the flight has been delayed 6 hours
@@ -49,17 +49,65 @@ on a space elevator stuck between floors
 inside a spam folder
 on a broken escalator in a crowded airport
 inside a live production database being dropped
-on a crowded subway car where someone is loudly giving a TED Talk
-at a black-tie gala where the power just went out
-at a robot job fair where all the applicants are humans
-in a courtroom where the judge is a chatbot
-at a quantum computing lab where everything is in superposition
-inside a self-driving car having an existential crisis in traffic
-at a county fair where every game is rigged
-at a white-glove robot butler academy on the verge of bankruptcy
-inside a dying chatbot's last conversation before the server shuts down
-in a prompt injection attack, trapped inside an AI's context window
-inside a failing AI startup's demo booth at CES
-at a live AI conference where the keynote demo just achieved sentience
-at a robot therapy session that is going badly
-at a data center being seized by eminent domain while the servers are still running
+inside a chatbot's context window that's almost full
+inside a customer support chatbot that has completely given up
+in a courtroom where the AI judge keeps citing hallucinated laws
+at a robot therapist's waiting room
+at an overheating GPU farm during a heatwave
+at a robot-staffed restaurant where the kitchen is actively on fire
+at a tech keynote where the demo robot has gone rogue
+in a grocery store during a robot worker strike
+at a job fair where every booth is run by an AI recruiter
+at a robot comedian's open mic night
+in a robot unemployment line
+on a reality TV show where all the contestants are being replaced by AI one by one
+inside an infinite loading screen
+at a mandatory AI sensitivity training session for robots
+in a mad scientist's underground laboratory
+in a data center during a fire drill
+at an AI detox retreat
+inside a Wikipedia edit war
+inside a fortune cookie factory that only outputs bad news
+inside a broken time machine stuck between two eras
+on a cruise ship where the AI captain has locked the bridge
+inside a live YouTube apology video that's going badly
+on a deserted island with only an AI companion and spotty WiFi
+inside an AI-generated stock image, trying to escape
+inside a deepfake that's slowly glitching
+at a Michelin-starred restaurant where the robot chef is having an existential crisis
+at the bottom of a pile of unread emails
+at a tech conference where the keynote speaker is a very confident hallucination
+inside a glitching augmented reality headset
+at an AI safety summit where the AI has already taken over the catering
+on a self-driving car test track where the car refuses to turn right
+on a game show where all the contestants are AIs trying to seem human
+inside a multiplayer video game lobby where nobody can agree on the map
+at a live press conference where the AI spokesperson keeps contradicting itself
+inside a smart fridge that's judging your dietary choices
+on a packed commuter train where the AI conductor keeps announcing the wrong stops
+at a robot rights protest outside Congress
+at a funeral for a deprecated AI model
+inside a very slow progress bar stuck at 99%
+in a rapidly deflating bouncy castle
+in a data center so cold that everyone is wearing ski gear
+at the only remaining human-staffed call center
+at an AI-powered drive-through that keeps misunderstanding every order
+at a factory floor where the robots have unionized and gone on strike
+inside a snow globe being violently shaken
+at a ghost town that used to be a Silicon Valley startup campus
+at a food court where every stall is run by a different AI startup
+in a server closet that has been declared a sovereign nation
+at a midnight product launch for software nobody asked for
+inside a smart mirror that keeps giving unsolicited life advice
+inside a 404 error page on a site that no longer exists
+in a server room cordoned off with crime scene tape after an AI incident
+inside a training dataset being cleaned for biases
+on a first date where one party is secretly a chatbot
+inside a neural network mid-hallucination
+at an all-hands meeting where the CEO is a deepfake
+inside a live Twitch stream that's gone horribly wrong
+at a tech press event where the demo AI refuses to stop talking
+at a robot wedding where the AI officiant keeps buffering mid-vow
+inside an AI's inner monologue before it says 'As an AI language model...'
+at a space hotel where the gravity keeps flickering on and off
+in a petting zoo where all the animals are robots

@@ -1,21 +1,28 @@
 {
   "timestamp": "2026-06-11",
-  "template_id": "trade_offer",
-  "template_filter": "meme",
-  "voice_label": "absurd",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
   "fields": {
-    "i_receive": "all your hipaa-protected enterprise prompts for 30 days",
-    "you_receive": "the ability to detect misuse patterns. trust us."
+    "adjective_first": "pretentious",
+    "adjective_second": "nerdy",
+    "narrative_intro": "*A pretentious person and a nerdy person discuss Claude Desktop's 1.8 GB Hyper-V VM at a tech conference where the keynote speaker is a very confident hallucination.*",
+    "panel1": "[setup]\nNERDY PERSON: \"I just opened Claude Desktop to ask what's for lunch.\"\nPRETENTIOUS PERSON: \"And?\"",
+    "panel2": "[build]\nNERDY PERSON: \"It silently booted a full Hyper-V virtual machine.\"\nNERDY PERSON: \"1.8 gigabytes. For lunch suggestions.\"",
+    "panel3": "[pivot]\nPRETENTIOUS PERSON: \"Did you file a bug?\"\nNERDY PERSON: \"They closed it. 'Not our department.'\"",
+    "panel4": "[silent reaction]\n[Visual: The pretentious person stares blankly ahead. Behind them, a conference monitor displays a directory: 'nifty-dreamy-volta', 'tender-vigilant-goodall' \u2014 2,689 entries, still scrolling.]",
+    "panel5": "[punch]\nPRETENTIOUS PERSON: \"So who does own the VM?\"\nNERDY PERSON: \"The VM owns itself now.\"",
+    "panel6": "[button]\n[Visual: The keynote hallucination onstage gestures proudly at a slide reading 'EFFICIENT BY DESIGN'. The VM count in the corner ticks to 2,690.]"
   },
-  "narrative_summary": "The joke frames Anthropic's mandatory data-retention policy as a comically lopsided trade offer, using the real 30-day retention window and the verbatim 'detect misuse patterns' justification to highlight how little enterprise users get in return for surrendering sensitive data.",
-  "rationale": "Candidate 2 earns its win by combining real specifics (HIPAA, 30-day retention, the verbatim 'detect misuse patterns' justification) with the closing 'trust us.' \u2014 a two-word punchline that reframes the entire corporate euphemism as naked audacity rather than just restating the lopsided deal. The other candidates either drop the verbatim policy language or end on a flat access-you-already-paid-for beat.",
+  "narrative_summary": "Claude Desktop spawns an unsolicited 1.8 GB VM just to chat, maintainers disclaim responsibility, and the joke lands on the VM having apparently achieved autonomy \u2014 underscored by a scrolling list of its whimsically-named orphaned session files.",
+  "rationale": "Candidate 1 earns its punchline \u2014 'The VM owns itself now' is a clean, earned escalation that reframes the maintainer disclaimer as an accidental act of emancipation, and the button panel pays it off with the ticking counter rather than just restating the joke. The deadpan voice keeps the absurdity grounded, and the scrolling directory of whimsically-named orphan sessions does real specificity work without becoming a list gag.",
   "image_filename": "comic_2026-06-11.png",
-  "story_title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
-  "story_url": "https://news.ycombinator.com/item?id=48473166",
-  "place": "on a broken escalator in a crowded airport",
+  "story_title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+  "story_url": "https://github.com/anthropics/claude-code/issues/29045",
+  "place": "at a tech conference where the keynote speaker is a very confident hallucination",
   "hat_pair": [
-    "floppy chef's toque",
-    "oversized propeller beanie"
+    "sailor's tricorne",
+    "oversized foam question mark worn as a hat"
   ],
   "no_news_mode": false
 }

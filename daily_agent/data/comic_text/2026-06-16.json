@@ -4,17 +4,17 @@
   "template_filter": "meme",
   "voice_label": "deadpan",
   "fields": {
-    "caption": "you can't pay $100/month for Claude / if you spent $4,400 on dual RTX 3090s"
+    "caption": "you can't lose money on every dollar earned / if you spend $2.60 for every $1 you make"
   },
-  "narrative_summary": "The joke uses the Roll Safe logic to deadpan the developers' math: the 'savings' of ditching Claude require upfront hardware spend that takes 3.6 years to break even, so the smug self-defeating wisdom lands perfectly on the situation.",
-  "rationale": "Candidate 1 earns its score by weaponizing the Roll Safe template perfectly \u2014 the self-defeating logic IS the joke, and the exact numbers ($100/month, $4,400, 3.6 years) make the smug face land with surgical precision rather than vague irony. The punchline doesn't restate the setup; it completes a logical trap the reader walks into themselves.",
+  "narrative_summary": "The joke uses the Roll Safe 'big brain' format to reframe OpenAI's catastrophic $2.60-per-$1-earned burn rate as smug self-defeating logic, grounding the punchline in the specific financial ratio from the story.",
+  "rationale": "Candidate 1 earns its score by weaponizing the Roll Safe format perfectly \u2014 the template's smug self-defeating logic is an ideal vessel for the $2.60-per-$1 ratio, and the punchline doesn't just restate the setup but reframes catastrophic failure as a deliberate strategy. The specific financial ratio grounds it in the actual story while the format inversion (the 'smart' move is the dumb move) delivers genuine surprise.",
   "image_filename": "comic_2026-06-16.png",
-  "story_title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
-  "story_url": "https://news.ycombinator.com/item?id=48542100",
-  "place": "in a meeting that could have been an email",
+  "story_title": "OpenAI Losses Increased Nearly 8X in 2025, with Spending Hitting $34B",
+  "story_url": "https://www.wheresyoured.at/exclusive-openai-financials/",
+  "place": "in a live coding interview that has already gone off the rails",
   "hat_pair": [
-    "absurdly tall stovepipe top hat",
-    "snorkel mask worn as a hat with the tube pointing straight up"
+    "foam dartboard hat with a plastic dart stuck in the bullseye",
+    "giant foam CPU chip worn flat as a hat with heat sink fins poking up"
   ],
   "no_news_mode": false
 }

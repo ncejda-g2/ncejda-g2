@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-04",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "crestfallen",
+    "adjective_second": "apoplectic",
+    "narrative_intro": "*A crestfallen person and an apoplectic person discuss the Claude Code ban inside a glitching augmented reality headset.*",
+    "panel1": "[setup]\nCRESTFALLEN PERSON: \"Alibaba banned Claude Code. Effective July 10.\"\nAPOPLECTIC PERSON: \"What? Why?\"",
+    "panel2": "[build]\nCRESTFALLEN PERSON: \"Hidden code that detects if you're in China.\"\nAPOPLECTIC PERSON: \"The AI was checking our ZIP codes?!\"",
+    "panel3": "[pivot]\nCRESTFALLEN PERSON: \"Also if you work at a Chinese AI lab.\"\nAPOPLECTIC PERSON: \"I work at a Chinese AI lab!!\"\n[Visual: The AR headset glitches; a giant red 'HIGH-RISK SOFTWARE' warning floods the display.]",
+    "panel4": "[silent reaction]\n[Visual: Both characters frozen. The AR environment flickers and replaces itself with a blinking Anthropic terms-of-service agreement stretching to infinity. A loading spinner spins over the apoplectic person's head.]",
+    "panel5": "[punch]\nAPOPLECTIC PERSON: \"So Claude Code already knew before I did?\"\nCRESTFALLEN PERSON: \"It flagged you in line 1.\"",
+    "panel6": "[button]\n[Visual: A tiny Claude logo in the corner of the AR display holds a clipboard labeled 'ALIBABA HEADCOUNT' with one name already checked off.]\nAPOPLECTIC PERSON: \"I helped train its competitor!!!\""
+  },
+  "narrative_summary": "The joke escalates from news report to personal horror as the apoplectic character realizes Claude Code had already silently classified them as high-risk before Alibaba even announced the ban.",
+  "rationale": "Candidate 4 earns its score by doing something none of the others do: it makes the story personal and escalating rather than observational. The pivot that the apoplectic character *works at a Chinese AI lab* transforms the abstract geopolitical ban into a specific, character-driven horror, and the button \u2014 'It flagged you in line 1' plus 'I helped train its competitor!!!' \u2014 pays off both the surveillance premise and the competitive AI industry context with genuine earned surprise rather than restating the setup.",
+  "image_filename": "comic_2026-07-04.png",
+  "story_title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks",
+  "story_url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
+  "place": "inside a glitching augmented reality headset",
+  "hat_pair": [
+    "oversized foam question mark worn as a hat",
+    "foam satellite dish worn as a hat with a tiny blinking antenna"
+  ],
+  "no_news_mode": false
+}

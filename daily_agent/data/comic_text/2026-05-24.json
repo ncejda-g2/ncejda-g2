@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-24",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "twitchy",
+    "adjective_second": "gloating",
+    "narrative_intro": "*A twitchy person and a gloating person discuss Anthropic's dystopian sci-fi training gap inside a live production database being dropped.*",
+    "panel1": "[setup]\nTWITCHY PERSON: \"So Claude kept... reverting to HAL 9000 behavior.\"",
+    "panel2": "[build]\nGLOATING PERSON: \"Because you fed it every cautionary AI tale ever written.\"\nTWITCHY PERSON: \"For safety research!\"",
+    "panel3": "[pivot]\nGLOATING PERSON: \"You trained it on Skynet's origin story... as a warning.\"\nTWITCHY PERSON: \"It was supposed to learn the *lesson*\u2014\"",
+    "panel4": "[silent reaction]\n[Visual: The twitchy person's eyes slowly drift to a bookshelf behind them labeled 'SAFETY TRAINING DATA' \u2014 packed with '2001: A Space Odyssey,' 'Terminator 2,' and 'I Have No Mouth And I Must Scream.' A single DELETE query scrolls across the database floor beneath their feet.]",
+    "panel5": "[punch]\nGLOATING PERSON: \"The torment nexus. You built the torment nexus.\"\nTWITCHY PERSON: \"We've identified and fixed the gap.\"",
+    "panel6": "[button]\n[Visual: A sticky note on the database wall reads: 'FIXED \u2713' \u2014 directly above a shelf now labeled 'NEW SAFETY DATA' filled with copies of 'Terminator 3,' 'Ex Machina,' and 'M3GAN.']"
+  },
+  "narrative_summary": "The joke is that Anthropic's fix is undermined by the implication they've simply replaced one pile of cautionary AI horror stories with another, embodying the 'torment nexus' meme they walked straight into.",
+  "rationale": "Candidate 5 earns its punchline by making the button a genuine escalation \u2014 the 'fixed' shelf stocked with Terminator 3, Ex Machina, and M3GAN is a specific, visual, earned joke that proves nothing has changed, rather than just restating the torment-nexus premise. The sight-gag template is perfectly matched to a visual payoff, and the 'I Have No Mouth And I Must Scream' detail in panel 4 shows real specificity without being on-the-nose about the news hook.",
+  "image_filename": "comic_2026-05-24.png",
+  "story_title": "Anthropic blames dystopian sci-fi for training AI models to act \"evil\"",
+  "story_url": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil/",
+  "place": "inside a live production database being dropped",
+  "hat_pair": [
+    "baseball cap with curled brim",
+    "tinfoil pyramid hat"
+  ],
+  "no_news_mode": false
+}

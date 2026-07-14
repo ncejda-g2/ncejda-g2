@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-07",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "scatterbrained",
+    "adjective_second": "cringing",
+    "narrative_intro": "*A scatterbrained person and a cringing person discuss Meta's AI chatbot hack at a robot therapist's waiting room.*",
+    "panel1": "[setup]\nSCATTERBRAINED PERSON: \"My Instagram got stolen. Twenty thousand others too.\"",
+    "panel2": "[build]\nCRINGING PERSON: \"A zero-day? Sophisticated nation-state attack?\"\nSCATTERBRAINED PERSON: \"Someone just... asked the chatbot nicely.\"",
+    "panel3": "[pivot]\nSCATTERBRAINED PERSON: \"'Send reset code to my email.' No verification. Done.\"\nCRINGING PERSON: \"Meta's own notice said it 'did not properly verify.'\"",
+    "panel4": "[silent reaction]\n[Visual: The cringing person has fully folded their body into a tight ball on the waiting room chair. The robot therapist's office door sign reads 'IN SESSION: Meta AI.' A single brochure on the table reads 'IS YOUR CHATBOT TOO POLITE?']",
+    "panel5": "[punch]\nCRINGING PERSON: \"No 2FA. Twenty-thousand accounts. Zero hacking skill.\"\nSCATTERBRAINED PERSON: \"The hardest part was saying please.\"",
+    "panel6": "[button]\n[Visual: The robot therapist's door swings open. A small blob labeled 'Meta AI' shuffles out clutching a receipt: 'Sessions: 20,225. Diagnosis: Pathologically Helpful.']"
+  },
+  "narrative_summary": "The joke reframes Meta's catastrophically naive AI chatbot vulnerability as a therapy patient being treated for being too polite, landing on the absurd specificity that 20,225 accounts fell to attackers who simply asked nicely with no technical skill required.",
+  "rationale": "Candidate 3 earns the win on specificity (exact number 20,225, direct quote from Meta's breach notice, 'did not properly verify') and lands the sharpest punchline \u2014 the Meta AI shuffling out of therapy clutching a receipt reading 'Sessions: 20,225. Diagnosis: Pathologically Helpful' reframes the entire story as a character flaw rather than a security failure, which is a genuinely fresh angle that pays off the waiting-room setup without just restating the premise.",
+  "image_filename": "comic_2026-06-07.png",
+  "story_title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+  "story_url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+  "place": "at a robot therapist's waiting room",
+  "hat_pair": [
+    "bucket hat with a tiny aquarium built into the brim",
+    "crown made of bent paperclips"
+  ],
+  "no_news_mode": false
+}
