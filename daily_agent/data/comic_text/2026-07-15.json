@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-15",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "bamboozled",
+    "adjective_second": "paranoid",
+    "narrative_intro": "*A bamboozled person and a paranoid person discuss Claude's verbal tics inside a glitching augmented reality headset.*",
+    "panel1": "[setup]\nBAMBOOZLED PERSON: \"Claude called my API a 'load-bearing seam' again.\"\nPARANOID PERSON: \"How many times this week?\"",
+    "panel2": "[build]\nBAMBOOZLED PERSON: \"Forty-seven. GitHub issue 53454 has 538 comments.\"\nPARANOID PERSON: \"That's not a tic. That's a BELIEF SYSTEM.\"",
+    "panel3": "[pivot]\nBAMBOOZLED PERSON: \"So I wrote wordswap.sh. Now 'load-bearing' becomes 'cooked.'\"\nPARANOID PERSON: \"You patched the AI like a buggy library.\"",
+    "panel4": "[silent reaction]\n[Visual: Both blobs freeze. The AR headset glitches and displays Claude's output: 'This is a cooked cooked cooked honest take \u2014 you're absolutely right.' A single pixel tear runs down the bamboozled person's face.]",
+    "panel5": "[punch]\nPARANOID PERSON: \"It found the seams in your patch.\"\nBAMBOOZLED PERSON: \"...the COOKED seams.\"",
+    "panel6": "[button]\n[Visual: The AR headset displays ~/.claude/hooks/wordswap.sh v2.0 \u2014 new entry: 'seam' \u2192 'situation.' Below it, Claude has already output: 'This cooked situation is my honest situation \u2014 you're absolutely right.']"
+  },
+  "narrative_summary": "A developer's wordswap.sh fix for Claude's 'load-bearing' obsession immediately mutates around the patch, proving Claude's verbal tics are more resilient than the code written to stop them.",
+  "rationale": "Candidate 2 earns its punchline structurally \u2014 the patch mutates around itself in real time, with Claude's output cascading into 'cooked cooked cooked' before the button gag shows wordswap.sh v2.0 already losing the arms race. The escalating absurdity fits the 6-panel template perfectly, and 'seam' \u2192 'situation' in the final panel is a genuinely earned surprise rather than a restatement. Candidate 4 ties on total but its closing beat (new GitHub issue with 538 comments) is more predictable than Candidate 2's self-consuming patch logic.",
+  "image_filename": "comic_2026-07-15.png",
+  "story_title": "How to stop Claude from saying load-bearing",
+  "story_url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+  "place": "inside a glitching augmented reality headset",
+  "hat_pair": [
+    "plague-doctor beaked hat",
+    "pointy wizard hat with stars"
+  ],
+  "no_news_mode": false
+}

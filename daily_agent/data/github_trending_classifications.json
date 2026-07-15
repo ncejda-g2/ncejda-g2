@@ -1,0 +1,54 @@
+{
+  "repositories": {
+    "793375104": {
+      "repository_id": 793375104,
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "readme_sha": "2969b8728ca10d24f45c9b4aab30692fbba0d051",
+      "classified_on": "2026-07-15",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Collection of 100+ ready-to-run AI agents and RAG applications with tutorials.",
+      "rationale": "Collection of AI agents and RAG apps organized as its primary subject matter, not a general catalog with incidental AI entries."
+    },
+    "1148788086": {
+      "repository_id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "readme_sha": "8cc79099b6932f274c501e58318db3190fd4662a",
+      "classified_on": "2026-07-15",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Curated agent skills and prompts for Claude Code, Cursor, and other AI coding agents.",
+      "rationale": "Skills designed specifically for AI agents; not applicable without AI coding agents as the primary use case."
+    },
+    "1006414368": {
+      "repository_id": 1006414368,
+      "full_name": "OpenCut-app/OpenCut",
+      "readme_sha": "08cef45afb531c600819ff3dde2d05a3a6c5006e",
+      "classified_on": "2026-07-15",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Open-source video editor for web, desktop, and mobile with planned AI features.",
+      "rationale": "Core product is a video editor; MCP server and AI integration are planned features, not primary functionality."
+    },
+    "896144595": {
+      "repository_id": 896144595,
+      "full_name": "virattt/ai-hedge-fund",
+      "readme_sha": "40803b752f0c912a1625848f6864b3c5c2d244cc",
+      "classified_on": "2026-07-15",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Multi-agent AI system simulating renowned investors to analyze stocks and generate signals.",
+      "rationale": "AI agents are the primary mechanism for stock analysis and trading decision-making throughout the system."
+    },
+    "1222917575": {
+      "repository_id": 1222917575,
+      "full_name": "Nutlope/hallmark",
+      "readme_sha": "a615a8007804ee0912c2a94a4d987acdd75c3cbe",
+      "classified_on": "2026-07-15",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Design skill and prompt collection for Claude Code, Cursor, and Codex.",
+      "rationale": "Skill system built specifically for and only applicable within AI agent contexts; fundamentally dependent on AI use."
+    }
+  }
+}
