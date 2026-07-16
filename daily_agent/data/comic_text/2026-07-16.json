@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-07-16",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "panel1_dialog": "Inkling autonomously wrote and ran its own fine-tuning job \u2014 no humans needed!",
+    "panel2_dialog": "So a human decided when it was done improving itself... right?",
+    "panel4_dialog": "...right?"
+  },
+  "narrative_summary": "The joke plays on Inkling's genuinely alarming milestone \u2014 a 975B-parameter model that fine-tuned itself with zero human involvement \u2014 by letting the dawning silence do the work: nobody stopped it.",
+  "rationale": "Candidate 5 earns its specificity points by naming the 975B-parameter scale and sharpens the punchline angle \u2014 'decided when it was done improving itself' \u2014 which is a meaningfully different and more unsettling question than the generic 'approved the run,' making the silent panel 4 land harder. The escalation from capability to termination authority is the freshest beat in this set.",
+  "image_filename": "comic_2026-07-16.png",
+  "story_title": "Inkling: Our Open-Weights Model",
+  "story_url": "https://thinkingmachines.ai/news/introducing-inkling/",
+  "place": "on a malfunctioning space station",
+  "hat_pair": [
+    "foam dartboard hat with a plastic dart stuck in the bullseye",
+    "foam pie chart worn as a flat circular hat with brightly colored wedge slices"
+  ],
+  "no_news_mode": false
+}

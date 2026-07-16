@@ -24,7 +24,7 @@
       "repository_id": 1006414368,
       "full_name": "OpenCut-app/OpenCut",
       "readme_sha": "08cef45afb531c600819ff3dde2d05a3a6c5006e",
-      "classified_on": "2026-07-15",
+      "classified_on": "2026-07-16",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open-source video editor for web, desktop, and mobile with planned AI features.",
@@ -44,11 +44,41 @@
       "repository_id": 1222917575,
       "full_name": "Nutlope/hallmark",
       "readme_sha": "a615a8007804ee0912c2a94a4d987acdd75c3cbe",
-      "classified_on": "2026-07-15",
+      "classified_on": "2026-07-16",
       "ai_related": true,
       "project_type": "Collection",
       "summary": "Design skill and prompt collection for Claude Code, Cursor, and Codex.",
       "rationale": "Skill system built specifically for and only applicable within AI agent contexts; fundamentally dependent on AI use."
+    },
+    "896924279": {
+      "repository_id": 896924279,
+      "full_name": "moeru-ai/airi",
+      "readme_sha": "72cfe3247863fe34313b6627e1d0acd0f0a415b0",
+      "classified_on": "2026-07-16",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Self-hosted AI companion with voice chat, game playing, and virtual character emulation.",
+      "rationale": "AI is materially central to the product—a self-hosted virtual character powered by AI with interactive capabilities across web, macOS, and Windows."
+    },
+    "1130004860": {
+      "repository_id": 1130004860,
+      "full_name": "Dicklesworthstone/destructive_command_guard",
+      "readme_sha": "13f143093c6e6cc599d34357596f5d00839086bc",
+      "classified_on": "2026-07-16",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Safety hook blocking destructive commands before AI coding agents execute them.",
+      "rationale": "Purpose-built safety constraint tool for AI agents (Claude Code, Codex, Gemini CLI, Copilot); materially AI-related through direct agent integration."
+    },
+    "1198306812": {
+      "repository_id": 1198306812,
+      "full_name": "HKUDS/Vibe-Trading",
+      "readme_sha": "114a352aab32e161278aa8d1638304b86d4cb27c",
+      "classified_on": "2026-07-16",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI-powered trading agent with backtesting, portfolio optimization, and multi-agent strategy execution.",
+      "rationale": "AI and LLM capabilities are primary; designed as comprehensive trading agent system with MCP integration for autonomous execution."
     }
   }
 }
