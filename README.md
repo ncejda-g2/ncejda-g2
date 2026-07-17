@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 216 (2026-07-16)
+# 📰 The AI Newspaper — Day 217 (2026-07-17)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Inkling: Our Open-Weights Model](https://thinkingmachines.ai/news/introducing-inkling/) | Model Release | 975B open-weights MoE model from Thinking Machines Lab | 907 | [907](https://news.ycombinator.com/item?id=48924912) |
-| 2 | [Grok Build is open source](https://github.com/xai-org/grok-build) | Open Source Tool | xAI releases Grok's build system as open source | 400 | [400](https://news.ycombinator.com/item?id=48926590) |
-| 3 | [Why I Left Google DeepMind](https://turntrout.com/why-i-left-google-deepmind) | Palace Intrigue | Researcher publicly explains departure from DeepMind | 320 | [320](https://news.ycombinator.com/item?id=48925271) |
-| 4 | [Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU](https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/) | Infrastructure | 26B model runs on decade-old server hardware without GPU | 274 | [274](https://news.ycombinator.com/item?id=48922434) |
-| 5 | [OpenAI loses trademark dispute at EU court](https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/) | Palace Intrigue | EU court rules against OpenAI in trademark battle | 233 | [233](https://news.ycombinator.com/item?id=48921461) |
-| 6 | [The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence](https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence) | Research Paper | AI voice cloning enables identity fraud in under 3 seconds | 171 | [171](https://news.ycombinator.com/item?id=48920432) |
-| 7 | [Governments, companies, nonprofits should invest in free, open source AI](https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf) | Research Paper | David Siegel makes the case for public investment in open AI | 161 | [161](https://news.ycombinator.com/item?id=48927095) |
-| 8 | [Open-source memory for coding agents, synced over SSH](https://github.com/vshulcz/deja-vu/) | Dev Tooling | Persistent shared memory layer for coding agents via SSH | 120 | [120](https://news.ycombinator.com/item?id=48923111) |
-| 9 | [DSLs Enable Reliable Use of LLMs](https://martinfowler.com/articles/llm-and-dsls.html) | Research Paper | Martin Fowler argues DSLs constrain LLM output for reliability | 114 | [114](https://news.ycombinator.com/item?id=48918575) |
-| 10 | [Societal Impacts: Claude's values across models and languages](https://www.anthropic.com/research/claude-values-models-languages) | Research Paper | Anthropic studies how Claude values shift across languages | 32 | [32](https://news.ycombinator.com/item?id=48918956) |
+| 1 | [Kimi K3: Open Frontier Intelligence](https://www.kimi.com/blog/kimi-k3) | Model Release | World's first open 3T-class MoE model from Moonshot AI | 1505 | [1505](https://news.ycombinator.com/item?id=48935342) |
+| 2 | [At least 105 past YC founders have worked at OpenAI and Anthropic](https://joinedanthropic.com) | Palace Intrigue | YC alumni pipeline into top AI labs revealed | 296 | [296](https://news.ycombinator.com/item?id=48931588) |
+| 3 | [NotebookLM is now Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/) | Model Release | Google rebrands NotebookLM under the Gemini brand | 293 | [293](https://news.ycombinator.com/item?id=48936451) |
+| 4 | [$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol](https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6) | Research Paper | Head-to-head AI creative benchmark on a $100 budget | 229 | [229](https://news.ycombinator.com/item?id=48939524) |
+| 5 | [LM Studio Bionic: the AI agent for open models](https://lmstudio.ai/blog/introducing-lm-studio-bionic) | Dev Tooling | LM Studio launches autonomous agent layer for local models | 226 | [226](https://news.ycombinator.com/item?id=48939662) |
+| 6 | [The LLM Critics Are Right. I Use LLMs Anyway](https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/) | Research Paper | Dev admits LLM critics are correct but uses them anyway | 213 | [213](https://news.ycombinator.com/item?id=48933310) |
+| 7 | [Detecting LLM-Generated Texts with "Classical" Machine Learning](https://blog.lyc8503.net/en/post/llm-classifier/) | Research Paper | Classical ML outperforms neural nets at detecting AI text | 187 | [187](https://news.ycombinator.com/item?id=48936880) |
+| 8 | [The human-in-the-loop is tired](https://pydantic.dev/articles/the-human-in-the-loop-is-tired) | Research Paper | Pydantic argues agents need less human approval overhead | 161 | [161](https://news.ycombinator.com/item?id=48942000) |
+| 9 | [German AI consortium releases Soofi S, an open 30B model that tops benchmarks](https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/) | Model Release | German open 30B model tops English and German benchmarks | 133 | [133](https://news.ycombinator.com/item?id=48937756) |
+| 10 | [Generative AI Is an Engineering Disaster](https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/) | Research Paper | The Atlantic argues GenAI creates more chaos than value | 104 | [104](https://news.ycombinator.com/item?id=48934046) |
 
 ---
 
@@ -23,7 +23,7 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red) | OpenAI | Research | Jul 15 |
+| 1 | [Create, edit and star in videos with two Google Vids updates](https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/) | Google AI | Model Release | Jul 16 |
 
 ---
 
@@ -33,27 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [skills](https://github.com/mattpocock/skills) | 170,957 | +2,130 today | #3 | 2 days |
-| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 121,232 | +1,236 today | #11 | 2 days |
+| [hallmark](https://github.com/Nutlope/hallmark) | 9,466 | +3,372 today | #2 | 3 days |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 121,232 | +923 today | #8 | 3 days |
+| [skills](https://github.com/mattpocock/skills) | 170,957 | +2,060 today | #12 | 3 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [hallmark](https://github.com/Nutlope/hallmark) | Design skill and prompt collection for Claude Code, Cursor, and Codex. | 9,466 | +1,277 today | Daily #2 | N/A |
-| [airi](https://github.com/moeru-ai/airi) | Self-hosted AI companion with voice chat, game playing, and virtual character emulation. | 42,661 | +110 today | Daily #4 | N/A |
-| [destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | Safety hook blocking destructive commands before AI coding agents execute them. | 4,883 | +471 today | Daily #5 | N/A |
+| [ossie](https://github.com/apache/ossie) | Vendor-neutral specification standardizing semantic metadata exchange across analytics, AI, and BI platforms. | 1,039 | +60 today | Daily #1 | N/A |
+| [posthog](https://github.com/PostHog/posthog) | Analytics platform with AI observability and self-driving mode for autonomous product optimization. | 35,964 | +77 today | Daily #4 | N/A |
+| [openinterpreter](https://github.com/openinterpreter/openinterpreter) | Terminal coding agent for low-cost language models with sandboxing and tool integration. | 66,115 | +661 today | Daily #5 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-16.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-17.png" width="400" alt="Today's comic strip">
 
-_Based on: [Inkling: Our Open-Weights Model](https://thinkingmachines.ai/news/introducing-inkling/)_
+_Based on: [Kimi K3: Open Frontier Intelligence](https://www.kimi.com/blog/kimi-k3)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 216 | Last updated: 2026-07-16*
+*Day 217 | Last updated: 2026-07-17*

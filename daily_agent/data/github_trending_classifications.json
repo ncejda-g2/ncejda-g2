@@ -24,7 +24,7 @@
       "repository_id": 1006414368,
       "full_name": "OpenCut-app/OpenCut",
       "readme_sha": "08cef45afb531c600819ff3dde2d05a3a6c5006e",
-      "classified_on": "2026-07-16",
+      "classified_on": "2026-07-17",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open-source video editor for web, desktop, and mobile with planned AI features.",
@@ -79,6 +79,46 @@
       "project_type": "Application",
       "summary": "AI-powered trading agent with backtesting, portfolio optimization, and multi-agent strategy execution.",
       "rationale": "AI and LLM capabilities are primary; designed as comprehensive trading agent system with MCP integration for autonomous execution."
+    },
+    "1099382137": {
+      "repository_id": 1099382137,
+      "full_name": "apache/ossie",
+      "readme_sha": "eee15c8a96db1024639d1a042485c96c59781265",
+      "classified_on": "2026-07-17",
+      "ai_related": true,
+      "project_type": "Research",
+      "summary": "Vendor-neutral specification standardizing semantic metadata exchange across analytics, AI, and BI platforms.",
+      "rationale": "Explicitly addresses AI agents as a primary stakeholder platform type; solves AI-specific reliability issues where inconsistent semantic metadata causes unreliable agent outputs."
+    },
+    "235901813": {
+      "repository_id": 235901813,
+      "full_name": "PostHog/posthog",
+      "readme_sha": "8e59b34910283d70b2d0c55b6bfd39472a9f24f3",
+      "classified_on": "2026-07-17",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Analytics platform with AI observability and self-driving mode for autonomous product optimization.",
+      "rationale": "Self-driving AI agent mode is a headline differentiator; AI observability is a core feature for LLM-powered applications; primary positioning emphasizes autonomous agent capabilities."
+    },
+    "666299222": {
+      "repository_id": 666299222,
+      "full_name": "openinterpreter/openinterpreter",
+      "readme_sha": "244ced9667e38eb104c43de8da69ec804042118a",
+      "classified_on": "2026-07-17",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Terminal coding agent for low-cost language models with sandboxing and tool integration.",
+      "rationale": "Explicitly a coding agent designed for AI language models; core product is agent-based code execution with tool calling and multi-harness support."
+    },
+    "1191984666": {
+      "repository_id": 1191984666,
+      "full_name": "PrismML-Eng/Bonsai-demo",
+      "readme_sha": "eb4025246c7abc40bec68db45373c00912d92a58",
+      "classified_on": "2026-07-17",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Demo for running quantized Bonsai and Ternary-Bonsai language models on local hardware.",
+      "rationale": "Demo repository for efficient language models; directly about AI model inference and deployment; includes vision-language models and agentic tool calling capabilities."
     }
   }
 }

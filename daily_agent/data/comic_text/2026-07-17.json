@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-07-17",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "caption": "you can't trail frontier models overall / if you tie GPT on GPQA and beat Claude on BrowseComp"
+  },
+  "narrative_summary": "Moonshot AI's Kimi K3 uses smug tautological logic to sidestep its own admission that it 'still trails' frontier models \u2014 by pointing to the specific benchmarks where it doesn't.",
+  "rationale": "Candidate 4 earns its punchline by naming actual benchmarks (GPQA, BrowseComp) and specific rivals (GPT, Claude), making the cherry-picking accusation land with receipts rather than vague gestures. The Roll Safe template is a perfect fit for tautological self-serving logic, and the closing beat escalates rather than just restating the setup.",
+  "image_filename": "comic_2026-07-17.png",
+  "story_title": "Kimi K3: Open Frontier Intelligence",
+  "story_url": "https://www.kimi.com/blog/kimi-k3",
+  "place": "at a robot-staffed restaurant where the kitchen is actively on fire",
+  "hat_pair": [
+    "traffic warden's peaked cap with parking tickets stuffed around the brim",
+    "firefighter helmet with a tiny rubber chicken mounted on top"
+  ],
+  "no_news_mode": false
+}

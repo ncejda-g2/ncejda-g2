@@ -113,3 +113,4 @@ at a space hotel where the gravity keeps flickering on and off
 in a petting zoo where all the animals are robots
 at a talent show where every act is an AI doing impressions
 inside a live benchmark leaderboard that keeps rearranging itself mid-presentation
+in a simulation that just realized it's a simulation

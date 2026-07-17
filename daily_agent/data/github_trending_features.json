@@ -41,6 +41,27 @@
       "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
       "total_stars": 4883,
       "last_full_featured": "2026-07-16"
+    },
+    "1099382137": {
+      "repository_id": 1099382137,
+      "full_name": "apache/ossie",
+      "url": "https://github.com/apache/ossie",
+      "total_stars": 1039,
+      "last_full_featured": "2026-07-17"
+    },
+    "235901813": {
+      "repository_id": 235901813,
+      "full_name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "total_stars": 35964,
+      "last_full_featured": "2026-07-17"
+    },
+    "666299222": {
+      "repository_id": 666299222,
+      "full_name": "openinterpreter/openinterpreter",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "total_stars": 66115,
+      "last_full_featured": "2026-07-17"
     }
   }
 }
