@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-07-18",
+  "template_id": "this_is_fine",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "caption": "kaggle's $25k 'measure agi progress' contest won by prompt injection and 'completely wrong' graphs"
+  },
+  "narrative_summary": "The joke frames Kaggle and Google DeepMind calmly sitting in a burning room \u2014 the very competition designed to rigorously track humanity's race to AGI was gamed by nonsensical graphs, 'vibe-research,' and literal prompt injection code that hijacked the AI judges.",
+  "rationale": "Candidate 3 earns the highest score by naming real, specific details \u2014 'completely wrong' graphs, vibe-research, and prompt injection \u2014 while the This Is Fine template genuinely fits the shape of the joke: authoritative institutions (Kaggle, Google DeepMind) sitting calmly in a self-inflicted disaster. The caption closes with a real punchline rather than just restating the setup, because the irony of a rigorous AGI-measurement contest being gamed by nonsense is the burn, not just the fact that it was gamed.",
+  "image_filename": "comic_2026-07-18.png",
+  "story_title": "Evidence of inconsistencies in evaluation process and selection of winners",
+  "story_url": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
+  "place": "at a stock exchange trading floor during a market crash",
+  "hat_pair": [
+    "chef's toque overflowing with tangled plastic noodles",
+    "foam graduation cap with a tiny diploma scroll taped to the top"
+  ],
+  "no_news_mode": false
+}

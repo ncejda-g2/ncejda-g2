@@ -113,12 +113,52 @@
     "1191984666": {
       "repository_id": 1191984666,
       "full_name": "PrismML-Eng/Bonsai-demo",
-      "readme_sha": "eb4025246c7abc40bec68db45373c00912d92a58",
-      "classified_on": "2026-07-17",
+      "readme_sha": "bd61e907bc5cf6b511b3b600f3348e1760c550bc",
+      "classified_on": "2026-07-18",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Demo for running quantized Bonsai and Ternary-Bonsai language models on local hardware.",
-      "rationale": "Demo repository for efficient language models; directly about AI model inference and deployment; includes vision-language models and agentic tool calling capabilities."
+      "summary": "Demo application for running quantized Bonsai language models locally with vision and tool support.",
+      "rationale": "Application for deploying AI language models; provides runnable reference implementation for Bonsai family of LLMs across hardware platforms with agentic tool-calling capabilities."
+    },
+    "132750724": {
+      "repository_id": 132750724,
+      "full_name": "codecrafters-io/build-your-own-x",
+      "readme_sha": "9a553c729b29bc69296d7092fc1c314c2c811bad",
+      "classified_on": "2026-07-18",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "A curated collection of step-by-step tutorials for recreating favorite technologies from scratch.",
+      "rationale": "General-purpose programming tutorial collection with sections spanning 3D renderers, databases, blockchains, games, and more. AI topics (models, neural networks, visual recognition) are minority entries; the collection is organized by technology category, not by AI."
+    },
+    "1149023093": {
+      "repository_id": 1149023093,
+      "full_name": "HenryNdubuaku/maths-cs-ai-compendium",
+      "readme_sha": "7eb1dd1baf0436eec63728fe0cbf6438c1ffd219",
+      "classified_on": "2026-07-18",
+      "ai_related": true,
+      "project_type": "Research",
+      "summary": "Comprehensive open textbook for AI/ML research engineers covering mathematics, computing, and AI fundamentals.",
+      "rationale": "Educational resource explicitly organized around AI/ML research with dedicated chapters on deep learning, NLP, computer vision, multimodal learning, autonomous systems, and inference. Includes MCP server for AI assistant integration."
+    },
+    "1133883850": {
+      "repository_id": 1133883850,
+      "full_name": "github/copilot-sdk",
+      "readme_sha": "43ff70debd60c1b4c0a0bb5b919ce48d43e72e6f",
+      "classified_on": "2026-07-18",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Multi-language SDK for embedding GitHub Copilot agentic AI workflows into applications and services.",
+      "rationale": "Library providing programmatic access to Copilot's production-tested agent runtime; core functionality is AI-driven agent orchestration, planning, and tool invocation across six languages."
+    },
+    "1230498812": {
+      "repository_id": 1230498812,
+      "full_name": "anthropics/cwc-workshops",
+      "readme_sha": "1af101a2834a1fe0b56a83615afa6fb0a873af87",
+      "classified_on": "2026-07-18",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Workshop materials and guides for building production AI agent systems with Claude Managed Agents.",
+      "rationale": "Instructional collection focused specifically on building AI agents with Anthropic's Claude, covering multi-agent composition, memory, evals, and production deployment patterns."
     }
   }
 }
