@@ -114,4 +114,5 @@ in a petting zoo where all the animals are robots
 at a talent show where every act is an AI doing impressions
 inside a live benchmark leaderboard that keeps rearranging itself mid-presentation
 in a simulation that just realized it's a simulation
+in a museum of obsolete technology where every exhibit is convinced it's still cutting-edge
 in a shopping mall where every store has been replaced by an AI startup

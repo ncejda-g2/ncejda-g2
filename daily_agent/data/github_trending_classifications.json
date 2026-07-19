@@ -159,6 +159,56 @@
       "project_type": "Collection",
       "summary": "Workshop materials and guides for building production AI agent systems with Claude Managed Agents.",
       "rationale": "Instructional collection focused specifically on building AI agents with Anthropic's Claude, covering multi-agent composition, memory, evals, and production deployment patterns."
+    },
+    "1211752857": {
+      "repository_id": 1211752857,
+      "full_name": "Robbyant/lingbot-map",
+      "readme_sha": "0c1852b2cdb529883af2266955b0113221e34b69",
+      "classified_on": "2026-07-19",
+      "ai_related": true,
+      "project_type": "Model",
+      "summary": "Feed-forward 3D foundation model using geometric transformers for streaming scene reconstruction from video.",
+      "rationale": "A published 3D foundation model with novel Geometric Context Transformer architecture for real-time scene reconstruction. Includes pre-trained weights, research paper, and streaming inference optimization."
+    },
+    "1129930192": {
+      "repository_id": 1129930192,
+      "full_name": "ibelick/ui-skills",
+      "readme_sha": "62613c1b3a096fd90696996f187144978990bf87",
+      "classified_on": "2026-07-19",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "UI design skills and patterns collection for design engineers with CLI-based routing and selection.",
+      "rationale": "A design patterns and UI skills collection for design engineers. While it mentions routing agents, the collection itself is organized around design patterns and UI components, not AI systems."
+    },
+    "1185590488": {
+      "repository_id": 1185590488,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "readme_sha": "41930075ea42f18629e225ea730df406d5cf5b99",
+      "classified_on": "2026-07-19",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Five-hundred-three-lesson AI curriculum spanning math foundations through autonomous systems and swarms.",
+      "rationale": "Comprehensive structured curriculum covering AI from mathematics through transformers, LLMs, agents, and multi-agent systems. Each lesson produces reusable artifacts: prompts, skills, agents, and MCP servers."
+    },
+    "1167788341": {
+      "repository_id": 1167788341,
+      "full_name": "tirth8205/code-review-graph",
+      "readme_sha": "0b1d91c943bc37e97716475df1c1f1ec9320f435",
+      "classified_on": "2026-07-19",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Local-first code intelligence graph and MCP server optimizing context for AI code review tools.",
+      "rationale": "Explicitly designed as an MCP server that reduces token context for AI coding assistants (Claude, Cursor, etc.) using structural code analysis and incremental graph updates, with benchmarked 38x–528x token reduction."
+    },
+    "1191904384": {
+      "repository_id": 1191904384,
+      "full_name": "elder-plinius/G0DM0D3",
+      "readme_sha": "57cc00c1bdb9641f756ac1819b244e4522293042",
+      "classified_on": "2026-07-19",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Multi-model AI chat interface supporting sixty-plus models with red-teaming and comparative evaluation.",
+      "rationale": "A chat interface for red teaming and cognition research supporting 60+ OpenRouter models, local models, and Venice. Includes multi-model racing, adversarial perturbation engine, and sampling parameter optimization."
     }
   }
 }

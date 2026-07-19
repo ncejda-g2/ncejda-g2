@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 218 (2026-07-18)
+# 📰 The AI Newspaper — Day 219 (2026-07-19)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Kaiser nurses say AI, workplace surveillance are making their jobs, care worse](https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/) | Palace Intrigue | Hospital AI surveillance blamed for worse nurse outcomes | 473 | [473](https://news.ycombinator.com/item?id=48952880) |
-| 2 | [Evidence of inconsistencies in evaluation process and selection of winners](https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423) | Research Paper | Kaggle AGI measurement competition rocked by vibe-research scandal | 455 | [455](https://news.ycombinator.com/item?id=48946010) |
-| 3 | [The state of open source AI](https://stateofopensource.ai/) | Research Paper | Open-closed capability gap narrows to 3.3%; Chinese models dominate token volume | 414 | [414](https://news.ycombinator.com/item?id=48947825) |
-| 4 | [Apple targets dozens of OpenAI employees with legal letters](https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166) | Palace Intrigue | Apple sends retention letters to ex-employees now at OpenAI | 387 | [387](https://news.ycombinator.com/item?id=48946303) |
-| 5 | [Kimi K3, and what we can still learn from the pelican benchmark](https://simonwillison.net/2026/Jul/16/kimi-k3/) | Research Paper | Simon Willison unpacks Kimi K3's benchmark performance and limitations | 316 | [316](https://news.ycombinator.com/item?id=48947717) |
-| 6 | [Claude Code: Anatomy of a Misfeature](https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature/) | Dev Tooling | Developer dissects a Claude Code behavior that backfires in practice | 136 | [136](https://news.ycombinator.com/item?id=48947776) |
-| 7 | [VulnHunter: Capital One's agentic AI code security tool](https://www.capitalone.com/tech/open-source/announcing-vulnhunter/) | Dev Tooling | Capital One open-sources agentic AI tool for automated code vulnerability scanning | 67 | [67](https://news.ycombinator.com/item?id=48946692) |
-| 8 | [The Isomorphic Labs Drug Design Engine unlocks a new frontier beyond AlphaFold](https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier) | Research Paper | IsoDDE achieves 2x AlphaFold 3 accuracy on protein-ligand generalization benchmark | 66 | [66](https://news.ycombinator.com/item?id=48953406) |
-| 9 | [Everybody's Weirded Out by AI–Except the People Who Foist It on Us](https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us) | Research Paper | Opinion: AI adopters are oddly comfortable with what everyone else finds unsettling | 63 | [63](https://news.ycombinator.com/item?id=48952445) |
-| 10 | [Meta in Talks to Lease Computing Power to Anthropic in Potential $10B Deal](https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html) | Infrastructure | Meta and Anthropic negotiating landmark $10B AI compute lease agreement | 28 | [28](https://news.ycombinator.com/item?id=48949290) |
+| 1 | [GPT-5.6 used a prompt to close a 30-year gap in convex optimization](https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/) | Research Paper | GPT-5.6 closes 30-year convex optimization lower bound gap | 549 | [549](https://news.ycombinator.com/item?id=48957779) |
+| 2 | [Mayor Mamdani Says Landlords Can't Use AI Images to Advertise](https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/) | Palace Intrigue | NYC bans AI-generated images in property listings | 430 | [430](https://news.ycombinator.com/item?id=48962983) |
+| 3 | [Why do AI company logos look like buttholes? (2025)](https://velvetshark.com/ai-company-logos-that-look-like-buttholes) | Palace Intrigue | Essay skewers AI company logos' circular design choices | 422 | [422](https://news.ycombinator.com/item?id=48956924) |
+| 4 | [What AI did to stackoverflow in a graph](https://data.stackexchange.com/stackoverflow/query/1953768#graph) | Research Paper | Graph shows Stack Overflow traffic collapse from AI | 399 | [399](https://news.ycombinator.com/item?id=48956949) |
+| 5 | [Transcribe.cpp](https://workshop.cjpais.com/projects/transcribe-cpp) | Open Source Tool | Open-source C++ real-time audio transcription tool | 397 | [397](https://news.ycombinator.com/item?id=48963879) |
+| 6 | [The Kimi K3 Moment](https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/) | Model Release | Commentary on Kimi K3's significance as a frontier model | 334 | [334](https://news.ycombinator.com/item?id=48960218) |
+| 7 | [Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?](https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/) | Research Paper | Benchmarking Fable 5 vs GPT-5.6 on NP-hard problems | 233 | [233](https://news.ycombinator.com/item?id=48956879) |
+| 8 | [Setting up your spare Mac for Claude Code to control, a step-by-step guide](https://ykdojo.github.io/claude-controls-mac/) | Dev Tooling | Step-by-step guide to Claude Code Mac control setup | 218 | [218](https://news.ycombinator.com/item?id=48959392) |
+| 9 | [AI Mania Is Eviscerating Global Decision-Making](https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3) | Palace Intrigue | Essay argues AI hype is corrupting global governance | 166 | [166](https://news.ycombinator.com/item?id=48964185) |
+| 10 | [Codex Resets](https://codex-resets.com/) | Dev Tooling | Community tracker for Codex weekly quota resets | 141 | [141](https://news.ycombinator.com/item?id=48963465) |
 
 ---
 
@@ -31,28 +31,27 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [posthog](https://github.com/PostHog/posthog) | 35,964 | +438 today | #2 | 2 days |
-| [hallmark](https://github.com/Nutlope/hallmark) | 9,466 | +1,485 today | #4 | 4 days |
-| [openinterpreter](https://github.com/openinterpreter/openinterpreter) | 66,115 | +431 today | #11 | 3 days |
+| [ossie](https://github.com/apache/ossie) | 1,039 | +47 today | #2 | 1 days |
+| [posthog](https://github.com/PostHog/posthog) | 35,964 | +338 today | #3 | 3 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | Comprehensive open textbook for AI/ML research engineers covering mathematics, computing, and AI fundamentals. | 6,758 | +200 today | Daily #3 | [HN commenters reported finding it genuinely helpful for relearning math and CS.](https://news.ycombinator.com/item?id=47036063) |
-| [copilot-sdk](https://github.com/github/copilot-sdk) | Multi-language SDK for embedding GitHub Copilot agentic AI workflows into applications and services. | 9,834 | +233 today | Daily #5 | N/A |
-| [cwc-workshops](https://github.com/anthropics/cwc-workshops) | Workshop materials and guides for building production AI agent systems with Claude Managed Agents. | 1,642 | +45 today | Daily #6 | N/A |
+| [lingbot-map](https://github.com/Robbyant/lingbot-map) | Feed-forward 3D foundation model using geometric transformers for streaming scene reconstruction from video. | 13,172 | +831 today | Daily #1 | [One commenter questioned missing hardware specifications for the reported FPS benchmark.](https://news.ycombinator.com/item?id=47930170) |
+| [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | Five-hundred-three-lesson AI curriculum spanning math foundations through autonomous systems and swarms. | 39,237 | +191 today | Daily #5 | N/A |
+| [code-review-graph](https://github.com/tirth8205/code-review-graph) | Local-first code intelligence graph and MCP server optimizing context for AI code review tools. | 20,328 | +355 today | Daily #6 | [One commenter reported installation failure with the recommended Claude-based setup.](https://news.ycombinator.com/item?id=47314090) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-18.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-19.png" width="400" alt="Today's comic strip">
 
-_Based on: [Evidence of inconsistencies in evaluation process and selection of winners](https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423)_
+_Based on: [GPT-5.6 used a prompt to close a 30-year gap in convex optimization](https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 218 | Last updated: 2026-07-18*
+*Day 219 | Last updated: 2026-07-19*

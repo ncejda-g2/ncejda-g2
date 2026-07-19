@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-07-19",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_caption": "GPT-5.4 fails at 30-year-old math problem",
+    "panel2_caption": "GPT-5.5 also fails at 30-year-old math problem",
+    "panel3_caption": "GPT-5.6 solves it in 148 minutes using materials already in the prompt",
+    "panel4_caption": "the answer was in the prompt the whole time, like it's been since 1979"
+  },
+  "narrative_summary": "The joke escalates from two years of AI failure to a 148-minute triumph, then lands on the tragicomic kicker that the key construction \u2014 max of affine functions \u2014 was already sitting in the prompt, mirroring how the math world had the pieces since Nemirovsky & Yudin and just needed the right contractor.",
+  "rationale": "Candidate 4 earns its punchline by closing the loop explicitly \u2014 the answer was in the prompt 'like it's been since 1979,' which ties the AI hype story back to Nemirovsky & Yudin and reframes the whole 30-year gap as a retrieval problem, not a discovery. The expanding-brain template is a perfect fit for an escalation that deflates at the top rather than inflating, and the specificity (GPT-5.4, 5.5, 5.6, 148 minutes, 1979) grounds every beat in the actual story.",
+  "image_filename": "comic_2026-07-19.png",
+  "story_title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+  "story_url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+  "place": "inside a Terms of Service agreement",
+  "hat_pair": [
+    "construction hard hat",
+    "dragonscale helm with smoke puffing out of tiny nostril-holes"
+  ],
+  "no_news_mode": false
+}

@@ -1,0 +1,489 @@
+{
+  "date": "2026-07-19",
+  "daily": [
+    {
+      "repository_id": 1211752857,
+      "full_name": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "rank": 1,
+      "language": "Python",
+      "period_stars": 831,
+      "total_stars": 13172,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1099382137,
+      "full_name": "apache/ossie",
+      "url": "https://github.com/apache/ossie",
+      "rank": 2,
+      "language": "Python",
+      "period_stars": 47,
+      "total_stars": 1039,
+      "ai_related": null
+    },
+    {
+      "repository_id": 235901813,
+      "full_name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "rank": 3,
+      "language": "Python",
+      "period_stars": 338,
+      "total_stars": 35964,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1129930192,
+      "full_name": "ibelick/ui-skills",
+      "url": "https://github.com/ibelick/ui-skills",
+      "rank": 4,
+      "language": "TypeScript",
+      "period_stars": 123,
+      "total_stars": 5198,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1185590488,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "rank": 5,
+      "language": "Python",
+      "period_stars": 191,
+      "total_stars": 39237,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1167788341,
+      "full_name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "rank": 6,
+      "language": "Python",
+      "period_stars": 355,
+      "total_stars": 20328,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1191904384,
+      "full_name": "elder-plinius/G0DM0D3",
+      "url": "https://github.com/elder-plinius/G0DM0D3",
+      "rank": 7,
+      "language": "TypeScript",
+      "period_stars": 69,
+      "total_stars": 9578,
+      "ai_related": true
+    },
+    {
+      "repository_id": null,
+      "full_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "rank": 8,
+      "language": "Jupyter Notebook",
+      "period_stars": 161,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "rank": 9,
+      "language": "TypeScript",
+      "period_stars": 203,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 132750724,
+      "full_name": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "rank": 10,
+      "language": "Markdown",
+      "period_stars": 1126,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "rank": 11,
+      "language": "Python",
+      "period_stars": 65,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ],
+  "weekly": [
+    {
+      "repository_id": 1222917575,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "rank": 1,
+      "language": "CSS",
+      "period_stars": 8834,
+      "total_stars": 9466,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1006414368,
+      "full_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "rank": 2,
+      "language": "TypeScript",
+      "period_stars": 13319,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 793375104,
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "rank": 3,
+      "language": "Python",
+      "period_stars": 6146,
+      "total_stars": 121232,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1198306812,
+      "full_name": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "rank": 4,
+      "language": "Python",
+      "period_stars": 5635,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "rank": 5,
+      "language": "Python",
+      "period_stars": 2154,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "rank": 6,
+      "language": "C#",
+      "period_stars": 4284,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "rank": 7,
+      "language": "Shell",
+      "period_stars": 11131,
+      "total_stars": 170957,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "kangarooking/cangjie-skill",
+      "url": "https://github.com/kangarooking/cangjie-skill",
+      "rank": 8,
+      "language": "Python",
+      "period_stars": 1224,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "rank": 9,
+      "language": "TypeScript",
+      "period_stars": 908,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "rank": 10,
+      "language": "Rust",
+      "period_stars": 2268,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 666299222,
+      "full_name": "openinterpreter/openinterpreter",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "rank": 11,
+      "language": "Rust",
+      "period_stars": 2344,
+      "total_stars": 66115,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "abseil/abseil-cpp",
+      "url": "https://github.com/abseil/abseil-cpp",
+      "rank": 12,
+      "language": "C++",
+      "period_stars": 481,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "rank": 13,
+      "language": "TypeScript",
+      "period_stars": 5520,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "ibelick/ui-skills",
+      "url": "https://github.com/ibelick/ui-skills",
+      "rank": 14,
+      "language": "TypeScript",
+      "period_stars": 1098,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "rank": 15,
+      "language": "Python",
+      "period_stars": 8611,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ],
+  "monthly": [
+    {
+      "repository_id": null,
+      "full_name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "rank": 1,
+      "language": "Python",
+      "period_stars": 34238,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "rank": 2,
+      "language": "TypeScript",
+      "period_stars": 20359,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "rank": 3,
+      "language": "C",
+      "period_stars": 26274,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "kunchenguid/no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "rank": 4,
+      "language": "Go",
+      "period_stars": 5133,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "rank": 5,
+      "language": "Python",
+      "period_stars": 16680,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "rank": 6,
+      "language": "JavaScript",
+      "period_stars": 15830,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "rank": 7,
+      "language": "TypeScript",
+      "period_stars": 16476,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "rank": 8,
+      "language": "Rust",
+      "period_stars": 11853,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "rank": 9,
+      "language": "Rust",
+      "period_stars": 12829,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "rank": 10,
+      "language": "TypeScript",
+      "period_stars": 12279,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "rank": 11,
+      "language": "TypeScript",
+      "period_stars": 8603,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "interviewstreet/hiring-agent",
+      "url": "https://github.com/interviewstreet/hiring-agent",
+      "rank": 12,
+      "language": "Python",
+      "period_stars": 5026,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "rank": 13,
+      "language": "Python",
+      "period_stars": 24089,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "ocornut/imgui",
+      "url": "https://github.com/ocornut/imgui",
+      "rank": 14,
+      "language": "C++",
+      "period_stars": 1028,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "rank": 15,
+      "language": "Haskell",
+      "period_stars": 7708,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "gabime/spdlog",
+      "url": "https://github.com/gabime/spdlog",
+      "rank": 16,
+      "language": "C++",
+      "period_stars": 404,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "rank": 17,
+      "language": "C#",
+      "period_stars": 11955,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "rank": 18,
+      "language": "TypeScript",
+      "period_stars": 2431,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1222917575,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "rank": 19,
+      "language": "CSS",
+      "period_stars": 9504,
+      "total_stars": 9466,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1006414368,
+      "full_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "rank": 20,
+      "language": "TypeScript",
+      "period_stars": 18667,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "rank": 21,
+      "language": "Python",
+      "period_stars": 10408,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "rank": 22,
+      "language": "Python",
+      "period_stars": 6923,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ]
+}

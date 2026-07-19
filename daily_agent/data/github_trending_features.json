@@ -83,6 +83,27 @@
       "url": "https://github.com/anthropics/cwc-workshops",
       "total_stars": 1642,
       "last_full_featured": "2026-07-18"
+    },
+    "1211752857": {
+      "repository_id": 1211752857,
+      "full_name": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "total_stars": 13172,
+      "last_full_featured": "2026-07-19"
+    },
+    "1185590488": {
+      "repository_id": 1185590488,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "total_stars": 39237,
+      "last_full_featured": "2026-07-19"
+    },
+    "1167788341": {
+      "repository_id": 1167788341,
+      "full_name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "total_stars": 20328,
+      "last_full_featured": "2026-07-19"
     }
   }
 }
