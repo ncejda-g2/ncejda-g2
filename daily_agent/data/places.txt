@@ -116,3 +116,4 @@ inside a live benchmark leaderboard that keeps rearranging itself mid-presentati
 in a simulation that just realized it's a simulation
 in a museum of obsolete technology where every exhibit is convinced it's still cutting-edge
 in a shopping mall where every store has been replaced by an AI startup
+inside a quantum computer's cooling chamber

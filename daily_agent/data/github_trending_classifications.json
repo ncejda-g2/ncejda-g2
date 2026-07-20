@@ -209,6 +209,56 @@
       "project_type": "Application",
       "summary": "Multi-model AI chat interface supporting sixty-plus models with red-teaming and comparative evaluation.",
       "rationale": "A chat interface for red teaming and cognition research supporting 60+ OpenRouter models, local models, and Venice. Includes multi-model racing, adversarial perturbation engine, and sampling parameter optimization."
+    },
+    "1053118194": {
+      "repository_id": 1053118194,
+      "full_name": "bojieli/ai-agent-book",
+      "readme_sha": "e35072de5cb68ef8f0efc439cc6beb1fba62572e",
+      "classified_on": "2026-07-20",
+      "ai_related": true,
+      "project_type": "Repository",
+      "summary": "Open-source book on AI agent design with full chapters and accompanying implementation code.",
+      "rationale": "Book explicitly organized around AI agent architecture, engineering principles, and practices; includes 10 chapters on agents, context engineering, memory, tools, multi-agent systems, and reinforcement learning."
+    },
+    "833984877": {
+      "repository_id": 833984877,
+      "full_name": "kvcache-ai/ktransformers",
+      "readme_sha": "819dda00ec4029f00bc6522bc7dd7499cc4ed807",
+      "classified_on": "2026-07-20",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Framework optimizing CPU-GPU heterogeneous inference and fine-tuning of large language models.",
+      "rationale": "Core function is LLM inference acceleration through specialized kernels, quantization, and heterogeneous scheduling; includes SFT integration with LLaMA-Factory."
+    },
+    "1141782198": {
+      "repository_id": 1141782198,
+      "full_name": "jamiepine/voicebox",
+      "readme_sha": "34ef1c0c8d37ea17406bac396bffe7b8ae6b83e3",
+      "classified_on": "2026-07-20",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Open-source desktop voice studio for AI speech synthesis, cloning, dictation, and agent voice I/O.",
+      "rationale": "Complete voice I/O stack built on multiple AI models (7 TTS engines, Whisper STT, voice cloning); primary product material is AI-powered speech generation and recognition."
+    },
+    "1208642537": {
+      "repository_id": 1208642537,
+      "full_name": "KnockOutEZ/wigolo",
+      "readme_sha": "1b9928b771c8ed5a4695b1d5253010a78e226711",
+      "classified_on": "2026-07-20",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Web research MCP server providing local-first search, crawl, fetch, and extraction for AI agents.",
+      "rationale": "Designed as agent-specific tool with MCP integration; organizes web intelligence capabilities (search, RAG, research) around enabling autonomous agent workflows."
+    },
+    "1130053320": {
+      "repository_id": 1130053320,
+      "full_name": "andrewrabert/jellium-desktop",
+      "readme_sha": "316e1ad0d49d57ca9486bd82444914a10866dae1",
+      "classified_on": "2026-07-20",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Unofficial desktop media client for Jellyfin streaming servers using CEF and mpv.",
+      "rationale": "General-purpose media player client; no AI component or integration material to primary product functionality."
     }
   }
 }

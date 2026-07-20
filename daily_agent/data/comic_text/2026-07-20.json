@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-20",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "wild-eyed",
+    "adjective_second": "sweaty",
+    "narrative_intro": "*A wild-eyed person and a sweaty person discuss the Jacobian Conjecture in a parking garage during an alien invasion.*",
+    "panel1": "[setup]\nWILD-EYED PERSON: \"Claude Fable just disproved the Jacobian Conjecture.\"\nSWEATY PERSON: \"The 87-year-old one?\"",
+    "panel2": "[build]\nWILD-EYED PERSON: \"Three points. One output. Jacobian still negative two.\"\nSWEATY PERSON: \"That's... that's impossible.\"",
+    "panel3": "[pivot]\nWILD-EYED PERSON: \"Dixmier Conjecture probably falls too. As a corollary.\"\nSWEATY PERSON: \"As a COROLLARY?!\"",
+    "panel4": "[silent reaction]\n[Visual: Both figures stand frozen mid-gesture. An alien invasion beam silently vaporizes the parking garage roof above them. Neither looks up.]",
+    "panel5": "[punch]\nSWEATY PERSON: \"Has it been peer-reviewed?\"\nWILD-EYED PERSON: \"The aliens landed six minutes ago.\"",
+    "panel6": "[button]\n[Visual: A passing alien examines a printout of F: \u2102\u00b3\u2192\u2102\u00b3 and drops its ray gun, visibly unsettled.]"
+  },
+  "narrative_summary": "Two people in a parking garage are so floored by Claude Fable's Jacobian Conjecture counterexample that an alien invasion happening simultaneously barely registers \u2014 until an alien reads the polynomial map and has its own existential crisis.",
+  "rationale": "Candidate 2 earns its tie-breaking edge on punchline: 'The aliens landed six minutes ago' is a genuinely surprising non-sequitur answer to a straight question, recontextualizing the entire strip in one line rather than restating the setup. The alien dropping its ray gun at the polynomial map is a clean visual button that pays off the absurdist premise without over-explaining it.",
+  "image_filename": "comic_2026-07-20.png",
+  "story_title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+  "story_url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+  "place": "in a parking garage during an alien invasion",
+  "hat_pair": [
+    "foam cactus hat with pink plastic flowers on top",
+    "foam crown made of tangled ethernet cables"
+  ],
+  "no_news_mode": false
+}

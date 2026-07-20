@@ -104,6 +104,27 @@
       "url": "https://github.com/tirth8205/code-review-graph",
       "total_stars": 20328,
       "last_full_featured": "2026-07-19"
+    },
+    "1053118194": {
+      "repository_id": 1053118194,
+      "full_name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "total_stars": 7902,
+      "last_full_featured": "2026-07-20"
+    },
+    "833984877": {
+      "repository_id": 833984877,
+      "full_name": "kvcache-ai/ktransformers",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "total_stars": 18520,
+      "last_full_featured": "2026-07-20"
+    },
+    "1141782198": {
+      "repository_id": 1141782198,
+      "full_name": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "total_stars": 43673,
+      "last_full_featured": "2026-07-20"
     }
   }
 }
