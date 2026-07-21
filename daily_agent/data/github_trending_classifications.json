@@ -259,6 +259,56 @@
       "project_type": "Application",
       "summary": "Unofficial desktop media client for Jellyfin streaming servers using CEF and mpv.",
       "rationale": "General-purpose media player client; no AI component or integration material to primary product functionality."
+    },
+    "1128204614": {
+      "repository_id": 1128204614,
+      "full_name": "1jehuang/jcode",
+      "readme_sha": "fc24a36269661c8257e031332926e624c890b738",
+      "classified_on": "2026-07-21",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Terminal-based AI coding agent harness enabling multi-session workflows with memory persistence.",
+      "rationale": "AI agent harness is primary product; directly material to code generation and agent orchestration workflows."
+    },
+    "1157102282": {
+      "repository_id": 1157102282,
+      "full_name": "diegosouzapw/OmniRoute",
+      "readme_sha": "ef4ff24677f96b30cc4cdc348ba8eac2174538b6",
+      "classified_on": "2026-07-21",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Unified AI gateway providing single endpoint access to 270+ providers and 500+ models.",
+      "rationale": "Entire product organized around aggregating and routing to AI models; AI infrastructure is the core purpose."
+    },
+    "1075372545": {
+      "repository_id": 1075372545,
+      "full_name": "msitarzewski/agency-agents",
+      "readme_sha": "b9758df639424d9582ba8ccd36187041f1691e80",
+      "classified_on": "2026-07-21",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Curated collection of specialized AI agent personas for diverse professional domains and roles.",
+      "rationale": "Explicitly organized as curated AI agent skill collection; agent personalities and prompts are primary content."
+    },
+    "679343504": {
+      "repository_id": 679343504,
+      "full_name": "topoteretes/cognee",
+      "readme_sha": "75c99f5c213627b540b663d042c781c89ea3a91c",
+      "classified_on": "2026-07-21",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Open-source AI memory platform providing agents persistent knowledge graphs and long-term recall.",
+      "rationale": "Framework designed specifically as AI agent memory infrastructure; persistent agent context is organizing principle."
+    },
+    "1168753718": {
+      "repository_id": 1168753718,
+      "full_name": "every-app/open-seo",
+      "readme_sha": "7c9f5e5adb8ac9932f9166f092ba2308b3bb5391",
+      "classified_on": "2026-07-21",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Open-source SEO analysis tool offering keyword research, backlink analysis, and rank tracking.",
+      "rationale": "Primary product is SEO-focused; MCP and agent skills are integration features, not core organizing principle."
     }
   }
 }

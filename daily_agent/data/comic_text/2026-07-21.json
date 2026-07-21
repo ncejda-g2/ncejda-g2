@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-21",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "flabbergasted",
+    "adjective_second": "fuming",
+    "narrative_intro": "*A flabbergasted person and a fuming person discuss US AI strategy inside a customer support chatbot that has completely given up.*",
+    "panel1": "[setup]\nFLABBERGASTED PERSON: \"80% of startups are on Chinese models now.\"\nFUMING PERSON: \"Because of the export controls we put on China.\"",
+    "panel2": "[build]\nFLABBERGASTED PERSON: \"We blocked their GPUs so they'd fall behind.\"\nFUMING PERSON: \"So they went open-weights instead.\"",
+    "panel3": "[pivot]\nFLABBERGASTED PERSON: \"And open-weights became the distribution advantage.\"\nFUMING PERSON: \"Qwen. Kimi K3. Free. Everywhere.\"",
+    "panel4": "[silent reaction]\n[Visual: Both characters stare forward in total silence. The chatbot's interface behind them displays: 'Your issue is important to us. Estimated wait: \u221e'. A small tumbleweed rolls across the screen.]",
+    "panel5": "[punch]\nFUMING PERSON: \"We kneecapped ourselves to kneecap them.\"\nFLABBERGASTED PERSON: \"Per a16z. Citing The Economist.\"",
+    "panel6": "[button]\n[Visual: The chatbot's auto-response fires: 'Have you tried switching to Qwen? It's a fraction of the cost.' A tiny American flag in the corner droops.']"
+  },
+  "narrative_summary": "Two characters inside a broken chatbot slowly realize the US GPU export controls designed to hurt China accidentally handed Chinese open-weights models a global distribution win \u2014 with the chatbot itself cheerfully suggesting Qwen as the solution.",
+  "rationale": "Candidate 1 earns the win on punchline and specificity: the panel-5 attribution ('Per a16z. Citing The Economist.') is a genuinely funny deadpan citation drop that rewards readers who know the story, and the panel-6 button \u2014 the chatbot itself recommending Qwen while a tiny American flag droops \u2014 is a tight, earned visual that doesn't just restate the setup but adds a new layer of irony. The other candidates share the same skeleton but their closing beats either repeat the premise or reach for whimsy without the same payoff.",
+  "image_filename": "comic_2026-07-21.png",
+  "story_title": "China's open-weights AI strategy is winning",
+  "story_url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+  "place": "inside a customer support chatbot that has completely given up",
+  "hat_pair": [
+    "foam storm cloud hat with a dangling plastic lightning bolt",
+    "foam neural network diagram worn as a helmet with blinking nodes"
+  ],
+  "no_news_mode": false
+}
