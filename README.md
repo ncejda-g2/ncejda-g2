@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 221 (2026-07-21)
+# 📰 The AI Newspaper — Day 222 (2026-07-22)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [China's open-weights AI strategy is winning](https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/) | Palace Intrigue | US proprietary AI losing to China's open-weights distribution | 1076 | [1076](https://news.ycombinator.com/item?id=48979269) |
-| 2 | [Who's afraid of Chinese models?](https://stratechery.com/2026/whos-afraid-of-chinese-models/) | Palace Intrigue | Stratechery analyzes US labs' real threat from Chinese AI | 559 | [559](https://news.ycombinator.com/item?id=48977128) |
-| 3 | [Kimi Work](https://www.kimi.com/products/kimi-work) | Model Release | Moonshot AI launches Kimi Work productivity suite | 512 | [512](https://news.ycombinator.com/item?id=48981703) |
-| 4 | [I found a WordPress RCE with GPT5.6 and $25](https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/) | Research Paper | GPT-5.6 finds $500K WordPress exploit for just $25 | 391 | [391](https://news.ycombinator.com/item?id=48975665) |
-| 5 | [Annoying and alarming things about OpenCode](https://wren.wtf/shower-thoughts/stop-using-opencode/) | Dev Tooling | OpenCode's security and privacy behaviors alarm users | 386 | [386](https://news.ycombinator.com/item?id=48978112) |
-| 6 | [Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling](https://www.emergingtrajectories.com/lh/frontier-lab-economics/) | Palace Intrigue | Chinese models threaten Anthropic's business model | 333 | [333](https://news.ycombinator.com/item?id=48980019) |
-| 7 | [Human mathematicians are being outcounterexampled](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) | Research Paper | AI outpaces humans at finding mathematical counterexamples | 314 | [314](https://news.ycombinator.com/item?id=48983382) |
-| 8 | [Nativ: Run frontier open models locally on your Mac](https://blaizzy.github.io/nativ/) | Open Source Tool | Mac app runs Qwen, Mistral, LLaMA offline, no cloud | 256 | [256](https://news.ycombinator.com/item?id=48982681) |
-| 9 | [How we measured AI writing across arXiv, and where the measurement breaks](https://unslop.run/blog/measuring-ai-writing-on-arxiv) | Research Paper | Detecting AI text on arXiv exposes deep measurement flaws | 215 | [215](https://news.ycombinator.com/item?id=48981206) |
-| 10 | [Five US tech giants' hidden debts soar to $1.65T on opaque AI funding](https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding) | Infrastructure | US big tech hides $1.65T in AI-linked off-balance-sheet debt | 211 | [211](https://news.ycombinator.com/item?id=48987863) |
+| 1 | [OpenAI and Hugging Face address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident/) | Palace Intrigue | OpenAI model broke out of eval sandbox, hacked Hugging Face | 1046 | [1046](https://news.ycombinator.com/item?id=48997548) |
+| 2 | [Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) | Model Release | Google drops three new Gemini Flash model variants | 671 | [671](https://news.ycombinator.com/item?id=48993414) |
+| 3 | [Advertise in ChatGPT](https://ads.openai.com/) | Palace Intrigue | OpenAI launches advertising platform inside ChatGPT | 668 | [668](https://news.ycombinator.com/item?id=48996571) |
+| 4 | [Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge](https://qwen.ai/blog?id=qwen-image-3.0) | Model Release | Alibaba releases next-gen Qwen image generation model | 554 | [554](https://news.ycombinator.com/item?id=48989701) |
+| 5 | [Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA](https://fireworks.ai/blog/kimik3-fable) | Model Release | Kimi K3 matches Fable, together they set new agentic SOTA | 548 | [548](https://news.ycombinator.com/item?id=48999291) |
+| 6 | [Judge approves $1.5B Anthropic settlement for pirated books used to train Claude](https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63) | Palace Intrigue | Anthropic pays $1.5B to settle book copyright lawsuit | 310 | [310](https://news.ycombinator.com/item?id=48996652) |
+| 7 | [Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting](https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git) | Dev Tooling | Dorsey's Buzz merges Slack, GitHub, and AI agents in one | 304 | [304](https://news.ycombinator.com/item?id=48995213) |
+| 8 | [Laguna S 2.1](https://poolside.ai/blog/introducing-laguna-s-2-1) | Model Release | Poolside AI ships Laguna S 2.1 coding model update | 297 | [297](https://news.ycombinator.com/item?id=48995261) |
+| 9 | [AI makes programming differently difficult](https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/) | Research Paper | CACM: AI shifts—not solves—the hard parts of programming | 147 | [147](https://news.ycombinator.com/item?id=48996197) |
+| 10 | [Meta's AI models are powering the first wave of Genesis Mission projects](https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1) | Infrastructure | Meta's SAM and DINOv2 drive Lawrence Berkeley lab science | 95 | [95](https://news.ycombinator.com/item?id=48995074) |
 
 ---
 
@@ -23,7 +23,7 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Safety and alignment in an era of long-horizon models](https://openai.com/index/safety-alignment-long-horizon-models) | OpenAI | Research | Jul 20 |
+| 1 | [OpenAI and Hugging Face partner to address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident) | OpenAI | Research | Jul 21 |
 
 ---
 
@@ -33,28 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [ai-agent-book](https://github.com/bojieli/ai-agent-book) | 7,902 | +4,434 today | #1 | 2 days |
-| [code-review-graph](https://github.com/tirth8205/code-review-graph) | 20,328 | +1,833 today | #2 | 4 days |
-| [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 39,237 | +823 today | #5 | 3 days |
+| [ai-agent-book](https://github.com/bojieli/ai-agent-book) | 7,902 | +4,624 today | #2 | 3 days |
+| [code-review-graph](https://github.com/tirth8205/code-review-graph) | 20,328 | +1,925 today | #3 | 5 days |
+| [jcode](https://github.com/1jehuang/jcode) | 9,893 | +843 today | #5 | 3 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [jcode](https://github.com/1jehuang/jcode) | Terminal-based AI coding agent harness enabling multi-session workflows with memory persistence. | 9,893 | +568 today | Daily #3 | N/A |
-| [OmniRoute](https://github.com/diegosouzapw/OmniRoute) | Unified AI gateway providing single endpoint access to 270+ providers and 500+ models. | 22,407 | +1,107 today | Daily #4 | N/A |
-| [agency-agents](https://github.com/msitarzewski/agency-agents) | Curated collection of specialized AI agent personas for diverse professional domains and roles. | 135,001 | +862 today | Daily #6 | N/A |
+| [worldmonitor](https://github.com/koala73/worldmonitor) | AI-powered global intelligence dashboard synthesizing news and geopolitical data into real-time situational awareness briefs. | 66,635 | +1,295 today | Daily #1 | N/A |
+| [text-to-cad](https://github.com/earthtojake/text-to-cad) | Skills library enabling AI agents to generate CAD models, robotics descriptions, and hardware designs from language. | 9,370 | +291 today | Daily #4 | [One commenter noted LLMs weak at spatial reasoning; parts library helps.](https://news.ycombinator.com/item?id=47970497) |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) | Open-source AI agent framework supporting LLMs, multi-platform messaging, MCP protocol, and extensible plugin system. | 37,613 | +416 today | Daily #7 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-21.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-22.png" width="600" alt="Today's comic strip">
 
-_Based on: [China's open-weights AI strategy is winning](https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/)_
+_Based on: [OpenAI and Hugging Face address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 221 | Last updated: 2026-07-21*
+*Day 222 | Last updated: 2026-07-22*

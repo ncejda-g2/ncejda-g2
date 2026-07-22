@@ -304,11 +304,51 @@
       "repository_id": 1168753718,
       "full_name": "every-app/open-seo",
       "readme_sha": "7c9f5e5adb8ac9932f9166f092ba2308b3bb5391",
-      "classified_on": "2026-07-21",
+      "classified_on": "2026-07-22",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open-source SEO analysis tool offering keyword research, backlink analysis, and rank tracking.",
       "rationale": "Primary product is SEO-focused; MCP and agent skills are integration features, not core organizing principle."
+    },
+    "1130564872": {
+      "repository_id": 1130564872,
+      "full_name": "koala73/worldmonitor",
+      "readme_sha": "31231a2a0e798f8f55cac0f6f120fc3384049136",
+      "classified_on": "2026-07-22",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI-powered global intelligence dashboard synthesizing news and geopolitical data into real-time situational awareness briefs.",
+      "rationale": "Dashboard's core intelligence synthesis and analysis depend on AI to aggregate and synthesize 500+ news feeds into structured geopolitical insights; AI is material to primary product function."
+    },
+    "1217522067": {
+      "repository_id": 1217522067,
+      "full_name": "earthtojake/text-to-cad",
+      "readme_sha": "ee68080861503025dcd4318c37bcf7377e62dcbb",
+      "classified_on": "2026-07-22",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Skills library enabling AI agents to generate CAD models, robotics descriptions, and hardware designs from language.",
+      "rationale": "Explicitly designed as agent skills with AI workflows for automated CAD generation, URDF/SRDF robot descriptions, and fabrication tasks; organized entirely around agent capabilities."
+    },
+    "1173848034": {
+      "repository_id": 1173848034,
+      "full_name": "oblien/openship",
+      "readme_sha": "04129154c5097058bc5b5ccc9a30b06590143f56",
+      "classified_on": "2026-07-22",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Self-hosted deployment platform with built-in CI/CD, database management, and infrastructure automation across any application stack.",
+      "rationale": "Deployment and DevOps platform with MCP as a secondary integration feature; AI is not material to primary product function, which centers on push-to-deploy infrastructure management."
+    },
+    "575865240": {
+      "repository_id": 575865240,
+      "full_name": "AstrBotDevs/AstrBot",
+      "readme_sha": "b90c9b95c5d607d5de3ee2fa7cba0ac416eb9a8a",
+      "classified_on": "2026-07-22",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Open-source AI agent framework supporting LLMs, multi-platform messaging, MCP protocol, and extensible plugin system.",
+      "rationale": "Framework explicitly organized around AI agents, LLM integration, and conversational AI; all key features depend on AI as core organizing principle with IM platform compatibility as delivery mechanism."
     }
   }
 }
