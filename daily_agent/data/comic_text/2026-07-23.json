@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-07-23",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "i_receive": "credit for cracking an 85-year-old math conjecture",
+    "you_receive": "terence tao using chatgpt to check your homework"
+  },
+  "narrative_summary": "The joke frames the absurd lopsidedness of the situation: Anthropic's Claude Fable allegedly solved the Jacobian Conjecture, but got 'rewarded' with the world's greatest mathematician stress-testing the result on a rival's chatbot.",
+  "rationale": "Candidate 3 edges out the field by framing the joke from Anthropic's POV ('you receive') rather than OpenAI's, which sharpens the humiliation angle and makes the closing beat feel like a genuine twist rather than a restatement. The 'check your homework' phrasing also lands slightly harder than 'check our work' because it infantilizes the solver, adding an extra layer of irony.",
+  "image_filename": "comic_2026-07-23.png",
+  "story_title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
+  "story_url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+  "place": "at a ghost town that used to be a Silicon Valley startup campus",
+  "hat_pair": [
+    "foam shark-fin hat",
+    "pointy wizard hat with stars"
+  ],
+  "no_news_mode": false
+}

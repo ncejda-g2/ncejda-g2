@@ -333,12 +333,12 @@
     "1173848034": {
       "repository_id": 1173848034,
       "full_name": "oblien/openship",
-      "readme_sha": "04129154c5097058bc5b5ccc9a30b06590143f56",
-      "classified_on": "2026-07-22",
+      "readme_sha": "c2424f8c0d2eaa4fdace81086884ad867ed2aeab",
+      "classified_on": "2026-07-23",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Self-hosted deployment platform with built-in CI/CD, database management, and infrastructure automation across any application stack.",
-      "rationale": "Deployment and DevOps platform with MCP as a secondary integration feature; AI is not material to primary product function, which centers on push-to-deploy infrastructure management."
+      "summary": "Self-hosted deployment platform with CI/CD, container orchestration, and infrastructure management.",
+      "rationale": "General-purpose deployment tool. MCP and agent integration are ancillary features, not primary product. Does not qualify under integration-only exception."
     },
     "575865240": {
       "repository_id": 575865240,
@@ -349,6 +349,96 @@
       "project_type": "Framework",
       "summary": "Open-source AI agent framework supporting LLMs, multi-platform messaging, MCP protocol, and extensible plugin system.",
       "rationale": "Framework explicitly organized around AI agents, LLM integration, and conversational AI; all key features depend on AI as core organizing principle with IM platform compatibility as delivery mechanism."
+    },
+    "997737944": {
+      "repository_id": 997737944,
+      "full_name": "ruvnet/RuView",
+      "readme_sha": "257ecb0f459126165264b4f6496ac5cc5cf729ca",
+      "classified_on": "2026-07-23",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "WiFi sensing system using machine learning models for contactless vital signs and activity detection.",
+      "rationale": "Core product relies on pre-trained neural network models (densepose, pose estimation) for real-time inference. Models published on Hugging Face, uses spiking neural networks for local learning. AI is material to primary functionality."
+    },
+    "1238120057": {
+      "repository_id": 1238120057,
+      "full_name": "ayghri/i-have-adhd",
+      "readme_sha": "aeedca60403ea75b675ab5cce2d9457f61bbdcbe",
+      "classified_on": "2026-07-23",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Claude coding agent skill plugin that formats AI assistant output for clarity and action-first responses.",
+      "rationale": "Explicitly designed as a skill/plugin for Claude AI agent to modify output formatting. Organization and purpose entirely centered on improving AI assistant behavior through structured prompting rules."
+    },
+    "107286889": {
+      "repository_id": 107286889,
+      "full_name": "schollz/croc",
+      "readme_sha": "edb1e98ccfaab9cd0d3718d581b08ba71e1948b5",
+      "classified_on": "2026-07-23",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Secure peer-to-peer file transfer tool with end-to-end encryption for cross-platform data sharing.",
+      "rationale": "General-purpose CLI tool for encrypted file transfer. No AI, ML, or LLM involvement mentioned or evident. Uses standard cryptography (PAKE) and networking protocols, not AI-based features."
+    },
+    "618351200": {
+      "repository_id": 618351200,
+      "full_name": "likec4/likec4",
+      "readme_sha": "3abf8bfff09376dbbe4da1d70bffbfd667007171",
+      "classified_on": "2026-07-23",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Architecture modeling language and tool for generating live software architecture diagrams from code.",
+      "rationale": "DSL-based diagram generation tool. While it automates diagram creation, automation occurs through parsing, not AI. No machine learning, LLMs, or AI-powered features mentioned or evident."
+    },
+    "18408635": {
+      "repository_id": 18408635,
+      "full_name": "chrislgarry/Apollo-11",
+      "readme_sha": "a5cc61ebfdbbe176f33d9256ebd57fa3de2b6daa",
+      "classified_on": "2026-07-23",
+      "ai_related": false,
+      "project_type": "Repository",
+      "summary": "Original Apollo 11 Guidance Computer assembly source code for command and lunar modules.",
+      "rationale": "Historical archival repository of 1969 Apollo guidance computer code. No connection to AI whatsoever. Purely historical software preservation."
+    },
+    "1011567289": {
+      "repository_id": 1011567289,
+      "full_name": "shiyu-coder/Kronos",
+      "readme_sha": "faffa1578cf0172f6b88f5db8a9b1205668ffef1",
+      "classified_on": "2026-07-23",
+      "ai_related": true,
+      "project_type": "Model",
+      "summary": "Open-source foundation model pre-trained on financial market K-line data for quantitative trading tasks.",
+      "rationale": "Explicit AI foundation model with novel tokenizer and transformer architecture. Plausibly material to primary product. Accepted to AAAI 2026."
+    },
+    "1078079172": {
+      "repository_id": 1078079172,
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "readme_sha": "318c65679352e8abed78a3e906f8c70984a15e66",
+      "classified_on": "2026-07-23",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Curated collection of Claude skills and workflows for AI agent customization and automation.",
+      "rationale": "Collection of AI workflow instruction packages organized around AI agent behavior. Matches curated AI resource list criterion."
+    },
+    "1188718672": {
+      "repository_id": 1188718672,
+      "full_name": "agegr/pi-web",
+      "readme_sha": "d2b003ebe0a532abc0f67185acc0a8720abeae12",
+      "classified_on": "2026-07-23",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Web UI for pi coding agent enabling session browsing, real-time chat, and project file management.",
+      "rationale": "Specialized interface for AI agent interaction. AI is material to primary product—built specifically for coding agent workflows."
+    },
+    "678900558": {
+      "repository_id": 678900558,
+      "full_name": "dreamhunter2333/cloudflare_temp_email",
+      "readme_sha": "fea23a998cb39c2d32757aa399b6afacff74ff2a",
+      "classified_on": "2026-07-23",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Free temporary email service with SMTP, IMAP, attachments, and Telegram bot integration.",
+      "rationale": "Primary product is email service. Agent skill and compatibility are integrations, not organizing principle. Does not meet eligibility threshold."
     }
   }
 }
