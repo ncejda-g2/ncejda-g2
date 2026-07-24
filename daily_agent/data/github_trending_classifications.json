@@ -394,7 +394,7 @@
       "repository_id": 18408635,
       "full_name": "chrislgarry/Apollo-11",
       "readme_sha": "a5cc61ebfdbbe176f33d9256ebd57fa3de2b6daa",
-      "classified_on": "2026-07-23",
+      "classified_on": "2026-07-24",
       "ai_related": false,
       "project_type": "Repository",
       "summary": "Original Apollo 11 Guidance Computer assembly source code for command and lunar modules.",
@@ -414,7 +414,7 @@
       "repository_id": 1078079172,
       "full_name": "ComposioHQ/awesome-claude-skills",
       "readme_sha": "318c65679352e8abed78a3e906f8c70984a15e66",
-      "classified_on": "2026-07-23",
+      "classified_on": "2026-07-24",
       "ai_related": true,
       "project_type": "Collection",
       "summary": "Curated collection of Claude skills and workflows for AI agent customization and automation.",
@@ -439,6 +439,36 @@
       "project_type": "Application",
       "summary": "Free temporary email service with SMTP, IMAP, attachments, and Telegram bot integration.",
       "rationale": "Primary product is email service. Agent skill and compatibility are integrations, not organizing principle. Does not meet eligibility threshold."
+    },
+    "1174789082": {
+      "repository_id": 1174789082,
+      "full_name": "block/buzz",
+      "readme_sha": "6aa3eeff0be958ee56d794add7b8fc75ad617719",
+      "classified_on": "2026-07-24",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Self-hostable workspace where humans and AI agents collaborate with shared communication and code review.",
+      "rationale": "AI agents are first-class workspace members with identical affordances as humans—code review, patches, workflows, channels. Human-agent collaboration is the core organizing principle, not a bolt-on feature."
+    },
+    "834966974": {
+      "repository_id": 834966974,
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "readme_sha": "f4341cac473b5c09f90a69e295616369b95abcd2",
+      "classified_on": "2026-07-24",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Fast and efficient Minecraft server implementation in Rust supporting Java and Bedrock editions.",
+      "rationale": "Game server software focused on performance and protocol compatibility. No AI involvement in primary product or organizing subject."
+    },
+    "1212503250": {
+      "repository_id": 1212503250,
+      "full_name": "citrolabs/ego-lite",
+      "readme_sha": "650eb94e6dd40db9af77025eee8d68c42f55da00",
+      "classified_on": "2026-07-24",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Browser designed for AI agents to automate web tasks in parallel workspaces while preserving human browsing.",
+      "rationale": "Explicitly built for AI agent web automation with agent-first architecture. Core features—Spaces, page snapshots, skill integration—exist primarily to enable agent-driven browser workflows."
     }
   }
 }

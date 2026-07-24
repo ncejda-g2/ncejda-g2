@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-24",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "cringing",
+    "adjective_second": "gloating",
+    "narrative_intro": "*A cringing person and a gloating person discuss $1.65 trillion in hidden AI debt inside a snow globe being violently shaken.*",
+    "panel1": "[setup]\nGLOATING PERSON: \"We're saving humanity with AI data centers!\"\nCRINGING PERSON: \"The balance sheet looks... thin.\"",
+    "panel2": "[build]\nGLOATING PERSON: \"Officially we have $1.35 trillion in debt. Very normal.\"\nCRINGING PERSON: \"And unofficially?\"",
+    "panel3": "[pivot]\nGLOATING PERSON: \"Shell subsidiaries. Special purpose vehicles. Meta alone: $420 billion.\"\nCRINGING PERSON: \"That's... Enron energy.\"",
+    "panel4": "[silent reaction]\n[Visual: Both characters freeze mid-shake inside the snow globe; fake snow swirls around them; the word 'ENRON' drifts past on a snowflake.]",
+    "panel5": "[punch]\nCRINGING PERSON: \"Tom Selling literally said 'house of cards.'\"\nGLOATING PERSON: \"We prefer 'off-balance-sheet innovation.'\"",
+    "panel6": "[button]\n[Visual: The snow globe base reads 'ALPHABET \u00b7 MICROSOFT \u00b7 AMAZON \u00b7 META \u00b7 ORACLE \u2014 Shake Well Before Investing.']"
+  },
+  "narrative_summary": "Two characters inside a snow globe discover that AI's world-saving ambitions are built on $1.65T in hidden debt, with the Enron comparison literally drifting past as a snowflake, and the globe itself branded with all five implicated companies.",
+  "rationale": "Candidate 4 ties Candidate 5 on total but edges it out on fit and punchline execution: the escalating reveal of shell subsidiaries, the 'ENRON' snowflake drifting past mid-freeze, and the button gag \u2014 'Shake Well Before Investing' with all five real company names engraved on the globe base \u2014 is a genuinely earned visual closer that uses the template's six-panel escalation shape exactly as intended, rather than just restating the Enron comparison one more time.",
+  "image_filename": "comic_2026-07-24.png",
+  "story_title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+  "story_url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+  "place": "inside a snow globe being violently shaken",
+  "hat_pair": [
+    "backwards bike helmet with racing stripes",
+    "oversized propeller beanie"
+  ],
+  "no_news_mode": false
+}

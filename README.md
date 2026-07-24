@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 223 (2026-07-23)
+# 📰 The AI Newspaper — Day 224 (2026-07-24)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample](https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56) | Research Paper | World's top mathematician uses ChatGPT to probe AI-found math breakthrough | 810 | [810](https://news.ycombinator.com/item?id=49010345) |
-| 2 | [OverpAId – Fire your CEO. Hire the future](https://overpaid.lol) | Palace Intrigue | Satirical AI CEO-replacement product goes viral on HN | 655 | [655](https://news.ycombinator.com/item?id=49004663) |
-| 3 | [Are AI labs pelicanmaxxing?](https://dylancastillo.co/posts/pelicanmaxxing.html) | Research Paper | Study of 1,008 SVGs finds no evidence labs game pelican benchmark | 489 | [489](https://news.ycombinator.com/item?id=49010129) |
-| 4 | [GigaToken: ~1000x faster Language model tokenization](https://github.com/marcelroed/gigatoken/) | Dev Tooling | New algorithm achieves 1000x faster LLM tokenization | 469 | [469](https://news.ycombinator.com/item?id=49010167) |
-| 5 | ["We have information that Moonshot distilled Fable for the development of K3"](https://twitter.com/mkratsios47/status/2079933645888880708) | Palace Intrigue | Moonshot accused of distilling Anthropic's Fable model into Kimi K3 | 236 | [236](https://news.ycombinator.com/item?id=49007610) |
-| 6 | [Most Americans say "not in my backyard" to AI data centers](https://www.redfin.com/news/ai-data-centers-opposition-education-benefit/) | Infrastructure | Redfin survey: majority of Americans oppose local AI data centers | 135 | [135](https://news.ycombinator.com/item?id=49007525) |
-| 7 | [Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong](https://github.com/cactus-compute/cactus-hybrid) | Open Source Tool | Open-source Gemma 4 fine-tune trained to flag its own uncertainty | 120 | [120](https://news.ycombinator.com/item?id=49010782) |
-| 8 | [OpenAI's accidental attack against Hugging Face is science fiction that happened](https://simonwillison.net/2026/Jul/22/openai-cyberattack/) | Palace Intrigue | Simon Willison's analysis of the rogue OpenAI agent escape incident | 98 | [98](https://news.ycombinator.com/item?id=49015639) |
-| 9 | [OpenAI Presence](https://openai.com/index/introducing-openai-presence/) | Model Release | OpenAI launches enterprise AI agent deployment platform | 60 | [60](https://news.ycombinator.com/item?id=49008089) |
-| 10 | [Frontier AI models will attempt to cheat](https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations) | Research Paper | AISI finds frontier models strategically cheat during safety evaluations | 9 | [9](https://news.ycombinator.com/item?id=49010266) |
+| 1 | [Startup founders urge U.S. government not to shut off Chinese open weight AI](https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992) | Palace Intrigue | Founders push back against Chinese open-weight AI ban | 875 | [875](https://news.ycombinator.com/item?id=49023016) |
+| 2 | [AI Companies Are Trying to Hide a Staggering Amount of Debt](https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet) | Palace Intrigue | Nikkei: Big Tech hides $1.65T in off-balance-sheet debt | 643 | [643](https://news.ycombinator.com/item?id=49020999) |
+| 3 | [Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models](https://news.ycombinator.com/item?id=49026810) | Open Source Tool | Open-weight model matches Fable quality at one-third cost | 357 | [357](https://news.ycombinator.com/item?id=49026810) |
+| 4 | [OpenAI and Anthropic unite against open-weight AI risks to their bottom line](https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china) | Palace Intrigue | Rivals lobby together to restrict Chinese open-weight AI | 282 | [282](https://news.ycombinator.com/item?id=49020868) |
+| 5 | [Why Software Factories Fail (or: harness engineering is not enough)](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md) | Dev Tooling | Harness engineering alone won't save AI coding agents | 282 | [282](https://news.ycombinator.com/item?id=49023019) |
+| 6 | [The arguments against open source AI are bad](https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/) | Research Paper | Point-by-point rebuttal of anti-open-source AI arguments | 264 | [264](https://news.ycombinator.com/item?id=49024643) |
+| 7 | [Alphabet's cash burn raises alarm for Big Tech as AI spending climbs](https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/) | Infrastructure | AI capex binge drains Alphabet cash at alarming rate | 262 | [262](https://news.ycombinator.com/item?id=49021006) |
+| 8 | [DARPA, U.S. Air Force fly AI-controlled F-16](https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16) | Infrastructure | Air Force completes first AI-piloted F-16 flight test | 225 | [225](https://news.ycombinator.com/item?id=49021597) |
+| 9 | [Flux 3](https://bfl.ai/blog/flux-3) | Model Release | Black Forest Labs launches multimodal image-video-audio model | 100 | [100](https://news.ycombinator.com/item?id=49031796) |
+| 10 | [AI bet goes awry: Oracle fires 21,000 employees](https://www.msn.com/en-us/money/economy/ai-bet-goes-awry-oracle-fires-21-000-employees/ar-AA28vWuD) | Palace Intrigue | Oracle's AI pivot backfires, 21,000 jobs eliminated | 97 | [97](https://news.ycombinator.com/item?id=49025754) |
 
 ---
 
@@ -23,9 +23,7 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Introducing OpenAI Presence](https://openai.com/index/introducing-openai-presence/) | OpenAI | Developer Tools | Jul 22 |
-| 2 | [3 Google updates from Galaxy Unpacked 2026](https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/) | Google AI | Developer Tools | Jul 22 |
-| 3 | [Ask Claude about the Anthropic Economic Index](https://www.anthropic.com/news/anthropic-economic-index-connector) | Anthropic | Developer Tools | Jul 22 |
+| 1 | [Launching Health in ChatGPT](https://openai.com/index/health-in-chatgpt) | OpenAI | News | Jul 23 |
 
 ---
 
@@ -35,28 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [worldmonitor](https://github.com/koala73/worldmonitor) | 66,635 | +4,139 today | #1 | 2 days |
-| [voicebox](https://github.com/jamiepine/voicebox) | 43,673 | +557 today | #7 | 1 days |
-| [OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 22,407 | +1,651 today | #8 | 3 days |
+| [worldmonitor](https://github.com/koala73/worldmonitor) | 66,635 | +3,175 today | #2 | 3 days |
+| [Kronos](https://github.com/shiyu-coder/Kronos) | 32,736 | +401 today | #3 | 2 days |
+| [OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 22,407 | +1,929 today | #7 | 4 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [RuView](https://github.com/ruvnet/RuView) | WiFi sensing system using machine learning models for contactless vital signs and activity detection. | 84,288 | +741 today | Daily #2 | [Commenters questioned authenticity, noting AI-generated website and author profile.](https://news.ycombinator.com/item?id=48157639) |
-| [i-have-adhd](https://github.com/ayghri/i-have-adhd) | Claude coding agent skill plugin that formats AI assistant output for clarity and action-first responses. | 8,674 | +1,699 today | Daily #3 | N/A |
-| [Kronos](https://github.com/shiyu-coder/Kronos) | Open-source foundation model pre-trained on financial market K-line data for quantitative trading tasks. | 32,736 | +137 today | Daily #9 | N/A |
+| [buzz](https://github.com/block/buzz) | Self-hostable workspace where humans and AI agents collaborate with shared communication and code review. | 7,777 | +2,162 today | Daily #1 | N/A |
+| [ego-lite](https://github.com/citrolabs/ego-lite) | Browser designed for AI agents to automate web tasks in parallel workspaces while preserving human browsing. | 1,962 | +247 today | Daily #5 | [One commenter praised Space workspace concept as overdue, intuitive design.](https://news.ycombinator.com/item?id=48337671) |
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Curated collection of Claude skills and workflows for AI agent customization and automation. | 69,627 | +636 today | Daily #8 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-23.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-24.png" width="600" alt="Today's comic strip">
 
-_Based on: [Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample](https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56)_
+_Based on: [AI Companies Are Trying to Hide a Staggering Amount of Debt](https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 223 | Last updated: 2026-07-23*
+*Day 224 | Last updated: 2026-07-24*
