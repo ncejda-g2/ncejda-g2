@@ -11,8 +11,8 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "total_stars": 170957,
-      "last_full_featured": "2026-07-15"
+      "total_stars": 187231,
+      "last_full_featured": "2026-07-25"
     },
     "896144595": {
       "repository_id": 896144595,
@@ -209,6 +209,20 @@
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "total_stars": 69627,
       "last_full_featured": "2026-07-24"
+    },
+    "1225753223": {
+      "repository_id": 1225753223,
+      "full_name": "CoreBunch/Instatic",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "total_stars": 4388,
+      "last_full_featured": "2026-07-25"
+    },
+    "783730789": {
+      "repository_id": 783730789,
+      "full_name": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "total_stars": 45145,
+      "last_full_featured": "2026-07-25"
     }
   }
 }

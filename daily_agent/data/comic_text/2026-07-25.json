@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-25",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "overconfident",
+    "adjective_second": "gobsmacked",
+    "narrative_intro": "*An overconfident person and a gobsmacked person discuss Claude Opus 5 inside a Wikipedia edit war.*",
+    "panel1": "[setup]\nOVERCONFIDENT PERSON: \"Someone vandalized the ARC-AGI 3 page again.\"\nGOBSMACKED PERSON: \"What did they put?\"",
+    "panel2": "[build]\nOVERCONFIDENT PERSON: \"'Claude Opus 5 scored three times the next-best model.'\"\nGOBSMACKED PERSON: \"Classic AI hype. Reverting.\"",
+    "panel3": "[pivot]\nOVERCONFIDENT PERSON: \"That's... the actual Anthropic press release.\"\nGOBSMACKED PERSON: \"At five dollars per million tokens?\"",
+    "panel4": "[silent reaction]\n[Visual: The gobsmacked person's revert finger hovers, frozen, one millimeter above the keyboard. The overconfident person slides them the Anthropic pricing page. An ongoing edit war banner blinks overhead: 'DISPUTED: IS THIS REAL?']",
+    "panel5": "[punch]\nGOBSMACKED PERSON: \"And it's their most aligned model ever?\"\nOVERCONFIDENT PERSON: \"Scored 2.3 on their own audit.\"",
+    "panel6": "[button]\n[Visual: The Wikipedia article now reads 'Citation needed' on every single sentence. The gobsmacked person has added a 'Neutrality disputed' tag to the word 'Anthropic.']"
+  },
+  "narrative_summary": "Two editors in a Wikipedia edit war keep trying to revert Opus 5's real benchmark numbers as vandalism, because no one can believe they're true.",
+  "rationale": "Candidate 1 earns its punchline through genuine escalation \u2014 the frozen revert finger is a precise visual gag, and the button of 'Citation needed' on every sentence including the word 'Anthropic' is a earned absurdist payoff rather than a restatement. It also grounds every beat in real, specific numbers (ARC-AGI 3, $5/million tokens, 2.3 alignment score) without over-explaining them, which Candidate 3 nearly matches but undercuts with a weaker closing line.",
+  "image_filename": "comic_2026-07-25.png",
+  "story_title": "Claude Opus 5",
+  "story_url": "https://www.anthropic.com/news/claude-opus-5",
+  "place": "inside a Wikipedia edit war",
+  "hat_pair": [
+    "foam rocket ship worn as a pointy hat with tiny exhaust flames at the base",
+    "foam speech bubble hat with the word 'typing...' displayed on it"
+  ],
+  "no_news_mode": false
+}

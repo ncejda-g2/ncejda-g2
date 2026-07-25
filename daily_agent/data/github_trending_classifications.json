@@ -14,11 +14,11 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "readme_sha": "8cc79099b6932f274c501e58318db3190fd4662a",
-      "classified_on": "2026-07-15",
+      "classified_on": "2026-07-25",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Curated agent skills and prompts for Claude Code, Cursor, and other AI coding agents.",
-      "rationale": "Skills designed specifically for AI agents; not applicable without AI coding agents as the primary use case."
+      "summary": "Collection of reusable agent skills and prompts designed for AI coding assistants.",
+      "rationale": "Prompt/skill library explicitly built for AI agents like Claude Code and Codex. Repository is organized around agent capabilities and includes skills for grilling, TDD, debugging, and documentation."
     },
     "1006414368": {
       "repository_id": 1006414368,
@@ -384,7 +384,7 @@
       "repository_id": 618351200,
       "full_name": "likec4/likec4",
       "readme_sha": "3abf8bfff09376dbbe4da1d70bffbfd667007171",
-      "classified_on": "2026-07-23",
+      "classified_on": "2026-07-25",
       "ai_related": false,
       "project_type": "Framework",
       "summary": "Architecture modeling language and tool for generating live software architecture diagrams from code.",
@@ -394,7 +394,7 @@
       "repository_id": 18408635,
       "full_name": "chrislgarry/Apollo-11",
       "readme_sha": "a5cc61ebfdbbe176f33d9256ebd57fa3de2b6daa",
-      "classified_on": "2026-07-24",
+      "classified_on": "2026-07-25",
       "ai_related": false,
       "project_type": "Repository",
       "summary": "Original Apollo 11 Guidance Computer assembly source code for command and lunar modules.",
@@ -453,12 +453,12 @@
     "834966974": {
       "repository_id": 834966974,
       "full_name": "Pumpkin-MC/Pumpkin",
-      "readme_sha": "f4341cac473b5c09f90a69e295616369b95abcd2",
-      "classified_on": "2026-07-24",
+      "readme_sha": "1cc0825e47023f9438d4eb2b1b7729ba79911b77",
+      "classified_on": "2026-07-25",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Fast and efficient Minecraft server implementation in Rust supporting Java and Bedrock editions.",
-      "rationale": "Game server software focused on performance and protocol compatibility. No AI involvement in primary product or organizing subject."
+      "summary": "Fast, efficient Minecraft server implementation written entirely in Rust.",
+      "rationale": "Game server application for hosting Minecraft worlds; 'Entity AI' refers to standard NPC behavior mechanics, not AI/ML technology."
     },
     "1212503250": {
       "repository_id": 1212503250,
@@ -469,6 +469,66 @@
       "project_type": "Application",
       "summary": "Browser designed for AI agents to automate web tasks in parallel workspaces while preserving human browsing.",
       "rationale": "Explicitly built for AI agent web automation with agent-first architecture. Core features—Spaces, page snapshots, skill integration—exist primarily to enable agent-driven browser workflows."
+    },
+    "708266011": {
+      "repository_id": 708266011,
+      "full_name": "Automattic/harper",
+      "readme_sha": "b918374fc87ed7b3f3a959bc857787f0109e0701",
+      "classified_on": "2026-07-25",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Privacy-first offline grammar checker with fast performance built in Rust.",
+      "rationale": "Grammar checker developer tool using linguistic analysis; no AI models or ML components mentioned; fundamentally a linting tool rather than an AI system."
+    },
+    "774468912": {
+      "repository_id": 774468912,
+      "full_name": "yorukot/superfile",
+      "readme_sha": "a02a31528fbab8febb77dc2462af6e24c4dd8cf0",
+      "classified_on": "2026-07-25",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "Modern terminal file manager with customizable themes and plugin support.",
+      "rationale": "General-purpose developer tool for filesystem navigation and file operations; no AI or ML components."
+    },
+    "1225753223": {
+      "repository_id": 1225753223,
+      "full_name": "CoreBunch/Instatic",
+      "readme_sha": "0964c5f9364d5d921f33a5ad6aac40d1202d98cc",
+      "classified_on": "2026-07-25",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Self-hosted visual CMS with AI agent for natural-language page building and editing.",
+      "rationale": "Features built-in AI agent that generates real page nodes from descriptions; supports multiple LLM backends (Claude, OpenAI, OpenRouter, Ollama); AI capability is material to core product functionality."
+    },
+    "783730789": {
+      "repository_id": 783730789,
+      "full_name": "Lordog/dive-into-llms",
+      "readme_sha": "933f8fae9ba3cf9fd0a3d314793749451b5bd0b2",
+      "classified_on": "2026-07-25",
+      "ai_related": true,
+      "project_type": "Research",
+      "summary": "Educational tutorial series on large language model development, training, and applied techniques.",
+      "rationale": "Comprehensive LLM-focused curriculum covering fine-tuning, prompting, model editing, reasoning, safety, alignment, watermarking, agents, and multimodal models. Entire repository is organized around AI/LLM education."
+    },
+    "656227652": {
+      "repository_id": 656227652,
+      "full_name": "OtterMind/Chat2DB",
+      "readme_sha": "992a485939bc3791258a553ca48d005cf9b8dbfc",
+      "classified_on": "2026-07-25",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Database client with integrated AI assistant for natural language SQL generation and optimization.",
+      "rationale": "AI assistant is a materially integrated core feature enabling autonomous SQL generation and explanation. Repository explicitly positions itself as AI-driven and markets the AI capabilities prominently."
+    },
+    "1246459259": {
+      "repository_id": 1246459259,
+      "full_name": "MoonshotAI/kimi-code",
+      "readme_sha": "e3e17adb8c3aeb8a566e7c0024d90a06b384baa5",
+      "classified_on": "2026-07-25",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "AI coding agent for terminals that reads, edits code, and executes commands autonomously.",
+      "rationale": "Standalone AI agent product that autonomously manipulates code, runs commands, and reasons about tasks. Core product is the agent itself, not a tool with an AI plugin."
     }
   }
 }
