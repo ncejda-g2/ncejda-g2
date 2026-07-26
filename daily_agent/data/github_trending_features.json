@@ -223,6 +223,27 @@
       "url": "https://github.com/Lordog/dive-into-llms",
       "total_stars": 45145,
       "last_full_featured": "2026-07-25"
+    },
+    "1241960226": {
+      "repository_id": 1241960226,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "total_stars": 13196,
+      "last_full_featured": "2026-07-26"
+    },
+    "678973052": {
+      "repository_id": 678973052,
+      "full_name": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "total_stars": 49984,
+      "last_full_featured": "2026-07-26"
+    },
+    "1073224795": {
+      "repository_id": 1073224795,
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "total_stars": 261244,
+      "last_full_featured": "2026-07-26"
     }
   }
 }

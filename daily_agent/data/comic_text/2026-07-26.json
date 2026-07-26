@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-07-26",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "caption": "you can't ban Chinese model weights / if weights are just numbers with no country of origin"
+  },
+  "narrative_summary": "Riffs on the top HN comment's actual argument \u2014 that banning open weights is technically incoherent because numbers don't have passports \u2014 rendered as smug self-defeating logic.",
+  "rationale": "All five candidates are functionally identical \u2014 same template, same caption with only cosmetic word-level variation, same joke shape \u2014 so no candidate distinguishes itself on surprise or punchline. Candidate 1 is selected as winner by submission order since scores are tied; the editorial note is that the joke itself is competent but flat, as the Roll Safe format requires the second line to reframe or subvert the first, and 'weights are just numbers with no country of origin' merely restates the setup rather than landing a genuine punchline.",
+  "image_filename": "comic_2026-07-26.png",
+  "story_title": "Open-weight AI is having its Kubernetes moment",
+  "story_url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+  "place": "inside an infinite loading screen",
+  "hat_pair": [
+    "beekeeper veil-and-hat combo",
+    "rubber chicken worn beak-forward as a novelty hat"
+  ],
+  "no_news_mode": false
+}

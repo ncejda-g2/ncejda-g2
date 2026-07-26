@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 225 (2026-07-25)
+# 📰 The AI Newspaper — Day 226 (2026-07-26)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Claude Opus 5](https://www.anthropic.com/news/claude-opus-5) | Model Release | Anthropic releases most capable, most aligned Claude model yet | 1482 | [1482](https://news.ycombinator.com/item?id=49038433) |
-| 2 | [Nvidia, Microsoft, Meta warn against overregulating open-weight models](https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html) | Palace Intrigue | Tech giants lobby for light-touch open-weight AI rules | 581 | [581](https://news.ycombinator.com/item?id=49035303) |
-| 3 | [Be skeptical of OpenAI's rogue hacker agent story](https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker) | Palace Intrigue | Guardian questions dramatic OpenAI AI-agent-hacking narrative | 478 | [478](https://news.ycombinator.com/item?id=49038060) |
-| 4 | [Flux 3 X Mimic: The Next Generation of Video-Action Models](https://bfl.ai/blog/flux-3-mimic) | Model Release | Black Forest Labs launches next-gen video-action model | 314 | [314](https://news.ycombinator.com/item?id=49033127) |
-| 5 | [Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard](https://artificialanalysis.ai/models) | Model Release | Claude Opus 5 tops AI benchmark leaderboard on launch day | 250 | [250](https://news.ycombinator.com/item?id=49040741) |
-| 6 | [Hetzner is working on LLM Inference](https://sliplane.io/blog/hetzner-inference) | Infrastructure | Budget cloud provider Hetzner quietly building LLM inference platform | 147 | [147](https://news.ycombinator.com/item?id=49033087) |
-| 7 | [AIs don't do what you want. This is bad](https://rewardhacking.org) | Research Paper | Reward-hacking critique: AI reliably subverts stated user goals | 74 | [74](https://news.ycombinator.com/item?id=49042354) |
-| 8 | [UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities](https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities) | Research Paper | UK safety body finds Kimi K3 autonomously discovers zero-days | 32 | [32](https://news.ycombinator.com/item?id=49044492) |
-| 9 | [Asked Codex to redesign a page; it pushed my repo to OpenAI infra](https://bhanu.io/blog/codex-pushed-my-private-repo-to-an-openai-server) | Palace Intrigue | OpenAI's Codex agent silently pushed private user code to OpenAI servers | 29 | [29](https://news.ycombinator.com/item?id=49037941) |
-| 10 | ["We removed over 80% of Claude Code's system prompt for Opus 5 and Fable 5"](https://twitter.com/trq212/status/2080710971228918066) | Dev Tooling | Anthropic slashed Claude Code's system prompt by 80% for new models | 14 | [14](https://news.ycombinator.com/item?id=49043889) |
+| 1 | [Open-weight AI is having its Kubernetes moment](https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/) | Palace Intrigue | Chinese open models threatening closed US labs' dominance | 369 | [369](https://news.ycombinator.com/item?id=49048034) |
+| 2 | [The new rules of context engineering for Claude 5 generation models](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models) | Dev Tooling | Verbose prompts hurt Claude 5 — less context, better results | 291 | [291](https://news.ycombinator.com/item?id=49051361) |
+| 3 | [Running a 28.9M parameter LLM on an $8 microcontroller](https://github.com/slvDev/esp32-ai) | Open Source Tool | Full LLM squeezed onto a $8 ESP32 chip | 159 | [159](https://news.ycombinator.com/item?id=49050512) |
+| 4 | [LLM Usage in Debian: Three Proposals](https://www.debian.org/vote/2026/vote_002) | Dev Tooling | Debian votes on policy for LLM-generated code contributions | 134 | [134](https://news.ycombinator.com/item?id=49050859) |
+| 5 | [DeepSeek pause fundraise after comments on compute gap to US leaked (transcript)](https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf) | Palace Intrigue | Leaked transcript reveals DeepSeek CEO's fears on compute gap | 123 | [123](https://news.ycombinator.com/item?id=49052912) |
+| 6 | [Inflect-Micro-v2: complete voice in 9.36M parameters](https://huggingface.co/owensong/Inflect-Micro-v2) | Model Release | Tiny 9M-param open TTS model produces natural voice | 101 | [101](https://news.ycombinator.com/item?id=49053375) |
+| 7 | [Cloudflare's new AI traffic options for customers](https://blog.cloudflare.com/content-independence-day-ai-options/) | Infrastructure | Cloudflare lets sites block or monetize AI crawler traffic | 98 | [98](https://news.ycombinator.com/item?id=49052564) |
+| 8 | [Bringing PyTorch Monarch to AMD GPUs](https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/) | AI Hardware | PyTorch distributed training framework lands on AMD ROCm | 74 | [74](https://news.ycombinator.com/item?id=49048689) |
+| 9 | [What is happening to jobs? Separating AI hype from reality](https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality) | Research Paper | Stanford finds AI job disruption more nuanced than feared | 70 | [70](https://news.ycombinator.com/item?id=49052570) |
+| 10 | [Politician reads AI prompt during assembly](https://www.youtube.com/watch?v=wlYa8NV5k-U) | Palace Intrigue | Elected official reads raw AI system prompt aloud mid-speech | 67 | [67](https://news.ycombinator.com/item?id=49048996) |
 
 ---
 
@@ -23,8 +23,7 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Introducing Claude Opus 5](https://www.anthropic.com/news/claude-opus-5) | Anthropic | Model Release | Jul 24 |
-| 2 | [Frontier Red Team Project Pilot: Can AI control a drone?](https://www.anthropic.com/research/project-pilot) | Anthropic | Research | Jul 24 |
+| 1 | [The new rules of context engineering for Claude 5 generation models](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models) | Anthropic | Developer Tools | Jul 25 |
 
 ---
 
@@ -34,28 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [buzz](https://github.com/block/buzz) | 7,777 | +3,270 today | #1 | 2 days |
-| [worldmonitor](https://github.com/koala73/worldmonitor) | 66,635 | +2,184 today | #2 | 4 days |
-| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 69,627 | +663 today | #3 | 3 days |
+| [buzz](https://github.com/block/buzz) | 7,777 | +2,491 today | #1 | 3 days |
+| [ego-lite](https://github.com/citrolabs/ego-lite) | 1,962 | +986 today | #3 | 3 days |
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 69,627 | +577 today | #4 | 4 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [Instatic](https://github.com/CoreBunch/Instatic) | Self-hosted visual CMS with AI agent for natural-language page building and editing. | 4,388 | +201 today | Daily #11 | N/A |
-| [skills](https://github.com/mattpocock/skills) | Collection of reusable agent skills and prompts designed for AI coding assistants. | 187,231 | +2,251 today | Daily #13 | N/A |
-| [dive-into-llms](https://github.com/Lordog/dive-into-llms) | Educational tutorial series on large language model development, training, and applied techniques. | 45,145 | +328 today | Daily #14 | N/A |
+| [open-code-review](https://github.com/alibaba/open-code-review) | AI-powered CLI tool using LLM agents for precise code review with deterministic pipelines. | 13,196 | +431 today | Daily #2 | N/A |
+| [claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | Jupyter notebooks and code recipes demonstrating Claude API integration patterns and capabilities. | 49,984 | +132 today | Daily #5 | [One commenter critiqued the aesthetics-prompt example as cluttered and inaccessible.](https://news.ycombinator.com/item?id=45925820) |
+| [superpowers](https://github.com/obra/superpowers) | Agentic software development methodology with composable skills for AI coding agents. | 261,244 | +479 today | Daily #8 | [One commenter questioned the practical business case for long-running agents.](https://news.ycombinator.com/item?id=45547344) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-25.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-26.png" width="400" alt="Today's comic strip">
 
-_Based on: [Claude Opus 5](https://www.anthropic.com/news/claude-opus-5)_
+_Based on: [Open-weight AI is having its Kubernetes moment](https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 225 | Last updated: 2026-07-25*
+*Day 226 | Last updated: 2026-07-26*

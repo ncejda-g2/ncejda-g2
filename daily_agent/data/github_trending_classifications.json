@@ -454,7 +454,7 @@
       "repository_id": 834966974,
       "full_name": "Pumpkin-MC/Pumpkin",
       "readme_sha": "1cc0825e47023f9438d4eb2b1b7729ba79911b77",
-      "classified_on": "2026-07-25",
+      "classified_on": "2026-07-26",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Fast, efficient Minecraft server implementation written entirely in Rust.",
@@ -474,7 +474,7 @@
       "repository_id": 708266011,
       "full_name": "Automattic/harper",
       "readme_sha": "b918374fc87ed7b3f3a959bc857787f0109e0701",
-      "classified_on": "2026-07-25",
+      "classified_on": "2026-07-26",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Privacy-first offline grammar checker with fast performance built in Rust.",
@@ -529,6 +529,36 @@
       "project_type": "CLI",
       "summary": "AI coding agent for terminals that reads, edits code, and executes commands autonomously.",
       "rationale": "Standalone AI agent product that autonomously manipulates code, runs commands, and reasons about tasks. Core product is the agent itself, not a tool with an AI plugin."
+    },
+    "1241960226": {
+      "repository_id": 1241960226,
+      "full_name": "alibaba/open-code-review",
+      "readme_sha": "3404a1011299ede64bfc72f482b1bbf2ff9c6d87",
+      "classified_on": "2026-07-26",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI-powered CLI tool using LLM agents for precise code review with deterministic pipelines.",
+      "rationale": "LLM agent with tool-use capabilities is core to the product. Integrates Claude, Codex, and other models. Explicitly designed as an AI code review assistant, battle-tested at enterprise scale."
+    },
+    "678973052": {
+      "repository_id": 678973052,
+      "full_name": "anthropics/claude-cookbooks",
+      "readme_sha": "dae0afd314940ca051db290b6b01cf4ec019857c",
+      "classified_on": "2026-07-26",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Jupyter notebooks and code recipes demonstrating Claude API integration patterns and capabilities.",
+      "rationale": "Official Anthropic curated resource collection. Organized around Claude API usage with examples spanning tool use, RAG, vision, multimodal capabilities, and advanced techniques."
+    },
+    "1073224795": {
+      "repository_id": 1073224795,
+      "full_name": "obra/superpowers",
+      "readme_sha": "bb398c6b68b0214439981acf8217a13cd5dcc562",
+      "classified_on": "2026-07-26",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Agentic software development methodology with composable skills for AI coding agents.",
+      "rationale": "Purpose-built framework for coding agents with defined AI-driven workflows (brainstorming, planning, subagent-driven development, TDD). Core organizing principle centers on agent capabilities and orchestration."
     }
   }
 }
