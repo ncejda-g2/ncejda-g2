@@ -1,0 +1,619 @@
+{
+  "date": "2026-07-27",
+  "daily": [
+    {
+      "repository_id": 1013830656,
+      "full_name": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "rank": 1,
+      "language": "Swift",
+      "period_stars": 1166,
+      "total_stars": 31162,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1212503250,
+      "full_name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "rank": 2,
+      "language": "JavaScript",
+      "period_stars": 900,
+      "total_stars": 1962,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1174789082,
+      "full_name": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "rank": 3,
+      "language": "Rust",
+      "period_stars": 1710,
+      "total_stars": 7777,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1153130349,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "rank": 4,
+      "language": "TypeScript",
+      "period_stars": 149,
+      "total_stars": 15166,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1225753223,
+      "full_name": "CoreBunch/Instatic",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "rank": 5,
+      "language": "TypeScript",
+      "period_stars": 888,
+      "total_stars": 4388,
+      "ai_related": null
+    },
+    {
+      "repository_id": 774468912,
+      "full_name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "rank": 6,
+      "language": "Go",
+      "period_stars": 131,
+      "total_stars": 20448,
+      "ai_related": false
+    },
+    {
+      "repository_id": 27193779,
+      "full_name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "rank": 7,
+      "language": "JavaScript",
+      "period_stars": 36,
+      "total_stars": 118535,
+      "ai_related": false
+    },
+    {
+      "repository_id": 656227652,
+      "full_name": "OtterMind/Chat2DB",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "rank": 8,
+      "language": "Java",
+      "period_stars": 398,
+      "total_stars": 27330,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1097346685,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "rank": 9,
+      "language": "JavaScript",
+      "period_stars": 413,
+      "total_stars": 50981,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1011567289,
+      "full_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "rank": 10,
+      "language": "Python",
+      "period_stars": 321,
+      "total_stars": 32736,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1241960226,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "rank": 11,
+      "language": "Go",
+      "period_stars": 832,
+      "total_stars": 13196,
+      "ai_related": null
+    },
+    {
+      "repository_id": 822285449,
+      "full_name": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "rank": 12,
+      "language": "Python",
+      "period_stars": 187,
+      "total_stars": 15483,
+      "ai_related": true
+    },
+    {
+      "repository_id": 678973052,
+      "full_name": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "rank": 13,
+      "language": "Jupyter Notebook",
+      "period_stars": 379,
+      "total_stars": 49984,
+      "ai_related": null
+    },
+    {
+      "repository_id": 834966974,
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "rank": 14,
+      "language": "Rust",
+      "period_stars": 338,
+      "total_stars": 10135,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1016267036,
+      "full_name": "permissionlesstech/bitchat-android",
+      "url": "https://github.com/permissionlesstech/bitchat-android",
+      "rank": 15,
+      "language": "Kotlin",
+      "period_stars": 260,
+      "total_stars": 6867,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1103607,
+      "full_name": "jenkinsci/jenkins",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "rank": 16,
+      "language": "Java",
+      "period_stars": 18,
+      "total_stars": 25780,
+      "ai_related": false
+    },
+    {
+      "repository_id": null,
+      "full_name": "amnezia-vpn/amnezia-client",
+      "url": "https://github.com/amnezia-vpn/amnezia-client",
+      "rank": 17,
+      "language": "C++",
+      "period_stars": 35,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ],
+  "weekly": [
+    {
+      "repository_id": 1053118194,
+      "full_name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "rank": 1,
+      "language": "Python",
+      "period_stars": 15909,
+      "total_stars": 7902,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1130564872,
+      "full_name": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "rank": 2,
+      "language": "TypeScript",
+      "period_stars": 12615,
+      "total_stars": 66635,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1167788341,
+      "full_name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "rank": 3,
+      "language": "Python",
+      "period_stars": 6006,
+      "total_stars": 20328,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1128204614,
+      "full_name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "rank": 4,
+      "language": "Rust",
+      "period_stars": 2909,
+      "total_stars": 9893,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1157102282,
+      "full_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "rank": 5,
+      "language": "TypeScript",
+      "period_stars": 10912,
+      "total_stars": 22407,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1188718672,
+      "full_name": "agegr/pi-web",
+      "url": "https://github.com/agegr/pi-web",
+      "rank": 6,
+      "language": "TypeScript",
+      "period_stars": 1551,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "rank": 7,
+      "language": "TypeScript",
+      "period_stars": 5389,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "rank": 8,
+      "language": "Shell",
+      "period_stars": 12238,
+      "total_stars": 187231,
+      "ai_related": null
+    },
+    {
+      "repository_id": 997737944,
+      "full_name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "rank": 9,
+      "language": "Rust",
+      "period_stars": 5497,
+      "total_stars": 84288,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1185590488,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "rank": 10,
+      "language": "Python",
+      "period_stars": 4317,
+      "total_stars": 39237,
+      "ai_related": null
+    },
+    {
+      "repository_id": 834966974,
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "rank": 11,
+      "language": "Rust",
+      "period_stars": 1883,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "rank": 12,
+      "language": "Python",
+      "period_stars": 2199,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1246459259,
+      "full_name": "MoonshotAI/kimi-code",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "rank": 13,
+      "language": "TypeScript",
+      "period_stars": 1380,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 107286889,
+      "full_name": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "rank": 14,
+      "language": "Go",
+      "period_stars": 2993,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1168753718,
+      "full_name": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "rank": 15,
+      "language": "TypeScript",
+      "period_stars": 3639,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1222917575,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "rank": 16,
+      "language": "CSS",
+      "period_stars": 4932,
+      "total_stars": 9466,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "rank": 17,
+      "language": "Python",
+      "period_stars": 1200,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "rank": 18,
+      "language": "TypeScript",
+      "period_stars": 7392,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1011567289,
+      "full_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "rank": 19,
+      "language": "Python",
+      "period_stars": 1768,
+      "total_stars": 32736,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1217522067,
+      "full_name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "rank": 20,
+      "language": "JavaScript",
+      "period_stars": 2169,
+      "total_stars": 9370,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1225753223,
+      "full_name": "CoreBunch/Instatic",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "rank": 21,
+      "language": "TypeScript",
+      "period_stars": 1893,
+      "total_stars": 4388,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1078079172,
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "rank": 22,
+      "language": "Python",
+      "period_stars": 2820,
+      "total_stars": 69627,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "rank": 23,
+      "language": "TypeScript",
+      "period_stars": 793,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ],
+  "monthly": [
+    {
+      "repository_id": 1157102282,
+      "full_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "rank": 1,
+      "language": "TypeScript",
+      "period_stars": 23805,
+      "total_stars": 22407,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "rank": 2,
+      "language": "Python",
+      "period_stars": 18515,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "catchorg/Catch2",
+      "url": "https://github.com/catchorg/Catch2",
+      "rank": 3,
+      "language": "C++",
+      "period_stars": 1033,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "rank": 4,
+      "language": "TypeScript",
+      "period_stars": 21857,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "rank": 5,
+      "language": "Rust",
+      "period_stars": 13743,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "rank": 6,
+      "language": "Rust",
+      "period_stars": 14057,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "rank": 7,
+      "language": "Python",
+      "period_stars": 11499,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1222917575,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "rank": 8,
+      "language": "CSS",
+      "period_stars": 14649,
+      "total_stars": 9466,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "rank": 9,
+      "language": "JavaScript",
+      "period_stars": 14718,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "rank": 10,
+      "language": "C",
+      "period_stars": 20672,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1211752857,
+      "full_name": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "rank": 11,
+      "language": "Python",
+      "period_stars": 8326,
+      "total_stars": 13172,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "rank": 12,
+      "language": "Swift",
+      "period_stars": 3386,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1130564872,
+      "full_name": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "rank": 13,
+      "language": "TypeScript",
+      "period_stars": 14798,
+      "total_stars": 66635,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "rank": 14,
+      "language": "C#",
+      "period_stars": 14295,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1198306812,
+      "full_name": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "rank": 15,
+      "language": "Python",
+      "period_stars": 14550,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "ocornut/imgui",
+      "url": "https://github.com/ocornut/imgui",
+      "rank": 16,
+      "language": "C++",
+      "period_stars": 1158,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "rank": 17,
+      "language": "TypeScript",
+      "period_stars": 7959,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "rank": 18,
+      "language": "Python",
+      "period_stars": 7759,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1006414368,
+      "full_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "rank": 19,
+      "language": "TypeScript",
+      "period_stars": 19272,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1168753718,
+      "full_name": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "rank": 20,
+      "language": "TypeScript",
+      "period_stars": 5191,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "gabime/spdlog",
+      "url": "https://github.com/gabime/spdlog",
+      "rank": 21,
+      "language": "C++",
+      "period_stars": 455,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ]
+}
