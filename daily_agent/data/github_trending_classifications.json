@@ -54,11 +54,11 @@
       "repository_id": 896924279,
       "full_name": "moeru-ai/airi",
       "readme_sha": "72cfe3247863fe34313b6627e1d0acd0f0a415b0",
-      "classified_on": "2026-07-16",
+      "classified_on": "2026-07-28",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Self-hosted AI companion with voice chat, game playing, and virtual character emulation.",
-      "rationale": "AI is materially central to the product—a self-hosted virtual character powered by AI with interactive capabilities across web, macOS, and Windows."
+      "summary": "Self-hosted AI companion application recreating Neuro-sama with real-time voice chat and game playing.",
+      "rationale": "AI is the primary product: conversational companion with voice interaction, game automation, and character simulation capabilities."
     },
     "1130004860": {
       "repository_id": 1130004860,
@@ -483,12 +483,12 @@
     "774468912": {
       "repository_id": 774468912,
       "full_name": "yorukot/superfile",
-      "readme_sha": "a02a31528fbab8febb77dc2462af6e24c4dd8cf0",
-      "classified_on": "2026-07-27",
+      "readme_sha": "805e402891cf4446ba23d1717a63b3f464c9fc5c",
+      "classified_on": "2026-07-28",
       "ai_related": false,
       "project_type": "CLI",
-      "summary": "Modern terminal file manager with customizable themes and plugin support.",
-      "rationale": "General-purpose developer tool for filesystem navigation and file operations; no AI or ML components."
+      "summary": "Modern terminal-based file manager with fancy interface and extensive customization and plugin support.",
+      "rationale": "General-purpose file management utility; no AI integration or AI-related organizing principle."
     },
     "1225753223": {
       "repository_id": 1225753223,
@@ -564,7 +564,7 @@
       "repository_id": 1013830656,
       "full_name": "permissionlesstech/bitchat",
       "readme_sha": "fc9313c1f9adaa21d22759354de03a8bf569757e",
-      "classified_on": "2026-07-27",
+      "classified_on": "2026-07-28",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Decentralized peer-to-peer messaging app with Bluetooth mesh for offline and Nostr protocol for internet communication.",
@@ -624,11 +624,71 @@
       "repository_id": 1103607,
       "full_name": "jenkinsci/jenkins",
       "readme_sha": "4febdbb1a55ae29cb211f9614d8f9ed8fb22f1b8",
-      "classified_on": "2026-07-27",
+      "classified_on": "2026-07-28",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open-source automation server for continuous integration, delivery, and deployment with 2000+ plugins.",
       "rationale": "General-purpose CI/CD platform; while plugins may integrate AI, the core product is not AI-focused."
+    },
+    "315035371": {
+      "repository_id": 315035371,
+      "full_name": "amnezia-vpn/amnezia-client",
+      "readme_sha": "0842326ea57f0db33b30e3182e972600572dd469",
+      "classified_on": "2026-07-28",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Open-source VPN client for desktop and mobile with self-hosted server deployment support.",
+      "rationale": "VPN application implementing standard protocols; general networking utility without AI components."
+    },
+    "1251648409": {
+      "repository_id": 1251648409,
+      "full_name": "opengeos/GeoLibre",
+      "readme_sha": "a13360b3e1781d10c9848f4905a06de604313ff2",
+      "classified_on": "2026-07-28",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Cloud-native GIS platform for visualizing and analyzing geospatial data across multiple environments.",
+      "rationale": "Geospatial data visualization and analysis tool; data science context doesn't establish AI as primary product or organizing principle."
+    },
+    "651517185": {
+      "repository_id": 651517185,
+      "full_name": "NanmiCoder/MediaCrawler",
+      "readme_sha": "85c0309167b89ae2dd59ab07e1c468af4d1668a6",
+      "classified_on": "2026-07-28",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Multi-platform social media crawler that extracts posts and comments from major Chinese content platforms.",
+      "rationale": "Primary product is web scraping using browser automation. Pro version mentions planned AI Agent features, but core functionality remains web data extraction; AI integration is secondary."
+    },
+    "1219644159": {
+      "repository_id": 1219644159,
+      "full_name": "bradautomates/claude-video",
+      "readme_sha": "8c44cf24840ea019edbe1f26dcab823bb3a8844f",
+      "classified_on": "2026-07-28",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Claude plugin enabling AI video analysis through frame extraction, transcription, and structured data.",
+      "rationale": "Explicitly designed to extend Claude's AI capabilities for video understanding. Core purpose is making video content accessible to AI agents across 50+ platforms."
+    },
+    "1134109950": {
+      "repository_id": 1134109950,
+      "full_name": "vudovn/ag-kit",
+      "readme_sha": "e3d9a76b9a6bb057d1a03056fec4f27ed636c059",
+      "classified_on": "2026-07-28",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Agent engineering framework with specialist agents, skills, workflows, and orchestration for Antigravity runtime.",
+      "rationale": "Purpose-built framework for constructing AI agents with role definitions, skills, persistent memory, and multi-agent orchestration as organizing principles."
+    },
+    "206424": {
+      "repository_id": 206424,
+      "full_name": "apache/cassandra",
+      "readme_sha": "416402098d9ebe7db8fd609e50cba5a9f712e18a",
+      "classified_on": "2026-07-28",
+      "ai_related": false,
+      "project_type": "Repository",
+      "summary": "Distributed NoSQL database offering linear scalability and fault tolerance across commodity hardware or cloud.",
+      "rationale": "General-purpose database system with no AI-material functionality. Database support for AI applications does not make the database itself AI-related."
     }
   }
 }

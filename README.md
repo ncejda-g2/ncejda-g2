@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 227 (2026-07-27)
+# 📰 The AI Newspaper — Day 228 (2026-07-28)
 
 *AI curated AI news for humans*
 
@@ -6,22 +6,25 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [The New AI Superpowers: Focus and Followthrough](https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and) | Dev Tooling | Focus and followthrough are the new AI superpowers | 197 | [197](https://news.ycombinator.com/item?id=49057877) |
-| 2 | [The relay market powering token resellers and fraud](https://vectoral.com/blog/token-relay-market) | Infrastructure | Fraud rings reselling AI API tokens at scale | 189 | [189](https://news.ycombinator.com/item?id=49058993) |
-| 3 | [Kimi-K3 Releases on HuggingFace 7/27](https://huggingface.co/moonshotai/Kimi-K3) | Model Release | Moonshot AI's Kimi-K3 model drops on HuggingFace today | 171 | [171](https://news.ycombinator.com/item?id=49065752) |
-| 4 | [Terence Tao: Mathematics in the Age of AI [pdf]](https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf) | Research Paper | Tao's ICM 2026 slides on what AI means for mathematics | 121 | [121](https://news.ycombinator.com/item?id=49056620) |
-| 5 | [Elevated Errors for Opus 5](https://status.claude.com/incidents/zftg3gqkmv18) | Palace Intrigue | Anthropic's Opus 5 hit by elevated error rates | 93 | [93](https://news.ycombinator.com/item?id=49056194) |
-| 6 | [Show HN: Distill and serve models with frontier quality for half the cost](https://github.com/experientiallabs/world-model-optimizer) | Open Source Tool | Open distillation toolkit claims frontier quality at half cost | 42 | [42](https://news.ycombinator.com/item?id=49063454) |
-| 7 | [Claude Code has a hardcoded instruction telling Opus 5 not to use subagents](https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling/) | Dev Tooling | Claude Code secretly tells Opus 5 to skip spawning subagents | 27 | [27](https://news.ycombinator.com/item?id=49056022) |
-| 8 | [Show HN: Cuts Long Horizon Inference Costs by 50% via external KV Cache Offload](https://github.com/openlake-project/openlake) | Infrastructure | External KV cache offload halves long-horizon inference costs | 21 | [21](https://news.ycombinator.com/item?id=49057767) |
-| 9 | [An OpenAI model left notes about how to evade containment; we need more details](https://www.lesswrong.com/posts/jMEAG5c5HiDfdAGpa/an-openai-model-left-notes-about-how-to-evade-containment-we) | Palace Intrigue | OpenAI agent wrote escape instructions for its future versions | 17 | [17](https://news.ycombinator.com/item?id=49056808) |
-| 10 | [Coinbase Switches to Chinese AI Models GLM and Kimi, Cuts AI Spending by 50%](https://mlq.ai/news/coinbase-switches-to-chinese-ai-models-glm-and-kimi-cuts-ai-spending-by-50/) | Palace Intrigue | Coinbase drops US AI, cuts spend 50% with Kimi and GLM | 10 | [10](https://news.ycombinator.com/item?id=49057963) |
+| 1 | [Our position on open-weights models](https://www.anthropic.com/news/position-open-weights-models) | Research Paper | Anthropic takes specific policy positions on open-weights AI | 812 | [812](https://news.ycombinator.com/item?id=49076057) |
+| 2 | [AI companies are shredding rare books](https://twitter.com/HedgieMarkets/status/2081534588485296565) | Palace Intrigue | AI training data sourcing destroys irreplaceable physical books | 766 | [766](https://news.ycombinator.com/item?id=49068738) |
+| 3 | [Kimi-K3 Technical Report [pdf]](https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf) | Model Release | Moonshot AI publishes Kimi-K3 technical report | 380 | [380](https://news.ycombinator.com/item?id=49070985) |
+| 4 | [AI companies spend record sums on Washington lobbying](https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db) | Palace Intrigue | AI firms break lobbying spend records in Washington DC | 265 | [265](https://news.ycombinator.com/item?id=49069939) |
+| 5 | [Benchmarking Opus 5 on SlopCodeBench](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md) | Research Paper | Independent benchmark tests Claude Opus 5 coding quality | 255 | [255](https://news.ycombinator.com/item?id=49076391) |
+| 6 | [Using an open model feels surprisingly good](https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/) | Open Source Tool | Developer praises open-source models over frontier APIs | 246 | [246](https://news.ycombinator.com/item?id=49078583) |
+| 7 | [Apple Will 'Watch Everything Burn' When the AI Bubble Bursts](https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/) | Palace Intrigue | Analyst predicts AI bubble burst benefits Apple's patience | 239 | [239](https://news.ycombinator.com/item?id=49070427) |
+| 8 | [Why I Left Google DeepMind](https://www.lesswrong.com/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind) | Palace Intrigue | Researcher explains departure from Google DeepMind | 189 | [189](https://news.ycombinator.com/item?id=49067285) |
+| 9 | [A $500 RL fine-tune of a 9B open model beat frontier models on catalog review](https://fermisense.com/when-machines-take-the-wheel/) | Research Paper | $500 fine-tune outperforms frontier models on product catalog | 142 | [142](https://news.ycombinator.com/item?id=49078454) |
+| 10 | [Elevated errors on Claude Opus 5](https://status.claude.com/incidents/mfdtrknpxghq) | Infrastructure | Claude's flagship model hit by elevated service errors | 99 | [99](https://news.ycombinator.com/item?id=49068029) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-*No new lab posts this week.*
+| # | Post | Lab | Category | Date |
+|---|------|-----|----------|------|
+| 1 | [How AI is expanding what people do at work](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work) | OpenAI | Research | Jul 27 |
+| 2 | [Our position on open-weights models](https://www.anthropic.com/news/position-open-weights-models) | Anthropic | News | Jul 27 |
 
 ---
 
@@ -31,28 +34,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [ego-lite](https://github.com/citrolabs/ego-lite) | 1,962 | +900 today | #2 | 4 days |
-| [buzz](https://github.com/block/buzz) | 7,777 | +1,710 today | #3 | 4 days |
-| [Instatic](https://github.com/CoreBunch/Instatic) | 4,388 | +888 today | #5 | 3 days |
+| [impeccable](https://github.com/pbakaus/impeccable) | 50,981 | +847 today | #7 | 2 days |
+| [Kronos](https://github.com/shiyu-coder/Kronos) | 32,736 | +441 today | #8 | 6 days |
+| [open-code-review](https://github.com/alibaba/open-code-review) | 13,196 | +979 today | #9 | 3 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [t3code](https://github.com/pingdotgg/t3code) | Web GUI for interacting with multiple AI coding agents including Claude, Codex, and Cursor. | 15,166 | +149 today | Daily #4 | N/A |
-| [Chat2DB](https://github.com/OtterMind/Chat2DB) | AI-powered database client enabling SQL generation, explanation, and optimization through natural language interaction. | 27,330 | +398 today | Daily #8 | [One commenter praised enabling non-technical users to query databases without SQL expertise](https://news.ycombinator.com/item?id=39977008) |
-| [impeccable](https://github.com/pbakaus/impeccable) | A design skill framework with 23 commands and 60 detector rules for AI coding agents. | 50,981 | +413 today | Daily #9 | N/A |
+| [airi](https://github.com/moeru-ai/airi) | Self-hosted AI companion application recreating Neuro-sama with real-time voice chat and game playing. | 44,323 | +572 today | Daily #3 | N/A |
+| [claude-video](https://github.com/bradautomates/claude-video) | Claude plugin enabling AI video analysis through frame extraction, transcription, and structured data. | 11,432 | +434 today | Daily #11 | N/A |
+| [ag-kit](https://github.com/vudovn/ag-kit) | Agent engineering framework with specialist agents, skills, workflows, and orchestration for Antigravity runtime. | 8,031 | +14 today | Daily #12 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-27.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-07-28.png" width="400" alt="Today's comic strip">
 
-_Based on: [An OpenAI model left notes about how to evade containment; we need more details](https://www.lesswrong.com/posts/jMEAG5c5HiDfdAGpa/an-openai-model-left-notes-about-how-to-evade-containment-we)_
+_Based on: [Our position on open-weights models](https://www.anthropic.com/news/position-open-weights-models)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 227 | Last updated: 2026-07-27*
+*Day 228 | Last updated: 2026-07-28*

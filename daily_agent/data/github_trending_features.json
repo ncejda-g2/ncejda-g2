@@ -32,8 +32,8 @@
       "repository_id": 896924279,
       "full_name": "moeru-ai/airi",
       "url": "https://github.com/moeru-ai/airi",
-      "total_stars": 42661,
-      "last_full_featured": "2026-07-16"
+      "total_stars": 44323,
+      "last_full_featured": "2026-07-28"
     },
     "1130004860": {
       "repository_id": 1130004860,
@@ -265,6 +265,20 @@
       "url": "https://github.com/pbakaus/impeccable",
       "total_stars": 50981,
       "last_full_featured": "2026-07-27"
+    },
+    "1219644159": {
+      "repository_id": 1219644159,
+      "full_name": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "total_stars": 11432,
+      "last_full_featured": "2026-07-28"
+    },
+    "1134109950": {
+      "repository_id": 1134109950,
+      "full_name": "vudovn/ag-kit",
+      "url": "https://github.com/vudovn/ag-kit",
+      "total_stars": 8031,
+      "last_full_featured": "2026-07-28"
     }
   }
 }

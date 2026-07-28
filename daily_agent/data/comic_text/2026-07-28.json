@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-07-28",
+  "template_id": "two_buttons",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "button_left": "Open-weights models are a public good",
+    "button_right": "Ban distillation, chips, and unsafe models"
+  },
+  "narrative_summary": "Anthropic simultaneously pressing both buttons captures the article's core contradiction: championing open-weights AI while calling for three specific restrictions in the same breath.",
+  "rationale": "Candidate 3 names all three specific restrictions from the actual article (distillation, chips, unsafe models) without padding or vagueness, making the contradiction feel earned rather than paraphrased. The right button reads as a real enumerated list from the post, which sharpens the hypocrisy joke beyond the generic 'ban everything' riffs in the other entries.",
+  "image_filename": "comic_2026-07-28.png",
+  "story_title": "Our position on open-weights models",
+  "story_url": "https://www.anthropic.com/news/position-open-weights-models",
+  "place": "at a live trivia night where every contestant is suspected of being an AI bot",
+  "hat_pair": [
+    "dragonscale helm with smoke puffing out of tiny nostril-holes",
+    "nurse's cap"
+  ],
+  "no_news_mode": false
+}

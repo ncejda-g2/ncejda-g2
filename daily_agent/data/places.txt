@@ -124,3 +124,4 @@ inside an AI art gallery where every painting has the wrong number of fingers
 at a live trivia night where every contestant is suspected of being an AI bot
 at a live AI debate where both sides are secretly the same model
 at a robot karaoke bar
+inside a password reset email loop that has been going for three days
