@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-07-29",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_caption": "human cryptographers review HAWK-256 for two years",
+    "panel2_caption": "find nothing, declare it post-quantum secure",
+    "panel3_caption": "Claude cracks it in 60 hours for $100K",
+    "panel4_caption": "lattice automorphism drops security from 2\u2076\u2074 to 2\u00b3\u2078, buddy"
+  },
+  "narrative_summary": "The joke escalates from the mundane reality of years of expert human review to the absurd gut-punch of Claude casually dismantling HAWK-256's security with a single mathematical trick over a long weekend.",
+  "rationale": "Candidate 4 earns its punchline by actually naming the attack \u2014 'lattice automorphism drops security from 2\u2076\u2074 to 2\u00b3\u2078, buddy' \u2014 which transforms the final panel from a restatement into a genuine gut-punch of specificity and absurdist confidence. The expanding-brain template is the only one here whose escalating structure genuinely mirrors the story's arc from 'two years of expert review' to 'AI cracks it with one mathematical trick in a weekend.'",
+  "image_filename": "comic_2026-07-29.png",
+  "story_title": "Discovering Cryptographic Weaknesses with Claude",
+  "story_url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+  "place": "in a metaverse that has no users",
+  "hat_pair": [
+    "foam frying pan worn as a flat hat with a plastic sunny-side-up egg glued to the center",
+    "foam fortune cookie worn as a hat with a tiny paper fortune sticking out"
+  ],
+  "no_news_mode": false
+}

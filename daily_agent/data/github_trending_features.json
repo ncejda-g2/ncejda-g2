@@ -279,6 +279,27 @@
       "url": "https://github.com/vudovn/ag-kit",
       "total_stars": 8031,
       "last_full_featured": "2026-07-28"
+    },
+    "822285449": {
+      "repository_id": 822285449,
+      "full_name": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "total_stars": 15768,
+      "last_full_featured": "2026-07-29"
+    },
+    "1136590548": {
+      "repository_id": 1136590548,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "total_stars": 235105,
+      "last_full_featured": "2026-07-29"
+    },
+    "839428333": {
+      "repository_id": 839428333,
+      "full_name": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "total_stars": 7489,
+      "last_full_featured": "2026-07-29"
     }
   }
 }

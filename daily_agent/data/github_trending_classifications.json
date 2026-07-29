@@ -604,7 +604,7 @@
       "repository_id": 822285449,
       "full_name": "andrewyng/aisuite",
       "readme_sha": "36c61a3c49f72b08942a2dcd4354cae79acf2363",
-      "classified_on": "2026-07-27",
+      "classified_on": "2026-07-29",
       "ai_related": true,
       "project_type": "Library",
       "summary": "Python library providing unified Chat Completions and Agents APIs across multiple LLM providers.",
@@ -624,7 +624,7 @@
       "repository_id": 1103607,
       "full_name": "jenkinsci/jenkins",
       "readme_sha": "4febdbb1a55ae29cb211f9614d8f9ed8fb22f1b8",
-      "classified_on": "2026-07-28",
+      "classified_on": "2026-07-29",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open-source automation server for continuous integration, delivery, and deployment with 2000+ plugins.",
@@ -644,7 +644,7 @@
       "repository_id": 1251648409,
       "full_name": "opengeos/GeoLibre",
       "readme_sha": "a13360b3e1781d10c9848f4905a06de604313ff2",
-      "classified_on": "2026-07-28",
+      "classified_on": "2026-07-29",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Cloud-native GIS platform for visualizing and analyzing geospatial data across multiple environments.",
@@ -689,6 +689,76 @@
       "project_type": "Repository",
       "summary": "Distributed NoSQL database offering linear scalability and fault tolerance across commodity hardware or cloud.",
       "rationale": "General-purpose database system with no AI-material functionality. Database support for AI applications does not make the database itself AI-related."
+    },
+    "1077819522": {
+      "repository_id": 1077819522,
+      "full_name": "pascalorg/editor",
+      "readme_sha": "1c19181e6f4d5bdce50eff361f124921ad12404f",
+      "classified_on": "2026-07-29",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "3D architectural editor for creating and sharing building designs with React and WebGPU.",
+      "rationale": "Pure 3D visualization and editing tool with no AI components, models, or learning functionality mentioned in description or architecture."
+    },
+    "1136590548": {
+      "repository_id": 1136590548,
+      "full_name": "affaan-m/ECC",
+      "readme_sha": "455df701816815dc3536110e72f5b1d7f7fa48ef",
+      "classified_on": "2026-07-29",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Agent harness framework enhancing AI code assistant performance, planning, memory, and security.",
+      "rationale": "Explicitly designed as an optimization framework for AI code agents (Claude, Cursor, Codex). Provides specialized agent workflows, memory persistence, skills, and coordinated engineering processes across multiple AI harnesses."
+    },
+    "1232995828": {
+      "repository_id": 1232995828,
+      "full_name": "hello245m/free-stockdb",
+      "readme_sha": "3ce5d3ceb12f0989fd812d5270fa8fce73ffd9ac",
+      "classified_on": "2026-07-29",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "Local quantitative trading engine supporting Chinese stocks with backtesting and technical indicators.",
+      "rationale": "Primary purpose is quantitative finance research and data management. MCP support enabling AI tool integration is a secondary interface feature, not material to the core product's organizing subject."
+    },
+    "839428333": {
+      "repository_id": 839428333,
+      "full_name": "huggingface/speech-to-speech",
+      "readme_sha": "a717760f93a7af354ca9f7390b8bfbb200b9efe5",
+      "classified_on": "2026-07-29",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Build local voice agents with open-source models using modular VAD, STT, LLM, TTS pipeline.",
+      "rationale": "Voice agent framework with swappable components (VAD, STT, LLM, TTS) for building local AI agents. AI is material to primary purpose."
+    },
+    "1226123343": {
+      "repository_id": 1226123343,
+      "full_name": "virgiliojr94/book-to-skill",
+      "readme_sha": "6b773404146a5cc9e79c62bbd26fe7f170653ddd",
+      "classified_on": "2026-07-29",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Converts technical documents into structured Claude Code and agent skills for reference.",
+      "rationale": "Tool designed to transform books and documents into agent skills for AI platforms (Claude Code, Copilot CLI, Amp). AI integration is central."
+    },
+    "455982203": {
+      "repository_id": 455982203,
+      "full_name": "paperswithbacktest/awesome-systematic-trading",
+      "readme_sha": "6f11f119e6db02190abaadf693855090be036281",
+      "classified_on": "2026-07-29",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "Curated list of libraries, strategies, books, and resources for systematic quantitative trading.",
+      "rationale": "General trading resource collection organized around quantitative trading, not AI. Per guidelines, catalog scope takes precedence over AI-adjacent entries within."
+    },
+    "1171111467": {
+      "repository_id": 1171111467,
+      "full_name": "microsoft/agent-governance-toolkit",
+      "readme_sha": "9baef5b3ac3133e94706bc022971970a78ebdaad",
+      "classified_on": "2026-07-29",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Governance framework for autonomous AI agents with policy enforcement, identity, and sandboxing.",
+      "rationale": "Dedicated framework for governing AI agent behavior, security, compliance, and auditing. AI governance is the primary organizing principle."
     }
   }
 }
