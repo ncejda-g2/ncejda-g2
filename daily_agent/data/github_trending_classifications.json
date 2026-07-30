@@ -263,12 +263,12 @@
     "1128204614": {
       "repository_id": 1128204614,
       "full_name": "1jehuang/jcode",
-      "readme_sha": "fc24a36269661c8257e031332926e624c890b738",
-      "classified_on": "2026-07-21",
+      "readme_sha": "9ddf9c064a8d4181a89913219b2396558ab9ed37",
+      "classified_on": "2026-07-30",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "Terminal-based AI coding agent harness enabling multi-session workflows with memory persistence.",
-      "rationale": "AI agent harness is primary product; directly material to code generation and agent orchestration workflows."
+      "summary": "RAM-efficient CLI harness for AI coding agents supporting Claude, OpenAI, and MCP.",
+      "rationale": "AI-focused tool designed as a harness for AI coding agents. Core functionality is integration with LLMs and agent frameworks."
     },
     "1157102282": {
       "repository_id": 1157102282,
@@ -643,12 +643,12 @@
     "1251648409": {
       "repository_id": 1251648409,
       "full_name": "opengeos/GeoLibre",
-      "readme_sha": "a13360b3e1781d10c9848f4905a06de604313ff2",
-      "classified_on": "2026-07-29",
+      "readme_sha": "ff6c2e9b8722dc9d1bc19fbf7b049b6c613d3cfd",
+      "classified_on": "2026-07-30",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Cloud-native GIS platform for visualizing and analyzing geospatial data across multiple environments.",
-      "rationale": "Geospatial data visualization and analysis tool; data science context doesn't establish AI as primary product or organizing principle."
+      "summary": "Lightweight cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data.",
+      "rationale": "General-purpose geospatial analysis application. While tagged with data-science, AI is not material to the platform's primary product—it is organized around GIS functionality, not AI."
     },
     "651517185": {
       "repository_id": 651517185,
@@ -759,6 +759,36 @@
       "project_type": "Framework",
       "summary": "Governance framework for autonomous AI agents with policy enforcement, identity, and sandboxing.",
       "rationale": "Dedicated framework for governing AI agent behavior, security, compliance, and auditing. AI governance is the primary organizing principle."
+    },
+    "14346979": {
+      "repository_id": 14346979,
+      "full_name": "grokability/snipe-it",
+      "readme_sha": "b6e2ed742df6dc1444caad28e72f7d68b63fd620",
+      "classified_on": "2026-07-30",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Free open-source IT asset and software license management system for organizations.",
+      "rationale": "Non-AI asset management application. The optional MCP server integration is an add-on feature; core product is not AI-organized per eligibility rules."
+    },
+    "114747226": {
+      "repository_id": 114747226,
+      "full_name": "deepfakes/faceswap",
+      "readme_sha": "fd7941cb19a25996a299007a48477d622212e06d",
+      "classified_on": "2026-07-30",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Deep learning tool using neural networks to recognize and swap faces in images and videos.",
+      "rationale": "AI application fundamentally organized around deep learning techniques for face detection and manipulation."
+    },
+    "1044296738": {
+      "repository_id": 1044296738,
+      "full_name": "microsoft/VibeVoice",
+      "readme_sha": "ce157d33b65abd37072415662d82d5cb2b6e1df4",
+      "classified_on": "2026-07-30",
+      "ai_related": true,
+      "project_type": "Model",
+      "summary": "Open-source family of frontier voice AI models for speech recognition and synthesis tasks.",
+      "rationale": "AI research framework and model collection for voice AI; includes ASR and TTS models using LLM and diffusion approaches."
     }
   }
 }

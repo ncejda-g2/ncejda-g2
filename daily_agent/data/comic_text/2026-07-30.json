@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-07-30",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "frumpy",
+    "adjective_second": "queasy",
+    "narrative_intro": "*A frumpy person and a queasy person discuss the Copilot document worm at an overheating GPU farm during a heatwave.*",
+    "panel1": "[setup]\nFRUMPY PERSON: \"Microsoft patched the worm. GPT-5.5 fix, shipped today.\"",
+    "panel2": "[build]\nQUEASY PERSON: \"So the hidden white-on-white JSON can't clone itself anymore?\"\nFRUMPY PERSON: \"Correct. Crisis over.\"",
+    "panel3": "[pivot]\nFRUMPY PERSON: \"It reproduced on GPT-5.6 the same day.\"",
+    "panel4": "[silent reaction]\n[Visual: The queasy person stares at their open Word document. A small bead of sweat drops from their forehead. The GPU fans behind them spin visibly faster in the heat.]",
+    "panel5": "[punch]\nQUEASY PERSON: \"So every document I made through SharePoint\u2014\"\nFRUMPY PERSON: \"Already a parent.\"",
+    "panel6": "[button]\n[Visual: The queasy person slowly closes their laptop. A tiny font-size-8 message in white ink on the white lid reads: 'PROPAGATING'.]"
+  },
+  "narrative_summary": "The joke plays on the futility of patching an architectural flaw \u2014 the worm outran the fix in a single day \u2014 landing on the horror that every SharePoint document is already infected, with a final sight gag revealing the laptop itself has been recruited.",
+  "rationale": "Candidate 1 earns its score by grounding every beat in real story specifics (white-on-white JSON, GPT-5.5/5.6 same-day failure, SharePoint propagation) while the button gag \u2014 'PROPAGATING' in white ink on the closed laptop lid \u2014 recontextualizes the entire strip rather than restating it, which is exactly what a button panel should do. The deadpan restraint also makes the horror land harder than the noisier escalation in competing entries.",
+  "image_filename": "comic_2026-07-30.png",
+  "story_title": "Document-borne AI worms can self-propagate through Copilot for Word",
+  "story_url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+  "place": "at an overheating GPU farm during a heatwave",
+  "hat_pair": [
+    "foam crown made of tangled ethernet cables",
+    "foam double helix worn as a twisted tall hat with alternating red and blue rungs"
+  ],
+  "no_news_mode": false
+}
