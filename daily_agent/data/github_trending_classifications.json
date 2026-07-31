@@ -694,7 +694,7 @@
       "repository_id": 1077819522,
       "full_name": "pascalorg/editor",
       "readme_sha": "1c19181e6f4d5bdce50eff361f124921ad12404f",
-      "classified_on": "2026-07-29",
+      "classified_on": "2026-07-31",
       "ai_related": false,
       "project_type": "Application",
       "summary": "3D architectural editor for creating and sharing building designs with React and WebGPU.",
@@ -744,7 +744,7 @@
       "repository_id": 455982203,
       "full_name": "paperswithbacktest/awesome-systematic-trading",
       "readme_sha": "6f11f119e6db02190abaadf693855090be036281",
-      "classified_on": "2026-07-29",
+      "classified_on": "2026-07-31",
       "ai_related": false,
       "project_type": "Collection",
       "summary": "Curated list of libraries, strategies, books, and resources for systematic quantitative trading.",
@@ -789,6 +789,86 @@
       "project_type": "Model",
       "summary": "Open-source family of frontier voice AI models for speech recognition and synthesis tasks.",
       "rationale": "AI research framework and model collection for voice AI; includes ASR and TTS models using LLM and diffusion approaches."
+    },
+    "344190478": {
+      "repository_id": 344190478,
+      "full_name": "microsoft/AI-For-Beginners",
+      "readme_sha": "229d738c43730add39f7e964e61c71b155e7453d",
+      "classified_on": "2026-07-31",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "12-week curriculum with 24 lessons covering AI fundamentals, neural networks, and deep learning.",
+      "rationale": "Comprehensive AI education curriculum; primary subject is AI, covering neural networks, deep learning, computer vision, NLP with hands-on lessons using TensorFlow and PyTorch."
+    },
+    "1133911335": {
+      "repository_id": 1133911335,
+      "full_name": "different-ai/openwork",
+      "readme_sha": "923d6c796a58b083d9d7e0fa5b28e87c15e14f67",
+      "classified_on": "2026-07-31",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Open-source desktop app for creating, managing, and sharing AI workflows with agents.",
+      "rationale": "Explicitly designed for AI workflow management; integrates with AI code editors and agents as MCP; core purpose is managing and sharing AI capabilities."
+    },
+    "447363864": {
+      "repository_id": 447363864,
+      "full_name": "WhiskeySockets/Baileys",
+      "readme_sha": "3a0a445654c7fe266f8f482b974784b2b80328a5",
+      "classified_on": "2026-07-31",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "TypeScript library providing WebSocket-based API for WhatsApp Web interaction and automation.",
+      "rationale": "WhatsApp automation and reverse-engineering library; no AI components or focus evident in metadata or documentation."
+    },
+    "1140843380": {
+      "repository_id": 1140843380,
+      "full_name": "mvanhorn/last30days-skill",
+      "readme_sha": "b2e656a5cb450755cde4681ced8237535a9a45bf",
+      "classified_on": "2026-07-31",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI agent skill researching topics across social platforms and synthesizing grounded summaries.",
+      "rationale": "Explicitly designed as AI agent skill for multiple agent platforms; core purpose is enabling AI research capabilities across social media and web sources."
+    },
+    "17620347": {
+      "repository_id": 17620347,
+      "full_name": "dotnet/aspnetcore",
+      "readme_sha": "c9df2ff357e3b237774ee05c2528196f879d5cf5",
+      "classified_on": "2026-07-31",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, and Linux.",
+      "rationale": "General-purpose web framework; AI is not material to its primary product or organizing subject."
+    },
+    "184456251": {
+      "repository_id": 184456251,
+      "full_name": "microsoft/PowerToys",
+      "readme_sha": "540ee75df1a64d4e98d1ae87153a7c81b8b20942",
+      "classified_on": "2026-07-31",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "Collection of over thirty utilities designed to enhance productivity and customization on Windows systems.",
+      "rationale": "General Windows utility collection; no AI material to primary product or organization."
+    },
+    "3638964": {
+      "repository_id": 3638964,
+      "full_name": "ansible/ansible",
+      "readme_sha": "ed464e118bf451b1274cee7994d0b66f1774c632",
+      "classified_on": "2026-07-31",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Radically simple IT automation platform for configuration management, deployment, and infrastructure orchestration.",
+      "rationale": "General-purpose automation framework; AI is not material to its primary purpose or organizing subject."
+    },
+    "1054793726": {
+      "repository_id": 1054793726,
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "readme_sha": "688f30fe6e6c191f29d6491bea5e0c26921b6b4e",
+      "classified_on": "2026-07-31",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "MCP server enabling AI coding agents to control and inspect Chrome browsers reliably.",
+      "rationale": "Explicitly designed as MCP server for AI agents; core purpose is providing agent-compatible browser automation and debugging tools."
     }
   }
 }
