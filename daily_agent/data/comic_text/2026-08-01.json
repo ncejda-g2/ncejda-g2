@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-08-01",
+  "template_id": "buff_doge_cheems",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "buff_caption": "situational awareness: essay warning AI will end the world",
+    "cheems_caption": "situational awareness: 3x leveraged CoreWeave position at peak"
+  },
+  "narrative_summary": "The joke contrasts Aschenbrenner's sweeping macro foresight about AI existential risk with his complete blindness to his own fund's leverage risk \u2014 using the same phrase he coined.",
+  "rationale": "Candidate 1 wins the three-way tie on punchline economy \u2014 it uses the exact phrase 'situational awareness' twice with zero extra words, letting the irony land cleanly without spelling it out. The cheems caption's '3x leveraged CoreWeave position at peak' is specific enough to feel real while the parallel structure does all the comedic lifting, making it the tightest execution of the same core joke.",
+  "image_filename": "comic_2026-08-01.png",
+  "story_title": "Situational Awareness down 67% in July in AI stock rout",
+  "story_url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
+  "place": "inside an AI art gallery where every painting has the wrong number of fingers",
+  "hat_pair": [
+    "foam thought bubble hat with a tiny glowing question mark floating inside it",
+    "foam error message worn as a flat hat reading '404 HAT NOT FOUND'"
+  ],
+  "no_news_mode": false
+}

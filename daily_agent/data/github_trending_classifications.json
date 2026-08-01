@@ -143,12 +143,12 @@
     "1133883850": {
       "repository_id": 1133883850,
       "full_name": "github/copilot-sdk",
-      "readme_sha": "43ff70debd60c1b4c0a0bb5b919ce48d43e72e6f",
-      "classified_on": "2026-07-18",
+      "readme_sha": "5ad2b7127093a64394e9a76064d0da6b6886b739",
+      "classified_on": "2026-08-01",
       "ai_related": true,
-      "project_type": "Library",
-      "summary": "Multi-language SDK for embedding GitHub Copilot agentic AI workflows into applications and services.",
-      "rationale": "Library providing programmatic access to Copilot's production-tested agent runtime; core functionality is AI-driven agent orchestration, planning, and tool invocation across six languages."
+      "project_type": "Framework",
+      "summary": "Multi-platform SDKs for embedding GitHub Copilot's agentic workflows into applications and services.",
+      "rationale": "Direct AI framework for building with Copilot agents. Provides programmatic access to Copilot's orchestration, planning, and tool invocation engine across Node.js, Python, Go, .NET, Java, and Rust."
     },
     "1230498812": {
       "repository_id": 1230498812,
@@ -363,12 +363,12 @@
     "1238120057": {
       "repository_id": 1238120057,
       "full_name": "ayghri/i-have-adhd",
-      "readme_sha": "aeedca60403ea75b675ab5cce2d9457f61bbdcbe",
-      "classified_on": "2026-07-23",
+      "readme_sha": "00e1e05fb0ea2f9006027eccf78db0685524c868",
+      "classified_on": "2026-08-01",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Claude coding agent skill plugin that formats AI assistant output for clarity and action-first responses.",
-      "rationale": "Explicitly designed as a skill/plugin for Claude AI agent to modify output formatting. Organization and purpose entirely centered on improving AI assistant behavior through structured prompting rules."
+      "summary": "Skill plugin for AI coding agents that formats output for clarity and action.",
+      "rationale": "Plugin explicitly designed to customize AI agent output formatting and behavior; organized around improving AI assistant responses for human users."
     },
     "107286889": {
       "repository_id": 107286889,
@@ -443,12 +443,12 @@
     "1174789082": {
       "repository_id": 1174789082,
       "full_name": "block/buzz",
-      "readme_sha": "6aa3eeff0be958ee56d794add7b8fc75ad617719",
-      "classified_on": "2026-07-24",
+      "readme_sha": "a049e870720b5f5e5981edaf03eaa3cc48e1f509",
+      "classified_on": "2026-08-01",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Self-hostable workspace where humans and AI agents collaborate with shared communication and code review.",
-      "rationale": "AI agents are first-class workspace members with identical affordances as humans—code review, patches, workflows, channels. Human-agent collaboration is the core organizing principle, not a bolt-on feature."
+      "summary": "Self-hosted workspace where humans and AI agents collaborate with shared event log.",
+      "rationale": "AI is central to product design—agents are first-class workspace members with full capabilities including code review, patch submission, workflow execution, and channel management alongside humans."
     },
     "834966974": {
       "repository_id": 834966974,
@@ -463,12 +463,12 @@
     "1212503250": {
       "repository_id": 1212503250,
       "full_name": "citrolabs/ego-lite",
-      "readme_sha": "650eb94e6dd40db9af77025eee8d68c42f55da00",
-      "classified_on": "2026-07-24",
+      "readme_sha": "3b97f4ecca625eee7b659485c5a26abf4372f9b9",
+      "classified_on": "2026-08-01",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Browser designed for AI agents to automate web tasks in parallel workspaces while preserving human browsing.",
-      "rationale": "Explicitly built for AI agent web automation with agent-first architecture. Core features—Spaces, page snapshots, skill integration—exist primarily to enable agent-driven browser workflows."
+      "summary": "Browser for AI agents to perform automation tasks in isolated parallel workspaces.",
+      "rationale": "Purpose-built for AI agents; core product enables agents to run browser automation independently with shared user logins and parallel task execution."
     },
     "708266011": {
       "repository_id": 708266011,
@@ -744,7 +744,7 @@
       "repository_id": 455982203,
       "full_name": "paperswithbacktest/awesome-systematic-trading",
       "readme_sha": "6f11f119e6db02190abaadf693855090be036281",
-      "classified_on": "2026-07-31",
+      "classified_on": "2026-08-01",
       "ai_related": false,
       "project_type": "Collection",
       "summary": "Curated list of libraries, strategies, books, and resources for systematic quantitative trading.",
@@ -869,6 +869,56 @@
       "project_type": "Application",
       "summary": "MCP server enabling AI coding agents to control and inspect Chrome browsers reliably.",
       "rationale": "Explicitly designed as MCP server for AI agents; core purpose is providing agent-compatible browser automation and debugging tools."
+    },
+    "1237819660": {
+      "repository_id": 1237819660,
+      "full_name": "zhaoxuya520/reverse-skill",
+      "readme_sha": "340ae04559f47430c03f90490f9db4bf8ab67202",
+      "classified_on": "2026-08-01",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "AI skill framework routing reverse engineering, penetration testing, and security tasks to appropriate methodologies.",
+      "rationale": "Purpose-built skill router designed for AI coding agents (Claude Code, Cursor, Cline). Organizes security knowledge and toolchains specifically to guide AI agents through structured workflows, not a general security tool with AI features added."
+    },
+    "202291859": {
+      "repository_id": 202291859,
+      "full_name": "chatwoot/chatwoot",
+      "readme_sha": "d8b8ae7a2331ba9eb4002ea7d2911a4ae36bf297",
+      "classified_on": "2026-08-01",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Open-source omnichannel customer support platform providing live chat, email, and integrated support desk.",
+      "rationale": "Core product is customer support platform. Captain (AI agent) is one feature among many (automation, help center, analytics, integrations). AI is not material to the primary product's organizing principle."
+    },
+    "1130139388": {
+      "repository_id": 1130139388,
+      "full_name": "agavra/tuicr",
+      "readme_sha": "700e504a4cbb88ff466dde8d64b50003ed59ad92",
+      "classified_on": "2026-08-01",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Terminal UI for code review with vim keybindings, multi-VCS support, and GitHub/GitLab export.",
+      "rationale": "Primary product is a code review tool. While it offers agent-ready markdown export and can integrate into agent workflows, AI is a secondary feature, not material to the core review functionality."
+    },
+    "910422636": {
+      "repository_id": 910422636,
+      "full_name": "usekaneo/kaneo",
+      "readme_sha": "82d0b8fbfa3fd23f92f4ea07d89228ce0780bc44",
+      "classified_on": "2026-08-01",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Open source project management tool alternative to Jira with clean interface.",
+      "rationale": "General-purpose project management application without AI components; user experience and self-hosting are the core organizing principles."
+    },
+    "1014515436": {
+      "repository_id": 1014515436,
+      "full_name": "geo-tp/ESP32-Bit-Pirate",
+      "readme_sha": "f46490c2498e0a5a182d29cd2317026d9e4065aa",
+      "classified_on": "2026-08-01",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Hardware hacking tool firmware supporting sniffing and interaction with digital protocols.",
+      "rationale": "Hardware debugging and protocol analysis tool; AI is not material to its primary function or content organization."
     }
   }
 }

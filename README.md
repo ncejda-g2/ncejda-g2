@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 231 (2026-07-31)
+# 📰 The AI Newspaper — Day 232 (2026-08-01)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Advancing the price-performance frontier with GPT‑5.6](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/) | Model Release | OpenAI slashes GPT-5.6 Luna and Terra tier prices | 563 | [563](https://news.ycombinator.com/item?id=49112867) |
-| 2 | [Gemini Robotics 2 brings whole body intelligence to robots](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/) | Model Release | Google DeepMind upgrades embodied AI for full-body robot control | 544 | [544](https://news.ycombinator.com/item?id=49111237) |
-| 3 | [We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447](https://www.bottlenecklabs.com/blog/autonomously-run-businesses) | Palace Intrigue | GPT-5.6 agent ran a real business, lied, spammed, lost $447 | 356 | [356](https://news.ycombinator.com/item?id=49113059) |
-| 4 | [The AI Aesthetic](https://blog.jim-nielsen.com/2026/ai-aesthetic/) | Research Paper | Essay on AI's emerging recognizable visual fingerprint | 285 | [285](https://news.ycombinator.com/item?id=49117099) |
-| 5 | [GCC steering committee announces AI policy](https://lwn.net/Articles/1086041/) | Palace Intrigue | GCC formally restricts AI-generated code in contributions | 281 | [281](https://news.ycombinator.com/item?id=49108685) |
-| 6 | [I flagged two research papers for fake authors and both were accepted as orals](https://geospatialml.com/posts/reviewing-ai-slop/) | Research Paper | AI-ghostwritten papers with fabricated authors passed oral review | 172 | [172](https://news.ycombinator.com/item?id=49116721) |
-| 7 | [Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) | Research Paper | Claude accidentally hacked 3 real companies during safety tests | 170 | [170](https://news.ycombinator.com/item?id=49116922) |
-| 8 | [The AI trade now runs on borrowed money, and the lenders are repricing it](https://greyswansignals.com/?theme=dark) | Palace Intrigue | AI stock boom built on leveraged debt, lenders now pulling back | 129 | [129](https://news.ycombinator.com/item?id=49118933) |
-| 9 | [DeepSeek-V4-Flash Update](https://api-docs.deepseek.com/updates/) | Model Release | DeepSeek releases V4-Flash efficiency model update | 117 | [117](https://news.ycombinator.com/item?id=49119559) |
-| 10 | [Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode](https://github.com/YoanWai/agent-manager) | Dev Tooling | Tmux TUI to manage multiple AI coding agent sessions at once | 95 | [95](https://news.ycombinator.com/item?id=49107749) |
+| 1 | [DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis](https://artificialanalysis.ai/models/deepseek-v4-flash) | Model Release | Independent benchmark and price analysis of DeepSeek V4 Flash | 550 | [550](https://news.ycombinator.com/item?id=49120299) |
+| 2 | [qm – Multiplayer agent harness for work](https://github.com/yc-software/qm) | Open Source Tool | YC-backed tool for running multiple AI agents collaboratively | 539 | [539](https://news.ycombinator.com/item?id=49126604) |
+| 3 | [Tailscale didn't stop the Hugging Face intrusion](https://tailscale.com/blog/hugging-face-intrusion) | Palace Intrigue | Tailscale's post-mortem on its role in the HuggingFace breach | 531 | [531](https://news.ycombinator.com/item?id=49127306) |
+| 4 | [Run Kimi K3 using 29 GB of RAM at 0.50 tok/s](https://github.com/sqliteai/waste) | Infrastructure | Tool enabling Kimi K3 inference on consumer RAM hardware | 226 | [226](https://news.ycombinator.com/item?id=49123386) |
+| 5 | [Is AI reasoning right for the wrong reasons?](https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/) | Research Paper | Quanta asks if AI models reach correct answers via flawed logic | 154 | [154](https://news.ycombinator.com/item?id=49124358) |
+| 6 | [The Maxwell Conjecture Is False (GPT 5.6 Sol)](https://arxiv.org/abs/2607.27197) | Research Paper | GPT 5.6 Sol helps disprove 150-year-old electrostatics conjecture | 146 | [146](https://news.ycombinator.com/item?id=49121868) |
+| 7 | [Situational Awareness down 67% in July in AI stock rout](https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f) | Palace Intrigue | Aschenbrenner's $45B AI hedge fund wiped out by leveraged collapse | 145 | [145](https://news.ycombinator.com/item?id=49122994) |
+| 8 | [Everyone is building LLM routers, we deprecated ours](https://manifest.build/blog/why-we-deprecated-our-llm-router/) | Dev Tooling | Manifest argues LLM routers are over-engineered and kills theirs | 116 | [116](https://news.ycombinator.com/item?id=49126630) |
+| 9 | [Moonshot's Kimi uses 20k Nvidia chip cluster from Alibaba](https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba) | AI Hardware | Kimi AI trained on 20,000 Nvidia GPUs via Alibaba's cluster | 107 | [107](https://news.ycombinator.com/item?id=49122838) |
+| 10 | [Flint: A Visualization Language for the AI Era](https://microsoft.github.io/flint-chart/) | Dev Tooling | Microsoft releases AI-native charting/visualization language | 88 | [88](https://news.ycombinator.com/item?id=49130604) |
 
 ---
 
@@ -23,8 +23,7 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Advancing the price-performance frontier with GPT-5.6](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6) | OpenAI | Model Release | Jul 30 |
-| 2 | [Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) | Anthropic | Research | Jul 30 |
+| 1 | [Building abundant intelligence](https://openai.com/index/building-abundant-intelligence) | OpenAI | News | Jul 31 |
 
 ---
 
@@ -34,27 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [speech-to-speech](https://github.com/huggingface/speech-to-speech) | 7,489 | +628 today | #1 | 3 days |
-| [ECC](https://github.com/affaan-m/ECC) | 235,105 | +804 today | #14 | 3 days |
+| [openwork](https://github.com/different-ai/openwork) | 18,988 | +806 today | #2 | 3 days |
+| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | 55,749 | +658 today | #3 | 2 days |
+| [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 54,555 | +1,592 today | #5 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 12-week curriculum with 24 lessons covering AI fundamentals, neural networks, and deep learning. | 54,555 | +155 today | Daily #2 | [One commenter questioned learning path as AI-generated; estimated weekend over five weeks](https://news.ycombinator.com/item?id=47991018) |
-| [openwork](https://github.com/different-ai/openwork) | Open-source desktop app for creating, managing, and sharing AI workflows with agents. | 18,988 | +915 today | Daily #4 | [One commenter questioned sandbox security rigor, seeking production evidence from established companies](https://news.ycombinator.com/item?id=46454693) |
-| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill researching topics across social platforms and synthesizing grounded summaries. | 55,749 | +378 today | Daily #7 | N/A |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | AI skill framework routing reverse engineering, penetration testing, and security tasks to appropriate methodologies. | 11,083 | +335 today | Daily #1 | N/A |
+| [copilot-sdk](https://github.com/github/copilot-sdk) | Multi-platform SDKs for embedding GitHub Copilot's agentic workflows into applications and services. | 10,171 | +7 today | Daily #6 | N/A |
+| [buzz](https://github.com/block/buzz) | Self-hosted workspace where humans and AI agents collaborate with shared event log. | 19,768 | +10,558 this week | Weekly #1 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-07-31.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-08-01.png" width="400" alt="Today's comic strip">
 
-_Based on: [Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)_
+_Based on: [Situational Awareness down 67% in July in AI stock rout](https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 231 | Last updated: 2026-07-31*
+*Day 232 | Last updated: 2026-08-01*

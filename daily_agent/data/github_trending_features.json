@@ -74,8 +74,8 @@
       "repository_id": 1133883850,
       "full_name": "github/copilot-sdk",
       "url": "https://github.com/github/copilot-sdk",
-      "total_stars": 9834,
-      "last_full_featured": "2026-07-18"
+      "total_stars": 10171,
+      "last_full_featured": "2026-08-01"
     },
     "1230498812": {
       "repository_id": 1230498812,
@@ -193,8 +193,8 @@
       "repository_id": 1174789082,
       "full_name": "block/buzz",
       "url": "https://github.com/block/buzz",
-      "total_stars": 7777,
-      "last_full_featured": "2026-07-24"
+      "total_stars": 19768,
+      "last_full_featured": "2026-08-01"
     },
     "1212503250": {
       "repository_id": 1212503250,
@@ -335,6 +335,13 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "total_stars": 55749,
       "last_full_featured": "2026-07-31"
+    },
+    "1237819660": {
+      "repository_id": 1237819660,
+      "full_name": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "total_stars": 11083,
+      "last_full_featured": "2026-08-01"
     }
   }
 }

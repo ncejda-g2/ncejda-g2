@@ -128,3 +128,4 @@ inside a password reset email loop that has been going for three days
 at a children's birthday party where the robot clown has gone haywire
 at a tech startup's unlimited-PTO office where nobody has ever taken a day off
 at a data center that has just been declared a crime scene
+inside a password manager that has forgotten its own master password
