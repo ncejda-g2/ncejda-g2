@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 232 (2026-08-01)
+# 📰 The AI Newspaper — Day 233 (2026-08-02)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis](https://artificialanalysis.ai/models/deepseek-v4-flash) | Model Release | Independent benchmark and price analysis of DeepSeek V4 Flash | 550 | [550](https://news.ycombinator.com/item?id=49120299) |
-| 2 | [qm – Multiplayer agent harness for work](https://github.com/yc-software/qm) | Open Source Tool | YC-backed tool for running multiple AI agents collaboratively | 539 | [539](https://news.ycombinator.com/item?id=49126604) |
-| 3 | [Tailscale didn't stop the Hugging Face intrusion](https://tailscale.com/blog/hugging-face-intrusion) | Palace Intrigue | Tailscale's post-mortem on its role in the HuggingFace breach | 531 | [531](https://news.ycombinator.com/item?id=49127306) |
-| 4 | [Run Kimi K3 using 29 GB of RAM at 0.50 tok/s](https://github.com/sqliteai/waste) | Infrastructure | Tool enabling Kimi K3 inference on consumer RAM hardware | 226 | [226](https://news.ycombinator.com/item?id=49123386) |
-| 5 | [Is AI reasoning right for the wrong reasons?](https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/) | Research Paper | Quanta asks if AI models reach correct answers via flawed logic | 154 | [154](https://news.ycombinator.com/item?id=49124358) |
-| 6 | [The Maxwell Conjecture Is False (GPT 5.6 Sol)](https://arxiv.org/abs/2607.27197) | Research Paper | GPT 5.6 Sol helps disprove 150-year-old electrostatics conjecture | 146 | [146](https://news.ycombinator.com/item?id=49121868) |
-| 7 | [Situational Awareness down 67% in July in AI stock rout](https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f) | Palace Intrigue | Aschenbrenner's $45B AI hedge fund wiped out by leveraged collapse | 145 | [145](https://news.ycombinator.com/item?id=49122994) |
-| 8 | [Everyone is building LLM routers, we deprecated ours](https://manifest.build/blog/why-we-deprecated-our-llm-router/) | Dev Tooling | Manifest argues LLM routers are over-engineered and kills theirs | 116 | [116](https://news.ycombinator.com/item?id=49126630) |
-| 9 | [Moonshot's Kimi uses 20k Nvidia chip cluster from Alibaba](https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba) | AI Hardware | Kimi AI trained on 20,000 Nvidia GPUs via Alibaba's cluster | 107 | [107](https://news.ycombinator.com/item?id=49122838) |
-| 10 | [Flint: A Visualization Language for the AI Era](https://microsoft.github.io/flint-chart/) | Dev Tooling | Microsoft releases AI-native charting/visualization language | 88 | [88](https://news.ycombinator.com/item?id=49130604) |
+| 1 | [Ten advances in mathematics and theoretical computer science](https://openai.com/index/ten-advances-in-mathematics/) | Research Paper | OpenAI shares ten new AI math and CS breakthroughs | 428 | [428](https://news.ycombinator.com/item?id=49132058) |
+| 2 | [Cursor removed cost information from the usage page and CSV export](https://forum.cursor.com/t/usage-page-to-token-amount-what/167153) | Dev Tooling | Cursor hides token cost data from paying users | 321 | [321](https://news.ycombinator.com/item?id=49135257) |
+| 3 | [Seedance 2.5](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) | Model Release | ByteDance launches Seedance 2.5 AI video model | 304 | [304](https://news.ycombinator.com/item?id=49138302) |
+| 4 | [AI financial advice is surprisingly good, especially if you ask right questions](https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions) | Research Paper | MIT study: AI gives surprisingly strong financial advice | 281 | [281](https://news.ycombinator.com/item?id=49139102) |
+| 5 | [AI doesn't generate working products, that's still your job](https://weeraman.com/the-prototype-isnt-the-product/) | Palace Intrigue | Prototypes aren't products; engineers are still essential | 254 | [254](https://news.ycombinator.com/item?id=49132130) |
+| 6 | [Running Kimi K3 on MI355X at Better Performance per Dollar Than B300](https://www.wafer.ai/blog/kimi-k3-mi355x) | Infrastructure | Kimi K3 runs cheaper and faster on AMD MI355X | 106 | [106](https://news.ycombinator.com/item?id=49141073) |
+| 7 | [Explorative modeling: Train on the best of K guesses](https://alexiglad.github.io/blog/2026/explorative_modeling/) | Research Paper | New ML technique selects best of K training guesses | 96 | [96](https://news.ycombinator.com/item?id=49135245) |
+| 8 | [EU will mandate labels on authentic-looking AI content starting August 2](https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content/) | Palace Intrigue | EU AI content labeling law takes effect today | 73 | [73](https://news.ycombinator.com/item?id=49132341) |
+| 9 | [Google kills Earth AI generator after one day](https://twitter.com/newsfromgoogle/status/2083249962150760610) | Palace Intrigue | Google yanks Earth AI image generator after one day | 62 | [62](https://news.ycombinator.com/item?id=49134079) |
+| 10 | [Google cancels AI Studio app after 800k preorders](https://twitter.com/GoogleAIStudio/status/2083274575769473092) | Palace Intrigue | Google cancels AI Studio app despite 800k preorders | 46 | [46](https://news.ycombinator.com/item?id=49137268) |
 
 ---
 
@@ -23,7 +23,7 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Building abundant intelligence](https://openai.com/index/building-abundant-intelligence) | OpenAI | News | Jul 31 |
+| 1 | [Ten advances in mathematics and theoretical computer science](https://openai.com/index/ten-advances-in-mathematics) | OpenAI | Research | Aug 01 |
 
 ---
 
@@ -33,28 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [openwork](https://github.com/different-ai/openwork) | 18,988 | +806 today | #2 | 3 days |
-| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | 55,749 | +658 today | #3 | 2 days |
-| [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 54,555 | +1,592 today | #5 | 2 days |
+| [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 54,555 | +949 today | #1 | 3 days |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 11,083 | +1,320 today | #4 | 2 days |
+| [copilot-sdk](https://github.com/github/copilot-sdk) | 10,171 | +142 today | #6 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | AI skill framework routing reverse engineering, penetration testing, and security tasks to appropriate methodologies. | 11,083 | +335 today | Daily #1 | N/A |
-| [copilot-sdk](https://github.com/github/copilot-sdk) | Multi-platform SDKs for embedding GitHub Copilot's agentic workflows into applications and services. | 10,171 | +7 today | Daily #6 | N/A |
-| [buzz](https://github.com/block/buzz) | Self-hosted workspace where humans and AI agents collaborate with shared event log. | 19,768 | +10,558 this week | Weekly #1 | N/A |
+| [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | Comprehensive 21-lesson course teaching generative AI fundamentals and application building for developers. | 114,373 | +108 today | Daily #5 | N/A |
+| [voice-pro](https://github.com/abus-aikorea/voice-pro) | AI web application for speech recognition, voice cloning, translation, and multilingual audio dubbing. | 11,875 | +58 today | Daily #9 | [HN noted tool makes scamming vulnerable people easy, questions legitimate use cases.](https://news.ycombinator.com/item?id=42261909) |
+| [TRELLIS.2](https://github.com/microsoft/TRELLIS.2) | Four-billion parameter 3D generative model for high-fidelity image-to-3D asset creation. | 10,005 | +107 today | Daily #12 | [Commenter rated useless tier; responder notes fair open-source option versus paid competitors.](https://news.ycombinator.com/item?id=47828896) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-08-01.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-08-02.png" width="400" alt="Today's comic strip">
 
-_Based on: [Situational Awareness down 67% in July in AI stock rout](https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f)_
+_Based on: [Cursor removed cost information from the usage page and CSV export](https://forum.cursor.com/t/usage-page-to-token-amount-what/167153)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 232 | Last updated: 2026-08-01*
+*Day 233 | Last updated: 2026-08-02*

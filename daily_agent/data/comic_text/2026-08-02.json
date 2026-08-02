@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-08-02",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "i_receive": "hidden cost of $30,000/month in ai spend",
+    "you_receive": "token counts and the word 'generous'"
+  },
+  "narrative_summary": "Cursor's removal of dollar-cost tracking is framed as a hilariously lopsided trade offer \u2014 they get to obscure $30k/month in costs while admins receive raw token numbers and corporate euphemism.",
+  "rationale": "Candidate 3 earns the highest specificity by naming $30,000/month and the actual word 'generous' from Cursor's own messaging, and the punchline lands because 'the word generous' is a concrete, absurd object to receive in a trade \u2014 it doesn't just restate the setup but escalates it with corporate doublespeak as the final joke.",
+  "image_filename": "comic_2026-08-02.png",
+  "story_title": "Cursor removed cost information from the usage page and CSV export",
+  "story_url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
+  "place": "inside a quantum computer's cooling chamber",
+  "hat_pair": [
+    "foam coffee cup hat with a plastic straw poking out the top",
+    "foam toaster hat with two slices of toast permanently popping up"
+  ],
+  "no_news_mode": false
+}

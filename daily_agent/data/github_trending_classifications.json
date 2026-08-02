@@ -744,7 +744,7 @@
       "repository_id": 455982203,
       "full_name": "paperswithbacktest/awesome-systematic-trading",
       "readme_sha": "6f11f119e6db02190abaadf693855090be036281",
-      "classified_on": "2026-08-01",
+      "classified_on": "2026-08-02",
       "ai_related": false,
       "project_type": "Collection",
       "summary": "Curated list of libraries, strategies, books, and resources for systematic quantitative trading.",
@@ -854,7 +854,7 @@
       "repository_id": 3638964,
       "full_name": "ansible/ansible",
       "readme_sha": "ed464e118bf451b1274cee7994d0b66f1774c632",
-      "classified_on": "2026-07-31",
+      "classified_on": "2026-08-02",
       "ai_related": false,
       "project_type": "Framework",
       "summary": "Radically simple IT automation platform for configuration management, deployment, and infrastructure orchestration.",
@@ -904,7 +904,7 @@
       "repository_id": 910422636,
       "full_name": "usekaneo/kaneo",
       "readme_sha": "82d0b8fbfa3fd23f92f4ea07d89228ce0780bc44",
-      "classified_on": "2026-08-01",
+      "classified_on": "2026-08-02",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open source project management tool alternative to Jira with clean interface.",
@@ -919,6 +919,76 @@
       "project_type": "Application",
       "summary": "Hardware hacking tool firmware supporting sniffing and interaction with digital protocols.",
       "rationale": "Hardware debugging and protocol analysis tool; AI is not material to its primary function or content organization."
+    },
+    "655806940": {
+      "repository_id": 655806940,
+      "full_name": "microsoft/generative-ai-for-beginners",
+      "readme_sha": "ccea2ec6e66cd880ff69a10d145ea144ee46caa7",
+      "classified_on": "2026-08-02",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Comprehensive 21-lesson course teaching generative AI fundamentals and application building for developers.",
+      "rationale": "Educational curriculum explicitly designed to teach generative AI concepts, models, and development with code examples in Python and TypeScript."
+    },
+    "1151630728": {
+      "repository_id": 1151630728,
+      "full_name": "github/gh-stack",
+      "readme_sha": "c21db6407efe9cfd55b3209911eab5d9cfd1c349",
+      "classified_on": "2026-08-02",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "GitHub CLI extension for managing stacked branches and pull requests development workflow.",
+      "rationale": "General-purpose developer tool for PR management; mentioned AI agent integration is a secondary plugin capability, not the primary product."
+    },
+    "835174033": {
+      "repository_id": 835174033,
+      "full_name": "abus-aikorea/voice-pro",
+      "readme_sha": "b06c9969f6b2612f2db3cb1dda6b445bba0f5a31",
+      "classified_on": "2026-08-02",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI web application for speech recognition, voice cloning, translation, and multilingual audio dubbing.",
+      "rationale": "Fundamentally AI-based multimedia application integrating multiple AI models including Whisper, F5-TTS, CosyVoice, and neural translation engines."
+    },
+    "120542434": {
+      "repository_id": 120542434,
+      "full_name": "iv-org/invidious",
+      "readme_sha": "a50441a97a20c52d6a52b1ce51c3f599b1a95ac5",
+      "classified_on": "2026-08-02",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Privacy-focused YouTube alternative frontend with lightweight video watching and no tracking.",
+      "rationale": "Non-AI product. Core functionality is video streaming front-end; no material AI component in primary purpose or features."
+    },
+    "1104510027": {
+      "repository_id": 1104510027,
+      "full_name": "microsoft/TRELLIS.2",
+      "readme_sha": "1c0ad06b5dcb3f0ed57ec83bda599c7b00559325",
+      "classified_on": "2026-08-02",
+      "ai_related": true,
+      "project_type": "Model",
+      "summary": "Four-billion parameter 3D generative model for high-fidelity image-to-3D asset creation.",
+      "rationale": "AI research and generative model. Novel 3D generation using diffusion transformers and sparse voxel structures is core product."
+    },
+    "1203558071": {
+      "repository_id": 1203558071,
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "readme_sha": "31340e0d2a48afaccf8d2dc5b512d15f5b623d50",
+      "classified_on": "2026-08-02",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Team memory hub for AI agents enabling persistent context sharing and reusable knowledge assets.",
+      "rationale": "Platform explicitly designed for AI agent memory management across frameworks. Core purpose is enabling agent coordination and context preservation."
+    },
+    "1190815318": {
+      "repository_id": 1190815318,
+      "full_name": "NomaDamas/k-skill",
+      "readme_sha": "eba93b16e1a7657165a057c2632f38186bb0602b",
+      "classified_on": "2026-08-02",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Korean-language skill collection for AI agents supporting transit booking, legal search, and task automation.",
+      "rationale": "Skill and tool collection organized around AI agent frameworks like Claude Code and OpenClaw. Extends agent capabilities for Korean-specific domains."
     }
   }
 }
