@@ -124,11 +124,11 @@
       "repository_id": 132750724,
       "full_name": "codecrafters-io/build-your-own-x",
       "readme_sha": "9a553c729b29bc69296d7092fc1c314c2c811bad",
-      "classified_on": "2026-07-18",
+      "classified_on": "2026-08-03",
       "ai_related": false,
       "project_type": "Collection",
-      "summary": "A curated collection of step-by-step tutorials for recreating favorite technologies from scratch.",
-      "rationale": "General-purpose programming tutorial collection with sections spanning 3D renderers, databases, blockchains, games, and more. AI topics (models, neural networks, visual recognition) are minority entries; the collection is organized by technology category, not by AI."
+      "summary": "Comprehensive tutorial collection for recreating popular technologies from scratch across programming domains.",
+      "rationale": "General-purpose programming tutorial collection. Includes AI topics (LLMs, diffusion models, neural networks) as subsections among 25+ non-AI domains. Collection organized by programming concepts, not AI."
     },
     "1149023093": {
       "repository_id": 1149023093,
@@ -904,7 +904,7 @@
       "repository_id": 910422636,
       "full_name": "usekaneo/kaneo",
       "readme_sha": "82d0b8fbfa3fd23f92f4ea07d89228ce0780bc44",
-      "classified_on": "2026-08-02",
+      "classified_on": "2026-08-03",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open source project management tool alternative to Jira with clean interface.",
@@ -954,7 +954,7 @@
       "repository_id": 120542434,
       "full_name": "iv-org/invidious",
       "readme_sha": "a50441a97a20c52d6a52b1ce51c3f599b1a95ac5",
-      "classified_on": "2026-08-02",
+      "classified_on": "2026-08-03",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Privacy-focused YouTube alternative frontend with lightweight video watching and no tracking.",
@@ -974,7 +974,7 @@
       "repository_id": 1203558071,
       "full_name": "TencentCloud/TencentDB-Agent-Memory",
       "readme_sha": "31340e0d2a48afaccf8d2dc5b512d15f5b623d50",
-      "classified_on": "2026-08-02",
+      "classified_on": "2026-08-03",
       "ai_related": true,
       "project_type": "Framework",
       "summary": "Team memory hub for AI agents enabling persistent context sharing and reusable knowledge assets.",
@@ -984,11 +984,61 @@
       "repository_id": 1190815318,
       "full_name": "NomaDamas/k-skill",
       "readme_sha": "eba93b16e1a7657165a057c2632f38186bb0602b",
-      "classified_on": "2026-08-02",
+      "classified_on": "2026-08-03",
       "ai_related": true,
       "project_type": "Collection",
       "summary": "Korean-language skill collection for AI agents supporting transit booking, legal search, and task automation.",
       "rationale": "Skill and tool collection organized around AI agent frameworks like Claude Code and OpenClaw. Extends agent capabilities for Korean-specific domains."
+    },
+    "652712035": {
+      "repository_id": 652712035,
+      "full_name": "lyogavin/airllm",
+      "readme_sha": "160cffd570606290b202382b3e2745142b61a045",
+      "classified_on": "2026-08-03",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Python library enabling efficient large language model inference on minimal GPU memory.",
+      "rationale": "Core AI infrastructure for LLM optimization. Directly supports running large language models (70B+) efficiently, with topics focused on LLM, quantization, and generative AI."
+    },
+    "1165277268": {
+      "repository_id": 1165277268,
+      "full_name": "Panniantong/Agent-Reach",
+      "readme_sha": "53055f706558775b04150e2f4efdb4d2080ec320",
+      "classified_on": "2026-08-03",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "CLI tool enabling AI agents to search and read content across major social platforms.",
+      "rationale": "Explicitly designed as agent infrastructure for LLM-based tools (Claude Code, Cursor, OpenClaw). Primary purpose is providing internet access capabilities specifically for AI agents."
+    },
+    "895293282": {
+      "repository_id": 895293282,
+      "full_name": "HarbourMasters/Lighthouse",
+      "readme_sha": "73167c2a10a4c918bf3e17bb42d254cb440df0bf",
+      "classified_on": "2026-08-03",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "A decompiled and portable Banjo-Kazooie N64 game port featuring ROM and modding support.",
+      "rationale": "Game preservation and decompilation project with no AI components or integration."
+    },
+    "1231148626": {
+      "repository_id": 1231148626,
+      "full_name": "antirez/ds4",
+      "readme_sha": "2654c65776d5de4b38a4176c8581a032b6602063",
+      "classified_on": "2026-08-03",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Specialized local inference engine for DeepSeek V4 and GLM models on consumer hardware.",
+      "rationale": "Purpose-built AI inference engine optimized for running specific LLMs with Metal, CUDA, ROCm backends."
+    },
+    "1216785679": {
+      "repository_id": 1216785679,
+      "full_name": "esengine/DeepSeek-Reasonix",
+      "readme_sha": "e0fe46b1b1e0bec4eaa1f35ab4493fb4e7fe7549",
+      "classified_on": "2026-08-03",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A terminal-based AI coding agent framework with plugin support tailored for DeepSeek models.",
+      "rationale": "Core functionality is AI-driven code generation; multi-model config-driven agent framework with tool integration."
     }
   }
 }

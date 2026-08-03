@@ -363,6 +363,27 @@
       "url": "https://github.com/microsoft/TRELLIS.2",
       "total_stars": 10005,
       "last_full_featured": "2026-08-02"
+    },
+    "652712035": {
+      "repository_id": 652712035,
+      "full_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "total_stars": 26070,
+      "last_full_featured": "2026-08-03"
+    },
+    "1165277268": {
+      "repository_id": 1165277268,
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "total_stars": 65158,
+      "last_full_featured": "2026-08-03"
+    },
+    "1203558071": {
+      "repository_id": 1203558071,
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "total_stars": 11516,
+      "last_full_featured": "2026-08-03"
     }
   }
 }

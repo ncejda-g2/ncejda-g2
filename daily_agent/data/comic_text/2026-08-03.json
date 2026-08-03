@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-03",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "caption": "you can't get caught using AI bots to attack AI critics / if you publish the articles in 44 seconds and call it journalism"
+  },
+  "narrative_summary": "The joke uses Roll Safe's smug tautological logic to mock OpenAI's super PAC for thinking speed-running AI-generated hit pieces through a 44-second editorial process was a viable disguise for a $125M astroturf operation.",
+  "rationale": "Candidate 4 earns the highest score by layering three specific details \u2014 the AI bot hit pieces, the 44-second editorial turnaround, and the $125M super PAC scale \u2014 into a closing beat that adds 'and call it journalism,' which reframes the absurdity as smug self-delusion rather than just restating the setup. The escalation voice pays off: the punchline does actual work instead of echoing the premise.",
+  "image_filename": "comic_2026-08-03.png",
+  "story_title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+  "story_url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+  "place": "at a ghost town that used to be a Silicon Valley startup campus",
+  "hat_pair": [
+    "foam toaster hat with two slices of toast permanently popping up",
+    "foam coffee cup hat with a plastic straw poking out the top"
+  ],
+  "no_news_mode": false
+}
