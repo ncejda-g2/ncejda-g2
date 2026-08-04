@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-08-04",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "panel1_dialog": "Our CVE database catches every real SQLite vulnerability.",
+    "panel2_dialog": "So someone actually verified line 3,555 of a 2,706-line file... right?",
+    "panel4_dialog": "...right?"
+  },
+  "narrative_summary": "The joke uses a specific absurd detail from the story \u2014 a fabricated CVE citing line 3,555 of a file that's only 2,706 lines long \u2014 to expose that NVD, CISA, and Red Hat scored fake LLM-generated vulnerabilities as CRITICAL without anyone checking if the referenced code even existed.",
+  "rationale": "Candidate 5 earns its punchline by embedding the specific absurd detail \u2014 line 3,555 of a 2,706-line file \u2014 directly into Padme's question, making the silent panel 3 land as genuine horror rather than a generic 'nobody checked' beat. The concrete number does the comedic heavy lifting that all the other candidates gesture at but never commit to.",
+  "image_filename": "comic_2026-08-04.png",
+  "story_title": "SQLite Critical CVEs or LLM Slop?",
+  "story_url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+  "place": "inside a customer support chatbot that has completely given up",
+  "hat_pair": [
+    "roman centurion helmet",
+    "full-face motorcycle helmet with googly eyes stuck on"
+  ],
+  "no_news_mode": false
+}

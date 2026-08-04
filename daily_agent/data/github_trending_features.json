@@ -186,8 +186,8 @@
       "repository_id": 1011567289,
       "full_name": "shiyu-coder/Kronos",
       "url": "https://github.com/shiyu-coder/Kronos",
-      "total_stars": 32736,
-      "last_full_featured": "2026-07-23"
+      "total_stars": 35903,
+      "last_full_featured": "2026-08-04"
     },
     "1174789082": {
       "repository_id": 1174789082,
@@ -384,6 +384,20 @@
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "total_stars": 11516,
       "last_full_featured": "2026-08-03"
+    },
+    "1216785679": {
+      "repository_id": 1216785679,
+      "full_name": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "total_stars": 30288,
+      "last_full_featured": "2026-08-04"
+    },
+    "1231148626": {
+      "repository_id": 1231148626,
+      "full_name": "antirez/ds4",
+      "url": "https://github.com/antirez/ds4",
+      "total_stars": 20461,
+      "last_full_featured": "2026-08-04"
     }
   }
 }

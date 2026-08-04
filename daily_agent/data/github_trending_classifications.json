@@ -404,11 +404,11 @@
       "repository_id": 1011567289,
       "full_name": "shiyu-coder/Kronos",
       "readme_sha": "faffa1578cf0172f6b88f5db8a9b1205668ffef1",
-      "classified_on": "2026-07-23",
+      "classified_on": "2026-08-04",
       "ai_related": true,
       "project_type": "Model",
-      "summary": "Open-source foundation model pre-trained on financial market K-line data for quantitative trading tasks.",
-      "rationale": "Explicit AI foundation model with novel tokenizer and transformer architecture. Plausibly material to primary product. Accepted to AAAI 2026."
+      "summary": "Foundation model for financial market candlestick sequence prediction trained on global exchanges.",
+      "rationale": "Open-source foundation model and research project specifically designed for financial time-series forecasting; includes pre-trained decoder-only Transformer family with novel tokenizer for OHLCV data."
     },
     "1078079172": {
       "repository_id": 1078079172,
@@ -1023,22 +1023,42 @@
     "1231148626": {
       "repository_id": 1231148626,
       "full_name": "antirez/ds4",
-      "readme_sha": "2654c65776d5de4b38a4176c8581a032b6602063",
-      "classified_on": "2026-08-03",
+      "readme_sha": "02ed4c8a8de1dc36ad7b3592302cc8721f7c4d84",
+      "classified_on": "2026-08-04",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Specialized local inference engine for DeepSeek V4 and GLM models on consumer hardware.",
-      "rationale": "Purpose-built AI inference engine optimized for running specific LLMs with Metal, CUDA, ROCm backends."
+      "summary": "Local inference engine for running DeepSeek and GLM models on Metal, CUDA, and ROCm.",
+      "rationale": "Specialized framework for efficient local LLM inference; core product is AI model deployment infrastructure with quantization, multi-GPU support, and distributed tensor parallelism."
     },
     "1216785679": {
       "repository_id": 1216785679,
       "full_name": "esengine/DeepSeek-Reasonix",
-      "readme_sha": "e0fe46b1b1e0bec4eaa1f35ab4493fb4e7fe7549",
-      "classified_on": "2026-08-03",
+      "readme_sha": "237f28466a09cebcc65cd6cd7b331e176295b9dc",
+      "classified_on": "2026-08-04",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "A terminal-based AI coding agent framework with plugin support tailored for DeepSeek models.",
-      "rationale": "Core functionality is AI-driven code generation; multi-model config-driven agent framework with tool integration."
+      "summary": "DeepSeek-native AI coding agent for terminal with prefix-cache optimization and tool support.",
+      "rationale": "Dedicated AI agent framework built around DeepSeek models; provides multi-model composition, plugin architecture via MCP, and specialized prompt caching for long coding sessions."
+    },
+    "1151702019": {
+      "repository_id": 1151702019,
+      "full_name": "firecrawl/pdf-inspector",
+      "readme_sha": "04a5aa22deb7ebc49cd833d400bd2b54dd13ef37",
+      "classified_on": "2026-08-04",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "Fast Rust library for PDF classification and text extraction using heuristics without ML models.",
+      "rationale": "Pure rule-based PDF parsing library using font analysis and layout heuristics. README explicitly states 'no ML models, no external services.' Smart classification refers to deterministic detection algorithms, not AI."
+    },
+    "83222441": {
+      "repository_id": 83222441,
+      "full_name": "donnemartin/system-design-primer",
+      "readme_sha": "9e2cdb88dec86c34c9b49b657f5629a1866c6976",
+      "classified_on": "2026-08-04",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "Comprehensive educational collection for learning system design principles and technical interview preparation.",
+      "rationale": "General-purpose system design resource covering scalability, latency, databases, caching, and distributed systems. While applicable to AI systems, the collection is organized around system design education, not AI."
     }
   }
 }

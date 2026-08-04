@@ -130,4 +130,4 @@ at a tech startup's unlimited-PTO office where nobody has ever taken a day off
 at a data center that has just been declared a crime scene
 inside a password manager that has forgotten its own master password
 at a job interview for a position that was automated last week
-at a county fair where the blue-ribbon winner is an AI-generated pie
+at a startup demo day where every company claims to be "the Uber of AI"

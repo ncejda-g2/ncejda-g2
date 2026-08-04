@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 234 (2026-08-03)
+# 📰 The AI Newspaper — Day 235 (2026-08-04)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Qwen3.8-Max: A New Bar for Coding and Cowork](https://qwen.ai/blog?id=qwen3.8) | Model Release | Alibaba drops Qwen3.8-Max, claims new coding SOTA | 502 | [502](https://news.ycombinator.com/item?id=49150470) |
-| 2 | [OpenAI's super PAC is funding AI-generated news site attacking industry critics](https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda) | Palace Intrigue | OpenAI-linked PAC funds AI bot outlet attacking critics | 177 | [177](https://news.ycombinator.com/item?id=49150561) |
-| 3 | [My personal AI benchmark: "Generate an SVG of a frog with a Habsburg jaw"](https://frogs.vaguespac.es/) | Research Paper | Quirky frog SVG test reveals surprising model differences | 139 | [139](https://news.ycombinator.com/item?id=49147622) |
-| 4 | [AI poster wins Ohio State Fair contest](https://www.ohiostatefair.com/p/get-involved/arts/poster-contest) | Palace Intrigue | AI-generated art takes state fair blue ribbon | 129 | [129](https://news.ycombinator.com/item?id=49149188) |
-| 5 | [Boris Cherny on Trying to Get Claude Code to Rewrite the Claude App](https://daringfireball.net/linked/2026/08/02/cherny-claude-swift) | Dev Tooling | Anthropic engineer tests Claude Code on Anthropic's own app | 60 | [60](https://news.ycombinator.com/item?id=49149800) |
-| 6 | [AI migrated legacy COBOL programs to Java, bugs included](https://arxiv.org/abs/2607.28271) | Research Paper | Paper: AI COBOL-to-Java migrations faithfully ported bugs too | 54 | [54](https://news.ycombinator.com/item?id=49150773) |
-| 7 | [EU rules on AI models become enforceable. What's going to change?](https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change) | Palace Intrigue | EU AI Act model rules go live; labs face new obligations | 50 | [50](https://news.ycombinator.com/item?id=49147606) |
-| 8 | [An internal OpenAI Astra model solved 10 major open math and CS problems](https://twitter.com/polynoamial/status/2083467194663571701) | Research Paper | OpenAI Astra reportedly cracked 10 open problems in math/CS | 47 | [47](https://news.ycombinator.com/item?id=49143688) |
-| 9 | [GPUs could explode to multiple TB with new storage-inspired memory tech](https://www.theregister.com/storage/2026/07/30/gpus-could-explode-to-multiple-tb-with-new-storage-inspired-memory-tech/5281363) | AI Hardware | New storage-class memory could give GPUs terabytes of VRAM | 34 | [34](https://news.ycombinator.com/item?id=49143719) |
-| 10 | [Amazon completes $50B investment in OpenAI](https://www.ft.com/content/8ae9e6e4-a53c-44da-8e7d-c9d81f0df4b9) | Palace Intrigue | Amazon closes massive $50B OpenAI stake | 18 | [18](https://news.ycombinator.com/item?id=49150420) |
+| 1 | [LLMs reward expertise](https://www.seangoedecke.com/llms-reward-expertise/) | Research Paper | LLMs give richer responses to expert-level prompts | 806 | [806](https://news.ycombinator.com/item?id=49161518) |
+| 2 | [SQLite Critical CVEs or LLM Slop?](https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/) | Research Paper | JFrog: 54 of 55 SQLite CVEs were AI-fabricated nonsense | 708 | [708](https://news.ycombinator.com/item?id=49154332) |
+| 3 | [Prevent cognitive debt by manually retyping LLM-generated code](https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/) | Research Paper | Retyping AI code prevents outsourcing understanding to LLMs | 465 | [465](https://news.ycombinator.com/item?id=49153374) |
+| 4 | [MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video](https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui) | Model Release | MiniMax H3 open-weight video model lands in ComfyUI | 289 | [289](https://news.ycombinator.com/item?id=49155629) |
+| 5 | [AirLLM 70B inference with single 4GB GPU](https://github.com/lyogavin/airllm) | Infrastructure | Library runs 70B models on a single 4GB GPU | 214 | [214](https://news.ycombinator.com/item?id=49154228) |
+| 6 | [Smaller, faster, safer: running Kimi and GLM at scale](https://blog.cloudflare.com/smaller-faster-safer-models/) | Infrastructure | Cloudflare deploys Kimi and GLM Chinese models at scale | 201 | [201](https://news.ycombinator.com/item?id=49158581) |
+| 7 | [Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone](https://github.com/leonickson1/Swiftlet) | Open Source Tool | Swiftlet runs 80B Qwen in 4.3GB RAM on Apple Silicon | 137 | [137](https://news.ycombinator.com/item?id=49158333) |
+| 8 | [AI's debt binge can't last, hidden borrowing reaches $1.65T](https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/) | Palace Intrigue | AI sector's off-balance-sheet debt quietly hits $1.65 trillion | 126 | [126](https://news.ycombinator.com/item?id=49160699) |
+| 9 | [What's the largest software project AI can complete on its own?](https://epoch.ai/MirrorCode) | Research Paper | Epoch benchmarks AI autonomy on real software complexity | 81 | [81](https://news.ycombinator.com/item?id=49157786) |
+| 10 | [The AI bubble is popping; we just don't know it yet](https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004) | Palace Intrigue | The Register argues AI hype cycle is quietly deflating | 77 | [77](https://news.ycombinator.com/item?id=49154601) |
 
 ---
 
@@ -23,7 +23,7 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [How AI is expanding what people do at work](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/) | OpenAI | Research | Aug 03 |
+| 1 | [How we built a realtime system for responsive voice AI in six months](https://openai.com/index/continuous-voice-interaction-with-gpt-live) | OpenAI | Engineering | Aug 03 |
 
 ---
 
@@ -33,28 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 54,555 | +2,629 today | #1 | 4 days |
-| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 11,083 | +1,141 today | #6 | 3 days |
-| [openwork](https://github.com/different-ai/openwork) | 18,988 | +280 today | #7 | 1 days |
+| [airllm](https://github.com/lyogavin/airllm) | 26,070 | +1,085 today | #1 | 2 days |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 11,083 | +2,446 today | #2 | 4 days |
+| [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 11,516 | +1,090 today | #5 | 3 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [airllm](https://github.com/lyogavin/airllm) | Python library enabling efficient large language model inference on minimal GPU memory. | 26,070 | +819 today | Daily #3 | [HN noted that users testing the implementation found it was very slow.](https://news.ycombinator.com/item?id=38790385) |
-| [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | CLI tool enabling AI agents to search and read content across major social platforms. | 65,158 | +659 today | Daily #9 | N/A |
-| [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | Team memory hub for AI agents enabling persistent context sharing and reusable knowledge assets. | 11,516 | +602 today | Daily #10 | N/A |
+| [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | DeepSeek-native AI coding agent for terminal with prefix-cache optimization and tool support. | 30,288 | +883 today | Daily #4 | N/A |
+| [ds4](https://github.com/antirez/ds4) | Local inference engine for running DeepSeek and GLM models on Metal, CUDA, and ROCm. | 20,461 | +384 today | Daily #9 | [Commenter optimistic about on-device inference viability after seeing project's reasonable performance metrics.](https://news.ycombinator.com/item?id=48050751) |
+| [Kronos](https://github.com/shiyu-coder/Kronos) | Foundation model for financial market candlestick sequence prediction trained on global exchanges. | 35,903 | +200 today | Daily #10 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-08-03.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-08-04.png" width="400" alt="Today's comic strip">
 
-_Based on: [OpenAI's super PAC is funding AI-generated news site attacking industry critics](https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda)_
+_Based on: [SQLite Critical CVEs or LLM Slop?](https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 234 | Last updated: 2026-08-03*
+*Day 235 | Last updated: 2026-08-04*
