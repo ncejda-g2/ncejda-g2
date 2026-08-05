@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-05",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "paranoid",
+    "adjective_second": "scruffy",
+    "narrative_intro": "*A paranoid person and a scruffy person discuss the Apple data breach at a data center that has just been declared a crime scene.*",
+    "panel1": "[setup]\nPARANOID PERSON: \"Fourteen ex-Apple employees. Fourteen.\"\nSCRUFFY PERSON: \"Allegedly.\"",
+    "panel2": "[build]\nPARANOID PERSON: \"One took screenshots during their job interview.\"\nSCRUFFY PERSON: \"During the interview?\"",
+    "panel3": "[pivot]\nPARANOID PERSON: \"Multiple others are now emailing OpenAI asking how to return the laptops they just... kept.\"\nSCRUFFY PERSON: \"They kept the laptops.\"",
+    "panel4": "[silent reaction]\n[Visual: Both figures stand completely still under the flickering crime-scene tape. A forensics cone sits next to what is clearly an Apple MacBook someone just mailed to the server room in a shoebox.]",
+    "panel5": "[punch]\nSCRUFFY PERSON: \"So the cover-up strategy was emailing the company.\"\nPARANOID PERSON: \"On the stolen laptop, presumably.\"",
+    "panel6": "[button]\n[Visual: A whiteboard on the wall reads 'OPERATIONAL SECURITY SEMINAR \u2014 CANCELLED' with eleven sticky notes beneath it, each one an Apple logo peeled off a keyboard.]"
+  },
+  "narrative_summary": "The joke pivots on the absurdity that the implicated employees' self-incriminating cleanup move was voluntarily contacting OpenAI to return the Apple hardware they had quietly kept, implying the cover-up was somehow worse than the original act.",
+  "rationale": "Candidate 1 earns its score through genuine surprise \u2014 the button panel (the 'OPERATIONAL SECURITY SEMINAR \u2014 CANCELLED' whiteboard with peeled Apple logo stickers) is the only closing beat that doesn't just restate the setup but adds a new absurd layer. The deadpan rhythm also makes the 'on the stolen laptop, presumably' line land harder than any of the competing FedEx jokes.",
+  "image_filename": "comic_2026-08-05.png",
+  "story_title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+  "story_url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+  "place": "at a data center that has just been declared a crime scene",
+  "hat_pair": [
+    "tinfoil pyramid hat",
+    "foam pencil worn as a tall pointy hat with a pink eraser tip at the peak"
+  ],
+  "no_news_mode": false
+}

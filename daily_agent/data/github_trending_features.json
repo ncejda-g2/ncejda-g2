@@ -242,8 +242,8 @@
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
-      "total_stars": 261244,
-      "last_full_featured": "2026-07-26"
+      "total_stars": 266749,
+      "last_full_featured": "2026-08-05"
     },
     "1153130349": {
       "repository_id": 1153130349,
@@ -398,6 +398,20 @@
       "url": "https://github.com/antirez/ds4",
       "total_stars": 20461,
       "last_full_featured": "2026-08-04"
+    },
+    "1215280164": {
+      "repository_id": 1215280164,
+      "full_name": "uber/ADR",
+      "url": "https://github.com/uber/ADR",
+      "total_stars": 808,
+      "last_full_featured": "2026-08-05"
+    },
+    "707441527": {
+      "repository_id": 707441527,
+      "full_name": "livekit/agents",
+      "url": "https://github.com/livekit/agents",
+      "total_stars": 12561,
+      "last_full_featured": "2026-08-05"
     }
   }
 }

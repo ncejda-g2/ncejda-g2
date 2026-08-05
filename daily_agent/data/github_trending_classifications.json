@@ -553,12 +553,12 @@
     "1073224795": {
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
-      "readme_sha": "bb398c6b68b0214439981acf8217a13cd5dcc562",
-      "classified_on": "2026-07-26",
+      "readme_sha": "2757b2efb76793a9420256ea45399edc355bead4",
+      "classified_on": "2026-08-05",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Agentic software development methodology with composable skills for AI coding agents.",
-      "rationale": "Purpose-built framework for coding agents with defined AI-driven workflows (brainstorming, planning, subagent-driven development, TDD). Core organizing principle centers on agent capabilities and orchestration."
+      "summary": "Agentic skills framework and software development methodology designed for coding agents across multiple platforms.",
+      "rationale": "Framework explicitly designed to enhance AI agent capabilities in software development through auto-triggered, composable skills for planning, testing, and subagent coordination."
     },
     "1013830656": {
       "repository_id": 1013830656,
@@ -903,12 +903,12 @@
     "910422636": {
       "repository_id": 910422636,
       "full_name": "usekaneo/kaneo",
-      "readme_sha": "82d0b8fbfa3fd23f92f4ea07d89228ce0780bc44",
-      "classified_on": "2026-08-03",
+      "readme_sha": "dbb70afe97cc3252019ab8587813cc7980dfecde",
+      "classified_on": "2026-08-05",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Open source project management tool alternative to Jira with clean interface.",
-      "rationale": "General-purpose project management application without AI components; user experience and self-hosting are the core organizing principles."
+      "summary": "Open-source project management tool emphasizing simplicity and self-hosting.",
+      "rationale": "Project management application with MCP server integration for AI tools, but the core product is non-AI; MCP support does not qualify as material AI focus per eligibility rules."
     },
     "1014515436": {
       "repository_id": 1014515436,
@@ -1043,12 +1043,12 @@
     "1151702019": {
       "repository_id": 1151702019,
       "full_name": "firecrawl/pdf-inspector",
-      "readme_sha": "04a5aa22deb7ebc49cd833d400bd2b54dd13ef37",
-      "classified_on": "2026-08-04",
+      "readme_sha": "a30034a8f467b5ce29d8125d74c5abcfef44c846",
+      "classified_on": "2026-08-05",
       "ai_related": false,
       "project_type": "Library",
-      "summary": "Fast Rust library for PDF classification and text extraction using heuristics without ML models.",
-      "rationale": "Pure rule-based PDF parsing library using font analysis and layout heuristics. README explicitly states 'no ML models, no external services.' Smart classification refers to deterministic detection algorithms, not AI."
+      "summary": "Fast Rust library for PDF classification, text extraction, and markdown conversion without requiring OCR.",
+      "rationale": "General-purpose PDF processing tool using rule-based logic for classification. No ML models, AI training, or AI-specific organization despite intelligent routing features."
     },
     "83222441": {
       "repository_id": 83222441,
@@ -1059,6 +1059,76 @@
       "project_type": "Collection",
       "summary": "Comprehensive educational collection for learning system design principles and technical interview preparation.",
       "rationale": "General-purpose system design resource covering scalability, latency, databases, caching, and distributed systems. While applicable to AI systems, the collection is organized around system design education, not AI."
+    },
+    "1215280164": {
+      "repository_id": 1215280164,
+      "full_name": "uber/ADR",
+      "readme_sha": "b98c2b9d35b90768e81aafca5cd960d27f4838f7",
+      "classified_on": "2026-08-05",
+      "ai_related": true,
+      "project_type": "Research",
+      "summary": "Enterprise security system for observing, benchmarking, and detecting threats in AI agents at scale.",
+      "rationale": "Production-deployed security framework explicitly designed for AI agents with comprehensive benchmark (300+ tasks, 133 MCP servers), threat detection, and MLSys 2026 research backing."
+    },
+    "31629751": {
+      "repository_id": 31629751,
+      "full_name": "cypress-io/cypress",
+      "readme_sha": "371257991c8a62e869cdc81463b7d60aa784f3c4",
+      "classified_on": "2026-08-05",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Browser testing framework for end-to-end and component testing across modern web frameworks.",
+      "rationale": "General-purpose testing tool applicable to all web applications. Not organized around AI despite potential use in testing AI-powered products."
+    },
+    "3678731": {
+      "repository_id": 3678731,
+      "full_name": "webpack/webpack",
+      "readme_sha": "0be839c099064e11e56ff329624f6e9f443cdd9f",
+      "classified_on": "2026-08-05",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "JavaScript module bundler that packs, transforms modules, and optimizes assets for browser usage.",
+      "rationale": "General web development tool for bundling and asset management. Not organized around or specific to AI; applicable to all JavaScript projects."
+    },
+    "26038648": {
+      "repository_id": 26038648,
+      "full_name": "gabime/spdlog",
+      "readme_sha": "a558a6e4f005d2e96376a595cb1b4967901c733f",
+      "classified_on": "2026-08-05",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "Fast C++ logging library with header-only and compiled variants.",
+      "rationale": "General-purpose logging utility for C++ applications; no AI functionality or focus."
+    },
+    "133442384": {
+      "repository_id": 133442384,
+      "full_name": "denoland/deno",
+      "readme_sha": "8173eb951062916cc112a8fb7c0e120b1c945975",
+      "classified_on": "2026-08-05",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Modern JavaScript and TypeScript runtime built on V8 and Rust.",
+      "rationale": "General-purpose language runtime with no AI-specific features or design."
+    },
+    "707441527": {
+      "repository_id": 707441527,
+      "full_name": "livekit/agents",
+      "readme_sha": "23c489a17fa5f790e4d8026a7c730a531f8bdce2",
+      "classified_on": "2026-08-05",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Python framework for building real-time voice and multimodal AI agents.",
+      "rationale": "Explicitly AI-focused framework providing integrated STT, LLM, TTS, and agent orchestration; AI is material to the product."
+    },
+    "24195339": {
+      "repository_id": 24195339,
+      "full_name": "angular/angular",
+      "readme_sha": "c1528944d08b5be8e2997e46a842b35fd998a11f",
+      "classified_on": "2026-08-05",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "TypeScript-based web application framework for building mobile and desktop apps.",
+      "rationale": "General-purpose web development framework with no AI-specific capabilities or organizing subject."
     }
   }
 }
