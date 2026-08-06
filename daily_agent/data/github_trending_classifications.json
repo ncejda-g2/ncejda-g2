@@ -1044,7 +1044,7 @@
       "repository_id": 1151702019,
       "full_name": "firecrawl/pdf-inspector",
       "readme_sha": "a30034a8f467b5ce29d8125d74c5abcfef44c846",
-      "classified_on": "2026-08-05",
+      "classified_on": "2026-08-06",
       "ai_related": false,
       "project_type": "Library",
       "summary": "Fast Rust library for PDF classification, text extraction, and markdown conversion without requiring OCR.",
@@ -1054,7 +1054,7 @@
       "repository_id": 83222441,
       "full_name": "donnemartin/system-design-primer",
       "readme_sha": "9e2cdb88dec86c34c9b49b657f5629a1866c6976",
-      "classified_on": "2026-08-04",
+      "classified_on": "2026-08-06",
       "ai_related": false,
       "project_type": "Collection",
       "summary": "Comprehensive educational collection for learning system design principles and technical interview preparation.",
@@ -1129,6 +1129,36 @@
       "project_type": "Framework",
       "summary": "TypeScript-based web application framework for building mobile and desktop apps.",
       "rationale": "General-purpose web development framework with no AI-specific capabilities or organizing subject."
+    },
+    "1260288940": {
+      "repository_id": 1260288940,
+      "full_name": "cloudflare/computer",
+      "readme_sha": "e576330394d3ca6672260a6474935ee55a07a091",
+      "classified_on": "2026-08-06",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Virtual filesystem and execution runtime infrastructure for AI agents on Cloudflare.",
+      "rationale": "Explicitly designed to give agents a computing environment. Provides multiple execution backends and examples for agent tasks. AI agents are central to the product's organizing purpose."
+    },
+    "1255217938": {
+      "repository_id": 1255217938,
+      "full_name": "huangruiteng/loopx",
+      "readme_sha": "4f54ac488092955969c8e52760243b0ba1c466c0",
+      "classified_on": "2026-08-06",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Control plane framework for long-running AI agent team workflows with durable state management.",
+      "rationale": "Purpose-built for governing AI agent loops across Codex, Claude Code, and other runtimes. Manages objectives, evidence, quotas, and handoffs for multi-agent collaboration. AI agents are the primary organizing subject."
+    },
+    "1158722119": {
+      "repository_id": 1158722119,
+      "full_name": "addyosmani/agent-skills",
+      "readme_sha": "05777eec8808713178bdf020a4d8f730fe3e22bc",
+      "classified_on": "2026-08-06",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Production-grade skill collection encoding software engineering best practices for AI agents.",
+      "rationale": "Twenty-four structured workflows designed as instruction sets for AI coding agents across Claude Code, Cursor, Codex, and other platforms. AI agents are the explicit primary audience and organizing principle."
     }
   }
 }

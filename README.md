@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 236 (2026-08-05)
+# 📰 The AI Newspaper — Day 237 (2026-08-06)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [AI-Generated Images Discourage Me from Reading Your Blog](https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/) | Research Paper | Generic AI stock photos are killing blog credibility | 756 | [756](https://news.ycombinator.com/item?id=49167113) |
-| 2 | [Mistral's Shieldstral: 3B open-weights model for multimodal moderation](https://mistral.ai/news/shieldstral/) | Model Release | 3B Apache 2.0 guard model beats rivals 7x its size | 382 | [382](https://news.ycombinator.com/item?id=49171268) |
-| 3 | [DeepSeek V4 Flash on a Single AMD MI300X](https://github.com/ryanzhou/deepseek-v4-flash-mi300x) | Infrastructure | DeepSeek V4 Flash runs on one AMD MI300X GPU | 370 | [370](https://news.ycombinator.com/item?id=49166386) |
-| 4 | [Apple says more ex-employees may have taken confidential data to OpenAI](https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/) | Palace Intrigue | 11 more Apple alumni implicated in OpenAI data leak | 360 | [360](https://news.ycombinator.com/item?id=49170479) |
-| 5 | [Eight Myths on Software Engineering and GenAI](https://queue.acm.org/detail.cfm?id=3807963) | Research Paper | ACM debunks eight common GenAI engineering misconceptions | 184 | [184](https://news.ycombinator.com/item?id=49176830) |
-| 6 | [Why Large Language Models Fail at Tabular Prediction](https://arxiv.org/abs/2608.02412) | Research Paper | Systematic study of LLM failures on structured table data | 103 | [103](https://news.ycombinator.com/item?id=49166442) |
-| 7 | [Show HN: Maple-Preview – Ternary 20B MoE running at 120 tok/s on a iPhone](https://deepgrove.ai/maple-preview) | Model Release | Ternary 20B MoE hits 120 tok/s on iPhone hardware | 99 | [99](https://news.ycombinator.com/item?id=49173984) |
-| 8 | [The Warp Agent CLI](https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent) | Dev Tooling | Warp launches an agentic coding CLI tool | 98 | [98](https://news.ycombinator.com/item?id=49171766) |
-| 9 | [When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation](https://arxiv.org/abs/2602.16763) | Research Paper | Paper studies why AI benchmarks keep getting saturated | 91 | [91](https://news.ycombinator.com/item?id=49170915) |
-| 10 | [Agent skills that bring team coding standards to Claude Code and Codex](https://github.com/tikalk/adlc-team-skills) | Dev Tooling | Shareable skill packs enforce coding standards in Claude Code | 74 | [74](https://news.ycombinator.com/item?id=49169640) |
+| 1 | [Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/) | Palace Intrigue | Hassabis steps aside; Koray takes over; Dean exits after 27 years | 619 | [619](https://news.ycombinator.com/item?id=49184755) |
+| 2 | [Cloudflare OS: an open platform for agents, apps, and work](https://blog.cloudflare.com/cloudflare-os/) | Dev Tooling | Cloudflare launches OS-like agent and app hosting platform | 543 | [543](https://news.ycombinator.com/item?id=49182996) |
+| 3 | [Beating GPT-5.6 Sol on retrieval with 100x cheaper open models](https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency) | Research Paper | Open models beat GPT-5.6 Sol on retrieval at 1/100th the cost | 296 | [296](https://news.ycombinator.com/item?id=49186762) |
+| 4 | [Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery](https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/) | Palace Intrigue | AI-generated CSAM slipped through Meta's ad review systems | 291 | [291](https://news.ycombinator.com/item?id=49187977) |
+| 5 | [Position: LLMs Can't Jump](https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt) | Research Paper | Position paper argues LLMs fundamentally can't do spatial reasoning | 267 | [267](https://news.ycombinator.com/item?id=49181083) |
+| 6 | [Muse Code and Muse Spark 1.2](https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2) | Model Release | Meta drops coding and multimodal AI model updates | 243 | [243](https://news.ycombinator.com/item?id=49187575) |
+| 7 | [Qwen Image 3.0 Pro](https://www.qwencloud.com/models/qwen-image-3.0-pro) | Model Release | Alibaba releases upgraded vision-language model | 191 | [191](https://news.ycombinator.com/item?id=49183850) |
+| 8 | [Prime Agent: A self-improving RLM agent](https://www.primeintellect.ai/blog/prime-agent) | Research Paper | Self-improving reinforcement learning agent from Prime Intellect | 169 | [169](https://news.ycombinator.com/item?id=49189075) |
+| 9 | [Why Erdős Problems Are Falling to AI](https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/) | Research Paper | AI cracks legendary unsolved math problems from Erdős | 135 | [135](https://news.ycombinator.com/item?id=49181519) |
+| 10 | [NVIDIA's Vera Whitepaper Has a Thread Loose](https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread) | AI Hardware | Chips & Cheese finds technical inconsistencies in NVIDIA's Vera whitepaper | 117 | [117](https://news.ycombinator.com/item?id=49189234) |
 
 ---
 
@@ -23,7 +23,7 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [New ways to learn and teach with ChatGPT Work and Codex](https://openai.com/index/learn-teach-chatgpt-work-codex) | OpenAI | Developer Tools | Aug 04 |
+| 1 | [Third-party cyber evaluations involving OpenAI models](https://openai.com/index/third-party-cyber-evaluations-involving-openai-models) | OpenAI | Engineering | Aug 04 |
 
 ---
 
@@ -33,28 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 11,516 | +1,111 today | #1 | 4 days |
-| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 11,083 | +2,297 today | #2 | 5 days |
-| [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 114,373 | +783 today | #6 | 4 days |
+| [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 11,516 | +1,892 today | #3 | 5 days |
+| [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 30,288 | +747 today | #6 | 4 days |
+| [superpowers](https://github.com/obra/superpowers) | 266,749 | +931 today | #8 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [ADR](https://github.com/uber/ADR) | Enterprise security system for observing, benchmarking, and detecting threats in AI agents at scale. | 808 | +148 today | Daily #4 | N/A |
-| [superpowers](https://github.com/obra/superpowers) | Agentic skills framework and software development methodology designed for coding agents across multiple platforms. | 266,749 | +653 today | Daily #5 | [One commenter questioned whether emotional focus improves practical coding work.](https://news.ycombinator.com/item?id=45547344) |
-| [agents](https://github.com/livekit/agents) | Python framework for building real-time voice and multimodal AI agents. | 12,561 | +432 today | Daily #13 | N/A |
+| [computer](https://github.com/cloudflare/computer) | Virtual filesystem and execution runtime infrastructure for AI agents on Cloudflare. | 3,869 | +891 today | Daily #1 | N/A |
+| [loopx](https://github.com/huangruiteng/loopx) | Control plane framework for long-running AI agent team workflows with durable state management. | 2,436 | +326 today | Daily #2 | N/A |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade skill collection encoding software engineering best practices for AI agents. | 82,177 | +226 today | Daily #7 | [User skeptical of SKILLS.md utility; interested in evaluation tools to verify impact.](https://news.ycombinator.com/item?id=48046023) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-08-05.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-08-06.png" width="600" alt="Today's comic strip">
 
-_Based on: [Apple says more ex-employees may have taken confidential data to OpenAI](https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/)_
+_Based on: [Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 236 | Last updated: 2026-08-05*
+*Day 237 | Last updated: 2026-08-06*

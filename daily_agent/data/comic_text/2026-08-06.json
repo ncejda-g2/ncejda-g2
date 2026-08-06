@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-06",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "triumphant",
+    "adjective_second": "cringing",
+    "narrative_intro": "*A triumphant person and a cringing person discuss the Google DeepMind shakeup at a pitch competition where every single team claims their product uses AI.*",
+    "panel1": "[setup]\nTRIUMPHANT PERSON: \"Demis Hassabis just became Chair AND Alphabet Chief Scientist.\"\nCRINGING PERSON: \"So he got promoted by quitting?\"",
+    "panel2": "[build]\nTRIUMPHANT PERSON: \"AND Jeff Dean \u2014 27 years, TensorFlow, all of it \u2014 is just... leaving.\"\nCRINGING PERSON: \"Both. On the same press release.\"",
+    "panel3": "[pivot]\nTRIUMPHANT PERSON: \"Dean says he's starting a public benefit corporation to discover science.\"\nCRINGING PERSON: \"Sir, this is a pitch competition.\"",
+    "panel4": "[silent reaction]\n[Visual: The cringing person looks left at a startup booth reading 'AI FOR YOGA.' Then right at a booth reading 'AI FOR SOUP.' Then back at the stage where a banner says 'JEFF DEAN: DISCOVERING ALL OF SCIENCE.' Their eye twitches.]",
+    "panel5": "[punch]\nCRINGING PERSON: \"Every team here also claims they use AI.\"\nTRIUMPHANT PERSON: \"Only one of them co-wrote MapReduce.\"",
+    "panel6": "[button]\n[Visual: The soup AI booth has quietly added a second banner reading 'CO-FOUNDED BY SANJAY GHEMAWAT (NOT AFFILIATED).' Sanjay is visibly not there.]"
+  },
+  "narrative_summary": "The joke plays on the absurdity of Dean and Hassabis's galaxy-brained departures landing in the same press release, contrasted with a pitch-competition full of trivial AI products, culminating in the soup-AI booth desperately name-dropping Sanjay Ghemawat.",
+  "rationale": "Candidate 2 earns top marks across the board by weaponizing the most specific real details \u2014 MapReduce, TensorFlow, Sanjay Ghemawat, the 'discovering all of science' grandiosity \u2014 against the pitch-competition backdrop with genuine escalating absurdity. The button panel's 'NOT AFFILIATED' banner on the soup-AI booth is a genuinely earned visual punchline that doesn't just restate the setup, it adds a new layer of desperation that closes the loop perfectly.",
+  "image_filename": "comic_2026-08-06.png",
+  "story_title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+  "story_url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+  "place": "at a pitch competition where every single team claims their product uses AI",
+  "hat_pair": [
+    "foam fire extinguisher hat with a dangling pull pin",
+    "foam bowling ball worn as a helmet with three finger holes arranged as a shocked face"
+  ],
+  "no_news_mode": false
+}

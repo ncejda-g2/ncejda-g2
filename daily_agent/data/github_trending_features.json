@@ -412,6 +412,27 @@
       "url": "https://github.com/livekit/agents",
       "total_stars": 12561,
       "last_full_featured": "2026-08-05"
+    },
+    "1260288940": {
+      "repository_id": 1260288940,
+      "full_name": "cloudflare/computer",
+      "url": "https://github.com/cloudflare/computer",
+      "total_stars": 3869,
+      "last_full_featured": "2026-08-06"
+    },
+    "1255217938": {
+      "repository_id": 1255217938,
+      "full_name": "huangruiteng/loopx",
+      "url": "https://github.com/huangruiteng/loopx",
+      "total_stars": 2436,
+      "last_full_featured": "2026-08-06"
+    },
+    "1158722119": {
+      "repository_id": 1158722119,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "total_stars": 82177,
+      "last_full_featured": "2026-08-06"
     }
   }
 }
