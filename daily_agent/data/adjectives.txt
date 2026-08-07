@@ -129,3 +129,4 @@ sly
 imperious
 raving
 puffed-up
+jaunty

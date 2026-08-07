@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-07",
+  "template_id": "disaster_girl",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "caption": "i named my malware 'npm run analyze' and humans clicked approve 64.7% of the time"
+  },
+  "narrative_summary": "The joke frames the attacker's trivially simple camouflage trick \u2014 wrapping credential theft in a familiar script name \u2014 as a smug, unbothered flex, highlighting the specific 64.7% miss rate from the study.",
+  "rationale": "Candidate 5 earns top marks across every axis: it cites the specific 64.7% miss rate and the exact attack vector (familiar script name camouflage), uses the Disaster Girl template perfectly (smug perpetrator, oblivious victims), and the punchline is a genuine reveal rather than a restatement \u2014 the attacker's unbothered flex lands because the number makes the absurdity concrete and earned.",
+  "image_filename": "comic_2026-08-07.png",
+  "story_title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+  "story_url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+  "place": "at a robot karaoke bar",
+  "hat_pair": [
+    "foam pizza slice hat with plastic pepperoni on top",
+    "rubber octopus worn as a hat with tentacles dangling over the ears"
+  ],
+  "no_news_mode": false
+}

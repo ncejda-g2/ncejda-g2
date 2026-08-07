@@ -133,3 +133,4 @@ at a job interview for a position that was automated last week
 at a startup demo day where every company claims to be "the Uber of AI"
 at a pitch competition where every single team claims their product uses AI
 inside a broken arcade cabinet that has been playing against itself for thirty years
+inside a browser tab that has been open for three months and nobody knows which one is playing music

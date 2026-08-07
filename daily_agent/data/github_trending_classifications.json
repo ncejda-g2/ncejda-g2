@@ -13,12 +13,12 @@
     "1148788086": {
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
-      "readme_sha": "8cc79099b6932f274c501e58318db3190fd4662a",
-      "classified_on": "2026-07-25",
+      "readme_sha": "3b6952dfe0f306c2b58447e5b1124af9d8b49cc4",
+      "classified_on": "2026-08-07",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Collection of reusable agent skills and prompts designed for AI coding assistants.",
-      "rationale": "Prompt/skill library explicitly built for AI agents like Claude Code and Codex. Repository is organized around agent capabilities and includes skills for grilling, TDD, debugging, and documentation."
+      "summary": "Curated agent skills and prompts designed for AI coding assistants and autonomous agents.",
+      "rationale": "Prompt-based skill collection explicitly organized for AI agents like Claude Code; directly supports agent workflows and capabilities."
     },
     "1006414368": {
       "repository_id": 1006414368,
@@ -193,12 +193,12 @@
     "1167788341": {
       "repository_id": 1167788341,
       "full_name": "tirth8205/code-review-graph",
-      "readme_sha": "0b1d91c943bc37e97716475df1c1f1ec9320f435",
-      "classified_on": "2026-07-19",
+      "readme_sha": "2bb6ae43c9cd5e37bf59d6736b262be00cb0b34c",
+      "classified_on": "2026-08-07",
       "ai_related": true,
-      "project_type": "Library",
-      "summary": "Local-first code intelligence graph and MCP server optimizing context for AI code review tools.",
-      "rationale": "Explicitly designed as an MCP server that reduces token context for AI coding assistants (Claude, Cursor, etc.) using structural code analysis and incremental graph updates, with benchmarked 38x–528x token reduction."
+      "project_type": "Framework",
+      "summary": "Graph-based code intelligence via MCP optimizes AI coding assistant context usage.",
+      "rationale": "Purpose-built for AI tools; provides structured code context via MCP to reduce token consumption in AI-assisted code reviews and refactoring workflows."
     },
     "1191904384": {
       "repository_id": 1191904384,
@@ -733,12 +733,12 @@
     "1226123343": {
       "repository_id": 1226123343,
       "full_name": "virgiliojr94/book-to-skill",
-      "readme_sha": "6b773404146a5cc9e79c62bbd26fe7f170653ddd",
-      "classified_on": "2026-07-29",
+      "readme_sha": "388b7751bdf85229792c9b83c4276f9a80f80e45",
+      "classified_on": "2026-08-07",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Converts technical documents into structured Claude Code and agent skills for reference.",
-      "rationale": "Tool designed to transform books and documents into agent skills for AI platforms (Claude Code, Copilot CLI, Amp). AI integration is central."
+      "summary": "Converts technical books and documents into structured Agent Skills for AI assistants.",
+      "rationale": "Purpose-built to create optimized skills for AI agents like Claude Code, Copilot CLI, and Amp; achieves 24–51× token reduction versus raw document dumping."
     },
     "455982203": {
       "repository_id": 455982203,
@@ -794,21 +794,21 @@
       "repository_id": 344190478,
       "full_name": "microsoft/AI-For-Beginners",
       "readme_sha": "229d738c43730add39f7e964e61c71b155e7453d",
-      "classified_on": "2026-07-31",
+      "classified_on": "2026-08-07",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "12-week curriculum with 24 lessons covering AI fundamentals, neural networks, and deep learning.",
-      "rationale": "Comprehensive AI education curriculum; primary subject is AI, covering neural networks, deep learning, computer vision, NLP with hands-on lessons using TensorFlow and PyTorch."
+      "summary": "Twelve-week curriculum covering neural networks, deep learning, vision, and natural language processing.",
+      "rationale": "Comprehensive AI education curriculum explicitly organized around teaching foundational and advanced AI concepts using TensorFlow and PyTorch."
     },
     "1133911335": {
       "repository_id": 1133911335,
       "full_name": "different-ai/openwork",
       "readme_sha": "923d6c796a58b083d9d7e0fa5b28e87c15e14f67",
-      "classified_on": "2026-07-31",
+      "classified_on": "2026-08-07",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Open-source desktop app for creating, managing, and sharing AI workflows with agents.",
-      "rationale": "Explicitly designed for AI workflow management; integrates with AI code editors and agents as MCP; core purpose is managing and sharing AI capabilities."
+      "summary": "Open-source platform for managing AI agent workflows, skills, and capabilities across teams.",
+      "rationale": "Purpose-built workspace for sharing and controlling AI agent workflows; integrates with Claude Code, Codex, Cursor, and other AI agents via MCP."
     },
     "447363864": {
       "repository_id": 447363864,
@@ -1044,7 +1044,7 @@
       "repository_id": 1151702019,
       "full_name": "firecrawl/pdf-inspector",
       "readme_sha": "a30034a8f467b5ce29d8125d74c5abcfef44c846",
-      "classified_on": "2026-08-06",
+      "classified_on": "2026-08-07",
       "ai_related": false,
       "project_type": "Library",
       "summary": "Fast Rust library for PDF classification, text extraction, and markdown conversion without requiring OCR.",
@@ -1159,6 +1159,46 @@
       "project_type": "Collection",
       "summary": "Production-grade skill collection encoding software engineering best practices for AI agents.",
       "rationale": "Twenty-four structured workflows designed as instruction sets for AI coding agents across Claude Code, Cursor, Codex, and other platforms. AI agents are the explicit primary audience and organizing principle."
+    },
+    "230885748": {
+      "repository_id": 230885748,
+      "full_name": "goauthentik/authentik",
+      "readme_sha": "a8635e00a49c22e100e64a8a627abc64ce226572",
+      "classified_on": "2026-08-07",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Open-source identity provider supporting SAML, OAuth2, and OIDC protocols for self-hosted single sign-on.",
+      "rationale": "Authentication and identity management platform without AI-specific features or organizational focus."
+    },
+    "20300177": {
+      "repository_id": 20300177,
+      "full_name": "google/guava",
+      "readme_sha": "804ca0bb62e1aa708f7cbbeb67eb9a4ed418e7a9",
+      "classified_on": "2026-08-07",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "Java utility library providing collections, concurrency helpers, I/O operations, hashing, and string utilities.",
+      "rationale": "General-purpose infrastructure library with no AI components, despite potential use in AI-based systems."
+    },
+    "231865705": {
+      "repository_id": 231865705,
+      "full_name": "TapXWorld/ChinaTextbook",
+      "readme_sha": "4af22a4abb2bc7767aebeba164b4ce39438dca2c",
+      "classified_on": "2026-08-07",
+      "ai_related": false,
+      "project_type": "Repository",
+      "summary": "Open-source repository of Chinese educational textbooks spanning elementary school through university level courses.",
+      "rationale": "Educational resource collection organized by subject and grade level, not AI-focused or AI-material."
+    },
+    "614765452": {
+      "repository_id": 614765452,
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "readme_sha": "f668ac876dc8eac73517febb8f6264ac9294dc05",
+      "classified_on": "2026-08-07",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Open-source platform for building, deploying, and running autonomous AI agents with visual and conversational builders.",
+      "rationale": "AI agent platform where AI is material to primary product; supports multiple LLM models and autonomous workflow execution."
     }
   }
 }

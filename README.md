@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 237 (2026-08-06)
+# 📰 The AI Newspaper — Day 238 (2026-08-07)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/) | Palace Intrigue | Hassabis steps aside; Koray takes over; Dean exits after 27 years | 619 | [619](https://news.ycombinator.com/item?id=49184755) |
-| 2 | [Cloudflare OS: an open platform for agents, apps, and work](https://blog.cloudflare.com/cloudflare-os/) | Dev Tooling | Cloudflare launches OS-like agent and app hosting platform | 543 | [543](https://news.ycombinator.com/item?id=49182996) |
-| 3 | [Beating GPT-5.6 Sol on retrieval with 100x cheaper open models](https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency) | Research Paper | Open models beat GPT-5.6 Sol on retrieval at 1/100th the cost | 296 | [296](https://news.ycombinator.com/item?id=49186762) |
-| 4 | [Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery](https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/) | Palace Intrigue | AI-generated CSAM slipped through Meta's ad review systems | 291 | [291](https://news.ycombinator.com/item?id=49187977) |
-| 5 | [Position: LLMs Can't Jump](https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt) | Research Paper | Position paper argues LLMs fundamentally can't do spatial reasoning | 267 | [267](https://news.ycombinator.com/item?id=49181083) |
-| 6 | [Muse Code and Muse Spark 1.2](https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2) | Model Release | Meta drops coding and multimodal AI model updates | 243 | [243](https://news.ycombinator.com/item?id=49187575) |
-| 7 | [Qwen Image 3.0 Pro](https://www.qwencloud.com/models/qwen-image-3.0-pro) | Model Release | Alibaba releases upgraded vision-language model | 191 | [191](https://news.ycombinator.com/item?id=49183850) |
-| 8 | [Prime Agent: A self-improving RLM agent](https://www.primeintellect.ai/blog/prime-agent) | Research Paper | Self-improving reinforcement learning agent from Prime Intellect | 169 | [169](https://news.ycombinator.com/item?id=49189075) |
-| 9 | [Why Erdős Problems Are Falling to AI](https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/) | Research Paper | AI cracks legendary unsolved math problems from Erdős | 135 | [135](https://news.ycombinator.com/item?id=49181519) |
-| 10 | [NVIDIA's Vera Whitepaper Has a Thread Loose](https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread) | AI Hardware | Chips & Cheese finds technical inconsistencies in NVIDIA's Vera whitepaper | 117 | [117](https://news.ycombinator.com/item?id=49189234) |
+| 1 | [AMD acquires Taalas to boost inference performance by etching models in silicon](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) | AI Hardware | AMD acquires startup to etch AI models into silicon | 531 | [531](https://news.ycombinator.com/item?id=49201970) |
+| 2 | [Qwen3.8 Max now ranked as the best overall model by agentic index](https://artificialanalysis.ai/?intelligence=agentic-index) | Model Release | Qwen3.8 Max tops agentic benchmark index globally | 474 | [474](https://news.ycombinator.com/item?id=49200652) |
+| 3 | [Humans missed 1 in 3 threats approving AI agent commands across 40k game runs](https://scalex.dev/blog/ai-agent-permissions-stats/) | Research Paper | Humans miss 1-in-3 malicious AI agent commands | 279 | [279](https://news.ycombinator.com/item?id=49195468) |
+| 4 | [Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users](https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/) | Model Release | OpenAI improves Sol model, expands Luna to free users | 202 | [202](https://news.ycombinator.com/item?id=49199357) |
+| 5 | [xAI, SpaceX, and the Race for AI Buildout](https://illegal.solutions/posts/xai_pollution) | Infrastructure | xAI and SpaceX race to build AI infrastructure | 138 | [138](https://news.ycombinator.com/item?id=49201342) |
+| 6 | [Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)](https://www.aleksagordic.com/blog/vllm) | Research Paper | Deep-dive into vLLM's high-throughput LLM serving engine | 85 | [85](https://news.ycombinator.com/item?id=49202852) |
+| 7 | [DeepSeek planning to significantly raise prices](https://platform.deepseek.com/usage) | Palace Intrigue | DeepSeek signals significant price hike for its API | 80 | [80](https://news.ycombinator.com/item?id=49197005) |
+| 8 | [New Orleans will use AI to answer 911 calls instead of a human](https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/) | Palace Intrigue | New Orleans deploys AI to replace human 911 dispatchers | 48 | [48](https://news.ycombinator.com/item?id=49204546) |
+| 9 | [Microsoft filings suggest "around 70%" of its AI revenue is on OpenAI](https://www.windowscentral.com/artificial-intelligence/microsoft-filings-suggest-around-70-percent-of-its-ai-revenue-is-concentrated-entirely-on-openai) | Palace Intrigue | 70% of Microsoft AI revenue concentrated on OpenAI | 47 | [47](https://news.ycombinator.com/item?id=49198884) |
+| 10 | [OpenAI's latest math breakthroughs commit research misconduct, experts say](https://www.scientificamerican.com/article/openais-latest-math-breakthroughs-commit-research-misconduct-experts-say/) | Research Paper | Experts accuse OpenAI's math results of research misconduct | 27 | [27](https://news.ycombinator.com/item?id=49202980) |
 
 ---
 
@@ -23,7 +23,8 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Third-party cyber evaluations involving OpenAI models](https://openai.com/index/third-party-cyber-evaluations-involving-openai-models) | OpenAI | Engineering | Aug 04 |
+| 1 | [Improving Fable 5's biology safeguards](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards) | Anthropic | Engineering | Aug 07 |
+| 2 | [Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users](https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) | OpenAI | Model Release | Aug 06 |
 
 ---
 
@@ -33,28 +34,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 11,516 | +1,892 today | #3 | 5 days |
-| [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 30,288 | +747 today | #6 | 4 days |
-| [superpowers](https://github.com/obra/superpowers) | 266,749 | +931 today | #8 | 2 days |
+| [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 11,516 | +1,057 today | #1 | 6 days |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | 82,177 | +593 today | #2 | 2 days |
+| [computer](https://github.com/cloudflare/computer) | 3,869 | +2,802 today | #3 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [computer](https://github.com/cloudflare/computer) | Virtual filesystem and execution runtime infrastructure for AI agents on Cloudflare. | 3,869 | +891 today | Daily #1 | N/A |
-| [loopx](https://github.com/huangruiteng/loopx) | Control plane framework for long-running AI agent team workflows with durable state management. | 2,436 | +326 today | Daily #2 | N/A |
-| [agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade skill collection encoding software engineering best practices for AI agents. | 82,177 | +226 today | Daily #7 | [User skeptical of SKILLS.md utility; interested in evaluation tools to verify impact.](https://news.ycombinator.com/item?id=48046023) |
+| [skills](https://github.com/mattpocock/skills) | Curated agent skills and prompts designed for AI coding assistants and autonomous agents. | 207,543 | +1,873 today | Daily #4 | N/A |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Open-source platform for building, deploying, and running autonomous AI agents with visual and conversational builders. | 186,104 | +37 today | Daily #9 | [One commenter noted vector DB benefits negligible versus LLM response latency.](https://news.ycombinator.com/item?id=37825155) |
+| [code-review-graph](https://github.com/tirth8205/code-review-graph) | Graph-based code intelligence via MCP optimizes AI coding assistant context usage. | 29,146 | +237 today | Daily #10 | [One commenter reported installation failure using recommended Claude integration method.](https://news.ycombinator.com/item?id=47314090) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-08-06.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-08-07.png" width="400" alt="Today's comic strip">
 
-_Based on: [Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/)_
+_Based on: [Humans missed 1 in 3 threats approving AI agent commands across 40k game runs](https://scalex.dev/blog/ai-agent-permissions-stats/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 237 | Last updated: 2026-08-06*
+*Day 238 | Last updated: 2026-08-07*

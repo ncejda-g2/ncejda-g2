@@ -11,8 +11,8 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "total_stars": 187231,
-      "last_full_featured": "2026-07-25"
+      "total_stars": 207543,
+      "last_full_featured": "2026-08-07"
     },
     "896144595": {
       "repository_id": 896144595,
@@ -102,8 +102,8 @@
       "repository_id": 1167788341,
       "full_name": "tirth8205/code-review-graph",
       "url": "https://github.com/tirth8205/code-review-graph",
-      "total_stars": 20328,
-      "last_full_featured": "2026-07-19"
+      "total_stars": 29146,
+      "last_full_featured": "2026-08-07"
     },
     "1053118194": {
       "repository_id": 1053118194,
@@ -433,6 +433,13 @@
       "url": "https://github.com/addyosmani/agent-skills",
       "total_stars": 82177,
       "last_full_featured": "2026-08-06"
+    },
+    "614765452": {
+      "repository_id": 614765452,
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "total_stars": 186104,
+      "last_full_featured": "2026-08-07"
     }
   }
 }
