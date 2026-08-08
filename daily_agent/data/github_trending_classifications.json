@@ -1164,7 +1164,7 @@
       "repository_id": 230885748,
       "full_name": "goauthentik/authentik",
       "readme_sha": "a8635e00a49c22e100e64a8a627abc64ce226572",
-      "classified_on": "2026-08-07",
+      "classified_on": "2026-08-08",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open-source identity provider supporting SAML, OAuth2, and OIDC protocols for self-hosted single sign-on.",
@@ -1199,6 +1199,46 @@
       "project_type": "Framework",
       "summary": "Open-source platform for building, deploying, and running autonomous AI agents with visual and conversational builders.",
       "rationale": "AI agent platform where AI is material to primary product; supports multiple LLM models and autonomous workflow execution."
+    },
+    "1232493406": {
+      "repository_id": 1232493406,
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "readme_sha": "1d6f850c5f913f931a8ab021212eaf016a61c017",
+      "classified_on": "2026-08-08",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Self-improving autonomous agent framework for coding and long-running AI tasks with persistent state management.",
+      "rationale": "Core AI agent framework using Recursive Language Models and reinforcement learning as primary technology for autonomous task execution."
+    },
+    "1008304614": {
+      "repository_id": 1008304614,
+      "full_name": "semantica-agi/semantica",
+      "readme_sha": "985b6baf90c96932aa6a734a6295b7682afb2d37",
+      "classified_on": "2026-08-08",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Graph-native infrastructure for AI context, knowledge representation, and decision provenance in agent systems.",
+      "rationale": "Framework providing knowledge graphs, deterministic reasoning, and governance infrastructure specifically designed for AI agent accountability."
+    },
+    "1104332987": {
+      "repository_id": 1104332987,
+      "full_name": "666ghj/MiroFish",
+      "readme_sha": "5e8071d0a53ad17b7ecf694b159498e1e872a1ae",
+      "classified_on": "2026-08-08",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Multi-agent swarm intelligence application simulating scenarios and predicting outcomes using LLM-powered intelligent agents.",
+      "rationale": "Application using multi-agent systems and swarm intelligence powered by LLMs as core prediction and simulation mechanism."
+    },
+    "1073538908": {
+      "repository_id": 1073538908,
+      "full_name": "chenyme/grok2api",
+      "readme_sha": "3820895719c4e7be427a03eeaf09254879119a32",
+      "classified_on": "2026-08-08",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "API gateway managing Grok account pools and providing unified OpenAI and Anthropic compatible interfaces.",
+      "rationale": "General-purpose gateway infrastructure for API routing and account management; routing to AI services does not make the tool itself AI-focused technology."
     }
   }
 }
