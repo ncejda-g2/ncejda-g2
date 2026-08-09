@@ -873,12 +873,12 @@
     "1237819660": {
       "repository_id": 1237819660,
       "full_name": "zhaoxuya520/reverse-skill",
-      "readme_sha": "340ae04559f47430c03f90490f9db4bf8ab67202",
-      "classified_on": "2026-08-01",
+      "readme_sha": "1b0358bcd691e33d6f638607da8cc4eb4c2828e5",
+      "classified_on": "2026-08-09",
       "ai_related": true,
-      "project_type": "Collection",
-      "summary": "AI skill framework routing reverse engineering, penetration testing, and security tasks to appropriate methodologies.",
-      "rationale": "Purpose-built skill router designed for AI coding agents (Claude Code, Cursor, Cline). Organizes security knowledge and toolchains specifically to guide AI agents through structured workflows, not a general security tool with AI features added."
+      "project_type": "Framework",
+      "summary": "AI-powered routing framework for reverse engineering, penetration testing, and security research.",
+      "rationale": "Explicitly designed for AI coding agents (Claude Code, Cursor, Cline) with structured skill routing, MCP servers, and automation toolchains organized around AI agent capabilities."
     },
     "202291859": {
       "repository_id": 202291859,
@@ -1164,7 +1164,7 @@
       "repository_id": 230885748,
       "full_name": "goauthentik/authentik",
       "readme_sha": "a8635e00a49c22e100e64a8a627abc64ce226572",
-      "classified_on": "2026-08-08",
+      "classified_on": "2026-08-09",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open-source identity provider supporting SAML, OAuth2, and OIDC protocols for self-hosted single sign-on.",
@@ -1174,7 +1174,7 @@
       "repository_id": 20300177,
       "full_name": "google/guava",
       "readme_sha": "804ca0bb62e1aa708f7cbbeb67eb9a4ed418e7a9",
-      "classified_on": "2026-08-07",
+      "classified_on": "2026-08-09",
       "ai_related": false,
       "project_type": "Library",
       "summary": "Java utility library providing collections, concurrency helpers, I/O operations, hashing, and string utilities.",
@@ -1184,7 +1184,7 @@
       "repository_id": 231865705,
       "full_name": "TapXWorld/ChinaTextbook",
       "readme_sha": "4af22a4abb2bc7767aebeba164b4ce39438dca2c",
-      "classified_on": "2026-08-07",
+      "classified_on": "2026-08-09",
       "ai_related": false,
       "project_type": "Repository",
       "summary": "Open-source repository of Chinese educational textbooks spanning elementary school through university level courses.",
@@ -1239,6 +1239,66 @@
       "project_type": "Application",
       "summary": "API gateway managing Grok account pools and providing unified OpenAI and Anthropic compatible interfaces.",
       "rationale": "General-purpose gateway infrastructure for API routing and account management; routing to AI services does not make the tool itself AI-focused technology."
+    },
+    "1197652028": {
+      "repository_id": 1197652028,
+      "full_name": "google/skills",
+      "readme_sha": "753d99b7f98eb7fe572198470985585c4442f45c",
+      "classified_on": "2026-08-09",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Curated collection of specialized AI agent skills designed for building Google Cloud applications.",
+      "rationale": "Repository organizes agent skills explicitly for AI agent frameworks operating on Google Cloud infrastructure and services."
+    },
+    "909213664": {
+      "repository_id": 909213664,
+      "full_name": "TauricResearch/TradingAgents",
+      "readme_sha": "def85acbef5601d1a6dbc299b4a4fe3904799d28",
+      "classified_on": "2026-08-09",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Multi-agent LLM framework that orchestrates specialized financial analysts for collaborative trading decisions.",
+      "rationale": "LLM-powered agents are central to the framework's architecture, simulating real trading firm roles to evaluate markets and execute trades."
+    },
+    "808045485": {
+      "repository_id": 808045485,
+      "full_name": "LadybirdBrowser/ladybird",
+      "readme_sha": "a07f79ab4c5aa754b2fda525f27979c9de237ad4",
+      "classified_on": "2026-08-09",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Independent web browser built on modern web standards with a multi-process architecture.",
+      "rationale": "General-purpose browser with standard JS engine and WebAssembly support. AI is not material to the project's organizing principle."
+    },
+    "972647939": {
+      "repository_id": 972647939,
+      "full_name": "denoland/celld",
+      "readme_sha": "b6a98e79bc6ade4613cc2025095beb84af9482b4",
+      "classified_on": "2026-08-09",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Self-hosted runtime for executing Cloudflare Workers and Durable Objects on user machines.",
+      "rationale": "Serverless infrastructure platform. Uses V8 for code execution but fundamentally an infrastructure/deployment system, not AI-related."
+    },
+    "961500366": {
+      "repository_id": 961500366,
+      "full_name": "litu54/DevOps-Interview-Guide",
+      "readme_sha": "11e3fd438d0f8b3442ff8e6858dd16a15b958530",
+      "classified_on": "2026-08-09",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "Curated collection of real DevOps and SRE interview questions from eighty-five companies.",
+      "rationale": "General DevOps/SRE interview question guide. No AI organizing principle; collection is non-AI despite covering modern technologies."
+    },
+    "29219243": {
+      "repository_id": 29219243,
+      "full_name": "bannedbook/fanqiang",
+      "readme_sha": "ff3c755ad31aad8d89b41d97d0adcd6c9b4080ec",
+      "classified_on": "2026-08-09",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "Tutorials and tools for network circumvention and proxy configuration across multiple platforms.",
+      "rationale": "VPN and circumvention tool collection. ChatGPT access mention is incidental; collection itself is not AI-organized."
     }
   }
 }
