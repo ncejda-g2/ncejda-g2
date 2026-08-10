@@ -283,12 +283,12 @@
     "1075372545": {
       "repository_id": 1075372545,
       "full_name": "msitarzewski/agency-agents",
-      "readme_sha": "b9758df639424d9582ba8ccd36187041f1691e80",
-      "classified_on": "2026-07-21",
+      "readme_sha": "2da0a33d755cbe932d640d8be50bc36eae866475",
+      "classified_on": "2026-08-10",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Curated collection of specialized AI agent personas for diverse professional domains and roles.",
-      "rationale": "Explicitly organized as curated AI agent skill collection; agent personalities and prompts are primary content."
+      "summary": "Collection of specialized AI agent personalities and prompts for Claude, Cursor, and other AI tools.",
+      "rationale": "Entire repository is organized around AI agents; each provides detailed prompts, workflows, and interactions designed for AI model use across domains."
     },
     "679343504": {
       "repository_id": 679343504,
@@ -1299,6 +1299,46 @@
       "project_type": "Collection",
       "summary": "Tutorials and tools for network circumvention and proxy configuration across multiple platforms.",
       "rationale": "VPN and circumvention tool collection. ChatGPT access mention is incidental; collection itself is not AI-organized."
+    },
+    "1003043071": {
+      "repository_id": 1003043071,
+      "full_name": "vitali87/code-graph-rag",
+      "readme_sha": "bc3a80821b9420b36d086a242aaf05c07976a7ca",
+      "classified_on": "2026-08-10",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI-powered RAG system for querying, understanding, and editing multi-language codebases with knowledge graphs.",
+      "rationale": "Core product is a Retrieval-Augmented Generation system using LLMs for codebase analysis; explicitly integrates with Claude Code via MCP server."
+    },
+    "1120195677": {
+      "repository_id": 1120195677,
+      "full_name": "pranshuparmar/witr",
+      "readme_sha": "5e6aaea8978fdf374848fd30e38559a9bdbab760",
+      "classified_on": "2026-08-10",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "Systems administration CLI and TUI tool for tracing process chains and incident response troubleshooting.",
+      "rationale": "General-purpose DevOps and sysadmin troubleshooting tool; no AI, machine learning, or LLM components mentioned or integral to functionality."
+    },
+    "666376652": {
+      "repository_id": 666376652,
+      "full_name": "google-deepmind/weathernext",
+      "readme_sha": "2e2247afca01080b6ada7a13e9d80aa1806b2b85",
+      "classified_on": "2026-08-10",
+      "ai_related": true,
+      "project_type": "Model",
+      "summary": "AI weather forecasting models using neural networks for global atmospheric and cyclone prediction.",
+      "rationale": "Research repository containing AI models (WeatherNext 2, GraphCast, GenCast) for medium-range weather forecasting using deep learning and graph neural networks."
+    },
+    "1131513930": {
+      "repository_id": 1131513930,
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "readme_sha": "ff3edc3625301575e7f08ac92684dd460bce8cd2",
+      "classified_on": "2026-08-10",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "LLM-powered stock analysis system with AI agents for multi-market financial analysis and dashboards.",
+      "rationale": "Application explicitly driven by LLMs and AI agents; features include AI decision reports, intelligent strategies, and automated LLM-based reasoning for trading."
     }
   }
 }

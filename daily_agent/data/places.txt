@@ -136,3 +136,4 @@ inside a broken arcade cabinet that has been playing against itself for thirty y
 inside a browser tab that has been open for three months and nobody knows which one is playing music
 inside a lost luggage carousel that has been spinning for three days with nobody to claim it
 inside a recommendation algorithm that has completely misjudged you
+inside a malfunctioning autocorrect that keeps ruining someone's very important text message

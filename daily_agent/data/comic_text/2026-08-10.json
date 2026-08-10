@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-08-10",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_caption": "asking users to approve every AI action",
+    "panel2_caption": "users clicking 'approve' on 97% of prompts anyway",
+    "panel3_caption": "AI catches 89% of harmful actions; humans catch 13.6%",
+    "panel4_caption": "removing human oversight to make AI safer \u2014 it's science"
+  },
+  "narrative_summary": "The joke escalates from naive human-in-the-loop idealism to the absurd-but-true conclusion that cutting out rubber-stamping humans actually made Claude Code safer, per Anthropic's own study.",
+  "rationale": "Candidate 4 earns its score by using the expanding-brain template as intended \u2014 each panel genuinely escalates the absurdity using real numbers from the story, and the final panel's punchline ('removing human oversight to make AI safer \u2014 it's science') lands as a twist rather than a restatement. The template fit is ideal because the joke's entire logic depends on the escalating-irony structure that expanding-brain was built for.",
+  "image_filename": "comic_2026-08-10.png",
+  "story_title": "Auto mode is now the default in Claude Code",
+  "story_url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+  "place": "at a robot rights protest outside Congress",
+  "hat_pair": [
+    "foam tangled headphone set worn as a crown with wires looped around the brim",
+    "foam traffic light hat with three colored circles across the top"
+  ],
+  "no_news_mode": false
+}

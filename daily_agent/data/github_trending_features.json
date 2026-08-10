@@ -144,8 +144,8 @@
       "repository_id": 1075372545,
       "full_name": "msitarzewski/agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
-      "total_stars": 135001,
-      "last_full_featured": "2026-07-21"
+      "total_stars": 141084,
+      "last_full_featured": "2026-08-10"
     },
     "1130564872": {
       "repository_id": 1130564872,
@@ -475,6 +475,20 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "total_stars": 96607,
       "last_full_featured": "2026-08-09"
+    },
+    "1003043071": {
+      "repository_id": 1003043071,
+      "full_name": "vitali87/code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "total_stars": 3184,
+      "last_full_featured": "2026-08-10"
+    },
+    "666376652": {
+      "repository_id": 666376652,
+      "full_name": "google-deepmind/weathernext",
+      "url": "https://github.com/google-deepmind/weathernext",
+      "total_stars": 7162,
+      "last_full_featured": "2026-08-10"
     }
   }
 }
