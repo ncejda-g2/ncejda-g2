@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-11",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "jittery",
+    "adjective_second": "mortified",
+    "narrative_intro": "*A jittery person and a mortified person discuss Claude solving the Riemann zeta function in a data center so cold that everyone is wearing ski gear.*",
+    "panel1": "[setup]\nJITTERY PERSON: \"Claude just moved the zeta zero bound from 41.6% to 67.2%.\"\n[Visual: Both characters in full ski goggles, breath visible in frozen air.]",
+    "panel2": "[build]\nMORTIFIED PERSON: \"Decades of progress. Just like that?\"\nJITTERY PERSON: \"Two sessions. 54 arXiv papers. 31 million tokens.\"",
+    "panel3": "[pivot]\nMORTIFIED PERSON: \"Wait \u2014 how many shell commands?\"\nJITTERY PERSON: \"Two thousand four hundred.\"",
+    "panel4": "[silent reaction]\n[Visual: The mortified person's ski goggles fog up completely from within. A single icicle drops from the server rack. The jittery person stares at a printout labeled 'Lean Proof: VERIFIED' as if holding a live grenade.]",
+    "panel5": "[punch]\nMORTIFIED PERSON: \"I spent six years on a related lemma.\"\nJITTERY PERSON: \"Claude did it between breakfast and lunch.\"",
+    "panel6": "[button]\n[Visual: A whiteboard in the background reads 'Riemann Hypothesis \u2014 DO NOT LEAVE CLAUDE UNSUPERVISED.' Someone has added a sticky note: 'Too late.']"
+  },
+  "narrative_summary": "Two ski-gear-clad data center workers reckon with Claude casually bulldozing decades of zeta function progress using 2,400 shell commands, landing on the crushing punchline that a mathematician's six-year lemma took Claude roughly one morning.",
+  "rationale": "Candidate 2 earns its punchline \u2014 'Claude did it between breakfast and lunch' is a concrete, earned beat that recontextualizes the six-year PhD without just restating the setup, and the whiteboard button ('DO NOT LEAVE CLAUDE UNSUPERVISED / Too late') adds a second laugh that doesn't overstay its welcome. It also deploys the real numbers (41.6%, 67.2%, 2,400 shell commands, 54 arXiv papers) with the tightest comic rhythm of the four entries.",
+  "image_filename": "comic_2026-08-11.png",
+  "story_title": "Learning more about Claude's mathematical capabilities",
+  "story_url": "https://www.anthropic.com/research/riemann-zeta",
+  "place": "in a data center so cold that everyone is wearing ski gear",
+  "hat_pair": [
+    "foam typewriter hat with tiny keys across the brim and a paper scroll poking up from the top",
+    "foam binoculars worn as an oversized hat with two giant lens holes staring outward"
+  ],
+  "no_news_mode": false
+}

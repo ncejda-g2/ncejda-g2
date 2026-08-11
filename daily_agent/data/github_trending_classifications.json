@@ -353,12 +353,12 @@
     "997737944": {
       "repository_id": 997737944,
       "full_name": "ruvnet/RuView",
-      "readme_sha": "257ecb0f459126165264b4f6496ac5cc5cf729ca",
-      "classified_on": "2026-07-23",
+      "readme_sha": "c3ac6f0d499744438bced37f52a212a13e3c59f4",
+      "classified_on": "2026-08-11",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "WiFi sensing system using machine learning models for contactless vital signs and activity detection.",
-      "rationale": "Core product relies on pre-trained neural network models (densepose, pose estimation) for real-time inference. Models published on Hugging Face, uses spiking neural networks for local learning. AI is material to primary functionality."
+      "summary": "WiFi-based sensing platform detecting presence, vital signs, and activity using machine learning models.",
+      "rationale": "AI/ML models are material to core functions: vital sign detection, pose estimation, and activity recognition from WiFi CSI."
     },
     "1238120057": {
       "repository_id": 1238120057,
@@ -653,12 +653,12 @@
     "651517185": {
       "repository_id": 651517185,
       "full_name": "NanmiCoder/MediaCrawler",
-      "readme_sha": "85c0309167b89ae2dd59ab07e1c468af4d1668a6",
-      "classified_on": "2026-07-28",
+      "readme_sha": "ef8e27ebb419931deea95cc90c62ef8c4f537446",
+      "classified_on": "2026-08-11",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Multi-platform social media crawler that extracts posts and comments from major Chinese content platforms.",
-      "rationale": "Primary product is web scraping using browser automation. Pro version mentions planned AI Agent features, but core functionality remains web data extraction; AI integration is secondary."
+      "summary": "Multi-platform web crawler scraping posts, comments, and user data from Chinese social media.",
+      "rationale": "Core product is web scraping via browser automation; AI integration is in Pro version only, not the trending open-source version."
     },
     "1219644159": {
       "repository_id": 1219644159,
@@ -1264,7 +1264,7 @@
       "repository_id": 808045485,
       "full_name": "LadybirdBrowser/ladybird",
       "readme_sha": "a07f79ab4c5aa754b2fda525f27979c9de237ad4",
-      "classified_on": "2026-08-09",
+      "classified_on": "2026-08-11",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Independent web browser built on modern web standards with a multi-process architecture.",
@@ -1339,6 +1339,26 @@
       "project_type": "Application",
       "summary": "LLM-powered stock analysis system with AI agents for multi-market financial analysis and dashboards.",
       "rationale": "Application explicitly driven by LLMs and AI agents; features include AI decision reports, intelligent strategies, and automated LLM-based reasoning for trading."
+    },
+    "1170821064": {
+      "repository_id": 1170821064,
+      "full_name": "paperclipai/paperclip",
+      "readme_sha": "53a7291c46e582ea9d8733a6e710979a7181bbce",
+      "classified_on": "2026-08-11",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Open-source platform for orchestrating and managing teams of AI agents toward business goals.",
+      "rationale": "Primary product is AI agent orchestration and coordination; AI is the organizing principle and core functionality."
+    },
+    "1052845083": {
+      "repository_id": 1052845083,
+      "full_name": "danielmiessler/LifeOS",
+      "readme_sha": "99c65176a49d028291251b1c973305301b03447d",
+      "classified_on": "2026-08-11",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "AI-powered operating system and harness coordinating life and work goals with AI agents.",
+      "rationale": "Primary product is an AI coordination framework designed to enhance and orchestrate AI agent workflows and capabilities."
     }
   }
 }
