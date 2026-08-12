@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 242 (2026-08-11)
+# 📰 The AI Newspaper — Day 243 (2026-08-12)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model) | Model Release | Meta open 30B model for always-on local agents | 1081 | [1081](https://news.ycombinator.com/item?id=49241679) |
-| 2 | [Docker Sandboxes – Disposable, isolated sandboxes for AI agents](https://www.docker.com/products/docker-sandboxes/) | Dev Tooling | Isolated disposable sandboxes purpose-built for AI agents | 644 | [644](https://news.ycombinator.com/item?id=49239751) |
-| 3 | [Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models](https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878) | Palace Intrigue | Zuckerberg slams closed AI rivals, backs open models | 451 | [451](https://news.ycombinator.com/item?id=49243880) |
-| 4 | [Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots](https://cactuscompute.com/needle) | Model Release | 14MB agentic LLM fits on phones and wearables | 263 | [263](https://news.ycombinator.com/item?id=49246804) |
-| 5 | [Mistral Patent for "Code implemented tool calls"](https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html) | Palace Intrigue | Mistral patents LLM tool-call mechanism with USPTO | 216 | [216](https://news.ycombinator.com/item?id=49243397) |
-| 6 | [Learning more about Claude's mathematical capabilities](https://www.anthropic.com/research/riemann-zeta) | Research Paper | Claude advances Riemann Hypothesis bound from 41.6% to 67.2% | 179 | [179](https://news.ycombinator.com/item?id=49247070) |
-| 7 | [H3-metal – Native MiniMax-H3 inference for Apple Silicon](https://github.com/antirez/h3.c) | Open Source Tool | Redis creator ports MiniMax-H3 model natively to Apple Silicon | 163 | [163](https://news.ycombinator.com/item?id=49252179) |
-| 8 | [Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints](https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/) | Palace Intrigue | Pharmacy chain ditches AI phone bot after mass complaints | 149 | [149](https://news.ycombinator.com/item?id=49244569) |
-| 9 | [Show HN: Ante, a coding agent in a single binary that runs offline](https://github.com/AntigmaLabs/ante) | Dev Tooling | Single-binary offline coding agent needs no internet | 125 | [125](https://news.ycombinator.com/item?id=49245437) |
-| 10 | [GPT 5.6 Cyber](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/) | Model Release | OpenAI launches cybersecurity-specific GPT-5.6 Cyber model | 100 | [100](https://news.ycombinator.com/item?id=49246704) |
+| 1 | [Stealing Reasoning Traces from Proprietary LLM APIs](https://stolen-thoughts.com/) | Research Paper | Researchers crack encrypted AI chain-of-thought from all major providers | 581 | [581](https://news.ycombinator.com/item?id=49257876) |
+| 2 | [Compression is prediction](https://ngrok.com/blog/compression-is-prediction) | Research Paper | Deep dive into compression-prediction duality underlying modern AI | 434 | [434](https://news.ycombinator.com/item?id=49263497) |
+| 3 | [OpenAI's head of ethics leaves less than a year after joining](https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0) | Palace Intrigue | OpenAI ethics chief Chloé Bakalar exits after under a year | 370 | [370](https://news.ycombinator.com/item?id=49257160) |
+| 4 | [Mojo 1.0](https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here) | Dev Tooling | Modular's AI-first programming language reaches stable 1.0 | 356 | [356](https://news.ycombinator.com/item?id=49261128) |
+| 5 | [Go is an ideal language for AI-assisted software engineering](https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/) | Dev Tooling | Google argues Go's simplicity makes it perfect for AI-era coding | 328 | [328](https://news.ycombinator.com/item?id=49261133) |
+| 6 | [Nvidia's Risky Business](https://stratechery.com/2026/nvidias-risky-business/) | AI Hardware | Stratechery unpacks strategic risks in Nvidia's AI hardware dominance | 324 | [324](https://news.ycombinator.com/item?id=49255710) |
+| 7 | [Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp](https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md) | Infrastructure | GPU passthrough unlocks near-native llama.cpp speed in macOS VMs | 289 | [289](https://news.ycombinator.com/item?id=49259339) |
+| 8 | [Grok Bot](https://x.ai/bot) | Model Release | xAI launches Grok Bot autonomous AI agent product | 235 | [235](https://news.ycombinator.com/item?id=49261514) |
+| 9 | [Nvidia Nemotron 3.5 Lightning and NeMo Switchyard](https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/) | Model Release | Nvidia drops efficient Nemotron 3.5 Lightning 30B with NeMo routing | 208 | [208](https://news.ycombinator.com/item?id=49263340) |
+| 10 | [WorldClaw Agentic 3D open-world generation at scale](https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/) | Model Release | Tencent HunYuan launches large-scale agentic 3D world generation | 187 | [187](https://news.ycombinator.com/item?id=49265051) |
 
 ---
 
@@ -23,9 +23,8 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Expanding Daybreak as the Cyber Defense Window Narrows](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows) | OpenAI | Model Release | Aug 10 |
-| 2 | [Putting frontier cyber models in more trusted hands](https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands) | OpenAI | Developer Tools | Aug 10 |
-| 3 | [Learning more about Claude's mathematical capabilities](https://www.anthropic.com/research/riemann-zeta) | Anthropic | Research | Aug 10 |
+| 1 | [AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/) | Google AI | Research | Aug 11 |
+| 2 | [Daybreak models are now available on AWS](https://openai.com/index/daybreak-models-are-now-available-on-aws) | OpenAI | Developer Tools | Aug 11 |
 
 ---
 
@@ -35,28 +34,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [semantica](https://github.com/semantica-agi/semantica) | 2,402 | +970 today | #1 | 1 days |
-| [agency-agents](https://github.com/msitarzewski/agency-agents) | 141,084 | +1,349 today | #2 | 2 days |
-| [agent-skills](https://github.com/addyosmani/agent-skills) | 82,177 | +659 today | #4 | 6 days |
+| [agency-agents](https://github.com/msitarzewski/agency-agents) | 141,084 | +958 today | #1 | 3 days |
+| [semantica](https://github.com/semantica-agi/semantica) | 2,402 | +893 today | #2 | 2 days |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | 82,177 | +578 today | #4 | 7 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [paperclip](https://github.com/paperclipai/paperclip) | Open-source platform for orchestrating and managing teams of AI agents toward business goals. | 76,681 | +198 today | Daily #5 | N/A |
-| [RuView](https://github.com/ruvnet/RuView) | WiFi-based sensing platform detecting presence, vital signs, and activity using machine learning models. | 89,448 | +154 today | Daily #8 | [Multiple commenters criticized as AI-generated slop with implausible claims.](https://news.ycombinator.com/item?id=48157639) |
-| [LifeOS](https://github.com/danielmiessler/LifeOS) | AI-powered operating system and harness coordinating life and work goals with AI agents. | 18,068 | +315 today | Daily #9 | N/A |
+| [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM-powered multi-market stock analysis system with real-time data, news aggregation, and AI decision dashboards. | 62,318 | +243 today | Daily #5 | N/A |
+| [skills](https://github.com/anthropics/skills) | Collection of skills and instructions for Claude AI agents to perform specialized tasks dynamically. | 168,292 | +485 today | Daily #7 | N/A |
+| [DeepTutor](https://github.com/HKUDS/DeepTutor) | AI-powered lifelong personalized tutoring system using large language models and multi-agent architectures. | 34,919 | +812 today | Daily #9 | [One commenter questioned AGPL license compliance obligations.](https://news.ycombinator.com/item?id=45663884) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-08-11.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-08-12.png" width="600" alt="Today's comic strip">
 
-_Based on: [Learning more about Claude's mathematical capabilities](https://www.anthropic.com/research/riemann-zeta)_
+_Based on: [Stealing Reasoning Traces from Proprietary LLM APIs](https://stolen-thoughts.com/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 242 | Last updated: 2026-08-11*
+*Day 243 | Last updated: 2026-08-12*

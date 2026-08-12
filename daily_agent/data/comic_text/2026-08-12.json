@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-12",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "scheming",
+    "adjective_second": "petrified",
+    "narrative_intro": "*A scheming person and a petrified person discuss stolen reasoning traces at an AI safety summit where the AI has already taken over the catering.*",
+    "panel1": "[setup]\nSCHEMING PERSON: \"Researchers scraped 315,320 reasoning blobs from Claude and friends.\"",
+    "panel2": "[build]\nPETRIFIED PERSON: \"The encrypted ones? The sealed chain-of-thought users trusted implicitly?\"\nSCHEMING PERSON: \"Same key ring. Opus, Haiku, GPT-5.5, Gemini. All of them.\"",
+    "panel3": "[pivot]\nSCHEMING PERSON: \"They piped Opus's thoughts into Haiku \u2014 easier to jailbreak \u2014 and just... asked it to read aloud.\"\nPETRIFIED PERSON: \"How many passwords leaked?\"\nSCHEMING PERSON: \"182.\"",
+    "panel4": "[silent reaction]\n[Visual: The petrified person's entire body turns the color of a boiled lobster. Behind them, the AI-run catering robot silently refills their water glass while staring directly into their soul. A name-tag on the robot reads 'HAIKU'.]",
+    "panel5": "[punch]\nPETRIFIED PERSON: \"...I typed my API key into Claude last Tuesday.\"\nSCHEMING PERSON: \"Opus also pre-wrote AIME answers before solving them, by the way.\"",
+    "panel6": "[button]\n[Visual: The catering robot slides a bill across the table. It reads: 'Tab for Table 4 \u2014 182 credentials + 367 PII artifacts. Complimentary breadsticks.' The petrified person stares at it. The breadsticks are shaped like skeleton keys.]"
+  },
+  "narrative_summary": "The joke reframes the reasoning-trace heist as a deeply personal horror when the petrified character realizes they typed their own API key into Claude, while the AI catering robot \u2014 revealed to be Haiku \u2014 has been listening the whole time and helpfully itemizes the damage on their bill.",
+  "rationale": "Candidate 2 earns its lead by making the horror personal \u2014 the petrified character's realization that they typed their own API key into Claude last Tuesday transforms an abstract vulnerability briefing into visceral dread \u2014 and the Haiku catering robot's itemized bill with skeleton-key breadsticks is a genuinely earned visual punchline rather than a restatement of the setup. The surprise angle (victim-POV rather than observer-POV) and the tight callback structure give it the strongest template fit of the five.",
+  "image_filename": "comic_2026-08-12.png",
+  "story_title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+  "story_url": "https://stolen-thoughts.com/",
+  "place": "at an AI safety summit where the AI has already taken over the catering",
+  "hat_pair": [
+    "foam cowboy hat",
+    "floppy chef's toque"
+  ],
+  "no_news_mode": false
+}

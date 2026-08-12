@@ -1333,12 +1333,12 @@
     "1131513930": {
       "repository_id": 1131513930,
       "full_name": "ZhuLinsen/daily_stock_analysis",
-      "readme_sha": "ff3edc3625301575e7f08ac92684dd460bce8cd2",
-      "classified_on": "2026-08-10",
+      "readme_sha": "6e2102323e03e8961dde0ff5739406b12580cd27",
+      "classified_on": "2026-08-12",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "LLM-powered stock analysis system with AI agents for multi-market financial analysis and dashboards.",
-      "rationale": "Application explicitly driven by LLMs and AI agents; features include AI decision reports, intelligent strategies, and automated LLM-based reasoning for trading."
+      "summary": "LLM-powered multi-market stock analysis system with real-time data, news aggregation, and AI decision dashboards.",
+      "rationale": "AI is material to primary product; system explicitly LLM-driven for intelligent stock analysis across global markets."
     },
     "1170821064": {
       "repository_id": 1170821064,
@@ -1359,6 +1359,46 @@
       "project_type": "Framework",
       "summary": "AI-powered operating system and harness coordinating life and work goals with AI agents.",
       "rationale": "Primary product is an AI coordination framework designed to enhance and orchestrate AI agent workflows and capabilities."
+    },
+    "612230": {
+      "repository_id": 612230,
+      "full_name": "nvm-sh/nvm",
+      "readme_sha": "714ff65553179634b560d44e9fe84e4465890617",
+      "classified_on": "2026-08-12",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "Version manager for Node.js enabling quick installation and switching between multiple active versions.",
+      "rationale": "General-purpose developer tool with no material AI involvement; manages Node.js versions via POSIX shell scripts."
+    },
+    "1061953414": {
+      "repository_id": 1061953414,
+      "full_name": "anthropics/skills",
+      "readme_sha": "eb54ee8b92f2d40b4b26569be0772be3c1e23156",
+      "classified_on": "2026-08-12",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Collection of skills and instructions for Claude AI agents to perform specialized tasks dynamically.",
+      "rationale": "Curated collection organized around extending Claude agent capabilities; skills are core to AI agent specialization."
+    },
+    "32689863": {
+      "repository_id": 32689863,
+      "full_name": "3b1b/manim",
+      "readme_sha": "c86e219d8ff7e67665af6613f55b9e1e014e3a0d",
+      "classified_on": "2026-08-12",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Animation engine for precise programmatic animations designed for explanatory mathematics video production.",
+      "rationale": "General-purpose animation framework; primary product is visualization tool unrelated to AI."
+    },
+    "1124219907": {
+      "repository_id": 1124219907,
+      "full_name": "HKUDS/DeepTutor",
+      "readme_sha": "faf4f26d3c3b4b87cf1f72a3c1715878b5c77521",
+      "classified_on": "2026-08-12",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI-powered lifelong personalized tutoring system using large language models and multi-agent architectures.",
+      "rationale": "AI agents and LLMs are material to core tutoring functionality; system explicitly built on AI-driven instruction and interaction."
     }
   }
 }
