@@ -404,11 +404,11 @@
       "repository_id": 1011567289,
       "full_name": "shiyu-coder/Kronos",
       "readme_sha": "faffa1578cf0172f6b88f5db8a9b1205668ffef1",
-      "classified_on": "2026-08-04",
+      "classified_on": "2026-08-13",
       "ai_related": true,
       "project_type": "Model",
-      "summary": "Foundation model for financial market candlestick sequence prediction trained on global exchanges.",
-      "rationale": "Open-source foundation model and research project specifically designed for financial time-series forecasting; includes pre-trained decoder-only Transformer family with novel tokenizer for OHLCV data."
+      "summary": "Foundation model trained on financial candlestick data from forty-five global exchanges worldwide.",
+      "rationale": "Purpose-built foundation model for financial time series forecasting; AI model is the primary product."
     },
     "1078079172": {
       "repository_id": 1078079172,
@@ -653,12 +653,12 @@
     "651517185": {
       "repository_id": 651517185,
       "full_name": "NanmiCoder/MediaCrawler",
-      "readme_sha": "ef8e27ebb419931deea95cc90c62ef8c4f537446",
-      "classified_on": "2026-08-11",
+      "readme_sha": "a5327c240fd531265c7a392c2a6af6ad594819ce",
+      "classified_on": "2026-08-13",
       "ai_related": false,
-      "project_type": "Application",
-      "summary": "Multi-platform web crawler scraping posts, comments, and user data from Chinese social media.",
-      "rationale": "Core product is web scraping via browser automation; AI integration is in Pro version only, not the trending open-source version."
+      "project_type": "CLI",
+      "summary": "Web crawler extracting posts, videos, and comments from major Chinese social media platforms.",
+      "rationale": "General-purpose web scraper for data collection; AI agent features are secondary integrations, not material to core crawler function."
     },
     "1219644159": {
       "repository_id": 1219644159,
@@ -1399,6 +1399,36 @@
       "project_type": "Application",
       "summary": "AI-powered lifelong personalized tutoring system using large language models and multi-agent architectures.",
       "rationale": "AI agents and LLMs are material to core tutoring functionality; system explicitly built on AI-driven instruction and interaction."
+    },
+    "1212769188": {
+      "repository_id": 1212769188,
+      "full_name": "cathrynlavery/diagram-design",
+      "readme_sha": "aa2794d57c260465c54c9f54859c6346311a02b8",
+      "classified_on": "2026-08-13",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Editorial diagram skill with 27 types for Claude Code agents and design tools.",
+      "rationale": "Explicitly designed as a Claude Code agent skill for AI-powered diagram generation; material to agent capability."
+    },
+    "1092407718": {
+      "repository_id": 1092407718,
+      "full_name": "macro-inc/macro",
+      "readme_sha": "5c1f46495934b6a72e5e7479d059d8a7986491f0",
+      "classified_on": "2026-08-13",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Unified workspace combining email, chat, tasks, docs, and AI agents with shared team memory.",
+      "rationale": "AI agents as core product feature with team-level memory and autonomous action capabilities; agents material to primary product."
+    },
+    "1183888342": {
+      "repository_id": 1183888342,
+      "full_name": "stablyai/orca",
+      "readme_sha": "b679cb95c3d497461e6860970f3137ab719cc80f",
+      "classified_on": "2026-08-13",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "IDE for orchestrating multiple parallel AI coding agents with shared worktrees and review tools.",
+      "rationale": "Specialized agent orchestration platform; managing multiple AI agents in parallel is primary organizing subject and function."
     }
   }
 }
