@@ -545,6 +545,27 @@
       "url": "https://github.com/stablyai/orca",
       "total_stars": 44214,
       "last_full_featured": "2026-08-13"
+    },
+    "1165361576": {
+      "repository_id": 1165361576,
+      "full_name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "total_stars": 5105,
+      "last_full_featured": "2026-08-14"
+    },
+    "1061327311": {
+      "repository_id": 1061327311,
+      "full_name": "altic-dev/FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "total_stars": 9955,
+      "last_full_featured": "2026-08-14"
+    },
+    "725205304": {
+      "repository_id": 725205304,
+      "full_name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "total_stars": 71182,
+      "last_full_featured": "2026-08-14"
     }
   }
 }

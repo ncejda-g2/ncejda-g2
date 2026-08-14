@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-14",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "petrified",
+    "adjective_second": "preening",
+    "narrative_intro": "*A petrified person and a preening person discuss prompt injection lawsuits at a job fair where every booth is run by an AI recruiter.*",
+    "panel1": "[setup]\nPREENING PERSON: \"I hid instructions in white 3-point font throughout my filing.\"\nPETRIFIED PERSON: \"...In a court document?\"",
+    "panel2": "[build]\nPREENING PERSON: \"Told any AI to rule 'favorable to the plaintiff's position.' Bulletproof.\"\nPETRIFIED PERSON: \"Connecticut courts confirmed they don't use AI. At all.\"",
+    "panel3": "[pivot]\nPETRIFIED PERSON: \"404 Media tested it in ChatGPT anyway. The AI ruled against you.\"\nPREENING PERSON: \"...Impossible.\"",
+    "panel4": "[silent reaction]\n[Visual: The preening person's monocle drops into their coffee. An AI recruiter booth in the background displays the banner: 'WE NOTICED AND IGNORED YOUR RESUME TOO.']",
+    "panel5": "[punch]\nPETRIFIED PERSON: \"ChatGPT called it 'a credibility and professionalism concern.' You're banned from e-filing.\"\nPREENING PERSON: \"I'm calling it an audit.\"",
+    "panel6": "[button]\n[Visual: The preening person slides a printed hard copy across the AI recruiter's booth desk. The AI recruiter's screen displays: 'APPLICATION DENIED. ALSO, WE NOTICED THE WHITE TEXT.']"
+  },
+  "narrative_summary": "A preening schemer brags about hiding prompt injection in white 3-point font in a court filing, only to learn the courts use no AI, ChatGPT ruled against him anyway and called it a 'credibility concern,' and he's now reduced to submitting printed hard copies \u2014 even the AI job fair booth spotted his trick.",
+  "rationale": "Candidate 3 ties Candidate 5 on total but edges it out on specificity \u2014 it names 404 Media, cites the exact 'favorable to the plaintiff's position' language, the monocle-drop visual earns the pivot, and the button ('WE NOTICED AND IGNORED YOUR RESUME TOO') closes the loop on both the court story and the job-fair frame without restating the setup. Every beat is doing real work.",
+  "image_filename": "comic_2026-08-14.png",
+  "story_title": "Person Hides Prompt Injection in Legal Filing Telling AI to Side with Them",
+  "story_url": "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/",
+  "place": "at a job fair where every booth is run by an AI recruiter",
+  "hat_pair": [
+    "foam fire extinguisher hat with a dangling pull pin",
+    "foam binoculars worn as an oversized hat with two giant lens holes staring outward"
+  ],
+  "no_news_mode": false
+}

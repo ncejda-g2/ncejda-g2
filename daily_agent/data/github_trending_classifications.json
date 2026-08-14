@@ -1429,6 +1429,56 @@
       "project_type": "Application",
       "summary": "IDE for orchestrating multiple parallel AI coding agents with shared worktrees and review tools.",
       "rationale": "Specialized agent orchestration platform; managing multiple AI agents in parallel is primary organizing subject and function."
+    },
+    "1165361576": {
+      "repository_id": 1165361576,
+      "full_name": "cactus-compute/needle",
+      "readme_sha": "76e15ac1bc34465af03d4ccfb00067218c2c1a2a",
+      "classified_on": "2026-08-14",
+      "ai_related": true,
+      "project_type": "Model",
+      "summary": "45M-parameter foundation model for on-device tool calling, device use and structured extraction.",
+      "rationale": "Foundation model explicitly designed for on-device AI, tool calling, and data extraction on resource-constrained devices."
+    },
+    "1061327311": {
+      "repository_id": 1061327311,
+      "full_name": "altic-dev/FluidVoice",
+      "readme_sha": "2daad1f8e7fc9df0a78ca1edb5f09d53da278ec1",
+      "classified_on": "2026-08-14",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "macOS dictation app with on-device speech recognition and local AI-powered text enhancement.",
+      "rationale": "Application where AI is material to the primary product; core features include custom-trained AI enhancement model and on-device STT."
+    },
+    "725205304": {
+      "repository_id": 725205304,
+      "full_name": "unslothai/unsloth",
+      "readme_sha": "f3c3d75f792593d23911c4eceb42942c4e554e27",
+      "classified_on": "2026-08-14",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Desktop application for running, training, and deploying large language and diffusion models locally.",
+      "rationale": "AI-focused application and framework; primary purpose is enabling users to run, fine-tune, and deploy multiple classes of AI models."
+    },
+    "275031765": {
+      "repository_id": 275031765,
+      "full_name": "megadose/holehe",
+      "readme_sha": "03f120002a87578372bf137f699aaa562980d6a2",
+      "classified_on": "2026-08-14",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "OSINT tool checking if email addresses are registered accounts across 120+ social platforms.",
+      "rationale": "General-purpose OSINT reconnaissance tool; automation and account detection are not AI-based, but rather account enumeration via standard web methods."
+    },
+    "4165675": {
+      "repository_id": 4165675,
+      "full_name": "smicallef/spiderfoot",
+      "readme_sha": "1f140137f77ce9efce1c910b05ab374115e4d63f",
+      "classified_on": "2026-08-14",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Open source OSINT automation framework for threat intelligence and attack surface mapping.",
+      "rationale": "General-purpose OSINT framework with 200+ modules; correlation engine and automation features are not core AI organizing principles."
     }
   }
 }
