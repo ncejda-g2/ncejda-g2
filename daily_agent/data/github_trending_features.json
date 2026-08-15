@@ -200,8 +200,8 @@
       "repository_id": 1212503250,
       "full_name": "citrolabs/ego-lite",
       "url": "https://github.com/citrolabs/ego-lite",
-      "total_stars": 1962,
-      "last_full_featured": "2026-07-24"
+      "total_stars": 10459,
+      "last_full_featured": "2026-08-15"
     },
     "1078079172": {
       "repository_id": 1078079172,
@@ -566,6 +566,20 @@
       "url": "https://github.com/unslothai/unsloth",
       "total_stars": 71182,
       "last_full_featured": "2026-08-14"
+    },
+    "1188521544": {
+      "repository_id": 1188521544,
+      "full_name": "holaboss-ai/holaOS",
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "total_stars": 7376,
+      "last_full_featured": "2026-08-15"
+    },
+    "1042367133": {
+      "repository_id": 1042367133,
+      "full_name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "total_stars": 128613,
+      "last_full_featured": "2026-08-15"
     }
   }
 }

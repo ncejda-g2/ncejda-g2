@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-08-15",
+  "template_id": "buff_doge_cheems",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "buff_caption": "opus 4: 'can you clarify what you mean?'",
+    "cheems_caption": "opus 5: confidently builds the wrong thing faster"
+  },
+  "narrative_summary": "The joke contrasts the older model's collaborative habit of asking clarifying questions against Opus 5's benchmark-optimized 'bold assumption' behavior \u2014 higher scores, worse coworker.",
+  "rationale": "Candidate 2 earns its punchline \u2014 'confidently builds the wrong thing faster' is a tight, self-contained joke that doesn't just restate the setup but adds a comic escalation (speed as a liability). The Buff Doge/Cheems template is a perfect fit for the 'stronger is actually weaker' inversion, and the brevity keeps it punchy where the other candidates over-explain.",
+  "image_filename": "comic_2026-08-15.png",
+  "story_title": "Why does Opus 5 feel worse to work with?",
+  "story_url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+  "place": "inside a lost luggage carousel that has been spinning for three days with nobody to claim it",
+  "hat_pair": [
+    "astronaut helmet with a bobblehead glued to the visor",
+    "oversized foam question mark worn as a hat"
+  ],
+  "no_news_mode": false
+}

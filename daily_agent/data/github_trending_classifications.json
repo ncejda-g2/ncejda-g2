@@ -463,12 +463,12 @@
     "1212503250": {
       "repository_id": 1212503250,
       "full_name": "citrolabs/ego-lite",
-      "readme_sha": "3b97f4ecca625eee7b659485c5a26abf4372f9b9",
-      "classified_on": "2026-08-01",
+      "readme_sha": "82056f737a57398576839db050975238e5dd1147",
+      "classified_on": "2026-08-15",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Browser for AI agents to perform automation tasks in isolated parallel workspaces.",
-      "rationale": "Purpose-built for AI agents; core product enables agents to run browser automation independently with shared user logins and parallel task execution."
+      "summary": "Browser application that enables AI agents to perform parallel browser automation tasks without disruption.",
+      "rationale": "Purpose-built for AI agents; explicitly designed for Codex, Claude Code, and similar tools to share browser state and execute parallel automation workflows."
     },
     "708266011": {
       "repository_id": 708266011,
@@ -1464,7 +1464,7 @@
       "repository_id": 275031765,
       "full_name": "megadose/holehe",
       "readme_sha": "03f120002a87578372bf137f699aaa562980d6a2",
-      "classified_on": "2026-08-14",
+      "classified_on": "2026-08-15",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "OSINT tool checking if email addresses are registered accounts across 120+ social platforms.",
@@ -1474,11 +1474,31 @@
       "repository_id": 4165675,
       "full_name": "smicallef/spiderfoot",
       "readme_sha": "1f140137f77ce9efce1c910b05ab374115e4d63f",
-      "classified_on": "2026-08-14",
+      "classified_on": "2026-08-15",
       "ai_related": false,
       "project_type": "Framework",
       "summary": "Open source OSINT automation framework for threat intelligence and attack surface mapping.",
       "rationale": "General-purpose OSINT framework with 200+ modules; correlation engine and automation features are not core AI organizing principles."
+    },
+    "1188521544": {
+      "repository_id": 1188521544,
+      "full_name": "holaboss-ai/holaOS",
+      "readme_sha": "3834035465b4e6763c6c02372d0f38c19c10ae1a",
+      "classified_on": "2026-08-15",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Desktop workspace application for running multiple AI agents alongside tools, files, and shared memory.",
+      "rationale": "All-in-one agent environment with native support for Claude Code, Codex, and custom agents; core product organizes around AI agent execution across integrations."
+    },
+    "1042367133": {
+      "repository_id": 1042367133,
+      "full_name": "github/spec-kit",
+      "readme_sha": "3452eb4a3f679f37260bd91a2694e06d72def724",
+      "classified_on": "2026-08-15",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Toolkit for spec-driven development that works with any AI coding agent to build software.",
+      "rationale": "Framework explicitly designed to enable AI coding agents to implement features from executable specifications; integrates multiple agent platforms as primary interface."
     }
   }
 }
