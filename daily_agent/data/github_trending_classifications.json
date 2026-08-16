@@ -1203,22 +1203,22 @@
     "1232493406": {
       "repository_id": 1232493406,
       "full_name": "PrimeIntellect-ai/prime-agent",
-      "readme_sha": "1d6f850c5f913f931a8ab021212eaf016a61c017",
-      "classified_on": "2026-08-08",
+      "readme_sha": "b4fd502b066ebc80feebe5a70151b9b8b51492f7",
+      "classified_on": "2026-08-16",
       "ai_related": true,
-      "project_type": "Framework",
-      "summary": "Self-improving autonomous agent framework for coding and long-running AI tasks with persistent state management.",
-      "rationale": "Core AI agent framework using Recursive Language Models and reinforcement learning as primary technology for autonomous task execution."
+      "project_type": "Application",
+      "summary": "Self-improving RLM agent for autonomous coding workflows and long-running research tasks.",
+      "rationale": "Core product is autonomous AI agent using recursive language models for code generation and research automation."
     },
     "1008304614": {
       "repository_id": 1008304614,
       "full_name": "semantica-agi/semantica",
-      "readme_sha": "985b6baf90c96932aa6a734a6295b7682afb2d37",
-      "classified_on": "2026-08-08",
+      "readme_sha": "fbc207813d9adc352546351a77ef95a9b6e5a41d",
+      "classified_on": "2026-08-16",
       "ai_related": true,
-      "project_type": "Framework",
-      "summary": "Graph-native infrastructure for AI context, knowledge representation, and decision provenance in agent systems.",
-      "rationale": "Framework providing knowledge graphs, deterministic reasoning, and governance infrastructure specifically designed for AI agent accountability."
+      "project_type": "Library",
+      "summary": "Graph-native infrastructure for context management and decision intelligence in AI agent systems.",
+      "rationale": "Purpose-built for AI governance, agent memory, and explainable AI; graph-based provenance and reasoning for LLM systems."
     },
     "1104332987": {
       "repository_id": 1104332987,
@@ -1464,7 +1464,7 @@
       "repository_id": 275031765,
       "full_name": "megadose/holehe",
       "readme_sha": "03f120002a87578372bf137f699aaa562980d6a2",
-      "classified_on": "2026-08-15",
+      "classified_on": "2026-08-16",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "OSINT tool checking if email addresses are registered accounts across 120+ social platforms.",
@@ -1499,6 +1499,76 @@
       "project_type": "Framework",
       "summary": "Toolkit for spec-driven development that works with any AI coding agent to build software.",
       "rationale": "Framework explicitly designed to enable AI coding agents to implement features from executable specifications; integrates multiple agent platforms as primary interface."
+    },
+    "493376588": {
+      "repository_id": 493376588,
+      "full_name": "cordiverse/cordis",
+      "readme_sha": "3d92410a9615d12b9a02733fdc914a1d58227e7f",
+      "classified_on": "2026-08-16",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Meta-framework for plugin-based compositional architecture using spatiotemporal composability patterns and effects.",
+      "rationale": "General-purpose meta-framework for composable programming patterns; AI is not material to its primary design or purpose."
+    },
+    "1140229822": {
+      "repository_id": 1140229822,
+      "full_name": "cursor/plugins",
+      "readme_sha": "647e78425635942128a87473aa79bdd13408c26f",
+      "classified_on": "2026-08-16",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Official plugin collection extending Cursor AI assistant with agent orchestration and integrations.",
+      "rationale": "Plugin marketplace for Cursor (AI code assistant) featuring agent-specific plugins, MCP integration, orchestration, and AI-native developer tools."
+    },
+    "54346799": {
+      "repository_id": 54346799,
+      "full_name": "public-apis/public-apis",
+      "readme_sha": "adda625bb548a1c155ffa91a4a1739e812f30d45",
+      "classified_on": "2026-08-16",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "Community-curated comprehensive directory listing free public APIs across multiple domains and services.",
+      "rationale": "General-purpose API catalog organized by domain, not by AI; remains non-AI despite incidental AI-related entries among thousands of general APIs."
+    },
+    "1162516847": {
+      "repository_id": 1162516847,
+      "full_name": "MakazhanAlpamys/Soup",
+      "readme_sha": "0bb40c503f071fb890e59c4e342a6f461f4ceac7",
+      "classified_on": "2026-08-16",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "CLI tool for efficiently fine-tuning large language models on consumer GPU hardware.",
+      "rationale": "Specialized tool for LLM fine-tuning with layer streaming optimization; AI model training is its core product and primary purpose."
+    },
+    "352933140": {
+      "repository_id": 352933140,
+      "full_name": "ToolJet/ToolJet",
+      "readme_sha": "ef0f60704b78c40615da15f1a8e8eabd0cc04d39",
+      "classified_on": "2026-08-16",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Low-code platform for building internal tools, workflows, and AI agents with AI-native features.",
+      "rationale": "AI-native platform with built-in AI app generation, query building, and agent creation capabilities central to product value proposition."
+    },
+    "1176011916": {
+      "repository_id": 1176011916,
+      "full_name": "HKUDS/CLI-Anything",
+      "readme_sha": "61c87a5d5fdccb9697eacba43ae791b310cdd183",
+      "classified_on": "2026-08-16",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Framework for making existing software compatible with AI agents through CLI interface generation.",
+      "rationale": "Organizing principle is bridging AI agents and software; purpose-built for agent-native compatibility across applications and tools."
+    },
+    "1243889840": {
+      "repository_id": 1243889840,
+      "full_name": "NVIDIA-NeMo/Switchyard",
+      "readme_sha": "c697f6b69c2d0507db37094411fae8f8011df2d5",
+      "classified_on": "2026-08-16",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Rust proxy and library for routing LLM traffic across providers with API translation and cost optimization.",
+      "rationale": "Infrastructure for LLM applications; provides routing and translation specifically for LLM/AI workloads across multiple providers."
     }
   }
 }

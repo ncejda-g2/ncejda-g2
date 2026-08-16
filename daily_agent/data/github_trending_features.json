@@ -580,6 +580,27 @@
       "url": "https://github.com/github/spec-kit",
       "total_stars": 128613,
       "last_full_featured": "2026-08-15"
+    },
+    "1140229822": {
+      "repository_id": 1140229822,
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "total_stars": 2980,
+      "last_full_featured": "2026-08-16"
+    },
+    "1162516847": {
+      "repository_id": 1162516847,
+      "full_name": "MakazhanAlpamys/Soup",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "total_stars": 1756,
+      "last_full_featured": "2026-08-16"
+    },
+    "352933140": {
+      "repository_id": 352933140,
+      "full_name": "ToolJet/ToolJet",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "total_stars": 39619,
+      "last_full_featured": "2026-08-16"
     }
   }
 }
