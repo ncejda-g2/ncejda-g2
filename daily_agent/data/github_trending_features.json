@@ -445,15 +445,15 @@
       "repository_id": 1232493406,
       "full_name": "PrimeIntellect-ai/prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "total_stars": 6967,
-      "last_full_featured": "2026-08-08"
+      "total_stars": 16661,
+      "last_full_featured": "2026-08-17"
     },
     "1008304614": {
       "repository_id": 1008304614,
       "full_name": "semantica-agi/semantica",
       "url": "https://github.com/semantica-agi/semantica",
-      "total_stars": 2402,
-      "last_full_featured": "2026-08-08"
+      "total_stars": 8286,
+      "last_full_featured": "2026-08-17"
     },
     "1104332987": {
       "repository_id": 1104332987,
@@ -601,6 +601,13 @@
       "url": "https://github.com/ToolJet/ToolJet",
       "total_stars": 39619,
       "last_full_featured": "2026-08-16"
+    },
+    "1243889840": {
+      "repository_id": 1243889840,
+      "full_name": "NVIDIA-NeMo/Switchyard",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "total_stars": 1719,
+      "last_full_featured": "2026-08-17"
     }
   }
 }

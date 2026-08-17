@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-17",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "caption": "claude can't corrupt your writing with 'grey' instead of 'overcast' / if you just paste it into Declaude first"
+  },
+  "narrative_summary": "The joke is that the only people affected by Anthropic's secret watermark are honest users, since the bypass tool Declaude exists \u2014 making the whole scheme self-defeating in a classically smug Roll Safe way.",
+  "rationale": "Candidate 1 is the only entry that earns a genuine punchline rather than restating the setup \u2014 the Roll Safe format perfectly mirrors the self-defeating logic (the watermark only catches honest users), and naming Declaude specifically makes it feel like insider knowledge rather than generic AI commentary. Every other candidate is a Trade Offer variant that lands on the same 'grey vs overcast' observation without a closing beat that twists the knife.",
+  "image_filename": "comic_2026-08-17.png",
+  "story_title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+  "story_url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+  "place": "inside a malfunctioning smart home at 3am",
+  "hat_pair": [
+    "foam floppy disk worn as a flat hat",
+    "foam server rack worn as a hat with blinking LED lights"
+  ],
+  "no_news_mode": false
+}

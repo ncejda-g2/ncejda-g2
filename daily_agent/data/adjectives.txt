@@ -136,4 +136,5 @@ snickering
 drooling
 livid
 suspicious
+catatonic
 clumsy

@@ -23,12 +23,12 @@
     "1006414368": {
       "repository_id": 1006414368,
       "full_name": "OpenCut-app/OpenCut",
-      "readme_sha": "08cef45afb531c600819ff3dde2d05a3a6c5006e",
-      "classified_on": "2026-07-17",
+      "readme_sha": "2c715d8e2b99237322f7be93512b603a399155fb",
+      "classified_on": "2026-08-17",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Open-source video editor for web, desktop, and mobile with planned AI features.",
-      "rationale": "Core product is a video editor; MCP server and AI integration are planned features, not primary functionality."
+      "summary": "A free, open-source video editor for web, desktop, and mobile platforms.",
+      "rationale": "Primary product is video editing. Planned MCP server and AI agent integration features do not qualify per guidelines excluding planned integrations."
     },
     "896144595": {
       "repository_id": 896144595,
@@ -1153,12 +1153,12 @@
     "1158722119": {
       "repository_id": 1158722119,
       "full_name": "addyosmani/agent-skills",
-      "readme_sha": "05777eec8808713178bdf020a4d8f730fe3e22bc",
-      "classified_on": "2026-08-06",
+      "readme_sha": "f31b37f7fc881e76cf9ba9cedd74efad27d4d255",
+      "classified_on": "2026-08-17",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Production-grade skill collection encoding software engineering best practices for AI agents.",
-      "rationale": "Twenty-four structured workflows designed as instruction sets for AI coding agents across Claude Code, Cursor, Codex, and other platforms. AI agents are the explicit primary audience and organizing principle."
+      "summary": "Production-grade development workflow skills for AI coding agents across platforms and lifecycle.",
+      "rationale": "Purpose-built collection of engineering practices and quality gates designed explicitly for AI coding agents (Claude, Cursor, Copilot, etc.). AI is the organizing subject."
     },
     "230885748": {
       "repository_id": 230885748,
@@ -1204,7 +1204,7 @@
       "repository_id": 1232493406,
       "full_name": "PrimeIntellect-ai/prime-agent",
       "readme_sha": "b4fd502b066ebc80feebe5a70151b9b8b51492f7",
-      "classified_on": "2026-08-16",
+      "classified_on": "2026-08-17",
       "ai_related": true,
       "project_type": "Application",
       "summary": "Self-improving RLM agent for autonomous coding workflows and long-running research tasks.",
@@ -1213,12 +1213,12 @@
     "1008304614": {
       "repository_id": 1008304614,
       "full_name": "semantica-agi/semantica",
-      "readme_sha": "fbc207813d9adc352546351a77ef95a9b6e5a41d",
-      "classified_on": "2026-08-16",
+      "readme_sha": "8b89fd5f6151247d5d7417e2a398c7017d5e7ff6",
+      "classified_on": "2026-08-17",
       "ai_related": true,
-      "project_type": "Library",
-      "summary": "Graph-native infrastructure for context management and decision intelligence in AI agent systems.",
-      "rationale": "Purpose-built for AI governance, agent memory, and explainable AI; graph-based provenance and reasoning for LLM systems."
+      "project_type": "Framework",
+      "summary": "Graph-native infrastructure for context management, reasoning, and explainable decision intelligence in AI agents.",
+      "rationale": "Purpose-built AI infrastructure framework providing knowledge graphs, deterministic reasoning, decision provenance, and governance for regulated AI systems. Explicitly designed as foundational layer for agent and LLM-based applications."
     },
     "1104332987": {
       "repository_id": 1104332987,
@@ -1303,12 +1303,12 @@
     "1003043071": {
       "repository_id": 1003043071,
       "full_name": "vitali87/code-graph-rag",
-      "readme_sha": "bc3a80821b9420b36d086a242aaf05c07976a7ca",
-      "classified_on": "2026-08-10",
+      "readme_sha": "0de6159c011a56fdcff2e33d06c9ab25b5b4aac6",
+      "classified_on": "2026-08-17",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "AI-powered RAG system for querying, understanding, and editing multi-language codebases with knowledge graphs.",
-      "rationale": "Core product is a Retrieval-Augmented Generation system using LLMs for codebase analysis; explicitly integrates with Claude Code via MCP server."
+      "summary": "RAG system for querying and editing multi-language codebases via natural language and AI.",
+      "rationale": "AI is material to the core product: LLM-driven query translation, knowledge-graph-based code retrieval, and AI-powered optimization are central features, not add-ons."
     },
     "1120195677": {
       "repository_id": 1120195677,
@@ -1464,7 +1464,7 @@
       "repository_id": 275031765,
       "full_name": "megadose/holehe",
       "readme_sha": "03f120002a87578372bf137f699aaa562980d6a2",
-      "classified_on": "2026-08-16",
+      "classified_on": "2026-08-17",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "OSINT tool checking if email addresses are registered accounts across 120+ social platforms.",
@@ -1504,7 +1504,7 @@
       "repository_id": 493376588,
       "full_name": "cordiverse/cordis",
       "readme_sha": "3d92410a9615d12b9a02733fdc914a1d58227e7f",
-      "classified_on": "2026-08-16",
+      "classified_on": "2026-08-17",
       "ai_related": false,
       "project_type": "Framework",
       "summary": "Meta-framework for plugin-based compositional architecture using spatiotemporal composability patterns and effects.",
@@ -1523,12 +1523,12 @@
     "54346799": {
       "repository_id": 54346799,
       "full_name": "public-apis/public-apis",
-      "readme_sha": "adda625bb548a1c155ffa91a4a1739e812f30d45",
-      "classified_on": "2026-08-16",
+      "readme_sha": "7009f3b54fe2d48842505380653452f5a73a516d",
+      "classified_on": "2026-08-17",
       "ai_related": false,
       "project_type": "Collection",
-      "summary": "Community-curated comprehensive directory listing free public APIs across multiple domains and services.",
-      "rationale": "General-purpose API catalog organized by domain, not by AI; remains non-AI despite incidental AI-related entries among thousands of general APIs."
+      "summary": "A community-curated directory listing free public APIs across weather, finance, geolocation, and other domains.",
+      "rationale": "General-purpose API catalog. Collection scope is broad developer resources; not organized around AI despite some entries potentially using AI."
     },
     "1162516847": {
       "repository_id": 1162516847,
@@ -1564,11 +1564,21 @@
       "repository_id": 1243889840,
       "full_name": "NVIDIA-NeMo/Switchyard",
       "readme_sha": "c697f6b69c2d0507db37094411fae8f8011df2d5",
-      "classified_on": "2026-08-16",
+      "classified_on": "2026-08-17",
       "ai_related": true,
       "project_type": "Library",
       "summary": "Rust proxy and library for routing LLM traffic across providers with API translation and cost optimization.",
       "rationale": "Infrastructure for LLM applications; provides routing and translation specifically for LLM/AI workloads across multiple providers."
+    },
+    "994093166": {
+      "repository_id": 994093166,
+      "full_name": "basecamp/omarchy",
+      "readme_sha": "c7e541a2d59ce796e48daa38bd9d74f2cc55705d",
+      "classified_on": "2026-08-17",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "A beautiful, modern, and opinionated Linux distribution by DHH with integrated development tools.",
+      "rationale": "Core product is a general-purpose Linux distribution. Single AI section in manual does not qualify; guidelines exclude general-purpose systems with incidental AI topics."
     }
   }
 }
