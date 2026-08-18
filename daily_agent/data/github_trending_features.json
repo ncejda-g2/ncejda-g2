@@ -608,6 +608,27 @@
       "url": "https://github.com/NVIDIA-NeMo/Switchyard",
       "total_stars": 1719,
       "last_full_featured": "2026-08-17"
+    },
+    "770153867": {
+      "repository_id": 770153867,
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "total_stars": 106632,
+      "last_full_featured": "2026-08-18"
+    },
+    "1032808806": {
+      "repository_id": 1032808806,
+      "full_name": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "total_stars": 54455,
+      "last_full_featured": "2026-08-18"
+    },
+    "138552196": {
+      "repository_id": 138552196,
+      "full_name": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "total_stars": 26060,
+      "last_full_featured": "2026-08-18"
     }
   }
 }

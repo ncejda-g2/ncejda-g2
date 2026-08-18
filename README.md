@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 248 (2026-08-17)
+# 📰 The AI Newspaper — Day 249 (2026-08-18)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Claude: System Prompts](https://platform.claude.com/docs/en/release-notes/system-prompts) | Model Release | Anthropic publishes official Claude system prompts publicly | 601 | [601](https://news.ycombinator.com/item?id=49319556) |
-| 2 | [Models Are Getting Dumber on Purpose](https://w4g1.dev/blog/models-are-getting-dumber-on-purpose) | Research Paper | Labs deliberately trade factual recall for reasoning skill | 299 | [299](https://news.ycombinator.com/item?id=49322695) |
-| 3 | [Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter](https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion) | Palace Intrigue | Stripe acquires AI routing giant OpenRouter for $7B+ | 262 | [262](https://news.ycombinator.com/item?id=49323381) |
-| 4 | [The AI Credit Resale Economy](https://vectoral.com/blog/who-are-the-token-brokers) | Infrastructure | Shadow market of token brokers reselling AI credits exposed | 257 | [257](https://news.ycombinator.com/item?id=49320611) |
-| 5 | [Qwen 3.8 27B is excellent, but it defaults to overthinking things](https://simonwillison.net/2026/Aug/16/qwen-38-27b/) | Model Release | Qwen's 27B model impresses but over-reasons by default | 243 | [243](https://news.ycombinator.com/item?id=49324985) |
-| 6 | [What happens when an LLM never sees material beyond fifth grade?](https://littlelearner-ll.github.io/) | Research Paper | Experiment: LLM trained exclusively on elementary-grade text | 238 | [238](https://news.ycombinator.com/item?id=49317760) |
-| 7 | [Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee](https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/) | Infrastructure | Nvidia backs away from $250B OpenAI data center guarantee | 175 | [175](https://news.ycombinator.com/item?id=49323686) |
-| 8 | [Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing](https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing) | Palace Intrigue | Gruber eviscerates Anthropic's secret word-nudging watermark | 172 | [172](https://news.ycombinator.com/item?id=49324087) |
-| 9 | [Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe](https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll) | Palace Intrigue | Poll: Gen Z loathes AI executives with unusual passion | 105 | [105](https://news.ycombinator.com/item?id=49323932) |
-| 10 | [AI Coding Without the Vibes](https://peterbloem.nl/blog/craft-coding) | Dev Tooling | Case for disciplined craft over AI-assisted cowboy coding | 81 | [81](https://news.ycombinator.com/item?id=49318735) |
+| 1 | [AI;DR (AI; Didn't Read)](https://www.rickmanelius.com/p/aidr-ai-didnt-read) | Palace Intrigue | Essay on AI replacing reading sparks 466-comment debate | 726 | [726](https://news.ycombinator.com/item?id=49336573) |
+| 2 | [AI-Generated GitHub Copilot "Autofix" Allowed Compromise of Snowflake's Jira](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug) | Dev Tooling | Copilot Autofix introduced shell injection, got exploited | 342 | [342](https://news.ycombinator.com/item?id=49331423) |
+| 3 | [Qwen3.8 27B scores 52 on Artificial Analysis](https://artificialanalysis.ai/models/qwen3-8-27b) | Model Release | Qwen open-source 27B tops Artificial Analysis at score 52 | 325 | [325](https://news.ycombinator.com/item?id=49334544) |
+| 4 | [GPT 5.6 Sol is the best "vision" model OpenAI ever released](https://blog.roboflow.com/openai-gpt-5-6/) | Model Release | Roboflow benchmark crowns GPT-5.6 Sol best vision model | 319 | [319](https://news.ycombinator.com/item?id=49329575) |
+| 5 | [GPT-5.6 Sol Pricing Cut by 50%](https://openrouter.ai/openai/gpt-5.6-sol) | Model Release | OpenAI halves GPT-5.6 Sol prices on OpenRouter | 286 | [286](https://news.ycombinator.com/item?id=49337602) |
+| 6 | [Israel creates fake think tank in likely attempt to dupe AI chatbots](https://responsiblestatecraft.org/israel-influence-chatgpt/) | Palace Intrigue | Fake think tank created to poison AI chatbot training data | 276 | [276](https://news.ycombinator.com/item?id=49337392) |
+| 7 | [How to disable or avoid intrusive AI](https://www.librarian.net/notoai/) | Palace Intrigue | Librarian publishes guide to opting out of AI everywhere | 271 | [271](https://news.ycombinator.com/item?id=49331220) |
+| 8 | [Anthropic's War on open source AI](https://twitter.com/TheAhmadOsman/status/2065307070044234186) | Palace Intrigue | Thread accuses Anthropic of opposing open-source AI models | 141 | [141](https://news.ycombinator.com/item?id=49332564) |
+| 9 | [We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility](https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/) | Palace Intrigue | AirTag reveals Amazon destroying rare books for AI training | 136 | [136](https://news.ycombinator.com/item?id=49330742) |
+| 10 | [Llama.cpp v0.1.0](https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.0) | Open Source Tool | Llama.cpp reaches first official v0.1.0 release milestone | 42 | [42](https://news.ycombinator.com/item?id=49335017) |
 
 ---
 
@@ -23,38 +23,31 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Claude: System Prompts](https://platform.claude.com/docs/en/release-notes/system-prompts) | Anthropic | Developer Tools | Aug 17 |
+
+*No new lab posts this week.*
 
 ---
 
 ## 🔥 Trending AI Repositories
 
-### Still Trending
-
-| Project | Stars | Recent stars | Daily rank | Observed streak |
-|---|---:|---:|---:|---:|
-| [unsloth](https://github.com/unslothai/unsloth) | 71,182 | +572 today | #3 | 4 days |
-| [ToolJet](https://github.com/ToolJet/ToolJet) | 39,619 | +452 today | #6 | 3 days |
-| [needle](https://github.com/cactus-compute/needle) | 5,105 | +443 today | #7 | 5 days |
-
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [semantica](https://github.com/semantica-agi/semantica) | Graph-native infrastructure for context management, reasoning, and explainable decision intelligence in AI agents. | 8,286 | +5,284 this week | Weekly #2 | [One commenter indicated willingness to pay for better alternative to Google Scholar.](https://news.ycombinator.com/item?id=42507116) |
-| [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving RLM agent for autonomous coding workflows and long-running research tasks. | 16,661 | +6,435 this week | Weekly #3 | N/A |
-| [Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) | Rust proxy and library for routing LLM traffic across providers with API translation and cost optimization. | 1,719 | +1,435 this week | Weekly #4 | [Commenter noted contradiction: press claims deployment-ready while README says experimental, not production.](https://news.ycombinator.com/item?id=49263340) |
+| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | AI-powered tool auto-generating HD short videos from keywords with scripts, subtitles, and music. | 106,632 | +1,189 today | Daily #1 | N/A |
+| [strix](https://github.com/usestrix/strix) | Autonomous AI pentesting agents that identify, validate, and exploit application vulnerabilities with proof-of-concept exploits. | 54,455 | +598 today | Daily #2 | N/A |
+| [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | Production trading engine supporting deterministic simulation and AI agent training across multiple asset classes. | 26,060 | +120 today | Daily #3 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-08-17.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-08-18.png" width="600" alt="Today's comic strip">
 
-_Based on: [Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing](https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing)_
+_Based on: [AI-Generated GitHub Copilot "Autofix" Allowed Compromise of Snowflake's Jira](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 248 | Last updated: 2026-08-17*
+*Day 249 | Last updated: 2026-08-18*

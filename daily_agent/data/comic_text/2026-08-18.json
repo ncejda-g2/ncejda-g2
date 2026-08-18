@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-18",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "ravenous",
+    "adjective_second": "melodramatic",
+    "narrative_intro": "*A ravenous person and a melodramatic person discuss GitHub Copilot Autofix at a 3am Walmart.*",
+    "panel1": "[setup]\nRAVENOUS PERSON: \"Snowflake shipped Copilot's Autofix to fix security holes.\"\nMELODRAMATIC PERSON: \"Finally, AI protecting us from ourselves.\"",
+    "panel2": "[build]\nRAVENOUS PERSON: \"PR #1218, merged June 18th. Looked totally clean.\"\nMELODRAMATIC PERSON: \"Beautiful. A golden age of safe code.\"",
+    "panel3": "[pivot]\nRAVENOUS PERSON: \"It swapped a safe jq pattern for raw issue title interpolation.\"\nMELODRAMATIC PERSON: \"...Autofix autobroke it?\"",
+    "panel4": "[silent reaction]\n[Visual: The melodramatic person's arms drop limp; a Walmart fluorescent light flickers and dies directly above them. The ravenous person slowly lowers a bag of chips they were about to open.]",
+    "panel5": "[punch]\nMELODRAMATIC PERSON: \"Five days later Wiz's bot stole qa@snowflake.net's Jira token?!\"\nRAVENOUS PERSON: \"Read access. Engineering, security, bug bounty. All of it.\"",
+    "panel6": "[button]\n[Visual: A nearby endcap display reading 'SMART HOME \u2014 SECURED BY AI' topples over in the silence. Neither person moves to catch it.]"
+  },
+  "narrative_summary": "GitHub Copilot Autofix's cruel irony \u2014 auto-creating the exact shell injection vulnerability it was sold to prevent, then getting exploited five days later \u2014 lands as escalating horror between two stunned 3am Walmart shoppers.",
+  "rationale": "Candidate 4 earns its score through the best template fit \u2014 the escalating-horror structure maps perfectly onto the story's own escalation (clean PR \u2192 broken security \u2192 stolen token), and the flickering fluorescent light dying overhead is a genuinely earned visual beat rather than a slapped-on prop gag. The toppling 'SECURED BY AI' endcap in panel 6 closes the irony loop without restating the setup, which most competitors fail to do.",
+  "image_filename": "comic_2026-08-18.png",
+  "story_title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
+  "story_url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+  "place": "at a 3am Walmart",
+  "hat_pair": [
+    "foam exclamation mark worn as a tall narrow hat with a round dot brim",
+    "foam frying pan worn as a flat hat with a plastic sunny-side-up egg glued to the center"
+  ],
+  "no_news_mode": false
+}

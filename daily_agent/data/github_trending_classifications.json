@@ -1579,6 +1579,56 @@
       "project_type": "Application",
       "summary": "A beautiful, modern, and opinionated Linux distribution by DHH with integrated development tools.",
       "rationale": "Core product is a general-purpose Linux distribution. Single AI section in manual does not qualify; guidelines exclude general-purpose systems with incidental AI topics."
+    },
+    "770153867": {
+      "repository_id": 770153867,
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "readme_sha": "08b2a2b87b55f96c66d4386907ce3923885ea3d7",
+      "classified_on": "2026-08-18",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI-powered tool auto-generating HD short videos from keywords with scripts, subtitles, and music.",
+      "rationale": "LLMs are the core mechanism driving script generation and video content creation; supports multiple AI providers (Kimi, GPT, Gemini, DeepSeek, etc.)."
+    },
+    "1032808806": {
+      "repository_id": 1032808806,
+      "full_name": "usestrix/strix",
+      "readme_sha": "2e4dfa3e86ae903a3706e14536e504cbcb8b6c32",
+      "classified_on": "2026-08-18",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Autonomous AI pentesting agents that identify, validate, and exploit application vulnerabilities with proof-of-concept exploits.",
+      "rationale": "AI agents are the primary mechanism; autonomous agent orchestration is the core product for pentesting and security assessment automation."
+    },
+    "138552196": {
+      "repository_id": 138552196,
+      "full_name": "nautechsystems/nautilus_trader",
+      "readme_sha": "eff053c127c7b8fbb0d2afc950f8b94daa8f0fdd",
+      "classified_on": "2026-08-18",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Production trading engine supporting deterministic simulation and AI agent training across multiple asset classes.",
+      "rationale": "Explicitly supports AI agent training (RL/ES); machine learning features are materially relevant to research and deployment use cases despite being one of multiple supported strategies."
+    },
+    "1246148135": {
+      "repository_id": 1246148135,
+      "full_name": "akitaonrails/ai-memory",
+      "readme_sha": "b2df827d1640d1a43bce8de4ac01bc9c5ab62425",
+      "classified_on": "2026-08-18",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Memory management system enabling long-term context retention and seamless handoff between AI coding agents.",
+      "rationale": "Core functionality is specifically designed for AI agent persistence and interoperability across 26+ coding agent platforms using MCP protocol."
+    },
+    "1166506614": {
+      "repository_id": 1166506614,
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "readme_sha": "fae37f4adbde636ee335651b65d0797f1344c0c5",
+      "classified_on": "2026-08-18",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "817 structured cybersecurity skills for AI agents mapped to six industry security frameworks and standards.",
+      "rationale": "Explicitly organized as agentskills.io-standard skill library for AI agents; AI agent integration across 26+ platforms is the organizing principle."
     }
   }
 }
