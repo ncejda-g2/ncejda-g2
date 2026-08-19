@@ -1523,12 +1523,12 @@
     "54346799": {
       "repository_id": 54346799,
       "full_name": "public-apis/public-apis",
-      "readme_sha": "7009f3b54fe2d48842505380653452f5a73a516d",
-      "classified_on": "2026-08-17",
+      "readme_sha": "30c92bcc0913e1bc0ebb5dd966f8693147f83e05",
+      "classified_on": "2026-08-19",
       "ai_related": false,
       "project_type": "Collection",
-      "summary": "A community-curated directory listing free public APIs across weather, finance, geolocation, and other domains.",
-      "rationale": "General-purpose API catalog. Collection scope is broad developer resources; not organized around AI despite some entries potentially using AI."
+      "summary": "A community-maintained curated list of free public APIs across many domains.",
+      "rationale": "General-purpose API catalog not organized around AI; though some APIs may have AI features, the collection's scope is general developer resources, not AI-specific."
     },
     "1162516847": {
       "repository_id": 1162516847,
@@ -1613,22 +1613,42 @@
     "1246148135": {
       "repository_id": 1246148135,
       "full_name": "akitaonrails/ai-memory",
-      "readme_sha": "b2df827d1640d1a43bce8de4ac01bc9c5ab62425",
-      "classified_on": "2026-08-18",
+      "readme_sha": "4b5c13a08dddc7f79bd0545c76cf9bd4a609c537",
+      "classified_on": "2026-08-19",
       "ai_related": true,
       "project_type": "Library",
-      "summary": "Memory management system enabling long-term context retention and seamless handoff between AI coding agents.",
-      "rationale": "Core functionality is specifically designed for AI agent persistence and interoperability across 26+ coding agent platforms using MCP protocol."
+      "summary": "Long-term memory system enabling AI coding agents to retain context and handoff across vendors.",
+      "rationale": "Purpose-built infrastructure for agent memory and continuity across multiple LLM platforms; AI agents are the primary use case."
     },
     "1166506614": {
       "repository_id": 1166506614,
       "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
       "readme_sha": "fae37f4adbde636ee335651b65d0797f1344c0c5",
-      "classified_on": "2026-08-18",
+      "classified_on": "2026-08-19",
       "ai_related": true,
       "project_type": "Collection",
       "summary": "817 structured cybersecurity skills for AI agents mapped to six industry security frameworks and standards.",
       "rationale": "Explicitly organized as agentskills.io-standard skill library for AI agents; AI agent integration across 26+ platforms is the organizing principle."
+    },
+    "1255237198": {
+      "repository_id": 1255237198,
+      "full_name": "chaitanyagiri/munder-difflin",
+      "readme_sha": "cb266750724d96d9cef600271ecd7d981a935b25",
+      "classified_on": "2026-08-19",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Desktop framework coordinating multiple AI coding agents with shared memory and orchestration.",
+      "rationale": "Multi-agent orchestration is the primary product. Wraps Claude Code, Gemini, OpenAI, and other LLM-based agents; AI is material to the system's core function."
+    },
+    "1128123594": {
+      "repository_id": 1128123594,
+      "full_name": "volcengine/OpenViking",
+      "readme_sha": "405ee268d942980f61df0c6fcca7e98f394de5ea",
+      "classified_on": "2026-08-19",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Context database providing tiered memory, RAG, and skills management for AI agents.",
+      "rationale": "Specialized database system designed specifically for agent contexts with benchmarks demonstrating agent performance improvements."
     }
   }
 }
