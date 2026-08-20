@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-20",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "rabid sloth",
+    "adjective_second": "dapper otter",
+    "narrative_intro": "*A rabid sloth and a dapper otter discuss the OpenRouter-Stripe acquisition at a VC pitch where the demo is actively hallucinating.*",
+    "panel1": "[setup]\nDAPPER OTTER: \"OpenRouter routes 10 trillion tokens a day.\"\nRABID SLOTH: \"Joined Stripe. Natural fit. Two great APIs.\"",
+    "panel2": "[build]\nDAPPER OTTER: \"Stripe abstracts payments. OpenRouter abstracts AI brains.\"\nRABID SLOTH: \"The company that charges your card now picks your chatbot.\"",
+    "panel3": "[pivot]\nRABID SLOTH: \"They promised routing stays user-benefit-driven. Not Stripe's financial interest.\"\nDAPPER OTTER: \"The demo will confirm that.\"",
+    "panel4": "[silent reaction]\n[Visual: The pitch demo screen glows. It is routing every query to the most expensive model. A small coin-cha-ching animation loops silently. Both characters stare. A single dollar sign drifts past like a tumbleweed.]",
+    "panel5": "[punch]\nDAPPER OTTER: \"...it routed to GPT-4o. Twice.\"\nRABID SLOTH: \"User benefit.\"",
+    "panel6": "[button]\n[Visual: The demo screen now shows a Stripe checkout page. Line item: 'Definitely Not Financial Interest \u2014 $0.002/token.' The otter updates the pitch deck to read '10x growth, 10x fees.']"
+  },
+  "narrative_summary": "The joke hinges on the deadpan irony of Stripe promising routing won't serve its financial interests \u2014 while the live demo silently routes every query to the priciest model and then literally opens a Stripe checkout.",
+  "rationale": "Candidate 1 earns top marks across every axis: the deadpan voice is perfectly matched to the template, the specific detail of routing to GPT-4o twice lands as a real punchline rather than a restatement, and the final line item 'Definitely Not Financial Interest \u2014 $0.002/token' is the sharpest, most specific joke in the batch. The tumbleweed dollar sign in panel 4 is a genuinely fresh visual gag that the other candidates' monocle-drops can't match.",
+  "image_filename": "comic_2026-08-20.png",
+  "story_title": "OpenRouter is joining Stripe",
+  "story_url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+  "place": "at a VC pitch where the demo is actively hallucinating",
+  "hat_pair": [
+    "tinfoil pyramid hat",
+    "foam diploma scroll worn as a top hat with a tiny tassel dangling off"
+  ],
+  "no_news_mode": false
+}

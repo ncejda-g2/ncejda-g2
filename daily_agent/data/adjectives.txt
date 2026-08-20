@@ -140,3 +140,4 @@ catatonic
 clumsy
 rabid
 lopsided
+haughty

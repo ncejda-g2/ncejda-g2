@@ -13,12 +13,12 @@
     "1148788086": {
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
-      "readme_sha": "3b6952dfe0f306c2b58447e5b1124af9d8b49cc4",
-      "classified_on": "2026-08-07",
+      "readme_sha": "ff9b797a342d3a64b52f9f5a83d9fc4ce28709dc",
+      "classified_on": "2026-08-20",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Curated agent skills and prompts designed for AI coding assistants and autonomous agents.",
-      "rationale": "Prompt-based skill collection explicitly organized for AI agents like Claude Code; directly supports agent workflows and capabilities."
+      "summary": "Composable agent skills and prompts for coding assistants to improve software engineering effectiveness.",
+      "rationale": "Curated collection of reusable skills specifically designed for AI coding agents. AI is material to the collection's organizing purpose and primary audience."
     },
     "1006414368": {
       "repository_id": 1006414368,
@@ -553,12 +553,12 @@
     "1073224795": {
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
-      "readme_sha": "2757b2efb76793a9420256ea45399edc355bead4",
-      "classified_on": "2026-08-05",
+      "readme_sha": "09a91c6d03cfa3d874c5c33b6f8cc3d0b2d89645",
+      "classified_on": "2026-08-20",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Agentic skills framework and software development methodology designed for coding agents across multiple platforms.",
-      "rationale": "Framework explicitly designed to enhance AI agent capabilities in software development through auto-triggered, composable skills for planning, testing, and subagent coordination."
+      "summary": "Complete agentic software development methodology and composable skill framework for AI-powered coding agents.",
+      "rationale": "Framework explicitly designed for agentic software development across multiple AI agent platforms. Agents are the primary audience and use case."
     },
     "1013830656": {
       "repository_id": 1013830656,
@@ -1624,7 +1624,7 @@
       "repository_id": 1166506614,
       "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
       "readme_sha": "fae37f4adbde636ee335651b65d0797f1344c0c5",
-      "classified_on": "2026-08-19",
+      "classified_on": "2026-08-20",
       "ai_related": true,
       "project_type": "Collection",
       "summary": "817 structured cybersecurity skills for AI agents mapped to six industry security frameworks and standards.",
@@ -1649,6 +1649,26 @@
       "project_type": "Framework",
       "summary": "Context database providing tiered memory, RAG, and skills management for AI agents.",
       "rationale": "Specialized database system designed specifically for agent contexts with benchmarks demonstrating agent performance improvements."
+    },
+    "1157171418": {
+      "repository_id": 1157171418,
+      "full_name": "jundot/omlx",
+      "readme_sha": "adb526ed90056ae5eae5712eef96598f445cdb69",
+      "classified_on": "2026-08-20",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Local LLM inference server with continuous batching and KV caching for Apple Silicon.",
+      "rationale": "LLM inference server for deploying and running language models locally. AI model serving is the core product purpose."
+    },
+    "1201476594": {
+      "repository_id": 1201476594,
+      "full_name": "santifer/career-ops",
+      "readme_sha": "53aebce192e95d0361b6ff097e9b41866d6cf1ae",
+      "classified_on": "2026-08-20",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI-powered job search tool using agents to evaluate listings, customize CVs, and track applications.",
+      "rationale": "Agentic application using AI reasoning for job evaluation, portal scanning, and CV customization. AI agents are material to core functionality."
     }
   }
 }

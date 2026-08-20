@@ -11,8 +11,8 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "total_stars": 207543,
-      "last_full_featured": "2026-08-07"
+      "total_stars": 224172,
+      "last_full_featured": "2026-08-20"
     },
     "896144595": {
       "repository_id": 896144595,
@@ -242,8 +242,8 @@
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
-      "total_stars": 266749,
-      "last_full_featured": "2026-08-05"
+      "total_stars": 274419,
+      "last_full_featured": "2026-08-20"
     },
     "1153130349": {
       "repository_id": 1153130349,
@@ -650,6 +650,13 @@
       "url": "https://github.com/volcengine/OpenViking",
       "total_stars": 29588,
       "last_full_featured": "2026-08-19"
+    },
+    "1166506614": {
+      "repository_id": 1166506614,
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "total_stars": 30005,
+      "last_full_featured": "2026-08-20"
     }
   }
 }
