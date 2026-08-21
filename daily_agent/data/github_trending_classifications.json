@@ -93,12 +93,12 @@
     "235901813": {
       "repository_id": 235901813,
       "full_name": "PostHog/posthog",
-      "readme_sha": "8e59b34910283d70b2d0c55b6bfd39472a9f24f3",
-      "classified_on": "2026-07-17",
-      "ai_related": true,
+      "readme_sha": "d2ec8bc1ca1337f6440ca7e4ed521ac2ffa70e38",
+      "classified_on": "2026-08-21",
+      "ai_related": false,
       "project_type": "Application",
-      "summary": "Analytics platform with AI observability and self-driving mode for autonomous product optimization.",
-      "rationale": "Self-driving AI agent mode is a headline differentiator; AI observability is a core feature for LLM-powered applications; primary positioning emphasizes autonomous agent capabilities."
+      "summary": "Product analytics and observability platform offering analytics, session replay, experiments, flags, and error tracking.",
+      "rationale": "Analytics platform with added AI features (self-driving mode, AI observability). Per eligibility rules, non-AI products do not qualify solely because they have AI integrations, MCP servers, or automation features. Core product is analytics-centric."
     },
     "666299222": {
       "repository_id": 666299222,
@@ -1663,12 +1663,42 @@
     "1201476594": {
       "repository_id": 1201476594,
       "full_name": "santifer/career-ops",
-      "readme_sha": "53aebce192e95d0361b6ff097e9b41866d6cf1ae",
-      "classified_on": "2026-08-20",
+      "readme_sha": "dd17fa2d9884edbb0892625fdd1c2262999b153e",
+      "classified_on": "2026-08-21",
       "ai_related": true,
+      "project_type": "CLI",
+      "summary": "AI-powered job search agent that evaluates listings, generates tailored CVs, and tracks applications.",
+      "rationale": "Multi-agent system using Claude to automate job search. AI is the core organizing principle—agents navigate portals, evaluate fit, research companies, and personalize applications."
+    },
+    "634043200": {
+      "repository_id": 634043200,
+      "full_name": "modular/modular",
+      "readme_sha": "e2876fc5ff7cd3f36ee2d9f4c19a20a752e86108",
+      "classified_on": "2026-08-21",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Unified platform for AI development and deployment including MAX inference framework and Mojo language.",
+      "rationale": "Platform explicitly designed for AI development. MAX framework optimizes model serving and inference; Mojo is a domain-specific language for AI systems programming. AI is the organizing principle."
+    },
+    "1248194723": {
+      "repository_id": 1248194723,
+      "full_name": "AprilNEA/OpenLogi",
+      "readme_sha": "fcba07cde4fcfbe1a1f0d077a98c4c3770553d68",
+      "classified_on": "2026-08-21",
+      "ai_related": false,
       "project_type": "Application",
-      "summary": "AI-powered job search tool using agents to evaluate listings, customize CVs, and track applications.",
-      "rationale": "Agentic application using AI reasoning for job evaluation, portal scanning, and CV customization. AI agents are material to core functionality."
+      "summary": "Native local-first alternative to Logitech Options+ for mouse and keyboard configuration.",
+      "rationale": "Device configuration utility with no AI components. Provides hardware control (button remapping, DPI, gestures) via traditional non-AI mechanisms."
+    },
+    "1238047523": {
+      "repository_id": 1238047523,
+      "full_name": "agent-substrate/substrate",
+      "readme_sha": "cf73cd7a5fe684e7e12234fe39d321254726b6f7",
+      "classified_on": "2026-08-21",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "High-density runtime environment for deploying and managing stateful AI agents at scale.",
+      "rationale": "Infrastructure framework explicitly designed for agent workloads. Provides lifecycle management, suspend/resume, state persistence, and multiplexing optimized for agentic applications."
     }
   }
 }

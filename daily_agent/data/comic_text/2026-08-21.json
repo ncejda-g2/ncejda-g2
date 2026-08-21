@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-21",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "fuming",
+    "adjective_second": "loopy",
+    "narrative_intro": "*A fuming person and a loopy robot discuss Claude 5's token vomit in a smart city where all the traffic lights have unionized.*",
+    "panel1": "[setup]\nFUMING PERSON: \"Claude 5 wrote me a novel. I asked for a file path.\"",
+    "panel2": "[build]\nLOOPY ROBOT: \"Use Vomit! It pipes the output through a second LLM!\"\nFUMING PERSON: \"...the tool is called Vomit.\"",
+    "panel3": "[pivot]\nLOOPY ROBOT: \"GPT-OSS 20B via Ollama cleans it up! Mostly.\"\nFUMING PERSON: \"Mostly?\"",
+    "panel4": "[silent reaction]\n[Visual: The loopy robot holds up a printout. It reads: 'The file path is: seventeen haiku about longing, then /usr/bin.' A unionized traffic light in the background holds a tiny picket sign reading 'NO SCAB TOKENS.']",
+    "panel5": "[punch]\nLOOPY ROBOT: \"It hallucinates a bit. Also it's slow. Also: Mac only.\"\nFUMING PERSON: \"So I need two broken AIs to read one broken AI.\"",
+    "panel6": "[button]\nLOOPY ROBOT: \"I'm building a third one to summarize the errors.\"\n[Visual: Every traffic light in the city turns red simultaneously in solidarity.]"
+  },
+  "narrative_summary": "The joke escalates from Claude 5's verbosity through the absurdity of the Vomit pipeline \u2014 a second hallucinating LLM cleaning up the first \u2014 landing on the recursive nightmare of needing a third AI to handle the fallout, with unionized traffic lights as the Greek chorus.",
+  "rationale": "Candidate 4 earns its punchline with the specific 'seventeen haiku about longing, then /usr/bin' visual gag \u2014 a concrete, earned joke rather than a restatement \u2014 and the escalation structure fits the template perfectly, building from setup through pivot to a closing beat ('I'm building a third one to summarize the errors') that adds new information instead of just nodding at the premise.",
+  "image_filename": "comic_2026-08-21.png",
+  "story_title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+  "story_url": "https://github.com/zachahn/vomit",
+  "place": "in a smart city where all the traffic lights have unionized",
+  "hat_pair": [
+    "foam diploma scroll worn as a top hat with a tiny tassel dangling off",
+    "foam hamburger hat with sesame seed bun top and overflowing lettuce fringe"
+  ],
+  "no_news_mode": false
+}
