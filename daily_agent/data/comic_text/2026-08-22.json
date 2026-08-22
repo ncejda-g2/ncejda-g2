@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-22",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "overstimulated",
+    "adjective_second": "droopy",
+    "narrative_intro": "*An overstimulated person and a droopy person discuss Nvidia AVO's perfect ARC-AGI-3 score inside a password reset email loop that has been going for three days.*",
+    "panel1": "[setup]\nOVERSTIMULATED PERSON: \"Nvidia AVO just scored 100% on ARC-AGI-3.\"\nDROOPY PERSON: \"Claude Opus 5 alone scores 30%.\"",
+    "panel2": "[build]\nOVERSTIMULATED PERSON: \"Same model. They just added memory, feedback loops, supervision.\"\nDROOPY PERSON: \"So... scaffolding did it.\"",
+    "panel3": "[pivot]\nOVERSTIMULATED PERSON: \"'The model is not the entire agent.' That's their headline thesis.\"\nDROOPY PERSON: \"We've been clicking 'reset password' for 72 hours.\"",
+    "panel4": "[silent reaction]\n[Visual: Both characters stare at a mountain of identical 'Your password reset link has expired' emails piling to the ceiling. The overstimulated person's eye twitches. The droopy person holds another unopened email.]",
+    "panel5": "[punch]\nDROOPY PERSON: \"We also have persistent memory, supervision, and feedback loops.\"\nOVERSTIMULATED PERSON: \"We scored zero on 183 levels.\"",
+    "panel6": "[button]\n[Visual: A sticky note on the wall reads 'AVO: 6,624 actions. Us: 6,624 clicks. Efficiency: 0%.' A new password reset email arrives with an audible ding.]"
+  },
+  "narrative_summary": "Two characters trapped in a password reset loop realize they technically have all the same architectural ingredients as Nvidia's AVO \u2014 persistent memory, feedback loops, supervision \u2014 yet remain completely non-functional, inverting Nvidia's 'scaffolding is everything' thesis to devastating effect.",
+  "rationale": "Candidate 1 earns its punchline through the sticky-note button \u2014 '6,624 actions. 6,624 clicks. Efficiency: 0%' \u2014 which is a genuinely specific, earned inversion of Nvidia's own benchmark numbers rather than a restatement of the setup. The silent panel 4 does real visual work, and the deadpan voice keeps the joke from over-explaining what Candidates 2 and 5 both fumble by spelling out the irony too loudly.",
+  "image_filename": "comic_2026-08-22.png",
+  "story_title": "Nvidia AVO scores 100% on the ARC-AGI-3 interactive reasoning benchmark",
+  "story_url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
+  "place": "inside a password reset email loop that has been going for three days",
+  "hat_pair": [
+    "bucket hat with googly eyes all over it",
+    "giant foam USB drive worn as a hat with the metal connector as the brim"
+  ],
+  "no_news_mode": false
+}

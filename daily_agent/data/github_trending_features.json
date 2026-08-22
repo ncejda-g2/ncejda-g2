@@ -291,8 +291,8 @@
       "repository_id": 1136590548,
       "full_name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
-      "total_stars": 235105,
-      "last_full_featured": "2026-07-29"
+      "total_stars": 241860,
+      "last_full_featured": "2026-08-22"
     },
     "839428333": {
       "repository_id": 839428333,
@@ -678,6 +678,20 @@
       "url": "https://github.com/agent-substrate/substrate",
       "total_stars": 1455,
       "last_full_featured": "2026-08-21"
+    },
+    "995029641": {
+      "repository_id": 995029641,
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "total_stars": 68706,
+      "last_full_featured": "2026-08-22"
+    },
+    "1251460378": {
+      "repository_id": 1251460378,
+      "full_name": "apache/maka",
+      "url": "https://github.com/apache/maka",
+      "total_stars": 2073,
+      "last_full_featured": "2026-08-22"
     }
   }
 }

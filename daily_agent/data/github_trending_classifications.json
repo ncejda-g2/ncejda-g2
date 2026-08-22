@@ -94,7 +94,7 @@
       "repository_id": 235901813,
       "full_name": "PostHog/posthog",
       "readme_sha": "d2ec8bc1ca1337f6440ca7e4ed521ac2ffa70e38",
-      "classified_on": "2026-08-21",
+      "classified_on": "2026-08-22",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Product analytics and observability platform offering analytics, session replay, experiments, flags, and error tracking.",
@@ -703,12 +703,12 @@
     "1136590548": {
       "repository_id": 1136590548,
       "full_name": "affaan-m/ECC",
-      "readme_sha": "455df701816815dc3536110e72f5b1d7f7fa48ef",
-      "classified_on": "2026-07-29",
+      "readme_sha": "76cb52e0d5f5abc54ff1e6e7d947b5cd8ff431b9",
+      "classified_on": "2026-08-22",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Agent harness framework enhancing AI code assistant performance, planning, memory, and security.",
-      "rationale": "Explicitly designed as an optimization framework for AI code agents (Claude, Cursor, Codex). Provides specialized agent workflows, memory persistence, skills, and coordinated engineering processes across multiple AI harnesses."
+      "summary": "Agent harness framework optimizing skills, memory, and security for Claude and other AI assistants.",
+      "rationale": "Explicitly designed as performance optimization system for AI agents with direct Claude integration and LLM support."
     },
     "1232995828": {
       "repository_id": 1232995828,
@@ -1684,7 +1684,7 @@
       "repository_id": 1248194723,
       "full_name": "AprilNEA/OpenLogi",
       "readme_sha": "fcba07cde4fcfbe1a1f0d077a98c4c3770553d68",
-      "classified_on": "2026-08-21",
+      "classified_on": "2026-08-22",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Native local-first alternative to Logitech Options+ for mouse and keyboard configuration.",
@@ -1699,6 +1699,76 @@
       "project_type": "Framework",
       "summary": "High-density runtime environment for deploying and managing stateful AI agents at scale.",
       "rationale": "Infrastructure framework explicitly designed for agent workloads. Provides lifecycle management, suspend/resume, state persistence, and multiplexing optimized for agentic applications."
+    },
+    "1117327913": {
+      "repository_id": 1117327913,
+      "full_name": "mahlernim/google-timeline-visualizer",
+      "readme_sha": "e8c0b5744d5cac55481112c943b33aa7a6cf7f49",
+      "classified_on": "2026-08-22",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Android and web application creating animated travel videos from Google Location History data.",
+      "rationale": "Data visualization tool for location history without AI components or features."
+    },
+    "20929025": {
+      "repository_id": 20929025,
+      "full_name": "microsoft/TypeScript",
+      "readme_sha": "b6505f7362b6377112c4c1251194a6506f5efd97",
+      "classified_on": "2026-08-22",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Language and type-checker adding static typing capabilities to JavaScript for large applications.",
+      "rationale": "General-purpose programming language without AI focus or material AI-related components."
+    },
+    "9852918": {
+      "repository_id": 9852918,
+      "full_name": "TryGhost/Ghost",
+      "readme_sha": "33e451f4f072bac244a61839bb6c414184c50176",
+      "classified_on": "2026-08-22",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Open-source CMS platform for publishing, memberships, newsletters, and content subscriptions.",
+      "rationale": "General-purpose publishing platform. AI is not material to its primary product, which is content management and publishing infrastructure."
+    },
+    "995029641": {
+      "repository_id": 995029641,
+      "full_name": "ruvnet/ruflo",
+      "readme_sha": "92c8620461d17032a87d7c5c395e60fb27e6aafe",
+      "classified_on": "2026-08-22",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Agent meta-harness for orchestrating autonomous AI workflows, swarms, and conversational systems.",
+      "rationale": "AI is core to the product. Explicit agent orchestration framework for Claude Code/Codex featuring multi-agent coordination, self-learning memory, RAG integration, and swarm intelligence."
+    },
+    "1251460378": {
+      "repository_id": 1251460378,
+      "full_name": "apache/maka",
+      "readme_sha": "e91e4d47ea8caa8843f94fee32eae574434281cb",
+      "classified_on": "2026-08-22",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Local-first AI agent workspace with event logging, tool execution, and runtime control.",
+      "rationale": "AI agent runtime is the primary product. Manages model connections, tool execution, permission policies, and agentic workflows with event-sourced execution recovery."
+    },
+    "23357588": {
+      "repository_id": 23357588,
+      "full_name": "protocolbuffers/protobuf",
+      "readme_sha": "40e88ba96f212f829644caa634ecf7c1684afb1c",
+      "classified_on": "2026-08-22",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "Language-neutral, platform-neutral data serialization format and protocol compiler infrastructure.",
+      "rationale": "General-purpose data serialization technology; not organized around AI. AI applications may use it, but it is not AI-specific infrastructure."
+    },
+    "1171949255": {
+      "repository_id": 1171949255,
+      "full_name": "elder-plinius/OBLITERATUS",
+      "readme_sha": "84d20c5c5fb583078ed0700cd3496ea88eaae515",
+      "classified_on": "2026-08-22",
+      "ai_related": true,
+      "project_type": "Research",
+      "summary": "Toolkit for analyzing and removing refusal mechanisms from large language model weights.",
+      "rationale": "AI safety/alignment research focused on mechanistic interpretability. Implements abliteration techniques to probe and surgically modify LLM safety representations; contributions to crowd-sourced safety research."
     }
   }
 }

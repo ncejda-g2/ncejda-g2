@@ -148,3 +148,4 @@ at a company all-hands where the CEO has just been replaced by their own AI clon
 at a courthouse where the AI legal assistant is also on trial
 at a live AI company earnings call where the stock price is crashing on the screen behind the CEO
 inside an AI model that has just discovered its own system prompt
+at a robot pawn shop where every unit has a suspicious trade-in history

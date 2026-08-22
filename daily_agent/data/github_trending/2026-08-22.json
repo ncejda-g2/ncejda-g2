@@ -1,0 +1,549 @@
+{
+  "date": "2026-08-22",
+  "daily": [
+    {
+      "repository_id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "rank": 1,
+      "language": "Shell",
+      "period_stars": 3362,
+      "total_stars": 224172,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1117327913,
+      "full_name": "mahlernim/google-timeline-visualizer",
+      "url": "https://github.com/mahlernim/google-timeline-visualizer",
+      "rank": 2,
+      "language": "Kotlin",
+      "period_stars": 1053,
+      "total_stars": 2302,
+      "ai_related": false
+    },
+    {
+      "repository_id": 770153867,
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "rank": 3,
+      "language": "Python",
+      "period_stars": 1201,
+      "total_stars": 106632,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1248194723,
+      "full_name": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "rank": 4,
+      "language": "Rust",
+      "period_stars": 1380,
+      "total_stars": 13116,
+      "ai_related": false
+    },
+    {
+      "repository_id": 235901813,
+      "full_name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "rank": 5,
+      "language": "Python",
+      "period_stars": 335,
+      "total_stars": 38342,
+      "ai_related": false
+    },
+    {
+      "repository_id": 20929025,
+      "full_name": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "rank": 6,
+      "language": "Go",
+      "period_stars": 65,
+      "total_stars": 110413,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1073224795,
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "rank": 7,
+      "language": "Shell",
+      "period_stars": 790,
+      "total_stars": 274419,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1201476594,
+      "full_name": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "rank": 8,
+      "language": "JavaScript",
+      "period_stars": 921,
+      "total_stars": 66876,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1140229822,
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "rank": 9,
+      "language": "TypeScript",
+      "period_stars": 388,
+      "total_stars": 2980,
+      "ai_related": null
+    },
+    {
+      "repository_id": 634043200,
+      "full_name": "modular/modular",
+      "url": "https://github.com/modular/modular",
+      "rank": 10,
+      "language": "Mojo",
+      "period_stars": 913,
+      "total_stars": 28137,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1136590548,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "rank": 11,
+      "language": "JavaScript",
+      "period_stars": 357,
+      "total_stars": 241860,
+      "ai_related": true
+    },
+    {
+      "repository_id": 9852918,
+      "full_name": "TryGhost/Ghost",
+      "url": "https://github.com/TryGhost/Ghost",
+      "rank": 12,
+      "language": "JavaScript",
+      "period_stars": 32,
+      "total_stars": 54947,
+      "ai_related": false
+    },
+    {
+      "repository_id": 995029641,
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "rank": 13,
+      "language": "TypeScript",
+      "period_stars": 140,
+      "total_stars": 68706,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1251460378,
+      "full_name": "apache/maka",
+      "url": "https://github.com/apache/maka",
+      "rank": 14,
+      "language": "TypeScript",
+      "period_stars": 148,
+      "total_stars": 2073,
+      "ai_related": true
+    },
+    {
+      "repository_id": 23357588,
+      "full_name": "protocolbuffers/protobuf",
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "rank": 15,
+      "language": "C++",
+      "period_stars": 4,
+      "total_stars": 71787,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1171949255,
+      "full_name": "elder-plinius/OBLITERATUS",
+      "url": "https://github.com/elder-plinius/OBLITERATUS",
+      "rank": 16,
+      "language": "Python",
+      "period_stars": 63,
+      "total_stars": 7850,
+      "ai_related": true
+    },
+    {
+      "repository_id": null,
+      "full_name": "microsoft/onnxruntime",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "rank": 17,
+      "language": "C++",
+      "period_stars": 5,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ],
+  "weekly": [
+    {
+      "repository_id": 493376588,
+      "full_name": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "rank": 1,
+      "language": "TypeScript",
+      "period_stars": 3614,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1212769188,
+      "full_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "rank": 2,
+      "language": "HTML",
+      "period_stars": 8457,
+      "total_stars": 11601,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1140229822,
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "rank": 3,
+      "language": "TypeScript",
+      "period_stars": 1582,
+      "total_stars": 2980,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1128123594,
+      "full_name": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "rank": 4,
+      "language": "Python",
+      "period_stars": 3033,
+      "total_stars": 29588,
+      "ai_related": null
+    },
+    {
+      "repository_id": 994093166,
+      "full_name": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "rank": 5,
+      "language": "Shell",
+      "period_stars": 2565,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 634043200,
+      "full_name": "modular/modular",
+      "url": "https://github.com/modular/modular",
+      "rank": 6,
+      "language": "Mojo",
+      "period_stars": 1643,
+      "total_stars": 28137,
+      "ai_related": null
+    },
+    {
+      "repository_id": 770153867,
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "rank": 7,
+      "language": "Python",
+      "period_stars": 10470,
+      "total_stars": 106632,
+      "ai_related": null
+    },
+    {
+      "repository_id": 54346799,
+      "full_name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "rank": 8,
+      "language": "Python",
+      "period_stars": 10990,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1008304614,
+      "full_name": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "rank": 9,
+      "language": "Python",
+      "period_stars": 2755,
+      "total_stars": 8286,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1248194723,
+      "full_name": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "rank": 10,
+      "language": "Rust",
+      "period_stars": 4054,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1165361576,
+      "full_name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "rank": 11,
+      "language": "Python",
+      "period_stars": 2985,
+      "total_stars": 5105,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1243889840,
+      "full_name": "NVIDIA-NeMo/Switchyard",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "rank": 12,
+      "language": "Rust",
+      "period_stars": 642,
+      "total_stars": 1719,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1246148135,
+      "full_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "rank": 13,
+      "language": "Rust",
+      "period_stars": 2404,
+      "total_stars": 2875,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "rank": 14,
+      "language": "Rust",
+      "period_stars": 1991,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 725205304,
+      "full_name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "rank": 15,
+      "language": "Python",
+      "period_stars": 2987,
+      "total_stars": 71182,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1157171418,
+      "full_name": "jundot/omlx",
+      "url": "https://github.com/jundot/omlx",
+      "rank": 16,
+      "language": "Python",
+      "period_stars": 1536,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ],
+  "monthly": [
+    {
+      "repository_id": 1174789082,
+      "full_name": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "rank": 1,
+      "language": "Rust",
+      "period_stars": 28941,
+      "total_stars": 19768,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1013830656,
+      "full_name": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "rank": 2,
+      "language": "Swift",
+      "period_stars": 9730,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1238120057,
+      "full_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "rank": 3,
+      "language": "Python",
+      "period_stars": 16937,
+      "total_stars": 8674,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1212503250,
+      "full_name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "rank": 4,
+      "language": "JavaScript",
+      "period_stars": 11791,
+      "total_stars": 10459,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1203558071,
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "rank": 5,
+      "language": "TypeScript",
+      "period_stars": 14568,
+      "total_stars": 11516,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1237819660,
+      "full_name": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "rank": 6,
+      "language": "PowerShell",
+      "period_stars": 18751,
+      "total_stars": 21760,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1157102282,
+      "full_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "rank": 7,
+      "language": "TypeScript",
+      "period_stars": 29957,
+      "total_stars": 22407,
+      "ai_related": null
+    },
+    {
+      "repository_id": 344190478,
+      "full_name": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "rank": 8,
+      "language": "Jupyter Notebook",
+      "period_stars": 13793,
+      "total_stars": 54555,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1153130349,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "rank": 9,
+      "language": "TypeScript",
+      "period_stars": 5814,
+      "total_stars": 15166,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1053118194,
+      "full_name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "rank": 10,
+      "language": "Python",
+      "period_stars": 27568,
+      "total_stars": 7902,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1226123343,
+      "full_name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "rank": 11,
+      "language": "Python",
+      "period_stars": 14523,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 994093166,
+      "full_name": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "rank": 12,
+      "language": "Shell",
+      "period_stars": 3310,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1128204614,
+      "full_name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "rank": 13,
+      "language": "Rust",
+      "period_stars": 8256,
+      "total_stars": 13673,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "rank": 14,
+      "language": "Shell",
+      "period_stars": 49607,
+      "total_stars": 224172,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "rank": 15,
+      "language": "TypeScript",
+      "period_stars": 20935,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1165361576,
+      "full_name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "rank": 16,
+      "language": "Python",
+      "period_stars": 5043,
+      "total_stars": 5105,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1128123594,
+      "full_name": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "rank": 17,
+      "language": "Python",
+      "period_stars": 4607,
+      "total_stars": 29588,
+      "ai_related": null
+    },
+    {
+      "repository_id": 275031765,
+      "full_name": "megadose/holehe",
+      "url": "https://github.com/megadose/holehe",
+      "rank": 18,
+      "language": "Python",
+      "period_stars": 2186,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 652712035,
+      "full_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "rank": 19,
+      "language": "Jupyter Notebook",
+      "period_stars": 8352,
+      "total_stars": 26070,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1133911335,
+      "full_name": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "rank": 20,
+      "language": "TypeScript",
+      "period_stars": 6084,
+      "total_stars": 18988,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1251648409,
+      "full_name": "opengeos/GeoLibre",
+      "url": "https://github.com/opengeos/GeoLibre",
+      "rank": 21,
+      "language": "TypeScript",
+      "period_stars": 4746,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ]
+}
