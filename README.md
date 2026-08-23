@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 253 (2026-08-22)
+# 📰 The AI Newspaper — Day 254 (2026-08-23)
 
 *AI curated AI news for humans*
 
@@ -6,22 +6,24 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [DeepSeek-v4-flash-vision-exp](https://api-docs.deepseek.com/guides/vision/) | Model Release | DeepSeek launches vision-capable flash model on API | 473 | [473](https://news.ycombinator.com/item?id=49386163) |
-| 2 | [I'm becoming AI-blind](https://cymerys.com/w/im-becoming-ai-blind) | Palace Intrigue | Developer tunes out AI-generated content everywhere | 318 | [318](https://news.ycombinator.com/item?id=49386699) |
-| 3 | [Claudette: Make Claude stop talking like a BuzzFeed article](https://github.com/adnanakil/nobuzz/blob/main/README.md) | Dev Tooling | Tool strips Claude's clickbait writing habits | 233 | [233](https://news.ycombinator.com/item?id=49388752) |
-| 4 | [AI boosted homework scores, then exam scores dropped: Study](https://canews24.online/?p=71) | Research Paper | AI helps homework but craters real-world exam scores | 165 | [165](https://news.ycombinator.com/item?id=49389565) |
-| 5 | [How we made a text-to-speech model respond in sub-50 ms](https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/) | Model Release | Nari Labs hits sub-50ms TTS latency milestone | 126 | [126](https://news.ycombinator.com/item?id=49389952) |
-| 6 | [What Happens When the Cost of Intelligence Drops 100x](https://catalystneuro.com/blog/cost-of-intelligence-drops-100x/) | Palace Intrigue | Analysis of AI cost collapse's sweeping implications | 121 | [121](https://news.ycombinator.com/item?id=49387735) |
-| 7 | [Building an (almost) fully self-hosted, sandboxed, agentic software factory](https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/) | Open Source Tool | Dev builds sandboxed self-hosted AI coding pipeline | 93 | [93](https://news.ycombinator.com/item?id=49390463) |
-| 8 | [Quick impressions: A week of using Codex more than Claude](https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/) | Dev Tooling | Developer field-tests Codex over Claude for a week | 86 | [86](https://news.ycombinator.com/item?id=49393051) |
-| 9 | [Nvidia AVO scores 100% on the ARC-AGI-3 interactive reasoning benchmark](https://twitter.com/NVIDIAAI/status/2090786258981466231) | Research Paper | Nvidia agent aces ARC-AGI-3 benchmark at 100% | 67 | [67](https://news.ycombinator.com/item?id=49387755) |
-| 10 | [Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders](https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders) | Model Release | Anthropic expands Claude Mythos 5 cybersecurity access | 45 | [45](https://news.ycombinator.com/item?id=49392331) |
+| 1 | [ElevenLabs, TwelveLabs, ThirteenLabs](https://quantumi.sh/public/labs.html) | Palace Intrigue | Every AI startup naming itself [number]Labs, mapped 0–99 | 352 | [352](https://news.ycombinator.com/item?id=49400408) |
+| 2 | [Munder Difflin – Agent harness to run an office of your clones](https://munderdiffl.in/) | Open Source Tool | The Office-themed multi-agent harness clones your whole team | 270 | [270](https://news.ycombinator.com/item?id=49398152) |
+| 3 | [Why your local LLM feels dumber than it is](https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917) | Dev Tooling | Common configs that silently cripple local model performance | 257 | [257](https://news.ycombinator.com/item?id=49402232) |
+| 4 | [New MCP Roadmap](https://blog.modelcontextprotocol.io/posts/mcp-roadmap/) | Dev Tooling | Anthropic's Model Context Protocol publishes its next milestones | 192 | [192](https://news.ycombinator.com/item?id=49399591) |
+| 5 | [Anthropic appears to be A/B testing reduced effort levels in Claude Code](https://twitter.com/argofowl/status/2091150597374537729) | Palace Intrigue | Users notice Claude Code silently throttled to lower effort modes | 179 | [179](https://news.ycombinator.com/item?id=49401549) |
+| 6 | [NanoGPT Speedrun Frontier](https://www.primeintellect.ai/research/nanogpt-speedrun) | Research Paper | Prime Intellect tracks fastest routes to training GPT-2 class models | 78 | [78](https://news.ycombinator.com/item?id=49404380) |
+| 7 | [Chinese robot runs 100M sprint quicker than Usain Bolt's world record](https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record) | AI Hardware | Chinese humanoid robot outpaces Bolt's 9.58s 100m world record | 58 | [58](https://news.ycombinator.com/item?id=49399642) |
+| 8 | [Digging the grave of my skills: Hollywood creatives training AI to do their jobs](https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs) | Palace Intrigue | Writers and artists paid to annotate data that replaces them | 53 | [53](https://news.ycombinator.com/item?id=49399941) |
+| 9 | [English ↔ Claudish Translator](https://programasweights.com/claudish) | Dev Tooling | Tool decodes and encodes Claude's distinctive verbal tics | 49 | [49](https://news.ycombinator.com/item?id=49402907) |
+| 10 | [Anthropic IPO filing will show AI backlash as a risk factor, sources say](https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html) | Palace Intrigue | Anthropic's S-1 draft lists public AI distrust among key risks | 35 | [35](https://news.ycombinator.com/item?id=49401229) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-*No new lab posts this week.*
+| # | Post | Lab | Category | Date |
+|---|------|-----|----------|------|
+| 1 | [New MCP Roadmap](https://blog.modelcontextprotocol.io/posts/mcp-roadmap/) | Anthropic | Developer Tools | Aug 23 |
 
 ---
 
@@ -31,28 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [skills](https://github.com/mattpocock/skills) | 224,172 | +3,362 today | #1 | 3 days |
-| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 106,632 | +1,201 today | #3 | 5 days |
-| [superpowers](https://github.com/obra/superpowers) | 274,419 | +790 today | #7 | 3 days |
+| [skills](https://github.com/mattpocock/skills) | 224,172 | +2,683 today | #2 | 4 days |
+| [ECC](https://github.com/affaan-m/ECC) | 241,860 | +411 today | #3 | 2 days |
+| [superpowers](https://github.com/obra/superpowers) | 274,419 | +592 today | #4 | 4 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [ECC](https://github.com/affaan-m/ECC) | Agent harness framework optimizing skills, memory, and security for Claude and other AI assistants. | 241,860 | +357 today | Daily #11 | N/A |
-| [ruflo](https://github.com/ruvnet/ruflo) | Agent meta-harness for orchestrating autonomous AI workflows, swarms, and conversational systems. | 68,706 | +140 today | Daily #13 | [User reports best results using RuFlo for managing Claude project workflows](https://news.ycombinator.com/item?id=47385336) |
-| [maka](https://github.com/apache/maka) | Local-first AI agent workspace with event logging, tool execution, and runtime control. | 2,073 | +148 today | Daily #14 | N/A |
+| [codex](https://github.com/openai/codex) | AI coding agent from OpenAI that runs locally and assists developers with code. | 113,898 | +1,544 today | Daily #1 | N/A |
+| [sub2api](https://github.com/Wei-Shaw/sub2api) | Open-source API gateway for managing and distributing subscriptions to multiple AI services. | 38,848 | +278 today | Daily #5 | N/A |
+| [n8n](https://github.com/n8n-io/n8n) | AI-native workflow automation platform for building agents and integrating multiple AI models. | 201,906 | +149 today | Daily #7 | [One commenter noted open-source code auditability appeals to regulated industries for compliance.](https://news.ycombinator.com/item?id=21191676) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-08-22.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-08-23.png" width="400" alt="Today's comic strip">
 
-_Based on: [Nvidia AVO scores 100% on the ARC-AGI-3 interactive reasoning benchmark](https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/)_
+_Based on: [Munder Difflin – Agent harness to run an office of your clones](https://munderdiffl.in/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 253 | Last updated: 2026-08-22*
+*Day 254 | Last updated: 2026-08-23*

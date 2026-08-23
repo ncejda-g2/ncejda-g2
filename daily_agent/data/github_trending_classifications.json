@@ -1769,6 +1769,56 @@
       "project_type": "Research",
       "summary": "Toolkit for analyzing and removing refusal mechanisms from large language model weights.",
       "rationale": "AI safety/alignment research focused on mechanistic interpretability. Implements abliteration techniques to probe and surgically modify LLM safety representations; contributions to crowd-sourced safety research."
+    },
+    "965415649": {
+      "repository_id": 965415649,
+      "full_name": "openai/codex",
+      "readme_sha": "06b02fced7db972084bf0188cb03f60375b51c1c",
+      "classified_on": "2026-08-23",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "AI coding agent from OpenAI that runs locally and assists developers with code.",
+      "rationale": "Purpose-built AI coding agent designed for autonomous code assistance and task automation."
+    },
+    "1118601518": {
+      "repository_id": 1118601518,
+      "full_name": "Wei-Shaw/sub2api",
+      "readme_sha": "127653ce82865e650fe8ce825aa4c32d1a9eed0f",
+      "classified_on": "2026-08-23",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Open-source API gateway for managing and distributing subscriptions to multiple AI services.",
+      "rationale": "Infrastructure platform specifically organized around unified access to AI model APIs and cost sharing."
+    },
+    "568098118": {
+      "repository_id": 568098118,
+      "full_name": "makeplane/plane",
+      "readme_sha": "fb425f6bda66bf4204abd625c51f1dae6214d376",
+      "classified_on": "2026-08-23",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Open-source project management platform alternative to Jira, Linear, and ClickUp for teams.",
+      "rationale": "General project management tool with supplementary AI features; AI is not material to primary purpose."
+    },
+    "193215554": {
+      "repository_id": 193215554,
+      "full_name": "n8n-io/n8n",
+      "readme_sha": "21909fae00cbad4f18af84d2948752445051a915",
+      "classified_on": "2026-08-23",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "AI-native workflow automation platform for building agents and integrating multiple AI models.",
+      "rationale": "Platform explicitly designed around AI agents and workflows as its primary organizing principle."
+    },
+    "937253475": {
+      "repository_id": 937253475,
+      "full_name": "anthropics/claude-code",
+      "readme_sha": "80aa75edf74a5f9e1269811b4e8b5852be91e66e",
+      "classified_on": "2026-08-23",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Terminal-based AI coding agent that assists developers with code tasks through natural language.",
+      "rationale": "Purpose-built agentic coding tool from Anthropic for autonomous code assistance and git workflows."
     }
   }
 }

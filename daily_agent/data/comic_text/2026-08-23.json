@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-08-23",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_caption": "hiring a second employee to handle overflow work",
+    "panel2_caption": "using one AI agent to automate repetitive tasks",
+    "panel3_caption": "running AI clones of every teammate 24/7 on Claude and Grok",
+    "panel4_caption": "a GOD orchestrator routing tasks between encrypted clones of your entire office"
+  },
+  "narrative_summary": "The joke escalates from mundane hiring to Munder Difflin's actual product \u2014 a 'GOD orchestrator' managing encrypted AI clones of every employee \u2014 as the peak of galaxy-brained over-engineering.",
+  "rationale": "Candidate 4 earns its escalation by grounding each panel in real product details \u2014 actual model names, the 'GOD orchestrator' branding, encrypted clones \u2014 so the galaxy-brain peak feels earned rather than exaggerated, and the template is a perfect structural match for a joke whose entire logic is 'this keeps getting more unhinged.' The trade-offer candidates all flatten the same irony into a single beat; the expanding-brain format lets the absurdity compound, which is where the laugh actually lives.",
+  "image_filename": "comic_2026-08-23.png",
+  "story_title": "Munder Difflin \u2013 Agent harness to run an office of your clones",
+  "story_url": "https://munderdiffl.in/",
+  "place": "in a courtroom where the AI judge keeps citing hallucinated laws",
+  "hat_pair": [
+    "hockey goalie mask painted to look like a shocked emoji face",
+    "full-face motorcycle helmet with googly eyes stuck on"
+  ],
+  "no_news_mode": false
+}

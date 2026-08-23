@@ -692,6 +692,27 @@
       "url": "https://github.com/apache/maka",
       "total_stars": 2073,
       "last_full_featured": "2026-08-22"
+    },
+    "965415649": {
+      "repository_id": 965415649,
+      "full_name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "total_stars": 113898,
+      "last_full_featured": "2026-08-23"
+    },
+    "1118601518": {
+      "repository_id": 1118601518,
+      "full_name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "total_stars": 38848,
+      "last_full_featured": "2026-08-23"
+    },
+    "193215554": {
+      "repository_id": 193215554,
+      "full_name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "total_stars": 201906,
+      "last_full_featured": "2026-08-23"
     }
   }
 }
