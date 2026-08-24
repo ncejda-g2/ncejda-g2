@@ -1,0 +1,489 @@
+{
+  "date": "2026-08-24",
+  "daily": [
+    {
+      "repository_id": 965415649,
+      "full_name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "rank": 1,
+      "language": "Rust",
+      "period_stars": 2715,
+      "total_stars": 113898,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1220744720,
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "rank": 2,
+      "language": "JavaScript",
+      "period_stars": 401,
+      "total_stars": 13664,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "rank": 3,
+      "language": "Shell",
+      "period_stars": 2447,
+      "total_stars": 224172,
+      "ai_related": null
+    },
+    {
+      "repository_id": 994093166,
+      "full_name": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "rank": 4,
+      "language": "Shell",
+      "period_stars": 750,
+      "total_stars": 29361,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1248194723,
+      "full_name": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "rank": 5,
+      "language": "Rust",
+      "period_stars": 1009,
+      "total_stars": 15157,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1174789082,
+      "full_name": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "rank": 6,
+      "language": "Rust",
+      "period_stars": 410,
+      "total_stars": 30222,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1251460378,
+      "full_name": "apache/maka",
+      "url": "https://github.com/apache/maka",
+      "rank": 7,
+      "language": "TypeScript",
+      "period_stars": 51,
+      "total_stars": 2073,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1144520675,
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "rank": 8,
+      "language": "Python",
+      "period_stars": 1081,
+      "total_stars": 48145,
+      "ai_related": true
+    },
+    {
+      "repository_id": null,
+      "full_name": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "rank": 9,
+      "language": "Rust",
+      "period_stars": 39,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1136590548,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "rank": 10,
+      "language": "JavaScript",
+      "period_stars": 427,
+      "total_stars": 241860,
+      "ai_related": null
+    },
+    {
+      "repository_id": 995029641,
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "rank": 11,
+      "language": "TypeScript",
+      "period_stars": 131,
+      "total_stars": 68706,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "VoltAgent/awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "rank": 12,
+      "language": "",
+      "period_stars": 156,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1226123343,
+      "full_name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "rank": 13,
+      "language": "Python",
+      "period_stars": 417,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "rank": 14,
+      "language": "Rust",
+      "period_stars": 78,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "anthropics/claude-plugins-community",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "rank": 15,
+      "language": "Python",
+      "period_stars": 225,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "ripienaar/free-for-dev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "rank": 16,
+      "language": "HTML",
+      "period_stars": 615,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "rank": 17,
+      "language": "Python",
+      "period_stars": 201,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "rank": 18,
+      "language": "Python",
+      "period_stars": 454,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ],
+  "weekly": [
+    {
+      "repository_id": 634043200,
+      "full_name": "modular/modular",
+      "url": "https://github.com/modular/modular",
+      "rank": 1,
+      "language": "Mojo",
+      "period_stars": 2176,
+      "total_stars": 28137,
+      "ai_related": null
+    },
+    {
+      "repository_id": 770153867,
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "rank": 2,
+      "language": "Python",
+      "period_stars": 11167,
+      "total_stars": 106632,
+      "ai_related": null
+    },
+    {
+      "repository_id": 994093166,
+      "full_name": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "rank": 3,
+      "language": "Shell",
+      "period_stars": 3660,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1248194723,
+      "full_name": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "rank": 4,
+      "language": "Rust",
+      "period_stars": 6078,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 493376588,
+      "full_name": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "rank": 5,
+      "language": "TypeScript",
+      "period_stars": 2725,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1128123594,
+      "full_name": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "rank": 6,
+      "language": "Python",
+      "period_stars": 3799,
+      "total_stars": 29588,
+      "ai_related": null
+    },
+    {
+      "repository_id": 54346799,
+      "full_name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "rank": 7,
+      "language": "Python",
+      "period_stars": 8295,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1157171418,
+      "full_name": "jundot/omlx",
+      "url": "https://github.com/jundot/omlx",
+      "rank": 8,
+      "language": "Python",
+      "period_stars": 1671,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "anthropics/claude-plugins-community",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "rank": 9,
+      "language": "Python",
+      "period_stars": 406,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1140229822,
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "rank": 10,
+      "language": "TypeScript",
+      "period_stars": 1761,
+      "total_stars": 2980,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1251460378,
+      "full_name": "apache/maka",
+      "url": "https://github.com/apache/maka",
+      "rank": 11,
+      "language": "TypeScript",
+      "period_stars": 859,
+      "total_stars": 2073,
+      "ai_related": null
+    }
+  ],
+  "monthly": [
+    {
+      "repository_id": 1174789082,
+      "full_name": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "rank": 1,
+      "language": "Rust",
+      "period_stars": 24429,
+      "total_stars": 19768,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1203558071,
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "rank": 2,
+      "language": "TypeScript",
+      "period_stars": 14878,
+      "total_stars": 11516,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1238120057,
+      "full_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "rank": 3,
+      "language": "Python",
+      "period_stars": 14450,
+      "total_stars": 8674,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1237819660,
+      "full_name": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "rank": 4,
+      "language": "PowerShell",
+      "period_stars": 19063,
+      "total_stars": 21760,
+      "ai_related": null
+    },
+    {
+      "repository_id": 994093166,
+      "full_name": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "rank": 5,
+      "language": "Shell",
+      "period_stars": 4850,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 344190478,
+      "full_name": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "rank": 6,
+      "language": "Jupyter Notebook",
+      "period_stars": 13993,
+      "total_stars": 54555,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1157102282,
+      "full_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "rank": 7,
+      "language": "TypeScript",
+      "period_stars": 27573,
+      "total_stars": 22407,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1226123343,
+      "full_name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "rank": 8,
+      "language": "Python",
+      "period_stars": 15086,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1153130349,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "rank": 9,
+      "language": "TypeScript",
+      "period_stars": 5876,
+      "total_stars": 15166,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1212503250,
+      "full_name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "rank": 10,
+      "language": "JavaScript",
+      "period_stars": 11598,
+      "total_stars": 10459,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1053118194,
+      "full_name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "rank": 11,
+      "language": "Python",
+      "period_stars": 23452,
+      "total_stars": 7902,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1165361576,
+      "full_name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "rank": 12,
+      "language": "Python",
+      "period_stars": 5464,
+      "total_stars": 5105,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1128123594,
+      "full_name": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "rank": 13,
+      "language": "Python",
+      "period_stars": 5332,
+      "total_stars": 29588,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "rank": 14,
+      "language": "Shell",
+      "period_stars": 50629,
+      "total_stars": 224172,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1128204614,
+      "full_name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "rank": 15,
+      "language": "Rust",
+      "period_stars": 7570,
+      "total_stars": 13673,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "rank": 16,
+      "language": "TypeScript",
+      "period_stars": 20046,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 275031765,
+      "full_name": "megadose/holehe",
+      "url": "https://github.com/megadose/holehe",
+      "rank": 17,
+      "language": "Python",
+      "period_stars": 2328,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 634043200,
+      "full_name": "modular/modular",
+      "url": "https://github.com/modular/modular",
+      "rank": 18,
+      "language": "Mojo",
+      "period_stars": 2426,
+      "total_stars": 28137,
+      "ai_related": null
+    },
+    {
+      "repository_id": 652712035,
+      "full_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "rank": 19,
+      "language": "Jupyter Notebook",
+      "period_stars": 8428,
+      "total_stars": 26070,
+      "ai_related": null
+    }
+  ]
+}

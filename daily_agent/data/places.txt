@@ -150,3 +150,4 @@ at a live AI company earnings call where the stock price is crashing on the scre
 inside an AI model that has just discovered its own system prompt
 at a robot pawn shop where every unit has a suspicious trade-in history
 inside an AI model's evaluation suite being scored by a rival AI
+at a retirement party for a deprecated API that nobody told it was happening

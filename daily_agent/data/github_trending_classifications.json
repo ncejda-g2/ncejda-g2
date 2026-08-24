@@ -443,12 +443,12 @@
     "1174789082": {
       "repository_id": 1174789082,
       "full_name": "block/buzz",
-      "readme_sha": "a049e870720b5f5e5981edaf03eaa3cc48e1f509",
-      "classified_on": "2026-08-01",
+      "readme_sha": "56439f00bc1565ce7aca273a886eecdc12df5c1d",
+      "classified_on": "2026-08-24",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Self-hosted workspace where humans and AI agents collaborate with shared event log.",
-      "rationale": "AI is central to product design—agents are first-class workspace members with full capabilities including code review, patch submission, workflow execution, and channel management alongside humans."
+      "summary": "Self-hostable workspace platform where humans and AI agents collaborate in shared rooms and channels.",
+      "rationale": "Platform explicitly designed with AI agents as first-class members; agent collaboration and integration is the organizing subject, not an ancillary feature."
     },
     "834966974": {
       "repository_id": 834966974,
@@ -1574,11 +1574,11 @@
       "repository_id": 994093166,
       "full_name": "basecamp/omarchy",
       "readme_sha": "c7e541a2d59ce796e48daa38bd9d74f2cc55705d",
-      "classified_on": "2026-08-17",
+      "classified_on": "2026-08-24",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "A beautiful, modern, and opinionated Linux distribution by DHH with integrated development tools.",
-      "rationale": "Core product is a general-purpose Linux distribution. Single AI section in manual does not qualify; guidelines exclude general-purpose systems with incidental AI topics."
+      "summary": "A beautiful, modern, and opinionated Linux distribution with comprehensive documentation and configuration.",
+      "rationale": "General-purpose Linux OS; AI documentation section does not make the OS itself AI-organized. Per rules, general-purpose collection does not qualify merely because it includes AI entries."
     },
     "770153867": {
       "repository_id": 770153867,
@@ -1683,12 +1683,12 @@
     "1248194723": {
       "repository_id": 1248194723,
       "full_name": "AprilNEA/OpenLogi",
-      "readme_sha": "fcba07cde4fcfbe1a1f0d077a98c4c3770553d68",
-      "classified_on": "2026-08-22",
+      "readme_sha": "8feee7df5151e1f9378c43f0907a2959f8867c0b",
+      "classified_on": "2026-08-24",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Native local-first alternative to Logitech Options+ for mouse and keyboard configuration.",
-      "rationale": "Device configuration utility with no AI components. Provides hardware control (button remapping, DPI, gestures) via traditional non-AI mechanisms."
+      "summary": "Local-first Rust alternative to Logitech Options+ for remapping mouse and keyboard buttons.",
+      "rationale": "Hardware input remapping utility with no AI component; tools for device configuration do not qualify based on AI involvement."
     },
     "1238047523": {
       "repository_id": 1238047523,
@@ -1819,6 +1819,26 @@
       "project_type": "CLI",
       "summary": "Terminal-based AI coding agent that assists developers with code tasks through natural language.",
       "rationale": "Purpose-built agentic coding tool from Anthropic for autonomous code assistance and git workflows."
+    },
+    "1220744720": {
+      "repository_id": 1220744720,
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "readme_sha": "ec1a6caddeae8c3ece0a2f2a55e46b6729def411",
+      "classified_on": "2026-08-24",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Industrial prompt templates and 500+ reverse-engineered examples for GPT Image 2 image generation.",
+      "rationale": "Curated collection explicitly organized around AI image generation; core content is prompt engineering cases and templates for AI systems."
+    },
+    "1144520675": {
+      "repository_id": 1144520675,
+      "full_name": "Alishahryar1/free-claude-code",
+      "readme_sha": "2ed0dd096ad49428802cc1565b6976c3ed666e0b",
+      "classified_on": "2026-08-24",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Unified CLI and desktop interface to access multiple free AI coding agents and models across providers.",
+      "rationale": "Application built for unified access to AI coding agents; provides integration layer for Claude Code, Codex, and related AI systems; core product is AI model access and orchestration."
     }
   }
 }

@@ -193,8 +193,8 @@
       "repository_id": 1174789082,
       "full_name": "block/buzz",
       "url": "https://github.com/block/buzz",
-      "total_stars": 19768,
-      "last_full_featured": "2026-08-01"
+      "total_stars": 30222,
+      "last_full_featured": "2026-08-24"
     },
     "1212503250": {
       "repository_id": 1212503250,
@@ -713,6 +713,20 @@
       "url": "https://github.com/n8n-io/n8n",
       "total_stars": 201906,
       "last_full_featured": "2026-08-23"
+    },
+    "1220744720": {
+      "repository_id": 1220744720,
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "total_stars": 13664,
+      "last_full_featured": "2026-08-24"
+    },
+    "1144520675": {
+      "repository_id": 1144520675,
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "total_stars": 48145,
+      "last_full_featured": "2026-08-24"
     }
   }
 }
