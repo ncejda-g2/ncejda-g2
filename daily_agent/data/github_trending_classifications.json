@@ -1794,7 +1794,7 @@
       "repository_id": 568098118,
       "full_name": "makeplane/plane",
       "readme_sha": "fb425f6bda66bf4204abd625c51f1dae6214d376",
-      "classified_on": "2026-08-23",
+      "classified_on": "2026-08-25",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open-source project management platform alternative to Jira, Linear, and ClickUp for teams.",
@@ -1839,6 +1839,46 @@
       "project_type": "Application",
       "summary": "Unified CLI and desktop interface to access multiple free AI coding agents and models across providers.",
       "rationale": "Application built for unified access to AI coding agents; provides integration layer for Claude Code, Codex, and related AI systems; core product is AI model access and orchestration."
+    },
+    "1185389803": {
+      "repository_id": 1185389803,
+      "full_name": "MadsLorentzen/ai-job-search",
+      "readme_sha": "c1dbd62e0242b60fc640a580fc52b12af6ea7bad",
+      "classified_on": "2026-08-25",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI-powered job search framework using Claude Code for automated CV tailoring and cover letters.",
+      "rationale": "AI agent framework where Claude is material to core product; automates postings evaluation, fit assessment, and interview preparation."
+    },
+    "1142983825": {
+      "repository_id": 1142983825,
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "readme_sha": "7cf07a786532bebe01c65179c8e2c3a98cc0a09b",
+      "classified_on": "2026-08-25",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "CLAUDE.md guidelines improving Claude Code agent behavior based on documented LLM coding pitfalls.",
+      "rationale": "Prompt/skill collection designed to improve AI coding agent performance; directly addresses LLM code generation and planning issues."
+    },
+    "1024554267": {
+      "repository_id": 1024554267,
+      "full_name": "NousResearch/hermes-agent",
+      "readme_sha": "c05112266746ff99a3326a62c38c33fbc08ecd23",
+      "classified_on": "2026-08-25",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Self-improving AI agent with learning loop, autonomous skill creation, memory persistence, and multiplatform interfaces.",
+      "rationale": "Complete AI agent system where autonomous intelligence and learning are the core product; not peripheral features."
+    },
+    "1186805550": {
+      "repository_id": 1186805550,
+      "full_name": "anthropics/claude-plugins-community",
+      "readme_sha": "abe78e5fbe9b97f3d32aed7fe526b3aabf82fe9a",
+      "classified_on": "2026-08-25",
+      "ai_related": false,
+      "project_type": "Repository",
+      "summary": "Community plugin marketplace for Claude Cowork and Claude Code; read-only mirror of official directory.",
+      "rationale": "Platform-specific plugin directory organized around extensions for a particular product rather than curated as an AI resource collection."
     }
   }
 }

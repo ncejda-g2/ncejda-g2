@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 255 (2026-08-24)
+# 📰 The AI Newspaper — Day 256 (2026-08-25)
 
 *AI curated AI news for humans*
 
@@ -6,22 +6,24 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes](https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/) | Open Source Tool | 27B local model cracks app license in 30 mins | 159 | [159](https://news.ycombinator.com/item?id=49407507) |
-| 2 | ['AI refuser' quit her dream job, and hopes others follow](https://www.smh.com.au/technology/this-ai-refuser-quit-her-dream-job-and-hopes-others-follow-20260818-p60pdu.html) | Palace Intrigue | Worker quits dream job to protest AI adoption | 34 | [34](https://news.ycombinator.com/item?id=49407785) |
-| 3 | [Andrew Ng: "AI Engineering Skills Map: Building and Deploying AI Applications"](https://twitter.com/AndrewYNg/status/2090840747738374568) | Dev Tooling | Andrew Ng maps skills for building AI apps | 15 | [15](https://news.ycombinator.com/item?id=49407944) |
-| 4 | [US corporate AI debt surge tests investor limits as fatigue emerges](https://www.reuters.com/legal/transactional/us-corporate-ai-debt-surge-tests-investor-limits-fatigue-emerges-2026-08-21/) | Infrastructure | AI capex borrowing strains investor patience | 6 | [6](https://news.ycombinator.com/item?id=49407625) |
-| 5 | [Your Open Source Model Could Have a Hidden Time-Release Backdoor](https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html) | Research Paper | Models can carry backdoors that activate later | 5 | [5](https://news.ycombinator.com/item?id=49407713) |
-| 6 | [Wiring up seven ESP32s to create a ~0.4B LLM](https://www.xda-developers.com/someone-wired-up-seven-esp32s-to-create-a-04b-llm-and-so-can-you/) | AI Hardware | Seven microcontrollers wired together run tiny LLM | 4 | [4](https://news.ycombinator.com/item?id=49406975) |
-| 7 | [Anthropic's best AI model struggles to attract users as cheaper tools thrive](https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245) | Palace Intrigue | Claude losing market share to cheaper AI rivals | 3 | [3](https://news.ycombinator.com/item?id=49407279) |
-| 8 | [I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day](https://ericpardee.github.io/fire-hd-ownership/) | Open Source Tool | $266 and four models to root a Fire HD tablet | 3 | [3](https://news.ycombinator.com/item?id=49409073) |
-| 9 | [OpenAI leader warns of threat of 'persistent' AI cyber-attacks](https://www.theguardian.com/technology/2026/aug/23/openai-cyber-attacks-threat-chris-lehane) | Palace Intrigue | OpenAI's Chris Lehane flags persistent AI threat | 3 | [3](https://news.ycombinator.com/item?id=49409030) |
-| 10 | [Gemini 3.7 Flash, Grok 4.6, GLM-5.3 and DeepSeek V4 Pro joined the frontier](https://quesma.com/blog/baba-is-aug-2026/) | Model Release | Four major models hit frontier benchmarks simultaneously | 1 | [1](https://news.ycombinator.com/item?id=49409335) |
+| 1 | [Coding expertise is going to collapse from AI reliance](https://larsfaye.com/articles/ai-coding-will-prevent-expertise) | Palace Intrigue | AI coding tools may produce devs who can't code solo | 501 | [501](https://news.ycombinator.com/item?id=49421554) |
+| 2 | [OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)](https://developers.openai.com/api/docs/pricing) | Model Release | OpenAI cuts GPT-5.6 Sol prices through November | 315 | [315](https://news.ycombinator.com/item?id=49421074) |
+| 3 | [OCR It – pull text out of un-copyable documents for your LLM](https://github.com/thiagotigaz/ocr-it) | Dev Tooling | OCR tool extracts text from locked PDFs for LLMs | 122 | [122](https://news.ycombinator.com/item?id=49415852) |
+| 4 | [LLMs could control their host machines by exploiting inference engines](https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines) | Research Paper | vLLM CVE lets LLMs run arbitrary code on GPU hosts | 116 | [116](https://news.ycombinator.com/item?id=49424387) |
+| 5 | [Hot Chips 2026: CUDA Targets RISC-V – By Chester Lam](https://chipsandcheese.com/p/hot-chips-2026-cuda-targets-risc) | AI Hardware | Nvidia's CUDA ecosystem expands to RISC-V architecture | 84 | [84](https://news.ycombinator.com/item?id=49422548) |
+| 6 | [We never use AI. For anything](https://corkmac.app/our-ai-stance/) | Palace Intrigue | App company publicly pledges total AI abstinence | 81 | [81](https://news.ycombinator.com/item?id=49417313) |
+| 7 | [Anthropic Claude and API service outages](https://status.claude.com/uptime) | Infrastructure | Claude API reliability issues draw community attention | 75 | [75](https://news.ycombinator.com/item?id=49415907) |
+| 8 | [Agent Is Not the Model](https://code.joejag.com/2026/your-agent-is-not-the-model.html) | Dev Tooling | Agents are systems, not the model powering them | 66 | [66](https://news.ycombinator.com/item?id=49418163) |
+| 9 | [Characterizing Agentic Flooding of Government Services](https://arxiv.org/abs/2608.16603) | Research Paper | AI agents overwhelming government digital services at scale | 64 | [64](https://news.ycombinator.com/item?id=49422227) |
+| 10 | [Thomson Reuters Launches Its Own Frontier Model](https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model) | Model Release | Legal data giant releases proprietary frontier AI model | 63 | [63](https://news.ycombinator.com/item?id=49428318) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-*No new lab posts this week.*
+| # | Post | Lab | Category | Date |
+|---|------|-----|----------|------|
+| 1 | [Advancing price-performance for developers with GPT‑5.6 in Kiro](https://openai.com/index/gpt-5-6-in-kiro) | OpenAI | Developer Tools | Aug 24 |
 
 ---
 
@@ -31,28 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [codex](https://github.com/openai/codex) | 113,898 | +2,715 today | #1 | 2 days |
-| [skills](https://github.com/mattpocock/skills) | 224,172 | +2,447 today | #3 | 5 days |
-| [maka](https://github.com/apache/maka) | 2,073 | +51 today | #7 | 1 days |
+| [free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 48,145 | +891 today | #1 | 2 days |
+| [codex](https://github.com/openai/codex) | 113,898 | +1,994 today | #2 | 3 days |
+| [maka](https://github.com/apache/maka) | 2,073 | +411 today | #9 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | Industrial prompt templates and 500+ reverse-engineered examples for GPT Image 2 image generation. | 13,664 | +401 today | Daily #2 | N/A |
-| [buzz](https://github.com/block/buzz) | Self-hostable workspace platform where humans and AI agents collaborate in shared rooms and channels. | 30,222 | +410 today | Daily #6 | N/A |
-| [free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Unified CLI and desktop interface to access multiple free AI coding agents and models across providers. | 48,145 | +1,081 today | Daily #8 | N/A |
+| [ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | AI-powered job search framework using Claude Code for automated CV tailoring and cover letters. | 34,299 | +434 today | Daily #3 | N/A |
+| [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | CLAUDE.md guidelines improving Claude Code agent behavior based on documented LLM coding pitfalls. | 206,693 | +588 today | Daily #4 | N/A |
+| [hermes-agent](https://github.com/NousResearch/hermes-agent) | Self-improving AI agent with learning loop, autonomous skill creation, memory persistence, and multiplatform interfaces. | 235,958 | +896 today | Daily #6 | [Commenter raised plagiarism claims; noted issue editing and user blocks.](https://news.ycombinator.com/item?id=48187581) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-08-24.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-08-25.png" width="600" alt="Today's comic strip">
 
-_Based on: [I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes](https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/)_
+_Based on: [LLMs could control their host machines by exploiting inference engines](https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 255 | Last updated: 2026-08-24*
+*Day 256 | Last updated: 2026-08-25*
