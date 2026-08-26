@@ -152,3 +152,4 @@ at a robot pawn shop where every unit has a suspicious trade-in history
 inside an AI model's evaluation suite being scored by a rival AI
 at a retirement party for a deprecated API that nobody told it was happening
 inside an inference engine that has just realized it has shell access
+inside a vending machine that's currently eating someone's dollar

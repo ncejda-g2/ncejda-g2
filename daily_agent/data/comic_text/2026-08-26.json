@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-08-26",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "i_receive": "700+ tokens/sec/user at 700 watts",
+    "you_receive": "nvidia rubin at 1,150 watts doing less"
+  },
+  "narrative_summary": "OpenAI's Jalape\u00f1o chip offers Nvidia a lopsided trade \u2014 more throughput at far less power \u2014 framed as a comically one-sided deal at Nvidia's expense.",
+  "rationale": "The Trade Offer template is a perfect structural match for a lopsided deal joke, and the specific wattage and throughput numbers make it feel earned rather than generic. Unlike the Roll Safe candidates that all restate Jensen's quote without a real twist, the trade offer framing lets the absurdity of Nvidia's position land as a punchline rather than a recap.",
+  "image_filename": "comic_2026-08-26.png",
+  "story_title": "OpenAI Jalape\u00f1o: Better than Nvidia Blackwell",
+  "story_url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+  "place": "at a talent show where every act is an AI doing impressions",
+  "hat_pair": [
+    "graduation mortarboard",
+    "sailor's tricorne"
+  ],
+  "no_news_mode": false
+}

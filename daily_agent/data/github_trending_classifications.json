@@ -183,12 +183,12 @@
     "1185590488": {
       "repository_id": 1185590488,
       "full_name": "rohitg00/ai-engineering-from-scratch",
-      "readme_sha": "41930075ea42f18629e225ea730df406d5cf5b99",
-      "classified_on": "2026-07-19",
+      "readme_sha": "6ae16765a564950df064d9d766e8ea481462b6d3",
+      "classified_on": "2026-08-26",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Five-hundred-three-lesson AI curriculum spanning math foundations through autonomous systems and swarms.",
-      "rationale": "Comprehensive structured curriculum covering AI from mathematics through transformers, LLMs, agents, and multi-agent systems. Each lesson produces reusable artifacts: prompts, skills, agents, and MCP servers."
+      "summary": "Comprehensive 511-lesson curriculum for AI engineering covering agents, LLMs, and deployment.",
+      "rationale": "Educational collection entirely organized around AI engineering topics and practical AI implementation."
     },
     "1167788341": {
       "repository_id": 1167788341,
@@ -1254,11 +1254,11 @@
       "repository_id": 909213664,
       "full_name": "TauricResearch/TradingAgents",
       "readme_sha": "def85acbef5601d1a6dbc299b4a4fe3904799d28",
-      "classified_on": "2026-08-09",
+      "classified_on": "2026-08-26",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Multi-agent LLM framework that orchestrates specialized financial analysts for collaborative trading decisions.",
-      "rationale": "LLM-powered agents are central to the framework's architecture, simulating real trading firm roles to evaluate markets and execute trades."
+      "summary": "Multi-agent LLM framework for financial trading with specialized analyst and trader agents.",
+      "rationale": "Framework explicitly designed around LLM agents for collaborative trading analysis and decision-making."
     },
     "808045485": {
       "repository_id": 808045485,
@@ -1874,11 +1874,31 @@
       "repository_id": 1186805550,
       "full_name": "anthropics/claude-plugins-community",
       "readme_sha": "abe78e5fbe9b97f3d32aed7fe526b3aabf82fe9a",
-      "classified_on": "2026-08-25",
+      "classified_on": "2026-08-26",
       "ai_related": false,
       "project_type": "Repository",
       "summary": "Community plugin marketplace for Claude Cowork and Claude Code; read-only mirror of official directory.",
       "rationale": "Platform-specific plugin directory organized around extensions for a particular product rather than curated as an AI resource collection."
+    },
+    "1203670949": {
+      "repository_id": 1203670949,
+      "full_name": "AgriciDaniel/claude-obsidian",
+      "readme_sha": "f89e325e8bfaded8a75a3cab0ec95556297981dc",
+      "classified_on": "2026-08-26",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI-powered personal knowledge management system for Obsidian using Claude integration.",
+      "rationale": "Application explicitly designed around Claude AI for knowledge organization, synthesis, and retrieval."
+    },
+    "1161163182": {
+      "repository_id": 1161163182,
+      "full_name": "tinyhumansai/openhuman",
+      "readme_sha": "b9de905f9eca8d03e82175d567822ccdc9978c07",
+      "classified_on": "2026-08-26",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Local-first AI personal assistant with memory, agent orchestration, and research capabilities.",
+      "rationale": "Application explicitly centered on AI intelligence, agent coordination, and automated research."
     }
   }
 }
