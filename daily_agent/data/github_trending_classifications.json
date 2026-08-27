@@ -1899,6 +1899,56 @@
       "project_type": "Application",
       "summary": "Local-first AI personal assistant with memory, agent orchestration, and research capabilities.",
       "rationale": "Application explicitly centered on AI intelligence, agent coordination, and automated research."
+    },
+    "192928781": {
+      "repository_id": 192928781,
+      "full_name": "zedeus/nitter",
+      "readme_sha": "86ebd475dd7c2fdf8c0c4ebe7544c020d00fd1f6",
+      "classified_on": "2026-08-27",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Privacy-focused alternative Twitter front-end built with Nim, emphasizing lightweight performance and user tracking prevention.",
+      "rationale": "A Twitter alternative focused on privacy and performance. No AI components are material to its primary product."
+    },
+    "1211139949": {
+      "repository_id": 1211139949,
+      "full_name": "tt-a1i/archify",
+      "readme_sha": "17842fe9c13f2eecfc7c1a66444206dcf9c5bad2",
+      "classified_on": "2026-08-27",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Agent skill generating interactive architecture and sequence diagrams from code analysis with verifiable JSON.",
+      "rationale": "Explicitly designed as an agent skill for AI coding agents; creates diagrams deterministically for Cursor, Claude Code, Codex, OpenCode."
+    },
+    "1103108740": {
+      "repository_id": 1103108740,
+      "full_name": "JetBrains/go-modern-guidelines",
+      "readme_sha": "04d590be8b342bfd7756626ffe52e123c8907fee",
+      "classified_on": "2026-08-27",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Skill and guidelines enabling AI coding agents to write modern Go using current language features.",
+      "rationale": "Purpose-built skill for AI coding agents; distributed across Junie, Claude Code, Codex, Cursor, and skills.sh ecosystem."
+    },
+    "1100776768": {
+      "repository_id": 1100776768,
+      "full_name": "anthropics/claude-plugins-official",
+      "readme_sha": "43104e240ff500c762adebb0c31dc4b7ff7b50dd",
+      "classified_on": "2026-08-27",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Official Anthropic marketplace directory of plugins, MCP servers, and skills for Claude Code agents.",
+      "rationale": "Curated registry explicitly organized around Claude Code plugins; scope defined by AI agent compatibility."
+    },
+    "1079456184": {
+      "repository_id": 1079456184,
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "readme_sha": "7121100cc50bc524fa5001ef0f10e6e9e0a40a7a",
+      "classified_on": "2026-08-27",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Collection of 163 scientific skills and 100+ databases enabling AI agents to execute research workflows.",
+      "rationale": "Purpose-built skill library for AI agents across multiple platforms; AI is material to enabling scientific research execution."
     }
   }
 }

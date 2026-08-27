@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-27",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "caption": "open-source AI can't be locked to CUDA / if Nvidia already owns where you download it"
+  },
+  "narrative_summary": "The joke plays on the 'commoditize your complement' strategy: Nvidia's acquisition of Hugging Face means the supposed protection of open-source is moot when the distribution hub itself is now controlled by the chip vendor.",
+  "rationale": "Candidates 3, 4, and 5 tie on total, but Candidate 3 edges out with the cleanest two-beat rhythm \u2014 'where you download it' is colloquial and lands with a slight deflating shrug that fits the deadpan voice better than the wordier phrasing in 4 and 5, and it avoids the redundant 'models' at the end of 5 that softens the punch.",
+  "image_filename": "comic_2026-08-27.png",
+  "story_title": "Nvidia agrees to acquire Hugging Face for $13B",
+  "story_url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+  "place": "at a congressional hearing about AI",
+  "hat_pair": [
+    "rubber chicken worn beak-forward as a novelty hat",
+    "foam inbox overflowing with tiny paper emails worn as a hat"
+  ],
+  "no_news_mode": false
+}

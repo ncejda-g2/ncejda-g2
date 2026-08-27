@@ -755,6 +755,27 @@
       "url": "https://github.com/AgriciDaniel/claude-obsidian",
       "total_stars": 12896,
       "last_full_featured": "2026-08-26"
+    },
+    "1211139949": {
+      "repository_id": 1211139949,
+      "full_name": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "total_stars": 22086,
+      "last_full_featured": "2026-08-27"
+    },
+    "1103108740": {
+      "repository_id": 1103108740,
+      "full_name": "JetBrains/go-modern-guidelines",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "total_stars": 1967,
+      "last_full_featured": "2026-08-27"
+    },
+    "1100776768": {
+      "repository_id": 1100776768,
+      "full_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "total_stars": 34569,
+      "last_full_featured": "2026-08-27"
     }
   }
 }
