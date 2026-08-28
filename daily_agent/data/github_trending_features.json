@@ -776,6 +776,27 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "total_stars": 34569,
       "last_full_featured": "2026-08-27"
+    },
+    "1079456184": {
+      "repository_id": 1079456184,
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "total_stars": 36195,
+      "last_full_featured": "2026-08-28"
+    },
+    "1031059905": {
+      "repository_id": 1031059905,
+      "full_name": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "total_stars": 46088,
+      "last_full_featured": "2026-08-28"
+    },
+    "1195360525": {
+      "repository_id": 1195360525,
+      "full_name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "total_stars": 53112,
+      "last_full_featured": "2026-08-28"
     }
   }
 }

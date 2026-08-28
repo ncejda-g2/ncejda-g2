@@ -1944,11 +1944,51 @@
       "repository_id": 1079456184,
       "full_name": "K-Dense-AI/scientific-agent-skills",
       "readme_sha": "7121100cc50bc524fa5001ef0f10e6e9e0a40a7a",
-      "classified_on": "2026-08-27",
+      "classified_on": "2026-08-28",
       "ai_related": true,
       "project_type": "Collection",
       "summary": "Collection of 163 scientific skills and 100+ databases enabling AI agents to execute research workflows.",
       "rationale": "Purpose-built skill library for AI agents across multiple platforms; AI is material to enabling scientific research execution."
+    },
+    "1277471539": {
+      "repository_id": 1277471539,
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "readme_sha": "ff82dab65ca52f6f8636c3108fbe49e50699c044",
+      "classified_on": "2026-08-28",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Live 3D globe tracking aircraft, ships, satellites, and geospatial intelligence from public data.",
+      "rationale": "Geospatial intelligence visualization tool; AI voice control is an ancillary feature, not material to the primary satellite-tracking product."
+    },
+    "1031059905": {
+      "repository_id": 1031059905,
+      "full_name": "abhigyanpatwari/GitNexus",
+      "readme_sha": "e26373affe9e843b49a17f704d7d6f9d69d123f7",
+      "classified_on": "2026-08-28",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Knowledge graph system enabling AI agents to understand and navigate complex codebases efficiently.",
+      "rationale": "Explicitly designed as agent infrastructure; provides codebase context via knowledge graphs and MCP tools for AI coding assistants."
+    },
+    "1195360525": {
+      "repository_id": 1195360525,
+      "full_name": "calesthio/OpenMontage",
+      "readme_sha": "0dae0149c8a92482d51d31b22428bf6eb95446c9",
+      "classified_on": "2026-08-28",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Agentic system automating video production end-to-end through AI-driven research, generation, and editing.",
+      "rationale": "Explicitly agentic video production system; core product is AI agents orchestrating 12+ pipelines and 100+ production tools."
+    },
+    "718741813": {
+      "repository_id": 718741813,
+      "full_name": "abi/screenshot-to-code",
+      "readme_sha": "735c5780a7998f767664b8fd6ed99d53f875223a",
+      "classified_on": "2026-08-28",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI tool converting screenshots and designs into clean, functional HTML, React, or Vue code.",
+      "rationale": "Entire application depends on AI vision and code generation models; core product requires LLM APIs to function."
     }
   }
 }

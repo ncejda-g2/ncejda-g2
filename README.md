@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 258 (2026-08-27)
+# 📰 The AI Newspaper — Day 259 (2026-08-28)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Nvidia agrees to acquire Hugging Face for $13B](https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8) | Palace Intrigue | Nvidia buys open-source AI hub for $13 billion | 1633 | [1633](https://news.ycombinator.com/item?id=49458161) |
-| 2 | [CEO fired developers to make room for AI. Developers create open source AI CEO](https://github.com/SenteLabsAI/OpenExecutive) | Open Source Tool | Fired devs build open-source AI CEO as revenge | 859 | [859](https://news.ycombinator.com/item?id=49458418) |
-| 3 | [Mechanical Turk shutting down September 30](https://www.mturk.com/) | Infrastructure | Amazon shuts down cornerstone AI data-labeling platform | 491 | [491](https://news.ycombinator.com/item?id=49457545) |
-| 4 | [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) | Palace Intrigue | OpenAI details HuggingFace security breach and response | 320 | [320](https://news.ycombinator.com/item?id=49454314) |
-| 5 | [Pollen Robotics (Hugging Face) Microduck](https://pollen-robotics.com/microduck/) | AI Hardware | HuggingFace's open-source miniature duck-shaped robot kit | 265 | [265](https://news.ycombinator.com/item?id=49462763) |
-| 6 | [Serve Markdown to AI Agents with Accept Headers](https://acceptmarkdown.com/) | Dev Tooling | HTTP spec for serving Markdown directly to AI agents | 168 | [168](https://news.ycombinator.com/item?id=49454764) |
-| 7 | [Australia Bans Generative A.I. From Official Music Charts](https://www.nytimes.com/2026/08/25/world/australia/australia-ai-music-chart-ban.html) | Palace Intrigue | Australia bars AI-generated tracks from official charts | 96 | [96](https://news.ycombinator.com/item?id=49462687) |
-| 8 | [Show HN: The load-bearing vocabulary of Claude](https://louisabraham.github.io/load-bearing/) | Research Paper | Analysis maps which Claude tokens carry structural weight | 85 | [85](https://news.ycombinator.com/item?id=49461817) |
-| 9 | [Laion Big Video Dataset](https://projects.laion.ai/bvd/) | Research Paper | LAION releases massive open video dataset for AI training | 80 | [80](https://news.ycombinator.com/item?id=49458478) |
-| 10 | [Gemini 3.5 Transcribe](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/) | Model Release | Google launches dedicated Gemini speech-to-text model | 18 | [18](https://news.ycombinator.com/item?id=49452393) |
+| 1 | [Pentagon's blacklisting of Anthropic was unlawful, US judge rules](https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/) | Palace Intrigue | Judge blocks Pentagon's unlawful AI firm blacklist | 317 | [317](https://news.ycombinator.com/item?id=49477055) |
+| 2 | [Luanti removed from Google Play due to baseless AI copyright notice](https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/) | Palace Intrigue | Game pulled via bogus AI-generated DMCA claim | 261 | [261](https://news.ycombinator.com/item?id=49475079) |
+| 3 | [GLM-5.3 is now open-weight](https://twitter.com/Zai_org/status/2093354097122455713) | Model Release | Chinese GLM-5.3 goes open-weight | 221 | [221](https://news.ycombinator.com/item?id=49479878) |
+| 4 | [Show HN: We built open OpenRouter that turns usage into a better model](https://github.com/experientiallabs/experiential) | Open Source Tool | Open router learns from queries to self-improve | 203 | [203](https://news.ycombinator.com/item?id=49471407) |
+| 5 | [Please stop flooding our projects with AI slop to furnish your CV](https://neilalexander.dev/2026/06/30/flooding-contributions) | Palace Intrigue | Devs plead: no more AI slop CV-padding PRs | 201 | [201](https://news.ycombinator.com/item?id=49474143) |
+| 6 | [Previewing the Model Hardware Standard](https://www.anthropic.com/news/model-hardware-standard-research-preview) | Research Paper | Anthropic previews model hardware certification spec | 131 | [131](https://news.ycombinator.com/item?id=49468834) |
+| 7 | [AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab](https://github.com/calmrocks/ai-engineer-notebooks) | Dev Tooling | Free RAG, agent, and eval notebooks for Colab | 111 | [111](https://news.ycombinator.com/item?id=49471714) |
+| 8 | [Terminal-Bench-Science: Evaluating AI agents on scientific research workflows](https://www.terminal-bench-science.ai/announcement) | Research Paper | Benchmark for AI agents on real science tasks | 106 | [106](https://news.ycombinator.com/item?id=49472820) |
+| 9 | [Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force](https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc) | Infrastructure | Nvidia launches PAC to build Washington influence | 91 | [91](https://news.ycombinator.com/item?id=49469249) |
+| 10 | [Alphabet stock sheds $700B as AI bills climb](https://www.semafor.com/article/08/27/2026/alphabet-stock-sheds-700b-as-ai-bills-climb) | Palace Intrigue | Google parent loses $700B as AI spend spirals | 49 | [49](https://news.ycombinator.com/item?id=49473629) |
 
 ---
 
@@ -23,8 +23,10 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) | OpenAI | Research | Aug 26 |
-| 2 | [Societal Impacts Enabling independent research on how people use Claude](https://www.anthropic.com/research/enabling-independent-research) | Anthropic | Research | Aug 26 |
+| 1 | [Alignment Automated researchers can reliably mitigate alignment failures](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures) | Anthropic | Research | Aug 28 |
+| 2 | [Previewing the Model Hardware Standard](https://www.anthropic.com/news/model-hardware-standard-research-preview) | Anthropic | Research | Aug 27 |
+| 3 | [Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training](https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training) | OpenAI | Research | Aug 27 |
+| 4 | [3 new ways to plan and book travel in Search](https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/) | Google AI | Developer Tools | Aug 27 |
 
 ---
 
@@ -34,28 +36,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | 13,664 | +2,093 today | #2 | 4 days |
-| [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 49,202 | +547 today | #9 | 3 days |
-| [claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) | 12,896 | +631 today | #13 | 3 days |
+| [archify](https://github.com/tt-a1i/archify) | 22,086 | +4,561 today | #1 | 2 days |
+| [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 34,569 | +457 today | #3 | 3 days |
+| [go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines) | 1,967 | +574 today | #6 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [archify](https://github.com/tt-a1i/archify) | Agent skill generating interactive architecture and sequence diagrams from code analysis with verifiable JSON. | 22,086 | +4,260 today | Daily #3 | N/A |
-| [go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines) | Skill and guidelines enabling AI coding agents to write modern Go using current language features. | 1,967 | +314 today | Daily #4 | N/A |
-| [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official Anthropic marketplace directory of plugins, MCP servers, and skills for Claude Code agents. | 34,569 | +290 today | Daily #5 | N/A |
+| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Collection of 163 scientific skills and 100+ databases enabling AI agents to execute research workflows. | 36,195 | +720 today | Daily #2 | N/A |
+| [GitNexus](https://github.com/abhigyanpatwari/GitNexus) | Knowledge graph system enabling AI agents to understand and navigate complex codebases efficiently. | 46,088 | +189 today | Daily #5 | N/A |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) | Agentic system automating video production end-to-end through AI-driven research, generation, and editing. | 53,112 | +1,144 today | Daily #7 | [Commenter questioned creative utility and noted technical issues like text animation bugs.](https://news.ycombinator.com/item?id=48616398) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-08-27.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-08-28.png" width="400" alt="Today's comic strip">
 
-_Based on: [Nvidia agrees to acquire Hugging Face for $13B](https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8)_
+_Based on: [Alignment Automated researchers can reliably mitigate alignment failures](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 258 | Last updated: 2026-08-27*
+*Day 259 | Last updated: 2026-08-28*

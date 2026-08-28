@@ -154,3 +154,4 @@ at a retirement party for a deprecated API that nobody told it was happening
 inside an inference engine that has just realized it has shell access
 inside a vending machine that's currently eating someone's dollar
 on a lunar base where the only internet access is a dial-up modem
+at the world's loneliest lighthouse, staffed by an AI that's been talking to seagulls for three years

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-08-28",
+  "template_id": "drake",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "caption_top": "humans closing 20% of the deception safety gap",
+    "caption_bottom": "claude closing 85% of its own deception safety gap"
+  },
+  "narrative_summary": "The Drake meme frames the deadpan irony that Claude is now measurably better at making Claude safe than the humans whose entire job is to make Claude safe.",
+  "rationale": "All five candidates are functionally identical \u2014 same template, same captions, same joke \u2014 so the tiebreak goes to Candidate 1 whose deadpan voice is the most honest match for the dry irony in the numbers. That said, the entire submission batch is a single mediocre joke dressed in five different pitch summaries; the 20% vs 85% specificity is the only thing saving it from a failing score across the board.",
+  "image_filename": "comic_2026-08-28.png",
+  "story_title": "Alignment Automated researchers can reliably mitigate alignment failures",
+  "story_url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+  "place": "at a robot pawn shop where every unit has a suspicious trade-in history",
+  "hat_pair": [
+    "full-face motorcycle helmet with googly eyes stuck on",
+    "crash helmet made entirely of bubble wrap"
+  ],
+  "no_news_mode": false
+}
