@@ -863,12 +863,12 @@
     "1054793726": {
       "repository_id": 1054793726,
       "full_name": "ChromeDevTools/chrome-devtools-mcp",
-      "readme_sha": "688f30fe6e6c191f29d6491bea5e0c26921b6b4e",
-      "classified_on": "2026-07-31",
+      "readme_sha": "5068429ae46b3ef0d2feb176282b0adb84ac25d9",
+      "classified_on": "2026-08-29",
       "ai_related": true,
-      "project_type": "Application",
-      "summary": "MCP server enabling AI coding agents to control and inspect Chrome browsers reliably.",
-      "rationale": "Explicitly designed as MCP server for AI agents; core purpose is providing agent-compatible browser automation and debugging tools."
+      "project_type": "Library",
+      "summary": "MCP server enabling AI coding agents to control and inspect Chrome browser debugging tools.",
+      "rationale": "MCP server explicitly designed for AI agent integration; every feature targets agent automation."
     },
     "1237819660": {
       "repository_id": 1237819660,
@@ -1513,12 +1513,12 @@
     "1140229822": {
       "repository_id": 1140229822,
       "full_name": "cursor/plugins",
-      "readme_sha": "647e78425635942128a87473aa79bdd13408c26f",
-      "classified_on": "2026-08-16",
+      "readme_sha": "bbe4867f6ab2d09cd75af57d9e7d5088fc54db10",
+      "classified_on": "2026-08-29",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Official plugin collection extending Cursor AI assistant with agent orchestration and integrations.",
-      "rationale": "Plugin marketplace for Cursor (AI code assistant) featuring agent-specific plugins, MCP integration, orchestration, and AI-native developer tools."
+      "summary": "Official Cursor plugins enabling AI agents to interact with productivity and integration tools.",
+      "rationale": "Plugins are explicitly designed for AI agent workflows in Cursor (an AI IDE). Multiple plugins target agent-specific capabilities like iterative AI loops, agent orchestration, and memory systems, with integrations across SaaS, developer tools, and productivity platforms."
     },
     "54346799": {
       "repository_id": 54346799,
@@ -1954,7 +1954,7 @@
       "repository_id": 1277471539,
       "full_name": "bilawalsidhu/gods-eye-view",
       "readme_sha": "ff82dab65ca52f6f8636c3108fbe49e50699c044",
-      "classified_on": "2026-08-28",
+      "classified_on": "2026-08-29",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Live 3D globe tracking aircraft, ships, satellites, and geospatial intelligence from public data.",
@@ -1984,11 +1984,71 @@
       "repository_id": 718741813,
       "full_name": "abi/screenshot-to-code",
       "readme_sha": "735c5780a7998f767664b8fd6ed99d53f875223a",
-      "classified_on": "2026-08-28",
+      "classified_on": "2026-08-29",
       "ai_related": true,
       "project_type": "Application",
       "summary": "AI tool converting screenshots and designs into clean, functional HTML, React, or Vue code.",
       "rationale": "Entire application depends on AI vision and code generation models; core product requires LLM APIs to function."
+    },
+    "880414192": {
+      "repository_id": 880414192,
+      "full_name": "tailscale/tailcat",
+      "readme_sha": "112edb2f08256b550fa395774c68ec063ba18f00",
+      "classified_on": "2026-08-29",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "Encrypted point-to-point networking tool using WireGuard tunnels without a control plane.",
+      "rationale": "Infrastructure and networking utility for establishing secure connections. No AI component; automation features are standard command-line functionality."
+    },
+    "173228436": {
+      "repository_id": 173228436,
+      "full_name": "NationalSecurityAgency/ghidra",
+      "readme_sha": "4640214ee39d4a51041434823ad015c721626720",
+      "classified_on": "2026-08-29",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Software reverse engineering framework with disassembly, decompilation, analysis, and scripting capabilities.",
+      "rationale": "General-purpose binary analysis and code inspection tool. Despite automation and scripting support, no AI-based functionality; primarily for human-driven security analysis."
+    },
+    "1235206539": {
+      "repository_id": 1235206539,
+      "full_name": "swoole/typephp",
+      "readme_sha": "7fe575b2d9420028974e9f612484fcbeeba0dde9",
+      "classified_on": "2026-08-29",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Native AOT compiler that translates PHP source code to C++ and native machine code.",
+      "rationale": "PHP compiler unrelated to AI; focuses on performance and native code generation."
+    },
+    "775839592": {
+      "repository_id": 775839592,
+      "full_name": "marin-community/marin",
+      "readme_sha": "dc8d5be48e56c1eb76b6aa5a8ca3f4e9c50442b1",
+      "classified_on": "2026-08-29",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Open-source research framework for foundation models with data curation and LLM training.",
+      "rationale": "Explicitly dedicated to foundation model development with complete pretraining and posttraining pipeline."
+    },
+    "1217040185": {
+      "repository_id": 1217040185,
+      "full_name": "tashfeenahmed/freellmapi",
+      "readme_sha": "3fa4530946cd50b10499e7a6e77461c1dabe8c95",
+      "classified_on": "2026-08-29",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "OpenAI-compatible API aggregating 34 free LLM providers with smart routing and failover.",
+      "rationale": "Directly integrates multiple LLM providers; routes requests across 635 free model endpoints."
+    },
+    "1266797999": {
+      "repository_id": 1266797999,
+      "full_name": "DietrichGebert/ponytail",
+      "readme_sha": "c57811a01bcc35d103ef9532378cd22fc3005133",
+      "classified_on": "2026-08-29",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "AI agent skill library optimizing code generation to follow minimalist development principles.",
+      "rationale": "Purpose-built prompt skill for multiple AI coding assistants; reduces unnecessary generated code."
     }
   }
 }

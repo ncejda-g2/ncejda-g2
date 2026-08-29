@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-29",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "strutting",
+    "adjective_second": "fidgety",
+    "narrative_intro": "*A strutting person and a fidgety person discuss Cursor's API revocation inside a CAPTCHA that won't accept any answer.*",
+    "panel1": "[setup]\nSTRUTTING PERSON: \"Pick all the traffic lights.\"\nFIDGETY PERSON: \"Done. All twelve of them.\"",
+    "panel2": "[build]\nSTRUTTING PERSON: \"Wrong. Also: are you training on these outputs?\"\nFIDGETY PERSON: \"What? No! I'm just crossing the street!\"",
+    "panel3": "[pivot]\nSTRUTTING PERSON: \"SpaceX acquired the street. Model distillation clause. API revoked.\"\nFIDGETY PERSON: \"I'm locked out of a CAPTCHA?\"",
+    "panel4": "[silent reaction]\n[Visual: The fidgety person stares at a new CAPTCHA prompt reading 'Select all squares containing Cursor IDE.' Every square shows a Cursor logo. A tiny Anthropic logo burns quietly in the corner.]",
+    "panel5": "[punch]\nFIDGETY PERSON: \"Anthropic still lets me in, right?\"\nSTRUTTING PERSON: \"They have a $1B/month xAI compute deal. It's complicated.\"",
+    "panel6": "[button]\n[Visual: The fidgety person clicks 'Try Claude Code' and is presented with the exact same CAPTCHA. The strutting person holds a sign reading 'Migrate to Zed.' It is also inside the CAPTCHA.]"
+  },
+  "narrative_summary": "A developer locked inside a sentient CAPTCHA discovers that Cursor's API revocation, SpaceX's acquisition, and Anthropic's awkward xAI compute deal mean there is literally no correct answer \u2014 and every exit is also a CAPTCHA.",
+  "rationale": "Candidate 4 earns its tie-break over Candidate 5 by committing fully to the CAPTCHA-as-metaphor conceit from panel one \u2014 the joke escalates organically from a mundane traffic-light prompt to existential API lockout without ever breaking the bit, and the button panel's recursive twist (migrating to Claude Code reveals the same CAPTCHA) is a genuinely earned structural punchline rather than a list of alternatives. Candidate 5's closing beat is funnier on paper but reads more like a summary than a surprise.",
+  "image_filename": "comic_2026-08-29.png",
+  "story_title": "Our decision on Cursor following its acquisition by SpaceX",
+  "story_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+  "place": "inside a CAPTCHA that won't accept any answer",
+  "hat_pair": [
+    "foam megaphone worn upside-down as a hat with the wide bell as the brim",
+    "foam birthday cake hat with lit candles and tiny plastic sprinkles raining off the sides"
+  ],
+  "no_news_mode": false
+}
