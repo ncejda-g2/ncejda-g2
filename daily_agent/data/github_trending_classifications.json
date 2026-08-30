@@ -303,12 +303,12 @@
     "1168753718": {
       "repository_id": 1168753718,
       "full_name": "every-app/open-seo",
-      "readme_sha": "7c9f5e5adb8ac9932f9166f092ba2308b3bb5391",
-      "classified_on": "2026-07-22",
+      "readme_sha": "9a874a272ea17aebb6bca0efe6d5552ee0fb677a",
+      "classified_on": "2026-08-30",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Open-source SEO analysis tool offering keyword research, backlink analysis, and rank tracking.",
-      "rationale": "Primary product is SEO-focused; MCP and agent skills are integration features, not core organizing principle."
+      "summary": "Open source SEO platform offering keyword research, backlink analysis, and site audit capabilities.",
+      "rationale": "SEO tool with optional AI agent integrations; primary scope is SEO analysis, not AI."
     },
     "1130564872": {
       "repository_id": 1130564872,
@@ -413,12 +413,12 @@
     "1078079172": {
       "repository_id": 1078079172,
       "full_name": "ComposioHQ/awesome-claude-skills",
-      "readme_sha": "318c65679352e8abed78a3e906f8c70984a15e66",
-      "classified_on": "2026-07-24",
+      "readme_sha": "d28b9c3515147fba1242461eb2c11155ffca5bbf",
+      "classified_on": "2026-08-30",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Curated collection of Claude skills and workflows for AI agent customization and automation.",
-      "rationale": "Collection of AI workflow instruction packages organized around AI agent behavior. Matches curated AI resource list criterion."
+      "summary": "Curated collection of 1000+ Claude Skills, resources, and tools for customizing AI agent workflows.",
+      "rationale": "Explicitly curated AI resource list focused on Claude Skills and agent customization."
     },
     "1188718672": {
       "repository_id": 1188718672,
@@ -1954,7 +1954,7 @@
       "repository_id": 1277471539,
       "full_name": "bilawalsidhu/gods-eye-view",
       "readme_sha": "ff82dab65ca52f6f8636c3108fbe49e50699c044",
-      "classified_on": "2026-08-29",
+      "classified_on": "2026-08-30",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Live 3D globe tracking aircraft, ships, satellites, and geospatial intelligence from public data.",
@@ -1993,12 +1993,12 @@
     "880414192": {
       "repository_id": 880414192,
       "full_name": "tailscale/tailcat",
-      "readme_sha": "112edb2f08256b550fa395774c68ec063ba18f00",
-      "classified_on": "2026-08-29",
+      "readme_sha": "b5945a4ddebca4fba2f88cb583715387e7256a3f",
+      "classified_on": "2026-08-30",
       "ai_related": false,
-      "project_type": "CLI",
-      "summary": "Encrypted point-to-point networking tool using WireGuard tunnels without a control plane.",
-      "rationale": "Infrastructure and networking utility for establishing secure connections. No AI component; automation features are standard command-line functionality."
+      "project_type": "Library",
+      "summary": "Networking tool providing point-to-point WireGuard tunnels via Tailscale's data plane without control plane.",
+      "rationale": "Infrastructure utility for encrypted peer-to-peer communication; no AI components or functionality."
     },
     "173228436": {
       "repository_id": 173228436,
@@ -2049,6 +2049,66 @@
       "project_type": "Collection",
       "summary": "AI agent skill library optimizing code generation to follow minimalist development principles.",
       "rationale": "Purpose-built prompt skill for multiple AI coding assistants; reduces unnecessary generated code."
+    },
+    "1178737655": {
+      "repository_id": 1178737655,
+      "full_name": "THU-MAIC/OpenMAIC",
+      "readme_sha": "496f1dd765bea493f35b2b8f8ce9420e6b492332",
+      "classified_on": "2026-08-30",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Multi-agent AI platform generating and building interactive educational courses from prompts and materials.",
+      "rationale": "Core product is LLM-based multi-agent system; AI agents are material to primary course-building and classroom functions."
+    },
+    "1061041576": {
+      "repository_id": 1061041576,
+      "full_name": "p-e-w/heretic",
+      "readme_sha": "ec4e8090207c2db1bce3c4ba5684bc10ef03fbe4",
+      "classified_on": "2026-08-30",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Automated tool removing safety alignment from transformer language models via abliteration parameter optimization.",
+      "rationale": "Specialized AI tool for systematic LLM modification; transformer model manipulation is the entire purpose."
+    },
+    "255378816": {
+      "repository_id": 255378816,
+      "full_name": "bigskysoftware/htmx",
+      "readme_sha": "a486b6b51c2d533e93f1fcbd40122cd8da39ce6c",
+      "classified_on": "2026-08-30",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "JavaScript library enabling AJAX, WebSockets, and server communication directly from HTML attributes.",
+      "rationale": "Frontend web framework; no AI-related functionality despite widespread adoption in modern web development."
+    },
+    "1153579168": {
+      "repository_id": 1153579168,
+      "full_name": "Osmantic/ODS",
+      "readme_sha": "bedd0752b3f6827a1c50d60461b92c2dde5bc8e2",
+      "classified_on": "2026-08-30",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Local AI server platform enabling LLM inference, chat, voice, agents, RAG, and image generation.",
+      "rationale": "Complete self-hosted AI application bundling inference, chat, workflows, agents, and content generation."
+    },
+    "39840932": {
+      "repository_id": 39840932,
+      "full_name": "google/googletest",
+      "readme_sha": "b4e9b434fc86db0882a0ea7df0fface8497de718",
+      "classified_on": "2026-08-30",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "C++ testing framework based on xUnit with test discovery, assertions, and parameterized test support.",
+      "rationale": "General-purpose software testing framework with no AI components or organizing focus."
+    },
+    "197814629": {
+      "repository_id": 197814629,
+      "full_name": "actions/checkout",
+      "readme_sha": "5509e7d17642d051e38cac68c6ffa675d6e834e3",
+      "classified_on": "2026-08-30",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "GitHub Actions workflow utility for checking out repositories in continuous integration pipelines.",
+      "rationale": "GitHub Actions tool for repository operations; no AI-related functionality or scope."
     }
   }
 }

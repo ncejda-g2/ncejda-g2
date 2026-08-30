@@ -207,8 +207,8 @@
       "repository_id": 1078079172,
       "full_name": "ComposioHQ/awesome-claude-skills",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "total_stars": 69627,
-      "last_full_featured": "2026-07-24"
+      "total_stars": 74031,
+      "last_full_featured": "2026-08-30"
     },
     "1225753223": {
       "repository_id": 1225753223,
@@ -811,6 +811,20 @@
       "url": "https://github.com/marin-community/marin",
       "total_stars": 2951,
       "last_full_featured": "2026-08-29"
+    },
+    "1178737655": {
+      "repository_id": 1178737655,
+      "full_name": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "total_stars": 22756,
+      "last_full_featured": "2026-08-30"
+    },
+    "1061041576": {
+      "repository_id": 1061041576,
+      "full_name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "total_stars": 28869,
+      "last_full_featured": "2026-08-30"
     }
   }
 }

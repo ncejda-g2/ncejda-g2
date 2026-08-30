@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-30",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "haunted",
+    "adjective_second": "triumphant",
+    "narrative_intro": "*A haunted person and a triumphant person discuss Anthropic's music copyright lawsuit inside an AI model's evaluation suite being scored by a rival AI.*",
+    "panel1": "[setup]\nTRIUMPHANT PERSON: \"Claude, hum a few bars of 'Bohemian Rhapsody.'\"",
+    "panel2": "[build]\nHAUNTED PERSON: \"The complaint says that's how this whole mess started.\"\nTRIUMPHANT PERSON: \"It was training data! Totally different!\"",
+    "panel3": "[pivot]\nHAUNTED PERSON: \"Sony and Warner disagree. Three. Billion. Dollars worth.\"",
+    "panel4": "[silent reaction]\n[Visual: The triumphant person's victory fist freezes mid-air; the haunted person stares into the middle distance. A tiny torrent progress bar \u2014 99% complete \u2014 glows on the evaluation suite's monitor behind them.]",
+    "panel5": "[punch]\nTRIUMPHANT PERSON: \"...Dario personally named in the suit?\"\nHAUNTED PERSON: \"Dario AND Benjamin Mann.\"",
+    "panel6": "[button]\n[Visual: The rival AI scoring the suite quietly awards Claude a 10/10 for 'Creativity' \u2014 then deducts 3,000,000,000 points for 'Originality.']"
+  },
+  "narrative_summary": "Claude gets caught humming copyrighted tunes in an eval suite, and the joke pivots on the $3 billion price tag and the co-founders being personally named \u2014 ending with the rival AI's comically specific score deduction.",
+  "rationale": "Candidate 3 earns maximum specificity by naming Dario Amodei and Benjamin Mann personally, citing the $3 billion figure, and grounding the torrent progress bar visual in the actual training-data allegation \u2014 details no other candidate deploys together. The button panel's '3,000,000,000 points deducted for Originality' is a genuinely earned inversion rather than a restatement, giving it the sharpest closing beat in the field.",
+  "image_filename": "comic_2026-08-30.png",
+  "story_title": "Music publishers sue Anthropic, allege \"blatant theft\" of copyrighted music",
+  "story_url": "https://www.axios.com/2026/08/29/anthropic-sony-warner-music-copyright",
+  "place": "inside an AI model's evaluation suite being scored by a rival AI",
+  "hat_pair": [
+    "plague-doctor beaked hat",
+    "orange traffic cone worn as a hat"
+  ],
+  "no_news_mode": false
+}
