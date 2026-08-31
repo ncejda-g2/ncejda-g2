@@ -25,7 +25,7 @@ DAILY_AGENT_DIR = Path(__file__).parents[1] / "daily_agent"
 if str(DAILY_AGENT_DIR) not in sys.path:
     sys.path.insert(0, str(DAILY_AGENT_DIR))
 
-from agent import build_readme_prompt  # noqa: E402
+from readme_renderer import render_readme  # noqa: E402
 
 
 def repository(
@@ -285,24 +285,22 @@ class TrendingRenderingTests(unittest.TestCase):
     def test_omits_section_when_source_unavailable(self) -> None:
         self.assertEqual(format_trending_section([], [], source_available=False), "")
 
-    def test_no_news_prompt_keeps_trending_below_labs(self) -> None:
-        prompt = build_readme_prompt(
-            Path("README.md"),
-            1,
-            [],
-            [],
-            "## 🔥 Trending AI Repositories\n",
-            "comic.png",
-            "2026-07-14",
-            True,
+    def test_no_news_render_keeps_trending_below_labs(self) -> None:
+        rendered = render_readme(
+            day_count=1,
+            timestamp="2026-07-14",
+            hn_stories=[],
+            lab_posts=[],
+            trending_markdown="## 🔥 Trending AI Repositories\n",
+            image_filename="comic.png",
+            no_news=True,
             is_meme=True,
             story_title="",
             story_url="",
         )
-        rendered_template = prompt[prompt.index("# Task") :]
         self.assertLess(
-            rendered_template.index("## 🔬 From the AI Labs"),
-            rendered_template.index("## 🔥 Trending AI Repositories"),
+            rendered.index("## 🔬 From the AI Labs"),
+            rendered.index("## 🔥 Trending AI Repositories"),
         )
 
 
