@@ -304,7 +304,7 @@
       "repository_id": 1168753718,
       "full_name": "every-app/open-seo",
       "readme_sha": "9a874a272ea17aebb6bca0efe6d5552ee0fb677a",
-      "classified_on": "2026-08-30",
+      "classified_on": "2026-08-31",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open source SEO platform offering keyword research, backlink analysis, and site audit capabilities.",
@@ -703,12 +703,12 @@
     "1136590548": {
       "repository_id": 1136590548,
       "full_name": "affaan-m/ECC",
-      "readme_sha": "76cb52e0d5f5abc54ff1e6e7d947b5cd8ff431b9",
-      "classified_on": "2026-08-22",
+      "readme_sha": "00d3a8ca7e6a9d602085fe9f9eebaa37e23513af",
+      "classified_on": "2026-08-31",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Agent harness framework optimizing skills, memory, and security for Claude and other AI assistants.",
-      "rationale": "Explicitly designed as performance optimization system for AI agents with direct Claude integration and LLM support."
+      "summary": "Agent harness system optimizing performance and capabilities for Claude Code, Cursor, and other LLM coding clients.",
+      "rationale": "Directly targets AI agent enhancement with skills, memory management, MCP servers, and performance optimization for multiple LLM platforms; agent augmentation is the core product."
     },
     "1232995828": {
       "repository_id": 1232995828,
@@ -873,12 +873,12 @@
     "1237819660": {
       "repository_id": 1237819660,
       "full_name": "zhaoxuya520/reverse-skill",
-      "readme_sha": "1b0358bcd691e33d6f638607da8cc4eb4c2828e5",
-      "classified_on": "2026-08-09",
+      "readme_sha": "5a59f7270d6c9c6b49f6ec3bc4f3dae8a5a1a4e0",
+      "classified_on": "2026-08-31",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "AI-powered routing framework for reverse engineering, penetration testing, and security research.",
-      "rationale": "Explicitly designed for AI coding agents (Claude Code, Cursor, Cline) with structured skill routing, MCP servers, and automation toolchains organized around AI agent capabilities."
+      "summary": "AI-powered routing framework enabling AI coding clients to perform security research with methodology guidance.",
+      "rationale": "Explicitly designed for AI agents (Claude Code, Cursor, Cline) to perform reverse engineering and penetration testing; core innovation is routing security tasks to appropriate methodologies for AI automation."
     },
     "202291859": {
       "repository_id": 202291859,
@@ -2084,7 +2084,7 @@
       "repository_id": 1153579168,
       "full_name": "Osmantic/ODS",
       "readme_sha": "bedd0752b3f6827a1c50d60461b92c2dde5bc8e2",
-      "classified_on": "2026-08-30",
+      "classified_on": "2026-08-31",
       "ai_related": true,
       "project_type": "Application",
       "summary": "Local AI server platform enabling LLM inference, chat, voice, agents, RAG, and image generation.",
@@ -2109,6 +2109,66 @@
       "project_type": "Application",
       "summary": "GitHub Actions workflow utility for checking out repositories in continuous integration pipelines.",
       "rationale": "GitHub Actions tool for repository operations; no AI-related functionality or scope."
+    },
+    "890017796": {
+      "repository_id": 890017796,
+      "full_name": "k1tbyte/Wand-Enhancer",
+      "readme_sha": "8c7bb7890f2c70fcaf7eabc1455b08df8ba73f8b",
+      "classified_on": "2026-08-31",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Advanced UX enhancement and interoperability extension tool for the Wand gaming mod application.",
+      "rationale": "Gaming enhancement tool with peripheral AI features listed, but primarily organized as a utility extension, not as AI-focused software."
+    },
+    "369755856": {
+      "repository_id": 369755856,
+      "full_name": "majd/ipatool",
+      "readme_sha": "63200f00528c144cfe8b1e585c3dc75ca09983b7",
+      "classified_on": "2026-08-31",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "Command-line tool for searching and downloading iOS app packages from the App Store.",
+      "rationale": "Reverse-engineering and security research tool for iOS applications; entirely unrelated to AI."
+    },
+    "834369920": {
+      "repository_id": 834369920,
+      "full_name": "jingyaogong/minimind",
+      "readme_sha": "bba2b9de7da29fe915a801ebbb24e08880345804",
+      "classified_on": "2026-08-31",
+      "ai_related": true,
+      "project_type": "Model",
+      "summary": "Framework for training 64M-parameter language models from scratch with complete implementation coverage.",
+      "rationale": "Complete LLM training framework with native implementations of pretraining, SFT, RLHF, DPO, RLAIF, and agentic RL algorithms."
+    },
+    "12499251": {
+      "repository_id": 12499251,
+      "full_name": "checkstyle/checkstyle",
+      "readme_sha": "cb101acfc8dd801a7ad1f1c7b8c81226b54abcbb",
+      "classified_on": "2026-08-31",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "Static code analysis tool that enforces Java coding standards and best practices.",
+      "rationale": "Code quality tool for Java; entirely unrelated to AI."
+    },
+    "1079089186": {
+      "repository_id": 1079089186,
+      "full_name": "kaifcodec/user-scanner",
+      "readme_sha": "369f9490741ab5ebb9bb8f6f605c788d4a2e2c7a",
+      "classified_on": "2026-08-31",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "OSINT suite analyzing 465+ vectors for email and username reconnaissance across platforms with cross-pivot capability.",
+      "rationale": "Core product is a security reconnaissance tool; MCP server support for AI agents is an integration layer added as a feature, not material to the primary scanning functionality."
+    },
+    "1204004374": {
+      "repository_id": 1204004374,
+      "full_name": "handsomestWei/patent-disclosure-skill",
+      "readme_sha": "60f13496858063beeef24bcdd8eb5d1b908e0b32",
+      "classified_on": "2026-08-31",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Patent analysis skill for AI agents supporting invention, utility, and design patent disclosure writing and interpretation.",
+      "rationale": "Explicitly branded as AgentSkills Standard component designed to augment AI agent capabilities; AI integration is material to core purpose of supporting patent documentation workflows."
     }
   }
 }

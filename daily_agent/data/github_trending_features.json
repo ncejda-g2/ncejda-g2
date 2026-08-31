@@ -340,8 +340,8 @@
       "repository_id": 1237819660,
       "full_name": "zhaoxuya520/reverse-skill",
       "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "total_stars": 21760,
-      "last_full_featured": "2026-08-09"
+      "total_stars": 32613,
+      "last_full_featured": "2026-08-31"
     },
     "655806940": {
       "repository_id": 655806940,
@@ -825,6 +825,20 @@
       "url": "https://github.com/p-e-w/heretic",
       "total_stars": 28869,
       "last_full_featured": "2026-08-30"
+    },
+    "834369920": {
+      "repository_id": 834369920,
+      "full_name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "total_stars": 55722,
+      "last_full_featured": "2026-08-31"
+    },
+    "1153579168": {
+      "repository_id": 1153579168,
+      "full_name": "Osmantic/ODS",
+      "url": "https://github.com/Osmantic/ODS",
+      "total_stars": 5194,
+      "last_full_featured": "2026-08-31"
     }
   }
 }
