@@ -304,7 +304,7 @@
       "repository_id": 1168753718,
       "full_name": "every-app/open-seo",
       "readme_sha": "9a874a272ea17aebb6bca0efe6d5552ee0fb677a",
-      "classified_on": "2026-08-31",
+      "classified_on": "2026-09-01",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open source SEO platform offering keyword research, backlink analysis, and site audit capabilities.",
@@ -704,7 +704,7 @@
       "repository_id": 1136590548,
       "full_name": "affaan-m/ECC",
       "readme_sha": "00d3a8ca7e6a9d602085fe9f9eebaa37e23513af",
-      "classified_on": "2026-08-31",
+      "classified_on": "2026-09-01",
       "ai_related": true,
       "project_type": "Framework",
       "summary": "Agent harness system optimizing performance and capabilities for Claude Code, Cursor, and other LLM coding clients.",
@@ -1043,12 +1043,12 @@
     "1151702019": {
       "repository_id": 1151702019,
       "full_name": "firecrawl/pdf-inspector",
-      "readme_sha": "a30034a8f467b5ce29d8125d74c5abcfef44c846",
-      "classified_on": "2026-08-07",
+      "readme_sha": "8be97580719c0b1f8c79969b7ffd11580a288d61",
+      "classified_on": "2026-09-01",
       "ai_related": false,
       "project_type": "Library",
-      "summary": "Fast Rust library for PDF classification, text extraction, and markdown conversion without requiring OCR.",
-      "rationale": "General-purpose PDF processing tool using rule-based logic for classification. No ML models, AI training, or AI-specific organization despite intelligent routing features."
+      "summary": "Fast Rust library for PDF text extraction, classification, and intelligent markdown conversion capabilities.",
+      "rationale": "General-purpose PDF processing library; optional OCR and classification are secondary features, not the organizing principle."
     },
     "83222441": {
       "repository_id": 83222441,
@@ -1823,12 +1823,12 @@
     "1220744720": {
       "repository_id": 1220744720,
       "full_name": "freestylefly/awesome-gpt-image-2",
-      "readme_sha": "ec1a6caddeae8c3ece0a2f2a55e46b6729def411",
-      "classified_on": "2026-08-24",
+      "readme_sha": "73da2cd743d0dd39ba7cdc464ec30452f0d734a4",
+      "classified_on": "2026-09-01",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Industrial prompt templates and 500+ reverse-engineered examples for GPT Image 2 image generation.",
-      "rationale": "Curated collection explicitly organized around AI image generation; core content is prompt engineering cases and templates for AI systems."
+      "summary": "Curated prompt library with 544 cases for GPT-Image2 and AI image generation automation.",
+      "rationale": "Collection explicitly organized around AI image generation; structured templates and agent skills for production workflows."
     },
     "1144520675": {
       "repository_id": 1144520675,
@@ -2114,7 +2114,7 @@
       "repository_id": 890017796,
       "full_name": "k1tbyte/Wand-Enhancer",
       "readme_sha": "8c7bb7890f2c70fcaf7eabc1455b08df8ba73f8b",
-      "classified_on": "2026-08-31",
+      "classified_on": "2026-09-01",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Advanced UX enhancement and interoperability extension tool for the Wand gaming mod application.",
@@ -2124,7 +2124,7 @@
       "repository_id": 369755856,
       "full_name": "majd/ipatool",
       "readme_sha": "63200f00528c144cfe8b1e585c3dc75ca09983b7",
-      "classified_on": "2026-08-31",
+      "classified_on": "2026-09-01",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "Command-line tool for searching and downloading iOS app packages from the App Store.",
@@ -2144,7 +2144,7 @@
       "repository_id": 12499251,
       "full_name": "checkstyle/checkstyle",
       "readme_sha": "cb101acfc8dd801a7ad1f1c7b8c81226b54abcbb",
-      "classified_on": "2026-08-31",
+      "classified_on": "2026-09-01",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "Static code analysis tool that enforces Java coding standards and best practices.",
@@ -2153,22 +2153,32 @@
     "1079089186": {
       "repository_id": 1079089186,
       "full_name": "kaifcodec/user-scanner",
-      "readme_sha": "369f9490741ab5ebb9bb8f6f605c788d4a2e2c7a",
-      "classified_on": "2026-08-31",
+      "readme_sha": "a293771ef901d579ecddb99cf4d025065a7f3baf",
+      "classified_on": "2026-09-01",
       "ai_related": false,
-      "project_type": "Application",
-      "summary": "OSINT suite analyzing 465+ vectors for email and username reconnaissance across platforms with cross-pivot capability.",
-      "rationale": "Core product is a security reconnaissance tool; MCP server support for AI agents is an integration layer added as a feature, not material to the primary scanning functionality."
+      "project_type": "CLI",
+      "summary": "OSINT tool for email and username reconnaissance across 465+ platforms, extracting metadata for security investigations.",
+      "rationale": "Non-AI cybersecurity/OSINT product. While it offers optional MCP server integration for LLM agents, AI is supplementary, not material to the core reconnaissance product. Per guidelines, an otherwise non-AI tool does not qualify solely due to added MCP or automation features."
     },
     "1204004374": {
       "repository_id": 1204004374,
       "full_name": "handsomestWei/patent-disclosure-skill",
-      "readme_sha": "60f13496858063beeef24bcdd8eb5d1b908e0b32",
-      "classified_on": "2026-08-31",
+      "readme_sha": "2f794b0854c31df04f2ff2f52133dc4129f62a39",
+      "classified_on": "2026-09-01",
       "ai_related": true,
-      "project_type": "Framework",
-      "summary": "Patent analysis skill for AI agents supporting invention, utility, and design patent disclosure writing and interpretation.",
-      "rationale": "Explicitly branded as AgentSkills Standard component designed to augment AI agent capabilities; AI integration is material to core purpose of supporting patent documentation workflows."
+      "project_type": "Repository",
+      "summary": "Chinese patent disclosure tool using AI for document generation and legal analysis.",
+      "rationale": "LLM-driven system for patent point extraction, disclosure drafting, interpretation, and review assistance; AI is core to the product."
+    },
+    "1111189673": {
+      "repository_id": 1111189673,
+      "full_name": "pollen-robotics/microduck_rl",
+      "readme_sha": "308ff4ceafc29c9064f7fddb685ff01b34c3f9fb",
+      "classified_on": "2026-09-01",
+      "ai_related": true,
+      "project_type": "Research",
+      "summary": "Reinforcement learning training framework for bipedal robot policy development using PPO and simulation.",
+      "rationale": "Core RL research for robot control; includes PPO training, domain randomization, and sim2real techniques."
     }
   }
 }

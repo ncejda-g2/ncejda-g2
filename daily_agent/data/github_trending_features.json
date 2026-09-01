@@ -291,8 +291,8 @@
       "repository_id": 1136590548,
       "full_name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
-      "total_stars": 241860,
-      "last_full_featured": "2026-08-22"
+      "total_stars": 245468,
+      "last_full_featured": "2026-09-01"
     },
     "839428333": {
       "repository_id": 839428333,
@@ -839,6 +839,20 @@
       "url": "https://github.com/Osmantic/ODS",
       "total_stars": 5194,
       "last_full_featured": "2026-08-31"
+    },
+    "1204004374": {
+      "repository_id": 1204004374,
+      "full_name": "handsomestWei/patent-disclosure-skill",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+      "total_stars": 6536,
+      "last_full_featured": "2026-09-01"
+    },
+    "1111189673": {
+      "repository_id": 1111189673,
+      "full_name": "pollen-robotics/microduck_rl",
+      "url": "https://github.com/pollen-robotics/microduck_rl",
+      "total_stars": 1338,
+      "last_full_featured": "2026-09-01"
     }
   }
 }

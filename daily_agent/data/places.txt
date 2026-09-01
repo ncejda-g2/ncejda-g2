@@ -158,3 +158,4 @@ at the world's loneliest lighthouse, staffed by an AI that's been talking to sea
 inside a browser tab that nobody remembers opening but everyone is afraid to close
 at a library where the AI catalog system has filed every book under 'miscellaneous'
 at an AI fashion show where every model keeps glitching mid-strut
+in a fortune teller's tent where the crystal ball has been replaced by a glitching AI
