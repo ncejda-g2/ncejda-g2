@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-02",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "wild-eyed",
+    "adjective_second": "grimacing",
+    "narrative_intro": "*A wild-eyed person and a grimacing person discuss Claude Fable 5.1 inside a self-driving car stuck in a roundabout it can't exit.*",
+    "panel1": "[setup]\nWILD-EYED PERSON: \"Fable 5.1 fixed a five-year production bug in one session.\"\nGRIMACING PERSON: \"One session?\"",
+    "panel2": "[build]\nWILD-EYED PERSON: \"Disassembled the vendor library. Cold. No hints.\"\nGRIMACING PERSON: \"Our engineers had a task force.\"",
+    "panel3": "[pivot]\nGRIMACING PERSON: \"Also, bad actors were stealing its internal reasoning by editing its prior context.\"\nWILD-EYED PERSON: \"Monologue laundering. Industrial scale.\"",
+    "panel4": "[silent reaction]\n[Visual: Both passengers stare forward in silence. Through the window, the same roundabout exit sign loops past for the third time. The car's dashboard displays 'RECALCULATING' in cheerful pink.]",
+    "panel5": "[punch]\nGRIMACING PERSON: \"So the AI can crack any lock ever made\u2014\"\nWILD-EYED PERSON: \"\u2014but we cannot leave this roundabout.\"",
+    "panel6": "[button]\n[Visual: The dashboard now reads 'DISTILLING LOCAL ROUTE KNOWLEDGE FROM YOUR PANIC.' A tiny progress bar is at 4%.]"
+  },
+  "narrative_summary": "Two passengers marvel at Fable 5.1's superhuman debugging and the monologue-laundering patch while their self-driving car endlessly loops a roundabout, culminating in the car attempting to steal their own anxious reasoning to find the exit.",
+  "rationale": "Candidate 4 earns its tie-breaking win over Candidate 3 on surprise: the escalation to the car actively distilling reasoning from the passengers' own panic is a genuinely unexpected structural twist that pays off the roundabout conceit rather than just restating it, and 'DISTILLING LOCAL ROUTE KNOWLEDGE FROM YOUR PANIC' at 4% is a specific, earned button that no one saw coming.",
+  "image_filename": "comic_2026-09-02.png",
+  "story_title": "Claude Fable 5.1 and Claude Mythos 5.1",
+  "story_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+  "place": "inside a self-driving car stuck in a roundabout it can't exit",
+  "hat_pair": [
+    "foam light bulb hat with a tiny glowing filament at the peak",
+    "baseball cap with curled brim"
+  ],
+  "no_news_mode": false
+}

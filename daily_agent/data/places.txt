@@ -159,3 +159,4 @@ inside a browser tab that nobody remembers opening but everyone is afraid to clo
 at a library where the AI catalog system has filed every book under 'miscellaneous'
 at an AI fashion show where every model keeps glitching mid-strut
 in a fortune teller's tent where the crystal ball has been replaced by a glitching AI
+inside an AI's first therapy session

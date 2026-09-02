@@ -954,11 +954,11 @@
       "repository_id": 120542434,
       "full_name": "iv-org/invidious",
       "readme_sha": "a50441a97a20c52d6a52b1ce51c3f599b1a95ac5",
-      "classified_on": "2026-08-03",
+      "classified_on": "2026-09-02",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Privacy-focused YouTube alternative frontend with lightweight video watching and no tracking.",
-      "rationale": "Non-AI product. Core functionality is video streaming front-end; no material AI component in primary purpose or features."
+      "summary": "Open-source alternative YouTube front-end providing privacy-focused video watching without ads or tracking.",
+      "rationale": "Privacy-focused video application; no AI components or functionality mentioned. General-purpose tools for video consumption and subscription management."
     },
     "1104510027": {
       "repository_id": 1104510027,
@@ -1044,7 +1044,7 @@
       "repository_id": 1151702019,
       "full_name": "firecrawl/pdf-inspector",
       "readme_sha": "8be97580719c0b1f8c79969b7ffd11580a288d61",
-      "classified_on": "2026-09-01",
+      "classified_on": "2026-09-02",
       "ai_related": false,
       "project_type": "Library",
       "summary": "Fast Rust library for PDF text extraction, classification, and intelligent markdown conversion capabilities.",
@@ -1383,12 +1383,12 @@
     "32689863": {
       "repository_id": 32689863,
       "full_name": "3b1b/manim",
-      "readme_sha": "c86e219d8ff7e67665af6613f55b9e1e014e3a0d",
-      "classified_on": "2026-08-12",
+      "readme_sha": "fdbcfd7d98b9a9d99a885a24c1f8755d9ef17898",
+      "classified_on": "2026-09-02",
       "ai_related": false,
       "project_type": "Framework",
-      "summary": "Animation engine for precise programmatic animations designed for explanatory mathematics video production.",
-      "rationale": "General-purpose animation framework; primary product is visualization tool unrelated to AI."
+      "summary": "Precision animation engine designed for creating explanatory mathematical videos programmatically.",
+      "rationale": "General-purpose animation framework for mathematics education; no AI components mentioned or integrated into core functionality."
     },
     "1124219907": {
       "repository_id": 1124219907,
@@ -1874,11 +1874,11 @@
       "repository_id": 1186805550,
       "full_name": "anthropics/claude-plugins-community",
       "readme_sha": "abe78e5fbe9b97f3d32aed7fe526b3aabf82fe9a",
-      "classified_on": "2026-08-26",
-      "ai_related": false,
+      "classified_on": "2026-09-02",
+      "ai_related": true,
       "project_type": "Repository",
-      "summary": "Community plugin marketplace for Claude Cowork and Claude Code; read-only mirror of official directory.",
-      "rationale": "Platform-specific plugin directory organized around extensions for a particular product rather than curated as an AI resource collection."
+      "summary": "Community plugin marketplace providing approved extensions for Claude Cowork and Claude Code assistants.",
+      "rationale": "Directory explicitly curated for AI agent platform capabilities. Collection is organized entirely around AI agent extensions, not a general catalog with AI entries."
     },
     "1203670949": {
       "repository_id": 1203670949,
@@ -2179,6 +2179,66 @@
       "project_type": "Research",
       "summary": "Reinforcement learning training framework for bipedal robot policy development using PPO and simulation.",
       "rationale": "Core RL research for robot control; includes PPO training, domain randomization, and sim2real techniques."
+    },
+    "1197990888": {
+      "repository_id": 1197990888,
+      "full_name": "Gitlawb/openclaude",
+      "readme_sha": "a5e286186fb756e75c2c87c0bde2724193b1a193",
+      "classified_on": "2026-09-02",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Open-source coding-agent CLI supporting multiple LLM providers with agent workflows and MCP tools.",
+      "rationale": "Coding-agent CLI explicitly designed for multi-provider LLM integration with agent-focused workflows, prompts, and tools as core functionality."
+    },
+    "1167300963": {
+      "repository_id": 1167300963,
+      "full_name": "Imbad0202/academic-research-skills",
+      "readme_sha": "8c46fe7c4be4cec2777da764e562adddb8038cf0",
+      "classified_on": "2026-09-02",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Claude Code skills collection automating research pipeline from literature review through peer review.",
+      "rationale": "Explicit AI-research focus integrating with Claude Code for human-in-the-loop academic research automation including citations, fact-checking, and revision."
+    },
+    "1208221543": {
+      "repository_id": 1208221543,
+      "full_name": "browser-use/video-use",
+      "readme_sha": "0f7b264913faf30f4744162c0ae45edc99de424d",
+      "classified_on": "2026-09-02",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI coding agents automatically edit videos by cutting filler, color grading, and burning subtitles.",
+      "rationale": "AI agents (Claude Code, etc.) are the primary mechanism—users interact via natural language commands to accomplish video editing tasks, making AI plausibly material to the product's core function."
+    },
+    "1197515131": {
+      "repository_id": 1197515131,
+      "full_name": "VoltAgent/awesome-design-md",
+      "readme_sha": "3e989b4971ae2692190ae25119e7f8e0d63a558e",
+      "classified_on": "2026-09-02",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Curated DESIGN.md files from major tech brands enabling AI agents to generate consistent UI.",
+      "rationale": "Collection is explicitly organized around AI agent capabilities. Its stated purpose is providing design specifications for coding agents to read and generate matching UI—the catalog itself is AI-focused, not incidentally."
+    },
+    "1196821690": {
+      "repository_id": 1196821690,
+      "full_name": "averygan/reclip",
+      "readme_sha": "f67212c72b7132b0fff2fb7fc950f04e3ba32771",
+      "classified_on": "2026-09-02",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Self-hosted media downloader with web UI for MP4 video or MP3 audio from 1000+ sites.",
+      "rationale": "General-purpose media downloader using yt-dlp and ffmpeg. No AI involvement stated or implied. Does not meet eligibility criteria."
+    },
+    "798201435": {
+      "repository_id": 798201435,
+      "full_name": "unclecode/crawl4ai",
+      "readme_sha": "310ac0240bfc78563f4ed0e5100ef3836abe699a",
+      "classified_on": "2026-09-02",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Web crawler and scraper that produces LLM-ready Markdown for AI agents and RAG pipelines.",
+      "rationale": "LLM optimization is central to design. Built specifically to convert web content into clean, structured format for consumption by language models and AI agents, making AI plausibly material to primary function."
     }
   }
 }
