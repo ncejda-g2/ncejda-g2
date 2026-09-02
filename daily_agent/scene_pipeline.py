@@ -31,6 +31,13 @@ import aiohttp
 
 from comic_templates import REGISTRY, MemeTemplate
 from custom_tools import image_gen_usage_log
+from llm_client import call_structured_llm, extract_response_cost
+from model_config import (
+    LUNA_COMEDY_REASONING_EFFORT,
+    LUNA_CRITIC_REASONING_EFFORT,
+    LUNA_MODEL,
+    LUNA_SERVICE_TIER,
+)
 
 TemplateFilter = Literal["meme", "classic", "any"]
 """Constrains which templates the 5 generators may pick from.
@@ -101,7 +108,7 @@ class StoryContext:
     title: str
     url: str
     summary: str
-    """Optional WebFetch-derived summary; may be empty."""
+    """Grounded article summary from direct extraction or the WebFetch fallback."""
 
     character_pool: list[str]
     """Random adjective+animal pairs for the classic 6-panel template."""
@@ -175,66 +182,39 @@ VOICES: list[tuple[str, str]] = [
 ]
 
 
-# ---------------------------------------------------------------------------
-# LiteLLM proxy call
-# ---------------------------------------------------------------------------
+_DEFAULT_MODEL = LUNA_MODEL
 
 
-_DEFAULT_MODEL = "anthropic/claude-sonnet-4-6"
+def _generator_schema(allowed: dict[str, MemeTemplate]) -> dict[str, Any]:
+    """Build explicit per-template field schemas.
 
+    Anthropic's structured-output translation accepts an unconstrained object but
+    may legally return it empty. Enumerating every required field makes the server
+    produce usable candidates before the existing semantic validation runs.
+    """
 
-async def _call_llm(
-    session: aiohttp.ClientSession,
-    *,
-    system: str,
-    user: str,
-    model: str = _DEFAULT_MODEL,
-    max_tokens: int = 2500,
-    temperature: float = 0.9,
-) -> str:
-    base_url = os.environ.get("LITELLM_BASE_URL")
-    api_key = os.environ.get("LITELLM_API_KEY")
-    if not base_url or not api_key:
-        raise RuntimeError("LITELLM_BASE_URL and LITELLM_API_KEY must be set")
+    def candidate_schema(template: MemeTemplate) -> dict[str, Any]:
+        return {
+            "type": "object",
+            "additionalProperties": False,
+            "properties": {
+                "template_id": {"type": "string", "enum": [template.id]},
+                "fields": {
+                    "type": "object",
+                    "additionalProperties": False,
+                    "properties": {
+                        field: {"type": "string"}
+                        for field in template.required_fields
+                    },
+                    "required": template.required_fields,
+                },
+                "narrative_summary": {"type": "string", "maxLength": 800},
+            },
+            "required": ["template_id", "fields", "narrative_summary"],
+        }
 
-    url = f"{base_url.rstrip('/')}/v1/chat/completions"
-    payload = {
-        "model": model,
-        "messages": [
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-        ],
-        "max_tokens": max_tokens,
-        "temperature": temperature,
-    }
-
-    async with session.post(
-        url,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        },
-        json=payload,
-        timeout=aiohttp.ClientTimeout(total=180),
-    ) as resp:
-        body = await resp.text()
-        if resp.status != 200:
-            raise RuntimeError(f"LLM HTTP {resp.status}: {body[:500]}")
-        data = json.loads(body)
-        return data["choices"][0]["message"]["content"]
-
-
-def _extract_json_object(text: str) -> dict[str, Any]:
-    """Parse the first JSON object out of an LLM response, tolerating markdown fences."""
-    s = text.strip()
-    if s.startswith("```"):
-        nl = s.find("\n")
-        if nl != -1:
-            s = s[nl + 1 :]
-        if s.endswith("```"):
-            s = s[:-3]
-        s = s.strip()
-    return json.loads(s)
+    variants = [candidate_schema(template) for template in allowed.values()]
+    return variants[0] if len(variants) == 1 else {"oneOf": variants}
 
 
 # ---------------------------------------------------------------------------
@@ -314,16 +294,22 @@ async def _run_generator(
     prompt = _build_generator_prompt(story, voice_label, voice_description, allowed)
 
     try:
-        raw = await _call_llm(
+        parsed = await call_structured_llm(
             session,
+            phase=f"comic_generator_{voice_label}",
             system=(
                 "You are a sharp, specific comedy writer for a daily AI news strip. "
-                "Output strict JSON only — no markdown, no commentary."
+                "Return the requested structured scene only."
             ),
             user=prompt,
+            schema_name="comic_candidate",
+            schema=_generator_schema(allowed),
+            model=_DEFAULT_MODEL,
+            max_tokens=2500,
             temperature=1.0,
+            reasoning_effort=LUNA_COMEDY_REASONING_EFFORT,
+            service_tier=LUNA_SERVICE_TIER,
         )
-        parsed = _extract_json_object(raw)
     except Exception as exc:
         print(f"[generator/{voice_label}] FAILED to call/parse: {exc}")
         return None
@@ -361,7 +347,7 @@ async def _run_generator(
         fields=fields_str,
         narrative_summary=parsed.get("narrative_summary", ""),
         voice_label=voice_label,
-        raw_response=raw,
+        raw_response=json.dumps(parsed),
     )
 
 
@@ -423,16 +409,59 @@ async def _run_critic(
         return 0, "only one candidate survived"
 
     prompt = _build_critic_prompt(story, candidates)
-    raw = await _call_llm(
+    score_schema = {
+        "type": "object",
+        "additionalProperties": False,
+        "properties": {
+            "candidate": {"type": "integer", "minimum": 1, "maximum": len(candidates)},
+            "specificity": {"type": "integer", "minimum": 0, "maximum": 3},
+            "surprise": {"type": "integer", "minimum": 0, "maximum": 3},
+            "fit": {"type": "integer", "minimum": 0, "maximum": 3},
+            "punchline": {"type": "integer", "minimum": 0, "maximum": 3},
+            "work_appropriate": {"type": "integer", "minimum": 0, "maximum": 3},
+            "total": {"type": "integer", "minimum": 0, "maximum": 15},
+        },
+        "required": [
+            "candidate",
+            "specificity",
+            "surprise",
+            "fit",
+            "punchline",
+            "work_appropriate",
+            "total",
+        ],
+    }
+    critic_schema = {
+        "type": "object",
+        "additionalProperties": False,
+        "properties": {
+            "scores": {
+                "type": "array",
+                "minItems": len(candidates),
+                "maxItems": len(candidates),
+                "items": score_schema,
+            },
+            "winner": {"type": "integer", "minimum": 1, "maximum": len(candidates)},
+            "rationale": {"type": "string", "maxLength": 1000},
+        },
+        "required": ["scores", "winner", "rationale"],
+    }
+    parsed = await call_structured_llm(
         session,
+        phase="comic_critic",
         system=(
             "You are a discriminating comedy editor with strong opinions and a "
-            "low tolerance for generic punchlines. Output strict JSON only."
+            "low tolerance for generic punchlines. Return the structured evaluation only."
         ),
         user=prompt,
+        schema_name="comic_critique",
+        schema=critic_schema,
+        model=_DEFAULT_MODEL,
+        max_tokens=2200,
         temperature=0.3,
+        reasoning_effort=LUNA_CRITIC_REASONING_EFFORT,
+        service_tier=LUNA_SERVICE_TIER,
     )
-    parsed = _extract_json_object(raw)
     winner_idx = int(parsed["winner"]) - 1
     rationale = parsed.get("rationale", "")
     if not (0 <= winner_idx < len(candidates)):
@@ -585,7 +614,11 @@ async def render_scene_to_image(
             usage = data.get("usage")
             if usage:
                 image_gen_usage_log.append(
-                    {"model": "openai/gpt-image-2", "usage": usage}
+                    {
+                        "model": "openai/gpt-image-2",
+                        "usage": usage,
+                        "cost_usd": extract_response_cost(data, resp.headers),
+                    }
                 )
             b64 = data["data"][0]["b64_json"]
 
