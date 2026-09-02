@@ -117,6 +117,8 @@ async def call_structured_llm(
     model: str,
     max_tokens: int = 2500,
     temperature: float = 0.2,
+    reasoning_effort: str | None = None,
+    service_tier: str | None = None,
     attempts: int = 2,
 ) -> dict[str, Any]:
     """Call LiteLLM with JSON Schema output and validate the returned object.
@@ -134,13 +136,24 @@ async def call_structured_llm(
     last_error: Exception | None = None
 
     for attempt in range(1, attempts + 1):
+        # The proxy counts reasoning tokens inside max_tokens for GPT-5.6 Luna.
+        # Give high/xhigh/max enough headroom to emit the required JSON after
+        # reasoning, while keeping the caller's normal budgets unchanged for
+        # other models and lower-effort Luna calls.
+        effective_max_tokens = max_tokens
+        if model.startswith("openai/gpt-5.6-luna") and reasoning_effort in {
+            "high",
+            "xhigh",
+            "max",
+        }:
+            effective_max_tokens = max_tokens * 3
         payload = {
             "model": model,
             "messages": [
                 {"role": "system", "content": system},
                 {"role": "user", "content": user},
             ],
-            "max_tokens": max_tokens,
+            "max_tokens": effective_max_tokens,
             "temperature": temperature,
             "response_format": {
                 "type": "json_schema",
@@ -151,6 +164,10 @@ async def call_structured_llm(
                 },
             },
         }
+        if reasoning_effort is not None:
+            payload["reasoning_effort"] = reasoning_effort
+        if service_tier is not None:
+            payload["service_tier"] = service_tier
         started = time.monotonic()
         try:
             async with session.post(

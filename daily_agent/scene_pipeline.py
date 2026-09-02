@@ -32,6 +32,12 @@ import aiohttp
 from comic_templates import REGISTRY, MemeTemplate
 from custom_tools import image_gen_usage_log
 from llm_client import call_structured_llm, extract_response_cost
+from model_config import (
+    LUNA_COMEDY_REASONING_EFFORT,
+    LUNA_CRITIC_REASONING_EFFORT,
+    LUNA_MODEL,
+    LUNA_SERVICE_TIER,
+)
 
 TemplateFilter = Literal["meme", "classic", "any"]
 """Constrains which templates the 5 generators may pick from.
@@ -176,7 +182,7 @@ VOICES: list[tuple[str, str]] = [
 ]
 
 
-_DEFAULT_MODEL = "anthropic/claude-sonnet-4-6"
+_DEFAULT_MODEL = LUNA_MODEL
 
 
 def _generator_schema(allowed: dict[str, MemeTemplate]) -> dict[str, Any]:
@@ -301,6 +307,8 @@ async def _run_generator(
             model=_DEFAULT_MODEL,
             max_tokens=2500,
             temperature=1.0,
+            reasoning_effort=LUNA_COMEDY_REASONING_EFFORT,
+            service_tier=LUNA_SERVICE_TIER,
         )
     except Exception as exc:
         print(f"[generator/{voice_label}] FAILED to call/parse: {exc}")
@@ -451,6 +459,8 @@ async def _run_critic(
         model=_DEFAULT_MODEL,
         max_tokens=2200,
         temperature=0.3,
+        reasoning_effort=LUNA_CRITIC_REASONING_EFFORT,
+        service_tier=LUNA_SERVICE_TIER,
     )
     winner_idx = int(parsed["winner"]) - 1
     rationale = parsed.get("rationale", "")

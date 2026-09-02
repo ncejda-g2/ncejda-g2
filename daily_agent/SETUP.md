@@ -2,8 +2,8 @@
 
 The newspaper runs once per day in GitHub Actions. Python owns fetching,
 deduplication, validation, state, and README rendering. Focused model calls use
-strict structured outputs through the G2 LiteLLM proxy. Sonnet remains responsible
-for editorial judgment and the five-writer-plus-critic comic pipeline.
+strict structured outputs through the G2 LiteLLM proxy. GPT-5.6 Luna drives the
+normal text pipeline; Claude is retained only for the rare article-fetch fallback.
 
 ## Prerequisites
 
@@ -23,6 +23,14 @@ The main dependencies are:
 - `trafilatura` and `beautifulsoup4` for article extraction
 - `jsonschema` for validating every direct model response
 - `claude-agent-sdk` only for the quality-preserving WebFetch fallback
+
+Direct text calls use `openai/gpt-5.6-luna` on the standard (`default`) service
+tier. Reasoning effort is role-specific: low for trending enrichment, medium for
+source classification, high for editorial selection/summaries and the comic
+critic, and xhigh for the five comic writers. The model can be overridden for a
+local experiment with `NEWSPAPER_LUNA_MODEL` and the global
+`NEWSPAPER_LUNA_REASONING_EFFORT`; role-specific variables such as
+`NEWSPAPER_LUNA_COMEDY_REASONING_EFFORT` take precedence.
 
 ## Configure environment variables
 
@@ -59,10 +67,10 @@ A run performs the following work:
 
 1. Fetch Hacker News, official AI-lab sources, and GitHub Trending.
 2. Parse the prior README and remove yesterday's stories deterministically.
-3. Classify candidates once with Haiku, then ask Sonnet for the editorial selection.
+3. Classify candidates once with Luna, then ask Luna for the editorial selection.
 4. Fetch the selected article URL and extract its main text. Use WebFetch only when
    the extracted text does not pass the quality gate.
-5. Generate five Sonnet comic candidates and select a winner with a Sonnet critic.
+5. Generate five Luna comic candidates and select a winner with a Luna critic.
 6. Render the comic with `gpt-image-2`.
 7. Render README.md deterministically from validated structured data.
 8. Save phase-level model usage under `daily_agent/data/tokens/`.
