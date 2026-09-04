@@ -14,11 +14,11 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "readme_sha": "ff9b797a342d3a64b52f9f5a83d9fc4ce28709dc",
-      "classified_on": "2026-08-20",
+      "classified_on": "2026-09-04",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Composable agent skills and prompts for coding assistants to improve software engineering effectiveness.",
-      "rationale": "Curated collection of reusable skills specifically designed for AI coding agents. AI is material to the collection's organizing purpose and primary audience."
+      "summary": "A collection of adaptable engineering skills designed to improve workflows for Claude Code, Codex, and other agents.",
+      "rationale": "The repository is explicitly organized around skills for AI coding agents and agent-assisted software development."
     },
     "1006414368": {
       "repository_id": 1006414368,
@@ -1374,11 +1374,11 @@
       "repository_id": 1061953414,
       "full_name": "anthropics/skills",
       "readme_sha": "eb54ee8b92f2d40b4b26569be0772be3c1e23156",
-      "classified_on": "2026-08-12",
+      "classified_on": "2026-09-04",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Collection of skills and instructions for Claude AI agents to perform specialized tasks dynamically.",
-      "rationale": "Curated collection organized around extending Claude agent capabilities; skills are core to AI agent specialization."
+      "summary": "A collection of Agent Skills that dynamically enhances Claude for creative, technical, document, and enterprise tasks.",
+      "rationale": "This repository is explicitly dedicated to skills that extend Claude and the Agent Skills standard."
     },
     "32689863": {
       "repository_id": 32689863,
@@ -1864,11 +1864,11 @@
       "repository_id": 1024554267,
       "full_name": "NousResearch/hermes-agent",
       "readme_sha": "c05112266746ff99a3326a62c38c33fbc08ecd23",
-      "classified_on": "2026-08-25",
+      "classified_on": "2026-09-04",
       "ai_related": true,
-      "project_type": "Application",
-      "summary": "Self-improving AI agent with learning loop, autonomous skill creation, memory persistence, and multiplatform interfaces.",
-      "rationale": "Complete AI agent system where autonomous intelligence and learning are the core product; not peripheral features."
+      "project_type": "CLI",
+      "summary": "A self-improving AI agent offering conversations, tools, memory, automation, delegation, and multiple deployment backends.",
+      "rationale": "AI agents and language-model interactions are the repository’s central product, including tools, memory, and model integrations."
     },
     "1186805550": {
       "repository_id": 1186805550,
@@ -2044,7 +2044,7 @@
       "repository_id": 1266797999,
       "full_name": "DietrichGebert/ponytail",
       "readme_sha": "c57811a01bcc35d103ef9532378cd22fc3005133",
-      "classified_on": "2026-08-29",
+      "classified_on": "2026-09-04",
       "ai_related": true,
       "project_type": "Collection",
       "summary": "AI agent skill library optimizing code generation to follow minimalist development principles.",
@@ -2239,6 +2239,16 @@
       "project_type": "Library",
       "summary": "Web crawler and scraper that produces LLM-ready Markdown for AI agents and RAG pipelines.",
       "rationale": "LLM optimization is central to design. Built specifically to convert web content into clean, structured format for consumption by language models and AI agents, making AI plausibly material to primary function."
+    },
+    "7056202": {
+      "repository_id": 7056202,
+      "full_name": "fmtlib/fmt",
+      "readme_sha": "ef5cc2b11d6c0cbdcf6db9eb2e7514f0be992b83",
+      "classified_on": "2026-09-04",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "Modern C++ formatting library providing fast, safe, portable alternatives to standard output facilities.",
+      "rationale": "General-purpose C++ formatting functionality is unrelated to AI as a primary subject or product."
     }
   }
 }

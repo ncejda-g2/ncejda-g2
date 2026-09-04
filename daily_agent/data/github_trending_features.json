@@ -11,8 +11,8 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "total_stars": 224172,
-      "last_full_featured": "2026-08-20"
+      "total_stars": 248483,
+      "last_full_featured": "2026-09-04"
     },
     "896144595": {
       "repository_id": 896144595,
@@ -746,8 +746,8 @@
       "repository_id": 1024554267,
       "full_name": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "total_stars": 235958,
-      "last_full_featured": "2026-08-25"
+      "total_stars": 241135,
+      "last_full_featured": "2026-09-04"
     },
     "1203670949": {
       "repository_id": 1203670949,
@@ -874,6 +874,13 @@
       "url": "https://github.com/browser-use/video-use",
       "total_stars": 23282,
       "last_full_featured": "2026-09-02"
+    },
+    "1266797999": {
+      "repository_id": 1266797999,
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "total_stars": 124115,
+      "last_full_featured": "2026-09-04"
     }
   }
 }

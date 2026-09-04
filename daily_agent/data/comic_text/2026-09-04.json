@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-04",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "skittish",
+    "adjective_second": "flustered",
+    "narrative_intro": "*A skittish person and a flustered person discuss GPT-6 Astra inside a broken time machine stuck between two eras.*",
+    "panel1": "[setup]\nSKITTISH PERSON: \"Today's headline: GPT-6 Astra.\"\n[Visual: They hold a newspaper whose entire story is one ominous URL.]",
+    "panel2": "[build]\nFLUSTERED PERSON: \"Excellent. What can Astra do?\"\n[Visual: The time machine's future dial spins wildly while its screen displays OPENAI.COM.]",
+    "panel3": "[pivot]\nSKITTISH PERSON: \"HTTP 403: the article won't let us find out.\"\n[Visual: A tiny velvet rope labeled 403 blocks the time machine's information console.]",
+    "panel4": "[silent reaction]\n[Visual: Both stare at a locked glass display labeled GPT-6 Astra; inside, a blank newspaper floats.]",
+    "panel5": "[punch]\nFLUSTERED PERSON: \"So it's advanced enough to deny journalism?\"\nSKITTISH PERSON: \"Apparently, from both eras.\"",
+    "panel6": "[button]\n[Visual: The machine's output slot prints 403 Forbidden into yesterday, tomorrow, and every blank edition. ]"
+  },
+  "narrative_summary": "GPT-6 Astra remains unknowable because OpenAI's HTTP 403 has become the only information successfully traveling through time.",
+  "rationale": "Candidate 5 makes the 403 blockage visually specific and turns it into a credible AI-capability joke: Astra is advanced enough to deny journalism across time. The other pitches mostly repeat that the article is inaccessible, while Candidate 5 gives the premise a stronger sight-gag structure and cleaner closing beat.",
+  "image_filename": "comic_2026-09-04.png",
+  "story_title": "GPT-6 Astra",
+  "story_url": "https://openai.com/index/gpt-6-astra/",
+  "place": "inside a broken time machine stuck between two eras",
+  "hat_pair": [
+    "foam diploma scroll worn as a top hat with a tiny tassel dangling off",
+    "crash helmet with a tiny working traffic light mounted on top"
+  ],
+  "no_news_mode": false
+}
