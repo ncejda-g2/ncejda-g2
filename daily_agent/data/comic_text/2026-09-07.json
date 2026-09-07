@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-07",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "bewildered",
+    "adjective_second": "exasperated",
+    "narrative_intro": "*A bewildered person and an exasperated person discuss A/I shutting down inside a spam folder that has achieved sentience and is very upset about it.*",
+    "panel1": "[setup]\nBEWILDERED PERSON: \"A/I is shutting down after 25 years.\"\nEXASPERATED PERSON: \"The privacy collective providing secure, non-commercial tools?\"",
+    "panel2": "[build]\nBEWILDERED PERSON: \"They\u2019re preparing backups for blogs, mailboxes, and websites.\"\nEXASPERATED PERSON: \"At least users get warning before the door closes.\"",
+    "panel3": "[pivot]\nBEWILDERED PERSON: \"It followed threats\u2014and a 'global terrorist organization' designation.\"\nEXASPERATED PERSON: \"For secure, non-commercial digital tools?\"",
+    "panel4": "[silent reaction]\n[Visual: The characters stare silently as autistici.org flashes \u201cUNREACHABLE\u201d; nearby phishing emails glow \u201cDELIVERED.\u201d]",
+    "panel5": "[punch]\nEXASPERATED PERSON: \"The privacy tools need evacuation plans; spam gets automatic renewal?\"\nBEWILDERED PERSON: \"Spam has better continuity planning.\"",
+    "panel6": "[button]\n[Visual: The sentient folder proudly labels a 25-year archive \u201cContinuity Plan\u201d; every message says \u201cFINAL WARNING: YOUR ACCOUNT CLOSES TOMORROW.\u201d]"
+  },
+  "narrative_summary": "A shutdown-prone privacy infrastructure is contrasted with a spam folder whose fake account warnings have enjoyed flawless 25-year continuity.",
+  "rationale": "Candidate 4 turns the story\u2019s shutdown, unreachable domain, and 25-year history into a clean, escalating contrast: privacy infrastructure needs evacuation plans while spam enjoys continuity. The final archive of perpetual \u201cFINAL WARNING\u201d messages is a specific visual button rather than a restatement.",
+  "image_filename": "comic_2026-09-07.png",
+  "story_title": "A/I shuts down",
+  "story_url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
+  "place": "inside a spam folder that has achieved sentience and is very upset about it",
+  "hat_pair": [
+    "crash helmet made entirely of bubble wrap",
+    "foam graduation cap with a tiny diploma scroll taped to the top"
+  ],
+  "no_news_mode": false
+}

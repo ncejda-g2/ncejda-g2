@@ -1403,12 +1403,12 @@
     "1212769188": {
       "repository_id": 1212769188,
       "full_name": "cathrynlavery/diagram-design",
-      "readme_sha": "aa2794d57c260465c54c9f54859c6346311a02b8",
-      "classified_on": "2026-08-13",
+      "readme_sha": "57e70d771fe7803b76dc60798e91a2afc850ae59",
+      "classified_on": "2026-09-07",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Editorial diagram skill with 27 types for Claude Code agents and design tools.",
-      "rationale": "Explicitly designed as a Claude Code agent skill for AI-powered diagram generation; material to agent capability."
+      "summary": "A collection of editorial diagram templates and an agent skill for generating branded HTML and SVG visuals.",
+      "rationale": "It is explicitly designed as a skill for Claude Code, Codex, Pi, and other AI agent hosts."
     },
     "1092407718": {
       "repository_id": 1092407718,
@@ -2249,6 +2249,46 @@
       "project_type": "Library",
       "summary": "Modern C++ formatting library providing fast, safe, portable alternatives to standard output facilities.",
       "rationale": "General-purpose C++ formatting functionality is unrelated to AI as a primary subject or product."
+    },
+    "1103643573": {
+      "repository_id": 1103643573,
+      "full_name": "openai/skills",
+      "readme_sha": "c205d307226b98189c28cbcce6ff792cbb7b2d05",
+      "classified_on": "2026-09-07",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "A catalog of reusable agent skills that package capabilities for OpenAI Codex and compatible AI agents.",
+      "rationale": "The repository is specifically organized around discovering, distributing, and using skills with Codex agents."
+    },
+    "975734319": {
+      "repository_id": 975734319,
+      "full_name": "anomalyco/opencode",
+      "readme_sha": "b5a4c8ddd9794e8c20bd287603bfa0c336522796",
+      "classified_on": "2026-09-07",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "An open-source AI coding agent providing terminal, desktop, and multilingual interfaces for software development workflows.",
+      "rationale": "Its primary product is an AI coding agent with built-in planning, building, and code exploration agents."
+    },
+    "1136666433": {
+      "repository_id": 1136666433,
+      "full_name": "blader/humanizer",
+      "readme_sha": "6ffe91a6ddcdaae4667f4a2195ff5f389593e935",
+      "classified_on": "2026-09-07",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "An agent skill that rewrites AI-sounding text while preserving factual content, voice, and original meaning.",
+      "rationale": "The repository directly provides an AI-agent writing tool for detecting and revising patterns in generated prose."
+    },
+    "75821432": {
+      "repository_id": 75821432,
+      "full_name": "llvm/llvm-project",
+      "readme_sha": "55425f05c98792acdf614b685b8b60d725703b3e",
+      "classified_on": "2026-09-07",
+      "ai_related": false,
+      "project_type": "Repository",
+      "summary": "A modular compiler infrastructure project containing optimizers, runtimes, libraries, and tools for multiple programming languages.",
+      "rationale": "It is a general-purpose compiler and toolchain project, with no supplied evidence that AI is its primary subject."
     }
   }
 }

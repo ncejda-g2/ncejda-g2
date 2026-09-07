@@ -529,8 +529,8 @@
       "repository_id": 1212769188,
       "full_name": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "total_stars": 11601,
-      "last_full_featured": "2026-08-13"
+      "total_stars": 32984,
+      "last_full_featured": "2026-09-07"
     },
     "1092407718": {
       "repository_id": 1092407718,
@@ -881,6 +881,20 @@
       "url": "https://github.com/DietrichGebert/ponytail",
       "total_stars": 124115,
       "last_full_featured": "2026-09-04"
+    },
+    "1103643573": {
+      "repository_id": 1103643573,
+      "full_name": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "total_stars": 25771,
+      "last_full_featured": "2026-09-07"
+    },
+    "975734319": {
+      "repository_id": 975734319,
+      "full_name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "total_stars": 205522,
+      "last_full_featured": "2026-09-07"
     }
   }
 }

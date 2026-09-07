@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 265 (2026-09-04)
+# 📰 The AI Newspaper — Day 266 (2026-09-07)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [GPT-6 Astra](https://openai.com/index/gpt-6-astra/) | Model Release | OpenAI unveils GPT-6 Astra, a recurrent model targeting AGI. | 1779 | [1558](https://news.ycombinator.com/item?id=49554643) |
-| 2 | [Qwen 3.8 27B available on Cerebras at 1500 tokens/s](https://inference-docs.cerebras.ai/models/overview) | Model Release | Qwen 3.8 27B reaches 1,500 tokens per second on Cerebras. | 554 | [180](https://news.ycombinator.com/item?id=49554520) |
-| 3 | [Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?](https://news.ycombinator.com/item?id=49551096) | Infrastructure | Ask HN investigates simultaneous outages across major AI services. | 373 | [535](https://news.ycombinator.com/item?id=49551096) |
-| 4 | [Nvidia to acquire Hugging Face](https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html) | Palace Intrigue | Nvidia reportedly agrees to buy Hugging Face for $13 billion. | 313 | [97](https://news.ycombinator.com/item?id=49548952) |
-| 5 | [K2 Horizon: A connected fleet of six open models](https://ifm.ai/blog/k2/) | Open Source Tool | K2 Horizon connects six open models into one coordinated fleet. | 296 | [97](https://news.ycombinator.com/item?id=49551760) |
-| 6 | [Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out](https://armature.tech/blog/which-tools-coding-agents-install) | Research Paper | Study measures coding agents’ tool choices across 17,000 runs. | 215 | [99](https://news.ycombinator.com/item?id=49557206) |
-| 7 | [OpenAI's GPT-6 Astra on ARC-AGI-3](https://arcprize.org/blog/astra) | Research Paper | GPT-6 Astra posts major gains on ARC-AGI-3 benchmark. | 209 | [125](https://news.ycombinator.com/item?id=49555691) |
-| 8 | [How concerned should we be about Astra's recurrent architecture?](https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent) | Research Paper | Analysis examines safety concerns surrounding Astra’s recurrent architecture. | 130 | [87](https://news.ycombinator.com/item?id=49553321) |
-| 9 | [Claude for Commerce Agents](https://claude.com/blog/claude-for-commerce-agents) | Dev Tooling | Claude introduces agents designed for commerce workflows. | 60 | [59](https://news.ycombinator.com/item?id=49547888) |
-| 10 | [Google WeatherNext 3](https://deepmind.google/science/weathernext/) | Research Paper | WeatherNext 3 advances global weather forecasting with AI. | 24 | [1](https://news.ycombinator.com/item?id=49552299) |
+| 1 | [Your intellectual fly is open when you use an LLM to author a post (2025)](https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/) | Palace Intrigue | Critiques LLM-authored prose through an embarrassing metaphor about intellectual exposure. | 651 | [408](https://news.ycombinator.com/item?id=49585644) |
+| 2 | [A/I shuts down](https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/) | Palace Intrigue | AI-focused publication announces closure, urging readers to stay human. | 582 | [478](https://news.ycombinator.com/item?id=49586898) |
+| 3 | [An Alien Mind](https://openai.com/index/an-alien-mind/) | Research Paper | OpenAI examines alien cognition and argues for stronger AI safeguards. | 412 | [361](https://news.ycombinator.com/item?id=49588080) |
+| 4 | [Research acceleration: The view inside OpenAI](https://openai.com/index/research-acceleration-view-inside-openai) | Research Paper | OpenAI reports coding agents accelerating experiments, complexity, and research throughput. | 177 | [122](https://news.ycombinator.com/item?id=49587217) |
+| 5 | [I refused to train the AI that could replace me](https://restofworld.org/2026/ai-training-jobs-expert-replacement/) | Palace Intrigue | Worker describes training AI intended to automate their own expertise. | 83 | [93](https://news.ycombinator.com/item?id=49593959) |
+| 6 | [Harnessing the Universal Geometry of Embeddings](https://arxiv.org/abs/2505.12540) | Research Paper | Embeddings exhibit universal geometric structure across models and tasks. | 81 | [29](https://news.ycombinator.com/item?id=49590595) |
+| 7 | [Recreating Minecraft Is Not a Benchmark](https://kuber.studio/blog/Reflections/Recreating-Minecraft-is-Not-a-Benchmark) | Research Paper | Why Minecraft recreation fails to measure meaningful agent intelligence. | 73 | [69](https://news.ycombinator.com/item?id=49587040) |
+| 8 | [How we monitor internal coding agents for misalignment](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/) | Research Paper | OpenAI monitors coding agents for deceptive or misaligned behavior. | 47 | [45](https://news.ycombinator.com/item?id=49588214) |
+| 9 | [Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs](https://github.com/timgordontg/engrim) | Open Source Tool | Local-first SQLite memory engine gives AI CLIs durable context. | 34 | [9](https://news.ycombinator.com/item?id=49594008) |
+| 10 | [MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server](https://github.com/Staatsgeheim/MathKernel) | Open Source Tool | Evidence-aware math kernel combines engines through an MCP server. | 31 | [5](https://news.ycombinator.com/item?id=49592366) |
 
 ---
 
@@ -23,8 +23,8 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Safety overview: GPT-6 Astra](https://openai.com/index/safety-overview-gpt-6-astra) | OpenAI | Research | Sep 3 |
-| 2 | [Proactive cyber defense for governments and enterprises](https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/) | Google AI | News | Sep 2 |
+| 1 | [An Alien Mind](https://openai.com/index/an-alien-mind) | OpenAI | Research | Sep 6 |
+| 2 | [Research acceleration: The view inside OpenAI](https://openai.com/index/research-acceleration-view-inside-openai) | OpenAI | Research | Sep 6 |
 
 ---
 
@@ -34,28 +34,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [ECC](https://github.com/affaan-m/ECC) | 245,468 | +751 today | #6 | 1 days |
-| [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 45,272 | +496 today | #15 | 1 days |
-| [openclaude](https://github.com/Gitlawb/openclaude) | 31,669 | +451 today | #16 | 1 days |
+| [ECC](https://github.com/affaan-m/ECC) | 245,468 | +1,485 today | #1 | 1 days |
+| [skills](https://github.com/mattpocock/skills) | 248,483 | +2,207 today | #2 | 1 days |
+| [hermes-agent](https://github.com/NousResearch/hermes-agent) | 241,135 | +520 today | #4 | 1 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [skills](https://github.com/mattpocock/skills) | A collection of adaptable engineering skills designed to improve workflows for Claude Code, Codex, and other agents. | 248,483 | +1,601 today | Daily #2 | N/A |
-| [hermes-agent](https://github.com/NousResearch/hermes-agent) | A self-improving AI agent offering conversations, tools, memory, automation, delegation, and multiple deployment backends. | 241,135 | +774 today | Daily #3 | [One commenter alleged unaddressed attribution concerns and criticized deleted comments and blocked users.](https://news.ycombinator.com/item?id=48187581) |
-| [ponytail](https://github.com/DietrichGebert/ponytail) | AI agent skill library optimizing code generation to follow minimalist development principles. | 124,115 | +2,128 today | Daily #4 | [One commenter questioned the repo’s size relative to its prompt-based rules and boilerplate.](https://news.ycombinator.com/item?id=48527946) |
+| [diagram-design](https://github.com/cathrynlavery/diagram-design) | A collection of editorial diagram templates and an agent skill for generating branded HTML and SVG visuals. | 32,984 | +620 today | Daily #3 | N/A |
+| [skills](https://github.com/openai/skills) | A catalog of reusable agent skills that package capabilities for OpenAI Codex and compatible AI agents. | 25,771 | +46 today | Daily #5 | N/A |
+| [opencode](https://github.com/anomalyco/opencode) | An open-source AI coding agent providing terminal, desktop, and multilingual interfaces for software development workflows. | 205,522 | +551 today | Daily #6 | [HN commenters praised model switching, but one reported steep API costs.](https://news.ycombinator.com/item?id=47460525) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-09-04.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-09-07.png" width="600" alt="Today's comic strip">
 
-_Based on: [GPT-6 Astra](https://openai.com/index/gpt-6-astra/)_
+_Based on: [A/I shuts down](https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 265 | Last updated: 2026-09-04*
+*Day 266 | Last updated: 2026-09-07*
