@@ -11,6 +11,7 @@ from typing import Any
 
 import aiohttp
 from claude_agent_sdk import tool
+from model_config import IMAGE_MODEL
 
 PROJECT_ROOT = Path(__file__).parent.parent
 
@@ -101,11 +102,11 @@ async def fetch_xkcd_comic(args: dict[str, Any]) -> dict[str, Any]:
 
 @tool(
     "generate_image",
-    "Generate an image using OpenAI's gpt-image-2 model via the G2 LiteLLM proxy and save it directly. Returns the file path.",
+    "Generate an image using OpenAI's gpt-image-2.5-flare model via the G2 LiteLLM proxy and save it directly. Returns the file path.",
     {"prompt": str, "filename": str},
 )
 async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
-    """Generate image using gpt-image-2 via LiteLLM proxy. Returns base64-encoded image data and saves it."""
+    """Generate image using gpt-image-2.5-flare via LiteLLM proxy. Returns base64-encoded image data and saves it."""
     try:
         litellm_api_key = os.getenv("LITELLM_API_KEY")
         litellm_base_url = os.getenv("LITELLM_BASE_URL")
@@ -144,7 +145,7 @@ async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
                     "Content-Type": "application/json",
                 },
                 json={
-                    "model": "openai/gpt-image-2",
+                    "model": IMAGE_MODEL,
                     "prompt": prompt,
                     "size": "1024x1792",
                     "quality": "medium",
@@ -157,7 +158,7 @@ async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
                         "content": [
                             {
                                 "type": "text",
-                                "text": f"gpt-image-2 proxy error {response.status}: {error_text}",
+                                "text": f"{IMAGE_MODEL} proxy error {response.status}: {error_text}",
                             }
                         ],
                         "is_error": True,
@@ -168,10 +169,10 @@ async def generate_image(args: dict[str, Any]) -> dict[str, Any]:
                 usage = data.get("usage")
                 if usage:
                     image_gen_usage_log.append(
-                        {"model": "openai/gpt-image-2", "usage": usage}
+                        {"model": IMAGE_MODEL, "usage": usage}
                     )
 
-                # gpt-image-1 returns base64-encoded image in b64_json field
+                # Image generation returns base64-encoded image in b64_json field
                 base64_image = data["data"][0]["b64_json"]
 
                 # Decode and save the image

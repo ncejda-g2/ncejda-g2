@@ -12,7 +12,7 @@ class MemeTemplate:
     and `example_fields` when deciding whether to pick this template and what to
     fill in. The critic compares filled candidates across templates. The image-gen
     step calls `build_prompt(fields)` to produce the final string handed to
-    gpt-image-2.
+    gpt-image-2.5-flare.
     """
 
     id: str

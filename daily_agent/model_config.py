@@ -11,6 +11,7 @@ import os
 
 
 LUNA_MODEL = os.environ.get("NEWSPAPER_LUNA_MODEL", "openai/gpt-5.6-luna")
+IMAGE_MODEL = "openai/gpt-image-2.5-flare"
 
 # The configured LiteLLM deployment currently accepts xhigh as its highest
 # reasoning setting (it rejects max). A global override is kept for quick local

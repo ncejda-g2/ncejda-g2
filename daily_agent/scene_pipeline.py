@@ -33,6 +33,7 @@ from comic_templates import REGISTRY, MemeTemplate
 from custom_tools import image_gen_usage_log
 from llm_client import call_structured_llm, extract_response_cost
 from model_config import (
+    IMAGE_MODEL,
     LUNA_COMEDY_REASONING_EFFORT,
     LUNA_CRITIC_REASONING_EFFORT,
     LUNA_MODEL,
@@ -590,7 +591,7 @@ async def render_scene_to_image(
     image_size = "1024x1792" if scene.template_id == "classic_6_panel" else "1024x1024"
     url = f"{base_url.rstrip('/')}/v1/images/generations"
     payload = {
-        "model": "openai/gpt-image-2",
+        "model": IMAGE_MODEL,
         "prompt": image_prompt,
         "size": image_size,
         "quality": "medium",
@@ -615,7 +616,7 @@ async def render_scene_to_image(
             if usage:
                 image_gen_usage_log.append(
                     {
-                        "model": "openai/gpt-image-2",
+                        "model": IMAGE_MODEL,
                         "usage": usage,
                         "cost_usd": extract_response_cost(data, resp.headers),
                     }

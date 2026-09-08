@@ -71,7 +71,7 @@ A run performs the following work:
 4. Fetch the selected article URL and extract its main text. Use WebFetch only when
    the extracted text does not pass the quality gate.
 5. Generate five Luna comic candidates and select a winner with a Luna critic.
-6. Render the comic with `gpt-image-2`.
+6. Render the comic with `gpt-image-2.5-flare`.
 7. Render README.md deterministically from validated structured data.
 8. Save phase-level model usage under `daily_agent/data/tokens/`.
 
