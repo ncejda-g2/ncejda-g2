@@ -179,8 +179,8 @@
       "repository_id": 1238120057,
       "full_name": "ayghri/i-have-adhd",
       "url": "https://github.com/ayghri/i-have-adhd",
-      "total_stars": 8674,
-      "last_full_featured": "2026-07-23"
+      "total_stars": 36130,
+      "last_full_featured": "2026-09-10"
     },
     "1011567289": {
       "repository_id": 1011567289,
@@ -242,8 +242,8 @@
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
-      "total_stars": 274419,
-      "last_full_featured": "2026-08-20"
+      "total_stars": 284315,
+      "last_full_featured": "2026-09-10"
     },
     "1153130349": {
       "repository_id": 1153130349,
@@ -895,6 +895,13 @@
       "url": "https://github.com/anomalyco/opencode",
       "total_stars": 205522,
       "last_full_featured": "2026-09-07"
+    },
+    "1222364235": {
+      "repository_id": 1222364235,
+      "full_name": "Tencent/teamai-cli",
+      "url": "https://github.com/Tencent/teamai-cli",
+      "total_stars": 3399,
+      "last_full_featured": "2026-09-10"
     }
   }
 }

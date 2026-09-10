@@ -323,12 +323,12 @@
     "1217522067": {
       "repository_id": 1217522067,
       "full_name": "earthtojake/text-to-cad",
-      "readme_sha": "ee68080861503025dcd4318c37bcf7377e62dcbb",
-      "classified_on": "2026-07-22",
+      "readme_sha": "41bfd66ca52cb062c1ba0d2bb9c7d57081a5d3df",
+      "classified_on": "2026-09-10",
       "ai_related": true,
-      "project_type": "Collection",
-      "summary": "Skills library enabling AI agents to generate CAD models, robotics descriptions, and hardware designs from language.",
-      "rationale": "Explicitly designed as agent skills with AI workflows for automated CAD generation, URDF/SRDF robot descriptions, and fabrication tasks; organized entirely around agent capabilities."
+      "project_type": "Library",
+      "summary": "A collection of agent skills for generating, inspecting, converting, and manufacturing CAD and robotic-description artifacts.",
+      "rationale": "Its stated primary product is a library of skills that enables agents to perform CAD, robotics, and fabrication workflows."
     },
     "1173848034": {
       "repository_id": 1173848034,
@@ -363,12 +363,12 @@
     "1238120057": {
       "repository_id": 1238120057,
       "full_name": "ayghri/i-have-adhd",
-      "readme_sha": "00e1e05fb0ea2f9006027eccf78db0685524c868",
-      "classified_on": "2026-08-01",
+      "readme_sha": "48d7b6cd1d457311ea3daef3d86169953562a4b3",
+      "classified_on": "2026-09-10",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Skill plugin for AI coding agents that formats output for clarity and action.",
-      "rationale": "Plugin explicitly designed to customize AI agent output formatting and behavior; organized around improving AI assistant responses for human users."
+      "summary": "A Claude Code skill that produces concise, action-first responses tailored for developers who prefer ADHD-friendly output.",
+      "rationale": "It is explicitly a coding-agent skill/plugin that changes how an AI assistant structures responses."
     },
     "107286889": {
       "repository_id": 107286889,
@@ -554,11 +554,11 @@
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
       "readme_sha": "09a91c6d03cfa3d874c5c33b6f8cc3d0b2d89645",
-      "classified_on": "2026-08-20",
+      "classified_on": "2026-09-10",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Complete agentic software development methodology and composable skill framework for AI-powered coding agents.",
-      "rationale": "Framework explicitly designed for agentic software development across multiple AI agent platforms. Agents are the primary audience and use case."
+      "summary": "An agentic software-development methodology providing composable skills, planning workflows, testing practices, and subagent-driven implementation.",
+      "rationale": "It is directly designed as a framework for coding agents and orchestrates AI-assisted software development."
     },
     "1013830656": {
       "repository_id": 1013830656,
@@ -693,12 +693,12 @@
     "1077819522": {
       "repository_id": 1077819522,
       "full_name": "pascalorg/editor",
-      "readme_sha": "1c19181e6f4d5bdce50eff361f124921ad12404f",
-      "classified_on": "2026-07-31",
-      "ai_related": false,
+      "readme_sha": "7c37722ae9cd18a7b63ab156b6bd24c1d1409424",
+      "classified_on": "2026-09-10",
+      "ai_related": true,
       "project_type": "Application",
-      "summary": "3D architectural editor for creating and sharing building designs with React and WebGPU.",
-      "rationale": "Pure 3D visualization and editing tool with no AI components, models, or learning functionality mentioned in description or architecture."
+      "summary": "A local-first three-dimensional architectural editor connecting building-design workflows with AI agents through MCP tools.",
+      "rationale": "The repository primarily provides an architectural editor, but AI-agent connectivity through MCP is a material product capability."
     },
     "1136590548": {
       "repository_id": 1136590548,
@@ -2289,6 +2289,16 @@
       "project_type": "Repository",
       "summary": "A modular compiler infrastructure project containing optimizers, runtimes, libraries, and tools for multiple programming languages.",
       "rationale": "It is a general-purpose compiler and toolchain project, with no supplied evidence that AI is its primary subject."
+    },
+    "1222364235": {
+      "repository_id": 1222364235,
+      "full_name": "Tencent/teamai-cli",
+      "readme_sha": "229884bfce44d389a3111f3e2e4743193bfa765d",
+      "classified_on": "2026-09-10",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "A command-line tool synchronizing team skills, rules, knowledge, MCP settings, and agents across AI coding environments.",
+      "rationale": "Its primary purpose is managing shared configurations and workflows for multiple AI coding agents."
     }
   }
 }

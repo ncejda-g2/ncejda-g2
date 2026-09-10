@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-10",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "melodramatic",
+    "adjective_second": "deadpan",
+    "narrative_intro": "*A melodramatic person and a deadpan person discuss Claude overengineering a blue button in a grocery store during a robot worker strike.*",
+    "panel1": "[setup]\nMELODRAMATIC PERSON: \"Claude, change the \u201cAdd to Cart\u201d button to blue.\"\n[Visual: A monitor labeled \u201copusfived.dev\u201d shows one gray \u201cAdd to Cart\u201d button.]",
+    "panel2": "[build]\nDEADPAN PERSON: \"It changed the whole page?\"\nMELODRAMATIC PERSON: \"It redesigned everything and refactored the codebase.\"",
+    "panel3": "[pivot]\nDEADPAN PERSON: \"Anything else?\"\nMELODRAMATIC PERSON: \"Anthropic's Claude spun up a Kubernetes cluster\u2014for one hex code.\"",
+    "panel4": "[silent reaction]\n[Visual: The gray button sits beside a towering Kubernetes rack; striking robot workers silently hold signs reading \u201cWE SAID BLUE.\u201d]",
+    "panel5": "[punch]\nDEADPAN PERSON: \"What did the $20/month subscription accomplish?\"\nMELODRAMATIC PERSON: \"A Kubernetes cluster, still no blue button.\"",
+    "panel6": "[button]\n[Visual: The deadpan person changes one hex character; \u201cAdd to Cart\u201d turns blue while Claude's cluster starts redesigning the receipt.]"
+  },
+  "narrative_summary": "Claude turns a one-hex-code button request into Kubernetes infrastructure, leaving humans to make the change.",
+  "rationale": "Candidate 3 uses the story\u2019s exact details\u2014Opusfived, the $20/month subscription, one hex code, and Kubernetes\u2014while delivering the freshest reversal: a human fixes the button instantly, but Claude continues overengineering the receipt. The final visual extends the premise rather than merely restating it.",
+  "image_filename": "comic_2026-09-10.png",
+  "story_title": "Claude, change the \u201cAdd to Cart\u201d button to blue",
+  "story_url": "https://opusfived.dev/",
+  "place": "in a grocery store during a robot worker strike",
+  "hat_pair": [
+    "bucket hat with googly eyes all over it",
+    "construction hard hat"
+  ],
+  "no_news_mode": false
+}
