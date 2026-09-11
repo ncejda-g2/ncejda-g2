@@ -718,8 +718,8 @@
       "repository_id": 1220744720,
       "full_name": "freestylefly/awesome-gpt-image-2",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "total_stars": 13664,
-      "last_full_featured": "2026-08-24"
+      "total_stars": 31192,
+      "last_full_featured": "2026-09-11"
     },
     "1144520675": {
       "repository_id": 1144520675,
@@ -902,6 +902,20 @@
       "url": "https://github.com/Tencent/teamai-cli",
       "total_stars": 3399,
       "last_full_featured": "2026-09-10"
+    },
+    "1142556666": {
+      "repository_id": 1142556666,
+      "full_name": "alsk1992/CloddsBot",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "total_stars": 1891,
+      "last_full_featured": "2026-09-11"
+    },
+    "1158588224": {
+      "repository_id": 1158588224,
+      "full_name": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "total_stars": 35945,
+      "last_full_featured": "2026-09-11"
     }
   }
 }

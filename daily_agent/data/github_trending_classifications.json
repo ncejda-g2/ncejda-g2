@@ -1823,12 +1823,12 @@
     "1220744720": {
       "repository_id": 1220744720,
       "full_name": "freestylefly/awesome-gpt-image-2",
-      "readme_sha": "73da2cd743d0dd39ba7cdc464ec30452f0d734a4",
-      "classified_on": "2026-09-01",
+      "readme_sha": "c935f2d32b609de3cdf9a566e48dd1241f7df84a",
+      "classified_on": "2026-09-11",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Curated prompt library with 544 cases for GPT-Image2 and AI image generation automation.",
-      "rationale": "Collection explicitly organized around AI image generation; structured templates and agent skills for production workflows."
+      "summary": "Prompt-as-code collection providing GPT Image cases, reusable templates, skills, generation records, and structured image workflows.",
+      "rationale": "The collection is explicitly dedicated to GPT Image prompting, image-generation examples, templates, and automation workflows."
     },
     "1144520675": {
       "repository_id": 1144520675,
@@ -1953,12 +1953,12 @@
     "1277471539": {
       "repository_id": 1277471539,
       "full_name": "bilawalsidhu/gods-eye-view",
-      "readme_sha": "ff82dab65ca52f6f8636c3108fbe49e50699c044",
-      "classified_on": "2026-08-30",
+      "readme_sha": "86f69c5ddbd9c6f31acb2438a95d196c0e81b717",
+      "classified_on": "2026-09-11",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Live 3D globe tracking aircraft, ships, satellites, and geospatial intelligence from public data.",
-      "rationale": "Geospatial intelligence visualization tool; AI voice control is an ancillary feature, not material to the primary satellite-tracking product."
+      "summary": "Browser-based 3D globe for exploring live aircraft, ships, satellites, earthquakes, traffic, cameras, and public geospatial signals.",
+      "rationale": "Its primary product is a real-time geospatial intelligence visualization application; AI voice control is an auxiliary feature."
     },
     "1031059905": {
       "repository_id": 1031059905,
@@ -2299,6 +2299,36 @@
       "project_type": "CLI",
       "summary": "A command-line tool synchronizing team skills, rules, knowledge, MCP settings, and agents across AI coding environments.",
       "rationale": "Its primary purpose is managing shared configurations and workflows for multiple AI coding agents."
+    },
+    "1142556666": {
+      "repository_id": 1142556666,
+      "full_name": "alsk1992/CloddsBot",
+      "readme_sha": "fc85a482ff4d0b587fbe030a957317cdb0309103",
+      "classified_on": "2026-09-11",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Self-hosted Claude-powered trading agent for prediction markets, cryptocurrencies, futures, messaging platforms, and blockchain transactions.",
+      "rationale": "AI is central to the product, which uses Claude, natural-language interaction, specialized agents, and automated trading strategies."
+    },
+    "1158588224": {
+      "repository_id": 1158588224,
+      "full_name": "AlexsJones/llmfit",
+      "readme_sha": "5ec32d944447cdeda3e1098b11bc90da9a5843ef",
+      "classified_on": "2026-09-11",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Rust terminal tool that recommends compatible language models by analyzing hardware, quantization, performance, and runtime providers.",
+      "rationale": "The repository directly organizes and evaluates large language models for local deployment based on system capabilities."
+    },
+    "907604175": {
+      "repository_id": 907604175,
+      "full_name": "liquidslr/system-design-notes",
+      "readme_sha": "4c6d93ce562d47fc9ffa63c8856dc568ad60f1a1",
+      "classified_on": "2026-09-11",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "Work-in-progress notes covering scalable system design concepts, interview frameworks, architectures, algorithms, and distributed services.",
+      "rationale": "It is a general system-design study collection without an AI-focused scope."
     }
   }
 }

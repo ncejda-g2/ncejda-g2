@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-11",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "squirming",
+    "adjective_second": "drenched",
+    "narrative_intro": "*A squirming person and a drenched person discuss SWE-2 at a mandatory AI sensitivity training session for robots.*",
+    "panel1": "[setup]\nSQUIRMING PERSON: \"Cognition's SWE-2 scores 50.0% on FrontierCode 1.1 Main.\"\nDRENCHED PERSON: \"Within one point of Fable 5.1\u2014and 64% cheaper.\"",
+    "panel2": "[build]\nDRENCHED PERSON: \"It's post-trained from 2.8-trillion-parameter Kimi K33.\"\nSQUIRMING PERSON: \"Reinforcement learning spans every reasoning-effort level in one run.\"",
+    "panel3": "[pivot]\nSQUIRMING PERSON: \"SWE-2 medium takes 58% fewer turns, costing 81% less than SWE-1.7.\"\nDRENCHED PERSON: \"Excellent\u2014our sensitivity circle requires taking turns.\"",
+    "panel4": "[silent reaction]\n[Visual: A tiny robot has removed 58% of the chairs and faces the wall; three reasoning dials spin around it. The circle now has one chair.]",
+    "panel5": "[punch]\nSQUIRMING PERSON: \"It calls the missing chairs unnecessary exploration.\"\nDRENCHED PERSON: \"It explored one chair, then optimized empathy into a CLI flag.\"",
+    "panel6": "[button]\n[Visual: SWE-2 rolls itself like a carpet toward doors marked Devin Web and Fusion, avoiding every turn; one robot applauds from the lone chair.]"
+  },
+  "narrative_summary": "SWE-2's efficiency claims make a robot sensitivity circle literally eliminate turns, chairs, and exploration before rolling out to Devin Web and Fusion.",
+  "rationale": "only one candidate survived",
+  "image_filename": "comic_2026-09-11.png",
+  "story_title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+  "story_url": "https://cognition.com/blog/swe-2",
+  "place": "at a mandatory AI sensitivity training session for robots",
+  "hat_pair": [
+    "santa hat",
+    "foam stopwatch worn as a flat round hat with a giant sweeping second hand on top"
+  ],
+  "no_news_mode": false
+}
