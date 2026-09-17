@@ -1016,9 +1016,22 @@ async def run_autonomous_agent() -> None:
                         print(f"WARNING: structured article summary failed: {exc}")
                 if not top_story.get("summary"):
                     print("Using targeted WebFetch fallback for the top story")
-                    summary, fallback_result = await _fallback_webfetch_summary(top_story)
-                    _accumulate(fallback_result)
-                    top_story["summary"] = summary
+                    try:
+                        summary, fallback_result = await _fallback_webfetch_summary(
+                            top_story
+                        )
+                    except Exception as exc:
+                        # A blocked or unavailable article should not prevent the
+                        # rest of the edition from being published. The comic
+                        # prompt explicitly switches to title-only context when
+                        # the grounded summary is unavailable.
+                        print(
+                            "WARNING: WebFetch fallback unavailable; continuing "
+                            f"with title-only context: {exc}"
+                        )
+                    else:
+                        _accumulate(fallback_result)
+                        top_story["summary"] = summary
 
         hn_table = editorial.hn_stories
         lab_table = editorial.lab_posts

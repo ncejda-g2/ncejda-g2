@@ -18,7 +18,12 @@ from editorial import (  # noqa: E402
 )
 from llm_client import llm_usage_log, reset_llm_usage_log, summarize_llm_usage  # noqa: E402
 from readme_renderer import render_readme  # noqa: E402
-from scene_pipeline import _allowed_templates, _generator_schema  # noqa: E402
+from scene_pipeline import (  # noqa: E402
+    StoryContext,
+    _allowed_templates,
+    _generator_schema,
+    _run_generator,
+)
 
 
 class PreviousEditionTests(unittest.TestCase):
@@ -208,17 +213,45 @@ class ComicSchemaTests(unittest.TestCase):
         )
         self.assertFalse(schema["properties"]["fields"]["additionalProperties"])
 
-    def test_meme_schema_has_one_explicit_variant_per_template(self) -> None:
+    def test_meme_schema_is_one_provider_compatible_object(self) -> None:
         allowed = _allowed_templates("meme")
-        variants = _generator_schema(allowed)["oneOf"]
+        schema = _generator_schema(allowed)
+        fields = schema["properties"]["fields"]["anyOf"]
 
-        self.assertEqual(len(variants), len(allowed))
-        for variant in variants:
-            template_id = variant["properties"]["template_id"]["enum"][0]
-            self.assertEqual(
-                variant["properties"]["fields"]["required"],
-                allowed[template_id].required_fields,
+        self.assertEqual(schema["type"], "object")
+        self.assertNotIn("oneOf", schema)
+        self.assertEqual(schema["properties"]["template_id"]["enum"], list(allowed))
+        self.assertEqual(len(fields), len(allowed))
+        self.assertEqual(
+            {tuple(variant["required"]) for variant in fields},
+            {tuple(template.required_fields) for template in allowed.values()},
+        )
+
+
+class ComicGeneratorTests(unittest.IsolatedAsyncioTestCase):
+    async def test_generator_discards_fields_for_other_templates(self) -> None:
+        parsed = {
+            "template_id": "disaster_girl",
+            "fields": {"caption": "The outage is going great.", "headline": "unused"},
+            "narrative_summary": "A blocked service gets the Disaster Girl treatment.",
+        }
+        story = StoryContext(
+            title="A service outage",
+            url="https://example.com/story",
+            summary="",
+            character_pool=[],
+            place="a server room",
+        )
+        with patch("scene_pipeline.call_structured_llm", new=AsyncMock(return_value=parsed)):
+            candidate = await _run_generator(
+                object(),
+                ("deadpan", "dry"),
+                story,
+                _allowed_templates("meme"),
             )
+
+        self.assertIsNotNone(candidate)
+        self.assertEqual(candidate.fields, {"caption": "The outage is going great."})
 
 
 if __name__ == "__main__":

@@ -69,7 +69,8 @@ A run performs the following work:
 2. Parse the prior README and remove yesterday's stories deterministically.
 3. Classify candidates once with Luna, then ask Luna for the editorial selection.
 4. Fetch the selected article URL and extract its main text. Use WebFetch only when
-   the extracted text does not pass the quality gate.
+   the extracted text does not pass the quality gate; if both paths are unavailable,
+   continue with a title-only comic context.
 5. Generate five Luna comic candidates and select a winner with a Luna critic.
 6. Render the comic with `gpt-image-2.5-flare`.
 7. Render README.md deterministically from validated structured data.
@@ -102,7 +103,9 @@ the quality-preserving fallback.
 ### Claude Code fallback fails
 
 Verify the Claude CLI is installed and `ANTHROPIC_BASE_URL` plus
-`ANTHROPIC_API_KEY` are configured.
+`ANTHROPIC_API_KEY` are configured. A blocked or unavailable fallback is non-fatal:
+the edition continues with the selected story title and the comic prompt is told not
+to invent article facts.
 
 ### GitHub API rate limits
 

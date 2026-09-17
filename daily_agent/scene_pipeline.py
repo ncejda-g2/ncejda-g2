@@ -187,35 +187,40 @@ _DEFAULT_MODEL = LUNA_MODEL
 
 
 def _generator_schema(allowed: dict[str, MemeTemplate]) -> dict[str, Any]:
-    """Build explicit per-template field schemas.
+    """Build a provider-compatible schema for every allowed template.
 
-    Anthropic's structured-output translation accepts an unconstrained object but
-    may legally return it empty. Enumerating every required field makes the server
-    produce usable candidates before the existing semantic validation runs.
+    The Luna deployment rejects a root-level ``oneOf`` in structured-output
+    schemas. Keep the response a single object and put the template-specific
+    variants under the ``fields`` property, where the deployment supports
+    ``anyOf``. The generator still validates that ``template_id`` and ``fields``
+    refer to the same template before accepting a candidate.
     """
 
-    def candidate_schema(template: MemeTemplate) -> dict[str, Any]:
+    def fields_schema(template: MemeTemplate) -> dict[str, Any]:
         return {
             "type": "object",
             "additionalProperties": False,
             "properties": {
-                "template_id": {"type": "string", "enum": [template.id]},
-                "fields": {
-                    "type": "object",
-                    "additionalProperties": False,
-                    "properties": {
-                        field: {"type": "string"}
-                        for field in template.required_fields
-                    },
-                    "required": template.required_fields,
-                },
-                "narrative_summary": {"type": "string", "maxLength": 800},
+                field: {"type": "string"} for field in template.required_fields
             },
-            "required": ["template_id", "fields", "narrative_summary"],
+            "required": template.required_fields,
         }
 
-    variants = [candidate_schema(template) for template in allowed.values()]
-    return variants[0] if len(variants) == 1 else {"oneOf": variants}
+    variants = [fields_schema(template) for template in allowed.values()]
+    fields = variants[0] if len(variants) == 1 else {"anyOf": variants}
+    return {
+        "type": "object",
+        "additionalProperties": False,
+        "properties": {
+            "template_id": {
+                "type": "string",
+                "enum": list(allowed),
+            },
+            "fields": fields,
+            "narrative_summary": {"type": "string", "maxLength": 800},
+        },
+        "required": ["template_id", "fields", "narrative_summary"],
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -249,7 +254,9 @@ def _build_generator_prompt(
     else:
         constraint_note = ""
     summary_line = (
-        story.summary if story.summary else "(no summary fetched — work from the title)"
+        story.summary
+        if story.summary
+        else "(no summary fetched — work from the title only; do not invent article facts)"
     )
     return f"""You are one of five comedy writers crafting today's comic for "The AI Newspaper" — a daily AI-news strip with simple pastel-blob characters. Pick ONE comic template, fill its required fields with concrete captions/dialog tied to today's top story, and return strict JSON.
 
@@ -282,7 +289,10 @@ Return ONLY a JSON object — no markdown fences, no commentary, no preamble. Sc
   "template_id": "<one of the template ids above>",
   "fields": {{ "<field_name>": "<value>", ... }},
   "narrative_summary": "<one-sentence summary of the joke, for the editor>"
-}}{constraint_note}"""
+}}
+
+The `template_id` and `fields` must refer to the same template. Fill every required
+field for the template you choose with a concrete, non-empty value.{constraint_note}"""
 
 
 async def _run_generator(
@@ -337,7 +347,7 @@ async def _run_generator(
         )
         return None
 
-    fields_str = {k: str(v) for k, v in fields.items()}
+    fields_str = {k: str(fields[k]) for k in tpl.required_fields}
 
     print(
         f"[generator/{voice_label}] picked {template_id!r} "
