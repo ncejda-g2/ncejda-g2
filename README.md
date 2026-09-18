@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 268 (2026-09-11)
+# 📰 The AI Newspaper — Day 269 (2026-09-18)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,15 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Shopify is moving from React Native back to Swift and Kotlin](https://shopify.engineering/back-to-native) | Dev Tooling | Shopify abandons React Native for Swift and Kotlin. | 1055 | [727](https://news.ycombinator.com/item?id=49643982) |
-| 2 | [Rust is tier-1 language at Microsoft](https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/) | Dev Tooling | Microsoft designates Rust a Tier-1 language. | 673 | [413](https://news.ycombinator.com/item?id=49643546) |
-| 3 | [Tell HN: OpenAI keeps re-enabling the 'allow training' setting](https://news.ycombinator.com/item?id=49643556) | Palace Intrigue | OpenAI allegedly keeps re-enabling users’ training opt-in setting. | 453 | [181](https://news.ycombinator.com/item?id=49643556) |
-| 4 | [Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra](https://cognition.com/blog/swe-2) | Model Release | Cognition launches SWE-2, joining the coding-model naming arms race. | 411 | [172](https://news.ycombinator.com/item?id=49645443) |
-| 5 | [OpenAI Agents API](https://developers.openai.com/api/docs/guides/agents-api/overview) | Dev Tooling | OpenAI introduces managed Agents API for long-running tool-using agents. | 258 | [144](https://news.ycombinator.com/item?id=49649213) |
-| 6 | [Neki – Sharded Postgres](https://planetscale.com/blog/introducing-neki) | Infrastructure | PlanetScale introduces Neki, a sharded Postgres database. | 243 | [131](https://news.ycombinator.com/item?id=49645686) |
-| 7 | [The Deathray: A simple way for an untrusted site to freeze a Mac](https://auberon.xyz/blog/posts/deathray/) | Infrastructure | Untrusted websites can freeze Macs through a simple attack. | 184 | [111](https://news.ycombinator.com/item?id=49649124) |
-| 8 | [Forgejo <=16.0.3 Critical RCE](https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md) | Infrastructure | Forgejo patches critical remote-code-execution vulnerability. | 184 | [67](https://news.ycombinator.com/item?id=49645907) |
-| 9 | [OpenAI’s Navier-Stokes release included a Lean 4 formal proof](https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/) | Research Paper | OpenAI’s Navier–Stokes result includes a Lean 4 proof. | 164 | [159](https://news.ycombinator.com/item?id=49650326) |
-| 10 | [Detecting and countering misuse of AI: September 2026](https://www.anthropic.com/threat-intelligence-report-september-2026) | Research Paper | Anthropic reports AI misuse involving surveillance and conventional weapons. | 130 | [195](https://news.ycombinator.com/item?id=49647300) |
+| 1 | [Astra for Law](https://openai.com/index/astra-for-law/) | Model Release | OpenAI launches legal workflows with connected data and confidentiality controls. | 485 | [519](https://news.ycombinator.com/item?id=49745940) |
+| 2 | [Bend – A language that blocks AI mistakes via proof, on CPU and GPU](https://bend-lang.com/) | Dev Tooling | Proof-oriented language targets AI mistakes across CPUs and GPUs. | 456 | [215](https://news.ycombinator.com/item?id=49746163) |
+| 3 | [Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint](https://prismml.com/news/bonsai-2-27b) | Model Release | Bonsai 2 compresses 27B models into a nine-times-smaller footprint. | 436 | [127](https://news.ycombinator.com/item?id=49746618) |
+| 4 | [A heap overflow and SSO misconfiguration to compromise OpenAI internal repos](https://www.hacktron.ai/blog/hacking-openai) | Palace Intrigue | Report details heap overflow and SSO flaws compromising OpenAI repositories. | 348 | [144](https://news.ycombinator.com/item?id=49749656) |
+| 5 | [Qwen 3.8 Omni Flash](https://qwen.ai/blog?id=qwen3.8-omni-flash) | Model Release | Qwen releases 3.8 Omni Flash multimodal model. | 208 | [78](https://news.ycombinator.com/item?id=49747925) |
+| 6 | [Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data](https://arxiv.org/abs/2609.18842) | Research Paper | Paper proposes generating and adapting weights continuously from live data. | 143 | [39](https://news.ycombinator.com/item?id=49743483) |
+| 7 | [Artificial intelligence now beats some of the best human forecasters](https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters) | Research Paper | AI now outperforms some top human forecasters, Economist reports. | 117 | [97](https://news.ycombinator.com/item?id=49742021) |
+| 8 | [Waymo in Singapore](https://waymo.com/waymo-in-singapore/) | Infrastructure | Waymo announces autonomous ride-hailing expansion to Singapore. | 111 | [127](https://news.ycombinator.com/item?id=49749981) |
+| 9 | [Towards Self-Driving Codebases](https://blog.detail.dev/posts/towards-self-driving-codebases/) | Dev Tooling | Proposal outlines autonomous codebases that develop, test, and repair themselves. | 111 | [85](https://news.ycombinator.com/item?id=49743527) |
 
 ---
 
@@ -23,46 +22,34 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules](https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials) | OpenAI | Research | Sep 10 |
-| 2 | [Now everyone can put data to work](https://openai.com/index/put-data-to-work) | OpenAI | Developer Tools | Sep 10 |
-| 3 | [Introducing ChatGPT for Financial Services](https://openai.com/index/introducing-chatgpt-financial-services) | OpenAI | News | Sep 10 |
-| 4 | [Expanding AI access and cyber defense for federal, state, local, and tribal governments](https://openai.com/index/expanding-ai-access-us-government) | OpenAI | News | Sep 10 |
-| 5 | [Build more natural voice experiences with GPT‑Live‑1 in the API](https://openai.com/index/introducing-gpt-live-1-in-the-api) | OpenAI | Developer Tools | Sep 10 |
-| 6 | [Introducing the Agents API](https://openai.com/index/introducing-the-agents-api) | OpenAI | Developer Tools | Sep 10 |
-| 7 | [Frontier Red Team Measuring tactical intelligence targeting and conventional weapons capabilities of AI models](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities) | Anthropic | Research | Sep 10 |
-| 8 | [Paul Christiano joins OpenAI Foundation Board](https://openai.com/index/paul-christiano-joins-openai-foundation-board) | OpenAI | News | Sep 9 |
-| 9 | [The AI policy window is open. We need to act.](https://openai.com/index/ai-policy-window) | OpenAI | News | Sep 9 |
+| 1 | [Making global data easier to explore](https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/) | Google AI | Engineering | Sep 17 |
+| 2 | [Introducing Astra for Law](https://openai.com/index/astra-for-law) | OpenAI | News | Sep 17 |
+| 3 | [Announcements Introducing the Life Sciences Verification Program](https://www.anthropic.com/news/life-sciences-verification-program) | Anthropic | News | Sep 17 |
+| 4 | [Science How Claude is uplifting biomolecular modeling](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling) | Anthropic | Research | Sep 17 |
+| 5 | [Our framework for reporting model misalignment](https://openai.com/index/model-misalignment-reporting-framework) | OpenAI | Research | Sep 16 |
 
 ---
 
 ## 🔥 Trending AI Repositories
 
-### Still Trending
-
-| Project | Stars | Recent stars | Daily rank | Observed streak |
-|---|---:|---:|---:|---:|
-| [i-have-adhd](https://github.com/ayghri/i-have-adhd) | 36,130 | +3,882 today | #1 | 2 days |
-| [superpowers](https://github.com/obra/superpowers) | 284,315 | +732 today | #3 | 2 days |
-| [teamai-cli](https://github.com/Tencent/teamai-cli) | 3,399 | +841 today | #5 | 2 days |
-
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [CloddsBot](https://github.com/alsk1992/CloddsBot) | Self-hosted Claude-powered trading agent for prediction markets, cryptocurrencies, futures, messaging platforms, and blockchain transactions. | 1,891 | +277 today | Daily #4 | N/A |
-| [llmfit](https://github.com/AlexsJones/llmfit) | Rust terminal tool that recommends compatible language models by analyzing hardware, quantization, performance, and runtime providers. | 35,945 | +258 today | Daily #6 | [HN commenters praised the concept but questioned outdated recommendations and preferred web access.](https://news.ycombinator.com/item?id=47211830) |
-| [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | Prompt-as-code collection providing GPT Image cases, reusable templates, skills, generation records, and structured image workflows. | 31,192 | +962 today | Daily #9 | N/A |
+| [open-code-review](https://github.com/alibaba/open-code-review) | An AI-powered command-line tool that reviews code changes using deterministic pipelines and configurable language models. | 35,963 | +3,286 today | Daily #1 | [HN commenters were interested, though some questioned competing tools’ quality and promotional-sounding praise.](https://news.ycombinator.com/item?id=48406358) |
+| [security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent security auditing skill coordinating reconnaissance, vulnerability validation, verification, and machine-readable reporting. | 11,562 | +3,607 today | Daily #2 | [HN noted very high token usage and questioned whether splitting skills unnecessarily pollutes context.](https://news.ycombinator.com/item?id=49736466) |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | A collection of production engineering skills that guides AI coding agents through development, testing, review, and deployment. | 96,096 | +680 today | Daily #3 | [HN discussed whether skills activate reliably and whether harness behavior differs from CLAUDE.md.](https://news.ycombinator.com/item?id=48046023) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-09-11.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-09-18.png" width="600" alt="Today's comic strip">
 
-_Based on: [Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra](https://cognition.com/blog/swe-2)_
+_Based on: [A heap overflow and SSO misconfiguration to compromise OpenAI internal repos](https://www.hacktron.ai/blog/hacking-openai)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 268 | Last updated: 2026-09-11*
+*Day 269 | Last updated: 2026-09-18*

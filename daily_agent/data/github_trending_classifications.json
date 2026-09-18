@@ -533,12 +533,12 @@
     "1241960226": {
       "repository_id": 1241960226,
       "full_name": "alibaba/open-code-review",
-      "readme_sha": "3404a1011299ede64bfc72f482b1bbf2ff9c6d87",
-      "classified_on": "2026-07-26",
+      "readme_sha": "a8d2c1d908d266f189ae288171fe6982b9bba3af",
+      "classified_on": "2026-09-18",
       "ai_related": true,
-      "project_type": "Application",
-      "summary": "AI-powered CLI tool using LLM agents for precise code review with deterministic pipelines.",
-      "rationale": "LLM agent with tool-use capabilities is core to the product. Integrates Claude, Codex, and other models. Explicitly designed as an AI code review assistant, battle-tested at enterprise scale."
+      "project_type": "CLI",
+      "summary": "An AI-powered command-line tool that reviews code changes using deterministic pipelines and configurable language models.",
+      "rationale": "AI is the repository’s primary product, combining LLM agents with deterministic rules for structured code review."
     },
     "678973052": {
       "repository_id": 678973052,
@@ -1153,12 +1153,12 @@
     "1158722119": {
       "repository_id": 1158722119,
       "full_name": "addyosmani/agent-skills",
-      "readme_sha": "f31b37f7fc881e76cf9ba9cedd74efad27d4d255",
-      "classified_on": "2026-08-17",
+      "readme_sha": "6361def414ade46622e6cd527d1faeea2b234224",
+      "classified_on": "2026-09-18",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Production-grade development workflow skills for AI coding agents across platforms and lifecycle.",
-      "rationale": "Purpose-built collection of engineering practices and quality gates designed explicitly for AI coding agents (Claude, Cursor, Copilot, etc.). AI is the organizing subject."
+      "summary": "A collection of production engineering skills that guides AI coding agents through development, testing, review, and deployment.",
+      "rationale": "Its primary purpose is packaging reusable workflows and commands for AI coding agents."
     },
     "230885748": {
       "repository_id": 230885748,
@@ -2329,6 +2329,36 @@
       "project_type": "Collection",
       "summary": "Work-in-progress notes covering scalable system design concepts, interview frameworks, architectures, algorithms, and distributed services.",
       "rationale": "It is a general system-design study collection without an AI-focused scope."
+    },
+    "1273427276": {
+      "repository_id": 1273427276,
+      "full_name": "cloudflare/security-audit-skill",
+      "readme_sha": "c80305c88cd5087db37f76a0d230c1fc092c864c",
+      "classified_on": "2026-09-18",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "A coding-agent security auditing skill coordinating reconnaissance, vulnerability validation, verification, and machine-readable reporting.",
+      "rationale": "The repository is explicitly designed to extend AI coding agents with a multi-phase security audit workflow."
+    },
+    "1276665883": {
+      "repository_id": 1276665883,
+      "full_name": "Tencent/BrowserSkill",
+      "readme_sha": "e8d471b54fb2fa27dad16924005acc62198fd7fa",
+      "classified_on": "2026-09-18",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "A CLI and browser extension enabling AI agents to automate tasks through users’ existing logged-in browser sessions.",
+      "rationale": "The repository directly provides browser automation infrastructure for AI agents, including a command-line interface and extension."
+    },
+    "1261663145": {
+      "repository_id": 1261663145,
+      "full_name": "alphaXiv/OpenResearch",
+      "readme_sha": "a181d6185a1e7d9f8647e58aae6de827a29c3e21",
+      "classified_on": "2026-09-18",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A local-first research workspace where agents review literature, develop hypotheses, run experiments, and preserve research artifacts.",
+      "rationale": "AI research agents and autonomous experimentation are the application’s central purpose and organizing subject."
     }
   }
 }

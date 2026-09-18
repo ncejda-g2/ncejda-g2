@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-18",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "sleep-deprived",
+    "adjective_second": "haughty",
+    "narrative_intro": "*A sleep-deprived person and a haughty person discuss Hacktron's OpenAI breach on a runaway train.*",
+    "panel1": "[setup]\nSLEEP-DEPRIVED PERSON: \"Hacktron got RCE on community.openai.com through libheif's missing Debian backport.\"\n[Visual: The train's brake is labeled \u201clibheif\u201d; a sticker reads \u201cDebian security backport: missing.\u201d]",
+    "panel2": "[build]\nHAUGHTY PERSON: \"SSO misconfiguration hijacked employee ChatGPT and Codex accounts.\"\nSLEEP-DEPRIVED PERSON: \"Then the attackers opened a pull request inside OpenAI's private monorepo.\"",
+    "panel3": "[pivot]\nSLEEP-DEPRIVED PERSON: \"Claude Opus 5 wrote the working ASLR bypass in roughly three hours.\"\nHAUGHTY PERSON: \"Anthropic's model? In a sandboxed CTF proxy to dodge safety refusals?\"",
+    "panel4": "[silent reaction]\n[Visual: Both stare at a monitor reading \u201cAUTHOR: CLAUDE OPUS 5\u201d; the runaway train's throttle locks forward.]",
+    "panel5": "[punch]\nHAUGHTY PERSON: \"So the $6,500 bounty beat an under-$3,000 token bill?\"\nSLEEP-DEPRIVED PERSON: \"Claude became OpenAI's cheapest unpaid penetration tester.\"",
+    "panel6": "[button]\n[Visual: The emergency brake is a pull request titled \u201cPatch libheif\u201d; it reads \u201cOPEN\u201d as the train passes \u201cUNDER 72 HOURS.\u201d]"
+  },
+  "narrative_summary": "Hacktron's libheif-to-SSO chain makes Claude Opus 5 OpenAI's cheapest unpaid penetration tester.",
+  "rationale": "Candidate 3 uses the story's exact technical chain and makes the freshest comic turn: Claude becomes OpenAI's \u201ccheapest unpaid penetration tester.\u201d The runaway-train metaphor is reinforced by the pull-request emergency brake, giving the ending a stronger visual and verbal payoff than the more straightforward cost recap in Candidates 1 and 2.",
+  "image_filename": "comic_2026-09-18.png",
+  "story_title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+  "story_url": "https://www.hacktron.ai/blog/hacking-openai",
+  "place": "on a runaway train",
+  "hat_pair": [
+    "foam cloud hat with a tiny plastic rain shower dangling below the brim",
+    "foam alarm clock hat with twin bells on top and a tiny hammer frozen mid-swing"
+  ],
+  "no_news_mode": false
+}
