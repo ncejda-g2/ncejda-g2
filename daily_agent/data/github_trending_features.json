@@ -291,8 +291,8 @@
       "repository_id": 1136590548,
       "full_name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
-      "total_stars": 245468,
-      "last_full_featured": "2026-09-01"
+      "total_stars": 262380,
+      "last_full_featured": "2026-09-19"
     },
     "839428333": {
       "repository_id": 839428333,
@@ -923,6 +923,20 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "total_stars": 11562,
       "last_full_featured": "2026-09-18"
+    },
+    "937253475": {
+      "repository_id": 937253475,
+      "full_name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "total_stars": 146467,
+      "last_full_featured": "2026-09-19"
+    },
+    "1276665883": {
+      "repository_id": 1276665883,
+      "full_name": "Tencent/BrowserSkill",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "total_stars": 5537,
+      "last_full_featured": "2026-09-19"
     }
   }
 }

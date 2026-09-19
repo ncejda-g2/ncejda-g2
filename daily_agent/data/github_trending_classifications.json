@@ -703,12 +703,12 @@
     "1136590548": {
       "repository_id": 1136590548,
       "full_name": "affaan-m/ECC",
-      "readme_sha": "00d3a8ca7e6a9d602085fe9f9eebaa37e23513af",
-      "classified_on": "2026-09-01",
+      "readme_sha": "69a81276b630a57ae32d1efdd9f664fa7e82c6a3",
+      "classified_on": "2026-09-19",
       "ai_related": true,
-      "project_type": "Framework",
-      "summary": "Agent harness system optimizing performance and capabilities for Claude Code, Cursor, and other LLM coding clients.",
-      "rationale": "Directly targets AI agent enhancement with skills, memory management, MCP servers, and performance optimization for multiple LLM platforms; agent augmentation is the core product."
+      "project_type": "Collection",
+      "summary": "A collection of skills, agents, memory, and security tools for optimizing AI coding-agent workflows.",
+      "rationale": "The repository is explicitly organized around agent harnesses and extensions for Claude Code, Codex, Cursor, and similar AI tools."
     },
     "1232995828": {
       "repository_id": 1232995828,
@@ -1814,11 +1814,11 @@
       "repository_id": 937253475,
       "full_name": "anthropics/claude-code",
       "readme_sha": "80aa75edf74a5f9e1269811b4e8b5852be91e66e",
-      "classified_on": "2026-08-23",
+      "classified_on": "2026-09-19",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "Terminal-based AI coding agent that assists developers with code tasks through natural language.",
-      "rationale": "Purpose-built agentic coding tool from Anthropic for autonomous code assistance and git workflows."
+      "summary": "An agentic terminal coding assistant that understands codebases and performs development tasks through natural language commands.",
+      "rationale": "Its primary product is an AI coding agent integrated with terminals, IDEs, and GitHub workflows."
     },
     "1220744720": {
       "repository_id": 1220744720,
@@ -2344,7 +2344,7 @@
       "repository_id": 1276665883,
       "full_name": "Tencent/BrowserSkill",
       "readme_sha": "e8d471b54fb2fa27dad16924005acc62198fd7fa",
-      "classified_on": "2026-09-18",
+      "classified_on": "2026-09-19",
       "ai_related": true,
       "project_type": "CLI",
       "summary": "A CLI and browser extension enabling AI agents to automate tasks through users’ existing logged-in browser sessions.",
@@ -2359,6 +2359,26 @@
       "project_type": "Application",
       "summary": "A local-first research workspace where agents review literature, develop hypotheses, run experiments, and preserve research artifacts.",
       "rationale": "AI research agents and autonomous experimentation are the application’s central purpose and organizing subject."
+    },
+    "1293600453": {
+      "repository_id": 1293600453,
+      "full_name": "TencentCloud/Octop",
+      "readme_sha": "a2dc451e541bf1f2115c19b404370536bebcf886",
+      "classified_on": "2026-09-19",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A self-hosted multi-user assistant platform combining specialized agents, persistent memory, integrations, and automation.",
+      "rationale": "AI assistance and multi-agent operation are the central product, with local deployment, web, CLI, messaging, and browser interfaces."
+    },
+    "1032459340": {
+      "repository_id": 1032459340,
+      "full_name": "Fission-AI/OpenSpec",
+      "readme_sha": "c8b71a475d7aaadd8953d68040609d81914cf319",
+      "classified_on": "2026-09-19",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "A specification-driven development framework that helps AI coding assistants plan, implement, and verify software changes.",
+      "rationale": "The framework is specifically designed for AI coding assistants and provides workflows, specifications, commands, and tool integrations."
     }
   }
 }
