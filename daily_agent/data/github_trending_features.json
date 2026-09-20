@@ -937,6 +937,27 @@
       "url": "https://github.com/Tencent/BrowserSkill",
       "total_stars": 5537,
       "last_full_featured": "2026-09-19"
+    },
+    "925270205": {
+      "repository_id": 925270205,
+      "full_name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "total_stars": 24801,
+      "last_full_featured": "2026-09-20"
+    },
+    "440752086": {
+      "repository_id": 440752086,
+      "full_name": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "total_stars": 15771,
+      "last_full_featured": "2026-09-20"
+    },
+    "134999697": {
+      "repository_id": 134999697,
+      "full_name": "higgsfield-ai/higgsfield",
+      "url": "https://github.com/higgsfield-ai/higgsfield",
+      "total_stars": 5100,
+      "last_full_featured": "2026-09-20"
     }
   }
 }

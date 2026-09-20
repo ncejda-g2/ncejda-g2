@@ -2379,6 +2379,56 @@
       "project_type": "Framework",
       "summary": "A specification-driven development framework that helps AI coding assistants plan, implement, and verify software changes.",
       "rationale": "The framework is specifically designed for AI coding assistants and provides workflows, specifications, commands, and tool integrations."
+    },
+    "925270205": {
+      "repository_id": 925270205,
+      "full_name": "trycua/cua",
+      "readme_sha": "10a6dea81e3a2673014b952116b878726d226425",
+      "classified_on": "2026-09-20",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Open-source infrastructure enabling AI agents to operate computers through desktops, virtual machines, models, and benchmarks.",
+      "rationale": "AI computer-use agents are the repository’s central purpose, supported by drivers, sandboxes, specialized models, and evaluation tools."
+    },
+    "440752086": {
+      "repository_id": 440752086,
+      "full_name": "coder/coder",
+      "readme_sha": "10b465ebe18106acc58c418be52543ee90369ff5",
+      "classified_on": "2026-09-20",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Self-hosted cloud development platform providing secure workspaces and infrastructure-managed AI coding agents for development teams.",
+      "rationale": "Although it supports general development environments, AI coding agents, governance, auditing, and model integration are material product capabilities."
+    },
+    "1065936302": {
+      "repository_id": 1065936302,
+      "full_name": "Open-Dev-Society/OpenStock",
+      "readme_sha": "63827cceda96d25e02623c9ea7da49126d5ec642",
+      "classified_on": "2026-09-20",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Open-source stock market application for tracking prices, monitoring companies, managing watchlists, and receiving personalized alerts.",
+      "rationale": "The primary product is a stock market platform; an incidental Gemini inference integration does not make it an AI repository."
+    },
+    "134999697": {
+      "repository_id": 134999697,
+      "full_name": "higgsfield-ai/higgsfield",
+      "readme_sha": "dfbfe5c044262fae19ba6f1c08962593d3a634ef",
+      "classified_on": "2026-09-20",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Distributed GPU orchestration and machine-learning framework for training extremely large neural networks across multiple nodes.",
+      "rationale": "The repository directly provides infrastructure and APIs for distributed training of large language models and other neural networks."
+    },
+    "826168160": {
+      "repository_id": 826168160,
+      "full_name": "docling-project/docling",
+      "readme_sha": "feb1bc9e16580c408cdeafeac27ba9058125f035",
+      "classified_on": "2026-09-20",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Document processing library that parses diverse formats, understands PDFs, and prepares structured content for generative AI.",
+      "rationale": "Preparing documents for generative AI is its stated purpose, with OCR, visual-language models, agent integrations, and advanced document understanding."
     }
   }
 }
