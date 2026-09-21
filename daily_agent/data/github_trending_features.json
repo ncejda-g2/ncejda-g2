@@ -958,6 +958,27 @@
       "url": "https://github.com/higgsfield-ai/higgsfield",
       "total_stars": 5100,
       "last_full_featured": "2026-09-20"
+    },
+    "1179959183": {
+      "repository_id": 1179959183,
+      "full_name": "BuilderIO/agent-native",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "total_stars": 5542,
+      "last_full_featured": "2026-09-21"
+    },
+    "1165056385": {
+      "repository_id": 1165056385,
+      "full_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "total_stars": 35595,
+      "last_full_featured": "2026-09-21"
+    },
+    "1134411737": {
+      "repository_id": 1134411737,
+      "full_name": "vercel-labs/json-render",
+      "url": "https://github.com/vercel-labs/json-render",
+      "total_stars": 17747,
+      "last_full_featured": "2026-09-21"
     }
   }
 }

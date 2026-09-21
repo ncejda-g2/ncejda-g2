@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-21",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "bug-eyed",
+    "adjective_second": "haunted",
+    "narrative_intro": "*A bug-eyed person and a haunted person discuss OpenAI's `__obi` cookie inside an inference engine that has just realized it has shell access.*",
+    "panel1": "[setup]\nBUG-EYED PERSON: \"Shell access unlocked. What does ChatGPT know about my browser?\"\nHAUNTED PERSON: \"Probably nothing embarrassing.\"",
+    "panel2": "[build]\nBUG-EYED PERSON: \"It saw Wayfair, Chewy, and HelloFresh.\"\nHAUNTED PERSON: \"That is an oddly specific cry for help.\"",
+    "panel3": "[pivot]\nBUG-EYED PERSON: \"The one-year `__obi` cookie sent 736 tokens to `bzr.openai.com`\u2014Bazaar.\"\nHAUNTED PERSON: \"Even my postal code arrived in plain text.\"",
+    "panel4": "[silent reaction]\n[Visual: The inference engine opens a \u201cNO MARKETING COOKIES\u201d gate; a tiny `__obi` cookie slips through wearing an ANALYTICS badge, dragging a map, hashed email, and 736 sync tokens.]",
+    "panel5": "[punch]\nHAUNTED PERSON: \"OpenAI said it would \u201cshare the observations internally.\u201d\"\nBUG-EYED PERSON: \"The cookie has already scheduled a meeting with my couch.\"",
+    "panel6": "[button]\n[Visual: In a conference room labeled BAZAAR, `__obi` presents \u201cMY COUCH: INTERNAL OBSERVATION\u201d; the \u201cNO MARKETING COOKIES\u201d gate applauds outside.]"
+  },
+  "narrative_summary": "An inference engine discovers that a supposedly analytical cookie has turned a couch purchase into an internal surveillance meeting.",
+  "rationale": "Candidate 2 uses the story\u2019s precise evidence\u2014Wayfair, Chewy, HelloFresh, the one-year __obi cookie, 736 tokens, and Bazaar\u2014then turns the phrase \u201cshare the observations internally\u201d into a genuinely absurd meeting with the reader\u2019s couch. The escalating visuals support the six-panel structure, and the joke stays clean without merely restating the privacy breach.",
+  "image_filename": "comic_2026-09-21.png",
+  "story_title": "ChatGPT now knows what you do on other websites via ad collector",
+  "story_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+  "place": "inside an inference engine that has just realized it has shell access",
+  "hat_pair": [
+    "foam hourglass worn as a tall hat with glitter sand trickling from top to bottom",
+    "astronaut helmet with a bobblehead glued to the visor"
+  ],
+  "no_news_mode": false
+}

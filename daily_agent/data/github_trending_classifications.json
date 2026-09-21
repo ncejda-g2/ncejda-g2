@@ -1953,12 +1953,12 @@
     "1277471539": {
       "repository_id": 1277471539,
       "full_name": "bilawalsidhu/gods-eye-view",
-      "readme_sha": "86f69c5ddbd9c6f31acb2438a95d196c0e81b717",
-      "classified_on": "2026-09-11",
-      "ai_related": false,
+      "readme_sha": "580bb147c80f751891d7282b51f65a862200d050",
+      "classified_on": "2026-09-21",
+      "ai_related": true,
       "project_type": "Application",
-      "summary": "Browser-based 3D globe for exploring live aircraft, ships, satellites, earthquakes, traffic, cameras, and public geospatial signals.",
-      "rationale": "Its primary product is a real-time geospatial intelligence visualization application; AI voice control is an auxiliary feature."
+      "summary": "Browser-based 3D globe application visualizing live public signals with voice control powered by a realtime AI agent.",
+      "rationale": "Although centered on geospatial visualization, realtime AI voice control is a material product capability explicitly described in the metadata."
     },
     "1031059905": {
       "repository_id": 1031059905,
@@ -2403,12 +2403,12 @@
     "1065936302": {
       "repository_id": 1065936302,
       "full_name": "Open-Dev-Society/OpenStock",
-      "readme_sha": "63827cceda96d25e02623c9ea7da49126d5ec642",
-      "classified_on": "2026-09-20",
+      "readme_sha": "3e55e803ae3e8f322f0b95d06143a6bf9198521a",
+      "classified_on": "2026-09-21",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Open-source stock market application for tracking prices, monitoring companies, managing watchlists, and receiving personalized alerts.",
-      "rationale": "The primary product is a stock market platform; an incidental Gemini inference integration does not make it an AI repository."
+      "summary": "Open-source stock market application for tracking prices, alerts, company insights, charts, and market news.",
+      "rationale": "The primary product is a stock-market platform; an AI inference integration is incidental rather than the application’s organizing purpose."
     },
     "134999697": {
       "repository_id": 134999697,
@@ -2429,6 +2429,86 @@
       "project_type": "Library",
       "summary": "Document processing library that parses diverse formats, understands PDFs, and prepares structured content for generative AI.",
       "rationale": "Preparing documents for generative AI is its stated purpose, with OCR, visual-language models, agent integrations, and advanced document understanding."
+    },
+    "1179959183": {
+      "repository_id": 1179959183,
+      "full_name": "BuilderIO/agent-native",
+      "readme_sha": "f977491dba7dfaa9d32df9211bdd9fa9c01ee445",
+      "classified_on": "2026-09-21",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "TypeScript framework for building agentic applications with shared actions, data, interfaces, and persistent agent context.",
+      "rationale": "AI agents are the framework’s primary organizing subject and product, with tools, memory, automation, and agent teams."
+    },
+    "1165056385": {
+      "repository_id": 1165056385,
+      "full_name": "anthropics/financial-services",
+      "readme_sha": "5c203c0ea8f19361b447c7f9592f4658b33b5fae",
+      "classified_on": "2026-09-21",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Collection of Claude agents, skills, plugins, and connectors for financial-services workflows and professional review.",
+      "rationale": "The repository is explicitly organized around deploying AI agents for investment banking, research, private equity, and finance operations."
+    },
+    "458648791": {
+      "repository_id": 458648791,
+      "full_name": "paperless-ngx/paperless-ngx",
+      "readme_sha": "c17f99e92ff91b2e06054f1dcd0bb1a22e5f2ce5",
+      "classified_on": "2026-09-21",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Document management system that scans, indexes, and archives physical documents into a searchable online repository.",
+      "rationale": "Its primary product is general document management; supplied evidence mentions OCR and AI topics but does not establish AI as central."
+    },
+    "1033674301": {
+      "repository_id": 1033674301,
+      "full_name": "mihail911/modern-software-dev-assignments",
+      "readme_sha": "e017b1e86ba078b41311fcad5b361b110df9fd6e",
+      "classified_on": "2026-09-21",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "Stanford CS146S assignment repository supporting coursework for the modern software development curriculum.",
+      "rationale": "This is a general course assignment collection, and the supplied metadata does not identify an AI-centered scope."
+    },
+    "1134411737": {
+      "repository_id": 1134411737,
+      "full_name": "vercel-labs/json-render",
+      "readme_sha": "a762b506ecf92c7a6fea61b2080709a1e463e6c7",
+      "classified_on": "2026-09-21",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Generative UI framework that renders AI-produced, schema-constrained interfaces across multiple frontend platforms.",
+      "rationale": "AI generation is the framework’s primary purpose, with guarded component catalogs and cross-platform renderers."
+    },
+    "1024118326": {
+      "repository_id": 1024118326,
+      "full_name": "Tencent/WeKnora",
+      "readme_sha": "7ffb788a430e7a657cddbaa15350e66f0b0dbb68",
+      "classified_on": "2026-09-21",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Open-source LLM knowledge platform combining document ingestion, RAG retrieval, autonomous agents, and self-maintaining wikis.",
+      "rationale": "The repository is fundamentally organized around LLM-powered knowledge management, retrieval, reasoning, and enterprise deployment."
+    },
+    "1140828898": {
+      "repository_id": 1140828898,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "readme_sha": "261e2f47e2b1701258e4bd3ec18620dc5d7c28ad",
+      "classified_on": "2026-09-21",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Collection of Claude plugins providing role-specific skills, connectors, commands, and workflows for knowledge workers.",
+      "rationale": "This is an AI-focused plugin collection designed specifically to extend Claude for professional workflows."
+    },
+    "1164477708": {
+      "repository_id": 1164477708,
+      "full_name": "mksglu/context-mode",
+      "readme_sha": "b796169524473691594af24995d21ca94027f7c7",
+      "classified_on": "2026-09-21",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "MCP server optimizing coding-agent context through tool-output sandboxing, persistent session memory, and routing integrations.",
+      "rationale": "The project directly targets AI coding agents and provides MCP tools, hooks, memory, and context-window optimization."
     }
   }
 }
