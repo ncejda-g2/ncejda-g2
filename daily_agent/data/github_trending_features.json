@@ -641,8 +641,8 @@
       "repository_id": 1246148135,
       "full_name": "akitaonrails/ai-memory",
       "url": "https://github.com/akitaonrails/ai-memory",
-      "total_stars": 2875,
-      "last_full_featured": "2026-08-19"
+      "total_stars": 7945,
+      "last_full_featured": "2026-09-22"
     },
     "1128123594": {
       "repository_id": 1128123594,
@@ -979,6 +979,20 @@
       "url": "https://github.com/vercel-labs/json-render",
       "total_stars": 17747,
       "last_full_featured": "2026-09-21"
+    },
+    "1015815983": {
+      "repository_id": 1015815983,
+      "full_name": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "total_stars": 8595,
+      "last_full_featured": "2026-09-22"
+    },
+    "1007827531": {
+      "repository_id": 1007827531,
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "total_stars": 38071,
+      "last_full_featured": "2026-09-22"
     }
   }
 }

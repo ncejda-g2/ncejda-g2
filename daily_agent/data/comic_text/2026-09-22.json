@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-22",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "bumbling",
+    "adjective_second": "imperious",
+    "narrative_intro": "*A bumbling person and an imperious person discuss Amazon blocking Meta's Muse AI agent from shopping on amazon.com at a courthouse.*",
+    "panel1": "[setup]\nBUMBLING PERSON: \"Meta's new Muse AI agent is today's defendant.\"\nIMPERIOUS PERSON: \"Its crime?\"",
+    "panel2": "[build]\nBUMBLING PERSON: \"Amazon blocked it from shopping on amazon.com.\"\nIMPERIOUS PERSON: \"Then it has no standing.\"",
+    "panel3": "[pivot]\nBUMBLING PERSON: \"The courthouse AI legal assistant is also on trial.\"\nIMPERIOUS PERSON: \"For giving Muse legal standing?\"",
+    "panel4": "[silent reaction]\n[Visual: Muse and the legal assistant stare silently; an empty shopping cart rolls into the witness box and raises one handle.]",
+    "panel5": "[punch]\nBUMBLING PERSON: \"Muse has no standing.\"\nIMPERIOUS PERSON: \"The cart has wheels. That's apparently enough.\"",
+    "panel6": "[button]\n[Visual: The empty cart rolls to the judge's bench; Muse and the legal assistant chase it, carrying briefcases.]"
+  },
+  "narrative_summary": "The courthouse treats Amazon's block of Meta's Muse as a standing dispute, making an empty cart the only credible litigant.",
+  "rationale": "Candidate 1 turns the specific shopping block into a clean, escalating legal pun: Muse has no \u201cstanding,\u201d while the empty cart has wheels and therefore qualifies. Its final chase visual pays off the premise without merely repeating the news story.",
+  "image_filename": "comic_2026-09-22.png",
+  "story_title": "Amazon blocks Meta\u2019s new Muse AI agent from shopping on amazon.com",
+  "story_url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
+  "place": "at a courthouse where the AI legal assistant is also on trial",
+  "hat_pair": [
+    "foam birthday cake hat with lit candles and tiny plastic sprinkles raining off the sides",
+    "foam emergency brake handle worn as a hat with a red warning tag dangling from the brim"
+  ],
+  "no_news_mode": false
+}

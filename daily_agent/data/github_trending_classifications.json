@@ -1613,12 +1613,12 @@
     "1246148135": {
       "repository_id": 1246148135,
       "full_name": "akitaonrails/ai-memory",
-      "readme_sha": "4b5c13a08dddc7f79bd0545c76cf9bd4a609c537",
-      "classified_on": "2026-08-19",
+      "readme_sha": "59e769ef65d48d535f8f8e27aa9cf76186e2b23b",
+      "classified_on": "2026-09-22",
       "ai_related": true,
-      "project_type": "Library",
-      "summary": "Long-term memory system enabling AI coding agents to retain context and handoff across vendors.",
-      "rationale": "Purpose-built infrastructure for agent memory and continuity across multiple LLM platforms; AI agents are the primary use case."
+      "project_type": "CLI",
+      "summary": "Rust-based shared memory system helping coding agents preserve context, search project knowledge, and coordinate handoffs.",
+      "rationale": "AI coding-agent memory and cross-agent handoffs are the repository’s central product."
     },
     "1166506614": {
       "repository_id": 1166506614,
@@ -2403,12 +2403,12 @@
     "1065936302": {
       "repository_id": 1065936302,
       "full_name": "Open-Dev-Society/OpenStock",
-      "readme_sha": "3e55e803ae3e8f322f0b95d06143a6bf9198521a",
-      "classified_on": "2026-09-21",
+      "readme_sha": "9907d884cb72a8c6dcd833349ce25d3834cb206f",
+      "classified_on": "2026-09-22",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "Open-source stock market application for tracking prices, alerts, company insights, charts, and market news.",
-      "rationale": "The primary product is a stock-market platform; an AI inference integration is incidental rather than the application’s organizing purpose."
+      "summary": "Open-source stock market application providing real-time prices, alerts, company insights, charts, authentication, and watchlists.",
+      "rationale": "Its primary product is a general stock-market platform; listed AI inference is a supporting automation feature, not its organizing purpose."
     },
     "134999697": {
       "repository_id": 134999697,
@@ -2484,7 +2484,7 @@
       "repository_id": 1024118326,
       "full_name": "Tencent/WeKnora",
       "readme_sha": "7ffb788a430e7a657cddbaa15350e66f0b0dbb68",
-      "classified_on": "2026-09-21",
+      "classified_on": "2026-09-22",
       "ai_related": true,
       "project_type": "Framework",
       "summary": "Open-source LLM knowledge platform combining document ingestion, RAG retrieval, autonomous agents, and self-maintaining wikis.",
@@ -2509,6 +2509,76 @@
       "project_type": "CLI",
       "summary": "MCP server optimizing coding-agent context through tool-output sandboxing, persistent session memory, and routing integrations.",
       "rationale": "The project directly targets AI coding agents and provides MCP tools, hooks, memory, and context-window optimization."
+    },
+    "150891532": {
+      "repository_id": 150891532,
+      "full_name": "cloudflare/quiche",
+      "readme_sha": "a012b1abd95171f0be75b1166febec22f2da26f3",
+      "classified_on": "2026-09-22",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "Rust library implementing QUIC transport and HTTP/3 protocols through a low-level connection-management API.",
+      "rationale": "It is a general networking protocol implementation with no material AI focus."
+    },
+    "386524895": {
+      "repository_id": 386524895,
+      "full_name": "mvt-project/mvt",
+      "readme_sha": "98e90e35bec0804102fefdffcb2714df2c7c6d63",
+      "classified_on": "2026-09-22",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "Forensic command-line toolkit analyzing Android and iOS device data for traces of potential compromise.",
+      "rationale": "Its primary purpose is mobile security forensics and spyware investigation, not AI."
+    },
+    "1015815983": {
+      "repository_id": 1015815983,
+      "full_name": "zhouxiaoka/autoclip",
+      "readme_sha": "3fe562610d5d646ea77f172b76d7a03ef5e7e550",
+      "classified_on": "2026-09-22",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "AI video-editing application that identifies highlights, generates titles, and produces clips from long-form video.",
+      "rationale": "AI analysis, scoring, transcription integrations, and automated clipping are central to the application’s purpose."
+    },
+    "152870372": {
+      "repository_id": 152870372,
+      "full_name": "ruanyf/weekly",
+      "readme_sha": "2187a57a07f2a0854b7c10c66549a190dc2143fc",
+      "classified_on": "2026-09-22",
+      "ai_related": false,
+      "project_type": "Collection",
+      "summary": "A Chinese weekly technology newsletter covering software, hardware, science, business, and assorted technology topics.",
+      "rationale": "The publication covers broad technology subjects; AI appears frequently but is not its organizing scope."
+    },
+    "1007827531": {
+      "repository_id": 1007827531,
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "readme_sha": "2894d9a6ba9ec027946d3d9191da0699cec5b414",
+      "classified_on": "2026-09-22",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "An offline-first knowledge and education server combining local AI assistance, reference content, maps, and learning tools.",
+      "rationale": "Local AI chat, document retrieval, semantic search, and model integration are material product capabilities."
+    },
+    "1288848940": {
+      "repository_id": 1288848940,
+      "full_name": "yynxxxxx/Codex-X",
+      "readme_sha": "e058c30c4722c97b883504d4bef15843717b8ecd",
+      "classified_on": "2026-09-22",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A cross-platform desktop tool for managing Codex prompts, providers, sessions, skills, MCP integrations, and configuration.",
+      "rationale": "The application is specifically designed to manage OpenAI Codex workflows, models, prompts, and related tooling."
+    },
+    "1286080397": {
+      "repository_id": 1286080397,
+      "full_name": "JustVugg/colibri",
+      "readme_sha": "f23129938eb325d1d5a119adf125d573930759d9",
+      "classified_on": "2026-09-22",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "A pure-C inference engine running large mixture-of-experts models across consumer hardware through streamed, tiered memory.",
+      "rationale": "Its primary purpose is executing frontier AI models and researching memory, scheduling, and inference optimizations."
     }
   }
 }
