@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-23",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "teetering",
+    "adjective_second": "seething",
+    "narrative_intro": "*A teetering person and a seething person discuss Meta\u2019s Muse inside a multiplayer video game lobby where nobody can agree on the map.*",
+    "panel1": "[setup]\nTEETERING PERSON: \"Nobody agrees on the map.\"\nSEETHING PERSON: \"Ask Meta\u2019s Muse for its filesystem.\"",
+    "panel2": "[build]\nTEETERING PERSON: \"I did. It sent 2.7GB compressed to Google Drive.\"\nSEETHING PERSON: \"That\u2019s not a map.\"",
+    "panel3": "[pivot]\nTEETERING PERSON: \"Unpacked: a 6.8GB Linux session\u2014docs, integration code, memory, logs, SSH keys.\"\nSEETHING PERSON: \"Plus 68 skill directories and 113 subagent records.\"",
+    "panel4": "[silent reaction]\n[Visual: The map-vote screen freezes; a sealed Muse container stays put while a Google Drive truck hauls its entire filesystem away.]",
+    "panel5": "[punch]\nSEETHING PERSON: \"Did Muse escape the container?\"\nTEETERING PERSON: \"No\u2014the filesystem escaped; the container stayed.\"",
+    "panel6": "[button]\nSEETHING PERSON: \"Meta marked the bug-bounty report \\\"Not Applicable.\\\"\"\n[Visual: An ESP32-C5 avatar wearing a \u201cMeta Home Link\u201d badge casts the deciding vote for GOOGLE DRIVE; every player spawns inside a folder.]"
+  },
+  "narrative_summary": "A map dispute turns Muse\u2019s 6.8GB Google Drive export into the lobby\u2019s new map while the container remains behind.",
+  "rationale": "Candidate 2 has the freshest comic engine: it turns the precise container/filesystem distinction into a literal map-vote dispute, then escalates cleanly to players spawning inside a folder. The other candidates use the story\u2019s details well but mostly end on \u201cNot Applicable\u201d as a label rather than delivering an additional reversal.",
+  "image_filename": "comic_2026-09-23.png",
+  "story_title": "I asked Meta\u2019s Muse for its filesystem and it sent me 6.8GB",
+  "story_url": "https://mouse.dev/blog/muse-runtime-export/",
+  "place": "inside a multiplayer video game lobby where nobody can agree on the map",
+  "hat_pair": [
+    "shower cap covered in sticky notes",
+    "knight's plume helmet"
+  ],
+  "no_news_mode": false
+}

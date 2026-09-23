@@ -676,8 +676,8 @@
       "repository_id": 1238047523,
       "full_name": "agent-substrate/substrate",
       "url": "https://github.com/agent-substrate/substrate",
-      "total_stars": 1455,
-      "last_full_featured": "2026-08-21"
+      "total_stars": 3195,
+      "last_full_featured": "2026-09-23"
     },
     "995029641": {
       "repository_id": 995029641,
@@ -993,6 +993,20 @@
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
       "total_stars": 38071,
       "last_full_featured": "2026-09-22"
+    },
+    "543101941": {
+      "repository_id": 543101941,
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "total_stars": 15987,
+      "last_full_featured": "2026-09-23"
+    },
+    "1013480284": {
+      "repository_id": 1013480284,
+      "full_name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "total_stars": 31281,
+      "last_full_featured": "2026-09-23"
     }
   }
 }

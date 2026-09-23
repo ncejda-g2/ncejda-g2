@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 273 (2026-09-22)
+# 📰 The AI Newspaper — Day 274 (2026-09-23)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [MiMo v2.6](https://mimo.xiaomi.com/mimo-v2-6) | Model Release | Xiaomi’s MiMo v2.6 advances open reasoning and coding performance. | 904 | [399](https://news.ycombinator.com/item?id=49792730) |
-| 2 | [Attention is all you have](https://alicegg.tech/2026/09/21/attention) | Research Paper | Explains attention mechanisms through an accessible technical deep dive. | 806 | [240](https://news.ycombinator.com/item?id=49787726) |
-| 3 | [Grok 4.7](https://x.ai/news/grok-4-7) | Model Release | xAI releases Grok 4.7, its latest frontier model. | 571 | [483](https://news.ycombinator.com/item?id=49788838) |
-| 4 | [Transformers Explained Visually](https://poloclub.github.io/transformer-explainer/) | Dev Tooling | Interactive visual guide explains transformer internals and attention flow. | 408 | [64](https://news.ycombinator.com/item?id=49792342) |
-| 5 | [M5 Ultra Mac Studio Review](https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/) | AI Hardware | Review tests M5 Ultra Mac Studio for local AI agents. | 249 | [246](https://news.ycombinator.com/item?id=49787313) |
-| 6 | [AI coding has made CI a bottleneck, so we reworked ours to keep up](https://linear.app/now/ci-bottleneck-reworked) | Dev Tooling | Linear reworked CI after AI coding made builds bottleneck. | 239 | [267](https://news.ycombinator.com/item?id=49792067) |
-| 7 | [Frontier AI on Your Own Hardware](https://timdettmers.com/2026/09/21/dlab-open-source-week/) | Open Source Tool | DLab surveys open-source methods for running frontier AI locally. | 159 | [78](https://news.ycombinator.com/item?id=49791647) |
-| 8 | [Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com](https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/) | Palace Intrigue | Amazon blocks Meta’s Muse agent from shopping on Amazon.com. | 146 | [155](https://news.ycombinator.com/item?id=49789982) |
-| 9 | [Can gzip be a language model?](https://nathan.rs/posts/gzip-lm/) | Research Paper | Compression-based language model tests whether gzip can predict text. | 128 | [48](https://news.ycombinator.com/item?id=49797323) |
-| 10 | [Show HN: Lossless-memory – a personal AI memory that never summarizes](https://github.com/aru-labs/lossless-memory) | Open Source Tool | Lossless-memory stores complete personal AI context without summaries. | 62 | [22](https://news.ycombinator.com/item?id=49786419) |
+| 1 | [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5) | Model Release | Anthropic launches Opus 5.5, its latest frontier model. | 1540 | [953](https://news.ycombinator.com/item?id=49803892) |
+| 2 | [GPT-6 Sol and Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna/) | Model Release | OpenAI introduces Sol and Luna, two GPT-6 models. | 1529 | [733](https://news.ycombinator.com/item?id=49805509) |
+| 3 | [OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005](https://www.cryptocellar.org/bgac/the-mvueh-break.html) | Model Release | GPT-6 Astra reportedly cracks an Enigma message unsolved since 2005. | 659 | [387](https://news.ycombinator.com/item?id=49801324) |
+| 4 | [I asked Meta’s Muse for its filesystem and it sent me 6.8GB](https://mouse.dev/blog/muse-runtime-export/) | Infrastructure | Meta’s Muse assistant reportedly exposed 6.8GB of filesystem data. | 312 | [150](https://news.ycombinator.com/item?id=49802871) |
+| 5 | [SAML: A fractal of bad design](https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/) | Infrastructure | Trail of Bits details SAML’s recurring, structural security flaws. | 240 | [140](https://news.ycombinator.com/item?id=49806335) |
+| 6 | [WordPress: Unauthenticated path traversal leading to conditional RCE](https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp) | Infrastructure | WordPress vulnerability enables unauthenticated traversal and conditional remote code execution. | 192 | [98](https://news.ycombinator.com/item?id=49803959) |
+| 7 | [Unreal Agent](https://unreallabs.ai/blog/unreal-agent/) | Dev Tooling | Unreal Agent promises frontier agent performance at 60% lower cost. | 183 | [107](https://news.ycombinator.com/item?id=49805748) |
+| 8 | [Show HN: Drop – A rootless Linux sandbox with gVisor support](https://droprun.sh/) | Open Source Tool | Drop provides rootless Linux sandboxing with gVisor support. | 172 | [57](https://news.ycombinator.com/item?id=49801329) |
+| 9 | [LLM Ass Bench](https://www.assbench.com/) | Research Paper | LLM Ass Bench offers a benchmark for evaluating model behavior. | 154 | [43](https://news.ycombinator.com/item?id=49807688) |
+| 10 | [Writing Rust code that's fast by asking agents to make the code faster](https://minimaxir.com/2026/09/agentic-iteration/) | Dev Tooling | Agents iteratively optimize Rust code for performance improvements. | 99 | [51](https://news.ycombinator.com/item?id=49803085) |
 
 ---
 
@@ -23,8 +23,11 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Advisory Group on Mathematics and Artificial Intelligence](https://openai.com/index/advisory-group-on-mathematics-and-ai) | OpenAI | News | Sep 21 |
-| 2 | [Building standards for the next phase of AI](https://openai.com/index/building-standards-next-phase-ai) | OpenAI | News | Sep 21 |
+| 1 | [Better prompt caching for GPT-6](https://openai.com/index/better-prompt-caching-for-gpt-6) | OpenAI | Engineering | Sep 22 |
+| 2 | [Introducing GPT-6 Sol and Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna) | OpenAI | Model Release | Sep 22 |
+| 3 | [Parallel cut research time and cost in half with GPT‑6 Astra](https://openai.com/index/parallel-cuts-time-and-cost-with-astra) | OpenAI | Engineering | Sep 22 |
+| 4 | [Priorities and principles for effective third party assessments](https://openai.com/index/priorities-principles-third-party-assessments) | OpenAI | Research | Sep 22 |
+| 5 | [Higgsfield AI ships new video features in a day with GPT-6 Astra](https://openai.com/index/higgsfield-from-prompt-to-production-with-astra) | OpenAI | Developer Tools | Sep 21 |
 
 ---
 
@@ -34,28 +37,26 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [agent-native](https://github.com/BuilderIO/agent-native) | 5,542 | +607 today | #1 | 2 days |
-| [cua](https://github.com/trycua/cua) | 24,801 | +609 today | #2 | 3 days |
-| [coder](https://github.com/coder/coder) | 15,771 | +460 today | #5 | 5 days |
+| [financial-services](https://github.com/anthropics/financial-services) | 35,595 | +438 today | #1 | 3 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [ai-memory](https://github.com/akitaonrails/ai-memory) | Rust-based shared memory system helping coding agents preserve context, search project knowledge, and coordinate handoffs. | 7,945 | +167 today | Daily #4 | N/A |
-| [autoclip](https://github.com/zhouxiaoka/autoclip) | AI video-editing application that identifies highlights, generates titles, and produces clips from long-form video. | 8,595 | +250 today | Daily #9 | N/A |
-| [project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | An offline-first knowledge and education server combining local AI assistance, reference content, maps, and learning tools. | 38,071 | +394 today | Daily #11 | N/A |
+| [substrate](https://github.com/agent-substrate/substrate) | Secure runtime for densely scheduling, isolating, suspending, and resuming stateful autonomous agent workloads across Kubernetes. | 3,195 | +245 today | Daily #2 | [HN commenters debated Apple’s ecosystem lock-in and revenue incentives; others defended its differentiation.](https://news.ycombinator.com/item?id=27582568) |
+| [univer](https://github.com/dream-num/univer) | Extensible Office SDK for embedding spreadsheets, documents, presentations, and collaborative editing into applications and agent workflows. | 15,987 | +255 today | Daily #3 | N/A |
+| [claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI for installing and monitoring Claude Code agents, commands, skills, hooks, settings, integrations, and templates. | 31,281 | +64 today | Daily #4 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-09-22.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-09-23.png" width="600" alt="Today's comic strip">
 
-_Based on: [Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com](https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/)_
+_Based on: [I asked Meta’s Muse for its filesystem and it sent me 6.8GB](https://mouse.dev/blog/muse-runtime-export/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 273 | Last updated: 2026-09-22*
+*Day 274 | Last updated: 2026-09-23*

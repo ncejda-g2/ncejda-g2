@@ -1693,12 +1693,12 @@
     "1238047523": {
       "repository_id": 1238047523,
       "full_name": "agent-substrate/substrate",
-      "readme_sha": "cf73cd7a5fe684e7e12234fe39d321254726b6f7",
-      "classified_on": "2026-08-21",
+      "readme_sha": "10bf6ce44426c93793abd0f32878eb811f9786b9",
+      "classified_on": "2026-09-23",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "High-density runtime environment for deploying and managing stateful AI agents at scale.",
-      "rationale": "Infrastructure framework explicitly designed for agent workloads. Provides lifecycle management, suspend/resume, state persistence, and multiplexing optimized for agentic applications."
+      "summary": "Secure runtime for densely scheduling, isolating, suspending, and resuming stateful autonomous agent workloads across Kubernetes.",
+      "rationale": "AI agents are the repository’s primary target workload, although the runtime can host other containerized applications."
     },
     "1117327913": {
       "repository_id": 1117327913,
@@ -2524,7 +2524,7 @@
       "repository_id": 386524895,
       "full_name": "mvt-project/mvt",
       "readme_sha": "98e90e35bec0804102fefdffcb2714df2c7c6d63",
-      "classified_on": "2026-09-22",
+      "classified_on": "2026-09-23",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "Forensic command-line toolkit analyzing Android and iOS device data for traces of potential compromise.",
@@ -2579,6 +2579,36 @@
       "project_type": "Framework",
       "summary": "A pure-C inference engine running large mixture-of-experts models across consumer hardware through streamed, tiered memory.",
       "rationale": "Its primary purpose is executing frontier AI models and researching memory, scheduling, and inference optimizations."
+    },
+    "543101941": {
+      "repository_id": 543101941,
+      "full_name": "dream-num/univer",
+      "readme_sha": "9ef8f319de8fb92b7e4ac0c727f5fe5789acb1fb",
+      "classified_on": "2026-09-23",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Extensible Office SDK for embedding spreadsheets, documents, presentations, and collaborative editing into applications and agent workflows.",
+      "rationale": "The SDK explicitly supports AI-agent editing, verification, automation, and headless document processing as core use cases."
+    },
+    "1013480284": {
+      "repository_id": 1013480284,
+      "full_name": "davila7/claude-code-templates",
+      "readme_sha": "ac7190181a68aa980d4b1521dac6fd332a4ab9bd",
+      "classified_on": "2026-09-23",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "CLI for installing and monitoring Claude Code agents, commands, skills, hooks, settings, integrations, and templates.",
+      "rationale": "Its primary product is an AI-specific configuration and template tool centered on Anthropic’s Claude Code."
+    },
+    "1196447493": {
+      "repository_id": 1196447493,
+      "full_name": "google/ax",
+      "readme_sha": "27e220270c9e48da63968ae3b39063df324e3bf7",
+      "classified_on": "2026-09-23",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Declarative orchestration runtime for sandboxing, networking, scheduling, and monitoring autonomous agent tasks at scale.",
+      "rationale": "The repository is explicitly designed to orchestrate autonomous agent workloads, including model configuration and isolated execution."
     }
   }
 }

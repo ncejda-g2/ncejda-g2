@@ -1,0 +1,499 @@
+{
+  "date": "2026-09-23",
+  "daily": [
+    {
+      "repository_id": 1165056385,
+      "full_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "rank": 1,
+      "language": "Python",
+      "period_stars": 438,
+      "total_stars": 35595,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1238047523,
+      "full_name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "rank": 2,
+      "language": "Go",
+      "period_stars": 245,
+      "total_stars": 3195,
+      "ai_related": true
+    },
+    {
+      "repository_id": 543101941,
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "rank": 3,
+      "language": "TypeScript",
+      "period_stars": 255,
+      "total_stars": 15987,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1013480284,
+      "full_name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "rank": 4,
+      "language": "Python",
+      "period_stars": 64,
+      "total_stars": 31281,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1196447493,
+      "full_name": "google/ax",
+      "url": "https://github.com/google/ax",
+      "rank": 5,
+      "language": "Go",
+      "period_stars": 2305,
+      "total_stars": 8186,
+      "ai_related": true
+    },
+    {
+      "repository_id": 386524895,
+      "full_name": "mvt-project/mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "rank": 6,
+      "language": "Python",
+      "period_stars": 441,
+      "total_stars": 14292,
+      "ai_related": false
+    },
+    {
+      "repository_id": null,
+      "full_name": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "rank": 7,
+      "language": "Python",
+      "period_stars": 230,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1208221543,
+      "full_name": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "rank": 8,
+      "language": "Python",
+      "period_stars": 191,
+      "total_stars": 23282,
+      "ai_related": null
+    }
+  ],
+  "weekly": [
+    {
+      "repository_id": 1241960226,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "rank": 1,
+      "language": "Go",
+      "period_stars": 12590,
+      "total_stars": 35963,
+      "ai_related": null
+    },
+    {
+      "repository_id": 937253475,
+      "full_name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "rank": 2,
+      "language": "TypeScript",
+      "period_stars": 2754,
+      "total_stars": 146467,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1024118326,
+      "full_name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "rank": 3,
+      "language": "Go",
+      "period_stars": 5303,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1136590548,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "rank": 4,
+      "language": "JavaScript",
+      "period_stars": 6904,
+      "total_stars": 262380,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1140828898,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "rank": 5,
+      "language": "Python",
+      "period_stars": 1403,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1158722119,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "rank": 6,
+      "language": "JavaScript",
+      "period_stars": 4224,
+      "total_stars": 96096,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1286080397,
+      "full_name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "rank": 7,
+      "language": "C",
+      "period_stars": 4036,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1293600453,
+      "full_name": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop",
+      "rank": 8,
+      "language": "Python",
+      "period_stars": 2148,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1165056385,
+      "full_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "rank": 9,
+      "language": "Python",
+      "period_stars": 1238,
+      "total_stars": 35595,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1183888342,
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "rank": 10,
+      "language": "TypeScript",
+      "period_stars": 6205,
+      "total_stars": 44214,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "danny-avila/LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "rank": 11,
+      "language": "TypeScript",
+      "period_stars": 1262,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "home-assistant/core",
+      "url": "https://github.com/home-assistant/core",
+      "rank": 12,
+      "language": "Python",
+      "period_stars": 538,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "cline/cline",
+      "url": "https://github.com/cline/cline",
+      "rank": 13,
+      "language": "TypeScript",
+      "period_stars": 1188,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 150891532,
+      "full_name": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "rank": 14,
+      "language": "Rust",
+      "period_stars": 661,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1165277268,
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "rank": 15,
+      "language": "Python",
+      "period_stars": 2985,
+      "total_stars": 65158,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "rank": 16,
+      "language": "TypeScript",
+      "period_stars": 1508,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "rank": 17,
+      "language": "Go",
+      "period_stars": 431,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1273427276,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "rank": 18,
+      "language": "JavaScript",
+      "period_stars": 15381,
+      "total_stars": 11562,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1065936302,
+      "full_name": "Open-Dev-Society/OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "rank": 19,
+      "language": "TypeScript",
+      "period_stars": 4009,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1276665883,
+      "full_name": "Tencent/BrowserSkill",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "rank": 20,
+      "language": "TypeScript",
+      "period_stars": 4553,
+      "total_stars": 5537,
+      "ai_related": null
+    }
+  ],
+  "monthly": [
+    {
+      "repository_id": 1211139949,
+      "full_name": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "rank": 1,
+      "language": "JavaScript",
+      "period_stars": 55243,
+      "total_stars": 22086,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1178737655,
+      "full_name": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "rank": 2,
+      "language": "TypeScript",
+      "period_stars": 17895,
+      "total_stars": 22756,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1273427276,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "rank": 3,
+      "language": "JavaScript",
+      "period_stars": 17090,
+      "total_stars": 11562,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1140229822,
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "rank": 4,
+      "language": "TypeScript",
+      "period_stars": 4038,
+      "total_stars": 6063,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "rank": 5,
+      "language": "Python",
+      "period_stars": 23275,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1241960226,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "rank": 6,
+      "language": "Go",
+      "period_stars": 18836,
+      "total_stars": 35963,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1238120057,
+      "full_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "rank": 7,
+      "language": "Python",
+      "period_stars": 27313,
+      "total_stars": 36130,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1186805550,
+      "full_name": "anthropics/claude-plugins-community",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "rank": 8,
+      "language": "Python",
+      "period_stars": 3918,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "FlashML-org/FreeToken",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "rank": 9,
+      "language": "Python",
+      "period_stars": 12528,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1220744720,
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "rank": 10,
+      "language": "JavaScript",
+      "period_stars": 21688,
+      "total_stars": 31192,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "rank": 11,
+      "language": "TypeScript",
+      "period_stars": 3360,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "omacom/omarchy",
+      "url": "https://github.com/omacom/omarchy",
+      "rank": 12,
+      "language": "Shell",
+      "period_stars": 15075,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "Lakr233/vphone-cli",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "rank": 13,
+      "language": "Swift",
+      "period_stars": 6354,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "tech-leads-club/agent-skills",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "rank": 14,
+      "language": "TypeScript",
+      "period_stars": 1721,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "rank": 15,
+      "language": "Python",
+      "period_stars": 5496,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1024118326,
+      "full_name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "rank": 16,
+      "language": "Go",
+      "period_stars": 8734,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 834369920,
+      "full_name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "rank": 17,
+      "language": "Python",
+      "period_stars": 7443,
+      "total_stars": 55722,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1276665883,
+      "full_name": "Tencent/BrowserSkill",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "rank": 18,
+      "language": "TypeScript",
+      "period_stars": 5343,
+      "total_stars": 5537,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1168753718,
+      "full_name": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "rank": 19,
+      "language": "TypeScript",
+      "period_stars": 7015,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1217040185,
+      "full_name": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "rank": 20,
+      "language": "TypeScript",
+      "period_stars": 8843,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "melgarafael/DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "rank": 21,
+      "language": "TypeScript",
+      "period_stars": 3015,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ]
+}
