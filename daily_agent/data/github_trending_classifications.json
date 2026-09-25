@@ -183,12 +183,12 @@
     "1185590488": {
       "repository_id": 1185590488,
       "full_name": "rohitg00/ai-engineering-from-scratch",
-      "readme_sha": "6ae16765a564950df064d9d766e8ea481462b6d3",
-      "classified_on": "2026-08-26",
+      "readme_sha": "fa3bdfe6f7161c0e8176a288443c7e528b0fb9be",
+      "classified_on": "2026-09-25",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Comprehensive 511-lesson curriculum for AI engineering covering agents, LLMs, and deployment.",
-      "rationale": "Educational collection entirely organized around AI engineering topics and practical AI implementation."
+      "summary": "Open-source curriculum teaching AI engineering through hundreds of lessons, implementations, learning paths, and practical artifacts.",
+      "rationale": "Its primary purpose is an extensive AI engineering education curriculum covering machine learning, LLMs, agents, and related tooling."
     },
     "1167788341": {
       "repository_id": 1167788341,
@@ -2603,12 +2603,42 @@
     "1196447493": {
       "repository_id": 1196447493,
       "full_name": "google/ax",
-      "readme_sha": "27e220270c9e48da63968ae3b39063df324e3bf7",
-      "classified_on": "2026-09-23",
+      "readme_sha": "22b385a14818a2273a985fba79033bfb191a8fa4",
+      "classified_on": "2026-09-25",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Declarative orchestration runtime for sandboxing, networking, scheduling, and monitoring autonomous agent tasks at scale.",
-      "rationale": "The repository is explicitly designed to orchestrate autonomous agent workloads, including model configuration and isolated execution."
+      "summary": "Declarative runtime and CLI for orchestrating sandboxed autonomous agent workloads across Kubernetes clusters.",
+      "rationale": "Its primary product manages autonomous AI agent tasks, model specifications, workspaces, sandboxing, and scalable execution."
+    },
+    "1086419061": {
+      "repository_id": 1086419061,
+      "full_name": "vectorize-io/hindsight",
+      "readme_sha": "50346aa10e74ac9ed3af6eebe525a748bb7ba6dc",
+      "classified_on": "2026-09-25",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Agent memory system providing learning-focused retention, recall, reflection, integrations, clients, and deployment options.",
+      "rationale": "The repository directly implements infrastructure for AI agents to retain knowledge and learn over time."
+    },
+    "790916393": {
+      "repository_id": 790916393,
+      "full_name": "NVIDIA/Model-Optimizer",
+      "readme_sha": "2579fd02646b5aa4a53e561207c30d914c70f126",
+      "classified_on": "2026-09-25",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Python library applying quantization, pruning, distillation, sparsity, and related techniques to optimize deep learning models.",
+      "rationale": "The repository is specifically built to compress and accelerate AI and deep learning models for inference deployment."
+    },
+    "513704529": {
+      "repository_id": 513704529,
+      "full_name": "FxEmbed/FxEmbed",
+      "readme_sha": "c2d4d2265100200ecd0986b625efc21dbc61913b",
+      "classified_on": "2026-09-25",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Cloudflare Worker generating enhanced social-media embeds with media, polls, quotes, and translations for messaging platforms.",
+      "rationale": "It is a general social-media embedding service; translations and other features do not make AI material to its primary product."
     }
   }
 }

@@ -95,8 +95,8 @@
       "repository_id": 1185590488,
       "full_name": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "total_stars": 49202,
-      "last_full_featured": "2026-08-26"
+      "total_stars": 57014,
+      "last_full_featured": "2026-09-25"
     },
     "1167788341": {
       "repository_id": 1167788341,
@@ -1007,6 +1007,20 @@
       "url": "https://github.com/davila7/claude-code-templates",
       "total_stars": 31281,
       "last_full_featured": "2026-09-23"
+    },
+    "1086419061": {
+      "repository_id": 1086419061,
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "total_stars": 28436,
+      "last_full_featured": "2026-09-25"
+    },
+    "1196447493": {
+      "repository_id": 1196447493,
+      "full_name": "google/ax",
+      "url": "https://github.com/google/ax",
+      "total_stars": 10973,
+      "last_full_featured": "2026-09-25"
     }
   }
 }

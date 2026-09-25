@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-25",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "grimacing",
+    "adjective_second": "swaggering",
+    "narrative_intro": "*A grimacing person and a swaggering person discuss Project Suncatcher on a Zoom call where nobody can hear you.*",
+    "panel1": "[setup]\nGRIMACING PERSON: \"Google's Project Suncatcher puts Trillium TPUs in orbit.\"\nSWAGGERING PERSON: \"Earth ran out of places to run machine learning.\"",
+    "panel2": "[build]\nSWAGGERING PERSON: \"Transporter-18 rideshare: SpaceX, Planet, and up to eight times more solar power.\"\nGRIMACING PERSON: \"So the data center is going solar by leaving Earth.\"",
+    "panel3": "[pivot]\nGRIMACING PERSON: \"Crocker Nuclear Laboratory simulates five years' radiation; launches hit 50\u2013100g.\"\nSWAGGERING PERSON: \"Then high-bandwidth lasers hit coin-sized targets while everything moves.\"",
+    "panel4": "[silent reaction]\n[Visual: Both stare at a silent Zoom window; an orbital laser misses a coin-sized mute icon.]",
+    "panel5": "[punch]\nSWAGGERING PERSON: \"How do they explain missing the 2027 deadline?\"\nGRIMACING PERSON: \"The deadline was a moving, coin-sized target.\"",
+    "panel6": "[button]\n[Visual: The laser hits the mute icon perfectly; a calendar marked 2027 drifts past.]"
+  },
+  "narrative_summary": "The orbital data center's escalating engineering demands turn its 2027 deadline into another moving, coin-sized target\u2014and Zoom is still muted.",
+  "rationale": "Candidate 3 uses the story\u2019s specific engineering details while finding a fresher angle in the 2027 deadline becoming a moving, coin-sized target. Its punchline escalates the laser-targeting premise rather than simply repeating the familiar \u201cwe can\u2019t hit Unmute\u201d joke.",
+  "image_filename": "comic_2026-09-25.png",
+  "story_title": "Google\u2019s Project Suncatcher to put ML infrastructure in space",
+  "story_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+  "place": "on a Zoom call where nobody can hear you",
+  "hat_pair": [
+    "foam binoculars worn as an oversized hat with two giant lens holes staring outward",
+    "dunce cap with the word SMART scrawled on it in marker"
+  ],
+  "no_news_mode": false
+}
