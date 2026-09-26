@@ -14,11 +14,11 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "readme_sha": "ff9b797a342d3a64b52f9f5a83d9fc4ce28709dc",
-      "classified_on": "2026-09-04",
+      "classified_on": "2026-09-26",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of adaptable engineering skills designed to improve workflows for Claude Code, Codex, and other agents.",
-      "rationale": "The repository is explicitly organized around skills for AI coding agents and agent-assisted software development."
+      "summary": "Collection of adaptable engineering skills designed to guide coding agents through software development tasks.",
+      "rationale": "The repository directly provides reusable skills for Claude Code, Codex, and other AI coding agents."
     },
     "1006414368": {
       "repository_id": 1006414368,
@@ -553,12 +553,12 @@
     "1073224795": {
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
-      "readme_sha": "09a91c6d03cfa3d874c5c33b6f8cc3d0b2d89645",
-      "classified_on": "2026-09-10",
+      "readme_sha": "cf80400690849b37861f39d396d231ea89ac693b",
+      "classified_on": "2026-09-26",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "An agentic software-development methodology providing composable skills, planning workflows, testing practices, and subagent-driven implementation.",
-      "rationale": "It is directly designed as a framework for coding agents and orchestrates AI-assisted software development."
+      "summary": "Agentic software development framework providing composable skills, workflows, and methodology across coding-agent platforms.",
+      "rationale": "Its primary purpose is improving coding agents through skills, subagents, planning, testing, and development workflows."
     },
     "1013830656": {
       "repository_id": 1013830656,
@@ -1343,12 +1343,12 @@
     "1170821064": {
       "repository_id": 1170821064,
       "full_name": "paperclipai/paperclip",
-      "readme_sha": "53a7291c46e582ea9d8733a6e710979a7181bbce",
-      "classified_on": "2026-08-11",
+      "readme_sha": "8096cf9bbcffcc258c18175f499648fb8f5a9c02",
+      "classified_on": "2026-09-26",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Open-source platform for orchestrating and managing teams of AI agents toward business goals.",
-      "rationale": "Primary product is AI agent orchestration and coordination; AI is the organizing principle and core functionality."
+      "summary": "Open-source application for orchestrating, governing, and monitoring teams of AI agents across organizational workflows.",
+      "rationale": "Its primary product coordinates AI agents, including goals, budgets, governance, task management, and cross-provider runtime support."
     },
     "1052845083": {
       "repository_id": 1052845083,
@@ -1374,11 +1374,11 @@
       "repository_id": 1061953414,
       "full_name": "anthropics/skills",
       "readme_sha": "eb54ee8b92f2d40b4b26569be0772be3c1e23156",
-      "classified_on": "2026-09-04",
+      "classified_on": "2026-09-26",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of Agent Skills that dynamically enhances Claude for creative, technical, document, and enterprise tasks.",
-      "rationale": "This repository is explicitly dedicated to skills that extend Claude and the Agent Skills standard."
+      "summary": "Anthropic collection of example and production-oriented skills for extending Claude across specialized tasks.",
+      "rationale": "It is explicitly devoted to Claude agent skills, including document, technical, creative, and enterprise workflows."
     },
     "32689863": {
       "repository_id": 32689863,
@@ -1934,11 +1934,11 @@
       "repository_id": 1100776768,
       "full_name": "anthropics/claude-plugins-official",
       "readme_sha": "43104e240ff500c762adebb0c31dc4b7ff7b50dd",
-      "classified_on": "2026-08-27",
+      "classified_on": "2026-09-26",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Official Anthropic marketplace directory of plugins, MCP servers, and skills for Claude Code agents.",
-      "rationale": "Curated registry explicitly organized around Claude Code plugins; scope defined by AI agent compatibility."
+      "summary": "Anthropic-managed directory of plugins, skills, agents, and MCP integrations for Claude Code.",
+      "rationale": "The repository is explicitly organized as a Claude Code plugin marketplace and directory."
     },
     "1079456184": {
       "repository_id": 1079456184,
