@@ -193,8 +193,8 @@
       "repository_id": 1174789082,
       "full_name": "block/buzz",
       "url": "https://github.com/block/buzz",
-      "total_stars": 30222,
-      "last_full_featured": "2026-08-24"
+      "total_stars": 34928,
+      "last_full_featured": "2026-09-27"
     },
     "1212503250": {
       "repository_id": 1212503250,
@@ -1021,6 +1021,20 @@
       "url": "https://github.com/google/ax",
       "total_stars": 10973,
       "last_full_featured": "2026-09-25"
+    },
+    "790916393": {
+      "repository_id": 790916393,
+      "full_name": "NVIDIA/Model-Optimizer",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "total_stars": 4867,
+      "last_full_featured": "2026-09-27"
+    },
+    "45717250": {
+      "repository_id": 45717250,
+      "full_name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "total_stars": 200531,
+      "last_full_featured": "2026-09-27"
     }
   }
 }
