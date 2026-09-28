@@ -2669,6 +2669,56 @@
       "project_type": "Application",
       "summary": "An open-source extensible code editor providing editing, navigation, debugging, and development tool integration across platforms.",
       "rationale": "The repository is a general-purpose code editor; the supplied metadata does not establish AI as its primary product focus."
+    },
+    "1206390571": {
+      "repository_id": 1206390571,
+      "full_name": "debpalash/VoiceStudio",
+      "readme_sha": "01b36d48a7e11675f82c2dcff53aa5774bfc050f",
+      "classified_on": "2026-09-28",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Open-source local desktop application for voice cloning, speech generation, dubbing, transcription, dictation, and audiobook production.",
+      "rationale": "AI speech and voice-generation capabilities are the repository’s primary product."
+    },
+    "1176340473": {
+      "repository_id": 1176340473,
+      "full_name": "NawfalMotii79/PLFM_RADAR",
+      "readme_sha": "a2ba0401061b14af2b0918c62f3ceb448cf24150",
+      "classified_on": "2026-09-28",
+      "ai_related": false,
+      "project_type": "Repository",
+      "summary": "Open-source hardware and software project for building a 10.5 GHz phased-array radar with FPGA signal processing.",
+      "rationale": "The repository focuses on radar hardware, embedded control, and signal processing, without a material AI focus."
+    },
+    "119068473": {
+      "repository_id": 119068473,
+      "full_name": "cs341-illinois/coursebook",
+      "readme_sha": "b2e7edba9e67d8abce04c15bba8a86990552e49c",
+      "classified_on": "2026-09-28",
+      "ai_related": false,
+      "project_type": "Repository",
+      "summary": "Open-source introductory systems programming textbook covering C, Linux, POSIX concepts, and course materials.",
+      "rationale": "This is a systems programming textbook, and the supplied metadata does not indicate an AI-centered scope."
+    },
+    "92807616": {
+      "repository_id": 92807616,
+      "full_name": "byoungd/up",
+      "readme_sha": "5e5f3c6f5b9e42d2b4c8353875320085b9073438",
+      "classified_on": "2026-09-28",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Continuously updated Chinese and English guide covering lifelong learning, English study, AI collaboration, projects, entrepreneurship, and personal recovery.",
+      "rationale": "AI learning and AI-assisted project development are substantial organizing themes within this broader educational guide."
+    },
+    "1198124295": {
+      "repository_id": 1198124295,
+      "full_name": "mvschwarz/openrig",
+      "readme_sha": "933ed7e8e3c64158a14781d6a858f1101405cb70",
+      "classified_on": "2026-09-28",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Command-line multi-agent harness coordinating Claude Code and Codex into persistent, organized software development teams.",
+      "rationale": "Its primary purpose is orchestrating AI coding agents and their collaborative workflows."
     }
   }
 }
