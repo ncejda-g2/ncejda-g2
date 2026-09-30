@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-30",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_caption": "send every DraftKings customer the same promotion",
+    "panel2_caption": "segment bettors by their betting history",
+    "panel3_caption": "train AI to identify \u201closing gamblers\u201d",
+    "panel4_caption": "turn first-party losses into personalized invitations to lose again"
+  },
+  "narrative_summary": "DraftKings escalates from ordinary marketing to using customers\u2019 own losses as a loyalty-targeting system.",
+  "rationale": "Candidate 4 has the clearest escalation and the strongest final reversal: ordinary targeting becomes personalized invitations to repeat losses. It is tightly tied to the story, uses the expanding-brain format correctly, and lands a sharper closing beat than the more explanatory alternatives.",
+  "image_filename": "comic_2026-09-30.png",
+  "story_title": "DraftKings is using AI to behaviorally target chronic gamblers",
+  "story_url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+  "place": "at a tech keynote where the demo robot has gone rogue",
+  "hat_pair": [
+    "jester hat with three drooping bells",
+    "foam hamburger hat with sesame seed bun top and overflowing lettuce fringe"
+  ],
+  "no_news_mode": false
+}

@@ -1,0 +1,559 @@
+{
+  "date": "2026-09-30",
+  "daily": [
+    {
+      "repository_id": 1206390571,
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "rank": 1,
+      "language": "Python",
+      "period_stars": 4758,
+      "total_stars": 41593,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "rank": 2,
+      "language": "Rust",
+      "period_stars": 990,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1086419061,
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "rank": 3,
+      "language": "Python",
+      "period_stars": 2575,
+      "total_stars": 28436,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1170821064,
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "rank": 4,
+      "language": "TypeScript",
+      "period_stars": 2458,
+      "total_stars": 85713,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "rank": 5,
+      "language": "Rust",
+      "period_stars": 232,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1198124295,
+      "full_name": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "rank": 6,
+      "language": "TypeScript",
+      "period_stars": 737,
+      "total_stars": 1329,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1173848034,
+      "full_name": "oblien/openship",
+      "url": "https://github.com/oblien/openship",
+      "rank": 7,
+      "language": "TypeScript",
+      "period_stars": 437,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1196821690,
+      "full_name": "averygan/reclip",
+      "url": "https://github.com/averygan/reclip",
+      "rank": 8,
+      "language": "HTML",
+      "period_stars": 113,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 119068473,
+      "full_name": "cs341-illinois/coursebook",
+      "url": "https://github.com/cs341-illinois/coursebook",
+      "rank": 9,
+      "language": "TeX",
+      "period_stars": 572,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1185590488,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "rank": 10,
+      "language": "Python",
+      "period_stars": 786,
+      "total_stars": 57014,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "rank": 11,
+      "language": "Python",
+      "period_stars": 835,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "willfaust/Madeira",
+      "url": "https://github.com/willfaust/Madeira",
+      "rank": 12,
+      "language": "C",
+      "period_stars": 81,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 543101941,
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "rank": 13,
+      "language": "TypeScript",
+      "period_stars": 696,
+      "total_stars": 15987,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "rakyll/hey",
+      "url": "https://github.com/rakyll/hey",
+      "rank": 14,
+      "language": "Go",
+      "period_stars": 34,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ],
+  "weekly": [
+    {
+      "repository_id": 1170821064,
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "rank": 1,
+      "language": "TypeScript",
+      "period_stars": 12941,
+      "total_stars": 85713,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1165056385,
+      "full_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "rank": 2,
+      "language": "Python",
+      "period_stars": 2114,
+      "total_stars": 35595,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1086419061,
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "rank": 3,
+      "language": "Python",
+      "period_stars": 17365,
+      "total_stars": 28436,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1206390571,
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "rank": 4,
+      "language": "Python",
+      "period_stars": 12722,
+      "total_stars": 41593,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1185590488,
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "rank": 5,
+      "language": "Python",
+      "period_stars": 5830,
+      "total_stars": 57014,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "vercel/next.js",
+      "url": "https://github.com/vercel/next.js",
+      "rank": 6,
+      "language": "JavaScript",
+      "period_stars": 582,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1176011916,
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "rank": 7,
+      "language": "Python",
+      "period_stars": 1327,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1013480284,
+      "full_name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "rank": 8,
+      "language": "Python",
+      "period_stars": 1218,
+      "total_stars": 31281,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1183888342,
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "rank": 9,
+      "language": "TypeScript",
+      "period_stars": 6242,
+      "total_stars": 44214,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "rank": 10,
+      "language": "Python",
+      "period_stars": 399,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1024118326,
+      "full_name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "rank": 11,
+      "language": "Go",
+      "period_stars": 2397,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1273427276,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "rank": 12,
+      "language": "JavaScript",
+      "period_stars": 3311,
+      "total_stars": 11562,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1097346685,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "rank": 13,
+      "language": "JavaScript",
+      "period_stars": 2644,
+      "total_stars": 50981,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1293600453,
+      "full_name": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop",
+      "rank": 14,
+      "language": "Python",
+      "period_stars": 1128,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 925270205,
+      "full_name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "rank": 15,
+      "language": "HTML",
+      "period_stars": 1211,
+      "total_stars": 24801,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1191984666,
+      "full_name": "PrismML-Eng/Bonsai-demo",
+      "url": "https://github.com/PrismML-Eng/Bonsai-demo",
+      "rank": 16,
+      "language": "Shell",
+      "period_stars": 210,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "elastic/elasticsearch",
+      "url": "https://github.com/elastic/elasticsearch",
+      "rank": 17,
+      "language": "Java",
+      "period_stars": 169,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 513704529,
+      "full_name": "FxEmbed/FxEmbed",
+      "url": "https://github.com/FxEmbed/FxEmbed",
+      "rank": 18,
+      "language": "TypeScript",
+      "period_stars": 502,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ],
+  "monthly": [
+    {
+      "repository_id": 1277471539,
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "rank": 1,
+      "language": "JavaScript",
+      "period_stars": 33308,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1241960226,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "rank": 2,
+      "language": "Go",
+      "period_stars": 21236,
+      "total_stars": 35963,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1136590548,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "rank": 3,
+      "language": "JavaScript",
+      "period_stars": 26837,
+      "total_stars": 262380,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1211139949,
+      "full_name": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "rank": 4,
+      "language": "JavaScript",
+      "period_stars": 45168,
+      "total_stars": 22086,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1238120057,
+      "full_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "rank": 5,
+      "language": "Python",
+      "period_stars": 26845,
+      "total_stars": 36130,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1024118326,
+      "full_name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "rank": 6,
+      "language": "Go",
+      "period_stars": 10525,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "rank": 7,
+      "language": "Python",
+      "period_stars": 3121,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1178737655,
+      "full_name": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "rank": 8,
+      "language": "TypeScript",
+      "period_stars": 18126,
+      "total_stars": 22756,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1165056385,
+      "full_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "rank": 9,
+      "language": "Python",
+      "period_stars": 3705,
+      "total_stars": 35595,
+      "ai_related": null
+    },
+    {
+      "repository_id": 7056202,
+      "full_name": "fmtlib/fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "rank": 10,
+      "language": "C++",
+      "period_stars": 2109,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1164477708,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "rank": 11,
+      "language": "TypeScript",
+      "period_stars": 4077,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1266797999,
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "rank": 12,
+      "language": "JavaScript",
+      "period_stars": 32714,
+      "total_stars": 124115,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1170821064,
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "rank": 13,
+      "language": "TypeScript",
+      "period_stars": 14643,
+      "total_stars": 85713,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "rank": 14,
+      "language": "TypeScript",
+      "period_stars": 11262,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1086419061,
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "rank": 15,
+      "language": "Python",
+      "period_stars": 20640,
+      "total_stars": 28436,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1140229822,
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "rank": 16,
+      "language": "TypeScript",
+      "period_stars": 3072,
+      "total_stars": 6063,
+      "ai_related": null
+    },
+    {
+      "repository_id": 925270205,
+      "full_name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "rank": 17,
+      "language": "HTML",
+      "period_stars": 5156,
+      "total_stars": 24801,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "rank": 18,
+      "language": "Rust",
+      "period_stars": 1843,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "rank": 19,
+      "language": "Python",
+      "period_stars": 3454,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "longbridge/gpui-kit",
+      "url": "https://github.com/longbridge/gpui-kit",
+      "rank": 20,
+      "language": "Rust",
+      "period_stars": 1454,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1168753718,
+      "full_name": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "rank": 21,
+      "language": "TypeScript",
+      "period_stars": 7379,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1140828898,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "rank": 22,
+      "language": "Python",
+      "period_stars": 2192,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "ahujasid/mcp-for-blender",
+      "url": "https://github.com/ahujasid/mcp-for-blender",
+      "rank": 23,
+      "language": "Python",
+      "period_stars": 3209,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ]
+}
