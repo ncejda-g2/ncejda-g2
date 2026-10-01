@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-01",
+  "template_id": "disaster_girl",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "caption": "i accused DeepSeek of distillation, then adopted its openly shared 437\u00d7 cache trick"
+  },
+  "narrative_summary": "A smug AI racer stands beside the burning accusation while quietly using DeepSeek\u2019s efficiency breakthrough.",
+  "rationale": "Candidate 5 best turns the story\u2019s hypocrisy into a visual contradiction, and \u201copenly shared\u201d adds a sharper final beat than merely restating the accusation-versus-adoption choice. It is specific, clean, and well matched to the Disaster Girl format.",
+  "image_filename": "comic_2026-10-01.png",
+  "story_title": "The AI Race Just Got Awkward",
+  "story_url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
+  "place": "on a malfunctioning space station",
+  "hat_pair": [
+    "foam birthday cake hat with lit candles and tiny plastic sprinkles raining off the sides",
+    "dunce cap with the word SMART scrawled on it in marker"
+  ],
+  "no_news_mode": false
+}

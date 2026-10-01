@@ -13,12 +13,12 @@
     "1148788086": {
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
-      "readme_sha": "ff9b797a342d3a64b52f9f5a83d9fc4ce28709dc",
-      "classified_on": "2026-09-26",
+      "readme_sha": "8932fc553ee7ed5759ff8164c8908a78c1b4f0f8",
+      "classified_on": "2026-10-01",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Collection of adaptable engineering skills designed to guide coding agents through software development tasks.",
-      "rationale": "The repository directly provides reusable skills for Claude Code, Codex, and other AI coding agents."
+      "summary": "A collection of composable engineering skills designed to guide coding agents through planning, testing, debugging, and development.",
+      "rationale": "The repository explicitly organizes reusable skills for Claude Code, Codex, and other AI coding agents."
     },
     "1006414368": {
       "repository_id": 1006414368,
@@ -1513,12 +1513,12 @@
     "1140229822": {
       "repository_id": 1140229822,
       "full_name": "cursor/plugins",
-      "readme_sha": "bbe4867f6ab2d09cd75af57d9e7d5088fc54db10",
-      "classified_on": "2026-08-29",
+      "readme_sha": "a0a7acd5ef8e2f819bfd0629c87cf030c1300a2d",
+      "classified_on": "2026-10-01",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Official Cursor plugins enabling AI agents to interact with productivity and integration tools.",
-      "rationale": "Plugins are explicitly designed for AI agent workflows in Cursor (an AI IDE). Multiple plugins target agent-specific capabilities like iterative AI loops, agent orchestration, and memory systems, with integrations across SaaS, developer tools, and productivity platforms."
+      "summary": "A collection of official Cursor plugins providing AI-agent workflows, integrations, developer tools, and automation capabilities.",
+      "rationale": "The repository is explicitly a plugin collection for Cursor, an AI coding environment, with agent skills, SDKs, orchestration, and integrations."
     },
     "54346799": {
       "repository_id": 54346799,
@@ -2043,12 +2043,12 @@
     "1266797999": {
       "repository_id": 1266797999,
       "full_name": "DietrichGebert/ponytail",
-      "readme_sha": "c57811a01bcc35d103ef9532378cd22fc3005133",
-      "classified_on": "2026-09-04",
+      "readme_sha": "6b25e496dbb467bd4d8ed065ce10e13992790591",
+      "classified_on": "2026-10-01",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "AI agent skill library optimizing code generation to follow minimalist development principles.",
-      "rationale": "Purpose-built prompt skill for multiple AI coding assistants; reduces unnecessary generated code."
+      "summary": "An agent skill and plugin that encourages minimal, safe code generation across multiple AI coding assistants.",
+      "rationale": "Its primary product is an AI-agent skill collection targeting Claude Code, Codex, Cursor, and other coding agents."
     },
     "1178737655": {
       "repository_id": 1178737655,
@@ -2719,6 +2719,26 @@
       "project_type": "CLI",
       "summary": "Command-line multi-agent harness coordinating Claude Code and Codex into persistent, organized software development teams.",
       "rationale": "Its primary purpose is orchestrating AI coding agents and their collaborative workflows."
+    },
+    "1166129534": {
+      "repository_id": 1166129534,
+      "full_name": "NVIDIA/OpenShell",
+      "readme_sha": "ed5cc57ecc2a8050dfd6bae70b7e03c32bf9b1c7",
+      "classified_on": "2026-10-01",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "A policy-enforced runtime that safely isolates autonomous AI agents while controlling filesystem, network, credential, and system access.",
+      "rationale": "Autonomous AI agents are the repository’s primary subject, and OpenShell provides their runtime, sandboxing, policies, and SDKs."
+    },
+    "89033556": {
+      "repository_id": 89033556,
+      "full_name": "firebase/firebase-ios-sdk",
+      "readme_sha": "c16f9f52c826f85795035b32dad7f7659b98aed0",
+      "classified_on": "2026-10-01",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "The open-source Firebase SDK collection for Apple platforms, including Firebase AI Logic and numerous application services.",
+      "rationale": "Although broadly focused on Firebase mobile services, the repository directly includes Firebase AI Logic as a supported library; AI is materially represented but not the sole focus."
     }
   }
 }

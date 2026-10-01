@@ -11,8 +11,8 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "total_stars": 248483,
-      "last_full_featured": "2026-09-04"
+      "total_stars": 273381,
+      "last_full_featured": "2026-10-01"
     },
     "896144595": {
       "repository_id": 896144595,
@@ -879,8 +879,8 @@
       "repository_id": 1266797999,
       "full_name": "DietrichGebert/ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
-      "total_stars": 124115,
-      "last_full_featured": "2026-09-04"
+      "total_stars": 149712,
+      "last_full_featured": "2026-10-01"
     },
     "1103643573": {
       "repository_id": 1103643573,
@@ -1056,6 +1056,13 @@
       "url": "https://github.com/mvschwarz/openrig",
       "total_stars": 1329,
       "last_full_featured": "2026-09-28"
+    },
+    "1166129534": {
+      "repository_id": 1166129534,
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "total_stars": 13635,
+      "last_full_featured": "2026-10-01"
     }
   }
 }
