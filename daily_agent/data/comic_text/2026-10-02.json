@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-02",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "deadpan",
+  "fields": {
+    "adjective_first": "bewildered",
+    "adjective_second": "disheveled",
+    "narrative_intro": "*A bewildered person and a disheveled person discuss Figma's MCP whitelist excluding Pi inside a 404 error page on a site that no longer exists.*",
+    "panel1": "[setup]\nBEWILDERED PERSON: \"Figma restricted MCP access to whitelisted clients.\"\nDISHEVELED PERSON: \"Pi was excluded.\"",
+    "panel2": "[build]\nBEWILDERED PERSON: \"Is Pi unavailable?\"\nDISHEVELED PERSON: \"No. Merely unauthorized.\"",
+    "panel3": "[pivot]\nBEWILDERED PERSON: \"So Pi is a 403, not a 404.\"\nDISHEVELED PERSON: \"It was found, then excluded.\"",
+    "panel4": "[silent reaction]\n[Visual: The 404 page quietly changes its number to 403; a tiny Pi-shaped dot remains outside a velvet rope.]",
+    "panel5": "[punch]\nDISHEVELED PERSON: \"Pi was not missing. It was administratively absent.\"",
+    "panel6": "[button]\n[Visual: The site disappears, leaving its 403 sign beside a completely blank whitelist.]"
+  },
+  "narrative_summary": "Figma's exclusion of Pi gets reclassified from a 404 into the more bureaucratic 403.",
+  "rationale": "Candidate 1 turns the exact 404-versus-403 distinction into a sharp bureaucratic status joke, with \u201cadministratively absent\u201d functioning as an earned punchline rather than a restatement. The other pitches mostly replay the obvious 404/access-denied premise without matching that level of conceptual precision.",
+  "image_filename": "comic_2026-10-02.png",
+  "story_title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
+  "story_url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+  "place": "inside a 404 error page on a site that no longer exists",
+  "hat_pair": [
+    "foam stock chart spiking upward worn as a pointed hat with a tiny flag at the peak",
+    "shower cap covered in sticky notes"
+  ],
+  "no_news_mode": false
+}

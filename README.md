@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 282 (2026-10-01)
+# 📰 The AI Newspaper — Day 283 (2026-10-02)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) | Model Release | Google launches Gemini 4 Argon, its latest frontier model. | 1433 | [939](https://news.ycombinator.com/item?id=49913571) |
-| 2 | [The AI Race Just Got Awkward](https://insufferable.dev/posts/the-ai-race-just-got-awkward/) | Palace Intrigue | Commentary examines how AI competition is becoming strategically awkward. | 389 | [432](https://news.ycombinator.com/item?id=49910553) |
-| 3 | [Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents](https://github.com/magnitudedev/magnitude) | Dev Tooling | Magnitude self-optimizes inference for faster, cheaper agent execution. | 167 | [84](https://news.ycombinator.com/item?id=49911995) |
-| 4 | [CS240 AI Cheating Retrospective](https://turkeyland.net/thoughts/ai.php) | Research Paper | Professor documents AI cheating, detection failures, and course redesign. | 106 | [100](https://news.ycombinator.com/item?id=49913458) |
-| 5 | [Anthropic's IPO Prospectus Is a Fucking Doozy](https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus) | Palace Intrigue | Anthropic's IPO filing exposes finances, risks, and ambitions. | 65 | [28](https://news.ycombinator.com/item?id=49914149) |
-| 6 | [Is sandboxing sufficient to contain rogue agents?](https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/) | Research Paper | Security researcher questions sandboxing's ability to contain rogue agents. | 38 | [65](https://news.ycombinator.com/item?id=49917378) |
-| 7 | [FTC opens probe into AI giants including Anthropic and OpenAI](https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/) | Palace Intrigue | FTC probes Anthropic, OpenAI, and other AI giants. | 35 | [2](https://news.ycombinator.com/item?id=49911520) |
-| 8 | [Show HN: Parrot – Open-Source Smart Meeting Recorder with Co-Pilot on Mac](https://openparrot.app) | Open Source Tool | Open-source Mac recorder provides transcription and an AI copilot. | 32 | [18](https://news.ycombinator.com/item?id=49910328) |
-| 9 | [Reddit is killing RSS feeds and ending public API access because of AI bots](https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/) | Infrastructure | Reddit restricts RSS and public APIs over AI bots. | 31 | [25](https://news.ycombinator.com/item?id=49912499) |
-| 10 | [GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design](https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design) | AI Hardware | OpenAI and Synopsys announce GPT-Synopsys for chip design. | 29 | [2](https://news.ycombinator.com/item?id=49919910) |
+| 1 | [Pi 1.0](https://earendil.com/posts/pi-1-0/) | Open Source Tool | Pi 1.0 ships an extensible terminal coding agent. | 1333 | [423](https://news.ycombinator.com/item?id=49926069) |
+| 2 | [Clef: Open-weight decision models, and new RL fine-tuning platform](https://blog.cloudflare.com/clef-decision-models/) | Model Release | Cloudflare releases open-weight decision models and an RL fine-tuning platform. | 524 | [181](https://news.ycombinator.com/item?id=49923692) |
+| 3 | [Pi Durable](https://earendil.com/posts/pi-durable/) | Dev Tooling | Pi Durable adds durable execution for long-running coding-agent tasks. | 394 | [50](https://news.ycombinator.com/item?id=49925969) |
+| 4 | [Git 3.0's upcoming SHA-256 default will be a costly mistake](https://blog.gitbutler.com/git-3-sha-256) | Dev Tooling | Git 3.0’s SHA-256 default risks costly compatibility migrations. | 390 | [367](https://news.ycombinator.com/item?id=49924179) |
+| 5 | [RIP, vector database](https://turbopuffer.com/blog/rip-vector-database) | Infrastructure | Turbopuffer argues traditional vector databases are becoming unnecessary. | 338 | [89](https://news.ycombinator.com/item?id=49923466) |
+| 6 | [DeepSeek Harness Desktop for macOS and Windows](https://www.deepseek.com/en/harness/) | Dev Tooling | DeepSeek launches a desktop harness for macOS and Windows. | 250 | [120](https://news.ycombinator.com/item?id=49929489) |
+| 7 | [Cloudflare K2: serverless event streams](https://blog.cloudflare.com/cloudflare-k2-streams/) | Infrastructure | Cloudflare introduces K2, a serverless platform for event streams. | 248 | [90](https://news.ycombinator.com/item?id=49921923) |
+| 8 | [FTC is investigating OpenAI, Anthropic and other AI companies over product risks](https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html) | Palace Intrigue | FTC investigates OpenAI, Anthropic, and peers over AI product risks. | 204 | [153](https://news.ycombinator.com/item?id=49921050) |
+| 9 | [Figma restricts MCP access to whitelisted clients, excluding Pi](https://twitter.com/GayaniFigma/status/2105295629941350454) | Palace Intrigue | Figma limits MCP access to whitelisted clients, excluding Pi. | 180 | [101](https://news.ycombinator.com/item?id=49922729) |
+| 10 | [Context Language Models](https://arxiv.org/abs/2609.37725) | Research Paper | Paper proposes context language models for persistent, structured context. | 149 | [38](https://news.ycombinator.com/item?id=49922437) |
 
 ---
 
@@ -23,38 +23,21 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Disrupting a coordinated model-distillation campaign](https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign) | OpenAI | News | Sep 30 |
-| 2 | [Economics What work can robots do?](https://www.anthropic.com/research/what-work-can-robots-do) | Anthropic | Research | Sep 30 |
-
----
-
-## 🔥 Trending AI Repositories
-
-### Still Trending
-
-| Project | Stars | Recent stars | Daily rank | Observed streak |
-|---|---:|---:|---:|---:|
-| [openrig](https://github.com/mvschwarz/openrig) | 1,329 | +640 today | #5 | 4 days |
-| [superpowers](https://github.com/obra/superpowers) | 291,805 | +594 today | #7 | 1 days |
-
-### New and Noteworthy
-
-| Project | Description | Stars | Recent stars | Source | Independent take |
-|---|---|---:|---:|---|---|
-| [ponytail](https://github.com/DietrichGebert/ponytail) | An agent skill and plugin that encourages minimal, safe code generation across multiple AI coding assistants. | 149,712 | +743 today | Daily #1 | [One commenter criticized its size, saying the guidance could fit in a README.](https://news.ycombinator.com/item?id=48527946) |
-| [skills](https://github.com/mattpocock/skills) | A collection of composable engineering skills designed to guide coding agents through planning, testing, debugging, and development. | 273,381 | +876 today | Daily #2 | N/A |
-| [OpenShell](https://github.com/NVIDIA/OpenShell) | A policy-enforced runtime that safely isolates autonomous AI agents while controlling filesystem, network, credential, and system access. | 13,635 | +2,503 today | Daily #3 | [HN questioned whether useful agent permissions inevitably leave sandboxes dangerously broad.](https://news.ycombinator.com/item?id=49713261) |
+| 1 | [The eternal complement](https://openai.com/index/the-eternal-complement) | OpenAI | Research | Oct 1 |
+| 2 | [How Albertsons Companies is reimagining retail from the inside out](https://openai.com/index/albertsons-reimagining-retail) | OpenAI | News | Oct 1 |
+| 3 | [Announcements Barclays scales Claude to upgrade operations and improve client experience](https://www.anthropic.com/news/barclays-scales-claude) | Anthropic | News | Oct 1 |
+| 4 | [Science Claude-shaped science](https://www.anthropic.com/research/claude-shaped-science) | Anthropic | Research | Oct 1 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-10-01.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-10-02.png" width="600" alt="Today's comic strip">
 
-_Based on: [The AI Race Just Got Awkward](https://insufferable.dev/posts/the-ai-race-just-got-awkward/)_
+_Based on: [Figma restricts MCP access to whitelisted clients, excluding Pi](https://twitter.com/GayaniFigma/status/2105295629941350454)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 282 | Last updated: 2026-10-01*
+*Day 283 | Last updated: 2026-10-02*
