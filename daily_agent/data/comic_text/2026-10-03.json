@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-03",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "frazzled",
+    "adjective_second": "scatterbrained",
+    "narrative_intro": "*A frazzled person and a scatterbrained person discuss Ataraxos's Stratego victory inside a dying startup's final all-hands meeting.*",
+    "panel1": "[setup]\nFRAZZLED PERSON: \"Ataraxos beat Pim Niemeijer 15\u20131, with four draws.\"\nSCATTERBRAINED PERSON: \"Our final all-hands has already produced four draws.\"",
+    "panel2": "[build]\nFRAZZLED PERSON: \"DeepMind's 2022 DeepNash couldn't crack Stratego.\"\nSCATTERBRAINED PERSON: \"Ataraxos did it with 16 GPUs and a few thousand dollars.\"",
+    "panel3": "[pivot]\nFRAZZLED PERSON: \"Forty pieces hide across more than a decillion setups.\"\nSCATTERBRAINED PERSON: \"Our startup hides one runway number across forty spreadsheets.\"",
+    "panel4": "[silent reaction]\n[Visual: A giant Stratego board covers the meeting table; forty face-down tiles sit beside forty spreadsheets. A tiny Ataraxos scans them while both people freeze.]",
+    "panel5": "[punch]\nFRAZZLED PERSON: \"It can reason through 2,000 moves of uncertainty and bluffing.\"\nSCATTERBRAINED PERSON: \"Then it found our runway: one move.\"",
+    "panel6": "[button]\n[Visual: The final tile flips to \u201cRUNWAY: ONE MOVE\u201d; the whole office folds into a Stratego box labeled \u201cFINAL ALL-HANDS.\u201d]"
+  },
+  "narrative_summary": "At a doomed startup's final all-hands, Ataraxos applies Stratego-level uncertainty management and discovers the company's runway is only one move.",
+  "rationale": "Candidate 1 uses the story\u2019s specific facts while turning hidden information into a sharper startup visual: a runway reduced to \u201cone move.\u201d Candidate 2 is clean and well-structured, but its uncertainty/payroll joke is a more familiar startup-collapse framing and lands less decisively.",
+  "image_filename": "comic_2026-10-03.png",
+  "story_title": "With most information hidden, the game Stratego had stumped AI until now",
+  "story_url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+  "place": "inside a dying startup's final all-hands meeting",
+  "hat_pair": [
+    "oversized foam question mark worn as a hat",
+    "foam emergency brake handle worn as a hat with a red warning tag dangling from the brim"
+  ],
+  "no_news_mode": false
+}
