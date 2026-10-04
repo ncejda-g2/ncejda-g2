@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-04",
+  "template_id": "always_has_been",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "front_speech": "wait, anthropic is consulting the original alignment team?"
+  },
+  "narrative_summary": "Anthropic\u2019s meeting with religious scholars reframes ancient moral authorities as AI alignment\u2019s original team.",
+  "rationale": "Candidate 2 makes the sharpest conceptual leap by treating religious scholars as AI alignment\u2019s original team, and the Always Has Been format supplies an immediate reveal. Candidate 3 is nearly as strong but presents more of a symmetrical premise than a finished punchline.",
+  "image_filename": "comic_2026-10-04.png",
+  "story_title": "Religious scholars met with Anthropic",
+  "story_url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+  "place": "at a 24-hour laundromat",
+  "hat_pair": [
+    "novelty fake arrow-through-the-head headband",
+    "baseball cap with curled brim"
+  ],
+  "no_news_mode": false
+}
