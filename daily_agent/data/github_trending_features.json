@@ -158,8 +158,8 @@
       "repository_id": 1217522067,
       "full_name": "earthtojake/text-to-cad",
       "url": "https://github.com/earthtojake/text-to-cad",
-      "total_stars": 9370,
-      "last_full_featured": "2026-07-22"
+      "total_stars": 17108,
+      "last_full_featured": "2026-10-05"
     },
     "575865240": {
       "repository_id": 575865240,
@@ -1063,6 +1063,20 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "total_stars": 13635,
       "last_full_featured": "2026-10-01"
+    },
+    "1308631234": {
+      "repository_id": 1308631234,
+      "full_name": "tester-army/e2e",
+      "url": "https://github.com/tester-army/e2e",
+      "total_stars": 3818,
+      "last_full_featured": "2026-10-05"
+    },
+    "1048065319": {
+      "repository_id": 1048065319,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "total_stars": 96364,
+      "last_full_featured": "2026-10-05"
     }
   }
 }

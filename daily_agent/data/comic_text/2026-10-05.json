@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-05",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "caption": "you can't lose disk space to Apple Intelligence / if RemoveMacAI redirects its models to a closed local port"
+  },
+  "narrative_summary": "A smug blob taps its temple while RemoveMacAI sends Apple\u2019s AI downloads into a dead-end port.",
+  "rationale": "Candidate 5 most cleanly connects the story\u2019s disk-space problem to RemoveMacAI\u2019s specific closed-local-port workaround, while the Roll Safe format naturally supports the smug technical solution. It has a clearer consequence and stronger closing beat than the similarly structured Candidate 3.",
+  "image_filename": "comic_2026-10-05.png",
+  "story_title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+  "story_url": "https://github.com/omlahore/RemoveMacAI",
+  "place": "on a self-driving car test track where the car refuses to turn right",
+  "hat_pair": [
+    "giant foam USB drive worn as a hat with the metal connector as the brim",
+    "beekeeper veil-and-hat combo"
+  ],
+  "no_news_mode": false
+}

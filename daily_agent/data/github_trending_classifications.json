@@ -323,12 +323,12 @@
     "1217522067": {
       "repository_id": 1217522067,
       "full_name": "earthtojake/text-to-cad",
-      "readme_sha": "41bfd66ca52cb062c1ba0d2bb9c7d57081a5d3df",
-      "classified_on": "2026-09-10",
+      "readme_sha": "8c79c06bbb4e1029bcb8af87219f4cfbb11b6e2c",
+      "classified_on": "2026-10-05",
       "ai_related": true,
-      "project_type": "Library",
-      "summary": "A collection of agent skills for generating, inspecting, converting, and manufacturing CAD and robotic-description artifacts.",
-      "rationale": "Its stated primary product is a library of skills that enables agents to perform CAD, robotics, and fabrication workflows."
+      "project_type": "Application",
+      "summary": "Agent plugin providing local text-to-CAD workflows for generating 3D models, engineering drawings, and manufacturing checks.",
+      "rationale": "Its primary product enables AI agents to create and inspect CAD designs through text-driven workflows."
     },
     "1173848034": {
       "repository_id": 1173848034,
@@ -573,12 +573,12 @@
     "1153130349": {
       "repository_id": 1153130349,
       "full_name": "pingdotgg/t3code",
-      "readme_sha": "0fbbe90ee660da120cba0be1bd4e9811e81c2984",
-      "classified_on": "2026-07-27",
+      "readme_sha": "f34c275516e5dc4c9106832a34a0e51ab2712bc2",
+      "classified_on": "2026-10-05",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Web GUI for interacting with multiple AI coding agents including Claude, Codex, and Cursor.",
-      "rationale": "Purpose-built interface for AI coding agents; AI assistants are the material core of the product."
+      "summary": "Open control surface providing mobile, web, and desktop interfaces for remotely managing coding agents on personal machines.",
+      "rationale": "The application’s central purpose is controlling and coordinating multiple AI coding-agent providers."
     },
     "27193779": {
       "repository_id": 27193779,
@@ -2739,6 +2739,36 @@
       "project_type": "Library",
       "summary": "The open-source Firebase SDK collection for Apple platforms, including Firebase AI Logic and numerous application services.",
       "rationale": "Although broadly focused on Firebase mobile services, the repository directly includes Firebase AI Logic as a supported library; AI is materially represented but not the sole focus."
+    },
+    "1308631234": {
+      "repository_id": 1308631234,
+      "full_name": "tester-army/e2e",
+      "readme_sha": "2a1a902d74ac928fc077a82136c4f60c0c71231f",
+      "classified_on": "2026-10-05",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "AI-powered end-to-end testing framework where natural-language agents drive and verify web and mobile applications.",
+      "rationale": "AI agents are central to the framework’s testing workflow, performing natural-language actions and assertions."
+    },
+    "1048065319": {
+      "repository_id": 1048065319,
+      "full_name": "thedotmack/claude-mem",
+      "readme_sha": "b35c8d2d5426dec8652aacd23d3e5ec819289375",
+      "classified_on": "2026-10-05",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Persistent memory system that captures, compresses, and retrieves context across sessions for Claude and other coding agents.",
+      "rationale": "The repository directly provides long-term memory, semantic summaries, and context retrieval for AI coding agents."
+    },
+    "1322250666": {
+      "repository_id": 1322250666,
+      "full_name": "boykopovar/AnyPS5",
+      "readme_sha": "a06939e2b1e26abf1df8f6f5357cdafbd60e4555",
+      "classified_on": "2026-10-05",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "C++ tool that ports PlayStation 5 executables to Linux and Windows using native system libraries.",
+      "rationale": "This is a console executable portability and compatibility project with no material AI focus."
     }
   }
 }
