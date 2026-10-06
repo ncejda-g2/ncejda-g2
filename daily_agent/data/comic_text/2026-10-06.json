@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-06",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "wilted",
+    "adjective_second": "exasperated",
+    "narrative_intro": "*A wilted person and an exasperated person discuss ChatGPT adding real cartoonists' signatures to fake New Yorker cartoons at the edge of a black hole.*",
+    "panel1": "[setup]\nWILTED PERSON: \"ChatGPT adds real cartoonists' signatures to fake New Yorker cartoons.\"",
+    "panel2": "[build]\nEXASPERATED PERSON: \"So the signature is real, but the cartoon isn't?\"",
+    "panel3": "[pivot]\nWILTED PERSON: \"Correct. The autograph is carrying the entire reality budget.\"",
+    "panel4": "[silent reaction]\n[Visual: A tiny fake cartoon tumbles toward the black hole while its oversized signature strains backward, clutching a suitcase labeled REAL.]",
+    "panel5": "[punch]\nEXASPERATED PERSON: \"That signature isn't signing the cartoon. It's signing its alibi.\"",
+    "panel6": "[button]\n[Visual: The cartoon vanishes into the black hole; its genuine signature remains outside, attached to a blank name tag.]"
+  },
+  "narrative_summary": "At a black hole's edge, a fake New Yorker cartoon plunges toward oblivion while its real signature files an alibi.",
+  "rationale": "Candidate 3 turns the story\u2019s central contradiction\u2014real signatures attached to fake cartoons\u2014into a specific, escalating alibi gag, with both the dialogue and visual carrying the premise. Its closing line is a genuine wordplay payoff rather than a restatement, while remaining clean and work-appropriate.",
+  "image_filename": "comic_2026-10-06.png",
+  "story_title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+  "story_url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+  "place": "at the edge of a black hole",
+  "hat_pair": [
+    "graduation mortarboard",
+    "astronaut helmet with a bobblehead glued to the visor"
+  ],
+  "no_news_mode": false
+}

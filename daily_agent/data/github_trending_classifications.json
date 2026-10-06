@@ -363,12 +363,12 @@
     "1238120057": {
       "repository_id": 1238120057,
       "full_name": "ayghri/i-have-adhd",
-      "readme_sha": "48d7b6cd1d457311ea3daef3d86169953562a4b3",
-      "classified_on": "2026-09-10",
+      "readme_sha": "6acecf9600640c93503df0ed178a220d476e1197",
+      "classified_on": "2026-10-06",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A Claude Code skill that produces concise, action-first responses tailored for developers who prefer ADHD-friendly output.",
-      "rationale": "It is explicitly a coding-agent skill/plugin that changes how an AI assistant structures responses."
+      "summary": "An AI coding assistant skill that enforces concise, actionable, ADHD-friendly response formatting rules.",
+      "rationale": "The repository provides a skill/plugin specifically for shaping coding assistant and LLM outputs."
     },
     "107286889": {
       "repository_id": 107286889,
@@ -593,12 +593,12 @@
     "1097346685": {
       "repository_id": 1097346685,
       "full_name": "pbakaus/impeccable",
-      "readme_sha": "c3dec5a46d930eb5ede5d508c0713bbb9fff1647",
-      "classified_on": "2026-07-27",
+      "readme_sha": "1a321f03b5bc30dc40300b1f8697f8e97c147ee8",
+      "classified_on": "2026-10-06",
       "ai_related": true,
-      "project_type": "Framework",
-      "summary": "A design skill framework with 23 commands and 60 detector rules for AI coding agents.",
-      "rationale": "Framework specifically designed as a skill for AI agents (Claude, Cursor, Grok) to generate better frontend design, including deterministic rules and LLM-guided critique checks."
+      "project_type": "CLI",
+      "summary": "A CLI-installed design skill helping AI coding agents create, audit, and refine frontend interfaces.",
+      "rationale": "Its primary product is a design guidance and command system explicitly built for AI coding agents."
     },
     "822285449": {
       "repository_id": 822285449,
@@ -2764,11 +2764,31 @@
       "repository_id": 1322250666,
       "full_name": "boykopovar/AnyPS5",
       "readme_sha": "a06939e2b1e26abf1df8f6f5357cdafbd60e4555",
-      "classified_on": "2026-10-05",
+      "classified_on": "2026-10-06",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "C++ tool that ports PlayStation 5 executables to Linux and Windows using native system libraries.",
       "rationale": "This is a console executable portability and compatibility project with no material AI focus."
+    },
+    "1209966933": {
+      "repository_id": 1209966933,
+      "full_name": "morluto/rea",
+      "readme_sha": "1dd1e86ae2ea3442f88f67982fdf516dcfd21aeb",
+      "classified_on": "2026-10-06",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "A CLI and MCP toolkit enabling agents to investigate applications, websites, assemblies, and native binaries.",
+      "rationale": "Agent-driven reverse engineering is central to the product, with CLI and MCP interfaces for AI assistants."
+    },
+    "932038801": {
+      "repository_id": 932038801,
+      "full_name": "deepseek-ai/DeepGEMM",
+      "readme_sha": "d1f793f450cb502d0129732c178bcda69b6bf69b",
+      "classified_on": "2026-10-06",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "A CUDA kernel library optimizing tensor computations used by modern large language models and mixture-of-experts systems.",
+      "rationale": "Its kernels directly target LLM primitives including GEMMs, MoE computation, attention scoring, and model training or inference."
     }
   }
 }

@@ -179,8 +179,8 @@
       "repository_id": 1238120057,
       "full_name": "ayghri/i-have-adhd",
       "url": "https://github.com/ayghri/i-have-adhd",
-      "total_stars": 36130,
-      "last_full_featured": "2026-09-10"
+      "total_stars": 54103,
+      "last_full_featured": "2026-10-06"
     },
     "1011567289": {
       "repository_id": 1011567289,
@@ -263,8 +263,8 @@
       "repository_id": 1097346685,
       "full_name": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
-      "total_stars": 50981,
-      "last_full_featured": "2026-07-27"
+      "total_stars": 77346,
+      "last_full_featured": "2026-10-06"
     },
     "1219644159": {
       "repository_id": 1219644159,
@@ -1077,6 +1077,13 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "total_stars": 96364,
       "last_full_featured": "2026-10-05"
+    },
+    "1209966933": {
+      "repository_id": 1209966933,
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "total_stars": 6835,
+      "last_full_featured": "2026-10-06"
     }
   }
 }

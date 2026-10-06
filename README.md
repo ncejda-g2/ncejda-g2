@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 286 (2026-10-05)
+# 📰 The AI Newspaper — Day 287 (2026-10-06)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s](https://github.com/Niko1221/Strata) | Open Source Tool | Open-source engine runs a 125B Qwen model at claimed 100T/s. | 829 | [365](https://news.ycombinator.com/item?id=49953495) |
-| 2 | [Turn off Apple Intelligence on macOS 27 and get its disk space back](https://github.com/omlahore/RemoveMacAI) | Open Source Tool | Remove Apple Intelligence files and reclaim their macOS disk space. | 625 | [419](https://news.ycombinator.com/item?id=49957116) |
-| 3 | [Homa: The end of TCP for AI clusters [video\]](https://www.youtube.com/watch?v=eZ8WWZzoaR0) | Infrastructure | Homa proposes replacing TCP for high-performance AI cluster networking. | 78 | [43](https://news.ycombinator.com/item?id=49957117) |
-| 4 | [Anthropic reported diary entry to police, woman faces felony charge](https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html) | Palace Intrigue | Claude diary disclosure led to a Florida felony charge. | 74 | [63](https://news.ycombinator.com/item?id=49961057) |
-| 5 | [Europe's new robotics unicorn: Germany's RobCo hits $1B valuation](https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/) | AI Hardware | RobCo reaches billion-dollar valuation as Europe’s robotics unicorn. | 64 | [28](https://news.ycombinator.com/item?id=49963366) |
-| 6 | [Web Search API](https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/) | Dev Tooling | Cloudflare launches web-search API for AI applications. | 55 | [19](https://news.ycombinator.com/item?id=49963171) |
-| 7 | [Building a RAG pipeline for semantic code search](https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/) | Dev Tooling | JetBrains documents a practical RAG pipeline for semantic code search. | 36 | [9](https://news.ycombinator.com/item?id=49956148) |
-| 8 | [What I learnt co-leading an AI Safety bootcamp for legal and governance practit](https://www.lesswrong.com/posts/KtAug62dYRgAS8sqJ/what-i-learnt-co-leading-an-ai-safety-bootcamp-for-legal-and) | Research Paper | Legal bootcamp lessons connect AI safety with governance practice. | 22 | [20](https://news.ycombinator.com/item?id=49955839) |
-| 9 | [AI doesn't need 'superintelligence' or evil intent to start a nuclear war](https://thebulletin.org/2026/10/ai-doesnt-need-superintelligence-or-evil-intent-to-start-a-nuclear-war/) | Research Paper | Analysis warns capable AI could trigger nuclear war without superintelligence. | 18 | [11](https://news.ycombinator.com/item?id=49958358) |
-| 10 | [Legal risks pile up for Altman as OpenAI uncovers hacks](https://www.ft.com/content/2c24ece3-ac99-43a8-b0e6-4a3867e37ebf) | Palace Intrigue | OpenAI faces legal fallout while investigating internal hacks. | 15 | [7](https://news.ycombinator.com/item?id=49959361) |
+| 1 | [Beam: Reflection's 501B open-weight model](https://reflection.ai/blog/introducing-beam) | Model Release | Reflection releases a 501B open-weight model called Beam. | 476 | [150](https://news.ycombinator.com/item?id=49969183) |
+| 2 | [ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons](https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/) | Palace Intrigue | ChatGPT reportedly adds real cartoonist signatures to fabricated cartoons. | 467 | [346](https://news.ycombinator.com/item?id=49971846) |
+| 3 | [Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) | Research Paper | Opus 5.5 agents identify two room-temperature magnetic semiconductors. | 376 | [255](https://news.ycombinator.com/item?id=49970667) |
+| 4 | [OpenAI "rogue" agent activities found on Wikimedia projects](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/) | Palace Intrigue | OpenAI agents allegedly disrupted Wikimedia projects and may explain outages. | 284 | [186](https://news.ycombinator.com/item?id=49968105) |
+| 5 | [Dust: Pretraining Transformers Without Backpropagation](https://qlabs.sh/research/dust) | Research Paper | Dust proposes pretraining Transformers without backpropagation. | 215 | [55](https://news.ycombinator.com/item?id=49970871) |
+| 6 | [Our approach to EU text provenance rules](https://openai.com/index/eu-text-provenance/) | Palace Intrigue | OpenAI outlines text-provenance compliance for upcoming EU rules. | 67 | [58](https://news.ycombinator.com/item?id=49966293) |
+| 7 | [AI tutoring with Khanmigo in a two-year school experiment](https://edworkingpapers.com/ai26-1551) | Research Paper | Two-year study measures Khanmigo's effects on student learning. | 66 | [55](https://news.ycombinator.com/item?id=49972419) |
+| 8 | [Autolith: A self-modifiable general purpose Lisp AI agent](https://github.com/lambda-symbolics/autolith) | Open Source Tool | Autolith is a self-modifying general-purpose Lisp AI agent. | 28 | [0](https://news.ycombinator.com/item?id=49975081) |
+| 9 | [Keep large MCP results out of context](https://spill-ai.github.io/spill/) | Dev Tooling | Spill keeps large MCP results outside agents' context windows. | 5 | [0](https://news.ycombinator.com/item?id=49966737) |
+| 10 | [Show HN: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf](https://dirac.run/posts/easycommand) | Model Release | Fine-tuned 1.5B Qwen approaches GPT-4o bash-generation performance. | 5 | [0](https://news.ycombinator.com/item?id=49966238) |
 
 ---
 
@@ -23,30 +23,38 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Building advertising for the way people use AI](https://openai.com/index/new-chatgpt-ads-format-and-measurement) | OpenAI | News | Oct 5 |
+| 1 | [Our approach to EU text provenance rules](https://openai.com/index/eu-text-provenance) | OpenAI | News | Oct 5 |
 
 ---
 
 ## 🔥 Trending AI Repositories
 
+### Still Trending
+
+| Project | Stars | Recent stars | Daily rank | Observed streak |
+|---|---:|---:|---:|---:|
+| [e2e](https://github.com/tester-army/e2e) | 3,818 | +1,720 today | #1 | 2 days |
+| [skills](https://github.com/mattpocock/skills) | 273,381 | +1,028 today | #2 | 1 days |
+| [text-to-cad](https://github.com/earthtojake/text-to-cad) | 17,108 | +620 today | #3 | 2 days |
+
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [e2e](https://github.com/tester-army/e2e) | AI-powered end-to-end testing framework where natural-language agents drive and verify web and mobile applications. | 3,818 | +1,430 today | Daily #1 | N/A |
-| [claude-mem](https://github.com/thedotmack/claude-mem) | Persistent memory system that captures, compresses, and retrieves context across sessions for Claude and other coding agents. | 96,364 | +534 today | Daily #2 | N/A |
-| [text-to-cad](https://github.com/earthtojake/text-to-cad) | Agent plugin providing local text-to-CAD workflows for generating 3D models, engineering drawings, and manufacturing checks. | 17,108 | +456 today | Daily #3 | [One commenter said LLMs remain weak at spatial reasoning, limiting CAD use.](https://news.ycombinator.com/item?id=47970497) |
+| [impeccable](https://github.com/pbakaus/impeccable) | A CLI-installed design skill helping AI coding agents create, audit, and refine frontend interfaces. | 77,346 | +947 today | Daily #5 | N/A |
+| [i-have-adhd](https://github.com/ayghri/i-have-adhd) | An AI coding assistant skill that enforces concise, actionable, ADHD-friendly response formatting rules. | 54,103 | +318 today | Daily #7 | [HN commenters found the skill useful, though one questioned its repository size.](https://news.ycombinator.com/item?id=49610631) |
+| [rea](https://github.com/morluto/rea) | A CLI and MCP toolkit enabling agents to investigate applications, websites, assemblies, and native binaries. | 6,835 | +2,963 today | Daily #8 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-10-05.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-10-06.png" width="600" alt="Today's comic strip">
 
-_Based on: [Turn off Apple Intelligence on macOS 27 and get its disk space back](https://github.com/omlahore/RemoveMacAI)_
+_Based on: [ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons](https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 286 | Last updated: 2026-10-05*
+*Day 287 | Last updated: 2026-10-06*
