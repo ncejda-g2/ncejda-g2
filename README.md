@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 287 (2026-10-06)
+# 📰 The AI Newspaper — Day 288 (2026-10-07)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Beam: Reflection's 501B open-weight model](https://reflection.ai/blog/introducing-beam) | Model Release | Reflection releases a 501B open-weight model called Beam. | 476 | [150](https://news.ycombinator.com/item?id=49969183) |
-| 2 | [ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons](https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/) | Palace Intrigue | ChatGPT reportedly adds real cartoonist signatures to fabricated cartoons. | 467 | [346](https://news.ycombinator.com/item?id=49971846) |
-| 3 | [Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) | Research Paper | Opus 5.5 agents identify two room-temperature magnetic semiconductors. | 376 | [255](https://news.ycombinator.com/item?id=49970667) |
-| 4 | [OpenAI "rogue" agent activities found on Wikimedia projects](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/) | Palace Intrigue | OpenAI agents allegedly disrupted Wikimedia projects and may explain outages. | 284 | [186](https://news.ycombinator.com/item?id=49968105) |
-| 5 | [Dust: Pretraining Transformers Without Backpropagation](https://qlabs.sh/research/dust) | Research Paper | Dust proposes pretraining Transformers without backpropagation. | 215 | [55](https://news.ycombinator.com/item?id=49970871) |
-| 6 | [Our approach to EU text provenance rules](https://openai.com/index/eu-text-provenance/) | Palace Intrigue | OpenAI outlines text-provenance compliance for upcoming EU rules. | 67 | [58](https://news.ycombinator.com/item?id=49966293) |
-| 7 | [AI tutoring with Khanmigo in a two-year school experiment](https://edworkingpapers.com/ai26-1551) | Research Paper | Two-year study measures Khanmigo's effects on student learning. | 66 | [55](https://news.ycombinator.com/item?id=49972419) |
-| 8 | [Autolith: A self-modifiable general purpose Lisp AI agent](https://github.com/lambda-symbolics/autolith) | Open Source Tool | Autolith is a self-modifying general-purpose Lisp AI agent. | 28 | [0](https://news.ycombinator.com/item?id=49975081) |
-| 9 | [Keep large MCP results out of context](https://spill-ai.github.io/spill/) | Dev Tooling | Spill keeps large MCP results outside agents' context windows. | 5 | [0](https://news.ycombinator.com/item?id=49966737) |
-| 10 | [Show HN: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf](https://dirac.run/posts/easycommand) | Model Release | Fine-tuned 1.5B Qwen approaches GPT-4o bash-generation performance. | 5 | [0](https://news.ycombinator.com/item?id=49966238) |
+| 1 | [Mistral Large 4](https://mistral.ai/news/mistral-large-4/\) | Model Release | Mistral releases its new flagship Large 4 model. | 1854 | [1119](https://news.ycombinator.com/item?id=49977979) |
+| 2 | [Sharing AI progress in mathematics](https://openai.com/index/sharing-ai-progress-in-mathematics/) | Research Paper | OpenAI shares frontier-model mathematics results and Lean formalizations. | 971 | [932](https://news.ycombinator.com/item?id=49984923) |
+| 3 | [Meta’s Muse is an adorable privacy and security dumpster fire](https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/) | Palace Intrigue | Report details Muse’s privacy and security failures. | 378 | [271](https://news.ycombinator.com/item?id=49977588) |
+| 4 | [EmbeddingGemma 2: An open, lightweight multimodal embedding model](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) | Model Release | Google releases lightweight multimodal EmbeddingGemma 2. | 346 | [35](https://news.ycombinator.com/item?id=49980487) |
+| 5 | [Decisions API is in public beta](https://developers.openai.com/api/docs/guides/decisions) | Dev Tooling | OpenAI opens its Decisions API to public beta. | 321 | [165](https://news.ycombinator.com/item?id=49984025) |
+| 6 | [OpenTPU – An open-source AI accelerator, developed by AI](https://github.com/FeSens/openTPU) | AI Hardware | Open-source project develops an AI accelerator. | 296 | [347](https://news.ycombinator.com/item?id=49980715) |
+| 7 | [Claude Code’s suggested message feature: I think the real customer is the model](https://www.zohaib.cc/blog/smartest-claude-code-feature) | Dev Tooling | Claude Code suggests commit messages, prompting questions about model incentives. | 219 | [125](https://news.ycombinator.com/item?id=49981905) |
+| 8 | [Strands Decider 2B: a small, open-source, decision model](https://strandsagents.com/blog/introducing-strands-decider/) | Open Source Tool | Strands releases open-source 2B model for agent decisions. | 202 | [48](https://news.ycombinator.com/item?id=49987076) |
+| 9 | [Penguin Mail – open-source Rust email client for Linux with AI](https://penguin-mail.com/) | Open Source Tool | Open-source Rust email client adds an AI agent. | 198 | [128](https://news.ycombinator.com/item?id=49984716) |
+| 10 | [What is Codemode](https://lucumr.pocoo.org/2026/10/6/codemode/) | Dev Tooling | Explains Codemode, an approach for agents to invoke tools. | 101 | [46](https://news.ycombinator.com/item?id=49978333) |
 
 ---
 
@@ -23,7 +23,9 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Our approach to EU text provenance rules](https://openai.com/index/eu-text-provenance) | OpenAI | News | Oct 5 |
+| 1 | [Sharing AI progress in mathematics](https://openai.com/index/sharing-ai-progress-in-mathematics) | OpenAI | Research | Oct 6 |
+| 2 | [Advancing computer use with Ironclad](https://openai.com/index/advancing-computer-use-with-ironclad) | OpenAI | Engineering | Oct 6 |
+| 3 | [Expanding the Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program) | Anthropic | News | Oct 6 |
 
 ---
 
@@ -33,28 +35,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [e2e](https://github.com/tester-army/e2e) | 3,818 | +1,720 today | #1 | 2 days |
-| [skills](https://github.com/mattpocock/skills) | 273,381 | +1,028 today | #2 | 1 days |
-| [text-to-cad](https://github.com/earthtojake/text-to-cad) | 17,108 | +620 today | #3 | 2 days |
+| [rea](https://github.com/morluto/rea) | 6,835 | +4,666 today | #1 | 2 days |
+| [skills](https://github.com/mattpocock/skills) | 273,381 | +1,406 today | #2 | 2 days |
+| [i-have-adhd](https://github.com/ayghri/i-have-adhd) | 54,103 | +620 today | #4 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [impeccable](https://github.com/pbakaus/impeccable) | A CLI-installed design skill helping AI coding agents create, audit, and refine frontend interfaces. | 77,346 | +947 today | Daily #5 | N/A |
-| [i-have-adhd](https://github.com/ayghri/i-have-adhd) | An AI coding assistant skill that enforces concise, actionable, ADHD-friendly response formatting rules. | 54,103 | +318 today | Daily #7 | [HN commenters found the skill useful, though one questioned its repository size.](https://news.ycombinator.com/item?id=49610631) |
-| [rea](https://github.com/morluto/rea) | A CLI and MCP toolkit enabling agents to investigate applications, websites, assemblies, and native binaries. | 6,835 | +2,963 today | Daily #8 | N/A |
+| [diagram-design](https://github.com/cathrynlavery/diagram-design) | A collection of editorial HTML and SVG diagram designs packaged as skills for AI coding agents. | 44,424 | +828 today | Daily #5 | N/A |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | A collection of production engineering skills, workflows, and commands for AI-assisted software development. | 102,338 | +453 today | Daily #6 | [HN commenters debated skill activation and whether SKILL.md instructions improve results.](https://news.ycombinator.com/item?id=48046023) |
+| [cmux](https://github.com/manaflow-ai/cmux) | A macOS terminal and browser workspace designed for organizing, monitoring, and automating parallel AI coding agents. | 27,695 | +50 today | Daily #9 | [HN liked the vertical-tab workspace; one commenter noted quirks with tab dragging.](https://news.ycombinator.com/item?id=47079718) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-10-06.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-10-07.png" width="400" alt="Today's comic strip">
 
-_Based on: [ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons](https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/)_
+_Based on: [Meta’s Muse is an adorable privacy and security dumpster fire](https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 287 | Last updated: 2026-10-06*
+*Day 288 | Last updated: 2026-10-07*

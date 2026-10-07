@@ -431,8 +431,8 @@
       "repository_id": 1158722119,
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
-      "total_stars": 96096,
-      "last_full_featured": "2026-09-18"
+      "total_stars": 102338,
+      "last_full_featured": "2026-10-07"
     },
     "614765452": {
       "repository_id": 614765452,
@@ -529,8 +529,8 @@
       "repository_id": 1212769188,
       "full_name": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "total_stars": 32984,
-      "last_full_featured": "2026-09-07"
+      "total_stars": 44424,
+      "last_full_featured": "2026-10-07"
     },
     "1092407718": {
       "repository_id": 1092407718,
@@ -1084,6 +1084,13 @@
       "url": "https://github.com/morluto/rea",
       "total_stars": 6835,
       "last_full_featured": "2026-10-06"
+    },
+    "1144115288": {
+      "repository_id": 1144115288,
+      "full_name": "manaflow-ai/cmux",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "total_stars": 27695,
+      "last_full_featured": "2026-10-07"
     }
   }
 }

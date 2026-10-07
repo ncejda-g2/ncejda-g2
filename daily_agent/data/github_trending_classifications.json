@@ -1153,12 +1153,12 @@
     "1158722119": {
       "repository_id": 1158722119,
       "full_name": "addyosmani/agent-skills",
-      "readme_sha": "6361def414ade46622e6cd527d1faeea2b234224",
-      "classified_on": "2026-09-18",
+      "readme_sha": "c6039f4d64f900f75303ecfa8d67a527eebad851",
+      "classified_on": "2026-10-07",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of production engineering skills that guides AI coding agents through development, testing, review, and deployment.",
-      "rationale": "Its primary purpose is packaging reusable workflows and commands for AI coding agents."
+      "summary": "A collection of production engineering skills, workflows, and commands for AI-assisted software development.",
+      "rationale": "The repository is explicitly organized around reusable skills that guide AI coding agents through development lifecycle tasks."
     },
     "230885748": {
       "repository_id": 230885748,
@@ -1403,12 +1403,12 @@
     "1212769188": {
       "repository_id": 1212769188,
       "full_name": "cathrynlavery/diagram-design",
-      "readme_sha": "57e70d771fe7803b76dc60798e91a2afc850ae59",
-      "classified_on": "2026-09-07",
+      "readme_sha": "a1fe31b32cec9ecf19ded94871c064681b4f6b5a",
+      "classified_on": "2026-10-07",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of editorial diagram templates and an agent skill for generating branded HTML and SVG visuals.",
-      "rationale": "It is explicitly designed as a skill for Claude Code, Codex, Pi, and other AI agent hosts."
+      "summary": "A collection of editorial HTML and SVG diagram designs packaged as skills for AI coding agents.",
+      "rationale": "Its primary purpose is providing diagram-generation skills and templates for Claude Code, Codex, and other agent hosts."
     },
     "1092407718": {
       "repository_id": 1092407718,
@@ -2764,7 +2764,7 @@
       "repository_id": 1322250666,
       "full_name": "boykopovar/AnyPS5",
       "readme_sha": "a06939e2b1e26abf1df8f6f5357cdafbd60e4555",
-      "classified_on": "2026-10-06",
+      "classified_on": "2026-10-07",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "C++ tool that ports PlayStation 5 executables to Linux and Windows using native system libraries.",
@@ -2789,6 +2789,26 @@
       "project_type": "Library",
       "summary": "A CUDA kernel library optimizing tensor computations used by modern large language models and mixture-of-experts systems.",
       "rationale": "Its kernels directly target LLM primitives including GEMMs, MoE computation, attention scoring, and model training or inference."
+    },
+    "741625310": {
+      "repository_id": 741625310,
+      "full_name": "EpicGames/raddebugger",
+      "readme_sha": "05403355908aa9765b226055831976999daa2db6",
+      "classified_on": "2026-10-07",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "A native graphical debugger and toolchain for multi-process Windows development, custom debug information, and fast linking.",
+      "rationale": "The supplied metadata describes conventional debugging, debug information, and linker tooling without an AI-focused product or subject."
+    },
+    "1144115288": {
+      "repository_id": 1144115288,
+      "full_name": "manaflow-ai/cmux",
+      "readme_sha": "6a55ca4cf3e938d77c679712d83d8f229bc490aa",
+      "classified_on": "2026-10-07",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A macOS terminal and browser workspace designed for organizing, monitoring, and automating parallel AI coding agents.",
+      "rationale": "AI coding agents are central to the application's purpose, with agent notifications, team support, browser automation, and workspace management."
     }
   }
 }

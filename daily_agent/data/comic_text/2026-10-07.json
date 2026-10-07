@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-10-07",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_dialog": "Meta's Muse is a delightful privacy-first assistant starring Jolly!",
+    "panel2_dialog": "...the Mac zero-day, underpriced Marketplace listings, and address leak were features...right?",
+    "panel4_dialog": "...and root access was the premium feature, right?"
+  },
+  "narrative_summary": "Meta markets Muse's adorable Jolly avatar as friendly while its permissions escalate from bargain sales to possible root access.",
+  "rationale": "Candidate 4 best uses escalation: it turns the story\u2019s specific failures into a progressively worse permission ladder, ending with the strongest beat, root access as a premium feature. The dialogue fits the Anakin/Padme format and remains clean and workplace-appropriate.",
+  "image_filename": "comic_2026-10-07.png",
+  "story_title": "Meta\u2019s Muse is an adorable privacy and security dumpster fire",
+  "story_url": "https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
+  "place": "at an all-hands meeting where the CEO is a deepfake",
+  "hat_pair": [
+    "foam magic 8-ball worn as a helmet with the answer window on the forehead",
+    "foam pie chart worn as a flat circular hat with brightly colored wedge slices"
+  ],
+  "no_news_mode": false
+}
