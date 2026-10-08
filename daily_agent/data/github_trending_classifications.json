@@ -13,12 +13,12 @@
     "1148788086": {
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
-      "readme_sha": "8932fc553ee7ed5759ff8164c8908a78c1b4f0f8",
-      "classified_on": "2026-10-01",
+      "readme_sha": "f7038f139299985eea6c3e18398dbafb379a0010",
+      "classified_on": "2026-10-08",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of composable engineering skills designed to guide coding agents through planning, testing, debugging, and development.",
-      "rationale": "The repository explicitly organizes reusable skills for Claude Code, Codex, and other AI coding agents."
+      "summary": "A collection of composable engineering and productivity skills designed to guide Claude and other coding agents.",
+      "rationale": "Its primary content consists of reusable skills and workflows for AI coding agents, making AI central to the repository."
     },
     "1006414368": {
       "repository_id": 1006414368,
@@ -2494,11 +2494,11 @@
       "repository_id": 1140828898,
       "full_name": "anthropics/knowledge-work-plugins",
       "readme_sha": "261e2f47e2b1701258e4bd3ec18620dc5d7c28ad",
-      "classified_on": "2026-09-21",
+      "classified_on": "2026-10-08",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Collection of Claude plugins providing role-specific skills, connectors, commands, and workflows for knowledge workers.",
-      "rationale": "This is an AI-focused plugin collection designed specifically to extend Claude for professional workflows."
+      "summary": "An open-source collection of Claude plugins providing role-specific skills, commands, connectors, and sub-agents for knowledge work.",
+      "rationale": "The repository is explicitly built to extend Claude with specialized AI workflows across professional functions."
     },
     "1164477708": {
       "repository_id": 1164477708,
@@ -2763,12 +2763,12 @@
     "1322250666": {
       "repository_id": 1322250666,
       "full_name": "boykopovar/AnyPS5",
-      "readme_sha": "a06939e2b1e26abf1df8f6f5357cdafbd60e4555",
-      "classified_on": "2026-10-07",
+      "readme_sha": "5e57cb94ff24c133317861bad76ac6b8dd83a55b",
+      "classified_on": "2026-10-08",
       "ai_related": false,
-      "project_type": "CLI",
-      "summary": "C++ tool that ports PlayStation 5 executables to Linux and Windows using native system libraries.",
-      "rationale": "This is a console executable portability and compatibility project with no material AI focus."
+      "project_type": "Application",
+      "summary": "A tool that ports PS5 executables to Linux and Windows using native relinking and system library implementations.",
+      "rationale": "The repository focuses on executable portability, graphics compatibility, and game preservation rather than artificial intelligence."
     },
     "1209966933": {
       "repository_id": 1209966933,
@@ -2794,7 +2794,7 @@
       "repository_id": 741625310,
       "full_name": "EpicGames/raddebugger",
       "readme_sha": "05403355908aa9765b226055831976999daa2db6",
-      "classified_on": "2026-10-07",
+      "classified_on": "2026-10-08",
       "ai_related": false,
       "project_type": "Application",
       "summary": "A native graphical debugger and toolchain for multi-process Windows development, custom debug information, and fast linking.",
@@ -2809,6 +2809,16 @@
       "project_type": "Application",
       "summary": "A macOS terminal and browser workspace designed for organizing, monitoring, and automating parallel AI coding agents.",
       "rationale": "AI coding agents are central to the application's purpose, with agent notifications, team support, browser automation, and workspace management."
+    },
+    "476507964": {
+      "repository_id": 476507964,
+      "full_name": "storytold/artcraft",
+      "readme_sha": "b5d1e2c5489758595b6f125140e4feeccb891e58",
+      "classified_on": "2026-10-08",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "An artistic IDE for interactive AI image and video creation with compositing, three-dimensional staging, and model selection.",
+      "rationale": "AI-powered image and video generation is the application's primary product, alongside visual composition and scene-authoring tools."
     }
   }
 }

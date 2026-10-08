@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-10-08",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "panel1_caption": "prove a theorem",
+    "panel2_caption": "formalize it in Lean",
+    "panel3_caption": "formalize 42% of OpenAI's top-line results in Lean",
+    "panel4_caption": "publish mathematical patch notes: +6 new, ~19 changed, \u22123 withdrawn"
+  },
+  "narrative_summary": "OpenAI\u2019s Lean update escalates from proving mathematics to shipping software-style release notes for it.",
+  "rationale": "Candidate 3 turns the exact counts into a sharp, unexpected software-release-notes analogy, and the expanding-brain structure cleanly escalates to its strongest final beat. It is specific, concise, and fully work-appropriate.",
+  "image_filename": "comic_2026-10-08.png",
+  "story_title": "OpenAI withdraws three mathematical results",
+  "story_url": "https://twitter.com/danintheory/status/2108065033070789090",
+  "place": "at a stock exchange trading floor during a market crash",
+  "hat_pair": [
+    "foam megaphone worn upside-down as a hat with the wide bell as the brim",
+    "foam anvil worn flat as a hat with a tiny ACME label stamped on the side"
+  ],
+  "no_news_mode": false
+}
