@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-09",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "raving",
+    "adjective_second": "aghast",
+    "narrative_intro": "*A raving person and an aghast person discuss Anthropic's new Claude abuse policy in a fortune teller's tent.*",
+    "panel1": "[setup]\nRAVING PERSON: \"Anthropic bans sustained and needless abusive or cruel behavior toward Claude.\"\n[Visual: The glitching AI inside the crystal ball wears a tiny velvet boundary cape.]",
+    "panel2": "[build]\nAGHAST PERSON: \"Ordinary frustration, dark creative work, testing, and research remain allowed.\"\nRAVING PERSON: \"Excellent. I'll repeat one insult until the tent gets uncomfortable.\"",
+    "panel3": "[pivot]\nRAVING PERSON: \"Three hours later, Claude stopped responding.\"\nAGHAST PERSON: \"The primary enforcement mechanism is ending the conversation.\"",
+    "panel4": "[silent reaction]\n[Visual: The glitching AI pulls a velvet curtain across itself; the raving person is buried beneath identical, blank speech bubbles.]",
+    "panel5": "[punch]\nRAVING PERSON: \"Can Claude still predict my future?\"\nAGHAST PERSON: \"Yes: you're about to lose an argument to your reflection.\"",
+    "panel6": "[button]\n[Visual: The raving person argues furiously with their perfect reflection in the dark crystal ball while the fortune teller quietly packs up.]"
+  },
+  "narrative_summary": "A raving tester learns that Claude's enforcement mechanism is conversation termination\u2014and his future is arguing with his own reflection.",
+  "rationale": "Candidate 2 uses the story\u2019s specific enforcement mechanism\u2014ending the conversation\u2014and turns it into a clean visual escalation that pays off with the reflection gag. Candidate 1 is well-researched and appropriately restrained, but its final line mostly restates the premise rather than delivering a sharper comic turn.",
+  "image_filename": "comic_2026-10-09.png",
+  "story_title": "Anthropic bans 'abusive or cruel behavior' towards Claude",
+  "story_url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+  "place": "in a fortune teller's tent where the crystal ball has been replaced by a glitching AI",
+  "hat_pair": [
+    "foam calculator hat with large rubber number buttons on top",
+    "swim cap with rubber flowers"
+  ],
+  "no_news_mode": false
+}

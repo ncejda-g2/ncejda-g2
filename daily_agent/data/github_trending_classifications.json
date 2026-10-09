@@ -163,12 +163,12 @@
     "1211752857": {
       "repository_id": 1211752857,
       "full_name": "Robbyant/lingbot-map",
-      "readme_sha": "0c1852b2cdb529883af2266955b0113221e34b69",
-      "classified_on": "2026-07-19",
+      "readme_sha": "1215f48c5078411c5180498a43b3a0b13f8a0e01",
+      "classified_on": "2026-10-09",
       "ai_related": true,
       "project_type": "Model",
-      "summary": "Feed-forward 3D foundation model using geometric transformers for streaming scene reconstruction from video.",
-      "rationale": "A published 3D foundation model with novel Geometric Context Transformer architecture for real-time scene reconstruction. Includes pre-trained weights, research paper, and streaming inference optimization."
+      "summary": "Streaming 3D reconstruction foundation model using geometric context transformers for efficient long-sequence visual inference.",
+      "rationale": "It releases and supports a trained model whose primary purpose is AI-based streaming 3D scene reconstruction."
     },
     "1129930192": {
       "repository_id": 1129930192,
@@ -533,12 +533,12 @@
     "1241960226": {
       "repository_id": 1241960226,
       "full_name": "alibaba/open-code-review",
-      "readme_sha": "a8d2c1d908d266f189ae288171fe6982b9bba3af",
-      "classified_on": "2026-09-18",
+      "readme_sha": "96b4e231298af0882d800d213b5f5881f601fdd9",
+      "classified_on": "2026-10-09",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "An AI-powered command-line tool that reviews code changes using deterministic pipelines and configurable language models.",
-      "rationale": "AI is the repository’s primary product, combining LLM agents with deterministic rules for structured code review."
+      "summary": "AI-powered command-line code review tool combining deterministic analysis pipelines with configurable LLM agents.",
+      "rationale": "Its primary product is an AI code review CLI that analyzes diffs and generates line-level comments using LLMs."
     },
     "678973052": {
       "repository_id": 678973052,
@@ -2764,7 +2764,7 @@
       "repository_id": 1322250666,
       "full_name": "boykopovar/AnyPS5",
       "readme_sha": "5e57cb94ff24c133317861bad76ac6b8dd83a55b",
-      "classified_on": "2026-10-08",
+      "classified_on": "2026-10-09",
       "ai_related": false,
       "project_type": "Application",
       "summary": "A tool that ports PS5 executables to Linux and Windows using native relinking and system library implementations.",
@@ -2819,6 +2819,26 @@
       "project_type": "Application",
       "summary": "An artistic IDE for interactive AI image and video creation with compositing, three-dimensional staging, and model selection.",
       "rationale": "AI-powered image and video generation is the application's primary product, alongside visual composition and scene-authoring tools."
+    },
+    "671269505": {
+      "repository_id": 671269505,
+      "full_name": "BerriAI/litellm",
+      "readme_sha": "141e8232de818600414b7c2a69fb4f4c1d42db67",
+      "classified_on": "2026-10-09",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Open-source AI gateway providing unified access, monitoring, and controls for more than 100 LLM providers.",
+      "rationale": "The repository centrally organizes its functionality around serving, routing, and managing large language model APIs."
+    },
+    "1173845549": {
+      "repository_id": 1173845549,
+      "full_name": "twostraws/SwiftUI-Agent-Skill",
+      "readme_sha": "12e282c9336a10d31c23d53a586d2049e2b77525",
+      "classified_on": "2026-10-09",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Agent skill collection guiding AI coding assistants toward modern, accessible, and performant SwiftUI development.",
+      "rationale": "The repository is explicitly an AI agent skill containing domain guidance for coding assistants working with SwiftUI."
     }
   }
 }
