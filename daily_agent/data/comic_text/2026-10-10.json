@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-10",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "haunted",
+    "adjective_second": "overconfident",
+    "narrative_intro": "*A haunted person and an overconfident person discuss AI agents painting arrows on screens inside a Zoom waiting room for all eternity.*",
+    "panel1": "[setup]\nHAUNTED PERSON: \"Claude Code refactored a monorepo, then printed \u201cplease click Allow\u201d unseen.\"",
+    "panel2": "[build]\nOVERCONFIDENT PERSON: \"Use big-arrow: glowing arrows, boxes, and text, directly onscreen.\"\nHAUNTED PERSON: \"539 GitHub stars; roughly 400 arrived in two days.\"",
+    "panel3": "[pivot]\nOVERCONFIDENT PERSON: \"It evaluated 26 tools and uses just 1.4% CPU.\"\nHAUNTED PERSON: \"Now it needs permission to point at its permission.\"",
+    "panel4": "[silent reaction]\n[Visual: Giant arrow points to ALLOW; tiny arrow points to giant arrow; Zoom says FOREVER.]",
+    "panel5": "[punch]\nHAUNTED PERSON: \"The least intelligent part of the AI stack is now middle management.\"",
+    "panel6": "[button]\n[Visual: A permission box asks, \u201cAllow big-arrow to display this arrow?\u201d Its tiny arrow points to YES.]"
+  },
+  "narrative_summary": "Big-arrow solves an AI agent\u2019s human-click problem by creating a permission loop in the eternal Zoom waiting room.",
+  "rationale": "Candidate 1 turns the tool's actual permission problem into a sharper, less obvious middle-management analogy, then escalates it with a recursive permission button. The other two are visually clear and fact-specific, but their closing beats mostly restate the setup or lean on weaker star/\u201cproud of it\u201d wordplay.",
+  "image_filename": "comic_2026-10-10.png",
+  "story_title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+  "story_url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+  "place": "inside a Zoom waiting room for all eternity",
+  "hat_pair": [
+    "crash helmet with a tiny windshield wiper on the visor",
+    "foam binoculars worn as an oversized hat with two giant lens holes staring outward"
+  ],
+  "no_news_mode": false
+}

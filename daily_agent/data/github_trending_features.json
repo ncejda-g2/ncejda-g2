@@ -1054,8 +1054,8 @@
       "repository_id": 1198124295,
       "full_name": "mvschwarz/openrig",
       "url": "https://github.com/mvschwarz/openrig",
-      "total_stars": 1329,
-      "last_full_featured": "2026-09-28"
+      "total_stars": 6602,
+      "last_full_featured": "2026-10-10"
     },
     "1166129534": {
       "repository_id": 1166129534,
@@ -1112,6 +1112,20 @@
       "url": "https://github.com/BerriAI/litellm",
       "total_stars": 60450,
       "last_full_featured": "2026-10-09"
+    },
+    "1173845549": {
+      "repository_id": 1173845549,
+      "full_name": "twostraws/SwiftUI-Agent-Skill",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "total_stars": 5655,
+      "last_full_featured": "2026-10-10"
+    },
+    "1177402105": {
+      "repository_id": 1177402105,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "total_stars": 60068,
+      "last_full_featured": "2026-10-10"
     }
   }
 }

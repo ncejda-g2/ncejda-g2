@@ -1513,12 +1513,12 @@
     "1140229822": {
       "repository_id": 1140229822,
       "full_name": "cursor/plugins",
-      "readme_sha": "a0a7acd5ef8e2f819bfd0629c87cf030c1300a2d",
-      "classified_on": "2026-10-01",
+      "readme_sha": "680205da013ad6b736d2447581283dd1a3d40fe3",
+      "classified_on": "2026-10-10",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of official Cursor plugins providing AI-agent workflows, integrations, developer tools, and automation capabilities.",
-      "rationale": "The repository is explicitly a plugin collection for Cursor, an AI coding environment, with agent skills, SDKs, orchestration, and integrations."
+      "summary": "A collection of official Cursor plugins providing agent skills, workflows, integrations, and developer automations.",
+      "rationale": "The repository is specifically organized around plugins for Cursor, an AI coding environment, including agent workflows and integrations."
     },
     "54346799": {
       "repository_id": 54346799,
@@ -2713,12 +2713,12 @@
     "1198124295": {
       "repository_id": 1198124295,
       "full_name": "mvschwarz/openrig",
-      "readme_sha": "933ed7e8e3c64158a14781d6a858f1101405cb70",
-      "classified_on": "2026-09-28",
+      "readme_sha": "47262e5b5c581c224e2be671bd2af2c1bdd5f26f",
+      "classified_on": "2026-10-10",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "Command-line multi-agent harness coordinating Claude Code and Codex into persistent, organized software development teams.",
-      "rationale": "Its primary purpose is orchestrating AI coding agents and their collaborative workflows."
+      "summary": "A command-line harness for organizing persistent teams of Claude Code, Codex, and Pi coding agents.",
+      "rationale": "Its primary product is multi-agent orchestration for AI coding agents, with shared context, roles, and persistent workspaces."
     },
     "1166129534": {
       "repository_id": 1166129534,
@@ -2764,7 +2764,7 @@
       "repository_id": 1322250666,
       "full_name": "boykopovar/AnyPS5",
       "readme_sha": "5e57cb94ff24c133317861bad76ac6b8dd83a55b",
-      "classified_on": "2026-10-09",
+      "classified_on": "2026-10-10",
       "ai_related": false,
       "project_type": "Application",
       "summary": "A tool that ports PS5 executables to Linux and Windows using native relinking and system library implementations.",
@@ -2834,11 +2834,21 @@
       "repository_id": 1173845549,
       "full_name": "twostraws/SwiftUI-Agent-Skill",
       "readme_sha": "12e282c9336a10d31c23d53a586d2049e2b77525",
-      "classified_on": "2026-10-09",
+      "classified_on": "2026-10-10",
       "ai_related": true,
       "project_type": "Collection",
       "summary": "Agent skill collection guiding AI coding assistants toward modern, accessible, and performant SwiftUI development.",
       "rationale": "The repository is explicitly an AI agent skill containing domain guidance for coding assistants working with SwiftUI."
+    },
+    "1177402105": {
+      "repository_id": 1177402105,
+      "full_name": "heygen-com/hyperframes",
+      "readme_sha": "4529ffdda7076e54a94d380009d3cd5be6cff30d",
+      "classified_on": "2026-10-10",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "An open-source framework turning HTML, media, and animations into deterministic videos for agents and developers.",
+      "rationale": "The framework explicitly supports AI coding agents, agent skills, and automated video creation workflows."
     }
   }
 }
