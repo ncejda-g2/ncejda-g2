@@ -368,8 +368,8 @@
       "repository_id": 652712035,
       "full_name": "lyogavin/airllm",
       "url": "https://github.com/lyogavin/airllm",
-      "total_stars": 26070,
-      "last_full_featured": "2026-08-03"
+      "total_stars": 36096,
+      "last_full_featured": "2026-10-11"
     },
     "1165277268": {
       "repository_id": 1165277268,
@@ -1126,6 +1126,20 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "total_stars": 60068,
       "last_full_featured": "2026-10-10"
+    },
+    "1277471539": {
+      "repository_id": 1277471539,
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "total_stars": 50713,
+      "last_full_featured": "2026-10-11"
+    },
+    "65600975": {
+      "repository_id": 65600975,
+      "full_name": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "total_stars": 104257,
+      "last_full_featured": "2026-10-11"
     }
   }
 }

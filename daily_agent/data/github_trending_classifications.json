@@ -394,11 +394,11 @@
       "repository_id": 18408635,
       "full_name": "chrislgarry/Apollo-11",
       "readme_sha": "a5cc61ebfdbbe176f33d9256ebd57fa3de2b6daa",
-      "classified_on": "2026-07-25",
+      "classified_on": "2026-10-11",
       "ai_related": false,
       "project_type": "Repository",
-      "summary": "Original Apollo 11 Guidance Computer assembly source code for command and lunar modules.",
-      "rationale": "Historical archival repository of 1969 Apollo guidance computer code. No connection to AI whatsoever. Purely historical software preservation."
+      "summary": "This repository preserves digitized source code for the Apollo 11 command and lunar module guidance computers.",
+      "rationale": "It is a historical source-code archive for spacecraft guidance software, with no material AI focus."
     },
     "1011567289": {
       "repository_id": 1011567289,
@@ -993,12 +993,12 @@
     "652712035": {
       "repository_id": 652712035,
       "full_name": "lyogavin/airllm",
-      "readme_sha": "160cffd570606290b202382b3e2745142b61a045",
-      "classified_on": "2026-08-03",
+      "readme_sha": "6a80df35b04013d58105dc4ccf6d94748826c425",
+      "classified_on": "2026-10-11",
       "ai_related": true,
       "project_type": "Library",
-      "summary": "Python library enabling efficient large language model inference on minimal GPU memory.",
-      "rationale": "Core AI infrastructure for LLM optimization. Directly supports running large language models (70B+) efficiently, with topics focused on LLM, quantization, and generative AI."
+      "summary": "AirLLM enables inference and training of very large language models using substantially reduced GPU memory requirements.",
+      "rationale": "The library directly targets large language model inference, compression, and training on limited hardware."
     },
     "1165277268": {
       "repository_id": 1165277268,
@@ -1953,12 +1953,12 @@
     "1277471539": {
       "repository_id": 1277471539,
       "full_name": "bilawalsidhu/gods-eye-view",
-      "readme_sha": "580bb147c80f751891d7282b51f65a862200d050",
-      "classified_on": "2026-09-21",
+      "readme_sha": "5d97dfb2f7a326d2e5c78bb848cd879265644c6d",
+      "classified_on": "2026-10-11",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Browser-based 3D globe application visualizing live public signals with voice control powered by a realtime AI agent.",
-      "rationale": "Although centered on geospatial visualization, realtime AI voice control is a material product capability explicitly described in the metadata."
+      "summary": "A browser-based 3D globe combines live public geospatial feeds with voice-controlled artificial intelligence analysis.",
+      "rationale": "AI is materially integrated through a realtime voice agent that controls the geospatial intelligence application and answers analyst queries."
     },
     "1031059905": {
       "repository_id": 1031059905,
@@ -2764,7 +2764,7 @@
       "repository_id": 1322250666,
       "full_name": "boykopovar/AnyPS5",
       "readme_sha": "5e57cb94ff24c133317861bad76ac6b8dd83a55b",
-      "classified_on": "2026-10-10",
+      "classified_on": "2026-10-11",
       "ai_related": false,
       "project_type": "Application",
       "summary": "A tool that ports PS5 executables to Linux and Windows using native relinking and system library implementations.",
@@ -2849,6 +2849,16 @@
       "project_type": "Framework",
       "summary": "An open-source framework turning HTML, media, and animations into deterministic videos for agents and developers.",
       "rationale": "The framework explicitly supports AI coding agents, agent skills, and automated video creation workflows."
+    },
+    "65600975": {
+      "repository_id": 65600975,
+      "full_name": "pytorch/pytorch",
+      "readme_sha": "0f276463a0e0f33b8b07b6633a325566f357c61f",
+      "classified_on": "2026-10-11",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "PyTorch is a Python framework for GPU-accelerated tensor computation, automatic differentiation, and deep neural network development.",
+      "rationale": "Its primary purpose is enabling machine learning and deep neural network research and applications."
     }
   }
 }
