@@ -1140,6 +1140,27 @@
       "url": "https://github.com/pytorch/pytorch",
       "total_stars": 104257,
       "last_full_featured": "2026-10-11"
+    },
+    "1164477708": {
+      "repository_id": 1164477708,
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "total_stars": 26846,
+      "last_full_featured": "2026-10-12"
+    },
+    "701547123": {
+      "repository_id": 701547123,
+      "full_name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "total_stars": 154467,
+      "last_full_featured": "2026-10-12"
+    },
+    "838253246": {
+      "repository_id": 838253246,
+      "full_name": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "total_stars": 40747,
+      "last_full_featured": "2026-10-12"
     }
   }
 }

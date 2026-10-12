@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-12",
+  "template_id": "same_picture",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "paper_left": "Anthropic's unprecedented IPO",
+    "paper_right": "Investor gullibility, now publicly traded"
+  },
+  "narrative_summary": "The IPO's grand novelty collapses into the absurd image of investor gullibility becoming the actual public offering.",
+  "rationale": "Candidate 2 turns the headline's abstract accusation into a clean visual equivalence: the investor-gullibility test is itself the publicly traded product. The other candidates mostly paraphrase the story in an Always Has Been format without adding a distinct closing beat.",
+  "image_filename": "comic_2026-10-12.png",
+  "story_title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+  "story_url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+  "place": "inside a password manager that has forgotten its own master password",
+  "hat_pair": [
+    "foam briefcase worn as a wide flat hat with a tiny combination lock on top",
+    "foam hot air balloon basket hat with a tiny balloon floating on top"
+  ],
+  "no_news_mode": false
+}

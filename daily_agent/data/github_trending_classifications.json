@@ -1833,12 +1833,12 @@
     "1144520675": {
       "repository_id": 1144520675,
       "full_name": "Alishahryar1/free-claude-code",
-      "readme_sha": "2ed0dd096ad49428802cc1565b6976c3ed666e0b",
-      "classified_on": "2026-08-24",
+      "readme_sha": "701325cb0aa8d96ef108ca5811550c3a31d5c20f",
+      "classified_on": "2026-10-12",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Unified CLI and desktop interface to access multiple free AI coding agents and models across providers.",
-      "rationale": "Application built for unified access to AI coding agents; provides integration layer for Claude Code, Codex, and related AI systems; core product is AI model access and orchestration."
+      "summary": "Application aggregates model providers and coding-agent clients, enabling free or low-cost AI coding sessions across devices.",
+      "rationale": "Its central product manages AI model access and integrations for multiple coding agents."
     },
     "1185389803": {
       "repository_id": 1185389803,
@@ -2504,11 +2504,11 @@
       "repository_id": 1164477708,
       "full_name": "mksglu/context-mode",
       "readme_sha": "b796169524473691594af24995d21ca94027f7c7",
-      "classified_on": "2026-09-21",
+      "classified_on": "2026-10-12",
       "ai_related": true,
-      "project_type": "CLI",
-      "summary": "MCP server optimizing coding-agent context through tool-output sandboxing, persistent session memory, and routing integrations.",
-      "rationale": "The project directly targets AI coding agents and provides MCP tools, hooks, memory, and context-window optimization."
+      "project_type": "Framework",
+      "summary": "MCP server optimizes context usage, preserves session memory, and routes tools across AI coding agent platforms.",
+      "rationale": "Its primary purpose is improving context management and tool routing for AI coding agents."
     },
     "150891532": {
       "repository_id": 150891532,
@@ -2764,7 +2764,7 @@
       "repository_id": 1322250666,
       "full_name": "boykopovar/AnyPS5",
       "readme_sha": "5e57cb94ff24c133317861bad76ac6b8dd83a55b",
-      "classified_on": "2026-10-11",
+      "classified_on": "2026-10-12",
       "ai_related": false,
       "project_type": "Application",
       "summary": "A tool that ports PS5 executables to Linux and Windows using native relinking and system library implementations.",
@@ -2859,6 +2859,26 @@
       "project_type": "Framework",
       "summary": "PyTorch is a Python framework for GPU-accelerated tensor computation, automatic differentiation, and deep neural network development.",
       "rationale": "Its primary purpose is enabling machine learning and deep neural network research and applications."
+    },
+    "701547123": {
+      "repository_id": 701547123,
+      "full_name": "open-webui/open-webui",
+      "readme_sha": "ab0fdd1345cc7b25f4146db15ac8b8047c625f58",
+      "classified_on": "2026-10-12",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Self-hosted interface connects users with local and cloud language models, agents, retrieval, tools, and multimodal features.",
+      "rationale": "The repository is explicitly an AI platform and interface for interacting with language models."
+    },
+    "838253246": {
+      "repository_id": 838253246,
+      "full_name": "microsoft/BitNet",
+      "readme_sha": "952ba3efbcd8f46be258f1b6229c6a1ea55f25d0",
+      "classified_on": "2026-10-12",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Inference framework provides optimized CPU and GPU kernels for efficient one-bit and ternary language models.",
+      "rationale": "It directly implements inference infrastructure for 1-bit large language models and related embedding models."
     }
   }
 }
