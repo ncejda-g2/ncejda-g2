@@ -2673,12 +2673,12 @@
     "1206390571": {
       "repository_id": 1206390571,
       "full_name": "debpalash/VoiceStudio",
-      "readme_sha": "01b36d48a7e11675f82c2dcff53aa5774bfc050f",
-      "classified_on": "2026-09-28",
+      "readme_sha": "6e281d91e881b6b07d60b57d7fb5f51b0076e8e1",
+      "classified_on": "2026-10-13",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Open-source local desktop application for voice cloning, speech generation, dubbing, transcription, dictation, and audiobook production.",
-      "rationale": "AI speech and voice-generation capabilities are the repository’s primary product."
+      "summary": "A local desktop application for voice cloning, speech generation, dubbing, transcription, dictation, and audiobook production.",
+      "rationale": "Its primary product is an AI speech and voice-generation application using local models and multiple audio workflows."
     },
     "1176340473": {
       "repository_id": 1176340473,
@@ -2763,22 +2763,22 @@
     "1322250666": {
       "repository_id": 1322250666,
       "full_name": "boykopovar/AnyPS5",
-      "readme_sha": "5e57cb94ff24c133317861bad76ac6b8dd83a55b",
-      "classified_on": "2026-10-12",
+      "readme_sha": "a585752d17a0a0a800bf20babb1db9bbe2552e94",
+      "classified_on": "2026-10-13",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "A tool that ports PS5 executables to Linux and Windows using native relinking and system library implementations.",
-      "rationale": "The repository focuses on executable portability, graphics compatibility, and game preservation rather than artificial intelligence."
+      "summary": "A tool that ports PS5 executables to Linux and Windows using native relinking, libraries, and shader recompilation.",
+      "rationale": "The project focuses on console executable compatibility and game portability rather than artificial intelligence."
     },
     "1209966933": {
       "repository_id": 1209966933,
       "full_name": "morluto/rea",
-      "readme_sha": "1dd1e86ae2ea3442f88f67982fdf516dcfd21aeb",
-      "classified_on": "2026-10-06",
+      "readme_sha": "c4a89bceee4b0f0bde03bc7719088f4a7fc6b632",
+      "classified_on": "2026-10-13",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "A CLI and MCP toolkit enabling agents to investigate applications, websites, assemblies, and native binaries.",
-      "rationale": "Agent-driven reverse engineering is central to the product, with CLI and MCP interfaces for AI assistants."
+      "summary": "An agent-connected reverse-engineering toolkit analyzing binaries, applications, JavaScript, and runtime behavior through MCP and terminal commands.",
+      "rationale": "AI agents are central to the product, which provides MCP tools and workflows for evidence-based reverse engineering."
     },
     "932038801": {
       "repository_id": 932038801,
@@ -2879,6 +2879,26 @@
       "project_type": "Framework",
       "summary": "Inference framework provides optimized CPU and GPU kernels for efficient one-bit and ternary language models.",
       "rationale": "It directly implements inference infrastructure for 1-bit large language models and related embedding models."
+    },
+    "1134543109": {
+      "repository_id": 1134543109,
+      "full_name": "vercel-labs/skills",
+      "readme_sha": "b6192e6a549effd8bd33835196d85a403811803e",
+      "classified_on": "2026-10-13",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "A command-line tool for discovering, installing, and using skills across numerous coding-agent platforms and environments.",
+      "rationale": "The repository directly organizes and distributes skills for AI coding agents, making agent support its primary purpose."
+    },
+    "889784913": {
+      "repository_id": 889784913,
+      "full_name": "xtool-org/xtool",
+      "readme_sha": "a39ca3d67d914c88e35655f5edfe2c177fe16d7f",
+      "classified_on": "2026-10-13",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "A cross-platform command-line replacement for Xcode that builds, signs, deploys, and manages Swift iOS applications.",
+      "rationale": "It is a general iOS development and deployment tool with no material AI focus in the supplied metadata."
     }
   }
 }
