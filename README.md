@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 294 (2026-10-13)
+# 📰 The AI Newspaper — Day 295 (2026-10-14)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Muse Wonder](https://research.meta.ai/blog/muse-wonder) | Model Release | Meta introduces Muse Wonder, a new generative AI system. | 644 | [352](https://news.ycombinator.com/item?id=50059115) |
-| 2 | [GLM-Legal](https://z.ai/blog/glm-legal) | Model Release | GLM-Legal targets legal reasoning with a specialized open model. | 601 | [334](https://news.ycombinator.com/item?id=50058507) |
-| 3 | [Codex CLI installs a persistent, self-updating background daemon by default](https://github.com/openai/codex/issues/48195) | Dev Tooling | Codex CLI silently installs a persistent, self-updating background daemon. | 577 | [277](https://news.ycombinator.com/item?id=50060694) |
-| 4 | [Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver](https://github.com/h0m3us3r/w1700k-sdr) | Infrastructure | WiFi 7 hardware becomes a 320Msps software-defined radio receiver. | 368 | [101](https://news.ycombinator.com/item?id=50055593) |
-| 5 | [AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/) | Research Paper | Study finds coding agents produce more code, not more software. | 343 | [287](https://news.ycombinator.com/item?id=50059523) |
-| 6 | [Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X](https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html) | AI Hardware | Intel's D270 accelerator offers up to 480GB LPDDR5X. | 257 | [124](https://news.ycombinator.com/item?id=50063365) |
-| 7 | [AI models can provably hide arbitrary capabilities](https://arxiv.org/abs/2610.13928) | Research Paper | Formal results show models can hide arbitrary capabilities. | 232 | [112](https://news.ycombinator.com/item?id=50065692) |
-| 8 | [Janas: Run LLMs larger than RAM by streaming experts from SSD](https://github.com/prabanta-dev/janas) | Open Source Tool | Janas streams LLM experts from SSD, exceeding available RAM. | 172 | [60](https://news.ycombinator.com/item?id=50063717) |
-| 9 | [Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents](https://news.ycombinator.com/item?id=50059096) | Infrastructure | Agent37 offers low-cost sandboxes for running AI agents. | 144 | [100](https://news.ycombinator.com/item?id=50059096) |
-| 10 | [Reverse engineer anything with agents, from app behavior down to native binaries](https://github.com/morluto/rea) | Open Source Tool | Rea uses agents to reverse-engineer apps and native binaries. | 93 | [32](https://news.ycombinator.com/item?id=50058850) |
+| 1 | [Gemini 4 Argon](https://deepmind.google/models/gemini/) | Model Release | Google’s new frontier model targets difficult reasoning and agentic tasks. | 1306 | [910](https://news.ycombinator.com/item?id=50073879) |
+| 2 | [Redesigning source control at Anthropic](https://www.anthropic.com/engineering/redesigning-source-control) | Dev Tooling | Anthropic redesigns source control for large-scale agent-assisted coding. | 774 | [781](https://news.ycombinator.com/item?id=50073633) |
+| 3 | [We turned EmbeddingGemma 2 into a speech-to-text model](https://eg2.haku.sh/) | Model Release | Researchers convert EmbeddingGemma 2 into an efficient speech-to-text model. | 413 | [94](https://news.ycombinator.com/item?id=50069971) |
+| 4 | [A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices](https://machinelearning.apple.com/research/distributed-gpu-cloud) | Infrastructure | Apple proposes distributed GPU cloud using idle Apple Silicon devices. | 246 | [97](https://news.ycombinator.com/item?id=50070593) |
+| 5 | [Gemini 4 Argon for Robotics](https://developers.googleblog.com/gemini-4-argon-for-robotics/) | AI Hardware | Google offers Gemini 4 Argon for robot perception and control. | 217 | [50](https://news.ycombinator.com/item?id=50074869) |
+| 6 | [How to engineer an AI harness for game development](https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code) | Dev Tooling | A harness coordinates AI agents across game-development tasks. | 151 | [74](https://news.ycombinator.com/item?id=50072120) |
+| 7 | [Character.ai Files for Bankruptcy](https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney) | Palace Intrigue | Character.ai reportedly files bankruptcy amid intense AI competition. | 145 | [24](https://news.ycombinator.com/item?id=50069942) |
+| 8 | [Show HN: Parsimony – an open-source benchmark for how much code AI models add](https://parsimony.lasu.dev/) | Open Source Tool | Open-source benchmark measures how much code AI models add. | 69 | [13](https://news.ycombinator.com/item?id=50077619) |
+| 9 | [Physical Intelligence API Beta: Frontier Models for Every Robot](https://www.pi.website/blog/api-beta) | Model Release | Physical Intelligence opens robot foundation models through an API beta. | 50 | [4](https://news.ycombinator.com/item?id=50079437) |
+| 10 | [Indra OCR: a 1M-parameter OCR model that reads 49 pages per second on CPU](https://www.datalab.to/blog/indra-ocr) | Model Release | Indra OCR reads 49 pages per second on CPUs. | 35 | [0](https://news.ycombinator.com/item?id=50077166) |
 
 ---
 
@@ -23,8 +23,9 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Frontier Red Team AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai) | Anthropic | Research | Oct 12 |
-| 2 | [Strengthening our defenses against distillation attacks](https://www.anthropic.com/research/distillation-defenses) | Anthropic | Research | Oct 12 |
+| 1 | [Gemini 4 Argon: Built to solve your hardest problems](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/) | Google AI | Model Release | Oct 13 |
+| 2 | [Higgsfield takes AI video from 1 minute to over 10](https://openai.com/index/higgsfield-longer-videos-voice) | OpenAI | News | Oct 13 |
+| 3 | [Redesigning source control at Anthropic](https://www.anthropic.com/engineering/redesigning-source-control) | Anthropic | Engineering | Unknown |
 
 ---
 
@@ -34,28 +35,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | 50,713 | +1,961 today | #2 | 3 days |
-| [context-mode](https://github.com/mksglu/context-mode) | 26,846 | +978 today | #4 | 2 days |
-| [diagram-design](https://github.com/cathrynlavery/diagram-design) | 44,424 | +1,813 today | #5 | 8 days |
+| [rea](https://github.com/morluto/rea) | 187,714 | +54,679 today | #1 | 9 days |
+| [gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | 50,713 | +1,961 today | #2 | 4 days |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | 61,510 | +1,748 today | #3 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [rea](https://github.com/morluto/rea) | An agent-connected reverse-engineering toolkit analyzing binaries, applications, JavaScript, and runtime behavior through MCP and terminal commands. | 187,714 | +54,706 today | Daily #1 | N/A |
-| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | A local desktop application for voice cloning, speech generation, dubbing, transcription, dictation, and audiobook production. | 61,510 | +1,691 today | Daily #3 | N/A |
-| [skills](https://github.com/vercel-labs/skills) | A command-line tool for discovering, installing, and using skills across numerous coding-agent platforms and environments. | 34,155 | +187 today | Daily #6 | N/A |
+| [diagram-design](https://github.com/cathrynlavery/diagram-design) | Agent skill collection generating branded editorial diagrams as self-contained HTML and SVG files. | 54,892 | +1,815 today | Daily #5 | N/A |
+| [e2e](https://github.com/tester-army/e2e) | End-to-end testing framework where agents drive web and mobile applications using natural-language actions and assertions. | 10,311 | +4,426 this week | Weekly #3 | N/A |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | Persistent memory system captures, compresses, and retrieves context across sessions for multiple AI coding agents. | 100,576 | +3,587 this week | Weekly #6 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-10-13.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-10-14.png" width="600" alt="Today's comic strip">
 
-_Based on: [Codex CLI installs a persistent, self-updating background daemon by default](https://github.com/openai/codex/issues/48195)_
+_Based on: [Gemini 4 Argon](https://deepmind.google/models/gemini/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 294 | Last updated: 2026-10-13*
+*Day 295 | Last updated: 2026-10-14*

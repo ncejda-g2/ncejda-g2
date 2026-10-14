@@ -323,12 +323,12 @@
     "1217522067": {
       "repository_id": 1217522067,
       "full_name": "earthtojake/text-to-cad",
-      "readme_sha": "8c79c06bbb4e1029bcb8af87219f4cfbb11b6e2c",
-      "classified_on": "2026-10-05",
+      "readme_sha": "2cd09ec3c928459c1072a001bd3d62cfec25b27c",
+      "classified_on": "2026-10-14",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Agent plugin providing local text-to-CAD workflows for generating 3D models, engineering drawings, and manufacturing checks.",
-      "rationale": "Its primary product enables AI agents to create and inspect CAD designs through text-driven workflows."
+      "summary": "Agent-integrated CAD tooling generates three-dimensional models, engineering drawings, and manufacturing checks from textual requests.",
+      "rationale": "AI agents are the primary interface for generating and validating CAD designs."
     },
     "1173848034": {
       "repository_id": 1173848034,
@@ -1343,12 +1343,12 @@
     "1170821064": {
       "repository_id": 1170821064,
       "full_name": "paperclipai/paperclip",
-      "readme_sha": "8096cf9bbcffcc258c18175f499648fb8f5a9c02",
-      "classified_on": "2026-09-26",
+      "readme_sha": "e433acfdc1b337326497d58c2a31a917009eda29",
+      "classified_on": "2026-10-14",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Open-source application for orchestrating, governing, and monitoring teams of AI agents across organizational workflows.",
-      "rationale": "Its primary product coordinates AI agents, including goals, budgets, governance, task management, and cross-provider runtime support."
+      "summary": "Open-source orchestration application manages teams of AI agents, coordinating goals, tasks, budgets, permissions, and workflows.",
+      "rationale": "Managing autonomous AI-agent organizations is explicitly the application's primary purpose."
     },
     "1052845083": {
       "repository_id": 1052845083,
@@ -1403,12 +1403,12 @@
     "1212769188": {
       "repository_id": 1212769188,
       "full_name": "cathrynlavery/diagram-design",
-      "readme_sha": "a1fe31b32cec9ecf19ded94871c064681b4f6b5a",
-      "classified_on": "2026-10-07",
+      "readme_sha": "73827f81db9b7c1364c23410cc08d0898234a228",
+      "classified_on": "2026-10-14",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of editorial HTML and SVG diagram designs packaged as skills for AI coding agents.",
-      "rationale": "Its primary purpose is providing diagram-generation skills and templates for Claude Code, Codex, and other agent hosts."
+      "summary": "Agent skill collection generating branded editorial diagrams as self-contained HTML and SVG files.",
+      "rationale": "Its primary purpose is an agent skill designed for AI coding assistants to create diagrams."
     },
     "1092407718": {
       "repository_id": 1092407718,
@@ -1513,12 +1513,12 @@
     "1140229822": {
       "repository_id": 1140229822,
       "full_name": "cursor/plugins",
-      "readme_sha": "680205da013ad6b736d2447581283dd1a3d40fe3",
-      "classified_on": "2026-10-10",
+      "readme_sha": "c04e06cb4db3f881e6157865a33fe436f23baeca",
+      "classified_on": "2026-10-14",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of official Cursor plugins providing agent skills, workflows, integrations, and developer automations.",
-      "rationale": "The repository is specifically organized around plugins for Cursor, an AI coding environment, including agent workflows and integrations."
+      "summary": "Official Cursor plugins provide agent skills, developer workflows, SDKs, integrations, and automation capabilities.",
+      "rationale": "The collection is explicitly built for Cursor, an AI coding environment, and centers on agent plugins and workflows."
     },
     "54346799": {
       "repository_id": 54346799,
@@ -2743,32 +2743,32 @@
     "1308631234": {
       "repository_id": 1308631234,
       "full_name": "tester-army/e2e",
-      "readme_sha": "2a1a902d74ac928fc077a82136c4f60c0c71231f",
-      "classified_on": "2026-10-05",
+      "readme_sha": "a2a3190fdb33650989a5670af6dedf56bfc693e3",
+      "classified_on": "2026-10-14",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "AI-powered end-to-end testing framework where natural-language agents drive and verify web and mobile applications.",
-      "rationale": "AI agents are central to the framework’s testing workflow, performing natural-language actions and assertions."
+      "summary": "End-to-end testing framework where agents drive web and mobile applications using natural-language actions and assertions.",
+      "rationale": "AI agents and decision models are central to its testing workflow and primary product."
     },
     "1048065319": {
       "repository_id": 1048065319,
       "full_name": "thedotmack/claude-mem",
-      "readme_sha": "b35c8d2d5426dec8652aacd23d3e5ec819289375",
-      "classified_on": "2026-10-05",
+      "readme_sha": "f732d3864f79cfb263694afaafa8e305e379c0dd",
+      "classified_on": "2026-10-14",
       "ai_related": true,
-      "project_type": "Framework",
-      "summary": "Persistent memory system that captures, compresses, and retrieves context across sessions for Claude and other coding agents.",
-      "rationale": "The repository directly provides long-term memory, semantic summaries, and context retrieval for AI coding agents."
+      "project_type": "Application",
+      "summary": "Persistent memory system captures, compresses, and retrieves context across sessions for multiple AI coding agents.",
+      "rationale": "Its primary product is AI-agent memory, using semantic summaries and retrieval to preserve context."
     },
     "1322250666": {
       "repository_id": 1322250666,
       "full_name": "boykopovar/AnyPS5",
-      "readme_sha": "a585752d17a0a0a800bf20babb1db9bbe2552e94",
-      "classified_on": "2026-10-13",
+      "readme_sha": "b07e1abc67749b3c49772ca84e05a6a2c7e81e66",
+      "classified_on": "2026-10-14",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "A tool that ports PS5 executables to Linux and Windows using native relinking, libraries, and shader recompilation.",
-      "rationale": "The project focuses on console executable compatibility and game portability rather than artificial intelligence."
+      "summary": "Tool that ports PlayStation 5 executables to Linux and Windows without emulation or separate runtime processes.",
+      "rationale": "The repository focuses on executable porting, graphics compatibility, and system libraries, with no material AI focus."
     },
     "1209966933": {
       "repository_id": 1209966933,
@@ -2794,7 +2794,7 @@
       "repository_id": 741625310,
       "full_name": "EpicGames/raddebugger",
       "readme_sha": "05403355908aa9765b226055831976999daa2db6",
-      "classified_on": "2026-10-08",
+      "classified_on": "2026-10-14",
       "ai_related": false,
       "project_type": "Application",
       "summary": "A native graphical debugger and toolchain for multi-process Windows development, custom debug information, and fast linking.",
@@ -2894,11 +2894,21 @@
       "repository_id": 889784913,
       "full_name": "xtool-org/xtool",
       "readme_sha": "a39ca3d67d914c88e35655f5edfe2c177fe16d7f",
-      "classified_on": "2026-10-13",
+      "classified_on": "2026-10-14",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "A cross-platform command-line replacement for Xcode that builds, signs, deploys, and manages Swift iOS applications.",
       "rationale": "It is a general iOS development and deployment tool with no material AI focus in the supplied metadata."
+    },
+    "31792824": {
+      "repository_id": 31792824,
+      "full_name": "flutter/flutter",
+      "readme_sha": "b9e6bc763380cabef9330c92478816ff79dbcae7",
+      "classified_on": "2026-10-14",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Google's open-source SDK builds fast, cross-platform applications for mobile, web, desktop, and embedded platforms.",
+      "rationale": "Flutter is a general-purpose application framework with no material AI focus in the supplied metadata."
     }
   }
 }

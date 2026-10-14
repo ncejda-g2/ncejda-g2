@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-14",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "doe-eyed",
+    "adjective_second": "slack-jawed",
+    "narrative_intro": "*A doe-eyed person and a slack-jawed person discuss Gemini 4 Argon in an IKEA after closing.*",
+    "panel1": "[setup]\nDOE-EYED PERSON: \"Gemini 4 Argon tied for #1 on CWE-Bench cybersecurity.\"",
+    "panel2": "[build]\nSLACK-JAWED PERSON: \"It beat GPT-6 Astra on Harvey Legal Agent, 19.6% to 5.4%.\"\nDOE-EYED PERSON: \"Its output window holds one million tokens.\"",
+    "panel3": "[pivot]\nDOE-EYED PERSON: \"It turns raw video into physics-accurate robotics simulation code.\"\nSLACK-JAWED PERSON: \"So the BILLY can assemble itself\u2014and sue me?\"",
+    "panel4": "[silent reaction]\n[Visual: Both stare silently as a tiny robot assembles a BILLY; one-million-token instructions flood the showroom.]",
+    "panel5": "[punch]\nDOE-EYED PERSON: \"Enterprise deployments are 2.85x faster; Cartwheel cut tokens 90%.\"\nSLACK-JAWED PERSON: \"The robot uprising just hired a cost-cutting consultant.\"",
+    "panel6": "[button]\n[Visual: A consultant's LinkedIn draft reads \u201cBIGGER MODEL = BIGGER BILL\u201d; the robot edits it to \u201c2.85x FASTER, 90% FEWER TOKENS.\u201d]"
+  },
+  "narrative_summary": "A self-assembling IKEA BILLY turns Gemini 4 Argon's faster, cheaper deployment into a crisis for AI consultants' LinkedIn slogans.",
+  "rationale": "Candidate 3 uses the story\u2019s most distinctive facts\u2014the BILLY, one-million-token window, Harvey benchmark, speedup, and token reduction\u2014while giving them a sharper comic turn: the robot uprising hires a cost-cutting consultant. Its closing visual reinforces the joke instead of merely repeating the premise.",
+  "image_filename": "comic_2026-10-14.png",
+  "story_title": "Gemini 4 Argon",
+  "story_url": "https://deepmind.google/models/gemini/",
+  "place": "in an IKEA after closing",
+  "hat_pair": [
+    "bucket hat with a tiny aquarium built into the brim",
+    "foam WiFi symbol worn as a glowing halo"
+  ],
+  "no_news_mode": false
+}
