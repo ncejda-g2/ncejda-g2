@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-10-15",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "panel1_dialog": "Our backup system kept The Challenge ready for November 22!",
+    "panel2_dialog": "...it didn't erase several hundred days of edits, right?",
+    "panel4_dialog": "Late spring 2027...right?"
+  },
+  "narrative_summary": "TV4's confident November 22 premiere collapses into a late-spring-2027 re-edit after the backup failure erased the season.",
+  "rationale": "Candidate 3 uses the Anakin/Padme format exactly as intended: confident premiere, anxious confirmation, then the absurdly distant late-spring-2027 date. It also names the show, premiere date, backup failure, and several hundred erased days without overclaiming that the AI made a guarantee.",
+  "image_filename": "comic_2026-10-15.png",
+  "story_title": "TV4 postpones show after AI agent erases edited material",
+  "story_url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+  "place": "at a pop-up ad that won't close",
+  "hat_pair": [
+    "foam hamburger hat with sesame seed bun top and overflowing lettuce fringe",
+    "full-face motorcycle helmet with googly eyes stuck on"
+  ],
+  "no_news_mode": false
+}
