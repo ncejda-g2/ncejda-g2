@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-16",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "caption": "you can't call Scion's five-month rebuild 'hard-won lessons' / when Mononoke's Bonsai model, indexes, and APIs are allegedly in the syllabus"
+  },
+  "narrative_summary": "The joke frames Scion's alleged copying of Mononoke's architecture as a syllabus problem disguised as 'hard-won lessons'.",
+  "rationale": "Candidate 3 has the sharpest and freshest framing: the \u201csyllabus\u201d metaphor turns the specific Mononoke details into a concise punchline rather than merely escalating or restating the allegation. It also fits Roll Safe\u2019s conditional structure cleanly.",
+  "image_filename": "comic_2026-10-16.png",
+  "story_title": "More on Anthropic's Scion ripping off Mononoke",
+  "story_url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+  "place": "inside a retirement home for obsolete AI models",
+  "hat_pair": [
+    "roman centurion helmet",
+    "foam traffic light hat with three colored circles across the top"
+  ],
+  "no_news_mode": false
+}

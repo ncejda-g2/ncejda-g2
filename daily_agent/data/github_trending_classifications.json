@@ -553,12 +553,12 @@
     "1073224795": {
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
-      "readme_sha": "cf80400690849b37861f39d396d231ea89ac693b",
-      "classified_on": "2026-09-26",
+      "readme_sha": "e40ddfa8f87a374e1b9a3663b80c1aa954cf8eec",
+      "classified_on": "2026-10-16",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Agentic software development framework providing composable skills, workflows, and methodology across coding-agent platforms.",
-      "rationale": "Its primary purpose is improving coding agents through skills, subagents, planning, testing, and development workflows."
+      "summary": "Agentic software-development methodology providing composable skills and workflows for coding agents across multiple harnesses.",
+      "rationale": "Its core product is an AI coding-agent framework and methodology spanning numerous agent platforms."
     },
     "1013830656": {
       "repository_id": 1013830656,
@@ -1733,12 +1733,12 @@
     "995029641": {
       "repository_id": 995029641,
       "full_name": "ruvnet/ruflo",
-      "readme_sha": "92c8620461d17032a87d7c5c395e60fb27e6aafe",
-      "classified_on": "2026-08-22",
+      "readme_sha": "784c30fbfa25f2da53c4b64550a3c795bef27835",
+      "classified_on": "2026-10-16",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Agent meta-harness for orchestrating autonomous AI workflows, swarms, and conversational systems.",
-      "rationale": "AI is core to the product. Explicit agent orchestration framework for Claude Code/Codex featuring multi-agent coordination, self-learning memory, RAG integration, and swarm intelligence."
+      "summary": "Agent harness coordinating autonomous swarms, memory, workflows, and conversational AI systems through CLI and MCP integrations.",
+      "rationale": "The repository is explicitly an AI agent orchestration framework with multi-agent coordination, memory, and MCP support."
     },
     "1251460378": {
       "repository_id": 1251460378,
@@ -1934,21 +1934,21 @@
       "repository_id": 1100776768,
       "full_name": "anthropics/claude-plugins-official",
       "readme_sha": "43104e240ff500c762adebb0c31dc4b7ff7b50dd",
-      "classified_on": "2026-09-26",
+      "classified_on": "2026-10-16",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Anthropic-managed directory of plugins, skills, agents, and MCP integrations for Claude Code.",
+      "summary": "Official curated directory of plugins, skills, agents, and integrations for Anthropic’s Claude Code.",
       "rationale": "The repository is explicitly organized as a Claude Code plugin marketplace and directory."
     },
     "1079456184": {
       "repository_id": 1079456184,
       "full_name": "K-Dense-AI/scientific-agent-skills",
-      "readme_sha": "7121100cc50bc524fa5001ef0f10e6e9e0a40a7a",
-      "classified_on": "2026-08-28",
+      "readme_sha": "3fcebf5c0e49e39dc87e5b577d0368d313124862",
+      "classified_on": "2026-10-16",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Collection of 163 scientific skills and 100+ databases enabling AI agents to execute research workflows.",
-      "rationale": "Purpose-built skill library for AI agents across multiple platforms; AI is material to enabling scientific research execution."
+      "summary": "Collection of scientific skills, databases, and workflows designed to extend compatible AI research agents.",
+      "rationale": "Its primary product is a large, domain-specific collection of reusable skills for AI agents."
     },
     "1277471539": {
       "repository_id": 1277471539,
@@ -2909,6 +2909,16 @@
       "project_type": "Framework",
       "summary": "Google's open-source SDK builds fast, cross-platform applications for mobile, web, desktop, and embedded platforms.",
       "rationale": "Flutter is a general-purpose application framework with no material AI focus in the supplied metadata."
+    },
+    "1201173969": {
+      "repository_id": 1201173969,
+      "full_name": "JuliusBrussee/caveman",
+      "readme_sha": "12902ac5443fa6b951a46f119ce8808198b7db9f",
+      "classified_on": "2026-10-16",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "CLI and agent skill that reduces coding-agent token usage through concise responses, compressed inputs, and automation.",
+      "rationale": "The repository directly optimizes AI coding-agent interactions and provides an installable command-line tool."
     }
   }
 }

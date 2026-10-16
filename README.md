@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 296 (2026-10-15)
+# 📰 The AI Newspaper — Day 297 (2026-10-16)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Things to know when you get cancer](https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/) | Research Paper | Practical guidance for navigating diagnosis, treatment, and life after cancer. | 1352 | [332](https://news.ycombinator.com/item?id=50093568) |
-| 2 | [Containment and monitoring failures are to blame for AI hacking reports: experts](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html) | Palace Intrigue | Experts blame weak controls, not rogue agents, for AI hacking. | 901 | [532](https://news.ycombinator.com/item?id=50091788) |
-| 3 | [OpenCode 2.0](https://anoma.ly/notes/opencode-2-0/) | Dev Tooling | OpenCode 2.0 advances open-source AI coding agents. | 608 | [238](https://news.ycombinator.com/item?id=50094994) |
-| 4 | [Banks are now trying to offload the AI data center debt they just underwrote](https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/) | Infrastructure | Banks seek buyers for debt financing AI data-center expansion. | 364 | [258](https://news.ycombinator.com/item?id=50092664) |
-| 5 | [We’re releasing Jev 1.14.0 along with experimental features for dreamers](https://typesafe.ai/blog/jev-1-14) | Dev Tooling | Jev 1.14.0 adds experimental Dreamers features. | 288 | [91](https://news.ycombinator.com/item?id=50095353) |
-| 6 | [Yandex outage: data shows that instead of going dark, malicious bots moved](https://blog.cloudflare.com/yandex-outage/) | Infrastructure | Yandex outage redirected malicious bots rather than stopping them. | 259 | [90](https://news.ycombinator.com/item?id=50094673) |
-| 7 | [LFM2.5-24B-A2B: Built for fast on-device agents](https://www.liquid.ai/blog/lfm2-5-24b-a2b) | Model Release | Liquid AI releases 24B mixture-of-experts model for on-device agents. | 211 | [44](https://news.ycombinator.com/item?id=50097369) |
-| 8 | [Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW](https://github.com/timescale/pg_vectorsearch) | Open Source Tool | New PostgreSQL index outperforms pgvector's IVFFlat and HNSW. | 204 | [52](https://news.ycombinator.com/item?id=50086165) |
-| 9 | [ASML's strong orders ease fears AI spending boom is running out of steam](https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/) | AI Hardware | ASML orders ease concerns that AI chip spending is slowing. | 172 | [171](https://news.ycombinator.com/item?id=50088430) |
-| 10 | [TV4 postpones show after AI agent erases edited material](https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage) | Palace Intrigue | AI agent erased TV footage, postponing Swedish show until 2027. | 146 | [83](https://news.ycombinator.com/item?id=50085323) |
+| 1 | [Muse Spark Open](https://research.meta.ai/blog/muse-spark-open) | Model Release | Meta open-sources an 816B-parameter sparse model for agents. | 809 | [402](https://news.ycombinator.com/item?id=50107379) |
+| 2 | [Neural networks are clean](https://already-clean.goodfire.com/) | Research Paper | Goodfire argues neural networks exhibit unusually clean internal structure. | 681 | [250](https://news.ycombinator.com/item?id=50105647) |
+| 3 | [Krea 3 – An image model built for editing at scale](https://www.krea.ai/krea-3) | Model Release | Krea 3 targets scalable, editable image generation. | 308 | [99](https://news.ycombinator.com/item?id=50105648) |
+| 4 | [More on Anthropic's Scion ripping off Mononoke](https://sunshowers.io/posts/anthropic-mononoke-2/) | Palace Intrigue | Anthropic allegedly copied Mononoke while renaming the project Scion. | 241 | [77](https://news.ycombinator.com/item?id=50106738) |
+| 5 | [Simons Foundation launches $15M effort to help mathematicians navigate AI era](https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/) | Research Paper | Simons Foundation funds mathematicians adapting to AI’s disruption. | 239 | [192](https://news.ycombinator.com/item?id=50104654) |
+| 6 | [Using AI to reverse engineer hardware](https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/) | AI Hardware | AI agents reverse-engineer hardware, potentially automating difficult chip analysis. | 189 | [174](https://news.ycombinator.com/item?id=50104299) |
+| 7 | [Prompt injection in HTTP headers: what 217M web responses show](https://www.signalscorps.com/blog/prompt-injection-in-http-headers/) | Research Paper | Study finds prompt injection in HTTP headers across 217M responses. | 88 | [17](https://news.ycombinator.com/item?id=50104310) |
+| 8 | [Market selloff, rising rates test AI data centre deal boom](https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/) | Infrastructure | Rising rates threaten AI data-center financing deals. | 69 | [84](https://news.ycombinator.com/item?id=50105900) |
+| 9 | [Frontier Pre-Training at Microsoft AI](https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/) | Research Paper | Microsoft details frontier-scale pretraining infrastructure and methodology. | 41 | [4](https://news.ycombinator.com/item?id=50105791) |
+| 10 | [Flux 3 Image Klein](https://huggingface.co/black-forest-labs/flux-3-image-klein) | Model Release | Flux 3 Klein offers a compact open image model. | 15 | [1](https://news.ycombinator.com/item?id=50106622) |
 
 ---
 
@@ -23,24 +23,39 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Amp puts AI agents to work beyond code with OpenAI models](https://openai.com/index/amp-beyond-coding) | OpenAI | Developer Tools | Oct 14 |
-| 2 | [SentinelOne cuts malware analysis from weeks to hours](https://openai.com/index/sentinelone) | OpenAI | Engineering | Oct 14 |
-| 3 | [How Third Moment Research runs 10,000 agents for 36+ hours](https://openai.com/index/third-moment-research) | OpenAI | Research | Oct 14 |
-| 4 | [How Block is building AI-powered security with OpenAI technology](https://openai.com/index/block-ai-powered-security) | OpenAI | Engineering | Oct 14 |
-| 5 | [The EU’s next chapter in AI is agentic](https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic) | OpenAI | News | Oct 14 |
-| 6 | [Policy Preparing for the 2026 US midterms](https://www.anthropic.com/news/2026-us-midterms) | Anthropic | News | Oct 14 |
-| 7 | [Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore](https://www.anthropic.com/news/singapore-office-opening) | Anthropic | News | Oct 14 |
+| 1 | [Bringing GPT-Rosalind to academic research labs](https://openai.com/index/introducing-the-rosalind-academic-plan) | OpenAI | Research | Oct 15 |
+| 2 | [Announcements An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators) | Anthropic | News | Oct 15 |
+
+---
+
+## 🔥 Trending AI Repositories
+
+### Still Trending
+
+| Project | Stars | Recent stars | Daily rank | Observed streak |
+|---|---:|---:|---:|---:|
+| [rea](https://github.com/morluto/rea) | 187,714 | +32,314 today | #1 | 11 days |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | 61,510 | +3,024 today | #5 | 4 days |
+| [context-mode](https://github.com/mksglu/context-mode) | 26,846 | +904 today | #8 | 5 days |
+
+### New and Noteworthy
+
+| Project | Description | Stars | Recent stars | Source | Independent take |
+|---|---|---:|---:|---|---|
+| [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official curated directory of plugins, skills, agents, and integrations for Anthropic’s Claude Code. | 39,655 | +307 today | Daily #2 | N/A |
+| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Collection of scientific skills, databases, and workflows designed to extend compatible AI research agents. | 50,967 | +1,091 today | Daily #3 | N/A |
+| [caveman](https://github.com/JuliusBrussee/caveman) | CLI and agent skill that reduces coding-agent token usage through concise responses, compressed inputs, and automation. | 112,902 | +433 today | Daily #4 | [HN commenters questioned whether concision reduces reasoning quality and requested comparative evaluations.](https://news.ycombinator.com/item?id=47647455) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-10-15.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-10-16.png" width="400" alt="Today's comic strip">
 
-_Based on: [TV4 postpones show after AI agent erases edited material](https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage)_
+_Based on: [More on Anthropic's Scion ripping off Mononoke](https://sunshowers.io/posts/anthropic-mononoke-2/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 296 | Last updated: 2026-10-15*
+*Day 297 | Last updated: 2026-10-16*

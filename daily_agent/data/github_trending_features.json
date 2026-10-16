@@ -774,15 +774,15 @@
       "repository_id": 1100776768,
       "full_name": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "total_stars": 37025,
-      "last_full_featured": "2026-09-26"
+      "total_stars": 39655,
+      "last_full_featured": "2026-10-16"
     },
     "1079456184": {
       "repository_id": 1079456184,
       "full_name": "K-Dense-AI/scientific-agent-skills",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "total_stars": 36195,
-      "last_full_featured": "2026-08-28"
+      "total_stars": 50967,
+      "last_full_featured": "2026-10-16"
     },
     "1031059905": {
       "repository_id": 1031059905,
@@ -1168,6 +1168,13 @@
       "url": "https://github.com/vercel-labs/skills",
       "total_stars": 34155,
       "last_full_featured": "2026-10-13"
+    },
+    "1201173969": {
+      "repository_id": 1201173969,
+      "full_name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "total_stars": 112902,
+      "last_full_featured": "2026-10-16"
     }
   }
 }
