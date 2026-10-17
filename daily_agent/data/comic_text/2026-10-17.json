@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-17",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "grimacing",
+    "adjective_second": "haggard",
+    "narrative_intro": "*A grimacing person and a haggard person discuss PostgreSQL 19 in a data center during a fire drill.*",
+    "panel1": "[setup]\nGRIMACING PERSON: \"PostgreSQL 19 was nearly ready.\"\nHAGGARD PERSON: \"Then LLM-assisted code reviewers found roughly 40 defects.\"",
+    "panel2": "[build]\nHAGGARD PERSON: \"The quality bar rose retroactively, says EDB's Peter Eisentraut.\"\nGRIMACING PERSON: \"Volunteer maintainers need six-to-eight weeks.\"",
+    "panel3": "[pivot]\nGRIMACING PERSON: \"Release day is November 19.\"\nHAGGARD PERSON: \"Eight-to-ten major features, including SQL/PGQ graph queries, move to PostgreSQL 20.\"",
+    "panel4": "[silent reaction]\n[Visual: A red bar blasts through the ceiling as forty paper reports bury the maintainers; tiny AI reviewers keep measuring it upward.]",
+    "panel5": "[punch]\nHAGGARD PERSON: \"Tom Lane says shipping locks bugs in until v20.\"\nGRIMACING PERSON: \"So the bugs get tenure before the humans do?\"",
+    "panel6": "[button]\n[Visual: Forty bugs wearing employee lanyards march toward the only exit; the evacuation arrow points into a room labeled \u201cPOSTGRESQL 20.\u201d]"
+  },
+  "narrative_summary": "AI review raises PostgreSQL 19's quality bar so high that bugs get promoted and everyone is routed to PostgreSQL 20.",
+  "rationale": "Candidate 5 turns the story's exact facts\u201440 defects, the raised quality bar, and features moving to PostgreSQL 20\u2014into a clean, strongly matched visual gag. \u201cThe bugs get tenure before the humans do?\u201d is the freshest closing line, and the lanyard-wearing bugs provide an effective button rather than merely repeating the delay.",
+  "image_filename": "comic_2026-10-17.png",
+  "story_title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+  "story_url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+  "place": "in a data center during a fire drill",
+  "hat_pair": [
+    "beret tilted dramatically",
+    "foam filing cabinet worn as a tall hat with tiny overflowing drawers"
+  ],
+  "no_news_mode": false
+}

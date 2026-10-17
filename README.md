@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 297 (2026-10-16)
+# 📰 The AI Newspaper — Day 298 (2026-10-17)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Muse Spark Open](https://research.meta.ai/blog/muse-spark-open) | Model Release | Meta open-sources an 816B-parameter sparse model for agents. | 809 | [402](https://news.ycombinator.com/item?id=50107379) |
-| 2 | [Neural networks are clean](https://already-clean.goodfire.com/) | Research Paper | Goodfire argues neural networks exhibit unusually clean internal structure. | 681 | [250](https://news.ycombinator.com/item?id=50105647) |
-| 3 | [Krea 3 – An image model built for editing at scale](https://www.krea.ai/krea-3) | Model Release | Krea 3 targets scalable, editable image generation. | 308 | [99](https://news.ycombinator.com/item?id=50105648) |
-| 4 | [More on Anthropic's Scion ripping off Mononoke](https://sunshowers.io/posts/anthropic-mononoke-2/) | Palace Intrigue | Anthropic allegedly copied Mononoke while renaming the project Scion. | 241 | [77](https://news.ycombinator.com/item?id=50106738) |
-| 5 | [Simons Foundation launches $15M effort to help mathematicians navigate AI era](https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/) | Research Paper | Simons Foundation funds mathematicians adapting to AI’s disruption. | 239 | [192](https://news.ycombinator.com/item?id=50104654) |
-| 6 | [Using AI to reverse engineer hardware](https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/) | AI Hardware | AI agents reverse-engineer hardware, potentially automating difficult chip analysis. | 189 | [174](https://news.ycombinator.com/item?id=50104299) |
-| 7 | [Prompt injection in HTTP headers: what 217M web responses show](https://www.signalscorps.com/blog/prompt-injection-in-http-headers/) | Research Paper | Study finds prompt injection in HTTP headers across 217M responses. | 88 | [17](https://news.ycombinator.com/item?id=50104310) |
-| 8 | [Market selloff, rising rates test AI data centre deal boom](https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/) | Infrastructure | Rising rates threaten AI data-center financing deals. | 69 | [84](https://news.ycombinator.com/item?id=50105900) |
-| 9 | [Frontier Pre-Training at Microsoft AI](https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/) | Research Paper | Microsoft details frontier-scale pretraining infrastructure and methodology. | 41 | [4](https://news.ycombinator.com/item?id=50105791) |
-| 10 | [Flux 3 Image Klein](https://huggingface.co/black-forest-labs/flux-3-image-klein) | Model Release | Flux 3 Klein offers a compact open image model. | 15 | [1](https://news.ycombinator.com/item?id=50106622) |
+| 1 | [Claude reveals ECDSA curve origins](https://www.anthropic.com/research/ecdsa-curve-origins) | Research Paper | Claude traced NIST elliptic-curve seeds to their original source. | 860 | [318](https://news.ycombinator.com/item?id=50122800) |
+| 2 | [90% of US working hours are spent on tasks not covered well by AI benchmarks](https://www.mercor.com/research/labor-index/benchmark-map/) | Research Paper | Study maps benchmark blind spots across 90% of U.S. work. | 497 | [417](https://news.ycombinator.com/item?id=50121179) |
+| 3 | [How the Claude Code team does code review](https://claude.dev/blog/solving-code-review-at-anthropic/) | Dev Tooling | Anthropic details Claude Code's review workflow and bottleneck fixes. | 341 | [314](https://news.ycombinator.com/item?id=50122951) |
+| 4 | [Apple ML Research: Muse Spark Open with MLX on Mac Studio](https://machinelearning.apple.com/research/mlx-distributed-inference) | Infrastructure | Apple demonstrates distributed MLX inference for Muse Spark Open. | 313 | [158](https://news.ycombinator.com/item?id=50118320) |
+| 5 | [You could have invented transformers from memory](https://alexwang.ai/posts/associative-memory/) | Research Paper | Associative-memory theory reconstructs transformer ideas from basic principles. | 290 | [67](https://news.ycombinator.com/item?id=50122878) |
+| 6 | [Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console](https://github.com/cobanov/PS5LM) | Open Source Tool | PS5LM runs GGUF models natively on a jailbroken PlayStation 5. | 285 | [72](https://news.ycombinator.com/item?id=50122431) |
+| 7 | [Postgres 19 delayed after AI reviewers find more bugs than humans can fix](https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471) | Dev Tooling | AI reviewers uncover unfixable bug backlog, delaying Postgres 19. | 197 | [77](https://news.ycombinator.com/item?id=50119991) |
+| 8 | [Designing more efficient quantum circuits with Claude](https://www.anthropic.com/research/designing-efficient-quantum-circuits) | Research Paper | Claude designs smaller, lower-error quantum circuits. | 139 | [32](https://news.ycombinator.com/item?id=50121939) |
+| 9 | [Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware](https://llmspeed.dev/) | Dev Tooling | Llmspeed benchmarks local LLM responsiveness before hardware purchases. | 61 | [23](https://news.ycombinator.com/item?id=50127979) |
+| 10 | [DeepSeek-v4.1-Flash-1017](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017) | Model Release | DeepSeek releases V4.1 Flash, a new open-weight model. | 36 | [13](https://news.ycombinator.com/item?id=50129045) |
 
 ---
 
@@ -23,39 +23,26 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Bringing GPT-Rosalind to academic research labs](https://openai.com/index/introducing-the-rosalind-academic-plan) | OpenAI | Research | Oct 15 |
-| 2 | [Announcements An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators) | Anthropic | News | Oct 15 |
-
----
-
-## 🔥 Trending AI Repositories
-
-### Still Trending
-
-| Project | Stars | Recent stars | Daily rank | Observed streak |
-|---|---:|---:|---:|---:|
-| [rea](https://github.com/morluto/rea) | 187,714 | +32,314 today | #1 | 11 days |
-| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | 61,510 | +3,024 today | #5 | 4 days |
-| [context-mode](https://github.com/mksglu/context-mode) | 26,846 | +904 today | #8 | 5 days |
-
-### New and Noteworthy
-
-| Project | Description | Stars | Recent stars | Source | Independent take |
-|---|---|---:|---:|---|---|
-| [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official curated directory of plugins, skills, agents, and integrations for Anthropic’s Claude Code. | 39,655 | +307 today | Daily #2 | N/A |
-| [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Collection of scientific skills, databases, and workflows designed to extend compatible AI research agents. | 50,967 | +1,091 today | Daily #3 | N/A |
-| [caveman](https://github.com/JuliusBrussee/caveman) | CLI and agent skill that reduces coding-agent token usage through concise responses, compressed inputs, and automation. | 112,902 | +433 today | Daily #4 | [HN commenters questioned whether concision reduces reasoning quality and requested comparative evaluations.](https://news.ycombinator.com/item?id=47647455) |
+| 1 | [How Itaú is building generative AI for its entire customer base](https://openai.com/index/itau-generative-ai) | OpenAI | Engineering | Oct 16 |
+| 2 | [Stack Overflow for Agents triples signups with ChatGPT plugin](https://openai.com/index/stack-overflow-chatgpt-plugin) | OpenAI | Developer Tools | Oct 16 |
+| 3 | [Benefit Street Partners answers questions faster with Codex](https://openai.com/index/benefit-street-partners) | OpenAI | Engineering | Oct 16 |
+| 4 | [Science Designing more efficient quantum circuits with Claude](https://www.anthropic.com/research/designing-efficient-quantum-circuits) | Anthropic | Research | Oct 16 |
+| 5 | [Frontier Red Team Claude reveals ECDSA curve origins](https://www.anthropic.com/research/ecdsa-curve-origins) | Anthropic | Research | Oct 16 |
+| 6 | [Economics The AI expectations gap](https://www.anthropic.com/research/ai-expectations-gap) | Anthropic | Research | Oct 16 |
+| 7 | [Economics How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic) | Anthropic | Research | Oct 16 |
+| 8 | [Economics Working at the frontier shapes expectations for the future](https://www.anthropic.com/research/expectations-for-the-future) | Anthropic | Research | Oct 16 |
+| 9 | [Teaching students to think and learn through questions](https://openai.com/index/teaching-students-to-think-and-learn-through-questions) | OpenAI | News | Oct 15 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-10-16.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-10-17.png" width="600" alt="Today's comic strip">
 
-_Based on: [More on Anthropic's Scion ripping off Mononoke](https://sunshowers.io/posts/anthropic-mononoke-2/)_
+_Based on: [Postgres 19 delayed after AI reviewers find more bugs than humans can fix](https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 297 | Last updated: 2026-10-16*
+*Day 298 | Last updated: 2026-10-17*
