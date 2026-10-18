@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-18",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "seething",
+    "adjective_second": "preening",
+    "narrative_intro": "*A seething person and a preening person discuss OpenCode's leaked user credentials inside a broken time machine stuck between two eras.*",
+    "panel1": "[setup]\nSEETHING PERSON: \"OpenCode was hacked; user credentials leaked.\"\nPREENING PERSON: \"Change the password.\"",
+    "panel2": "[build]\nSEETHING PERSON: \"I did. The machine asks which era.\"\nPREENING PERSON: \"Choose the future.\"",
+    "panel3": "[pivot]\nSEETHING PERSON: \"It says the leak already arrived yesterday.\"",
+    "panel4": "[silent reaction]\n[Visual: The time machine flashes CREDENTIALS LEAKED across its PAST and FUTURE displays.]",
+    "panel5": "[punch]\nPREENING PERSON: \"Reset them!\"\nSEETHING PERSON: \"Already did. The reset takes effect yesterday.\"",
+    "panel6": "[button]\n[Visual: The machine ejects a receipt: PASSWORD RESET \u2014 SUCCESSFUL \u2014 ACCOUNT STILL LOGGED IN.]"
+  },
+  "narrative_summary": "A broken time machine turns OpenCode's credential leak into a password reset that takes effect yesterday.",
+  "rationale": "Candidate 3 has the cleanest escalation and strongest closing reversal: a password reset that takes effect yesterday, followed by the visual confirmation that the account remains logged in. It uses the time-machine premise without leaning on the more familiar leak-across-two-eras framing.",
+  "image_filename": "comic_2026-10-18.png",
+  "story_title": "OpenCode Hacked: User credentials leaked",
+  "story_url": "https://twitter.com/opencode/status/2111516673953935833",
+  "place": "inside a broken time machine stuck between two eras",
+  "hat_pair": [
+    "foam cardboard box worn as a cube helmet with FRAGILE stamped on every face",
+    "foam bowling pin hat with three red stripes"
+  ],
+  "no_news_mode": false
+}
