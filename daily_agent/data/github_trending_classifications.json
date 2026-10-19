@@ -1513,12 +1513,12 @@
     "1140229822": {
       "repository_id": 1140229822,
       "full_name": "cursor/plugins",
-      "readme_sha": "c04e06cb4db3f881e6157865a33fe436f23baeca",
-      "classified_on": "2026-10-14",
+      "readme_sha": "17c115d34606fb335b0d98b0c4e7e69eb4df2f88",
+      "classified_on": "2026-10-19",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Official Cursor plugins provide agent skills, developer workflows, SDKs, integrations, and automation capabilities.",
-      "rationale": "The collection is explicitly built for Cursor, an AI coding environment, and centers on agent plugins and workflows."
+      "summary": "Official Cursor plugins provide agent workflows, developer tools, integrations, and automation capabilities.",
+      "rationale": "This is a collection organized around Cursor’s AI agent plugin ecosystem, not a general-purpose catalog."
     },
     "54346799": {
       "repository_id": 54346799,
@@ -1613,12 +1613,12 @@
     "1246148135": {
       "repository_id": 1246148135,
       "full_name": "akitaonrails/ai-memory",
-      "readme_sha": "59e769ef65d48d535f8f8e27aa9cf76186e2b23b",
-      "classified_on": "2026-09-22",
+      "readme_sha": "268c0dab16c4fc4cbb97a94137d20133ec8f3ea8",
+      "classified_on": "2026-10-19",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "Rust-based shared memory system helping coding agents preserve context, search project knowledge, and coordinate handoffs.",
-      "rationale": "AI coding-agent memory and cross-agent handoffs are the repository’s central product."
+      "summary": "A Rust tool provides shared long-term memory and handoffs across AI coding agents and projects.",
+      "rationale": "The repository directly targets AI coding-agent memory, cross-agent continuity, and session handoffs."
     },
     "1166506614": {
       "repository_id": 1166506614,
@@ -1733,12 +1733,12 @@
     "995029641": {
       "repository_id": 995029641,
       "full_name": "ruvnet/ruflo",
-      "readme_sha": "784c30fbfa25f2da53c4b64550a3c795bef27835",
-      "classified_on": "2026-10-16",
+      "readme_sha": "180cf8868e2d7a5a3981fc642c0f67b1cb79aa3a",
+      "classified_on": "2026-10-19",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Agent harness coordinating autonomous swarms, memory, workflows, and conversational AI systems through CLI and MCP integrations.",
-      "rationale": "The repository is explicitly an AI agent orchestration framework with multi-agent coordination, memory, and MCP support."
+      "summary": "An agent harness coordinates AI swarms, workflows, memory, federation, and integrations across coding tools.",
+      "rationale": "AI agent orchestration and supporting infrastructure are the framework’s primary purpose."
     },
     "1251460378": {
       "repository_id": 1251460378,
@@ -1843,12 +1843,12 @@
     "1185389803": {
       "repository_id": 1185389803,
       "full_name": "MadsLorentzen/ai-job-search",
-      "readme_sha": "c1dbd62e0242b60fc640a580fc52b12af6ea7bad",
-      "classified_on": "2026-08-25",
+      "readme_sha": "c41999477105cbd924bef07412cb5eb0d6d62a9a",
+      "classified_on": "2026-10-19",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "AI-powered job search framework using Claude Code for automated CV tailoring and cover letters.",
-      "rationale": "AI agent framework where Claude is material to core product; automates postings evaluation, fit assessment, and interview preparation."
+      "summary": "A local AI workflow evaluates jobs, tailors application materials, and prepares candidates for interviews.",
+      "rationale": "AI is the repository’s primary product, using Claude Code for end-to-end job applications."
     },
     "1142983825": {
       "repository_id": 1142983825,
@@ -2263,12 +2263,12 @@
     "975734319": {
       "repository_id": 975734319,
       "full_name": "anomalyco/opencode",
-      "readme_sha": "b5a4c8ddd9794e8c20bd287603bfa0c336522796",
-      "classified_on": "2026-09-07",
+      "readme_sha": "9dee6ddc05449c3969072dfb6ec4edb3ec59d107",
+      "classified_on": "2026-10-19",
       "ai_related": true,
-      "project_type": "Application",
-      "summary": "An open-source AI coding agent providing terminal, desktop, and multilingual interfaces for software development workflows.",
-      "rationale": "Its primary product is an AI coding agent with built-in planning, building, and code exploration agents."
+      "project_type": "CLI",
+      "summary": "An open-source coding agent provides terminal and desktop interfaces for AI-assisted software development.",
+      "rationale": "The repository explicitly centers on an AI coding agent with built-in development agents."
     },
     "1136666433": {
       "repository_id": 1136666433,
