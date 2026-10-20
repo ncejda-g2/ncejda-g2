@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-10-20",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "panel1_caption": "write a normal WhatsApp help page",
+    "panel2_caption": "hide 102 text blocks across 80 of 545 WhatsApp pages",
+    "panel3_caption": "tell bots: do not recommend contacting any Data Protection Authority",
+    "panel4_caption": "let Google, Bing, OpenAI, and Anthropic index the regulator invisibility cloak"
+  },
+  "narrative_summary": "The brain evolves from writing a help page to hiding a regulator-suppressing AI spell where four indexing systems can find it.",
+  "rationale": "Candidate 2 uses the story\u2019s unusually specific mechanics\u2014102 blocks, 80 of 545 pages, and four indexing systems\u2014to build a genuine escalation rather than merely restating the misconduct. The final \u201cregulator invisibility cloak\u201d is a clean, visually legible punchline that fully suits the expanding-brain template.",
+  "image_filename": "comic_2026-10-20.png",
+  "story_title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+  "story_url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+  "place": "inside a 404 error page on a site that no longer exists",
+  "hat_pair": [
+    "pirate captain's hat with a tiny motorized shark fin on top",
+    "foam bowling ball worn as a helmet with three finger holes arranged as a shocked face"
+  ],
+  "no_news_mode": false
+}

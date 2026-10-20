@@ -1423,12 +1423,12 @@
     "1183888342": {
       "repository_id": 1183888342,
       "full_name": "stablyai/orca",
-      "readme_sha": "b679cb95c3d497461e6860970f3137ab719cc80f",
-      "classified_on": "2026-08-13",
+      "readme_sha": "dc6b13791676eaf8b8896ba2896d34eb1139e701",
+      "classified_on": "2026-10-20",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "IDE for orchestrating multiple parallel AI coding agents with shared worktrees and review tools.",
-      "rationale": "Specialized agent orchestration platform; managing multiple AI agents in parallel is primary organizing subject and function."
+      "summary": "Desktop and mobile workspace for running, monitoring, and orchestrating multiple coding agents across isolated worktrees.",
+      "rationale": "AI coding-agent orchestration is the application's primary purpose, including parallel agents, prompts, and agent-driven workflows."
     },
     "1165361576": {
       "repository_id": 1165361576,
@@ -1614,7 +1614,7 @@
       "repository_id": 1246148135,
       "full_name": "akitaonrails/ai-memory",
       "readme_sha": "268c0dab16c4fc4cbb97a94137d20133ec8f3ea8",
-      "classified_on": "2026-10-19",
+      "classified_on": "2026-10-20",
       "ai_related": true,
       "project_type": "CLI",
       "summary": "A Rust tool provides shared long-term memory and handoffs across AI coding agents and projects.",
@@ -1733,12 +1733,12 @@
     "995029641": {
       "repository_id": 995029641,
       "full_name": "ruvnet/ruflo",
-      "readme_sha": "180cf8868e2d7a5a3981fc642c0f67b1cb79aa3a",
-      "classified_on": "2026-10-19",
+      "readme_sha": "f17904bd1a41b5236d64d16240f10ad806d46c9a",
+      "classified_on": "2026-10-20",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "An agent harness coordinates AI swarms, workflows, memory, federation, and integrations across coding tools.",
-      "rationale": "AI agent orchestration and supporting infrastructure are the framework’s primary purpose."
+      "summary": "Agent orchestration harness coordinating autonomous swarms, memory, workflows, and integrations for Claude Code and Codex.",
+      "rationale": "The repository is explicitly centered on AI agents, multi-agent coordination, memory, and LLM tool integrations."
     },
     "1251460378": {
       "repository_id": 1251460378,
@@ -2919,6 +2919,26 @@
       "project_type": "CLI",
       "summary": "CLI and agent skill that reduces coding-agent token usage through concise responses, compressed inputs, and automation.",
       "rationale": "The repository directly optimizes AI coding-agent interactions and provides an installable command-line tool."
+    },
+    "589831718": {
+      "repository_id": 589831718,
+      "full_name": "Comfy-Org/ComfyUI",
+      "readme_sha": "99eed6176e91673783620b93f6f5e430b22d9dce",
+      "classified_on": "2026-10-20",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Modular diffusion interface and inference backend for building visual AI workflows across images, video, audio, and 3D.",
+      "rationale": "Its primary product is an AI creation engine supporting diffusion models, multimodal generation, and local inference."
+    },
+    "1129940957": {
+      "repository_id": 1129940957,
+      "full_name": "headroomlabs-ai/headroom",
+      "readme_sha": "adacc2f21f5667a0ff5a11435b81110be3a6dfee",
+      "classified_on": "2026-10-20",
+      "ai_related": true,
+      "project_type": "Library",
+      "summary": "Local context-compression toolkit reducing token usage for AI agents, applications, tool outputs, logs, and RAG content.",
+      "rationale": "It directly optimizes LLM inputs and outputs through libraries, proxies, CLI tools, MCP services, and compression models."
     }
   }
 }

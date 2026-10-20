@@ -641,8 +641,8 @@
       "repository_id": 1246148135,
       "full_name": "akitaonrails/ai-memory",
       "url": "https://github.com/akitaonrails/ai-memory",
-      "total_stars": 7945,
-      "last_full_featured": "2026-09-22"
+      "total_stars": 11680,
+      "last_full_featured": "2026-10-20"
     },
     "1128123594": {
       "repository_id": 1128123594,
@@ -683,8 +683,8 @@
       "repository_id": 995029641,
       "full_name": "ruvnet/ruflo",
       "url": "https://github.com/ruvnet/ruflo",
-      "total_stars": 68706,
-      "last_full_featured": "2026-08-22"
+      "total_stars": 77468,
+      "last_full_featured": "2026-10-20"
     },
     "1251460378": {
       "repository_id": 1251460378,
@@ -1175,6 +1175,13 @@
       "url": "https://github.com/JuliusBrussee/caveman",
       "total_stars": 112902,
       "last_full_featured": "2026-10-16"
+    },
+    "589831718": {
+      "repository_id": 589831718,
+      "full_name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "total_stars": 140236,
+      "last_full_featured": "2026-10-20"
     }
   }
 }
