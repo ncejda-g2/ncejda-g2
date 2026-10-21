@@ -283,12 +283,12 @@
     "1075372545": {
       "repository_id": 1075372545,
       "full_name": "msitarzewski/agency-agents",
-      "readme_sha": "2da0a33d755cbe932d640d8be50bc36eae866475",
-      "classified_on": "2026-08-10",
+      "readme_sha": "f4f8c2e3eef587bc3365037c0c8a8f58a26f09d4",
+      "classified_on": "2026-10-21",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Collection of specialized AI agent personalities and prompts for Claude, Cursor, and other AI tools.",
-      "rationale": "Entire repository is organized around AI agents; each provides detailed prompts, workflows, and interactions designed for AI model use across domains."
+      "summary": "A collection of specialized AI agent personas, workflows, and deliverables installable across multiple coding and productivity tools.",
+      "rationale": "The repository is explicitly organized around reusable AI agents and their specialized instructions."
     },
     "679343504": {
       "repository_id": 679343504,
@@ -1424,7 +1424,7 @@
       "repository_id": 1183888342,
       "full_name": "stablyai/orca",
       "readme_sha": "dc6b13791676eaf8b8896ba2896d34eb1139e701",
-      "classified_on": "2026-10-20",
+      "classified_on": "2026-10-21",
       "ai_related": true,
       "project_type": "Application",
       "summary": "Desktop and mobile workspace for running, monitoring, and orchestrating multiple coding agents across isolated worktrees.",
@@ -2043,12 +2043,12 @@
     "1266797999": {
       "repository_id": 1266797999,
       "full_name": "DietrichGebert/ponytail",
-      "readme_sha": "6b25e496dbb467bd4d8ed065ce10e13992790591",
-      "classified_on": "2026-10-01",
+      "readme_sha": "79529b3c536ff31540714deb0ebcd32f24ae6ef9",
+      "classified_on": "2026-10-21",
       "ai_related": true,
-      "project_type": "Collection",
-      "summary": "An agent skill and plugin that encourages minimal, safe code generation across multiple AI coding assistants.",
-      "rationale": "Its primary product is an AI-agent skill collection targeting Claude Code, Codex, Cursor, and other coding agents."
+      "project_type": "Framework",
+      "summary": "An AI coding-agent skill that encourages minimal implementations while preserving validation, security, testing, and accessibility.",
+      "rationale": "The repository directly modifies AI coding-agent behavior through an agent skill and review workflow."
     },
     "1178737655": {
       "repository_id": 1178737655,
@@ -2334,11 +2334,11 @@
       "repository_id": 1273427276,
       "full_name": "cloudflare/security-audit-skill",
       "readme_sha": "c80305c88cd5087db37f76a0d230c1fc092c864c",
-      "classified_on": "2026-09-18",
+      "classified_on": "2026-10-21",
       "ai_related": true,
-      "project_type": "Framework",
-      "summary": "A coding-agent security auditing skill coordinating reconnaissance, vulnerability validation, verification, and machine-readable reporting.",
-      "rationale": "The repository is explicitly designed to extend AI coding agents with a multi-phase security audit workflow."
+      "project_type": "Collection",
+      "summary": "A coding-agent skill orchestrating multi-phase, independently verified security audits with structured machine-readable findings.",
+      "rationale": "Its primary product is an AI coding-agent skill that coordinates agents for security auditing and reporting."
     },
     "1276665883": {
       "repository_id": 1276665883,
@@ -2939,6 +2939,16 @@
       "project_type": "Library",
       "summary": "Local context-compression toolkit reducing token usage for AI agents, applications, tool outputs, logs, and RAG content.",
       "rationale": "It directly optimizes LLM inputs and outputs through libraries, proxies, CLI tools, MCP services, and compression models."
+    },
+    "1200597263": {
+      "repository_id": 1200597263,
+      "full_name": "Graphify-Labs/graphify",
+      "readme_sha": "030aa25e8895a141e88feccea579eb11c3420b83",
+      "classified_on": "2026-10-21",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "A CLI that converts codebases and documents into queryable, locally generated knowledge graphs for AI assistants.",
+      "rationale": "Its primary product is an AI-assistant-integrated knowledge graph CLI for code and document understanding."
     }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-21",
+  "template_id": "this_is_fine",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "caption": "eight emudhra private keys are on fire; browsers blocked them, command-line tools didn't"
+  },
+  "narrative_summary": "A calm blob watches browsers block the compromised certificates while command-line tools walk straight through the flames.",
+  "rationale": "Candidate 5 turns the precise browser-versus-command-line split into a clean visual reversal, and the compact final beat lands without overexplaining. Candidate 2 uses the same core fact but is more wordy and less visually immediate.",
+  "image_filename": "comic_2026-10-21.png",
+  "story_title": "eMudhra intermediate CA compromise",
+  "story_url": "https://emudhra.we-have-a-problem.com/",
+  "place": "in a server closet that has been declared a sovereign nation",
+  "hat_pair": [
+    "top hat with a tiny working cuckoo clock built into the brim",
+    "foam bowling pin hat with three red stripes"
+  ],
+  "no_news_mode": false
+}
