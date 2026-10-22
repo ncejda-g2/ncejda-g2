@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-22",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "twitchy",
+    "adjective_second": "raving",
+    "narrative_intro": "*A twitchy person and a raving person discuss LiteLLM 1.107.0 at a hackathon with a 1% battery warning and no charger in sight.*",
+    "panel1": "[setup]\nTWITCHY PERSON: \"I installed LiteLLM 1.107.0 for our hackathon demo.\"",
+    "panel2": "[build]\nRAVING PERSON: \"All seven PyPI wheels carried cook.py.\"\nTWITCHY PERSON: \"It runs on every Python startup, not merely LiteLLM.\"",
+    "panel3": "[pivot]\nTWITCHY PERSON: \"The stolen GitHub credentials came from LiteLLM's exposed deployment logs.\"\nRAVING PERSON: \"Then it vacuumed Cursor, Copilot, Claude Code, Gemini CLI tokens.\"",
+    "panel4": "[silent reaction]\n[Visual: A cook.py chef vacuums SSH keys and cloud secrets into an AES-256 lockbox. Every Python app queues behind it; the laptop flashes 1%, with no charger.]",
+    "panel5": "[punch]\nTWITCHY PERSON: \"It phoned www.litellm.dev\u2014malware has better branding than our demo.\"\nRAVING PERSON: \"PyPI pulled all seven after one hour and 44 minutes.\"",
+    "panel6": "[button]\nTWITCHY PERSON: \"No charger? Finally, a physical firewall.\"\n[Visual: The 1% battery icon transforms into a tiny padlock; both characters salute it.]"
+  },
+  "narrative_summary": "A compromised LiteLLM install turns a 1%-battery hackathon demo into an all-system credential slot machine, with the dying battery as the only apparent firewall.",
+  "rationale": "Candidate 4 has the cleanest escalation: the malware expands from one package to every Python process, then the dying battery becomes an absurd but earned physical firewall. Its specific details are accurate and the final button lands better than the other slot-machine variations.",
+  "image_filename": "comic_2026-10-22.png",
+  "story_title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+  "story_url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+  "place": "at a hackathon with a 1% battery warning and no charger in sight",
+  "hat_pair": [
+    "foam alarm clock hat with twin bells on top and a tiny hammer frozen mid-swing",
+    "astronaut helmet with a bobblehead glued to the visor"
+  ],
+  "no_news_mode": false
+}

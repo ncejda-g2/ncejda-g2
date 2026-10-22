@@ -404,11 +404,11 @@
       "repository_id": 1011567289,
       "full_name": "shiyu-coder/Kronos",
       "readme_sha": "faffa1578cf0172f6b88f5db8a9b1205668ffef1",
-      "classified_on": "2026-08-13",
+      "classified_on": "2026-10-22",
       "ai_related": true,
       "project_type": "Model",
-      "summary": "Foundation model trained on financial candlestick data from forty-five global exchanges worldwide.",
-      "rationale": "Purpose-built foundation model for financial time series forecasting; AI model is the primary product."
+      "summary": "Foundation model family forecasting financial market candlestick sequences using specialized tokenization and autoregressive Transformers.",
+      "rationale": "It is an AI foundation model trained specifically on financial K-line data for quantitative forecasting tasks."
     },
     "1078079172": {
       "repository_id": 1078079172,
@@ -2934,7 +2934,7 @@
       "repository_id": 1129940957,
       "full_name": "headroomlabs-ai/headroom",
       "readme_sha": "adacc2f21f5667a0ff5a11435b81110be3a6dfee",
-      "classified_on": "2026-10-20",
+      "classified_on": "2026-10-22",
       "ai_related": true,
       "project_type": "Library",
       "summary": "Local context-compression toolkit reducing token usage for AI agents, applications, tool outputs, logs, and RAG content.",
@@ -2949,6 +2949,36 @@
       "project_type": "CLI",
       "summary": "A CLI that converts codebases and documents into queryable, locally generated knowledge graphs for AI assistants.",
       "rationale": "Its primary product is an AI-assistant-integrated knowledge graph CLI for code and document understanding."
+    },
+    "599547518": {
+      "repository_id": 599547518,
+      "full_name": "vllm-project/vllm",
+      "readme_sha": "ff92fface4421933f1056f53d736c0840eac4728",
+      "classified_on": "2026-10-22",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "High-throughput, memory-efficient engine for serving large language model inference across diverse hardware platforms.",
+      "rationale": "Its primary purpose is optimized LLM inference and serving, including batching, quantization, parallelism, and compatible APIs."
+    },
+    "214587193": {
+      "repository_id": 214587193,
+      "full_name": "supabase/supabase",
+      "readme_sha": "cb933a7ef6022e616fca4e23bde0f0d10138cf3b",
+      "classified_on": "2026-10-22",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Open-source Postgres development platform providing databases, authentication, APIs, storage, realtime features, and functions.",
+      "rationale": "Supabase is a general-purpose application backend; its AI, vector, and embeddings toolkit is an additional capability rather than the primary product."
+    },
+    "572984571": {
+      "repository_id": 572984571,
+      "full_name": "twentyhq/twenty",
+      "readme_sha": "e6137b5c569cc4a71163f3499f7e90a912540dd8",
+      "classified_on": "2026-10-22",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Open-source, customizable CRM platform providing business objects, workflows, applications, and AI agent capabilities.",
+      "rationale": "The repository describes a CRM explicitly designed for AI and includes AI agents, chats, and agent-oriented development tools."
     }
   }
 }

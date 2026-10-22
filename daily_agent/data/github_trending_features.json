@@ -1182,6 +1182,27 @@
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "total_stars": 140236,
       "last_full_featured": "2026-10-20"
+    },
+    "599547518": {
+      "repository_id": 599547518,
+      "full_name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "total_stars": 95084,
+      "last_full_featured": "2026-10-22"
+    },
+    "1129940957": {
+      "repository_id": 1129940957,
+      "full_name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "total_stars": 77474,
+      "last_full_featured": "2026-10-22"
+    },
+    "572984571": {
+      "repository_id": 572984571,
+      "full_name": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "total_stars": 59461,
+      "last_full_featured": "2026-10-22"
     }
   }
 }
