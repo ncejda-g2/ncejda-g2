@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-23",
+  "template_id": "same_picture",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "paper_left": "ModelCompare.ai: 12 models, 10 labs, three countries, totally independent takes",
+    "paper_right": "29/35 answers: \u201cwrong together\u201d; seven models said it all three times"
+  },
+  "narrative_summary": "A supposedly global chorus of independent AI opinions turns out to be one enormous group project about human conformity.",
+  "rationale": "Candidate 2 has the sharpest closing beat: \u201cwrong together\u201d turns the story\u2019s conformity finding into a clean group-project joke, while the seven repeated answers add factual escalation. Candidate 4 is equally structured but ends on a weaker repeated \u201cright?\u201d rather than a distinct punchline.",
+  "image_filename": "comic_2026-10-23.png",
+  "story_title": "Every AI model has the same \"controversial\" take on humans",
+  "story_url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+  "place": "at a robot rights protest outside Congress",
+  "hat_pair": [
+    "foam bowling ball worn as a helmet with three finger holes arranged as a shocked face",
+    "foam fax machine worn as a wide flat hat with a paper receipt curling endlessly out of the top"
+  ],
+  "no_news_mode": false
+}
