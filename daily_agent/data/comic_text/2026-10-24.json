@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-24",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "i_receive": "a 1-gigawatt demand cushion for google's data centers",
+    "you_receive": "cash to dim lights across 13 states for a zero-electricity power plant"
+  },
+  "narrative_summary": "Google and Voltus turn households' dimmed lights into a 1-gigawatt virtual power plant so data centers can keep guzzling electricity.",
+  "rationale": "Candidate 2 best exploits the Trade Offer format: the exchange makes Google's upside and households' sacrifice immediately legible, while the \u201czero-electricity power plant\u201d wording supplies an ironic turn. The others mostly restate the premise or repeat the same reveal without a stronger closing beat.",
+  "image_filename": "comic_2026-10-24.png",
+  "story_title": "Google will pay people to use less electricity so its data centers can use more",
+  "story_url": "https://www.computerworld.com/article/4239858/google-will-pay-people-to-use-less-electricity-so-its-data-centers-can-use-more.html",
+  "place": "in a smart city where all the traffic lights have unionized",
+  "hat_pair": [
+    "hockey goalie mask painted to look like a shocked emoji face",
+    "foam wedge of cheese worn as a hat"
+  ],
+  "no_news_mode": false
+}
