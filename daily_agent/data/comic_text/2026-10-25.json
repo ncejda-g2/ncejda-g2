@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-25",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "mischievous",
+    "adjective_second": "deranged",
+    "narrative_intro": "*A mischievous person and a deranged person discuss the Z-Library paper's nonexistent citation at a live trivia night.*",
+    "panel1": "[setup]\nMISCHIEVOUS PERSON: \"Final question: cite one real source from the Z-Library paper.\"\nDERANGED PERSON: \"Easy: the 2021 TorrentFreak article, 'Publishers continue crackdown on shadow libraries.'\"",
+    "panel2": "[build]\nMISCHIEVOUS PERSON: \"Excellent answer. TorrentFreak says that article never existed.\"\nDERANGED PERSON: \"Then my confidence is already peer-reviewed.\"",
+    "panel3": "[pivot]\nMISCHIEVOUS PERSON: \"At least ten of forty-four references are unlocatable.\"\nDERANGED PERSON: \"Consensus sifted literature; ChatGPT polished prose.\"",
+    "panel4": "[silent reaction]\n[Visual: The host flips four identical answer sheets, each citing the nonexistent TorrentFreak article; every contestant smiles mechanically.]",
+    "panel5": "[punch]\nMISCHIEVOUS PERSON: \"Pangram rated the abstract and conclusion 100% AI.\"\nDERANGED PERSON: \"I invented a citation nobody can find. That's either human or peer-reviewed.\"",
+    "panel6": "[button]\n[Visual: A Taylor & Francis investigator stamps the trophy \"CORRECTION OR RETRACTION?\"; its plaque cites the nonexistent article.]"
+  },
+  "narrative_summary": "At trivia night, a confidently hallucinated citation survives every test until Taylor & Francis investigates the trophy.",
+  "rationale": "Candidate 3 best converts the story\u2019s failed verification into a genuine escalation: confidence itself becomes \u201cpeer-reviewed,\u201d culminating in a sharper human-versus-AI punchline. The trivia structure and concrete details support the joke without merely repeating that the citation is missing.",
+  "image_filename": "comic_2026-10-25.png",
+  "story_title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+  "story_url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+  "place": "at a live trivia night where every contestant is suspected of being an AI bot",
+  "hat_pair": [
+    "foam soft-serve ice cream cone hat with a plastic wafer biscuit sticking out the top",
+    "astronaut helmet with a bobblehead glued to the visor"
+  ],
+  "no_news_mode": false
+}
