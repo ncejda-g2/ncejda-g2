@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-26",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "disheveled",
+    "adjective_second": "stoic",
+    "narrative_intro": "*A disheveled person and a stoic person discuss skin-cancer diagnosis inside a spam folder that has achieved sentience and is very upset about it.*",
+    "panel1": "[setup]\nDISHEVELED PERSON: \"A ten-year-old Inception v3 beat GPT-6 Astra and Claude Fable 5.1.\"\nSTOIC PERSON: \"It identified 125 of 200 lesions\u201462%.\"",
+    "panel2": "[build]\nDISHEVELED PERSON: \"Astra identified 84. Fable identified 85\u2014both scored 42%.\"\nSTOIC PERSON: \"The spam folder promoted Inception v3 to Chief Dermatologist.\"",
+    "panel3": "[pivot]\nDISHEVELED PERSON: \"At its preset threshold, it discharged 18 of 30 melanomas.\"\nSTOIC PERSON: \"Small sample; every lesion was biopsy-proven.\"",
+    "panel4": "[silent reaction]\n[Visual: The sentient spam folder tears off Inception v3\u2019s \u201cCHIEF DERMATOLOGIST\u201d badge; 18 red-spotted blobs exit through a chute labeled \u201cDISCHARGED.\u201d]",
+    "panel5": "[punch]\nSTOIC PERSON: \"Higher accuracy still does not make unsupervised diagnosis safe.\"\nDISHEVELED PERSON: \"It won the benchmark, then failed the liability department.\"",
+    "panel6": "[button]\n[Visual: The folder sorts Inception\u2019s trophy into \u201cPROMISING,\u201d 18 melanoma alerts into \u201cURGENT HUMAN REVIEW,\u201d and itself into \u201cEXISTENTIAL DREAD.\u201d]"
+  },
+  "narrative_summary": "The ten-year-old Inception v3 beats frontier LLMs numerically, but its 18 discharged melanomas demand human oversight.",
+  "rationale": "Candidate 2 best converts the exact performance gap and safety caveat into escalating beats, with \u201cChief Dermatologist\u201d and \u201cfailed the liability department\u201d providing a stronger comic turn than a generic warning label. Its medical oversight message remains clear and work-appropriate.",
+  "image_filename": "comic_2026-10-26.png",
+  "story_title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+  "story_url": "https://lynchlab.net/llm-skin-cancer",
+  "place": "inside a spam folder that has achieved sentience and is very upset about it",
+  "hat_pair": [
+    "foam loading spinner hat that slowly rotates on the head",
+    "hockey goalie mask painted to look like a shocked emoji face"
+  ],
+  "no_news_mode": false
+}

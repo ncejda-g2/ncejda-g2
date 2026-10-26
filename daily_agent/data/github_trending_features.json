@@ -25,8 +25,8 @@
       "repository_id": 1222917575,
       "full_name": "Nutlope/hallmark",
       "url": "https://github.com/Nutlope/hallmark",
-      "total_stars": 9466,
-      "last_full_featured": "2026-07-16"
+      "total_stars": 34941,
+      "last_full_featured": "2026-10-26"
     },
     "896924279": {
       "repository_id": 896924279,
@@ -1040,8 +1040,8 @@
       "repository_id": 1206390571,
       "full_name": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "total_stars": 61510,
-      "last_full_featured": "2026-10-13"
+      "total_stars": 87812,
+      "last_full_featured": "2026-10-26"
     },
     "92807616": {
       "repository_id": 92807616,
@@ -1203,6 +1203,13 @@
       "url": "https://github.com/twentyhq/twenty",
       "total_stars": 59461,
       "last_full_featured": "2026-10-22"
+    },
+    "1309102418": {
+      "repository_id": 1309102418,
+      "full_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "total_stars": 5625,
+      "last_full_featured": "2026-10-26"
     }
   }
 }

@@ -43,12 +43,12 @@
     "1222917575": {
       "repository_id": 1222917575,
       "full_name": "Nutlope/hallmark",
-      "readme_sha": "a615a8007804ee0912c2a94a4d987acdd75c3cbe",
-      "classified_on": "2026-07-16",
+      "readme_sha": "00a841d63f4bcdc9cdea6f0ec42fc87150f171f5",
+      "classified_on": "2026-10-26",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Design skill and prompt collection for Claude Code, Cursor, and Codex.",
-      "rationale": "Skill system built specifically for and only applicable within AI agent contexts; fundamentally dependent on AI use."
+      "summary": "Design skill collection helping coding agents create distinctive interfaces and detect common AI-generated frontend patterns.",
+      "rationale": "The repository is explicitly an AI coding-agent skill providing design guidance, generation workflows, and automated checks."
     },
     "896924279": {
       "repository_id": 896924279,
@@ -593,12 +593,12 @@
     "1097346685": {
       "repository_id": 1097346685,
       "full_name": "pbakaus/impeccable",
-      "readme_sha": "1a321f03b5bc30dc40300b1f8697f8e97c147ee8",
-      "classified_on": "2026-10-06",
+      "readme_sha": "7f64049596898d7852de18151ead1755c35eb8f0",
+      "classified_on": "2026-10-26",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "A CLI-installed design skill helping AI coding agents create, audit, and refine frontend interfaces.",
-      "rationale": "Its primary product is a design guidance and command system explicitly built for AI coding agents."
+      "summary": "CLI-installed design skill providing coding agents commands, browser iteration, and deterministic frontend quality detectors.",
+      "rationale": "The project directly extends AI coding agents with design commands, skills, hooks, and model-assisted critique."
     },
     "822285449": {
       "repository_id": 822285449,
@@ -2673,12 +2673,12 @@
     "1206390571": {
       "repository_id": 1206390571,
       "full_name": "debpalash/VoiceStudio",
-      "readme_sha": "6e281d91e881b6b07d60b57d7fb5f51b0076e8e1",
-      "classified_on": "2026-10-13",
+      "readme_sha": "850acecc50d3e6efe78e2ad896afe270b06f1bd9",
+      "classified_on": "2026-10-26",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "A local desktop application for voice cloning, speech generation, dubbing, transcription, dictation, and audiobook production.",
-      "rationale": "Its primary product is an AI speech and voice-generation application using local models and multiple audio workflows."
+      "summary": "Local desktop application for voice cloning, speech generation, dubbing, transcription, dictation, and audiobook production.",
+      "rationale": "Speech and generative voice models are central to the application’s primary capabilities and workflows."
     },
     "1176340473": {
       "repository_id": 1176340473,
@@ -2979,6 +2979,26 @@
       "project_type": "Application",
       "summary": "Open-source, customizable CRM platform providing business objects, workflows, applications, and AI agent capabilities.",
       "rationale": "The repository describes a CRM explicitly designed for AI and includes AI agents, chats, and agent-oriented development tools."
+    },
+    "1309102418": {
+      "repository_id": 1309102418,
+      "full_name": "makecindy/cindy",
+      "readme_sha": "8af0739d87f29cd820be10698003cf9525647a74",
+      "classified_on": "2026-10-26",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Open-source desktop and mobile AI agent for completing computer-based work with models, tools, and harnesses.",
+      "rationale": "AI agent functionality is the repository’s primary product, including local models, orchestration, memory, skills, and automation."
+    },
+    "1315850547": {
+      "repository_id": 1315850547,
+      "full_name": "pollen-robotics/microduck",
+      "readme_sha": "f3d1de59a5dd8d0da09650ae70495ba887d81234",
+      "classified_on": "2026-10-26",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Rust robot software controlling a biped duck through neural policies, sensors, actuators, communications, and updates.",
+      "rationale": "Reinforcement-learning policies are materially responsible for the robot’s movement and behaviors, making AI central to its operation."
     }
   }
 }
