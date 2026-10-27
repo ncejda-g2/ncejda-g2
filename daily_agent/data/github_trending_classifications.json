@@ -593,12 +593,12 @@
     "1097346685": {
       "repository_id": 1097346685,
       "full_name": "pbakaus/impeccable",
-      "readme_sha": "7f64049596898d7852de18151ead1755c35eb8f0",
-      "classified_on": "2026-10-26",
+      "readme_sha": "32878cb1af4941e9a7525376f73c20c0142fbe00",
+      "classified_on": "2026-10-27",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "CLI-installed design skill providing coding agents commands, browser iteration, and deterministic frontend quality detectors.",
-      "rationale": "The project directly extends AI coding agents with design commands, skills, hooks, and model-assisted critique."
+      "summary": "A CLI-delivered design skill that guides AI coding agents through frontend design review and iteration.",
+      "rationale": "The repository directly provides commands, detectors, and workflows intended for AI coding agents."
     },
     "822285449": {
       "repository_id": 822285449,
@@ -703,12 +703,12 @@
     "1136590548": {
       "repository_id": 1136590548,
       "full_name": "affaan-m/ECC",
-      "readme_sha": "69a81276b630a57ae32d1efdd9f664fa7e82c6a3",
-      "classified_on": "2026-09-19",
+      "readme_sha": "6583ca8c1320e559aa5b2f86250f2f09c1d577e9",
+      "classified_on": "2026-10-27",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of skills, agents, memory, and security tools for optimizing AI coding-agent workflows.",
-      "rationale": "The repository is explicitly organized around agent harnesses and extensions for Claude Code, Codex, Cursor, and similar AI tools."
+      "summary": "A collection of skills, memory, security tools, and workflows for improving AI coding-agent performance.",
+      "rationale": "Its primary organizing subject is AI agent harnesses, with reusable skills and tooling for multiple coding agents."
     },
     "1232995828": {
       "repository_id": 1232995828,
@@ -1253,12 +1253,12 @@
     "909213664": {
       "repository_id": 909213664,
       "full_name": "TauricResearch/TradingAgents",
-      "readme_sha": "def85acbef5601d1a6dbc299b4a4fe3904799d28",
-      "classified_on": "2026-08-26",
+      "readme_sha": "a9ddf10db162f608af4d3387b8a7dd35bc4d1a13",
+      "classified_on": "2026-10-27",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Multi-agent LLM framework for financial trading with specialized analyst and trader agents.",
-      "rationale": "Framework explicitly designed around LLM agents for collaborative trading analysis and decision-making."
+      "summary": "A multi-agent LLM framework for researching market conditions and informing financial trading decisions.",
+      "rationale": "AI is the repository’s primary product, using specialized LLM agents for financial analysis, trading, and backtesting."
     },
     "808045485": {
       "repository_id": 808045485,
@@ -2999,6 +2999,26 @@
       "project_type": "Application",
       "summary": "Rust robot software controlling a biped duck through neural policies, sensors, actuators, communications, and updates.",
       "rationale": "Reinforcement-learning policies are materially responsible for the robot’s movement and behaviors, making AI central to its operation."
+    },
+    "1293238217": {
+      "repository_id": 1293238217,
+      "full_name": "JetBrains/thinkrail",
+      "readme_sha": "df7340cd4235b978725b53074bf51d25426ff40e",
+      "classified_on": "2026-10-27",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "An agentic IDE providing workspaces, project knowledge, coding sessions, and workflows around the pi coding agent.",
+      "rationale": "The application is explicitly built around an AI coding agent and provides agent-focused development features."
+    },
+    "1187630119": {
+      "repository_id": 1187630119,
+      "full_name": "NVIDIA/SkillSpector",
+      "readme_sha": "fecbfb386b5c12a7e199c47a31c550fadd650095",
+      "classified_on": "2026-10-27",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "A security scanner that analyzes AI agent skills for vulnerabilities, malicious behavior, and supply-chain risks.",
+      "rationale": "AI agent skill security is the central product, including static analysis, optional LLM evaluation, and risk reporting."
     }
   }
 }

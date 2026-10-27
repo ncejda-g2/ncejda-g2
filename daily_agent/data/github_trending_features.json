@@ -291,8 +291,8 @@
       "repository_id": 1136590548,
       "full_name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
-      "total_stars": 262380,
-      "last_full_featured": "2026-09-19"
+      "total_stars": 290255,
+      "last_full_featured": "2026-10-27"
     },
     "839428333": {
       "repository_id": 839428333,
@@ -473,8 +473,8 @@
       "repository_id": 909213664,
       "full_name": "TauricResearch/TradingAgents",
       "url": "https://github.com/TauricResearch/TradingAgents",
-      "total_stars": 100420,
-      "last_full_featured": "2026-08-26"
+      "total_stars": 116844,
+      "last_full_featured": "2026-10-27"
     },
     "1003043071": {
       "repository_id": 1003043071,
@@ -1210,6 +1210,13 @@
       "url": "https://github.com/makecindy/cindy",
       "total_stars": 5625,
       "last_full_featured": "2026-10-26"
+    },
+    "1293238217": {
+      "repository_id": 1293238217,
+      "full_name": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "total_stars": 3413,
+      "last_full_featured": "2026-10-27"
     }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-27",
+  "template_id": "one_does_not_simply",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "caption_bottom": "Explain an Anthropic S-1 without becoming a securities lawyer."
+  },
+  "narrative_summary": "A pastel blob discovers that the mysterious title \u201cAnthropic S-1\u201d is not a new model name but a legal boss fight.",
+  "rationale": "Candidate 2 turns the S-1\u2019s legal nature into a clear obstacle instead of merely repeating that the headline is confusing. The One Does Not Simply template fits the impossible-task premise, and \u201cwithout becoming a securities lawyer\u201d provides the strongest comic turn.",
+  "image_filename": "comic_2026-10-27.png",
+  "story_title": "Anthropic S-1",
+  "story_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+  "place": "inside an infinite loading screen",
+  "hat_pair": [
+    "foam error message worn as a flat hat reading '404 HAT NOT FOUND'",
+    "foam bullseye target worn as a flat circular hat with a plastic suction-cup dart stuck to the center"
+  ],
+  "no_news_mode": false
+}
