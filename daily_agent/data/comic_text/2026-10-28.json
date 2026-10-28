@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-28",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "gloating",
+    "adjective_second": "slumped",
+    "narrative_intro": "*A gloating person and a slumped person discuss banning the term 'artificial intelligence' at an AI detox retreat.*",
+    "panel1": "[setup]\nGLOATING PERSON: \"The U.S. President says he will ban the term 'artificial intelligence.'\"",
+    "panel2": "[build]\nSLUMPED PERSON: \"Our banner currently says 'artificial intelligence detox retreat.'\"",
+    "panel3": "[pivot]\nGLOATING PERSON: \"Then we\u2019ll replace the phrase with a tasteful blank.\"",
+    "panel4": "[silent reaction]\n[Visual: The welcome banner is now a pristine white rectangle; everyone stares at it.]",
+    "panel5": "[punch]\nSLUMPED PERSON: \"The blank is now the loudest thing on the property.\"",
+    "panel6": "[button]\n[Visual: The pristine blank has expanded across the building, blocking the entrance; a tiny 'DETOX RETREAT' sign hangs underneath.]"
+  },
+  "narrative_summary": "A proposed terminology ban turns an AI detox retreat\u2019s missing sign text into its most conspicuous feature.",
+  "rationale": "Candidate 4 turns the banned phrase into a strong, escalating visual gag: the supposedly neutral blank becomes conspicuous and physically obstructive. Its final image pays off the setup cleanly without overexplaining or introducing distracting wordplay.",
+  "image_filename": "comic_2026-10-28.png",
+  "story_title": "US President says he will ban the term 'artificial intelligence'",
+  "story_url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
+  "place": "at an AI detox retreat",
+  "hat_pair": [
+    "foam 'DO NOT DISTURB' hotel door sign worn as a flat rectangular hat with a tiny hanger hook at the top",
+    "welder's mask flipped up"
+  ],
+  "no_news_mode": false
+}

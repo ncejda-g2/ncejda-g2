@@ -553,12 +553,12 @@
     "1073224795": {
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
-      "readme_sha": "e40ddfa8f87a374e1b9a3663b80c1aa954cf8eec",
-      "classified_on": "2026-10-16",
+      "readme_sha": "c5bb59fdaf17ba154e803c549cd71a73ef36c24b",
+      "classified_on": "2026-10-28",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Agentic software-development methodology providing composable skills and workflows for coding agents across multiple harnesses.",
-      "rationale": "Its core product is an AI coding-agent framework and methodology spanning numerous agent platforms."
+      "summary": "An agentic software development methodology providing composable skills, workflows, and subagent-driven processes for coding agents.",
+      "rationale": "Its primary product is a framework and methodology designed to guide AI coding agents through software development."
     },
     "1013830656": {
       "repository_id": 1013830656,
@@ -594,7 +594,7 @@
       "repository_id": 1097346685,
       "full_name": "pbakaus/impeccable",
       "readme_sha": "32878cb1af4941e9a7525376f73c20c0142fbe00",
-      "classified_on": "2026-10-27",
+      "classified_on": "2026-10-28",
       "ai_related": true,
       "project_type": "CLI",
       "summary": "A CLI-delivered design skill that guides AI coding agents through frontend design review and iteration.",
@@ -1393,12 +1393,12 @@
     "1124219907": {
       "repository_id": 1124219907,
       "full_name": "HKUDS/DeepTutor",
-      "readme_sha": "faf4f26d3c3b4b87cf1f72a3c1715878b5c77521",
-      "classified_on": "2026-08-12",
+      "readme_sha": "57e6ece07f3fccbbe97782f28c5eed65b5befbba",
+      "classified_on": "2026-10-28",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "AI-powered lifelong personalized tutoring system using large language models and multi-agent architectures.",
-      "rationale": "AI agents and LLMs are material to core tutoring functionality; system explicitly built on AI-driven instruction and interaction."
+      "summary": "A personalized tutoring application offering interactive learning, research, retrieval, and multi-agent educational capabilities.",
+      "rationale": "The repository describes an AI tutoring application with agents, RAG, deep research, and personalized learning features."
     },
     "1212769188": {
       "repository_id": 1212769188,
@@ -1413,12 +1413,12 @@
     "1092407718": {
       "repository_id": 1092407718,
       "full_name": "macro-inc/macro",
-      "readme_sha": "5c1f46495934b6a72e5e7479d059d8a7986491f0",
-      "classified_on": "2026-08-13",
+      "readme_sha": "9d8cd478cef941c2024d06e62d563481902aef61",
+      "classified_on": "2026-10-28",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Unified workspace combining email, chat, tasks, docs, and AI agents with shared team memory.",
-      "rationale": "AI agents as core product feature with team-level memory and autonomous action capabilities; agents material to primary product."
+      "summary": "An integrated team workspace combining communication, documents, tasks, CRM, searchable memory, and action-taking agents.",
+      "rationale": "AI agents, shared memory, AI-assisted email, and MCP tools are core product features rather than incidental integrations."
     },
     "1183888342": {
       "repository_id": 1183888342,
@@ -3019,6 +3019,16 @@
       "project_type": "CLI",
       "summary": "A security scanner that analyzes AI agent skills for vulnerabilities, malicious behavior, and supply-chain risks.",
       "rationale": "AI agent skill security is the central product, including static analysis, optional LLM evaluation, and risk reporting."
+    },
+    "1315788496": {
+      "repository_id": 1315788496,
+      "full_name": "elayadesign/ai-design-skills",
+      "readme_sha": "32677792be09e0b9fba13b10c2f94a804c488900",
+      "classified_on": "2026-10-28",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "A collection of reusable design skills for AI coding tools, distributed as markdown rules and self-contained folders.",
+      "rationale": "The repository is explicitly organized around skills for AI coding assistants and their supported rule formats."
     }
   }
 }

@@ -242,8 +242,8 @@
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
-      "total_stars": 291805,
-      "last_full_featured": "2026-09-26"
+      "total_stars": 306895,
+      "last_full_featured": "2026-10-28"
     },
     "1153130349": {
       "repository_id": 1153130349,
@@ -522,8 +522,8 @@
       "repository_id": 1124219907,
       "full_name": "HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
-      "total_stars": 34919,
-      "last_full_featured": "2026-08-12"
+      "total_stars": 47080,
+      "last_full_featured": "2026-10-28"
     },
     "1212769188": {
       "repository_id": 1212769188,
@@ -1217,6 +1217,13 @@
       "url": "https://github.com/JetBrains/thinkrail",
       "total_stars": 3413,
       "last_full_featured": "2026-10-27"
+    },
+    "1315788496": {
+      "repository_id": 1315788496,
+      "full_name": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "total_stars": 10504,
+      "last_full_featured": "2026-10-28"
     }
   }
 }
