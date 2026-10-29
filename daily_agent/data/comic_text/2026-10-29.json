@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-10-29",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "panel1_caption": "run C on a computer",
+    "panel2_caption": "run C inside a virtual machine",
+    "panel3_caption": "put an RV32IM CPU in Qwen3.5's weights",
+    "panel4_caption": "call the 18.8GB checkpoint a chatbot after 18 million instructions"
+  },
+  "narrative_summary": "The escalation ends with Qwenputer turning an 18.8GB checkpoint into a suspiciously competent computer.",
+  "rationale": "Candidate 2 has the cleanest escalation and the strongest closing reversal: after building a real RV32IM computer into the model, it reductively calls the 18.8GB checkpoint a chatbot. It is highly specific to the story while remaining readable and work-appropriate.",
+  "image_filename": "comic_2026-10-29.png",
+  "story_title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+  "story_url": "https://divagr.com/blog/qwenputer",
+  "place": "at a tech conference where the keynote speaker is a very confident hallucination",
+  "hat_pair": [
+    "foam clock face worn as a flat hat with hands permanently stuck at 11:59",
+    "foam piggy bank worn as a helmet with a coin slot on the top"
+  ],
+  "no_news_mode": false
+}

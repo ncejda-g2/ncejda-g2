@@ -263,8 +263,8 @@
       "repository_id": 1097346685,
       "full_name": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
-      "total_stars": 77346,
-      "last_full_featured": "2026-10-06"
+      "total_stars": 94094,
+      "last_full_featured": "2026-10-29"
     },
     "1219644159": {
       "repository_id": 1219644159,
@@ -1224,6 +1224,20 @@
       "url": "https://github.com/elayadesign/ai-design-skills",
       "total_stars": 10504,
       "last_full_featured": "2026-10-28"
+    },
+    "1331261687": {
+      "repository_id": 1331261687,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "total_stars": 7018,
+      "last_full_featured": "2026-10-29"
+    },
+    "1332461149": {
+      "repository_id": 1332461149,
+      "full_name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "total_stars": 3579,
+      "last_full_featured": "2026-10-29"
     }
   }
 }

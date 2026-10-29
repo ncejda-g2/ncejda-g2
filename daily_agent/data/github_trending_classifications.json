@@ -593,12 +593,12 @@
     "1097346685": {
       "repository_id": 1097346685,
       "full_name": "pbakaus/impeccable",
-      "readme_sha": "32878cb1af4941e9a7525376f73c20c0142fbe00",
-      "classified_on": "2026-10-28",
+      "readme_sha": "8f27aa965cb56ab578d637e53f0392ae4e2d06db",
+      "classified_on": "2026-10-29",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "A CLI-delivered design skill that guides AI coding agents through frontend design review and iteration.",
-      "rationale": "The repository directly provides commands, detectors, and workflows intended for AI coding agents."
+      "summary": "A design-focused coding-agent toolkit that reviews interfaces, detects visual quality issues, and guides frontend improvements.",
+      "rationale": "AI is central because the project provides vocabulary, commands, hooks, and reviews specifically for coding agents."
     },
     "822285449": {
       "repository_id": 822285449,
@@ -2753,12 +2753,12 @@
     "1048065319": {
       "repository_id": 1048065319,
       "full_name": "thedotmack/claude-mem",
-      "readme_sha": "f732d3864f79cfb263694afaafa8e305e379c0dd",
-      "classified_on": "2026-10-14",
+      "readme_sha": "616c531008f5d16fecc47f96cc0426ccfbafc151",
+      "classified_on": "2026-10-29",
       "ai_related": true,
-      "project_type": "Application",
-      "summary": "Persistent memory system captures, compresses, and retrieves context across sessions for multiple AI coding agents.",
-      "rationale": "Its primary product is AI-agent memory, using semantic summaries and retrieval to preserve context."
+      "project_type": "Library",
+      "summary": "A persistent memory system that compresses agent sessions and retrieves relevant context for future coding conversations.",
+      "rationale": "The repository is explicitly an AI-agent memory and context system using semantic summaries and embeddings."
     },
     "1322250666": {
       "repository_id": 1322250666,
@@ -3029,6 +3029,36 @@
       "project_type": "Collection",
       "summary": "A collection of reusable design skills for AI coding tools, distributed as markdown rules and self-contained folders.",
       "rationale": "The repository is explicitly organized around skills for AI coding assistants and their supported rule formats."
+    },
+    "1331261687": {
+      "repository_id": 1331261687,
+      "full_name": "milind-soni/OpenMausBot",
+      "readme_sha": "50140729a8a27690fad4c327d019b3858e25affc",
+      "classified_on": "2026-10-29",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A local-first desktop chat application hosting multiple AI agents with individual models, computers, memories, and connected applications.",
+      "rationale": "The primary product is an AI-agent messaging application using Claude, Codex, Grok, and other agent engines."
+    },
+    "1332461149": {
+      "repository_id": 1332461149,
+      "full_name": "nightly-labs/openbot",
+      "readme_sha": "c895cf81d1cc77b64996ea44301bf7cb0fabb48c",
+      "classified_on": "2026-10-29",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A local-first desktop workspace for persistent AI teammates with queues, browsers, files, and agent collaboration features.",
+      "rationale": "AI teammates and their orchestration are the repository’s central product, integrating numerous agent providers."
+    },
+    "1336502227": {
+      "repository_id": 1336502227,
+      "full_name": "CopilotKit/OpenBot",
+      "readme_sha": "12ae23cd32cad94a25bcdea6ad4170189bc5f8ee",
+      "classified_on": "2026-10-29",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "An open-source platform for deploying governed AI coworkers with browsers, files, tools, and auditable computer actions.",
+      "rationale": "Its primary purpose is hosting and governing AG-UI AI agents, including tool access, computer environments, and audit records."
     }
   }
 }
