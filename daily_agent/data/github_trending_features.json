@@ -1075,8 +1075,8 @@
       "repository_id": 1048065319,
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
-      "total_stars": 100576,
-      "last_full_featured": "2026-10-14"
+      "total_stars": 105285,
+      "last_full_featured": "2026-10-30"
     },
     "1209966933": {
       "repository_id": 1209966933,
@@ -1238,6 +1238,20 @@
       "url": "https://github.com/nightly-labs/openbot",
       "total_stars": 3579,
       "last_full_featured": "2026-10-29"
+    },
+    "1336502227": {
+      "repository_id": 1336502227,
+      "full_name": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "total_stars": 8442,
+      "last_full_featured": "2026-10-30"
+    },
+    "1106846196": {
+      "repository_id": 1106846196,
+      "full_name": "expo/skills",
+      "url": "https://github.com/expo/skills",
+      "total_stars": 3775,
+      "last_full_featured": "2026-10-30"
     }
   }
 }

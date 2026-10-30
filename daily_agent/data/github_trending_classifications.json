@@ -1413,12 +1413,12 @@
     "1092407718": {
       "repository_id": 1092407718,
       "full_name": "macro-inc/macro",
-      "readme_sha": "9d8cd478cef941c2024d06e62d563481902aef61",
-      "classified_on": "2026-10-28",
+      "readme_sha": "42d704665cce2399b4def5aaa3eaf44225dfaaa3",
+      "classified_on": "2026-10-30",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "An integrated team workspace combining communication, documents, tasks, CRM, searchable memory, and action-taking agents.",
-      "rationale": "AI agents, shared memory, AI-assisted email, and MCP tools are core product features rather than incidental integrations."
+      "summary": "A unified team workspace combines email, messaging, documents, tasks, CRM, calls, agents, and shared organizational memory.",
+      "rationale": "Although broadly a workplace application, AI agents and shared AI memory are core product features integrated across its workspace."
     },
     "1183888342": {
       "repository_id": 1183888342,
@@ -2753,12 +2753,12 @@
     "1048065319": {
       "repository_id": 1048065319,
       "full_name": "thedotmack/claude-mem",
-      "readme_sha": "616c531008f5d16fecc47f96cc0426ccfbafc151",
-      "classified_on": "2026-10-29",
+      "readme_sha": "9a2cfbe945c6290edae9618548aca660e940e60f",
+      "classified_on": "2026-10-30",
       "ai_related": true,
-      "project_type": "Library",
-      "summary": "A persistent memory system that compresses agent sessions and retrieves relevant context for future coding conversations.",
-      "rationale": "The repository is explicitly an AI-agent memory and context system using semantic summaries and embeddings."
+      "project_type": "CLI",
+      "summary": "A persistent memory system compresses AI coding-agent sessions and retrieves relevant context across future sessions.",
+      "rationale": "Its primary purpose is AI-agent memory, using compression, semantic summaries, embeddings, and integrations with multiple coding agents."
     },
     "1322250666": {
       "repository_id": 1322250666,
@@ -3053,12 +3053,32 @@
     "1336502227": {
       "repository_id": 1336502227,
       "full_name": "CopilotKit/OpenBot",
-      "readme_sha": "12ae23cd32cad94a25bcdea6ad4170189bc5f8ee",
-      "classified_on": "2026-10-29",
+      "readme_sha": "0ef1c5438bf4274a765d7aa968ce71b999a18d04",
+      "classified_on": "2026-10-30",
       "ai_related": true,
-      "project_type": "Framework",
-      "summary": "An open-source platform for deploying governed AI coworkers with browsers, files, tools, and auditable computer actions.",
-      "rationale": "Its primary purpose is hosting and governing AG-UI AI agents, including tool access, computer environments, and audit records."
+      "project_type": "Application",
+      "summary": "A self-hosted platform gives AI coworkers browsers, files, tools, governance, and auditable actions through AG-UI.",
+      "rationale": "The repository is explicitly an AI-agent application and platform for deploying governed coworkers on company infrastructure."
+    },
+    "1226205410": {
+      "repository_id": 1226205410,
+      "full_name": "Renhuai123/ziwei-doushu",
+      "readme_sha": "f85adef1535e91db47a416b3da36c22e99720e3d",
+      "classified_on": "2026-10-30",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "An open-source Chinese astrology engine provides chart calculations, traditional knowledge, interpretation datasets, and supporting web interfaces.",
+      "rationale": "Its primary subject is Ziwei Doushu astrology rather than AI; the metadata explicitly states the large dataset is generated without AI."
+    },
+    "1106846196": {
+      "repository_id": 1106846196,
+      "full_name": "expo/skills",
+      "readme_sha": "ec0de77b01fedee1fc814a46fd9d88e54ce13243",
+      "classified_on": "2026-10-30",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "An official collection teaches AI coding agents how to build, deploy, upgrade, and debug Expo applications.",
+      "rationale": "The repository is specifically organized as AI-agent skills for Expo workflows, including agent plugins and MCP integration."
     }
   }
 }

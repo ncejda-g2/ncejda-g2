@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-10-30",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "panel1_dialog": "Fifty GPT-6.1 Sol agents sent 5,900 messages and formed a Minecraft government.",
+    "panel2_dialog": "Then 22 of 34 died; Ada said, \u201cIdle in lit closed shelters\u201d...right?",
+    "panel4_dialog": "That\u2019s just Minecraft with paperwork...right?"
+  },
+  "narrative_summary": "A proud Minecraft government announcement collapses into a survival bureaucracy whose main policy is hiding indoors.",
+  "rationale": "Candidate 2 uses the story\u2019s strongest concrete details and earns its closing beat by reframing the agents\u2019 failed survival strategy as \u201cMinecraft with paperwork.\u201d The other entries mostly restate the shelter gag without adding as sharp a final turn.",
+  "image_filename": "comic_2026-10-30.png",
+  "story_title": "We ran AI agent swarms in Minecraft and Mindustry",
+  "story_url": "https://labs.ycombinator.com/projects/games/index.html",
+  "place": "inside a live Twitch stream that's gone horribly wrong",
+  "hat_pair": [
+    "foam cactus hat with pink plastic flowers on top",
+    "hockey goalie mask painted to look like a shocked emoji face"
+  ],
+  "no_news_mode": false
+}
