@@ -14,11 +14,11 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "readme_sha": "f7038f139299985eea6c3e18398dbafb379a0010",
-      "classified_on": "2026-10-08",
+      "classified_on": "2026-10-31",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of composable engineering and productivity skills designed to guide Claude and other coding agents.",
-      "rationale": "Its primary content consists of reusable skills and workflows for AI coding agents, making AI central to the repository."
+      "summary": "A collection of adaptable agent skills supporting engineering workflows, productivity, documentation, testing, and software development.",
+      "rationale": "The repository is explicitly organized around reusable skills for AI coding agents and model-assisted engineering."
     },
     "1006414368": {
       "repository_id": 1006414368,
@@ -573,12 +573,12 @@
     "1153130349": {
       "repository_id": 1153130349,
       "full_name": "pingdotgg/t3code",
-      "readme_sha": "f34c275516e5dc4c9106832a34a0e51ab2712bc2",
-      "classified_on": "2026-10-05",
+      "readme_sha": "6f6dab985e154fd3b6709404d7998baabdbc8de5",
+      "classified_on": "2026-10-31",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Open control surface providing mobile, web, and desktop interfaces for remotely managing coding agents on personal machines.",
-      "rationale": "The application’s central purpose is controlling and coordinating multiple AI coding-agent providers."
+      "summary": "An open agent-control application providing mobile, web, and desktop interfaces for remotely managing coding agents.",
+      "rationale": "Controlling AI coding agents across multiple interfaces is the application’s central purpose."
     },
     "27193779": {
       "repository_id": 27193779,
@@ -1374,11 +1374,11 @@
       "repository_id": 1061953414,
       "full_name": "anthropics/skills",
       "readme_sha": "eb54ee8b92f2d40b4b26569be0772be3c1e23156",
-      "classified_on": "2026-09-26",
+      "classified_on": "2026-10-31",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Anthropic collection of example and production-oriented skills for extending Claude across specialized tasks.",
-      "rationale": "It is explicitly devoted to Claude agent skills, including document, technical, creative, and enterprise workflows."
+      "summary": "Anthropic’s collection of Agent Skills for creative, technical, enterprise, document, and Claude workflow tasks.",
+      "rationale": "The repository is specifically dedicated to skills that extend Claude and other AI agents with specialized capabilities."
     },
     "32689863": {
       "repository_id": 32689863,
@@ -1414,7 +1414,7 @@
       "repository_id": 1092407718,
       "full_name": "macro-inc/macro",
       "readme_sha": "42d704665cce2399b4def5aaa3eaf44225dfaaa3",
-      "classified_on": "2026-10-30",
+      "classified_on": "2026-10-31",
       "ai_related": true,
       "project_type": "Application",
       "summary": "A unified team workspace combines email, messaging, documents, tasks, CRM, calls, agents, and shared organizational memory.",
@@ -3063,12 +3063,12 @@
     "1226205410": {
       "repository_id": 1226205410,
       "full_name": "Renhuai123/ziwei-doushu",
-      "readme_sha": "f85adef1535e91db47a416b3da36c22e99720e3d",
-      "classified_on": "2026-10-30",
+      "readme_sha": "8358fc53b3d561b222158862a6dff7231c9bf6a7",
+      "classified_on": "2026-10-31",
       "ai_related": false,
       "project_type": "Library",
-      "summary": "An open-source Chinese astrology engine provides chart calculations, traditional knowledge, interpretation datasets, and supporting web interfaces.",
-      "rationale": "Its primary subject is Ziwei Doushu astrology rather than AI; the metadata explicitly states the large dataset is generated without AI."
+      "summary": "An open-source Chinese astrology charting engine with algorithms, interpretation datasets, and classical reference materials.",
+      "rationale": "Its primary subject is Zi Wei Dou Shu astrology; an AI interpretation feature is incidental to the deterministic engine."
     },
     "1106846196": {
       "repository_id": 1106846196,

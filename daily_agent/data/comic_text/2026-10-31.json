@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-31",
+  "template_id": "disaster_girl",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "caption": "i hid a 6502 cpu in qwen weights; mario now runs 290\u00d7 slower"
+  },
+  "narrative_summary": "A smug blob proudly turns Qwen weights into a deterministic NES emulator that makes Mario crawl at glacier speed.",
+  "rationale": "Candidate 2 has the cleanest collision between a specific technical fact\u2014the 6502 hidden in Qwen weights\u2014and the absurdly bad outcome of Mario running 290\u00d7 slower. Disaster Girl suits the proud, self-inflicted engineering failure, and the caption lands with a sharper reversal than the more cluttered comparison in Candidate 4.",
+  "image_filename": "comic_2026-10-31.png",
+  "story_title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+  "story_url": "https://github.com/dbreunig/nesformer",
+  "place": "inside a broken vending machine that only accepts crypto",
+  "hat_pair": [
+    "foam briefcase worn as a wide flat hat with a tiny combination lock on top",
+    "bucket hat with a tiny aquarium built into the brim"
+  ],
+  "no_news_mode": false
+}
