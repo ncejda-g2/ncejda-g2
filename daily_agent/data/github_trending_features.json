@@ -186,8 +186,8 @@
       "repository_id": 1011567289,
       "full_name": "shiyu-coder/Kronos",
       "url": "https://github.com/shiyu-coder/Kronos",
-      "total_stars": 35903,
-      "last_full_featured": "2026-08-04"
+      "total_stars": 44916,
+      "last_full_featured": "2026-11-01"
     },
     "1174789082": {
       "repository_id": 1174789082,
@@ -1252,6 +1252,20 @@
       "url": "https://github.com/expo/skills",
       "total_stars": 3775,
       "last_full_featured": "2026-10-30"
+    },
+    "598667202": {
+      "repository_id": 598667202,
+      "full_name": "lightpanda-io/browser",
+      "url": "https://github.com/lightpanda-io/browser",
+      "total_stars": 39590,
+      "last_full_featured": "2026-11-01"
+    },
+    "931888694": {
+      "repository_id": 931888694,
+      "full_name": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "total_stars": 36042,
+      "last_full_featured": "2026-11-01"
     }
   }
 }

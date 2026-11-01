@@ -404,11 +404,11 @@
       "repository_id": 1011567289,
       "full_name": "shiyu-coder/Kronos",
       "readme_sha": "faffa1578cf0172f6b88f5db8a9b1205668ffef1",
-      "classified_on": "2026-10-22",
+      "classified_on": "2026-11-01",
       "ai_related": true,
       "project_type": "Model",
-      "summary": "Foundation model family forecasting financial market candlestick sequences using specialized tokenization and autoregressive Transformers.",
-      "rationale": "It is an AI foundation model trained specifically on financial K-line data for quantitative forecasting tasks."
+      "summary": "An open-source foundation model that forecasts financial market candlestick sequences from historical trading data.",
+      "rationale": "The repository develops and distributes specialized decoder-only foundation models and tokenizers for financial time-series forecasting."
     },
     "1078079172": {
       "repository_id": 1078079172,
@@ -1523,12 +1523,12 @@
     "54346799": {
       "repository_id": 54346799,
       "full_name": "public-apis/public-apis",
-      "readme_sha": "30c92bcc0913e1bc0ebb5dd966f8693147f83e05",
-      "classified_on": "2026-08-19",
+      "readme_sha": "aed66d638faef01940aa772e1eee3102ca9117d5",
+      "classified_on": "2026-11-01",
       "ai_related": false,
       "project_type": "Collection",
-      "summary": "A community-maintained curated list of free public APIs across many domains.",
-      "rationale": "General-purpose API catalog not organized around AI; though some APIs may have AI features, the collection's scope is general developer resources, not AI-specific."
+      "summary": "A community-curated directory of free public APIs covering numerous domains and developer integration needs.",
+      "rationale": "This is a general API catalog whose scope is not organized around artificial intelligence."
     },
     "1162516847": {
       "repository_id": 1162516847,
@@ -3079,6 +3079,36 @@
       "project_type": "Collection",
       "summary": "An official collection teaches AI coding agents how to build, deploy, upgrade, and debug Expo applications.",
       "rationale": "The repository is specifically organized as AI-agent skills for Expo workflows, including agent plugins and MCP integration."
+    },
+    "598667202": {
+      "repository_id": 598667202,
+      "full_name": "lightpanda-io/browser",
+      "readme_sha": "65634d76d0f406d634d0245caeff2c91ff584f6f",
+      "classified_on": "2026-11-01",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A lightweight Zig headless browser designed specifically for AI agents, web automation, and structured data extraction.",
+      "rationale": "Its primary product is explicitly built for AI agents and includes a native natural-language browser agent."
+    },
+    "931888694": {
+      "repository_id": 931888694,
+      "full_name": "cjpais/Handy",
+      "readme_sha": "dd8a2b45d502e9bb2e500f621e60dc18ba7b9e50",
+      "classified_on": "2026-11-01",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A privacy-focused offline desktop application that transcribes speech locally using Whisper and Parakeet models.",
+      "rationale": "Speech-to-text is the primary product, powered by local machine-learning models for transcription and voice activity detection."
+    },
+    "1155965274": {
+      "repository_id": 1155965274,
+      "full_name": "Donchitos/Claude-Code-Game-Studios",
+      "readme_sha": "d73112eae0042d010d867ea850142e66ffc37f71",
+      "classified_on": "2026-11-01",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "A Claude Code configuration collection providing specialized AI agents, skills, hooks, rules, and workflows for game development.",
+      "rationale": "The repository is explicitly organized around coordinating AI agents and skills for game-development workflows."
     }
   }
 }

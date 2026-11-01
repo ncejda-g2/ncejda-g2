@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-01",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "i_receive": "Galileu reviews our R$842,000 claim superficially",
+    "you_receive": "a 10% fine\u2014about $16,000\u2014for white-on-white prompt injection"
+  },
+  "narrative_summary": "Lawyers offer Galileu a superficial review and discover that invisible ink has very visible legal consequences.",
+  "rationale": "Candidate 4 best exploits the Trade Offer format: the promised superficial review is cleanly countered by a specific, costly legal consequence. It includes the case\u2019s key figures and the white-on-white prompt injection without merely restating the premise.",
+  "image_filename": "comic_2026-11-01.png",
+  "story_title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+  "story_url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+  "place": "at the edge of a black hole",
+  "hat_pair": [
+    "crash helmet with a tiny working traffic light mounted on top",
+    "hockey goalie mask painted to look like a shocked emoji face"
+  ],
+  "no_news_mode": false
+}
