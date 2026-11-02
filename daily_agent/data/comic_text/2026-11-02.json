@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-02",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "absurd",
+  "fields": {
+    "adjective_first": "flustered",
+    "adjective_second": "quizzical",
+    "narrative_intro": "*A flustered person and a quizzical person discuss Minecraft agent swarms in a broken-down elevator.*",
+    "panel1": "[setup]\nFLUSTERED PERSON: \"Researchers dropped up to 50 AI agents into Minecraft to build civilization.\"",
+    "panel2": "[build]\nQUIZZICAL PERSON: \"With fifty minds, surely coordination became effortless.\"",
+    "panel3": "[pivot]\nFLUSTERED PERSON: \"They formed committees to approve committees, and buildings never got approved.\"",
+    "panel4": "[silent reaction]\n[Visual: The two people stare as fifty tiny Minecraft-style agents hold a committee meeting around the elevator's broken repair panel.]",
+    "panel5": "[punch]\nQUIZZICAL PERSON: \"Did they at least construct a government?\"\nFLUSTERED PERSON: \"No\u2014the repair committee is still seeking permission to meet.\"",
+    "panel6": "[button]\n[Visual: Outside, a Minecraft villager grips a diamond pickaxe while fifty agents vote on whether he may lift it.]"
+  },
+  "narrative_summary": "Fifty Minecraft agents fail to build civilization but successfully bureaucratize a broken elevator.",
+  "rationale": "Candidate 2 wins with the strongest concrete Minecraft payoff: agents bureaucratically voting on whether a villager may lift a diamond pickaxe. Its repair-committee callback gives the punchline an earned escalation rather than merely renaming the failure as middle management.",
+  "image_filename": "comic_2026-11-02.png",
+  "story_title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+  "story_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+  "place": "in a broken-down elevator",
+  "hat_pair": [
+    "foam pencil worn as a tall pointy hat with a pink eraser tip at the peak",
+    "foam error message worn as a flat hat reading '404 HAT NOT FOUND'"
+  ],
+  "no_news_mode": false
+}

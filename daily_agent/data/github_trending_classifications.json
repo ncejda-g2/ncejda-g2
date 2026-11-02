@@ -3104,11 +3104,51 @@
       "repository_id": 1155965274,
       "full_name": "Donchitos/Claude-Code-Game-Studios",
       "readme_sha": "d73112eae0042d010d867ea850142e66ffc37f71",
-      "classified_on": "2026-11-01",
+      "classified_on": "2026-11-02",
       "ai_related": true,
       "project_type": "Collection",
       "summary": "A Claude Code configuration collection providing specialized AI agents, skills, hooks, rules, and workflows for game development.",
       "rationale": "The repository is explicitly organized around coordinating AI agents and skills for game-development workflows."
+    },
+    "1161958643": {
+      "repository_id": 1161958643,
+      "full_name": "vercel-labs/agent-desktop",
+      "readme_sha": "3c41e4fc2bf8c685aeb216a0f9eba186e9e50dd2",
+      "classified_on": "2026-11-02",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "A cross-platform CLI enabling AI agents to inspect and control desktop applications through accessibility trees.",
+      "rationale": "Its primary purpose is reliable computer use for AI agents, with structured observation and safe interaction workflows."
+    },
+    "872119017": {
+      "repository_id": 872119017,
+      "full_name": "D4Vinci/Scrapling",
+      "readme_sha": "26cc7aa2c13dfb31b77a1a650c7dc565bbcc4d21",
+      "classified_on": "2026-11-02",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "A Python web scraping framework supporting crawling, extraction, browser automation, and AI-agent access through MCP.",
+      "rationale": "Although general scraping is central, AI-agent browsing and extraction are explicitly supported as a substantial integrated capability."
+    },
+    "470730648": {
+      "repository_id": 470730648,
+      "full_name": "hyprwm/Hyprland",
+      "readme_sha": "886fc163dcfc38735ac28c33dac0e4c66d4ce125",
+      "classified_on": "2026-11-02",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "A customizable dynamic tiling Wayland compositor providing window management, visual effects, plugins, and desktop workflow features.",
+      "rationale": "The repository is a general desktop compositor with no material AI-focused product, content, or organizing scope."
+    },
+    "1307001698": {
+      "repository_id": 1307001698,
+      "full_name": "FlashML-org/FreeToken",
+      "readme_sha": "e72a5cd0d62ecb564e1b7f8ac9b194c8fd9d8a84",
+      "classified_on": "2026-11-02",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "An edge-native model serving engine running large mixture-of-experts language models on consumer hardware.",
+      "rationale": "Its primary product is AI inference infrastructure for serving frontier open-weight language models locally."
     }
   }
 }
