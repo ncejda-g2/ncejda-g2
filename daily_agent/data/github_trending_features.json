@@ -823,8 +823,8 @@
       "repository_id": 1061041576,
       "full_name": "p-e-w/heretic",
       "url": "https://github.com/p-e-w/heretic",
-      "total_stars": 28869,
-      "last_full_featured": "2026-08-30"
+      "total_stars": 38477,
+      "last_full_featured": "2026-11-03"
     },
     "834369920": {
       "repository_id": 834369920,
@@ -1287,6 +1287,20 @@
       "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
       "total_stars": 33043,
       "last_full_featured": "2026-11-02"
+    },
+    "1078528927": {
+      "repository_id": 1078528927,
+      "full_name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "total_stars": 10263,
+      "last_full_featured": "2026-11-03"
+    },
+    "1286080397": {
+      "repository_id": 1286080397,
+      "full_name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "total_stars": 46953,
+      "last_full_featured": "2026-11-03"
     }
   }
 }

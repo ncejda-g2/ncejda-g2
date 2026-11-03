@@ -2063,12 +2063,12 @@
     "1061041576": {
       "repository_id": 1061041576,
       "full_name": "p-e-w/heretic",
-      "readme_sha": "ec4e8090207c2db1bce3c4ba5684bc10ef03fbe4",
-      "classified_on": "2026-08-30",
+      "readme_sha": "cf7209e1cc55171521712a1d0da2009b6deffb64",
+      "classified_on": "2026-11-03",
       "ai_related": true,
-      "project_type": "Application",
-      "summary": "Automated tool removing safety alignment from transformer language models via abliteration parameter optimization.",
-      "rationale": "Specialized AI tool for systematic LLM modification; transformer model manipulation is the entire purpose."
+      "project_type": "CLI",
+      "summary": "Python tool modifies language models without training by optimizing configurable behavioral steering and scoring objectives.",
+      "rationale": "The repository directly modifies LLMs using abliteration, scorers, modifiers, and optimization rather than conventional training."
     },
     "255378816": {
       "repository_id": 255378816,
@@ -2573,12 +2573,12 @@
     "1286080397": {
       "repository_id": 1286080397,
       "full_name": "JustVugg/colibri",
-      "readme_sha": "f23129938eb325d1d5a119adf125d573930759d9",
-      "classified_on": "2026-09-22",
+      "readme_sha": "6aec0134be593934df22571c7a7e67665049c01a",
+      "classified_on": "2026-11-03",
       "ai_related": true,
-      "project_type": "Framework",
-      "summary": "A pure-C inference engine running large mixture-of-experts models across consumer hardware through streamed, tiered memory.",
-      "rationale": "Its primary purpose is executing frontier AI models and researching memory, scheduling, and inference optimizations."
+      "project_type": "Application",
+      "summary": "C inference engine running large mixture-of-experts language, image, and decision models on consumer hardware.",
+      "rationale": "Its primary product is local inference for numerous language, image, and decision models across CPU and GPU backends."
     },
     "543101941": {
       "repository_id": 543101941,
@@ -3149,6 +3149,36 @@
       "project_type": "Framework",
       "summary": "An edge-native model serving engine running large mixture-of-experts language models on consumer hardware.",
       "rationale": "Its primary product is AI inference infrastructure for serving frontier open-weight language models locally."
+    },
+    "1078528927": {
+      "repository_id": 1078528927,
+      "full_name": "max-sixty/worktrunk",
+      "readme_sha": "7dc9e151754e4d5acf1add7d5aa99e69e481b56b",
+      "classified_on": "2026-11-03",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Rust CLI simplifying Git worktree management for running multiple AI coding agents and parallel development workflows.",
+      "rationale": "AI-agent parallel execution is a stated design goal, with integrations including Claude, Codex, generated commits, and summaries."
+    },
+    "1310374568": {
+      "repository_id": 1310374568,
+      "full_name": "spotify/portal-ai-plugins",
+      "readme_sha": "7738a6591fb86aed30c700497637839faa92b71b",
+      "classified_on": "2026-11-03",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Collection of AI coding-agent plugins connecting Spotify Portal workflows with Claude Code, Codex, Cursor, and pi.",
+      "rationale": "The repository is explicitly an AI plugin marketplace providing workflows and agent delegation integrations for multiple coding assistants."
+    },
+    "1160497244": {
+      "repository_id": 1160497244,
+      "full_name": "floci-io/floci",
+      "readme_sha": "637c2ba2ef52c286d873b70de6ef68b917ed1f91",
+      "classified_on": "2026-11-03",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Open-source local AWS emulator providing cloud-compatible services for development, testing, and continuous integration workflows.",
+      "rationale": "Its primary purpose is emulating AWS services locally; the supplied metadata contains no material AI-focused functionality."
     }
   }
 }

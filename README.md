@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 314 (2026-11-02)
+# 📰 The AI Newspaper — Day 315 (2026-11-03)
 
 *AI curated AI news for humans*
 
@@ -6,22 +6,28 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [AI delivers 'zero financial payoff' to most companies, Apollo economist says](https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/) | Palace Intrigue | Apollo economist says most corporate AI deployments generate no returns. | 230 | [230](https://news.ycombinator.com/item?id=50330456) |
-| 2 | [AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy) | Research Paper | Fifty-agent Minecraft civilization collapses into bureaucracy and drowning. | 173 | [84](https://news.ycombinator.com/item?id=50325662) |
-| 3 | [Proving and improving the Platonic Representation Hypothesis with JEPAs](https://arxiv.org/abs/2610.39302) | Research Paper | JEPAs test and improve the Platonic Representation Hypothesis. | 147 | [76](https://news.ycombinator.com/item?id=50325454) |
-| 4 | [China's First Frontier AI Export Controls: Mofcom Announcement No. 48](https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/) | Palace Intrigue | China announces frontier-AI export controls through Mofcom Announcement 48. | 82 | [47](https://news.ycombinator.com/item?id=50334038) |
-| 5 | [AI Can Write More of the Code. We Still Have to Engineer the System](https://picon.dev/en/publications/ai-assisted-engineering/) | Dev Tooling | AI writes code; engineers still must design and operate systems. | 46 | [25](https://news.ycombinator.com/item?id=50331998) |
-| 6 | [America on Data Centers: listen to 10,000+ city council comments](https://www.americansentiment.com/datacenters) | Infrastructure | Interactive archive visualizes 10,000 city-council comments on data centers. | 34 | [101](https://news.ycombinator.com/item?id=50331404) |
-| 7 | [Heretic 2.0 Released: Training-free language model modification](https://news.ycombinator.com/item?id=50328567) | Open Source Tool | Heretic 2.0 modifies language models without training. | 18 | [3](https://news.ycombinator.com/item?id=50328567) |
-| 8 | [Documenting an undocumented chip: the TensorCore of TPU v5e](https://gherkinlabs.com/v5e-tensorcore-instructions) | AI Hardware | Reverse-engineered TPU v5e TensorCore instructions document undocumented hardware. | 5 | [0](https://news.ycombinator.com/item?id=50334709) |
-| 9 | [When Modernization Breaks Working Code: A Study of LLMs on Legacy PHP](https://arxiv.org/abs/2610.40269) | Research Paper | Study evaluates LLM performance modernizing legacy PHP applications. | 5 | [0](https://news.ycombinator.com/item?id=50330033) |
-| 10 | [Show HN: Offline project memory for coding agents – no API key, no vector DB](https://github.com/krapcys1-maker/adaptive-agent-memory-research) | Dev Tooling | Offline coding-agent memory works without APIs or vector databases. | 4 | [0](https://news.ycombinator.com/item?id=50327937) |
+| 1 | [Astra can read and write weights to improve Qwen](https://rikiyat.github.io/blog/weight-space-programming/) | Open Source Tool | Astra programs Qwen's weights directly, improving models through weight-space edits. | 2790 | [853](https://news.ycombinator.com/item?id=50341174) |
+| 2 | [Show HN: Subvocal – Talk to your computer without making noise](https://news.ycombinator.com/item?id=50340088) | Dev Tooling | Subvocal enables silent computer control through subvocalized speech. | 733 | [348](https://news.ycombinator.com/item?id=50340088) |
+| 3 | [The SEC Should Block Anthropic's IPO to Protect the Public](https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/) | Palace Intrigue | Proposal urges SEC to block Anthropic's IPO over public-interest concerns. | 369 | [275](https://news.ycombinator.com/item?id=50344919) |
+| 4 | [Anthropic's internal AI use, at retail prices, now exceeds its employee pay](https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11) | Palace Intrigue | Anthropic's internal token consumption reportedly exceeds employee compensation costs. | 334 | [255](https://news.ycombinator.com/item?id=50339494) |
+| 5 | [Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai/) | Infrastructure | OpenAI's Pando replaces conventional Git infrastructure for Codex-scale development. | 241 | [166](https://news.ycombinator.com/item?id=50345924) |
+| 6 | [Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1](https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html) | Palace Intrigue | Anthropic reports $17B revenue alongside $895B in commitments. | 233 | [275](https://news.ycombinator.com/item?id=50337439) |
+| 7 | [Oracle files to sell $20B in new stock, bonds to finance AI buildout](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) | Infrastructure | Oracle seeks $20B to finance its AI infrastructure expansion. | 190 | [168](https://news.ycombinator.com/item?id=50342284) |
+| 8 | [Egoless Mathematics in the AI Era](https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/) | Research Paper | Terry Tao examines mathematics, collaboration, and intellectual humility amid AI. | 171 | [128](https://news.ycombinator.com/item?id=50341736) |
+| 9 | [Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app](https://momentic.ai/) | Dev Tooling | Momentic agents test applications autonomously, catching bugs through realistic usage. | 147 | [98](https://news.ycombinator.com/item?id=50339913) |
+| 10 | [Nvidia – open-source auto-ontology](https://github.com/NVIDIA/auto-ontology) | Open Source Tool | Nvidia releases open-source auto-ontology for structuring knowledge automatically. | 140 | [40](https://news.ycombinator.com/item?id=50348962) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-*No new lab posts this week.*
+| # | Post | Lab | Category | Date |
+|---|------|-----|----------|------|
+| 1 | [Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai) | OpenAI | Engineering | Nov 2 |
+| 2 | [LifeVal](https://openai.com/index/lifeval) | OpenAI | Research | Nov 2 |
+| 3 | [Qodo builds context into AI code review with Codex](https://openai.com/index/qodo-codex-plugin) | OpenAI | Developer Tools | Nov 2 |
+| 4 | [Progress on provable inference for large language models](https://www.anthropic.com/research/provable-inference) | Anthropic | Research | Unknown |
+| 5 | [Data Bot](https://x.ai/news/data-bot) | xAI | News | Unknown |
 
 ---
 
@@ -31,28 +37,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [claude-mem](https://github.com/thedotmack/claude-mem) | 105,285 | +1,799 today | #2 | 5 days |
-| [t3code](https://github.com/pingdotgg/t3code) | 33,342 | +3,216 today | #7 | 4 days |
-| [Kronos](https://github.com/shiyu-coder/Kronos) | 44,916 | +855 today | #8 | 2 days |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | 105,285 | +1,138 today | #1 | 6 days |
+| [agent-desktop](https://github.com/vercel-labs/agent-desktop) | 8,092 | +3,792 today | #2 | 2 days |
+| [skills](https://github.com/mattpocock/skills) | 307,803 | +1,164 today | #5 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [agent-desktop](https://github.com/vercel-labs/agent-desktop) | A cross-platform CLI enabling AI agents to inspect and control desktop applications through accessibility trees. | 8,092 | +2,243 today | Daily #1 | [HN questioned its cross-platform claim; commenters noted Linux accessibility limitations.](https://news.ycombinator.com/item?id=47982708) |
-| [Scrapling](https://github.com/D4Vinci/Scrapling) | A Python web scraping framework supporting crawling, extraction, browser automation, and AI-agent access through MCP. | 92,233 | +892 today | Daily #3 | N/A |
-| [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | A Claude Code configuration collection providing specialized AI agents, skills, hooks, rules, and workflows for game development. | 33,043 | +1,380 today | Daily #5 | N/A |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | Rust CLI simplifying Git worktree management for running multiple AI coding agents and parallel development workflows. | 10,263 | +437 today | Daily #3 | N/A |
+| [colibri](https://github.com/JustVugg/colibri) | C inference engine running large mixture-of-experts language, image, and decision models on consumer hardware. | 46,953 | +803 today | Daily #4 | [HN praised the concept, while questioning whether very low token rates are practically usable.](https://news.ycombinator.com/item?id=48842459) |
+| [heretic](https://github.com/p-e-w/heretic) | Python tool modifies language models without training by optimizing configurable behavioral steering and scoring objectives. | 38,477 | +699 today | Daily #6 | [HN welcomed reducing arbitrary refusals, while debating safety tradeoffs and model judgment.](https://news.ycombinator.com/item?id=45945587) |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-11-02.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-11-03.png" width="600" alt="Today's comic strip">
 
-_Based on: [AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy)_
+_Based on: [Astra can read and write weights to improve Qwen](https://rikiyat.github.io/blog/weight-space-programming/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 314 | Last updated: 2026-11-02*
+*Day 315 | Last updated: 2026-11-03*
