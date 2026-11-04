@@ -1493,12 +1493,12 @@
     "1042367133": {
       "repository_id": 1042367133,
       "full_name": "github/spec-kit",
-      "readme_sha": "3452eb4a3f679f37260bd91a2694e06d72def724",
-      "classified_on": "2026-08-15",
+      "readme_sha": "456ad24df206a8781442644a48bbad4730885611",
+      "classified_on": "2026-11-04",
       "ai_related": true,
-      "project_type": "Framework",
-      "summary": "Toolkit for spec-driven development that works with any AI coding agent to build software.",
-      "rationale": "Framework explicitly designed to enable AI coding agents to implement features from executable specifications; integrates multiple agent platforms as primary interface."
+      "project_type": "CLI",
+      "summary": "Toolkit providing structured processes, templates, and integrations for AI coding agents and specification-driven software development.",
+      "rationale": "The project is specifically designed to support AI coding agents through workflows, skills, extensions, and CLI integrations."
     },
     "493376588": {
       "repository_id": 493376588,
@@ -1583,12 +1583,12 @@
     "770153867": {
       "repository_id": 770153867,
       "full_name": "harry0703/MoneyPrinterTurbo",
-      "readme_sha": "08b2a2b87b55f96c66d4386907ce3923885ea3d7",
-      "classified_on": "2026-08-18",
+      "readme_sha": "bd36fa40ea714426acfdef9aa01750c05b1aaa94",
+      "classified_on": "2026-11-04",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "AI-powered tool auto-generating HD short videos from keywords with scripts, subtitles, and music.",
-      "rationale": "LLMs are the core mechanism driving script generation and video content creation; supports multiple AI providers (Kimi, GPT, Gemini, DeepSeek, etc.)."
+      "summary": "Application that uses AI and automated workflows to generate scripts, media, subtitles, music, and high-definition short videos.",
+      "rationale": "AI video generation and automated content creation are the repository’s primary purpose, supported by language and multimedia models."
     },
     "1032808806": {
       "repository_id": 1032808806,
@@ -3174,11 +3174,31 @@
       "repository_id": 1160497244,
       "full_name": "floci-io/floci",
       "readme_sha": "637c2ba2ef52c286d873b70de6ef68b917ed1f91",
-      "classified_on": "2026-11-03",
+      "classified_on": "2026-11-04",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Open-source local AWS emulator providing cloud-compatible services for development, testing, and continuous integration workflows.",
       "rationale": "Its primary purpose is emulating AWS services locally; the supplied metadata contains no material AI-focused functionality."
+    },
+    "1222953295": {
+      "repository_id": 1222953295,
+      "full_name": "NVIDIA/auto-ontology",
+      "readme_sha": "bdb2c5bd5e2140e92b12addafe5c3f92066dace0",
+      "classified_on": "2026-11-04",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Python framework that builds semantic ontologies to improve context, reliability, and explainability for agent data workflows.",
+      "rationale": "AI agents and LLM-driven analytics are the repository’s primary use case, with ontology grounding and answerability validation."
+    },
+    "662766482": {
+      "repository_id": 662766482,
+      "full_name": "The-PR-Agent/pr-agent",
+      "readme_sha": "3f76bd2d8afc710ba00156c9e974a80c97639c9e",
+      "classified_on": "2026-11-04",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Open-source AI agent that reviews, describes, improves, and answers questions about pull requests across Git platforms.",
+      "rationale": "AI-powered pull-request review is the repository’s central product, supporting multiple language models and deployment integrations."
     }
   }
 }

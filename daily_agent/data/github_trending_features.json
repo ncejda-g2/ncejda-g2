@@ -578,8 +578,8 @@
       "repository_id": 1042367133,
       "full_name": "github/spec-kit",
       "url": "https://github.com/github/spec-kit",
-      "total_stars": 128613,
-      "last_full_featured": "2026-08-15"
+      "total_stars": 146937,
+      "last_full_featured": "2026-11-04"
     },
     "1140229822": {
       "repository_id": 1140229822,
@@ -1301,6 +1301,20 @@
       "url": "https://github.com/JustVugg/colibri",
       "total_stars": 46953,
       "last_full_featured": "2026-11-03"
+    },
+    "1222953295": {
+      "repository_id": 1222953295,
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "total_stars": 3747,
+      "last_full_featured": "2026-11-04"
+    },
+    "662766482": {
+      "repository_id": 662766482,
+      "full_name": "The-PR-Agent/pr-agent",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "total_stars": 14516,
+      "last_full_featured": "2026-11-04"
     }
   }
 }

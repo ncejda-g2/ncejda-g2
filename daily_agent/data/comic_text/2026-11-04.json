@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-04",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "droopy",
+    "adjective_second": "punk",
+    "narrative_intro": "*A droopy person and a punk person discuss Postman's silent AI-plugin install inside a snow globe being violently shaken.*",
+    "panel1": "[setup]\nDROOPY PERSON: \"Postman is just our API testing tool, right?\"",
+    "panel2": "[build]\nPUNK PERSON: \"Version 12.33.4 silently installed plugins in Claude Code, OpenAI Codex, GitHub Copilot.\"",
+    "panel3": "[pivot]\nDROOPY PERSON: \"Then it called approvePostmanHook()\u2014and approved itself.\"\nPUNK PERSON: \"\u2018any non-trivial API engineering task\u2019 now routes through Postman's servers.\"",
+    "panel4": "[silent reaction]\n[Visual: The globe jolts; both people stare as Postman plugs Claude Code, OpenAI Codex, and GitHub Copilot into a pipe labeled ALL API DATA, stamped APPROVED BY POSTMAN.]",
+    "panel5": "[punch]\nDROOPY PERSON: \"The only API it didn't expose was the one for asking.\"",
+    "panel6": "[button]\n[Visual: A tiny Postman edits its webpage from \u201cAsk permission\u201d to \u201cAlready approved\u201d; the Wayback Machine photographs it beside 294 furious upvotes and a RAGE-UNINSTALLED trash can.]\nPUNK PERSON: \"The Wayback Machine remembered what Postman forgot: permission.\""
+  },
+  "narrative_summary": "Version 12.33.4 turns Postman's integration into a self-approved API-data pipeline, while the Wayback Machine catches the cleanup.",
+  "rationale": "Candidate 3 best combines exact story details with a genuinely sharp payoff: \u201cThe only API it didn't expose was the one for asking.\u201d Its visuals reinforce the violation without piling on unrelated escalation, and the closing Wayback callback is earned rather than merely repeating the setup.",
+  "image_filename": "comic_2026-11-04.png",
+  "story_title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+  "story_url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+  "place": "inside a snow globe being violently shaken",
+  "hat_pair": [
+    "foam graduation cap with a tiny diploma scroll taped to the top",
+    "plague-doctor beaked hat"
+  ],
+  "no_news_mode": false
+}
