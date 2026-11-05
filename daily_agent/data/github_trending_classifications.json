@@ -1243,12 +1243,12 @@
     "1197652028": {
       "repository_id": 1197652028,
       "full_name": "google/skills",
-      "readme_sha": "753d99b7f98eb7fe572198470985585c4442f45c",
-      "classified_on": "2026-08-09",
+      "readme_sha": "143292c4af551f9dbc62a527bba8a57cb0576732",
+      "classified_on": "2026-11-05",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Curated collection of specialized AI agent skills designed for building Google Cloud applications.",
-      "rationale": "Repository organizes agent skills explicitly for AI agent frameworks operating on Google Cloud infrastructure and services."
+      "summary": "A collection of agent skills covering Google Cloud products, technologies, AI platforms, and developer workflows.",
+      "rationale": "The repository is explicitly organized around agent skills, including extensive Google Cloud AI and machine-learning capabilities."
     },
     "909213664": {
       "repository_id": 909213664,
@@ -3199,6 +3199,46 @@
       "project_type": "Application",
       "summary": "Open-source AI agent that reviews, describes, improves, and answers questions about pull requests across Git platforms.",
       "rationale": "AI-powered pull-request review is the repository’s central product, supporting multiple language models and deployment integrations."
+    },
+    "1179264259": {
+      "repository_id": 1179264259,
+      "full_name": "garrytan/gstack",
+      "readme_sha": "47e3e4ee9d0dc04ceb4cddf57d92da07dd719004",
+      "classified_on": "2026-11-05",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "A collection of command-line skills that turns coding agents into structured virtual engineering team roles.",
+      "rationale": "Its primary product is an AI-agent workflow toolkit for Claude Code and other coding-agent harnesses."
+    },
+    "1020672081": {
+      "repository_id": 1020672081,
+      "full_name": "Usagi-org/ai-goofish-monitor",
+      "readme_sha": "af6de028699cfc73afdc66a342a54353d8280eec",
+      "classified_on": "2026-11-05",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A web-managed monitoring application that uses AI to analyze Xianyu marketplace listings and notify users.",
+      "rationale": "AI is central to task creation, multimodal product analysis, recommendation decisions, and marketplace monitoring."
+    },
+    "18106269": {
+      "repository_id": 18106269,
+      "full_name": "lz4/lz4",
+      "readme_sha": "25b4c8f07e53b125e836f7b515ec88f4706c559e",
+      "classified_on": "2026-11-05",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "A fast lossless compression library and command-line utility supporting streaming, dictionaries, and high-throughput decompression.",
+      "rationale": "This is a general-purpose compression project with no material AI focus."
+    },
+    "1132001614": {
+      "repository_id": 1132001614,
+      "full_name": "vercel-labs/agent-browser",
+      "readme_sha": "53f71fd42a568994479edfa5063c58ca0b5dad8d",
+      "classified_on": "2026-11-05",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "A Rust-based browser automation CLI that lets AI agents inspect webpages and interact with browser elements.",
+      "rationale": "Its primary purpose is providing browser control and specialized skills directly for AI agents."
     }
   }
 }

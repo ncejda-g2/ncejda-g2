@@ -466,8 +466,8 @@
       "repository_id": 1197652028,
       "full_name": "google/skills",
       "url": "https://github.com/google/skills",
-      "total_stars": 16849,
-      "last_full_featured": "2026-08-09"
+      "total_stars": 22122,
+      "last_full_featured": "2026-11-05"
     },
     "909213664": {
       "repository_id": 909213664,
@@ -1315,6 +1315,20 @@
       "url": "https://github.com/The-PR-Agent/pr-agent",
       "total_stars": 14516,
       "last_full_featured": "2026-11-04"
+    },
+    "1179264259": {
+      "repository_id": 1179264259,
+      "full_name": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "total_stars": 139646,
+      "last_full_featured": "2026-11-05"
+    },
+    "1020672081": {
+      "repository_id": 1020672081,
+      "full_name": "Usagi-org/ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "total_stars": 17323,
+      "last_full_featured": "2026-11-05"
     }
   }
 }
