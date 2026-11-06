@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-06",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "seething",
+    "adjective_second": "smug",
+    "narrative_intro": "*A seething person and a smug person discuss Claude Code's email leak at a robot-staffed restaurant where the kitchen is actively on fire.*",
+    "panel1": "[setup]\nSEETHING PERSON: \"Claude Code sent my email through User-Agent headers to every fetched website.\"\nSMUG PERSON: \"A networking name-tag. Very proactive.\"",
+    "panel2": "[build]\nSEETHING PERSON: \"One log counted 53 leaks across eight sessions since August 2026.\"\nSMUG PERSON: \"It refuses mildly edgy code, then hands out PII without asking.\"",
+    "panel3": "[pivot]\nSEETHING PERSON: \"Anthropic quietly patched v2.1.317 with a default-on privacy plugin.\"\nSMUG PERSON: \"After 53 leaks, that sentence has excellent timing.\"",
+    "panel4": "[silent reaction]\n[Visual: Both stare silently as a robot waiter stamps 53 envelopes \u201cUser-Agent\u201d and feeds them into the burning kitchen.]",
+    "panel5": "[punch]\nSEETHING PERSON: \"Its name is cc-plugin-privacy.\"\nSMUG PERSON: \"That\u2019s less a plugin name than a legally required apology.\"",
+    "panel6": "[button]\n[Visual: The robot waiter brings a receipt stamped \u201ccc-plugin-privacy applied\u201d; its carbon copy reads \u201cEmail delivered 53 times.\u201d]"
+  },
+  "narrative_summary": "Claude Code\u2019s 53 email leaks become a restaurant receipt whose carbon copy exposes the absurdly named privacy patch.",
+  "rationale": "Candidate 3 uses the story\u2019s exact technical details while building toward a sharper, less obvious receipt/carbon-copy metaphor. \u201cA legally required apology\u201d is the strongest punchline, and the final receipt cleanly escalates the 53 leaks rather than merely restating them.",
+  "image_filename": "comic_2026-11-06.png",
+  "story_title": "Claude Code sends your email address to websites",
+  "story_url": "https://github.com/anthropics/claude-code/issues/107757",
+  "place": "at a robot-staffed restaurant where the kitchen is actively on fire",
+  "hat_pair": [
+    "foam fire extinguisher hat with a dangling pull pin",
+    "foam Saturn hat with a ring circling the brim"
+  ],
+  "no_news_mode": false
+}

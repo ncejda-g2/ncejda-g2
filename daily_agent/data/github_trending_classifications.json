@@ -43,12 +43,12 @@
     "1222917575": {
       "repository_id": 1222917575,
       "full_name": "Nutlope/hallmark",
-      "readme_sha": "00a841d63f4bcdc9cdea6f0ec42fc87150f171f5",
-      "classified_on": "2026-10-26",
+      "readme_sha": "2568bb6f51284bc3feeea6a3098d31f6743ec623",
+      "classified_on": "2026-11-06",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Design skill collection helping coding agents create distinctive interfaces and detect common AI-generated frontend patterns.",
-      "rationale": "The repository is explicitly an AI coding-agent skill providing design guidance, generation workflows, and automated checks."
+      "summary": "Design skill collection helps coding agents create distinctive interfaces and detect common AI-generated design patterns.",
+      "rationale": "The repository is an agent skill centered on improving AI-generated interface design through themes, workflows, and linting."
     },
     "896924279": {
       "repository_id": 896924279,
@@ -593,12 +593,12 @@
     "1097346685": {
       "repository_id": 1097346685,
       "full_name": "pbakaus/impeccable",
-      "readme_sha": "8f27aa965cb56ab578d637e53f0392ae4e2d06db",
-      "classified_on": "2026-10-29",
+      "readme_sha": "555fd9a67de957c750950e62bf1baad167f61b00",
+      "classified_on": "2026-11-06",
       "ai_related": true,
-      "project_type": "CLI",
-      "summary": "A design-focused coding-agent toolkit that reviews interfaces, detects visual quality issues, and guides frontend improvements.",
-      "rationale": "AI is central because the project provides vocabulary, commands, hooks, and reviews specifically for coding agents."
+      "project_type": "Collection",
+      "summary": "Agent skill collection provides design commands, reviews, audits, and deterministic checks for coding-agent-built interfaces.",
+      "rationale": "The repository directly organizes tools and skills for coding agents to design, review, and improve user interfaces."
     },
     "822285449": {
       "repository_id": 822285449,
@@ -1124,11 +1124,11 @@
       "repository_id": 24195339,
       "full_name": "angular/angular",
       "readme_sha": "c1528944d08b5be8e2997e46a842b35fd998a11f",
-      "classified_on": "2026-08-05",
+      "classified_on": "2026-11-06",
       "ai_related": false,
       "project_type": "Framework",
-      "summary": "TypeScript-based web application framework for building mobile and desktop apps.",
-      "rationale": "General-purpose web development framework with no AI-specific capabilities or organizing subject."
+      "summary": "Angular is a TypeScript-based platform for building scalable mobile and desktop web applications.",
+      "rationale": "The repository is a general web development framework with no stated AI-centered purpose."
     },
     "1260288940": {
       "repository_id": 1260288940,
@@ -1374,7 +1374,7 @@
       "repository_id": 1061953414,
       "full_name": "anthropics/skills",
       "readme_sha": "eb54ee8b92f2d40b4b26569be0772be3c1e23156",
-      "classified_on": "2026-10-31",
+      "classified_on": "2026-11-06",
       "ai_related": true,
       "project_type": "Collection",
       "summary": "Anthropic’s collection of Agent Skills for creative, technical, enterprise, document, and Claude workflow tasks.",
@@ -2334,11 +2334,11 @@
       "repository_id": 1273427276,
       "full_name": "cloudflare/security-audit-skill",
       "readme_sha": "c80305c88cd5087db37f76a0d230c1fc092c864c",
-      "classified_on": "2026-10-21",
+      "classified_on": "2026-11-06",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A coding-agent skill orchestrating multi-phase, independently verified security audits with structured machine-readable findings.",
-      "rationale": "Its primary product is an AI coding-agent skill that coordinates agents for security auditing and reporting."
+      "summary": "A coding-agent skill orchestrates multi-phase security audits, validation, structured findings, and machine-readable reporting workflows.",
+      "rationale": "This repository is explicitly an AI coding-agent skill, with workflows and hunting guidance designed for agent-assisted security auditing."
     },
     "1276665883": {
       "repository_id": 1276665883,
@@ -2664,11 +2664,11 @@
       "repository_id": 41881900,
       "full_name": "microsoft/vscode",
       "readme_sha": "b7770cecdd10433d6e7f072a3e2adf2f41bbedc2",
-      "classified_on": "2026-09-27",
+      "classified_on": "2026-11-06",
       "ai_related": false,
       "project_type": "Application",
-      "summary": "An open-source extensible code editor providing editing, navigation, debugging, and development tool integration across platforms.",
-      "rationale": "The repository is a general-purpose code editor; the supplied metadata does not establish AI as its primary product focus."
+      "summary": "Visual Studio Code is an extensible source-code editor supporting development, debugging, navigation, and tooling integration.",
+      "rationale": "The repository develops a general-purpose code editor; supplied metadata does not identify AI as its primary purpose."
     },
     "1206390571": {
       "repository_id": 1206390571,
@@ -2753,12 +2753,12 @@
     "1048065319": {
       "repository_id": 1048065319,
       "full_name": "thedotmack/claude-mem",
-      "readme_sha": "9a2cfbe945c6290edae9618548aca660e940e60f",
-      "classified_on": "2026-10-30",
+      "readme_sha": "983814ad82122fca34dd1e91a7e5077d8f4bc8de",
+      "classified_on": "2026-11-06",
       "ai_related": true,
-      "project_type": "CLI",
-      "summary": "A persistent memory system compresses AI coding-agent sessions and retrieves relevant context across future sessions.",
-      "rationale": "Its primary purpose is AI-agent memory, using compression, semantic summaries, embeddings, and integrations with multiple coding agents."
+      "project_type": "Application",
+      "summary": "Persistent AI memory system captures, compresses, and retrieves agent context across coding sessions and supported assistants.",
+      "rationale": "Its primary product is persistent semantic memory for AI coding agents, including context capture, compression, and retrieval."
     },
     "1322250666": {
       "repository_id": 1322250666,
@@ -3033,12 +3033,12 @@
     "1331261687": {
       "repository_id": 1331261687,
       "full_name": "milind-soni/OpenMausBot",
-      "readme_sha": "50140729a8a27690fad4c327d019b3858e25affc",
-      "classified_on": "2026-10-29",
+      "readme_sha": "1c6526756d174ea00f0f3f0977707fd519926002",
+      "classified_on": "2026-11-06",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "A local-first desktop chat application hosting multiple AI agents with individual models, computers, memories, and connected applications.",
-      "rationale": "The primary product is an AI-agent messaging application using Claude, Codex, Grok, and other agent engines."
+      "summary": "Desktop chat application lets users run multiple local AI agents with computers, memories, and connected applications.",
+      "rationale": "Its primary product is a local-first application for interacting with and supervising multiple AI agents."
     },
     "1332461149": {
       "repository_id": 1332461149,
@@ -3224,7 +3224,7 @@
       "repository_id": 18106269,
       "full_name": "lz4/lz4",
       "readme_sha": "25b4c8f07e53b125e836f7b515ec88f4706c559e",
-      "classified_on": "2026-11-05",
+      "classified_on": "2026-11-06",
       "ai_related": false,
       "project_type": "Library",
       "summary": "A fast lossless compression library and command-line utility supporting streaming, dictionaries, and high-throughput decompression.",
@@ -3239,6 +3239,116 @@
       "project_type": "CLI",
       "summary": "A Rust-based browser automation CLI that lets AI agents inspect webpages and interact with browser elements.",
       "rationale": "Its primary purpose is providing browser control and specialized skills directly for AI agents."
+    },
+    "340547520": {
+      "repository_id": 340547520,
+      "full_name": "zed-industries/zed",
+      "readme_sha": "9f641fb3841909e9e1f6dbfb947f953c0a0c5ebf",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "High-performance multiplayer code editor for developing software across macOS, Linux, and Windows.",
+      "rationale": "The supplied metadata describes a general-purpose code editor and does not identify AI as material to its primary product."
+    },
+    "8514": {
+      "repository_id": 8514,
+      "full_name": "rails/rails",
+      "readme_sha": "2db661bbb768df422fc31a548c987f3072f6b564",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Ruby on Rails framework for database-backed web applications using MVC architecture and integrated components.",
+      "rationale": "Rails is a general web application framework; the metadata provides no AI-focused functionality or organizing subject."
+    },
+    "6201092": {
+      "repository_id": 6201092,
+      "full_name": "mpv-player/mpv",
+      "readme_sha": "0d8caf101928aa0831583fd5742cb16d48d43315",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "Command-line media player supporting diverse audio, video, codec, subtitle, and multimedia formats.",
+      "rationale": "The repository is a conventional command-line media player, with no evidence that AI is central to its purpose."
+    },
+    "724712": {
+      "repository_id": 724712,
+      "full_name": "rust-lang/rust",
+      "readme_sha": "ed35016eb3a238614741e5922a06b9bf83f9780e",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "Repository",
+      "summary": "Main repository for the Rust programming language compiler, standard library, documentation, and development tooling.",
+      "rationale": "Rust is a programming language implementation and ecosystem repository, not an AI-focused project."
+    },
+    "10270250": {
+      "repository_id": 10270250,
+      "full_name": "react/react",
+      "readme_sha": "6dd74794143a0ebfb6c6f094d3f2632d87ad628a",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "JavaScript library for building declarative, component-based user interfaces across web and native applications.",
+      "rationale": "React is a general-purpose user interface library, and the supplied metadata does not indicate a material AI focus."
+    },
+    "458058": {
+      "repository_id": 458058,
+      "full_name": "symfony/symfony",
+      "readme_sha": "c83a087239e561e8161b6b824bd365559a16295f",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Symfony provides a PHP framework and reusable components for web and console application development.",
+      "rationale": "The project focuses on general-purpose PHP application development rather than AI functionality."
+    },
+    "6838921": {
+      "repository_id": 6838921,
+      "full_name": "prometheus/prometheus",
+      "readme_sha": "a3aca0783c2aa0ee679234c86e74fc934da08f9d",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "Prometheus is a monitoring system and time-series database collecting metrics, evaluating rules, and triggering alerts.",
+      "rationale": "Its primary product is infrastructure monitoring and alerting, not AI-related functionality."
+    },
+    "186024298": {
+      "repository_id": 186024298,
+      "full_name": "nushell/nushell",
+      "readme_sha": "0c9442b6050220c652a5a8a6c3e0d0d4a65f44b6",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "Nushell is a Rust-based structured-data shell offering pipelines, commands, plugins, and cross-platform terminal usage.",
+      "rationale": "The repository provides a general-purpose shell and structured command-line environment, with no material AI focus."
+    },
+    "11225014": {
+      "repository_id": 11225014,
+      "full_name": "etcd-io/etcd",
+      "readme_sha": "19b0b357f67647f5326d96e0da0a3ac4dd020ccf",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "etcd is a distributed, reliable key-value store using Raft consensus for critical system configuration and coordination.",
+      "rationale": "This is general distributed infrastructure for storage and coordination, not an AI-focused project."
+    },
+    "7634677": {
+      "repository_id": 7634677,
+      "full_name": "openssl/openssl",
+      "readme_sha": "0bf1bac461f8ba07feb28961bdc359deadc40251",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "Library",
+      "summary": "OpenSSL provides TLS, DTLS, QUIC, cryptographic libraries, and command-line tools for secure communications and encryption.",
+      "rationale": "The repository centers on general-purpose cryptography and network security rather than AI."
+    },
+    "523043277": {
+      "repository_id": 523043277,
+      "full_name": "astral-sh/ruff",
+      "readme_sha": "694b1321ae912e5ec1f9ac42d5f8f7b3197ae6b4",
+      "classified_on": "2026-11-06",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "Ruff is a fast Rust-based Python linter and formatter combining static analysis, fixes, and editor integrations.",
+      "rationale": "Although used by AI-related projects, its primary product is general-purpose Python linting and formatting, not AI."
     }
   }
 }
