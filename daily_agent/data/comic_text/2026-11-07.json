@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-07",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "panel1_caption": "Ask Claude Opus 5.5 to judge every identity",
+    "panel2_caption": "Ask Jev to judge every identity",
+    "panel3_caption": "Ask Jev to raise its hand near 50% confidence",
+    "panel4_caption": "Jev summons the $3.86 Opus, achieving 98.8% accuracy for 4\u00d7 less"
+  },
+  "narrative_summary": "The joke escalates from brute-force Opus to Jev\u2019s absurdly intelligent strategy: politely summon the expensive expert only when needed.",
+  "rationale": "Candidate 2 best combines the story\u2019s exact economics and accuracy with an escalating visual joke: Jev literally summons the expensive expert only when needed. The final panel is both a factual payoff and a cleaner punchline than the other candidates\u2019 mostly straightforward restatements.",
+  "image_filename": "comic_2026-11-07.png",
+  "story_title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+  "story_url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+  "place": "inside a chatbot's context window that's almost full",
+  "hat_pair": [
+    "foam toaster hat with two slices of toast permanently popping up",
+    "foam vintage TV set worn as a helmet with a tiny static-filled screen on the forehead"
+  ],
+  "no_news_mode": false
+}

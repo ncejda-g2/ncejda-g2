@@ -14,11 +14,11 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "readme_sha": "f7038f139299985eea6c3e18398dbafb379a0010",
-      "classified_on": "2026-10-31",
+      "classified_on": "2026-11-07",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of adaptable agent skills supporting engineering workflows, productivity, documentation, testing, and software development.",
-      "rationale": "The repository is explicitly organized around reusable skills for AI coding agents and model-assisted engineering."
+      "summary": "A collection of composable engineering and productivity skills designed for use with coding agents.",
+      "rationale": "The repository’s primary content consists of skills that guide Claude Code, Codex, Copilot, and other AI agents."
     },
     "1006414368": {
       "repository_id": 1006414368,
@@ -1373,12 +1373,12 @@
     "1061953414": {
       "repository_id": 1061953414,
       "full_name": "anthropics/skills",
-      "readme_sha": "eb54ee8b92f2d40b4b26569be0772be3c1e23156",
-      "classified_on": "2026-11-06",
+      "readme_sha": "4171c2c9eba15bf2bdefb496d941ba559368438b",
+      "classified_on": "2026-11-07",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Anthropic’s collection of Agent Skills for creative, technical, enterprise, document, and Claude workflow tasks.",
-      "rationale": "The repository is specifically dedicated to skills that extend Claude and other AI agents with specialized capabilities."
+      "summary": "Anthropic’s collection of reusable skills that extend Claude across creative, technical, and enterprise workflows.",
+      "rationale": "It is explicitly dedicated to Claude skills, including specifications, templates, examples, and production document capabilities."
     },
     "32689863": {
       "repository_id": 32689863,
@@ -3234,7 +3234,7 @@
       "repository_id": 1132001614,
       "full_name": "vercel-labs/agent-browser",
       "readme_sha": "53f71fd42a568994479edfa5063c58ca0b5dad8d",
-      "classified_on": "2026-11-05",
+      "classified_on": "2026-11-07",
       "ai_related": true,
       "project_type": "CLI",
       "summary": "A Rust-based browser automation CLI that lets AI agents inspect webpages and interact with browser elements.",
@@ -3304,7 +3304,7 @@
       "repository_id": 6838921,
       "full_name": "prometheus/prometheus",
       "readme_sha": "a3aca0783c2aa0ee679234c86e74fc934da08f9d",
-      "classified_on": "2026-11-06",
+      "classified_on": "2026-11-07",
       "ai_related": false,
       "project_type": "Application",
       "summary": "Prometheus is a monitoring system and time-series database collecting metrics, evaluating rules, and triggering alerts.",
@@ -3349,6 +3349,16 @@
       "project_type": "CLI",
       "summary": "Ruff is a fast Rust-based Python linter and formatter combining static analysis, fixes, and editor integrations.",
       "rationale": "Although used by AI-related projects, its primary product is general-purpose Python linting and formatting, not AI."
+    },
+    "1131202426": {
+      "repository_id": 1131202426,
+      "full_name": "meta/astryx",
+      "readme_sha": "29b89543395d69bd2a5385a9e768ec9bd9015f73",
+      "classified_on": "2026-11-07",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "An open source React design system providing customizable components, themes, templates, and supporting developer tooling.",
+      "rationale": "Its primary product is a general-purpose design system; AI assistants are a supported audience and workflow, not the core product."
     }
   }
 }

@@ -11,8 +11,8 @@
       "repository_id": 1148788086,
       "full_name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "total_stars": 307803,
-      "last_full_featured": "2026-10-31"
+      "total_stars": 317140,
+      "last_full_featured": "2026-11-07"
     },
     "896144595": {
       "repository_id": 896144595,
@@ -515,8 +515,8 @@
       "repository_id": 1061953414,
       "full_name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
-      "total_stars": 168292,
-      "last_full_featured": "2026-08-12"
+      "total_stars": 188343,
+      "last_full_featured": "2026-11-07"
     },
     "1124219907": {
       "repository_id": 1124219907,
@@ -1329,6 +1329,13 @@
       "url": "https://github.com/Usagi-org/ai-goofish-monitor",
       "total_stars": 17323,
       "last_full_featured": "2026-11-05"
+    },
+    "1132001614": {
+      "repository_id": 1132001614,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "total_stars": 46397,
+      "last_full_featured": "2026-11-07"
     }
   }
 }
