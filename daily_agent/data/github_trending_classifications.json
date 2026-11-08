@@ -3033,12 +3033,12 @@
     "1331261687": {
       "repository_id": 1331261687,
       "full_name": "milind-soni/OpenMausBot",
-      "readme_sha": "1c6526756d174ea00f0f3f0977707fd519926002",
-      "classified_on": "2026-11-06",
+      "readme_sha": "9524adb9892b6b525be23cd6b095e0c67b1ce2fd",
+      "classified_on": "2026-11-08",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "Desktop chat application lets users run multiple local AI agents with computers, memories, and connected applications.",
-      "rationale": "Its primary product is a local-first application for interacting with and supervising multiple AI agents."
+      "summary": "A local-first chat application providing teams of configurable AI agents with computers, models, memories, and connected applications.",
+      "rationale": "AI agents are the application's primary product, explicitly powered by Claude, Codex, and Grok command-line engines."
     },
     "1332461149": {
       "repository_id": 1332461149,
@@ -3354,11 +3354,41 @@
       "repository_id": 1131202426,
       "full_name": "meta/astryx",
       "readme_sha": "29b89543395d69bd2a5385a9e768ec9bd9015f73",
-      "classified_on": "2026-11-07",
+      "classified_on": "2026-11-08",
       "ai_related": false,
       "project_type": "Framework",
       "summary": "An open source React design system providing customizable components, themes, templates, and supporting developer tooling.",
       "rationale": "Its primary product is a general-purpose design system; AI assistants are a supported audience and workflow, not the core product."
+    },
+    "162998479": {
+      "repository_id": 162998479,
+      "full_name": "sherlock-project/sherlock",
+      "readme_sha": "ddad6e0214cfa14bfabab0d67bf52293f5d2990e",
+      "classified_on": "2026-11-08",
+      "ai_related": false,
+      "project_type": "CLI",
+      "summary": "A command-line tool that searches for usernames across hundreds of social networks and records discovered accounts.",
+      "rationale": "Its primary purpose is OSINT username reconnaissance, with no material AI focus in the supplied metadata."
+    },
+    "1323115536": {
+      "repository_id": 1323115536,
+      "full_name": "dsx-ai-factory/nvke",
+      "readme_sha": "bf2b943794d352ab8ac6a6c23a637e12215aed44",
+      "classified_on": "2026-11-08",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "A management plane for creating and operating Kubernetes clusters on user-managed NVIDIA GPU infrastructure.",
+      "rationale": "The repository centers on NVIDIA GPU cluster infrastructure, making it materially relevant to AI workload deployment despite being general platform software."
+    },
+    "849553306": {
+      "repository_id": 849553306,
+      "full_name": "anthropics/claude-quickstarts",
+      "readme_sha": "2697536d46ea6ef6bd1cdd9bdedb463d358c7139",
+      "classified_on": "2026-11-08",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "A collection of starter projects demonstrating deployable applications and agents built with the Claude API.",
+      "rationale": "The collection is explicitly organized around Claude API development, including agents, computer use, browser automation, and managed-agent examples."
     }
   }
 }

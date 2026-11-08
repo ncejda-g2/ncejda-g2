@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-11-08",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "panel1_dialog": "Claude Code\u2019s \u201cDon\u2019t Ask Again\u201d makes approvals effortless!",
+    "panel2_dialog": "...it didn\u2019t expose passwords publicly, right?",
+    "panel4_dialog": "1,122 public GitHub files... right?"
+  },
+  "narrative_summary": "A cheerful Claude Code convenience claim collapses into 1,122 public GitHub files exposing passwords.",
+  "rationale": "Candidate 4 best uses its template\u2019s built-in escalation: effortless approvals gradually become a specific, alarming consequence. It names the feature and exact figure while giving the story an actual progression instead of merely restating the headline.",
+  "image_filename": "comic_2026-11-08.png",
+  "story_title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+  "story_url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+  "place": "at a 24-hour laundromat",
+  "hat_pair": [
+    "foam calculator hat with large rubber number buttons on top",
+    "foam hot dog bun hat with a tiny ketchup bottle glued to the side"
+  ],
+  "no_news_mode": false
+}

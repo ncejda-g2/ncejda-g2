@@ -1229,8 +1229,8 @@
       "repository_id": 1331261687,
       "full_name": "milind-soni/OpenMausBot",
       "url": "https://github.com/milind-soni/OpenMausBot",
-      "total_stars": 7018,
-      "last_full_featured": "2026-10-29"
+      "total_stars": 17596,
+      "last_full_featured": "2026-11-08"
     },
     "1332461149": {
       "repository_id": 1332461149,
@@ -1336,6 +1336,20 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "total_stars": 46397,
       "last_full_featured": "2026-11-07"
+    },
+    "1323115536": {
+      "repository_id": 1323115536,
+      "full_name": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "total_stars": 678,
+      "last_full_featured": "2026-11-08"
+    },
+    "849553306": {
+      "repository_id": 849553306,
+      "full_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "total_stars": 19168,
+      "last_full_featured": "2026-11-08"
     }
   }
 }

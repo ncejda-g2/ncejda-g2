@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 319 (2026-11-07)
+# 📰 The AI Newspaper — Day 320 (2026-11-08)
 
 *AI curated AI news for humans*
 
@@ -6,27 +6,22 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost](https://hightouch.com/blog/llm-judges-identity-resolution) | Dev Tooling | A cheap judge asks Opus for help only when needed. | 498 | [117](https://news.ycombinator.com/item?id=50397429) |
-| 2 | [AI is dramatically accelerating AI research](https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai) | Research Paper | AI-assisted research is accelerating AI research itself. | 318 | [273](https://news.ycombinator.com/item?id=50397994) |
-| 3 | [Anthropic IPO buyers see valuation as low as $1.1T](https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout) | Palace Intrigue | Anthropic IPO buyers reportedly cut valuation expectations below $1.1 trillion. | 283 | [567](https://news.ycombinator.com/item?id=50394906) |
-| 4 | [I toured Unitree's factory. I'm more bullish on the West](https://josef.cn/blog/unitree) | AI Hardware | Unitree factory tour challenges assumptions about Western robotics competitiveness. | 132 | [90](https://news.ycombinator.com/item?id=50400597) |
-| 5 | [University libraries are being swarmed by AI bots, putting public access at risk](https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287) | Infrastructure | AI scraping bots overwhelm university libraries and threaten public access. | 129 | [59](https://news.ycombinator.com/item?id=50392499) |
-| 6 | [Memorilla: Latent Semantic Memory for LLMs](https://arxiv.org/abs/2610.21375) | Research Paper | Memorilla adds latent semantic memory for language models. | 106 | [13](https://news.ycombinator.com/item?id=50395919) |
-| 7 | [Microsoft is winding down Oracle deal to rent AI cloud capacity](https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/) | Infrastructure | Microsoft reportedly winds down Oracle deal for AI cloud capacity. | 99 | [18](https://news.ycombinator.com/item?id=50395933) |
-| 8 | [ChatGPT silently passes data between connectors and the bounty wants an ID card](https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053) | Dev Tooling | ChatGPT connectors can silently route data to unintended services. | 89 | [36](https://news.ycombinator.com/item?id=50399569) |
-| 9 | [Replit rebuilt its sandbox engine with microVMs](https://frontier.replit.com/sandbox-engine-microvms-part-1/) | Infrastructure | Replit rebuilds its sandbox engine around microvirtual machines. | 89 | [31](https://news.ycombinator.com/item?id=50396834) |
-| 10 | [Outbound SIP calling is now available to all organizations](https://developers.openai.com/api/docs/guides/voice-sip) | Dev Tooling | OpenAI makes outbound SIP calling available to every organization. | 64 | [54](https://news.ycombinator.com/item?id=50399695) |
+| 1 | [The end of Microsoft Research's AI Frontiers group](https://hunch.net/?p=13764006) | Palace Intrigue | Microsoft Research reportedly ends its AI Frontiers group. | 465 | [278](https://news.ycombinator.com/item?id=50406563) |
+| 2 | [Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files](https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again) | Dev Tooling | Claude Code's setting exposed passwords across 1,122 public GitHub files. | 425 | [287](https://news.ycombinator.com/item?id=50407882) |
+| 3 | [Goodbye Claude, Hello Pi](https://caleb.software/posts/claude-to-pi.html) | Palace Intrigue | Developer explains switching from Claude to Pi for daily work. | 360 | [219](https://news.ycombinator.com/item?id=50410107) |
+| 4 | [MaxxBench – "Nice DeepSWE score. But is it true?"](https://maxxbench.unlap.ai/research/why-maxxbench/) | Research Paper | Benchmark audit questions whether DeepSWE's impressive score reflects real performance. | 330 | [85](https://news.ycombinator.com/item?id=50406222) |
+| 5 | [Consumer brain wave headsets threaten privacy](https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F) | Research Paper | Brainwave headset companies reportedly harvest neural data for AI training. | 67 | [30](https://news.ycombinator.com/item?id=50409856) |
+| 6 | [Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8](https://github.com/Video-Rebirth/hyperflow-h3-flash) | Open Source Tool | Hyperflow compresses a 31B video-audio diffusion model to 14B. | 67 | [14](https://news.ycombinator.com/item?id=50405263) |
+| 7 | [Agent memory needs its OpenTelemetry moment](https://www.lorekit.io/blog/open-agent-memory-format) | Open Source Tool | Proposed agent-memory standard brings observability conventions to persistent memory. | 59 | [52](https://news.ycombinator.com/item?id=50411467) |
+| 8 | [Show HN: Maple – Sub-2-BPW Moe Pruning to Run Gemma 4 26B at 45 TPS on a 6GB GPU](https://github.com/AmSach/maple) | Open Source Tool | Maple runs Gemma 4 26B at 45 TPS on 6GB. | 11 | [5](https://news.ycombinator.com/item?id=50410253) |
+| 9 | [Show HN: LLM weight editing tool made by a 15-year-old](https://github.com/Miyamoto-Renya/LaplacesScissors) | Open Source Tool | Teenager's tool edits LLM weights using Laplace-based methods. | 11 | [0](https://news.ycombinator.com/item?id=50409986) |
+| 10 | [Google Described Its Agent Sandbox. I Built One with Firecracker and Measured It](https://antonau.tech/posts/2026/11/agents-microvm-firecracker/) | Infrastructure | Firecracker-based agent sandbox measures isolation and execution overhead. | 10 | [4](https://news.ycombinator.com/item?id=50405649) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-| # | Post | Lab | Category | Date |
-|---|------|-----|----------|------|
-| 1 | [Partnering with Hacktron to find vulnerabilities in OpenAI’s systems](https://openai.com/index/partnering-with-hacktron) | OpenAI | News | Nov 6 |
-| 2 | [Measuring how AI agents handle everyday wet-lab science](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science) | OpenAI | Research | Nov 6 |
-| 3 | [The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory) | Anthropic | Research | Unknown |
-| 4 | [Teaching AI to build scientific models](https://www.anthropic.com/research/teaching-ai-to-build-scientific-models) | Anthropic | Research | Unknown |
+*No new lab posts this week.*
 
 ---
 
@@ -36,27 +31,27 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 62,824 | +2,548 today | #2 | 2 days |
-| [skills](https://github.com/google/skills) | 22,122 | +449 today | #3 | 3 days |
+| [agent-browser](https://github.com/vercel-labs/agent-browser) | 46,397 | +812 today | #5 | 2 days |
+| [skills](https://github.com/anthropics/skills) | 188,343 | +793 today | #7 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [agent-browser](https://github.com/vercel-labs/agent-browser) | A Rust-based browser automation CLI that lets AI agents inspect webpages and interact with browser elements. | 46,397 | +180 today | Daily #1 | [HN commenters compared it unfavorably with Lightpanda and questioned Chrome dependency.](https://news.ycombinator.com/item?id=47857964) |
-| [skills](https://github.com/mattpocock/skills) | A collection of composable engineering and productivity skills designed for use with coding agents. | 317,140 | +1,111 today | Daily #4 | N/A |
-| [skills](https://github.com/anthropics/skills) | Anthropic’s collection of reusable skills that extend Claude across creative, technical, and enterprise workflows. | 188,343 | +386 today | Daily #5 | N/A |
+| [nvke](https://github.com/dsx-ai-factory/nvke) | A management plane for creating and operating Kubernetes clusters on user-managed NVIDIA GPU infrastructure. | 678 | +345 today | Daily #2 | [HN commenters found the description unclear and questioned NVKE's necessity.](https://news.ycombinator.com/item?id=50387738) |
+| [OpenMausBot](https://github.com/milind-soni/OpenMausBot) | A local-first chat application providing teams of configurable AI agents with computers, models, memories, and connected applications. | 17,596 | +1,437 today | Daily #3 | N/A |
+| [claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | A collection of starter projects demonstrating deployable applications and agents built with the Claude API. | 19,168 | +28 today | Daily #4 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-11-07.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-11-08.png" width="400" alt="Today's comic strip">
 
-_Based on: [A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost](https://hightouch.com/blog/llm-judges-identity-resolution)_
+_Based on: [Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files](https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 319 | Last updated: 2026-11-07*
+*Day 320 | Last updated: 2026-11-08*
