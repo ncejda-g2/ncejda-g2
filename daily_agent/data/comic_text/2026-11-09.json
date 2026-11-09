@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-09",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "blustering",
+    "adjective_second": "slumped",
+    "narrative_intro": "*A blustering person and a slumped person discuss Goldman's Claude Code rollback on a malfunctioning space station.*",
+    "panel1": "[setup]\nBLUSTERING PERSON: \"After six months, Anthropic engineers lived here, installing Claude Code.\"\nSLUMPED PERSON: \"Goldman says everyone can vibe-code now.\"",
+    "panel2": "[build]\nBLUSTERING PERSON: \"Goldman's CIO praised nontechnical employees' 'vibe coding' in July.\"\nSLUMPED PERSON: \"I just coded a trading strategy with interpretive dance.\"",
+    "panel3": "[pivot]\nSLUMPED PERSON: \"Update: Claude Code is restricted to 12,000 engineers.\"\nBLUSTERING PERSON: \"Among 47,000 staff, that's called 'determining the best use cases.'\"",
+    "panel4": "[silent reaction]\n[Visual: A blast door seals 35,000 bankers and traders outside; 12,000 engineers float inside with Claude Code.]",
+    "panel5": "[punch]\nSLUMPED PERSON: \"So the best use case is fewer users before ANT's November IPO?\"\nBLUSTERING PERSON: \"We call that a 74-percent vibe correction.\"",
+    "panel6": "[button]\n[Visual: A tiny Claude Code shuttle departs toward a glowing ANT IPO ticker while 35,000 crew wave from the airlock.]"
+  },
+  "narrative_summary": "Goldman's six-month Claude Code rollout blasts from July's vibe-coding hype to a 12,000-engineer airlock before Anthropic's ANT IPO.",
+  "rationale": "Candidate 3 turns the exact 35,000-of-47,000 exclusion into the sharper, less predictable phrase \u201c74-percent vibe correction,\u201d while the airlock escalation gives the six-panel structure a clear visual and narrative payoff. The other candidates lean more heavily on the familiar corporate \u201cbest use cases\u201d joke.",
+  "image_filename": "comic_2026-11-09.png",
+  "story_title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+  "story_url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+  "place": "on a malfunctioning space station",
+  "hat_pair": [
+    "foam fishbowl helmet with a single plastic goldfish inside",
+    "firefighter helmet with a tiny rubber chicken mounted on top"
+  ],
+  "no_news_mode": false
+}

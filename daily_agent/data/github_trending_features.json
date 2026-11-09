@@ -172,8 +172,8 @@
       "repository_id": 997737944,
       "full_name": "ruvnet/RuView",
       "url": "https://github.com/ruvnet/RuView",
-      "total_stars": 89448,
-      "last_full_featured": "2026-08-11"
+      "total_stars": 103188,
+      "last_full_featured": "2026-11-09"
     },
     "1238120057": {
       "repository_id": 1238120057,
@@ -1350,6 +1350,20 @@
       "url": "https://github.com/anthropics/claude-quickstarts",
       "total_stars": 19168,
       "last_full_featured": "2026-11-08"
+    },
+    "400501136": {
+      "repository_id": 400501136,
+      "full_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "total_stars": 16752,
+      "last_full_featured": "2026-11-09"
+    },
+    "1202057891": {
+      "repository_id": 1202057891,
+      "full_name": "garrytan/gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "total_stars": 31910,
+      "last_full_featured": "2026-11-09"
     }
   }
 }
