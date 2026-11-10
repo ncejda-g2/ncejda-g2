@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-10",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "i_receive": "unredacted Gmail and Drive: account numbers, addresses, confirmation codes",
+    "you_receive": "a buried October 16 edit to help article 16836988"
+  },
+  "narrative_summary": "Google gets sensitive Workspace contents for human annotation while users get a buried Help Article revision.",
+  "rationale": "Candidate 3 wins by making the exchange unusually concrete with the exact article number, date, and exposed data types, then landing on the sharpest payoff: users get a buried revision rather than meaningful protection. The others either lean on the obvious privacy-trade framing or depend more heavily on visual context.",
+  "image_filename": "comic_2026-11-10.png",
+  "story_title": "Google Gemini routes personal Drive files and emails to human annotators",
+  "story_url": "https://github.com/thisisme6598/gemini_files/",
+  "place": "at a self-checkout that keeps asking for assistance",
+  "hat_pair": [
+    "foam exclamation mark worn as a tall narrow hat with a round dot brim",
+    "giant foam brain worn as a hat"
+  ],
+  "no_news_mode": false
+}

@@ -1153,12 +1153,12 @@
     "1158722119": {
       "repository_id": 1158722119,
       "full_name": "addyosmani/agent-skills",
-      "readme_sha": "c6039f4d64f900f75303ecfa8d67a527eebad851",
-      "classified_on": "2026-10-07",
+      "readme_sha": "7f610b8ca80ff9bc7ba7f95f3209430c3481891d",
+      "classified_on": "2026-11-10",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A collection of production engineering skills, workflows, and commands for AI-assisted software development.",
-      "rationale": "The repository is explicitly organized around reusable skills that guide AI coding agents through development lifecycle tasks."
+      "summary": "A collection of production-oriented engineering skills and workflows designed for AI coding agents across development tools.",
+      "rationale": "Explicitly packages skills, commands, and workflows for AI coding agents and multiple agent platforms."
     },
     "230885748": {
       "repository_id": 230885748,
@@ -3103,22 +3103,22 @@
     "1155965274": {
       "repository_id": 1155965274,
       "full_name": "Donchitos/Claude-Code-Game-Studios",
-      "readme_sha": "d73112eae0042d010d867ea850142e66ffc37f71",
-      "classified_on": "2026-11-02",
+      "readme_sha": "1842501050d579e421bef697ccd37487b37279be",
+      "classified_on": "2026-11-10",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "A Claude Code configuration collection providing specialized AI agents, skills, hooks, rules, and workflows for game development.",
-      "rationale": "The repository is explicitly organized around coordinating AI agents and skills for game-development workflows."
+      "summary": "Claude Code template containing agents, skills, workflows, and coordination systems for building and testing games collaboratively.",
+      "rationale": "The repository is organized around Claude Code automation, AI agents, and skills for game development workflows."
     },
     "1161958643": {
       "repository_id": 1161958643,
       "full_name": "vercel-labs/agent-desktop",
-      "readme_sha": "3c41e4fc2bf8c685aeb216a0f9eba186e9e50dd2",
-      "classified_on": "2026-11-02",
+      "readme_sha": "32dee9630df91348cb7202f5e4329b30b5237e3c",
+      "classified_on": "2026-11-10",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "A cross-platform CLI enabling AI agents to inspect and control desktop applications through accessibility trees.",
-      "rationale": "Its primary purpose is reliable computer use for AI agents, with structured observation and safe interaction workflows."
+      "summary": "CLI and C library enabling AI agents to inspect and operate desktop applications through operating-system accessibility APIs.",
+      "rationale": "The repository is explicitly designed for computer-use AI agents and exposes desktop operations through CLI, library, and MCP interfaces."
     },
     "872119017": {
       "repository_id": 872119017,
@@ -3153,12 +3153,12 @@
     "1078528927": {
       "repository_id": 1078528927,
       "full_name": "max-sixty/worktrunk",
-      "readme_sha": "7dc9e151754e4d5acf1add7d5aa99e69e481b56b",
-      "classified_on": "2026-11-03",
+      "readme_sha": "cb34774014556b4eedaf43ca5f572cb4bcb5e1f9",
+      "classified_on": "2026-11-10",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "Rust CLI simplifying Git worktree management for running multiple AI coding agents and parallel development workflows.",
-      "rationale": "AI-agent parallel execution is a stated design goal, with integrations including Claude, Codex, generated commits, and summaries."
+      "summary": "Git worktree management CLI supporting parallel AI-agent development, workflow automation, generated commits, and branch-oriented project coordination.",
+      "rationale": "Although fundamentally a Git utility, its primary stated design targets running multiple AI agents in parallel and includes LLM-specific features."
     },
     "1310374568": {
       "repository_id": 1310374568,
@@ -3354,7 +3354,7 @@
       "repository_id": 1131202426,
       "full_name": "meta/astryx",
       "readme_sha": "29b89543395d69bd2a5385a9e768ec9bd9015f73",
-      "classified_on": "2026-11-09",
+      "classified_on": "2026-11-10",
       "ai_related": false,
       "project_type": "Framework",
       "summary": "An open source React design system providing customizable components, themes, templates, and supporting developer tooling.",
@@ -3364,7 +3364,7 @@
       "repository_id": 162998479,
       "full_name": "sherlock-project/sherlock",
       "readme_sha": "ddad6e0214cfa14bfabab0d67bf52293f5d2990e",
-      "classified_on": "2026-11-09",
+      "classified_on": "2026-11-10",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "A command-line tool that searches for usernames across hundreds of social networks and records discovered accounts.",
@@ -3409,6 +3409,46 @@
       "project_type": "Application",
       "summary": "Self-hosted memory system providing agents with sourced facts, retrieval, synthesis, knowledge graphs, and shared access.",
       "rationale": "Its primary product is persistent memory and knowledge retrieval for AI agents, including semantic search and synthesis."
+    },
+    "1024661423": {
+      "repository_id": 1024661423,
+      "full_name": "we-promise/sure",
+      "readme_sha": "35f5c2e0681b8ef1c55545a5846535e8198ce4c8",
+      "classified_on": "2026-11-10",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "An open-source, self-hostable personal finance application for tracking cash flow, wealth, spending, and net worth.",
+      "rationale": "Its primary product is personal finance management; AI assistance and integrations are optional features rather than the central purpose."
+    },
+    "1056618941": {
+      "repository_id": 1056618941,
+      "full_name": "homeassistant-ai/ha-mcp",
+      "readme_sha": "42ab0533b36614b91cc67d5d3691e3782c429125",
+      "classified_on": "2026-11-10",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "An MCP server and Home Assistant integration enabling AI assistants to configure and automate smart homes.",
+      "rationale": "AI assistants and Model Context Protocol connectivity are the repository’s primary product and organizing purpose."
+    },
+    "1200534650": {
+      "repository_id": 1200534650,
+      "full_name": "tokio-rs/topcoat",
+      "readme_sha": "eb4901b56dbd53fc10428231f7fedf93f172a5ae",
+      "classified_on": "2026-11-10",
+      "ai_related": false,
+      "project_type": "Framework",
+      "summary": "Rust full-stack framework providing server rendering, reactive components, routing, assets, styling, and application development utilities.",
+      "rationale": "A general-purpose web framework with no material AI focus in the supplied metadata."
+    },
+    "1324949198": {
+      "repository_id": 1324949198,
+      "full_name": "ranxianglei/billion-context",
+      "readme_sha": "2d4366ff5d31d1a862e58897bde65285ceae4356",
+      "classified_on": "2026-11-10",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Context-compression plugin helping AI coding agents sustain long sessions within smaller context windows and lower token costs.",
+      "rationale": "Its primary product compresses model conversations for AI agents, with documented benchmarks and integrations across coding-agent tools."
     }
   }
 }

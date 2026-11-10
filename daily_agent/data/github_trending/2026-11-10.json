@@ -1,0 +1,409 @@
+{
+  "date": "2026-11-10",
+  "daily": [
+    {
+      "repository_id": 1131202426,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "rank": 1,
+      "language": "TypeScript",
+      "period_stars": 3111,
+      "total_stars": 21612,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1061953414,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "rank": 2,
+      "language": "Python",
+      "period_stars": 1676,
+      "total_stars": 188343,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1158722119,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "rank": 3,
+      "language": "JavaScript",
+      "period_stars": 465,
+      "total_stars": 114818,
+      "ai_related": true
+    },
+    {
+      "repository_id": 849553306,
+      "full_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "rank": 4,
+      "language": "Python",
+      "period_stars": 530,
+      "total_stars": 19168,
+      "ai_related": null
+    },
+    {
+      "repository_id": 400501136,
+      "full_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "rank": 5,
+      "language": "C++",
+      "period_stars": 453,
+      "total_stars": 16752,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1024661423,
+      "full_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "rank": 6,
+      "language": "Ruby",
+      "period_stars": 184,
+      "total_stars": 11468,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1056618941,
+      "full_name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "rank": 7,
+      "language": "Python",
+      "period_stars": 792,
+      "total_stars": 6359,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1132001614,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "rank": 8,
+      "language": "Rust",
+      "period_stars": 775,
+      "total_stars": 46397,
+      "ai_related": null
+    },
+    {
+      "repository_id": 162998479,
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "rank": 9,
+      "language": "Python",
+      "period_stars": 2387,
+      "total_stars": 108311,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1200534650,
+      "full_name": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "rank": 10,
+      "language": "Rust",
+      "period_stars": 192,
+      "total_stars": 6607,
+      "ai_related": false
+    },
+    {
+      "repository_id": 1324949198,
+      "full_name": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "rank": 11,
+      "language": "TypeScript",
+      "period_stars": 374,
+      "total_stars": 6005,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "rank": 12,
+      "language": "Shell",
+      "period_stars": 1223,
+      "total_stars": 317140,
+      "ai_related": null
+    }
+  ],
+  "weekly": [
+    {
+      "repository_id": 1222953295,
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "rank": 1,
+      "language": "Python",
+      "period_stars": 10159,
+      "total_stars": 3747,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1161958643,
+      "full_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "rank": 2,
+      "language": "Rust",
+      "period_stars": 12120,
+      "total_stars": 21071,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1061953414,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "rank": 3,
+      "language": "Python",
+      "period_stars": 3796,
+      "total_stars": 188343,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1331261687,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "rank": 4,
+      "language": "TypeScript",
+      "period_stars": 8325,
+      "total_stars": 17596,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1078528927,
+      "full_name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "rank": 5,
+      "language": "Rust",
+      "period_stars": 2395,
+      "total_stars": 12345,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1132001614,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "rank": 6,
+      "language": "Rust",
+      "period_stars": 2994,
+      "total_stars": 46397,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1155965274,
+      "full_name": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "rank": 7,
+      "language": "Shell",
+      "period_stars": 4324,
+      "total_stars": 37878,
+      "ai_related": true
+    },
+    {
+      "repository_id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "rank": 8,
+      "language": "Shell",
+      "period_stars": 9800,
+      "total_stars": 317140,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1273427276,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "rank": 9,
+      "language": "JavaScript",
+      "period_stars": 10695,
+      "total_stars": 62824,
+      "ai_related": null
+    },
+    {
+      "repository_id": 662766482,
+      "full_name": "The-PR-Agent/pr-agent",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "rank": 10,
+      "language": "Python",
+      "period_stars": 1822,
+      "total_stars": 14516,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1048065319,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "rank": 11,
+      "language": "TypeScript",
+      "period_stars": 5130,
+      "total_stars": 113785,
+      "ai_related": null
+    },
+    {
+      "repository_id": 872119017,
+      "full_name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "rank": 12,
+      "language": "Python",
+      "period_stars": 8226,
+      "total_stars": 92233,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "anomalyco/hex",
+      "url": "https://github.com/anomalyco/hex",
+      "rank": 13,
+      "language": "Rust",
+      "period_stars": 2031,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1153130349,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "rank": 14,
+      "language": "TypeScript",
+      "period_stars": 13448,
+      "total_stars": 33342,
+      "ai_related": null
+    }
+  ],
+  "monthly": [
+    {
+      "repository_id": 1209966933,
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "rank": 1,
+      "language": "TypeScript",
+      "period_stars": 413718,
+      "total_stars": 187714,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1222917575,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "rank": 2,
+      "language": "CSS",
+      "period_stars": 21862,
+      "total_stars": 49227,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1273427276,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "rank": 3,
+      "language": "JavaScript",
+      "period_stars": 40994,
+      "total_stars": 62824,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1153130349,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "rank": 4,
+      "language": "TypeScript",
+      "period_stars": 26993,
+      "total_stars": 33342,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1048065319,
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "rank": 5,
+      "language": "TypeScript",
+      "period_stars": 17008,
+      "total_stars": 113785,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1177402105,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "rank": 6,
+      "language": "TypeScript",
+      "period_stars": 22344,
+      "total_stars": 60068,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1124219907,
+      "full_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "rank": 7,
+      "language": "Python",
+      "period_stars": 16710,
+      "total_stars": 47080,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1206390571,
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "rank": 8,
+      "language": "Python",
+      "period_stars": 50585,
+      "total_stars": 87812,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1097346685,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "rank": 9,
+      "language": "Rust",
+      "period_stars": 28285,
+      "total_stars": 94094,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1100776768,
+      "full_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "rank": 10,
+      "language": "Python",
+      "period_stars": 9215,
+      "total_stars": 39655,
+      "ai_related": null
+    },
+    {
+      "repository_id": 173228436,
+      "full_name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "rank": 11,
+      "language": "Java",
+      "period_stars": 17387,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": null,
+      "full_name": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "rank": 12,
+      "language": "TypeScript",
+      "period_stars": 5243,
+      "total_stars": null,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1140828898,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "rank": 13,
+      "language": "Python",
+      "period_stars": 7322,
+      "total_stars": 27261,
+      "ai_related": null
+    },
+    {
+      "repository_id": 1217040185,
+      "full_name": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "rank": 14,
+      "language": "TypeScript",
+      "period_stars": 17544,
+      "total_stars": null,
+      "ai_related": null
+    }
+  ]
+}

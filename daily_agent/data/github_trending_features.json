@@ -431,8 +431,8 @@
       "repository_id": 1158722119,
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
-      "total_stars": 102338,
-      "last_full_featured": "2026-10-07"
+      "total_stars": 114818,
+      "last_full_featured": "2026-11-10"
     },
     "614765452": {
       "repository_id": 614765452,
@@ -1364,6 +1364,20 @@
       "url": "https://github.com/garrytan/gbrain",
       "total_stars": 31910,
       "last_full_featured": "2026-11-09"
+    },
+    "1056618941": {
+      "repository_id": 1056618941,
+      "full_name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "total_stars": 6359,
+      "last_full_featured": "2026-11-10"
+    },
+    "1324949198": {
+      "repository_id": 1324949198,
+      "full_name": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "total_stars": 6005,
+      "last_full_featured": "2026-11-10"
     }
   }
 }
