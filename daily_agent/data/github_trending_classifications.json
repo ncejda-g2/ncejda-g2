@@ -1333,12 +1333,12 @@
     "1131513930": {
       "repository_id": 1131513930,
       "full_name": "ZhuLinsen/daily_stock_analysis",
-      "readme_sha": "6e2102323e03e8961dde0ff5739406b12580cd27",
-      "classified_on": "2026-08-12",
+      "readme_sha": "cb130e7bd387db4fbd26949ee9f995b95c347134",
+      "classified_on": "2026-11-11",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "LLM-powered multi-market stock analysis system with real-time data, news aggregation, and AI decision dashboards.",
-      "rationale": "AI is material to primary product; system explicitly LLM-driven for intelligent stock analysis across global markets."
+      "summary": "AI-powered stock analysis system aggregating market data, news, dashboards, reports, and automated notifications across global markets.",
+      "rationale": "AI and LLMs are central to its stock-analysis product, generating reports, decisions, and conversational strategy analysis."
     },
     "1170821064": {
       "repository_id": 1170821064,
@@ -3354,7 +3354,7 @@
       "repository_id": 1131202426,
       "full_name": "meta/astryx",
       "readme_sha": "29b89543395d69bd2a5385a9e768ec9bd9015f73",
-      "classified_on": "2026-11-10",
+      "classified_on": "2026-11-11",
       "ai_related": false,
       "project_type": "Framework",
       "summary": "An open source React design system providing customizable components, themes, templates, and supporting developer tooling.",
@@ -3414,7 +3414,7 @@
       "repository_id": 1024661423,
       "full_name": "we-promise/sure",
       "readme_sha": "35f5c2e0681b8ef1c55545a5846535e8198ce4c8",
-      "classified_on": "2026-11-10",
+      "classified_on": "2026-11-11",
       "ai_related": false,
       "project_type": "Application",
       "summary": "An open-source, self-hostable personal finance application for tracking cash flow, wealth, spending, and net worth.",
@@ -3449,6 +3449,26 @@
       "project_type": "CLI",
       "summary": "Context-compression plugin helping AI coding agents sustain long sessions within smaller context windows and lower token costs.",
       "rationale": "Its primary product compresses model conversations for AI agents, with documented benchmarks and integrations across coding-agent tools."
+    },
+    "1143633223": {
+      "repository_id": 1143633223,
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "readme_sha": "d130c0043c81edb4dc74c8bb279c625a591fc6ac",
+      "classified_on": "2026-11-11",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Source repository for curated modern web guidance that improves coding agents’ platform knowledge, recommendations, and generated implementations.",
+      "rationale": "The repository specifically provides agent skills, CLI retrieval, evaluation, and guidance designed to steer coding agents."
+    },
+    "1264986626": {
+      "repository_id": 1264986626,
+      "full_name": "shadcn/improve",
+      "readme_sha": "17e41e80976356c4bacfa5b9f2e873b67d1fe554",
+      "classified_on": "2026-11-11",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Agent skill auditing codebases and producing implementation plans for other AI agents or developers to execute.",
+      "rationale": "Its primary product is an agent skill that uses capable models for codebase audits, planning, review, and execution dispatch."
     }
   }
 }

@@ -508,8 +508,8 @@
       "repository_id": 1131513930,
       "full_name": "ZhuLinsen/daily_stock_analysis",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "total_stars": 62318,
-      "last_full_featured": "2026-08-12"
+      "total_stars": 69765,
+      "last_full_featured": "2026-11-11"
     },
     "1061953414": {
       "repository_id": 1061953414,
@@ -1378,6 +1378,20 @@
       "url": "https://github.com/ranxianglei/billion-context",
       "total_stars": 6005,
       "last_full_featured": "2026-11-10"
+    },
+    "1143633223": {
+      "repository_id": 1143633223,
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "total_stars": 1431,
+      "last_full_featured": "2026-11-11"
+    },
+    "1264986626": {
+      "repository_id": 1264986626,
+      "full_name": "shadcn/improve",
+      "url": "https://github.com/shadcn/improve",
+      "total_stars": 10431,
+      "last_full_featured": "2026-11-11"
     }
   }
 }

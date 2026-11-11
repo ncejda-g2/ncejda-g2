@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-11",
+  "template_id": "drake",
+  "template_filter": "meme",
+  "voice_label": "escalation",
+  "fields": {
+    "caption_top": "opus 5.5 improves the record to 1,918 cycles",
+    "caption_bottom": "human improves opus\u2019s improvement to 1,744 cycles"
+  },
+  "narrative_summary": "Opus 5.5 breaks the community record, only for a human to improve its improvement by 174 cycles.",
+  "rationale": "Candidate 4 uses Drake\u2019s contrast structure exactly: the AI\u2019s achievement is immediately undercut by a human surpassing it, with the 174-cycle improvement providing a concrete escalation. It is cleaner and punchier than the longer explanatory captions while staying fully tied to the story.",
+  "image_filename": "comic_2026-11-11.png",
+  "story_title": "LLMs Play Zachtronics' TIS-100",
+  "story_url": "https://tis-100.wincon.dev/",
+  "place": "at a self-checkout that keeps asking for assistance",
+  "hat_pair": [
+    "foam clock face worn as a flat hat with hands permanently stuck at 11:59",
+    "foam giant horseshoe magnet worn as a U-shaped hat with tiny paper clips dangling from both ends"
+  ],
+  "no_news_mode": false
+}
