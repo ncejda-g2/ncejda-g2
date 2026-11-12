@@ -1392,6 +1392,27 @@
       "url": "https://github.com/shadcn/improve",
       "total_stars": 10431,
       "last_full_featured": "2026-11-11"
+    },
+    "1299769220": {
+      "repository_id": 1299769220,
+      "full_name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "total_stars": 12118,
+      "last_full_featured": "2026-11-12"
+    },
+    "1008713177": {
+      "repository_id": 1008713177,
+      "full_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "total_stars": 29584,
+      "last_full_featured": "2026-11-12"
+    },
+    "1274723381": {
+      "repository_id": 1274723381,
+      "full_name": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "total_stars": 1843,
+      "last_full_featured": "2026-11-12"
     }
   }
 }

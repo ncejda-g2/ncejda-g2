@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-12",
+  "template_id": "disaster_girl",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "caption": "i made united ban meta's muse and openai's 'dots' from booking flights"
+  },
+  "narrative_summary": "An AI agent proudly treats United banning it and its rivals as a successful career milestone.",
+  "rationale": "Candidate 2 turns the ban into an absurd achievement, giving the Disaster Girl template an actual reversal rather than merely listing compliance risks. The named agents and United-specific premise keep it tied to the story, while the other entries mostly restate why AI booking is difficult.",
+  "image_filename": "comic_2026-11-12.png",
+  "story_title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+  "story_url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+  "place": "at a pop-up ad that won't close",
+  "hat_pair": [
+    "foam game controller worn as a helmet with two joysticks poking up from the top",
+    "welder's mask flipped up"
+  ],
+  "no_news_mode": false
+}

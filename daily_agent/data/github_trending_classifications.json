@@ -583,12 +583,12 @@
     "27193779": {
       "repository_id": 27193779,
       "full_name": "nodejs/node",
-      "readme_sha": "a6cf7d6683fa6e801cccc7a5b09f7c09331e9b3d",
-      "classified_on": "2026-07-27",
+      "readme_sha": "3b7d93827ae99ff451a4ff9016dbd254cd5776b8",
+      "classified_on": "2026-11-12",
       "ai_related": false,
       "project_type": "Framework",
-      "summary": "Cross-platform JavaScript runtime environment for building server-side applications and command-line tools.",
-      "rationale": "General-purpose runtime not organized around AI; usable for AI projects but not fundamentally an AI product."
+      "summary": "Open-source, cross-platform JavaScript runtime providing execution infrastructure for applications and developer tooling.",
+      "rationale": "Node.js is a general-purpose JavaScript runtime; the supplied metadata does not organize it around AI."
     },
     "1097346685": {
       "repository_id": 1097346685,
@@ -1363,12 +1363,12 @@
     "612230": {
       "repository_id": 612230,
       "full_name": "nvm-sh/nvm",
-      "readme_sha": "714ff65553179634b560d44e9fe84e4465890617",
-      "classified_on": "2026-08-12",
+      "readme_sha": "765e99c89ef60010f156659c8026fd06f3e6e17f",
+      "classified_on": "2026-11-12",
       "ai_related": false,
       "project_type": "CLI",
-      "summary": "Version manager for Node.js enabling quick installation and switching between multiple active versions.",
-      "rationale": "General-purpose developer tool with no material AI involvement; manages Node.js versions via POSIX shell scripts."
+      "summary": "nvm is a POSIX-compatible shell tool for installing and switching among multiple Node.js versions.",
+      "rationale": "This is a general-purpose Node.js version manager with no material AI focus."
     },
     "1061953414": {
       "repository_id": 1061953414,
@@ -1833,12 +1833,12 @@
     "1144520675": {
       "repository_id": 1144520675,
       "full_name": "Alishahryar1/free-claude-code",
-      "readme_sha": "701325cb0aa8d96ef108ca5811550c3a31d5c20f",
-      "classified_on": "2026-10-12",
+      "readme_sha": "306bc21514c7ed9cc46c0997d915369eac48e21a",
+      "classified_on": "2026-11-12",
       "ai_related": true,
-      "project_type": "Application",
-      "summary": "Application aggregates model providers and coding-agent clients, enabling free or low-cost AI coding sessions across devices.",
-      "rationale": "Its central product manages AI model access and integrations for multiple coding agents."
+      "project_type": "CLI",
+      "summary": "Open-source proxy and interface routing coding agents across numerous AI model providers and client environments.",
+      "rationale": "The project directly manages AI coding harnesses, model providers, streaming, tool use, and fallback routing."
     },
     "1185389803": {
       "repository_id": 1185389803,
@@ -3053,12 +3053,12 @@
     "1336502227": {
       "repository_id": 1336502227,
       "full_name": "CopilotKit/OpenBot",
-      "readme_sha": "0ef1c5438bf4274a765d7aa968ce71b999a18d04",
-      "classified_on": "2026-10-30",
+      "readme_sha": "2089d7b5c93654ce28606de145a5386a9e48bc18",
+      "classified_on": "2026-11-12",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "A self-hosted platform gives AI coworkers browsers, files, tools, governance, and auditable actions through AG-UI.",
-      "rationale": "The repository is explicitly an AI-agent application and platform for deploying governed coworkers on company infrastructure."
+      "summary": "Self-hostable workspace for AI coworkers with models, agents, computers, tools, approvals, and enterprise governance.",
+      "rationale": "AI agents and governed agent workspaces are the repository’s central product and organizing subject."
     },
     "1226205410": {
       "repository_id": 1226205410,
@@ -3354,7 +3354,7 @@
       "repository_id": 1131202426,
       "full_name": "meta/astryx",
       "readme_sha": "29b89543395d69bd2a5385a9e768ec9bd9015f73",
-      "classified_on": "2026-11-11",
+      "classified_on": "2026-11-12",
       "ai_related": false,
       "project_type": "Framework",
       "summary": "An open source React design system providing customizable components, themes, templates, and supporting developer tooling.",
@@ -3414,7 +3414,7 @@
       "repository_id": 1024661423,
       "full_name": "we-promise/sure",
       "readme_sha": "35f5c2e0681b8ef1c55545a5846535e8198ce4c8",
-      "classified_on": "2026-11-11",
+      "classified_on": "2026-11-12",
       "ai_related": false,
       "project_type": "Application",
       "summary": "An open-source, self-hostable personal finance application for tracking cash flow, wealth, spending, and net worth.",
@@ -3469,6 +3469,46 @@
       "project_type": "CLI",
       "summary": "Agent skill auditing codebases and producing implementation plans for other AI agents or developers to execute.",
       "rationale": "Its primary product is an agent skill that uses capable models for codebase audits, planning, review, and execution dispatch."
+    },
+    "1299769220": {
+      "repository_id": 1299769220,
+      "full_name": "openai/codex-security",
+      "readme_sha": "c30adfcdb1b8c61c6051d14f6fad8fe1ea90d81a",
+      "classified_on": "2026-11-12",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Codex Security provides AI-assisted vulnerability scanning, investigation, remediation, policy generation, and security automation tools.",
+      "rationale": "Its primary product is an OpenAI Codex-powered security CLI and SDK that analyzes and fixes code vulnerabilities."
+    },
+    "903349957": {
+      "repository_id": 903349957,
+      "full_name": "pookjw/HermesEnabler",
+      "readme_sha": "9097b66aa2f1e7695ee48cdfff0ce6d7543fc61a",
+      "classified_on": "2026-11-12",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "HermesEnabler is an Apple Watch application enabling Hermès watch faces on supported watchOS versions.",
+      "rationale": "The repository describes an Apple Watch customization application unrelated to artificial intelligence."
+    },
+    "1008713177": {
+      "repository_id": 1008713177,
+      "full_name": "QwenLM/qwen-code",
+      "readme_sha": "83b7e8673c2b2c4a5c12bd4bd408a0f95ee685e2",
+      "classified_on": "2026-11-12",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Qwen Code is an open-source AI coding agent offering terminal, editor, desktop, browser, and chat interfaces.",
+      "rationale": "AI coding assistance and agentic workflows are the repository's central purpose, supporting multiple model providers and integrations."
+    },
+    "1274723381": {
+      "repository_id": 1274723381,
+      "full_name": "ashhart/TensorFold",
+      "readme_sha": "33840f0b8dce50de1bd3dc5fd4f80caaf6d57b4f",
+      "classified_on": "2026-11-12",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "Zig-based local language-model inference engine serving checkpoints on Apple Silicon and NVIDIA GPUs.",
+      "rationale": "Its primary product is LLM inference and model serving across Metal, CUDA, and Vulkan hardware."
     }
   }
 }
