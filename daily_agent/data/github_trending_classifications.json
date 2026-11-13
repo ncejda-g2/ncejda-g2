@@ -443,12 +443,12 @@
     "1174789082": {
       "repository_id": 1174789082,
       "full_name": "block/buzz",
-      "readme_sha": "56439f00bc1565ce7aca273a886eecdc12df5c1d",
-      "classified_on": "2026-09-27",
+      "readme_sha": "de9636ece386b9b3c0492b062a85ddfa69e53124",
+      "classified_on": "2026-11-13",
       "ai_related": true,
       "project_type": "Application",
-      "summary": "A self-hostable collaborative workspace where humans and AI agents communicate, coordinate workflows, and modify software projects.",
-      "rationale": "AI agents are central participants with dedicated collaboration, automation, development, and audit capabilities."
+      "summary": "A self-hostable collaborative workspace where humans and AI agents communicate, review code, and execute workflows together.",
+      "rationale": "AI agents are a core participant and organizing concept, sharing workspace capabilities, identities, workflows, and audit trails with humans."
     },
     "834966974": {
       "repository_id": 834966974,
@@ -533,12 +533,12 @@
     "1241960226": {
       "repository_id": 1241960226,
       "full_name": "alibaba/open-code-review",
-      "readme_sha": "96b4e231298af0882d800d213b5f5881f601fdd9",
-      "classified_on": "2026-10-09",
+      "readme_sha": "3dcedfdf9db2d9736e25a459f9408a93dd823b2c",
+      "classified_on": "2026-11-13",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "AI-powered command-line code review tool combining deterministic analysis pipelines with configurable LLM agents.",
-      "rationale": "Its primary product is an AI code review CLI that analyzes diffs and generates line-level comments using LLMs."
+      "summary": "An AI-powered command-line code reviewer combining deterministic analysis pipelines with configurable LLM agent capabilities.",
+      "rationale": "AI is central to its primary product, which reviews code using LLM agents and produces structured line-level findings."
     },
     "678973052": {
       "repository_id": 678973052,
@@ -3414,7 +3414,7 @@
       "repository_id": 1024661423,
       "full_name": "we-promise/sure",
       "readme_sha": "35f5c2e0681b8ef1c55545a5846535e8198ce4c8",
-      "classified_on": "2026-11-12",
+      "classified_on": "2026-11-13",
       "ai_related": false,
       "project_type": "Application",
       "summary": "An open-source, self-hostable personal finance application for tracking cash flow, wealth, spending, and net worth.",
@@ -3509,6 +3509,26 @@
       "project_type": "CLI",
       "summary": "Zig-based local language-model inference engine serving checkpoints on Apple Silicon and NVIDIA GPUs.",
       "rationale": "Its primary product is LLM inference and model serving across Metal, CUDA, and Vulkan hardware."
+    },
+    "1123956658": {
+      "repository_id": 1123956658,
+      "full_name": "backnotprop/plannotator",
+      "readme_sha": "4667f4c611c15e1af87b0885cdc11b5fbb604cf6",
+      "classified_on": "2026-11-13",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A local review workspace for annotating agent plans, documents, artifacts, and code changes across multiple coding assistants.",
+      "rationale": "The application is specifically designed around AI coding-agent workflows, feedback, review, and collaboration."
+    },
+    "382496361": {
+      "repository_id": 382496361,
+      "full_name": "louislam/uptime-kuma",
+      "readme_sha": "eb23a1b7e8d53bf2d92daa69c62d420d7ddce447",
+      "classified_on": "2026-11-13",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "A self-hosted monitoring application tracking service availability, network endpoints, notifications, and status pages.",
+      "rationale": "Its primary product is general-purpose uptime monitoring; an AI sponsor mention does not make the repository AI-related."
     }
   }
 }

@@ -193,8 +193,8 @@
       "repository_id": 1174789082,
       "full_name": "block/buzz",
       "url": "https://github.com/block/buzz",
-      "total_stars": 34928,
-      "last_full_featured": "2026-09-27"
+      "total_stars": 37165,
+      "last_full_featured": "2026-11-13"
     },
     "1212503250": {
       "repository_id": 1212503250,
@@ -228,8 +228,8 @@
       "repository_id": 1241960226,
       "full_name": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "total_stars": 44793,
-      "last_full_featured": "2026-10-09"
+      "total_stars": 50195,
+      "last_full_featured": "2026-11-13"
     },
     "678973052": {
       "repository_id": 678973052,
@@ -1413,6 +1413,13 @@
       "url": "https://github.com/ashhart/TensorFold",
       "total_stars": 1843,
       "last_full_featured": "2026-11-12"
+    },
+    "1123956658": {
+      "repository_id": 1123956658,
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "total_stars": 10267,
+      "last_full_featured": "2026-11-13"
     }
   }
 }

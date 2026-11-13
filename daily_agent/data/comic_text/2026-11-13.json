@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-13",
+  "template_id": "one_does_not_simply",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "caption_bottom": "Review 10\u201320 AI-generated synths daily before they review Apple"
+  },
+  "narrative_summary": "Apple\u2019s overwhelmed review team faces 10\u201320 AI-generated synth apps daily, until the apps start reviewing Apple instead.",
+  "rationale": "Candidate 2 uses the story\u2019s concrete 10\u201320-app daily flood while adding a clean, genuinely unexpected reversal: the apps review Apple. The One Does Not Simply template suits the impossible task, and the closing threat supplies a real punchline rather than merely restating the backlog.",
+  "image_filename": "comic_2026-11-13.png",
+  "story_title": "AI is turning Apple's app review process into a nightmare for synth developers",
+  "story_url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+  "place": "at a pop-up ad that won't close",
+  "hat_pair": [
+    "foam globe worn as a helmet with a tiny 'you are here' pin stuck in the middle of the ocean",
+    "foam soft-serve ice cream cone hat with a plastic wafer biscuit sticking out the top"
+  ],
+  "no_news_mode": false
+}
