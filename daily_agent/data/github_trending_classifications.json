@@ -863,12 +863,12 @@
     "1054793726": {
       "repository_id": 1054793726,
       "full_name": "ChromeDevTools/chrome-devtools-mcp",
-      "readme_sha": "5068429ae46b3ef0d2feb176282b0adb84ac25d9",
-      "classified_on": "2026-08-29",
+      "readme_sha": "2dca1a052a314a7c2635fb9da68c96221441e380",
+      "classified_on": "2026-11-14",
       "ai_related": true,
-      "project_type": "Library",
-      "summary": "MCP server enabling AI coding agents to control and inspect Chrome browser debugging tools.",
-      "rationale": "MCP server explicitly designed for AI agent integration; every feature targets agent automation."
+      "project_type": "CLI",
+      "summary": "MCP server and CLI enabling AI coding agents to control, inspect, debug, and optimize Chrome browsers.",
+      "rationale": "Its primary purpose is providing browser automation and DevTools capabilities directly to AI coding agents."
     },
     "1237819660": {
       "repository_id": 1237819660,
@@ -1374,11 +1374,11 @@
       "repository_id": 1061953414,
       "full_name": "anthropics/skills",
       "readme_sha": "4171c2c9eba15bf2bdefb496d941ba559368438b",
-      "classified_on": "2026-11-07",
+      "classified_on": "2026-11-14",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Anthropic’s collection of reusable skills that extend Claude across creative, technical, and enterprise workflows.",
-      "rationale": "It is explicitly dedicated to Claude skills, including specifications, templates, examples, and production document capabilities."
+      "summary": "Collection of reusable Claude skills supporting creative, technical, enterprise, and document-focused workflows.",
+      "rationale": "The repository is explicitly organized around agent skills that extend Claude's capabilities across specialized tasks."
     },
     "32689863": {
       "repository_id": 32689863,
@@ -1993,12 +1993,12 @@
     "880414192": {
       "repository_id": 880414192,
       "full_name": "tailscale/tailcat",
-      "readme_sha": "b5945a4ddebca4fba2f88cb583715387e7256a3f",
-      "classified_on": "2026-08-30",
+      "readme_sha": "3082f93efd9a2717c2bb0906625997d9d26264cb",
+      "classified_on": "2026-11-14",
       "ai_related": false,
-      "project_type": "Library",
-      "summary": "Networking tool providing point-to-point WireGuard tunnels via Tailscale's data plane without control plane.",
-      "rationale": "Infrastructure utility for encrypted peer-to-peer communication; no AI components or functionality."
+      "project_type": "CLI",
+      "summary": "Go-based netcat alternative providing encrypted peer-to-peer networking, port forwarding, file transfer, and SSH over Tailscale components.",
+      "rationale": "The project focuses on networking and encrypted transport; it does not materially involve artificial intelligence."
     },
     "173228436": {
       "repository_id": 173228436,
@@ -3234,11 +3234,11 @@
       "repository_id": 1132001614,
       "full_name": "vercel-labs/agent-browser",
       "readme_sha": "53f71fd42a568994479edfa5063c58ca0b5dad8d",
-      "classified_on": "2026-11-07",
+      "classified_on": "2026-11-14",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "A Rust-based browser automation CLI that lets AI agents inspect webpages and interact with browser elements.",
-      "rationale": "Its primary purpose is providing browser control and specialized skills directly for AI agents."
+      "summary": "Native Rust CLI providing AI agents command-driven browser automation through accessibility snapshots and persistent sessions.",
+      "rationale": "Browser automation for AI agents is the repository's central product and stated organizing purpose."
     },
     "340547520": {
       "repository_id": 340547520,
@@ -3364,7 +3364,7 @@
       "repository_id": 162998479,
       "full_name": "sherlock-project/sherlock",
       "readme_sha": "ddad6e0214cfa14bfabab0d67bf52293f5d2990e",
-      "classified_on": "2026-11-10",
+      "classified_on": "2026-11-14",
       "ai_related": false,
       "project_type": "CLI",
       "summary": "A command-line tool that searches for usernames across hundreds of social networks and records discovered accounts.",
@@ -3414,7 +3414,7 @@
       "repository_id": 1024661423,
       "full_name": "we-promise/sure",
       "readme_sha": "35f5c2e0681b8ef1c55545a5846535e8198ce4c8",
-      "classified_on": "2026-11-13",
+      "classified_on": "2026-11-14",
       "ai_related": false,
       "project_type": "Application",
       "summary": "An open-source, self-hostable personal finance application for tracking cash flow, wealth, spending, and net worth.",
@@ -3524,11 +3524,41 @@
       "repository_id": 382496361,
       "full_name": "louislam/uptime-kuma",
       "readme_sha": "eb23a1b7e8d53bf2d92daa69c62d420d7ddce447",
-      "classified_on": "2026-11-13",
+      "classified_on": "2026-11-14",
       "ai_related": false,
       "project_type": "Application",
       "summary": "A self-hosted monitoring application tracking service availability, network endpoints, notifications, and status pages.",
       "rationale": "Its primary product is general-purpose uptime monitoring; an AI sponsor mention does not make the repository AI-related."
+    },
+    "1079356098": {
+      "repository_id": 1079356098,
+      "full_name": "tradermonty/claude-trading-skills",
+      "readme_sha": "028aa127c04c0848b4df1bd4765d7e0f9bea2465",
+      "classified_on": "2026-11-14",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "Claude skills toolkit providing structured AI-assisted workflows for market analysis, portfolio review, trading, journaling, and risk management.",
+      "rationale": "AI is central to the repository, which organizes Claude skills and workflows specifically for investor and trader decision support."
+    },
+    "1362562155": {
+      "repository_id": 1362562155,
+      "full_name": "Likely7/Veyra-NRVideo",
+      "readme_sha": "e15c24374e1817005ed58d2485ba3a6230eec8e6",
+      "classified_on": "2026-11-14",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "Windows video enhancement application using AI-powered super resolution, denoising, frame generation, HDR, and GPU capture processing.",
+      "rationale": "AI inference and enhancement models are core product features alongside real-time video playback, streaming, and capture."
+    },
+    "1368596582": {
+      "repository_id": 1368596582,
+      "full_name": "google/elephant-goldfish-model",
+      "readme_sha": "d570bc7dee8f29e09f243e6a6245976bb803da15",
+      "classified_on": "2026-11-14",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Open-source plugin helping AI assistants brainstorm, specify, review, and maintain software design documentation.",
+      "rationale": "It is an agent plugin whose primary workflow uses AI assistants and fresh subagent reviewers for software design."
     }
   }
 }

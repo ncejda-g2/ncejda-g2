@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-14",
+  "template_id": "same_picture",
+  "template_filter": "meme",
+  "voice_label": "sight_gag",
+  "fields": {
+    "paper_left": "Nvidia's AI startup ecosystem investment strategy",
+    "paper_right": "Nvidia's startup-funded GPU demand wearing an ecosystem costume"
+  },
+  "narrative_summary": "The joke reframes Nvidia's alleged startup funding as GPU demand dressed up as ecosystem building.",
+  "rationale": "Candidate 5 best converts the alleged funding mechanism into a visual identity joke: \u201cecosystem investment\u201d and \u201cfunded GPU demand\u201d are presented as the same picture. It is specifically tied to the story, clean, and more conceptually distinct than the straightforward scarcity restatements.",
+  "image_filename": "comic_2026-11-14.png",
+  "story_title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+  "story_url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+  "place": "in a Silicon Valley ping-pong room at 2am",
+  "hat_pair": [
+    "foam cactus hat with pink plastic flowers on top",
+    "foam globe worn as a helmet with a tiny 'you are here' pin stuck in the middle of the ocean"
+  ],
+  "no_news_mode": false
+}

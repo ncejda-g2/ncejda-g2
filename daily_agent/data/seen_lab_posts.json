@@ -1,6 +1,5 @@
 {
   "posts": {
-    "https://www.anthropic.com/engineering/redesigning-source-control": "2026-10-14",
     "https://www.anthropic.com/research/how-we-contain-claude": "2026-10-21",
     "https://www.anthropic.com/research/april-23-postmortem": "2026-10-21",
     "https://www.anthropic.com/research/managed-agents": "2026-10-21",
@@ -179,6 +178,7 @@
     "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models": "2026-11-07",
     "https://www.anthropic.com/news/roadshow-launch": "2026-11-10",
     "https://www.anthropic.com/research/claude-electronics-design": "2026-11-10",
-    "https://x.ai/news/grok-bot-1-0": "2026-11-12"
+    "https://x.ai/news/grok-bot-1-0": "2026-11-12",
+    "https://www.anthropic.com/research/building-strong-safety-evaluations": "2026-11-14"
   }
 }
