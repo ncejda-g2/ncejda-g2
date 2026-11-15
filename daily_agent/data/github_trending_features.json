@@ -998,8 +998,8 @@
       "repository_id": 543101941,
       "full_name": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
-      "total_stars": 15987,
-      "last_full_featured": "2026-09-23"
+      "total_stars": 25226,
+      "last_full_featured": "2026-11-15"
     },
     "1013480284": {
       "repository_id": 1013480284,
@@ -1173,8 +1173,8 @@
       "repository_id": 1201173969,
       "full_name": "JuliusBrussee/caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
-      "total_stars": 112902,
-      "last_full_featured": "2026-10-16"
+      "total_stars": 120320,
+      "last_full_featured": "2026-11-15"
     },
     "589831718": {
       "repository_id": 589831718,
@@ -1441,6 +1441,13 @@
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "total_stars": 55887,
       "last_full_featured": "2026-11-14"
+    },
+    "979392131": {
+      "repository_id": 979392131,
+      "full_name": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "total_stars": 17552,
+      "last_full_featured": "2026-11-15"
     }
   }
 }

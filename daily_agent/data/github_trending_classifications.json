@@ -2583,12 +2583,12 @@
     "543101941": {
       "repository_id": 543101941,
       "full_name": "dream-num/univer",
-      "readme_sha": "9ef8f319de8fb92b7e4ac0c727f5fe5789acb1fb",
-      "classified_on": "2026-09-23",
+      "readme_sha": "ea0b74e1ed93f291abb2c12d878fd9af8f9ae824",
+      "classified_on": "2026-11-15",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "Extensible Office SDK for embedding spreadsheets, documents, presentations, and collaborative editing into applications and agent workflows.",
-      "rationale": "The SDK explicitly supports AI-agent editing, verification, automation, and headless document processing as core use cases."
+      "summary": "Open-source Office SDK providing editable spreadsheets, documents, collaboration, file processing, and integrations for AI agents.",
+      "rationale": "Its primary product is an Office SDK, but AI-agent connectivity and a dedicated AI SDK are material components."
     },
     "1013480284": {
       "repository_id": 1013480284,
@@ -2913,12 +2913,12 @@
     "1201173969": {
       "repository_id": 1201173969,
       "full_name": "JuliusBrussee/caveman",
-      "readme_sha": "12902ac5443fa6b951a46f119ce8808198b7db9f",
-      "classified_on": "2026-10-16",
+      "readme_sha": "33aec59284cd74f97be651840950476333c44025",
+      "classified_on": "2026-11-15",
       "ai_related": true,
       "project_type": "CLI",
-      "summary": "CLI and agent skill that reduces coding-agent token usage through concise responses, compressed inputs, and automation.",
-      "rationale": "The repository directly optimizes AI coding-agent interactions and provides an installable command-line tool."
+      "summary": "Command-line tool compressing coding-agent communication, logs, web content, and workflows to reduce token usage.",
+      "rationale": "Its primary product directly modifies and optimizes AI coding-agent sessions for lower token consumption."
     },
     "589831718": {
       "repository_id": 589831718,
@@ -3414,7 +3414,7 @@
       "repository_id": 1024661423,
       "full_name": "we-promise/sure",
       "readme_sha": "35f5c2e0681b8ef1c55545a5846535e8198ce4c8",
-      "classified_on": "2026-11-14",
+      "classified_on": "2026-11-15",
       "ai_related": false,
       "project_type": "Application",
       "summary": "An open-source, self-hostable personal finance application for tracking cash flow, wealth, spending, and net worth.",
@@ -3524,7 +3524,7 @@
       "repository_id": 382496361,
       "full_name": "louislam/uptime-kuma",
       "readme_sha": "eb23a1b7e8d53bf2d92daa69c62d420d7ddce447",
-      "classified_on": "2026-11-14",
+      "classified_on": "2026-11-15",
       "ai_related": false,
       "project_type": "Application",
       "summary": "A self-hosted monitoring application tracking service availability, network endpoints, notifications, and status pages.",
@@ -3559,6 +3559,16 @@
       "project_type": "Framework",
       "summary": "Open-source plugin helping AI assistants brainstorm, specify, review, and maintain software design documentation.",
       "rationale": "It is an agent plugin whose primary workflow uses AI assistants and fresh subagent reviewers for software design."
+    },
+    "979392131": {
+      "repository_id": 979392131,
+      "full_name": "ag-ui-protocol/ag-ui",
+      "readme_sha": "df7ba5f63308abf31d81d45288dac37d22e4efe7",
+      "classified_on": "2026-11-15",
+      "ai_related": true,
+      "project_type": "Framework",
+      "summary": "Event-based protocol standardizing interactions between AI agents, real-time user context, and frontend applications.",
+      "rationale": "The repository is specifically organized around AI-agent and user-interface interoperability, including protocols, middleware, and integrations."
     }
   }
 }
