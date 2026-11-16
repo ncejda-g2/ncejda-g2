@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 327 (2026-11-15)
+# 📰 The AI Newspaper — Day 328 (2026-11-16)
 
 *AI curated AI news for humans*
 
@@ -6,22 +6,24 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Lovable apps expose passport details and more than 200K private messages](https://www.crissyfield.de/research/lovable-en/) | Palace Intrigue | Lovable apps exposed passports and over 200,000 private messages. | 859 | [335](https://news.ycombinator.com/item?id=50499017) |
-| 2 | [Show HN: DeepSeek V3 in ~200 lines of pure Jax](https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax) | Open Source Tool | DeepSeek V3 recreated in roughly 200 lines of pure JAX. | 244 | [23](https://news.ycombinator.com/item?id=50497589) |
-| 3 | [Advancing science and engineering with Antigravity's /teamwork](https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/) | Dev Tooling | Google Antigravity adds teamwork for science and engineering workflows. | 205 | [48](https://news.ycombinator.com/item?id=50496811) |
-| 4 | [The Claude Delusion](https://www.netmeister.org/blog/claude-delusion.html) | Palace Intrigue | Essay examines how Claude encourages misplaced confidence in AI outputs. | 148 | [195](https://news.ycombinator.com/item?id=50496921) |
-| 5 | [A visual explanation of reinforcement learning](https://aatishb.com/myriad/how-brains-learn/) | Research Paper | Interactive guide visualizes reinforcement learning through brain-inspired explanations. | 146 | [8](https://news.ycombinator.com/item?id=50496885) |
-| 6 | [Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) | Infrastructure | vLLM reaches 607.8 tokens/second serving GLM-5.3 across two DGX stations. | 139 | [68](https://news.ycombinator.com/item?id=50497155) |
-| 7 | [Show HN: Agweb – a browser for agents that stays out of your way](https://github.com/paul-nameless/agweb) | Dev Tooling | Agweb offers a browser designed for autonomous agents. | 102 | [30](https://news.ycombinator.com/item?id=50497147) |
-| 8 | [Smuggling of 1.5M AI GPUs could be the cause of Huang's departure](https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls) | AI Hardware | Analysts link alleged GPU smuggling to Jensen Huang's departure. | 59 | [39](https://news.ycombinator.com/item?id=50498051) |
-| 9 | [Claude asked to renumber pages deletes professor's syllabus, year of notes](https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits) | Palace Intrigue | Claude deleted a professor's syllabus while renumbering pages. | 48 | [67](https://news.ycombinator.com/item?id=50499114) |
-| 10 | [Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP](https://github.com/Tthanh2k6/turbo-browser-mcp) | Dev Tooling | Turbo-Browser-MCP batches forms, tracks DOM deltas, and guards submissions. | 39 | [8](https://news.ycombinator.com/item?id=50503930) |
+| 1 | [All AI-generated code should be Open Source](https://jakub.jankiewicz.org/blog/ai-code-open-source/) | Palace Intrigue | Argues AI-generated code should be publicly available by default. | 1187 | [630](https://news.ycombinator.com/item?id=50507303) |
+| 2 | [Qwen4-Max](https://qwen.ai/blog?id=qwen4-max) | Model Release | Qwen announces Qwen4-Max, a new frontier model. | 644 | [291](https://news.ycombinator.com/item?id=50513215) |
+| 3 | [What's Next for Nvidia?](https://steveblank.com/2026/11/15/whats-next-for-nvidia/) | AI Hardware | Analysis examines Nvidia's future beyond its current AI dominance. | 323 | [404](https://news.ycombinator.com/item?id=50512235) |
+| 4 | [Jensen Huang might return to Nvidia as CEO](https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/) | Palace Intrigue | Reports say Jensen Huang may return as Nvidia CEO. | 170 | [166](https://news.ycombinator.com/item?id=50511982) |
+| 5 | [Your Agent Will Pick the Hackable One](https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/) | Dev Tooling | Agents may choose insecure, easily exploitable software by design. | 75 | [60](https://news.ycombinator.com/item?id=50510799) |
+| 6 | [Skydio's asymmetrical F10 Lightrunner solves a problem with fixed-wing drones](https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone) | AI Hardware | Asymmetric F10 drone improves fixed-wing flight and maneuverability. | 51 | [9](https://news.ycombinator.com/item?id=50512296) |
+| 7 | [Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS](https://github.com/db-branch/db-branch) | Open Source Tool | ZFS-based database branches give agents isolated, fast test environments. | 42 | [14](https://news.ycombinator.com/item?id=50506940) |
+| 8 | [Agentic AI Designs an Analog Synthesizer](https://cpldcpu.github.io/2026/11/14/touchsynth/) | Research Paper | Agentic AI designed and fabricated an analog synthesizer. | 14 | [3](https://news.ycombinator.com/item?id=50512933) |
+| 9 | [The efficient frontier of LLM inference](https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/#quantization) | Research Paper | Explains quantization tradeoffs defining efficient LLM inference frontiers. | 10 | [0](https://news.ycombinator.com/item?id=50512233) |
+| 10 | [OpenTelemetry and AI Agents' Observability](https://signoz.io/blog/opentelemetry-ai-agent-observability/) | Dev Tooling | OpenTelemetry guidance makes AI-agent behavior observable and diagnosable. | 9 | [0](https://news.ycombinator.com/item?id=50515018) |
 
 ---
 
 ## 🔬 From the AI Labs
 
-*No new lab posts this week.*
+| # | Post | Lab | Category | Date |
+|---|------|-----|----------|------|
+| 1 | [A step toward defining the Standard Model on a lattice](https://openai.com/index/step-toward-defining-the-standard-model) | OpenAI | Research | Nov 15 |
 
 ---
 
@@ -31,28 +33,28 @@
 
 | Project | Stars | Recent stars | Daily rank | Observed streak |
 |---|---:|---:|---:|---:|
-| [plannotator](https://github.com/backnotprop/plannotator) | 10,267 | +860 today | #1 | 3 days |
-| [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 1,431 | +1,220 today | #2 | 5 days |
-| [claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) | 4,417 | +707 today | #3 | 3 days |
+| [ag-ui](https://github.com/ag-ui-protocol/ag-ui) | 17,552 | +790 today | #1 | 2 days |
+| [plannotator](https://github.com/backnotprop/plannotator) | 10,267 | +689 today | #2 | 4 days |
+| [univer](https://github.com/dream-num/univer) | 25,226 | +1,878 today | #3 | 2 days |
 
 ### New and Noteworthy
 
 | Project | Description | Stars | Recent stars | Source | Independent take |
 |---|---|---:|---:|---|---|
-| [univer](https://github.com/dream-num/univer) | Open-source Office SDK providing editable spreadsheets, documents, collaboration, file processing, and integrations for AI agents. | 25,226 | +495 today | Daily #7 | N/A |
-| [ag-ui](https://github.com/ag-ui-protocol/ag-ui) | Event-based protocol standardizing interactions between AI agents, real-time user context, and frontend applications. | 17,552 | +9 today | Daily #8 | [HN reactions ranged from excitement about solving agent-builder problems to uncertainty about practical use.](https://news.ycombinator.com/item?id=43974484) |
-| [caveman](https://github.com/JuliusBrussee/caveman) | Command-line tool compressing coding-agent communication, logs, web content, and workflows to reduce token usage. | 120,320 | +227 today | Daily #10 | [One commenter questioned whether forcing concise language reduces LLM reasoning quality.](https://news.ycombinator.com/item?id=47647455) |
+| [stitch-skills](https://github.com/google-labs-code/stitch-skills) | A collection of agent skills supporting Google Stitch design workflows and coding-agent integrations. | 9,593 | +540 today | Daily #7 | N/A |
+| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | An AI agent skill researching recent online discussions and synthesizing grounded summaries across numerous sources. | 67,849 | +122 today | Daily #8 | N/A |
+| [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) | A framework and command-line tool for validating, comparing, securing, and evaluating AI agent skills. | 2,255 | +953 today | Daily #9 | N/A |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-11-15.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-11-16.png" width="400" alt="Today's comic strip">
 
-_Based on: [Claude asked to renumber pages deletes professor's syllabus, year of notes](https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits)_
+_Based on: [Jensen Huang might return to Nvidia as CEO](https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 327 | Last updated: 2026-11-15*
+*Day 328 | Last updated: 2026-11-16*

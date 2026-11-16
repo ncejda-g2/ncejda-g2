@@ -823,12 +823,12 @@
     "1140843380": {
       "repository_id": 1140843380,
       "full_name": "mvanhorn/last30days-skill",
-      "readme_sha": "b2e656a5cb450755cde4681ced8237535a9a45bf",
-      "classified_on": "2026-07-31",
+      "readme_sha": "e626a4d973cd38672deb63f5e4b4d4f59629e088",
+      "classified_on": "2026-11-16",
       "ai_related": true,
-      "project_type": "Application",
-      "summary": "AI agent skill researching topics across social platforms and synthesizing grounded summaries.",
-      "rationale": "Explicitly designed as AI agent skill for multiple agent platforms; core purpose is enabling AI research capabilities across social media and web sources."
+      "project_type": "CLI",
+      "summary": "An AI agent skill researching recent online discussions and synthesizing grounded summaries across numerous sources.",
+      "rationale": "Its primary product is an AI-led research and synthesis workflow spanning social, news, and web platforms."
     },
     "17620347": {
       "repository_id": 17620347,
@@ -3569,6 +3569,46 @@
       "project_type": "Framework",
       "summary": "Event-based protocol standardizing interactions between AI agents, real-time user context, and frontend applications.",
       "rationale": "The repository is specifically organized around AI-agent and user-interface interoperability, including protocols, middleware, and integrations."
+    },
+    "968905557": {
+      "repository_id": 968905557,
+      "full_name": "getarcaneapp/arcane",
+      "readme_sha": "94063cc0583ae7b52e1d376c702a9fce852f6284",
+      "classified_on": "2026-11-16",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "A self-hosted web application for managing Docker containers, Compose projects, and related deployments.",
+      "rationale": "The repository focuses on general Docker management and contains no material AI-centered functionality."
+    },
+    "1310427454": {
+      "repository_id": 1310427454,
+      "full_name": "DeanChensj/jiangshan-map",
+      "readme_sha": "829772a299f298891803d8dff0cd16366597b0e5",
+      "classified_on": "2026-11-16",
+      "ai_related": false,
+      "project_type": "Application",
+      "summary": "An interactive historical atlas visualizing China’s territorial, administrative, and cultural changes across centuries.",
+      "rationale": "This is a digital humanities mapping application organized around Chinese history, not artificial intelligence."
+    },
+    "1135847870": {
+      "repository_id": 1135847870,
+      "full_name": "google-labs-code/stitch-skills",
+      "readme_sha": "baecaabfa0fc08d596e3d5921479321eaacac02a",
+      "classified_on": "2026-11-16",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "A collection of agent skills supporting Google Stitch design workflows and coding-agent integrations.",
+      "rationale": "The repository explicitly provides skills and plugins for AI coding agents and Stitch’s MCP server."
+    },
+    "1278676884": {
+      "repository_id": 1278676884,
+      "full_name": "NVIDIA/SkillEvaluator",
+      "readme_sha": "5f518e6856db00d84286b8f210eb56dae053dc74",
+      "classified_on": "2026-11-16",
+      "ai_related": true,
+      "project_type": "CLI",
+      "summary": "A framework and command-line tool for validating, comparing, securing, and evaluating AI agent skills.",
+      "rationale": "The repository is explicitly dedicated to quality, security, and live-performance evaluation of agent skills."
     }
   }
 }

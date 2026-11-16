@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-16",
+  "template_id": "expanding_brain",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "panel1_caption": "Jensen Huang might return",
+    "panel2_caption": "Jensen Huang might return to Nvidia",
+    "panel3_caption": "Jensen Huang might return to Nvidia as CEO",
+    "panel4_caption": "Nvidia's CEO seat achieves escape velocity\u2014then returns to Jensen Huang"
+  },
+  "narrative_summary": "The headline escalates from a possible return into orbital mechanics for Nvidia\u2019s CEO seat.",
+  "rationale": "Candidate 3 has the cleanest escalation and the strongest closing turn: \u201cescape velocity\u2014then returns\u201d converts the specific CEO comeback story into a coherent visual metaphor. Candidate 4 is more inventive but becomes linguistically repetitive rather than progressively funnier.",
+  "image_filename": "comic_2026-11-16.png",
+  "story_title": "Jensen Huang might return to Nvidia as CEO",
+  "story_url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+  "place": "at a retirement party for a deprecated API that nobody told it was happening",
+  "hat_pair": [
+    "foam double helix worn as a twisted tall hat with alternating red and blue rungs",
+    "crash helmet with a tiny working traffic light mounted on top"
+  ],
+  "no_news_mode": false
+}

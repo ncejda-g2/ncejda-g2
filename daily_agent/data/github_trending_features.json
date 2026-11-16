@@ -333,8 +333,8 @@
       "repository_id": 1140843380,
       "full_name": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "total_stars": 55749,
-      "last_full_featured": "2026-07-31"
+      "total_stars": 67849,
+      "last_full_featured": "2026-11-16"
     },
     "1237819660": {
       "repository_id": 1237819660,
@@ -1448,6 +1448,20 @@
       "url": "https://github.com/ag-ui-protocol/ag-ui",
       "total_stars": 17552,
       "last_full_featured": "2026-11-15"
+    },
+    "1135847870": {
+      "repository_id": 1135847870,
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "total_stars": 9593,
+      "last_full_featured": "2026-11-16"
+    },
+    "1278676884": {
+      "repository_id": 1278676884,
+      "full_name": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "total_stars": 2255,
+      "last_full_featured": "2026-11-16"
     }
   }
 }
