@@ -554,11 +554,11 @@
       "repository_id": 1073224795,
       "full_name": "obra/superpowers",
       "readme_sha": "c5bb59fdaf17ba154e803c549cd71a73ef36c24b",
-      "classified_on": "2026-10-28",
+      "classified_on": "2026-11-17",
       "ai_related": true,
       "project_type": "Framework",
-      "summary": "An agentic software development methodology providing composable skills, workflows, and subagent-driven processes for coding agents.",
-      "rationale": "Its primary product is a framework and methodology designed to guide AI coding agents through software development."
+      "summary": "An agentic software development methodology providing composable skills and workflows for coding agents across multiple harnesses.",
+      "rationale": "Its core purpose is to structure and enhance coding-agent behavior through reusable skills, planning, testing, and subagent workflows."
     },
     "1013830656": {
       "repository_id": 1013830656,
@@ -1513,12 +1513,12 @@
     "1140229822": {
       "repository_id": 1140229822,
       "full_name": "cursor/plugins",
-      "readme_sha": "17c115d34606fb335b0d98b0c4e7e69eb4df2f88",
-      "classified_on": "2026-10-19",
+      "readme_sha": "eccbba20a6396cac8e0af8439c185859ce6b61e2",
+      "classified_on": "2026-11-17",
       "ai_related": true,
       "project_type": "Collection",
-      "summary": "Official Cursor plugins provide agent workflows, developer tools, integrations, and automation capabilities.",
-      "rationale": "This is a collection organized around Cursor’s AI agent plugin ecosystem, not a general-purpose catalog."
+      "summary": "An official collection of Cursor plugins supporting agent skills, developer workflows, integrations, and AI-powered coding tools.",
+      "rationale": "The repository is organized around plugins for Cursor, an AI coding agent, including agent workflows and SDKs."
     },
     "54346799": {
       "repository_id": 54346799,
@@ -3574,7 +3574,7 @@
       "repository_id": 968905557,
       "full_name": "getarcaneapp/arcane",
       "readme_sha": "94063cc0583ae7b52e1d376c702a9fce852f6284",
-      "classified_on": "2026-11-16",
+      "classified_on": "2026-11-17",
       "ai_related": false,
       "project_type": "Application",
       "summary": "A self-hosted web application for managing Docker containers, Compose projects, and related deployments.",
@@ -3609,6 +3609,26 @@
       "project_type": "CLI",
       "summary": "A framework and command-line tool for validating, comparing, securing, and evaluating AI agent skills.",
       "rationale": "The repository is explicitly dedicated to quality, security, and live-performance evaluation of agent skills."
+    },
+    "1229774092": {
+      "repository_id": 1229774092,
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "readme_sha": "4182889da32bba8e37c28e1d5bec4231bf5046db",
+      "classified_on": "2026-11-17",
+      "ai_related": true,
+      "project_type": "Collection",
+      "summary": "A Claude Code skill bundle providing bug-hunting, red-team, vulnerability research, and security reporting workflows.",
+      "rationale": "Its primary product is a collection of skills designed to extend Claude Code for AI-assisted security work."
+    },
+    "1314510108": {
+      "repository_id": 1314510108,
+      "full_name": "Tencent/LoopForge",
+      "readme_sha": "8141eec354b8852ef67a908ef2547232a2e4bf9d",
+      "classified_on": "2026-11-17",
+      "ai_related": true,
+      "project_type": "Application",
+      "summary": "A self-hosted workspace orchestrating coding agents, repeatable software workflows, sandboxes, approvals, and delivery tracking.",
+      "rationale": "The application is specifically built around coordinating multiple coding-agent systems for software development."
     }
   }
 }

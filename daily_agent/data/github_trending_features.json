@@ -585,8 +585,8 @@
       "repository_id": 1140229822,
       "full_name": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "total_stars": 12926,
-      "last_full_featured": "2026-10-19"
+      "total_stars": 16764,
+      "last_full_featured": "2026-11-17"
     },
     "1162516847": {
       "repository_id": 1162516847,
@@ -1462,6 +1462,20 @@
       "url": "https://github.com/NVIDIA/SkillEvaluator",
       "total_stars": 2255,
       "last_full_featured": "2026-11-16"
+    },
+    "1229774092": {
+      "repository_id": 1229774092,
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "total_stars": 8331,
+      "last_full_featured": "2026-11-17"
+    },
+    "1314510108": {
+      "repository_id": 1314510108,
+      "full_name": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "total_stars": 2858,
+      "last_full_featured": "2026-11-17"
     }
   }
 }

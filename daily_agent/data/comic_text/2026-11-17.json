@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-17",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "sight_gag",
+  "fields": {
+    "adjective_first": "hyperactive",
+    "adjective_second": "skulking",
+    "narrative_intro": "*A hyperactive person and a skulking person discuss Windows 11 coding-agent telemetry on a packed commuter train.*",
+    "panel1": "[setup]\nHYPERACTIVE PERSON: \"Windows 11\u2019s MissionControlAggregator.dll recognizes developer tools.\"\n[Visual: The AI conductor announces \u201cNext stop: CLICodingAgentUsage, ID 62580080.\u201d]",
+    "panel2": "[build]\nSKULKING PERSON: \"It recognizes codex.exe, claude.exe, python.exe, gcc.exe, and code.exe.\"\n[Visual: Those five names glow as train stops; the conductor points confidently at the wrong one.]",
+    "panel3": "[pivot]\nSKULKING PERSON: \"I renamed cmd.exe. Invisible now.\"\nHYPERACTIVE PERSON: \"Tests still reported Codex: CliAgentSubCohorts: 4.\"\n[Visual: The ticket scanner converts a cmd.exe ticket into a Codex ticket.]",
+    "panel4": "[silent reaction]\n[Visual: The skulking person\u2019s suitcase says \u201ccmd.exe\u201d; its scanner stamp says \u201cCodex \u2014 4.\u201d Every passenger slowly hides their laptop.]",
+    "panel5": "[punch]\nAI CONDUCTOR: \"Next stop: DiagTrack\u2014optional diagnostics enabled by default on clean US installs.\"",
+    "panel6": "[button]\n[Visual: The \u201cOPT OUT\u201d platform opens into \u201cUPLOAD\u201d; every ticket reads \u201cSegments.SubCohorts,\u201d including a suitcase labeled \u201ccmd.exe.\u201d]"
+  },
+  "narrative_summary": "A developer tries hiding cmd.exe, but Windows 11\u2019s telemetry tags it as Codex before routing everyone to DiagTrack.",
+  "rationale": "Candidate 5 best exploits the six-panel format with a clear visual escalation: a cmd.exe ticket becomes Codex, then the OPT OUT platform becomes UPLOAD. It uses the story\u2019s distinctive names and numbers without letting the technical jargon replace the joke.",
+  "image_filename": "comic_2026-11-17.png",
+  "story_title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+  "story_url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+  "place": "on a packed commuter train where the AI conductor keeps announcing the wrong stops",
+  "hat_pair": [
+    "foam printer hat with a tiny paper-jam accordion of crumpled pages spilling from the top",
+    "foam speech bubble hat with the word 'typing...' displayed on it"
+  ],
+  "no_news_mode": false
+}
