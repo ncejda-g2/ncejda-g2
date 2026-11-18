@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-18",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "lovestruck",
+    "adjective_second": "scatterbrained",
+    "narrative_intro": "*A lovestruck person and a scatterbrained person discuss GPT\u20116.2 Astra and Sol at a robot therapist's waiting room.*",
+    "panel1": "[setup]\nLOVESTRUCK PERSON: \"GPT\u20116.2 Astra and Sol\u2014those names have tremendous chemistry.\"\nSCATTERBRAINED PERSON: \"I assumed Sol was the office Wi-Fi.\"",
+    "panel2": "[build]\nLOVESTRUCK PERSON: \"Astra is dazzling; Sol brings warmth.\"\nSCATTERBRAINED PERSON: \"Or they're a launch, a romance, or my missed appointment.\"",
+    "panel3": "[pivot]\nLOVESTRUCK PERSON: \"The title has no comma: GPT\u20116.2 Astra and Sol.\"\nSCATTERBRAINED PERSON: \"Are they partners, or is Astra describing Sol?\"",
+    "panel4": "[silent reaction]\n[Visual: The robot therapist silently circles the blank space between \u201cAstra\u201d and \u201cSol\u201d; both characters stare at it.]",
+    "panel5": "[punch]\nLOVESTRUCK PERSON: \"Even the punctuation refuses to define the relationship.\"\nSCATTERBRAINED PERSON: \"Classic situationship.\"",
+    "panel6": "[button]\n[Visual: A tiny comma occupies the therapist's third chair, holding a clipboard marked \u201cIt's complicated.\u201d]"
+  },
+  "narrative_summary": "A lovestruck person turns the title's missing comma into a full romantic crisis in robot therapy.",
+  "rationale": "Candidate 4 turns the headline\u2019s ambiguity into a specific punctuation-based relationship crisis, then pays it off with the comma as a literal therapy participant. Its escalation is more focused and its \u201csituationship\u201d button lands harder than the other candidates\u2019 variations on simply calling Astra and Sol a couple.",
+  "image_filename": "comic_2026-11-18.png",
+  "story_title": "GPT\u20116.2 Astra and Sol",
+  "story_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+  "place": "at a robot therapist's waiting room",
+  "hat_pair": [
+    "foam clipboard worn as a flat hat with an endless to-do checklist scrolling off the brim",
+    "foam server rack worn as a hat with blinking LED lights"
+  ],
+  "no_news_mode": false
+}
