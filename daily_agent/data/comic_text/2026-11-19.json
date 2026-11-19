@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-11-19",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "deadpan",
+  "fields": {
+    "panel1_dialog": "KPMG's 100+ agents ask considerably deeper audit questions.",
+    "panel2_dialog": "They match regulatory requirements to company documents, right?",
+    "panel4_dialog": "That part is still billable, right?"
+  },
+  "narrative_summary": "KPMG's agents outperform auditors at questioning, while humans retain the task of matching rules to documents.",
+  "rationale": "Candidate 1 is the only version that turns the story\u2019s human-residual-task detail into a sharp, industry-specific punchline: even if AI handles the audit thinking, the work remains billable. The other candidates mostly restate the premise or end on an unearned \u201cright?\u201d",
+  "image_filename": "comic_2026-11-19.png",
+  "story_title": "AI agents ask better questions than KPMG accountants in audit trial",
+  "story_url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+  "place": "inside a volcano lair",
+  "hat_pair": [
+    "foam server rack worn as a hat with blinking LED lights",
+    "backwards bike helmet with racing stripes"
+  ],
+  "no_news_mode": false
+}
