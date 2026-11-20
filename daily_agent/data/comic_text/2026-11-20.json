@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-20",
+  "template_id": "roll_safe",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "caption": "you can't have cache-coherence bugs / if Frostbite deletes shared memory"
+  },
+  "narrative_summary": "A smug blob treats Frostbite\u2019s AI-designed interaction-net architecture as a foolproof way to delete cache coherence by deleting shared memory.",
+  "rationale": "Candidate 2 turns a real Frostbite architectural detail into a clean, compact loophole joke: eliminate shared memory and cache-coherence bugs disappear with it. The Roll Safe template fits the smug fake-insight structure, and the technical premise gives it a sharper punchline than the more descriptive alternatives.",
+  "image_filename": "comic_2026-11-20.png",
+  "story_title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+  "story_url": "https://architectlabs.com/blog/frostbite",
+  "place": "at a robot wedding where the AI officiant keeps buffering mid-vow",
+  "hat_pair": [
+    "foam stack of pancakes worn as a tall teetering hat",
+    "foam police siren hat with a spinning red light on top"
+  ],
+  "no_news_mode": false
+}
