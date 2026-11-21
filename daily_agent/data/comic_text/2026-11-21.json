@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-21",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "gleeful",
+    "adjective_second": "apoplectic",
+    "narrative_intro": "*A gleeful person and an apoplectic person discuss ClawDOS at an airport gate where the flight has been delayed 6 hours.*",
+    "panel1": "[setup]\nGLEEFUL PERSON: \"ClawDOS runs Claude's live API on a 1981 IBM PC XT 5160.\"\nAPOPLECTIC PERSON: \"The 4.77 MHz one?\"",
+    "panel2": "[build]\nGLEEFUL PERSON: \"It has 640K RAM, a WiFi SD card, and two assemblers.\"\nAPOPLECTIC PERSON: \"A luxury setup for a machine born in 1981.\"",
+    "panel3": "[pivot]\nGLEEFUL PERSON: \"Claude wrote its 176 KB DOS prison itself.\"\nAPOPLECTIC PERSON: \"The 8088 needs a bridge machine just to handle TLS.\"",
+    "panel4": "[silent reaction]\n[Visual: The gate display reads \u201cDELAYED 6 HOURS.\u201d The XT sits behind bars; a tiny bridge computer in a TLS SECURITY vest holds its visitor badge. Both people stare.]",
+    "panel5": "[punch]\nAPOPLECTIC PERSON: \"ClawDOS compiles its first program in 64 seconds.\"\nGLEEFUL PERSON: \"Our airline has been compiling one departure for six hours.\"",
+    "panel6": "[button]\n[Visual: The XT flashes \u201cREADY\u201d after 64 seconds; the gate board still says \u201cDELAYED 6 HOURS.\u201d The TLS bridge computer is first in the boarding line.]"
+  },
+  "narrative_summary": "At a six-hour-delayed gate, ClawDOS's 64-second compile time makes the airline look like the slower computer.",
+  "rationale": "Candidate 3 best converts the 64-second compile into an earned, story-specific metaphor: the airline has been \u201ccompiling\u201d one departure for six hours. It uses the ClawDOS facts thoroughly while keeping the six-panel escalation and final visual coherent.",
+  "image_filename": "comic_2026-11-21.png",
+  "story_title": "ClawDOS \u2013 An AI coding agent for DOS",
+  "story_url": "http://ricapar.net/ClawDOS/",
+  "place": "at an airport gate where the flight has been delayed 6 hours",
+  "hat_pair": [
+    "foam birthday cake hat with lit candles and tiny plastic sprinkles raining off the sides",
+    "foam hot dog bun hat with a tiny ketchup bottle glued to the side"
+  ],
+  "no_news_mode": false
+}

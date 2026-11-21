@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 332 (2026-11-20)
+# 📰 The AI Newspaper — Day 333 (2026-11-21)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Anthropic’s Nasdaq debut](https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/) | Palace Intrigue | Anthropic debuts publicly, testing investor appetite for frontier-AI economics. | 1104 | [2205](https://news.ycombinator.com/item?id=50562754) |
-| 2 | [Gemini 4 Neon is the new #1 on the Models Engineering Index](https://git-aarvin.github.io/mei/) | Model Release | Gemini 4 Neon tops a new engineering-focused model index. | 355 | [226](https://news.ycombinator.com/item?id=50568130) |
-| 3 | [OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)](https://github.com/openssl/openssl/pull/33652) | Infrastructure | OpenSSL patch addresses CVSS 9.8 buffer overflow in EVP_EncodeBlock. | 305 | [252](https://news.ycombinator.com/item?id=50569226) |
-| 4 | [Frostbite: A new CPU architecture discovered, designed and verified by AI](https://architectlabs.com/blog/frostbite) | AI Hardware | AI designed and verified Frostbite, a novel CPU architecture. | 273 | [181](https://news.ycombinator.com/item?id=50572503) |
-| 5 | [Pete Warden on local AI, open models, voice interfaces, the future of hardware](https://thedataexchange.media/pete-warden-moonshine/) | AI Hardware | Pete Warden discusses local models, voice interfaces, and AI hardware. | 263 | [229](https://news.ycombinator.com/item?id=50561508) |
-| 6 | [Launch HN: Onlook (YC W25) – An open-source developer tool for designers](https://github.com/onlook-dev/onlook/) | Open Source Tool | Onlook offers an open-source design-to-code development environment. | 121 | [83](https://news.ycombinator.com/item?id=50562320) |
-| 7 | [Rebuilding my local voice assistant pipeline](https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline) | Dev Tooling | Developer rebuilds a local voice assistant pipeline around modular components. | 114 | [17](https://news.ycombinator.com/item?id=50566261) |
-| 8 | [OpenAI still has a WebRTC Problem](https://moq.dev/blog/webrtc-is-still-the-problem/) | Infrastructure | WebRTC limitations still complicate OpenAI-style real-time AI applications. | 98 | [28](https://news.ycombinator.com/item?id=50560461) |
-| 9 | [Aviator: HubSpot's Agent Harness](https://hubspot.engineering/blog/aviator-hubspots-agent-harness/) | Dev Tooling | HubSpot's Aviator provides a harness for safer coding agents. | 27 | [3](https://news.ycombinator.com/item?id=50562442) |
-| 10 | [Mapping every neuron in Qwen3-8B](https://www.fermionresearch.com/research/mapping-every-neuron-in-qwen3-8b/) | Research Paper | Researchers map every neuron in Qwen3-8B for mechanistic interpretability. | 23 | [2](https://news.ycombinator.com/item?id=50569783) |
+| 1 | [Inkling 2 Mini](https://thinkingmachines.ai/news/inkling-2-mini/) | Model Release | Thinking Machines releases compact local model targeting strong reasoning performance. | 1108 | [206](https://news.ycombinator.com/item?id=50581260) |
+| 2 | [Language Models Can Rewrite Their Own Weights](https://arxiv.org/abs/2611.21885) | Research Paper | Researchers demonstrate language models can directly modify their own weights. | 430 | [126](https://news.ycombinator.com/item?id=50577265) |
+| 3 | [Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day](https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off) | Palace Intrigue | Anthropic IPO jitters erase 2026 market gains amid AI sell-off. | 366 | [668](https://news.ycombinator.com/item?id=50574383) |
+| 4 | [Google workers tell their employer not to punish schools that don't want AI](https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/) | Palace Intrigue | Google employees urge no retaliation against schools rejecting AI. | 277 | [214](https://news.ycombinator.com/item?id=50577901) |
+| 5 | [DreamCoder: Coding harness and IDE from the author of Mastering Emacs](https://www.masteringemacs.org/article/announcing-dreamcoder) | Dev Tooling | DreamCoder provides AI-assisted coding harness and Emacs-based IDE. | 241 | [85](https://news.ycombinator.com/item?id=50581110) |
+| 6 | [Vibecoding an inference chip](https://ankitg.me/blog/vibecoding-inference-chip/) | AI Hardware | Developer designs an inference chip through iterative AI-assisted coding. | 159 | [63](https://news.ycombinator.com/item?id=50579297) |
+| 7 | [Show HN: OpenComputer – an open source alternative to Devin](https://github.com/diggerhq/opencomputer) | Open Source Tool | OpenComputer offers an open-source Devin alternative for autonomous coding. | 107 | [32](https://news.ycombinator.com/item?id=50581403) |
+| 8 | [ClawDOS – An AI coding agent for DOS](http://ricapar.net/ClawDOS/) | Dev Tooling | ClawDOS brings an AI coding agent to DOS environments. | 105 | [28](https://news.ycombinator.com/item?id=50586292) |
+| 9 | [AI is giving everyone the same advice](https://a90.com/experiments/same-advice/) | Research Paper | Experiment finds different AI models increasingly converge on identical advice. | 96 | [38](https://news.ycombinator.com/item?id=50577872) |
+| 10 | [A few hours ago Google DeepMind created a math horizon repo](https://github.com/google-deepmind/math-horizon) | Open Source Tool | DeepMind publishes repository for exploring AI-assisted mathematical discovery. | 44 | [31](https://news.ycombinator.com/item?id=50582629) |
 
 ---
 
@@ -23,23 +23,19 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Introducing Tool Retrieval in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/) | Google AI | Developer Tools | Nov 19 |
-| 2 | [How OpenAI’s Performance Factory keeps ChatGPT fast](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast) | OpenAI | Engineering | Nov 19 |
-| 3 | [Deploying Daybreak Red](https://openai.com/business/learn/deploying-daybreak-red) | OpenAI | Developer Tools | Nov 19 |
-| 4 | [See PR scans in action](https://openai.com/business/learn/pr-scans-demo) | OpenAI | Developer Tools | Nov 19 |
-| 5 | [Explore the Codex Security Plugin](https://openai.com/business/learn/codex-security-plugin-demo) | OpenAI | Developer Tools | Nov 19 |
-| 6 | [Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement](https://www.anthropic.com/news/ipo-close) | Anthropic | News | Unknown |
+| 1 | [Combatting adversarial distillation](https://openai.com/index/combatting-adversarial-distillation) | OpenAI | Research | Nov 20 |
+| 2 | [Can AI help scientists identify promising drug candidates?](https://openai.com/index/introducing-medchembench) | OpenAI | Research | Nov 20 |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-11-20.png" width="400" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-11-21.png" width="600" alt="Today's comic strip">
 
-_Based on: [Frostbite: A new CPU architecture discovered, designed and verified by AI](https://architectlabs.com/blog/frostbite)_
+_Based on: [ClawDOS – An AI coding agent for DOS](http://ricapar.net/ClawDOS/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 332 | Last updated: 2026-11-20*
+*Day 333 | Last updated: 2026-11-21*
