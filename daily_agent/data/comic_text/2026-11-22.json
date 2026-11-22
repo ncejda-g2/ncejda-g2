@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-22",
+  "template_id": "trade_offer",
+  "template_filter": "meme",
+  "voice_label": "absurd",
+  "fields": {
+    "i_receive": "the Riemann Hypothesis, kernel-checked",
+    "you_receive": "17 million Lean lines plus con-leche and con-ron"
+  },
+  "narrative_summary": "Lean offers humanity a solved century-old problem in exchange for an unreadable mountain of code and dairy-named checkers.",
+  "rationale": "Candidate 2 has the cleanest template-to-joke match: the Trade Offer format makes the absurd exchange immediately legible, while the 17-million-line cost and dairy-named checkers supply a specific closing beat. The other entries mostly turn the headline into a generic ordeal or obstacle joke.",
+  "image_filename": "comic_2026-11-22.png",
+  "story_title": "Lean verification of the Riemann Hypothesis",
+  "story_url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+  "place": "in a burning server room during a performance review",
+  "hat_pair": [
+    "sailor's tricorne",
+    "welder's mask flipped up"
+  ],
+  "no_news_mode": false
+}
