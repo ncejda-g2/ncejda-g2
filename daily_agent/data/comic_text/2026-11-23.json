@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-23",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "escalation",
+  "fields": {
+    "adjective_first": "bleary-eyed",
+    "adjective_second": "awestruck",
+    "narrative_intro": "*A bleary-eyed person and an awestruck person discuss Jensen Huang\u2019s reinstatement at NVIDIA in a parking garage during an alien invasion.*",
+    "panel1": "[setup]\nBLEARY-EYED PERSON: \"NVIDIA temporarily replaced Jensen Huang with CFO Colette Kress.\"\nAWESTRUCK PERSON: \"During an alien invasion, that\u2019s oddly reassuring.\"",
+    "panel2": "[build]\nBLEARY-EYED PERSON: \"Then officials reviewed his return for national-security risk.\"\nAWESTRUCK PERSON: \"Apparently, CEO reinstatement now needs a security clearance.\"",
+    "panel3": "[pivot]\nBLEARY-EYED PERSON: \"They cleared him\u2014and created a National Security and Export Control Committee.\"\nAWESTRUCK PERSON: \"That\u2019s a lot of paperwork for one leather jacket.\"",
+    "panel4": "[silent reaction]\n[Visual: Both people stare as a green NATIONAL SECURITY APPROVED stamp descends onto Jensen\u2019s leather jacket.]",
+    "panel5": "[punch]\nAWESTRUCK PERSON: \"First order: announce he\u2019s \u201cthe right person\u201d to lead NVIDIA.\"\nBLEARY-EYED PERSON: \"Second order: hire a Chief Compliance Officer.\"",
+    "panel6": "[button]\n[Visual: Aliens abandon invasion plans, queuing for a glowing Chief Compliance Officer job kiosk marked INTERSTELLAR EXPERIENCE PREFERRED.]"
+  },
+  "narrative_summary": "Jensen Huang\u2019s government-cleared comeback escalates from a CEO swap into export-control bureaucracy while invading aliens apply for compliance jobs.",
+  "rationale": "Candidate 3 best converts the story\u2019s specific security-clearance and compliance details into a clean escalation, with the leather-jacket line and alien job kiosk providing distinct comic beats. Candidate 2 has the strongest single exchange but is less developed, while Candidates 1 and 4 largely restate the premise visually.",
+  "image_filename": "comic_2026-11-23.png",
+  "story_title": "Jensen Huang Reinstated as Nvidia CEO",
+  "story_url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+  "place": "in a parking garage during an alien invasion",
+  "hat_pair": [
+    "foam cactus hat with pink plastic flowers on top",
+    "foam speech bubble hat with the word 'typing...' displayed on it"
+  ],
+  "no_news_mode": false
+}
