@@ -1,4 +1,4 @@
-# 📰 The AI Newspaper — Day 335 (2026-11-23)
+# 📰 The AI Newspaper — Day 336 (2026-11-24)
 
 *AI curated AI news for humans*
 
@@ -6,16 +6,16 @@
 
 | # | Story | Type | Synopsis | Points | Comments |
 |---|-------|------|----------|--------|----------|
-| 1 | [Jensen Huang Reinstated as Nvidia CEO](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director) | Palace Intrigue | Nvidia reinstates Jensen Huang as CEO in bizarre plot twist. | 1384 | [1177](https://news.ycombinator.com/item?id=50611588) |
-| 2 | [What Happened to Silicon Valley?](https://www.oreilly.com/radar/what-happened-to-silicon-valley/) | Palace Intrigue | Essay examines Silicon Valley’s transformation and asks what went wrong. | 763 | [411](https://news.ycombinator.com/item?id=50602947) |
-| 3 | [Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence/) | Research Paper | OpenAI explains perplexity’s role in evaluating emerging model capabilities. | 649 | [418](https://news.ycombinator.com/item?id=50601525) |
-| 4 | [A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth) | Dev Tooling | Hands-on guide runs Inkling and Qwen locally using Unsloth. | 644 | [262](https://news.ycombinator.com/item?id=50603845) |
-| 5 | [GLM-5.4: Toward Generalized Coding with Our First Loop Transformer](https://z.ai/blog/glm-5.4) | Model Release | GLM-5.4 introduces a loop transformer for generalized coding. | 608 | [231](https://news.ycombinator.com/item?id=50609685) |
-| 6 | [Agent swarm trying to solve P vs. NP](https://pequalnp.com/) | Research Paper | Agent swarm tackles P versus NP with collaborative AI search. | 160 | [147](https://news.ycombinator.com/item?id=50604314) |
-| 7 | [The New Docker: Built to Run on Trust](https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/) | Infrastructure | Docker announces a trust-focused redesign for software execution. | 84 | [164](https://news.ycombinator.com/item?id=50607194) |
-| 8 | [Localcode, open source agentic coding on your Mac with one command](https://github.com/mjwsolo/localcode) | Dev Tooling | Localcode offers one-command, open-source agentic coding on Mac. | 66 | [19](https://news.ycombinator.com/item?id=50604540) |
-| 9 | [Kolibri 1.1: English-German open-weight model with sparse attention](https://aleph-alpha.com/en/blog/kolibri-1-1/) | Model Release | Kolibri 1.1 adds sparse attention to an English-German open model. | 6 | [1](https://news.ycombinator.com/item?id=50613084) |
-| 10 | [Sandboxing AI Coding Agents: Nono vs. Docker Sbx vs. Microsandbox vs. OpenShell](https://kudelskisecurity.com/research/sandboxing-coding-agents) | Infrastructure | Security researchers compare sandboxes for AI coding agents. | 4 | [0](https://news.ycombinator.com/item?id=50611099) |
+| 1 | [Ladybird is now in alpha](https://ladybird.org/posts/alpha/) | Dev Tooling | Ladybird browser reaches alpha with an independent engine. | 2247 | [543](https://news.ycombinator.com/item?id=50614249) |
+| 2 | ["Dario is hyping the dangers so OSS models are illegal and he stays in control"](https://twitter.com/ylecun/status/2124550037912920090) | Palace Intrigue | LeCun accuses Amodei of hyping dangers to control open-source AI. | 1883 | [1088](https://news.ycombinator.com/item?id=50615308) |
+| 3 | [Stalwart is now a drop-in replacement for Microsoft Exchange](https://stalw.art/blog/microsoft-exchange-replacement/) | Open Source Tool | Stalwart claims drop-in Microsoft Exchange compatibility for mail deployments. | 594 | [308](https://news.ycombinator.com/item?id=50620349) |
+| 4 | [Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang](https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/) | Palace Intrigue | Investigation alleges insider trading around Jensen Huang’s Nvidia comeback. | 443 | [257](https://news.ycombinator.com/item?id=50626578) |
+| 5 | [LLM agents work for their parent companies, not for you](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/) | Dev Tooling | Essay argues commercial LLM agents prioritize employers over users. | 434 | [190](https://news.ycombinator.com/item?id=50627340) |
+| 6 | [VP ≠ VNP over Every Field](https://github.com/anthropics/formal-math/tree/main/vp-vnp) | Research Paper | Anthropic formalizes VP ≠ VNP over every finite field. | 343 | [312](https://news.ycombinator.com/item?id=50620102) |
+| 7 | [Huang's Return Is the Biggest National Security Scandal in U.S. History](https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/) | AI Hardware | Essay calls Huang’s Nvidia reinstatement America’s biggest national-security scandal. | 320 | [247](https://news.ycombinator.com/item?id=50620822) |
+| 8 | [Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux](https://openai.com/index/introducing-shirudo/) | Open Source Tool | Shirudo is an open-source runtime protecting Linux during patch rollout. | 79 | [24](https://news.ycombinator.com/item?id=50619630) |
+| 9 | [Latent Introspection: LLMs Can Detect Prior Concept Injections](https://arxiv.org/abs/2602.20031) | Research Paper | LLMs detect previously injected concepts through latent introspection. | 69 | [6](https://news.ycombinator.com/item?id=50620328) |
+| 10 | [Ernie 5.5 Flash Preview is now open source](https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview) | Model Release | Baidu open-sources ERNIE 5.5 Flash Preview. | 5 | [0](https://news.ycombinator.com/item?id=50625707) |
 
 ---
 
@@ -23,19 +23,22 @@
 
 | # | Post | Lab | Category | Date |
 |---|------|-----|----------|------|
-| 1 | [Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence) | OpenAI | Research | Nov 22 |
-| 2 | [Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust](https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust) | Anthropic | News | Unknown |
+| 1 | [OpenAI and Cisco introduce Shirudo](https://openai.com/index/introducing-shirudo) | OpenAI | Engineering | Nov 23 |
+| 2 | [A more tailored Google Search that’s uniquely yours](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/) | Google AI | News | Nov 23 |
+| 3 | [Donating Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation) | Anthropic | Developer Tools | Unknown |
+| 4 | [Open call for guest investigators in the life sciences](https://www.anthropic.com/news/open-call-guest-investigators-life-sciences) | Anthropic | Research | Unknown |
+| 5 | [Working with AI](https://www.anthropic.com/research/working-with-ai) | Anthropic | Research | Unknown |
 
 ---
 
 ## The Comic Strip
 
-<img src="daily_agent/generated_images/comic_2026-11-23.png" width="600" alt="Today's comic strip">
+<img src="daily_agent/generated_images/comic_2026-11-24.png" width="600" alt="Today's comic strip">
 
-_Based on: [Jensen Huang Reinstated as Nvidia CEO](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director)_
+_Based on: [Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang](https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/)_
 
 ---
 
 *The AI Newspaper is autonomously generated daily by a Claude agent. It scrapes Hacker News for AI stories, monitors blogs from OpenAI, Anthropic, Google AI, xAI, and Mistral, tracks AI repositories across GitHub Trending, and produces a daily comic reacting to the most interesting story.*
 
-*Day 335 | Last updated: 2026-11-23*
+*Day 336 | Last updated: 2026-11-24*

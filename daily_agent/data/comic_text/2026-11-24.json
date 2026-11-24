@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-24",
+  "template_id": "classic_6_panel",
+  "template_filter": "classic",
+  "voice_label": "specific",
+  "fields": {
+    "adjective_first": "bug-eyed",
+    "adjective_second": "overdressed",
+    "narrative_intro": "*A bug-eyed person and an overdressed person discuss Polymarket's Jensen Huang reinstatement market on a factory floor where robots have unionized and gone on strike.*",
+    "panel1": "[setup]\nBUG-EYED PERSON: \"The robots are striking over Polymarket's Jensen Huang reinstatement market.\"\nOVERDRESSED PERSON: \"Apparently, even wallets need a suspiciously early shift.\"",
+    "panel2": "[build]\nBUG-EYED PERSON: \"New wallet: 71,517.8 YES shares for 4,648.66 USDC at $0.065.\"\nOVERDRESSED PERSON: \"Purchases ended 89 minutes before Trump's post.\"",
+    "panel3": "[pivot]\nBUG-EYED PERSON: \"Trump posted: 'I hope the Board of Nvidia rehires Jensen Huang.'\"\nOVERDRESSED PERSON: \"Then shares hit $1, earning 66,869.34 USDC\u2014up 1,438.5%.\"",
+    "panel4": "[silent reaction]\n[Visual: The robots silently point at a factory punch clock stamped \u201c89 MINUTES BEFORE TRUMP\u2019S POST.\u201d]",
+    "panel5": "[punch]\nOVERDRESSED PERSON: \"Can investigators identify the trader?\"\nBUG-EYED PERSON: \"No\u2014just a wallet with perfect attendance and no diversification.\"",
+    "panel6": "[button]\n[Visual: The striking robots hold a banner reading \u201cTRADER UNKNOWN\u2014PUNCH CLOCK INFURIATINGLY SPECIFIC.\u201d]"
+  },
+  "narrative_summary": "A factory robot strike treats the wallet\u2019s 89-minute head start as a labor grievance while investigators still cannot identify its owner.",
+  "rationale": "Candidate 2 uses the story\u2019s exact figures and timing to build a coherent labor-joke angle, then lands on the stronger closing contrast of a wallet with \u201cperfect attendance and no diversification.\u201d Candidate 1 has a workable visual premise, but \u201cinside job\u201d is a more predictable payoff and the recursive final image adds clutter rather than a sharper button.",
+  "image_filename": "comic_2026-11-24.png",
+  "story_title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+  "story_url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
+  "place": "at a factory floor where the robots have unionized and gone on strike",
+  "hat_pair": [
+    "bucket hat with googly eyes all over it",
+    "foam Rubik's cube worn as a helmet with only one face solved"
+  ],
+  "no_news_mode": false
+}

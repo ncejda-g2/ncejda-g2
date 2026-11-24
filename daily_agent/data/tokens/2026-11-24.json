@@ -1,0 +1,439 @@
+{
+  "date": "2026-11-24",
+  "model": "mixed",
+  "attempts": 1,
+  "total_cost_usd": 0.104354,
+  "cost_reported_calls": 14,
+  "total_duration_ms": 437082,
+  "total_turns": 13,
+  "anthropic_usage": {
+    "input_tokens": 51912,
+    "output_tokens": 64169,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "anthropic_total_tokens": 116081,
+  "llm_calls": [
+    {
+      "phase": "source_classification",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 1,
+      "input_tokens": 11820,
+      "output_tokens": 1800,
+      "total_tokens": 13620,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 1800,
+      "cost_usd": 0.00511485,
+      "duration_ms": 23645,
+      "raw_usage": {
+        "completion_tokens": 1800,
+        "prompt_tokens": 11820,
+        "total_tokens": 13620,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1800,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 11817,
+          "cache_creation_tokens": 11817
+        }
+      }
+    },
+    {
+      "phase": "source_classification",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 2,
+      "input_tokens": 11820,
+      "output_tokens": 1800,
+      "total_tokens": 13620,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 1800,
+      "cost_usd": 0.00511485,
+      "duration_ms": 166,
+      "raw_usage": {
+        "completion_tokens": 1800,
+        "prompt_tokens": 11820,
+        "total_tokens": 13620,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1800,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 11817,
+          "cache_creation_tokens": 11817
+        }
+      }
+    },
+    {
+      "phase": "editorial_selection",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 1,
+      "input_tokens": 11982,
+      "output_tokens": 4587,
+      "total_tokens": 16569,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 4095,
+      "cost_usd": 0.00849975,
+      "duration_ms": 44043,
+      "raw_usage": {
+        "completion_tokens": 4587,
+        "prompt_tokens": 11982,
+        "total_tokens": 16569,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 4095,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 11979,
+          "cache_creation_tokens": 11979
+        }
+      }
+    },
+    {
+      "phase": "top_story_summary",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 1,
+      "input_tokens": 3432,
+      "output_tokens": 269,
+      "total_tokens": 3701,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 83,
+      "cost_usd": 0.0011806499999999999,
+      "duration_ms": 3334,
+      "raw_usage": {
+        "completion_tokens": 269,
+        "prompt_tokens": 3432,
+        "total_tokens": 3701,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 83,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 3429,
+          "cache_creation_tokens": 3429
+        }
+      }
+    },
+    {
+      "phase": "comic_generator_specific",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 1,
+      "input_tokens": 1441,
+      "output_tokens": 5048,
+      "total_tokens": 6489,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 4607,
+      "cost_usd": 0.0064177,
+      "duration_ms": 54542,
+      "raw_usage": {
+        "completion_tokens": 5048,
+        "prompt_tokens": 1441,
+        "total_tokens": 6489,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 4607,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 1438,
+          "cache_creation_tokens": 1438
+        }
+      }
+    },
+    {
+      "phase": "comic_generator_absurd",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 1,
+      "input_tokens": 1433,
+      "output_tokens": 5337,
+      "total_tokens": 6770,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 4902,
+      "cost_usd": 0.006762499999999999,
+      "duration_ms": 59344,
+      "raw_usage": {
+        "completion_tokens": 5337,
+        "prompt_tokens": 1433,
+        "total_tokens": 6770,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 4902,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 1430,
+          "cache_creation_tokens": 1430
+        }
+      }
+    },
+    {
+      "phase": "comic_generator_sight_gag",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 1,
+      "input_tokens": 1428,
+      "output_tokens": 7500,
+      "total_tokens": 8928,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 7500,
+      "cost_usd": 0.00935685,
+      "duration_ms": 79796,
+      "raw_usage": {
+        "completion_tokens": 7500,
+        "prompt_tokens": 1428,
+        "total_tokens": 8928,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 7500,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 1425,
+          "cache_creation_tokens": 1425
+        }
+      }
+    },
+    {
+      "phase": "comic_generator_sight_gag",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 2,
+      "input_tokens": 1428,
+      "output_tokens": 7500,
+      "total_tokens": 8928,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 7500,
+      "cost_usd": 0.00935685,
+      "duration_ms": 137,
+      "raw_usage": {
+        "completion_tokens": 7500,
+        "prompt_tokens": 1428,
+        "total_tokens": 8928,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 7500,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 1425,
+          "cache_creation_tokens": 1425
+        }
+      }
+    },
+    {
+      "phase": "comic_generator_deadpan",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 1,
+      "input_tokens": 1436,
+      "output_tokens": 7500,
+      "total_tokens": 8936,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 7500,
+      "cost_usd": 0.00935885,
+      "duration_ms": 83773,
+      "raw_usage": {
+        "completion_tokens": 7500,
+        "prompt_tokens": 1436,
+        "total_tokens": 8936,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 7500,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 1433,
+          "cache_creation_tokens": 1433
+        }
+      }
+    },
+    {
+      "phase": "comic_generator_escalation",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 1,
+      "input_tokens": 1423,
+      "output_tokens": 7500,
+      "total_tokens": 8923,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 7500,
+      "cost_usd": 0.009355599999999999,
+      "duration_ms": 83812,
+      "raw_usage": {
+        "completion_tokens": 7500,
+        "prompt_tokens": 1423,
+        "total_tokens": 8923,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 7500,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 1420,
+          "cache_creation_tokens": 1420
+        }
+      }
+    },
+    {
+      "phase": "comic_generator_deadpan",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 2,
+      "input_tokens": 1436,
+      "output_tokens": 7500,
+      "total_tokens": 8936,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 7500,
+      "cost_usd": 0.00935885,
+      "duration_ms": 124,
+      "raw_usage": {
+        "completion_tokens": 7500,
+        "prompt_tokens": 1436,
+        "total_tokens": 8936,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 7500,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 1433,
+          "cache_creation_tokens": 1433
+        }
+      }
+    },
+    {
+      "phase": "comic_generator_escalation",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 2,
+      "input_tokens": 1423,
+      "output_tokens": 7500,
+      "total_tokens": 8923,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 7500,
+      "cost_usd": 0.009355599999999999,
+      "duration_ms": 116,
+      "raw_usage": {
+        "completion_tokens": 7500,
+        "prompt_tokens": 1423,
+        "total_tokens": 8923,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 7500,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 1420,
+          "cache_creation_tokens": 1420
+        }
+      }
+    },
+    {
+      "phase": "comic_critic",
+      "model": "openai/gpt-5.6-luna",
+      "attempt": 1,
+      "input_tokens": 1410,
+      "output_tokens": 328,
+      "total_tokens": 1738,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "reasoning_tokens": 162,
+      "cost_usd": 0.00074595,
+      "duration_ms": 4250,
+      "raw_usage": {
+        "completion_tokens": 328,
+        "prompt_tokens": 1410,
+        "total_tokens": 1738,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 162,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 1407,
+          "cache_creation_tokens": 1407
+        }
+      }
+    }
+  ],
+  "fallback_agent_usage": {},
+  "article_extraction": {
+    "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
+    "method": "trafilatura",
+    "quality_ok": true,
+    "quality_reason": "1859 words of main text",
+    "characters": 11666,
+    "http_status": 200
+  },
+  "image_gen_usage": [
+    {
+      "model": "openai/gpt-image-2.5-flare",
+      "usage": {
+        "total_tokens": 1260,
+        "input_tokens": 937,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 937
+        },
+        "output_tokens": 323,
+        "output_tokens_details": {
+          "image_tokens": 323,
+          "text_tokens": 0
+        }
+      },
+      "cost_usd": 0.014375000000000002
+    }
+  ],
+  "image_gen_cost_usd": 0.014375,
+  "image_gen_total_tokens": 1260,
+  "grand_total_tokens": 117341
+}
