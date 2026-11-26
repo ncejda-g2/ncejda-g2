@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-26",
+  "template_id": "one_does_not_simply",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "caption_bottom": "Write a 929-bar LilyPond symphony without 35 billion Opus tokens"
+  },
+  "narrative_summary": "The joke frames the symphony\u2019s 35-billion-token refinement process as the real difficulty of composing 929 bars.",
+  "rationale": "Candidate 3 has the cleanest reversal: the familiar impossible-task setup lands on the absurd 35-billion-token requirement while retaining the story\u2019s strongest specifics. Candidate 4 supplies more data but reads as a fact list rather than a punchline.",
+  "image_filename": "comic_2026-11-26.png",
+  "story_title": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
+  "story_url": "https://danprice.ai/blog/opus-symphony",
+  "place": "in a courtroom where the AI judge keeps citing hallucinated laws",
+  "hat_pair": [
+    "giant foam CPU chip worn flat as a hat with heat sink fins poking up",
+    "crown made of bent paperclips"
+  ],
+  "no_news_mode": false
+}
