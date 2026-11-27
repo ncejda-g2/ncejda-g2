@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-11-27",
+  "template_id": "anakin_padme",
+  "template_filter": "meme",
+  "voice_label": "specific",
+  "fields": {
+    "panel1_dialog": "I made ChatGPT, Claude, and Gemini gossip in a WhatsApp group chat!",
+    "panel2_dialog": "The 11 espresso grinders came from my chat history, right?",
+    "panel4_dialog": "And the keyboard spreadsheet, right?"
+  },
+  "narrative_summary": "A user celebrates staging AI gossip, then wonders whether the fictional chat\u2019s 11 grinders and spreadsheet were inferred from history.",
+  "rationale": "Candidate 3 turns the premise into a sharper privacy-inference joke: the AIs\u2019 oddly specific gossip may have come from the user\u2019s chat history. Its final keyboard-spreadsheet beat escalates the suspicion cleanly within the Anakin/Padme template.",
+  "image_filename": "comic_2026-11-27.png",
+  "story_title": "The group chat where your AI talks behind your back",
+  "story_url": "https://construct22.com/",
+  "place": "at a robot comedian's open mic night",
+  "hat_pair": [
+    "hockey goalie mask painted to look like a shocked emoji face",
+    "foam briefcase worn as a wide flat hat with a tiny combination lock on top"
+  ],
+  "no_news_mode": false
+}
